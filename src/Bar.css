@@ -1,0 +1,38 @@
+/* Bar.css */
+.bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  /* Modal styles */
+  .ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .ReactModal__Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

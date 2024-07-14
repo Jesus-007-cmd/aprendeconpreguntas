@@ -1,0 +1,97 @@
+questions_data = [
+    {
+      "Question Text": "¿Cuáles de estos factores de la experiencia de usuario se pueden diseñar?",
+      "Option 1": "Las experiencias previas y habilidades del usuario",
+      "Option 2": "La actitud y la personalidad del usuario",
+      "Option 3": "Las necesidades, expectativas y deseos del usuario",
+      "Correct Answer": "La imagen de marca, la presentación, la funcionalidad y el comportamiento interactivo de la interfaz de usuario"
+    },
+    {
+      "Question Text": "¿Qué es la experiencia de usuario?",
+      "Option 1": "La efectividad, eficiencia y satisfacción del usuario al usar un sistema, producto o servicio para lograr un objetivo en un contexto de uso determinado",
+      "Option 2": "Satisfacer las necesidades de los usuarios al usar un sistema, producto o servicio",
+      "Option 3": "Las percepciones y respuestas del usuario al usar un sistema, producto o servicio",
+      "Correct Answer": "Las percepciones y respuestas del usuario al usar un sistema, producto o servicio y ante la espectativa de usarlo"
+    },
+    {
+        "Question Text": "¿Qué hay que medir para determinar la usabilidad de una interfaz?",
+        "Option 1": "El grado de efectividad, eficiencia y satisfacción del usuario al usar la interfaz para lograr un objetivo, en un contexto determinado",
+        "Option 2": "La cantidad de clics que el usuario hace para realizar una tarea",
+        "Option 3": "El tiempo que tarda el usuario en completar una tarea usando la interfaz",
+        "Correct Answer": "El grado de efectividad, eficiencia y satisfacción del usuario al usar la interfaz para lograr un objetivo, en un contexto determinado"
+      },
+      {
+        "Question Text": "Al considerar que el primer requisito para una experiencia de usuario ejemplar es satisfacer las necesidades exactas del usuario, sin causar molestia. ¿Cuál de las siguientes opciones tecnológicas cumple con este primer requisito para diseñar una experiencia de usuario?",
+        "Option 1": "Un tren que tiene asientos para adultos, donde los niños deben ir sentados encima de sus madres o padres.",
+        "Option 2":  "Utilizar un diseño web que utiliza un pop up demasiado grandes e invasivos.",
+        "Option 3": "Utilizar canales de contacto insuficientes, desactualizados y mal implementados.",
+        "Correct Answer": "Teléfono móvil, el cual es considerado como el dispositivo más utilizado para navegar en internet con un diseño responsivo para autoajustar el tamaño de las imágenes y contenido web."
+      },
+      {
+        "Question Text": "Cuál de los siguientes ejemplos expone el concepto de affordance?",
+        "Option 1": "Una puerta que tiene mensajes de abrir y cerrar.",
+        "Option 2": "Un teléfono móvil que indica presiona el botón x o y.",
+        "Option 3": "Un grifo que muestra una manija que se gira hacia la derecha para abrir y hacia la izquierda para cerrar.",
+        "Correct Answer": "Una puerta donde se percibe la que puede empujar o cerrar."
+      },
+      {
+        "Question Text": "Los errores de usabilidad pueden aparentar no tener impacto en el usuario. Sin embargo, los siguientes ejemplos muestran que tiene un impacto directo excepto:",
+        "Option 1": "Diseño en aplicaciones médicas o de recetas electronicas",
+        "Option 2": "Aplicaciones de seguimiento atlético.",
+        "Option 3": "Sistemas de navegación GPS para vehículos.",
+        "Correct Answer": "Diseño de aplicaciones entretenimiento."
+      },
+      {
+        "Question Text": "En este peldaño de diseño centrado en el usuario las decisiones, además, se basan en alguna información proporcionada por los usuarios, mediante encuestas y entrevistas.",
+        "Option 1": "Peldaño 1.",
+        "Option 2": "Peldaño 3.",
+        "Option 3": "Peldaño 2.",
+        "Correct Answer": "Peldaño 4."
+      },
+      {
+        "Question Text": "Este tipo de métricas pueden aportar información útil sobre el uso real que se está haciendo de una interfaz, pero no explican los porqués.",
+        "Option 1": "Métricas mixtas",
+        "Option 2": "Métricas cualitativas.",
+        "Option 3": "Métricas basadas en el rendimiento.",
+        "Correct Answer": "Métricas cuantitativas."
+      },
+      {
+        "Question Text": "En este peldaño del nivel de madurez del UX, el diseño sigue centrado en el desarrollador, pero ya existe una consciencia sobre la usabilidad y se aplican pautas y principios.",
+        "Option 1": "Peldaño 1.",
+        "Option 2": "Peldaño 3.",
+        "Option 3": "Peldaño 4.",
+        "Correct Answer": "Peldaño 2."
+      },
+      {
+        "Question Text": "En este peldaño del nivel de madurez del UX representa el ideal, la cultura UX, en la que las decisiones empresariales se basan en los resultados de la investigación UX y el seguimiento de métricas UX.",
+        "Option 1": "Peldaño 1.",
+        "Option 2": "Peldaño 3.",
+        "Option 3": "Peldaño 4.",
+        "Correct Answer": "Peldaño 6."
+      },
+      {
+        "Question Text": "El siguiente ejemplo, la Casa del Libro se compone de varias páginas web de contenido que identificamos con su URL. La página de inicio se identifica con el dominio https://www.casadellibro.com/ y si accedemos a la página de libros Montessori la URL es https://www.casadellibro.com/libros-montessori. ¿A qué tipo de objeto de diseño pertenece el ejemplo anterior?",
+        "Option 1": "Página Web.",
+        "Option 2": "Aplicación móvil.",
+        "Option 3": "Interfaz de usuario gráfica.",
+        "Correct Answer": "Sitio Web."
+      },
+      {
+        "Question Text": "En este nivel, el diseño de UX no está reconocido. Se realiza un diseño centrado en el desarrollador y basado en asunciones e intuiciones. Esto significa que las decisiones de diseño se toman sin una investigación o evidencia directa de las necesidades o comportamientos de los usuarios.",
+        "Option 1": "Peldaño 3.",
+        "Option 2": "Peldaño 2.",
+        "Option 3": "Peldaño 5.",
+        "Correct Answer": "Peldaño 1."
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  ]
+  
+

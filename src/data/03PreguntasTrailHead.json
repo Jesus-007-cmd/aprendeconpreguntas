@@ -1,0 +1,67 @@
+/*//Salesforce System Administrator Basics
+https://help.salesforce.com/s/articleView?id=sfdo.SFDO_Salesforce_System_Admin_Basics.htm&type=5"'*/
+[
+    
+  {
+    
+    "Question Text": "Which of the following is NOT a typical responsibility of a Salesforce system administrator?",
+    "Option 1": "Adding and deactivating users in the system.",
+    "Option 2": "Customizing Salesforce to fit the organization’s processes.",
+    "Option 3": "Developing custom software to integrate with Salesforce.",
+    "Correct Answer": "Developing custom software to integrate with Salesforce."
+},
+{
+    "Question Text": "¿Cuál de las siguientes NO es una responsabilidad típica de un administrador de sistemas de Salesforce?",
+    "Option 1": "Agregar y desactivar usuarios en el sistema.",
+    "Option 2": "Personalizar Salesforce para ajustarse a los procesos de la organización.",
+    "Option 3": "Desarrollar software personalizado para integrarse con Salesforce.",
+    "Correct Answer": "Desarrollar software personalizado para integrarse con Salesforce."
+},
+{
+    "Question Text": "What does the AppExchange offer for Salesforce system administrators?",
+    "Option 1": "A platform where administrators can buy computer hardware.",
+    "Option 2": "An app marketplace where tools can be found to enhance Salesforce functionality.",
+    "Option 3": "Customized training courses for each employee in the company.",
+    "Correct Answer": "An app marketplace where tools can be found to enhance Salesforce functionality."
+},
+{
+    "Question Text": "¿Qué ofrece el AppExchange para los administradores de sistemas de Salesforce?",
+    "Option 1": "Una plataforma donde los administradores pueden comprar hardware de computadora.",
+    "Option 2": "Un mercado de aplicaciones donde se pueden encontrar herramientas para mejorar la funcionalidad de Salesforce.",
+    "Option 3": "Cursos de capacitación personalizados para cada empleado de la empresa.",
+    "Correct Answer": "Un mercado de aplicaciones donde se pueden encontrar herramientas para mejorar la funcionalidad de Salesforce."
+},
+
+{
+    "Question Text": "What type of training does Salesforce University offer for new system administrators?",
+    "Option 1": "Digital marketing courses.",
+    "Option 2": "Instructor-led classes on Salesforce products and features, such as 'Administration Essentials for New Admins (ADM201)'.",
+    "Option 3": "Seminars on business leadership and management.",
+    "Correct Answer": "Instructor-led classes on Salesforce products and features, such as 'Administration Essentials for New Admins (ADM201)'."
+},
+{
+    "Question Text": "¿Qué tipo de capacitación ofrece Salesforce University para los administradores de sistemas nuevos?",
+    "Option 1": "Cursos de marketing digital.",
+    "Option 2": "Clases lideradas por instructores sobre productos y características de Salesforce, como 'Administration Essentials for New Admins (ADM201)'.",
+    "Option 3": "Seminarios sobre liderazgo empresarial y gestión.",
+    "Correct Answer": "Clases lideradas por instructores sobre productos y características de Salesforce, como 'Administration Essentials for New Admins (ADM201)'."
+},
+{
+    "Question Text": "What is the benefit of obtaining a Salesforce administrator certification?",
+    "Option 1": "It increases the chances of being promoted to CEO.",
+    "Option 2": "Allows the administrator to switch to a software development role within Salesforce.",
+    "Option 3": "Can boost the administrator’s career and enable them to contribute even more to their organization’s success.",
+    "Correct Answer": "Can boost the administrator’s career and enable them to contribute even more to their organization’s success."
+},
+{
+    "Question Text": "¿Cuál es el beneficio de obtener una certificación de administrador de Salesforce?",
+    "Option 1": "Aumenta las posibilidades de ser promovido a CEO.",
+    "Option 2": "Permite al administrador cambiar a un rol de desarrollo de software dentro de Salesforce.",
+    "Option 3": "Puede potenciar la carrera del administrador y permitirle contribuir aún más al éxito de su organización.",
+    "Correct Answer": "Puede potenciar la carrera del administrador y permitirle contribuir aún más al éxito de su organización."
+}
+
+
+
+
+]

@@ -1,0 +1,1883 @@
+[
+  {
+    "Question Text": "1.- Es un área que cubre una estación base y va de acuerdo a la potencia de transmisión de los radios que tenga",
+    "Option 1": "Área de cobertura",
+    "Option 2": "Zona de transmisión",
+    "Option 3": "Sector de radio",
+    "Correct Answer": "Celda"
+  },
+  {
+    "Question Text": "2.- El IMSI está formado por:",
+    "Option 1": "International Mobile Equipment Identity (IMEI)",
+    "Option 2": "Integrated Circuit Card Identifier (ICCID)",
+    "Option 3": "International Mobile Subscriber Identity Module (ISIM)",
+    "Correct Answer": "Mobile Country Code (MCC), Mobile Network Code (MNC), Home Location Register (HLR) y Serial Number (SN)"
+  },
+  {
+    "Question Text": "3.- Según la Norma ISO/IEC 20000-1:2011 ¿Cual es el objetivo del proceso de gestión de capacidad?",
+    "Option 1": "Optimizar el uso de los recursos de TI para reducir costos",
+    "Option 2": "Asegurar que los servicios de TI tengan en todo momento la capacidad suficiente para cubrir la demanda acordada pasada, actual y futura de las necesidades del negocio",
+    "Option 3": "Mejorar la calidad del servicio mediante la actualización constante de equipos",
+    "Correct Answer": "Asegurar que los servicios de TI tengan en todo momento la capacidad suficiente para cubrir la demanda acordada, actual y futura de las necesidades del negocio"
+  },
+  {
+    "Question Text": "4.- Según la Norma ISO/IEC 20000-1:2011 ¿Que es un servicio de TI?",
+    "Option 1": "Es cualquier producto físico relacionado con la tecnología de información",
+    "Option 2": "Es la implementación de hardware y software en una organización",
+    "Option 3": "Es la combinación de tecnología de información, redes sociales y procesos que buscan responder a las necesidades de un usuario",
+    "Correct Answer": "Es la combinación de tecnología de información, personas y procesos que buscan responder a las necesidades de un usuario"
+  },
+  {
+    "Question Text": "5.- En este documento encontrarás la descripción de los procesos estratégicos orientado al cliente y de soporte de Telcel",
+    "Option 1": "Manual de procedimientos",
+    "Option 2": "Guía de procesos internos",
+    "Option 3": "Catálogo de Servicios",
+    "Correct Answer": "Red de procesos"
+  },
+  {
+    "Question Text": "6.- En el manual de inducción de calidad Telcel encontrarás:",
+    "Option 1": "Solo los procedimientos de uso común",
+    "Option 2": "Solamente los principios de gestión de calidad",
+    "Option 3": "Principios de la gestion de calidad, procedimientos de uso común, red de procesos Telcel, medios de comunicación, cronograma de actividades, sistemas de apoyo, documentos comunes, objetivos",
+    "Correct Answer": "Principios de la gestion de calidad, procedimientos de uso común, red de procesos Telcel, medios de comunicación, sistemas de apoyo, documentos comunes"
+  },
+  {
+    "Question Text": "7.- Mencione el nodo GPRS que convierte los paquetes de datos en el protocolo necesario su conexión con otra red o IP:",
+    "Option 1": "SGSN (Serving GPRS Support Node)",
+    "Option 2": "BTS (Base Transceiver Station)",
+    "Option 3": "GMSN (Gateway Mobile Support Node)",
+    "Correct Answer": "GGSN (Gateway GPRS Support Node)"
+  },
+  {
+    "Question Text": "8.- ¿Cuales son las dos partes principales en la arquitectura de una red GSM?",
+    "Option 1": "MSC y BSC",
+    "Option 2": "BSS y NSS",
+    "Option 3": "HLR y VLR",
+    "Correct Answer": "BSS y NSS"
+  },
+  {
+    "Question Text": "9.- ¿Cual es la definición de acción de mejora?",
+    "Option 1": "Acción temporal para resolver un problema puntual",
+    "Option 2": "Acción para mantener una situación actual por una nueva condición que brinda beneficios",
+    "Option 3": "Medida para mantener la situación actual sin cambios",
+    "Correct Answer": "Acción definida para cambiar una situación actual por una nueva condición que brinda beneficios"
+  },
+  {
+    "Question Text": "10.- Protocolo criptográfico que proporciona comunicaciones seguras en Internet:",
+    "Option 1": "HTTP",
+    "Option 2": "FTP",
+    "Option 3": "TLS",
+    "Correct Answer": "SSL"
+  },
+  {
+    "Question Text": "11.- El número celular asignado al usuario en GSM es proporcionado por:",
+    "Option 1": "El IMSI",
+    "Option 2": "El IMEI",
+    "Option 3": "El ICCID",
+    "Correct Answer": "El MSISDN"
+  },
+  {
+    "Question Text": "12.- Es el deducible que un cliente debe pagar en un siniestro por daño con cobertura Telcel UP:",
+    "Option 1": "El 25%",
+    "Option 2": "El 20%",
+    "Option 3": "El 35%",
+    "Correct Answer": "El 30%"
+  },
+  {
+    "Question Text": "13.- ¿Qué son las siglas de PLMN en inglés?",
+    "Option 1": "Private Local Mobile Network",
+    "Option 2": "Personal Land Mobile Network",
+    "Option 3": "Public Local Mobile Network",
+    "Correct Answer": "Public Land Mobile Network"
+  },
+  {
+    "Question Text": "14.- Nodos de GSM responsables de enrutar los paquetes de datos entre el dispositivo móvil y las redes externas de datos:",
+    "Option 1": "MSC y HLR",
+    "Option 2": "BTS y BSC",
+    "Option 3": "VLR y EIR",
+    "Correct Answer": "SGSN y GGSN"
+  },
+  {
+    "Question Text": "15.- Los principales parámetros de autenticación para una tarjeta SIM en una red GSM son:",
+    "Option 1": "IMSI, PIN, PUK y KC",
+    "Option 2": "ICCID, KI, IMSI y PIN",
+    "Option 3": "IMSI, KI, RDN y PUK",
+    "Correct Answer": "IMSI, KI, RDN y KC"
+  },
+  {
+    "Question Text": "16.- ¿Cuál es el significado del término CPD?",
+    "Option 1": "Customer Priority Demand",
+    "Option 2": "Common Problem Diagnosis",
+    "Option 3": "Central Processing Device",
+    "Correct Answer": "Customer Problem Description"
+  },
+  {
+    "Question Text": "17.- GSM utiliza como método de acceso múltiple:",
+    "Option 1": "CDMA y FDMA y pongo de FS",
+    "Option 2": "TDMA y CDMA",
+    "Option 3": "CDMA y WCDMA",
+    "Correct Answer": "TDMA y FDMA"
+  },
+  {
+    "Question Text": "18.- ¿Qué función tiene el UDP?",
+    "Option 1": "Ofrece comunicación segura entre dos ordenadores",
+    "Option 2": "Ofrece comunicación fiable entre dos ordenadores",
+    "Option 3": "Ofrece comunicación rápida entre dos ordenadores",
+    "Correct Answer": "Ofrece comunicación sencilla entre dos ordenadores"
+  },
+  {
+    "Question Text": "19.- Nodos de soporte GPRS:",
+    "Option 1": "MSC y VLR",
+    "Option 2": "BSC y BTS",
+    "Option 3": "HLR y EIR",
+    "Correct Answer": "SGSN y GGSN"
+  },
+  {
+    "Question Text": "20.- Según la norma ISO IEC 20000-1 2011 ¿Quién es un usuario interno TI?",
+    "Option 1": "Es una persona que trabaja en el área de TI",
+    "Option 2": "Es una persona que interactúa con sistemas de TI esporádicamente",
+    "Option 3": "Es una persona que desarrolla software para la empresa",
+    "Correct Answer": "Es una persona que utiliza los servicios de TI en día a día"
+  },
+
+  {
+    "Question Text": "21.- El IMSI está formado por:",
+    "Option 1": "Mobile Country Code (MCC), Mobile Network Code (MNC), International Mobile Subscriber Identity (IMSI) y Serial Number (SN)",
+    "Option 2": "Mobile Country Code (MCC), Mobile Network Code (MNC), International Mobile Equipment Identity (IMEI) y Serial Number (SN)",
+    "Option 3": "Mobile Country Code (MCC), Mobile Network Code (MNC), Home Location Register (HLR) y International Mobile Equipment Identity (IMEI)",
+    "Correct Answer": "Mobile Country Code (MCC), Mobile Network Code (MNC), Home Location Register (HLR) y Serial Number (SN)"
+  },
+  {
+    "Question Text": "22.- ¿Cual es el funcionamiento del RNC?",
+    "Option 1": "Controla la potencia de transmisión del UE",
+    "Option 2": "Encamina los paquetes de datos destinados para un UE particular a la radiobases",
+    "Option 3": "Gestiona la autenticación del usuario en la red",
+    "Correct Answer": "Encamina los paquetes de datos destinados para un UE particular al Nodo B apropiado"
+  },
+  {
+    "Question Text": "23.- ¿Cual es el sistema que administra las acciones correctivas y de mejora?",
+    "Option 1": "Sistema de gestión de calidad",
+    "Option 2": "Sistema de gestión de riesgos",
+    "Option 3": "Sistema de control de calidad",
+    "Correct Answer": "Sistema de mejora continua"
+  },
+  {
+    "Question Text": "24.- ¿En donde se puede encontrar información a nivel nacional del sistema de gestión integrado como sistemas de apoyo, conceptos generales y cultura corporativa?",
+    "Option 1": "Intranet de la empresa",
+    "Option 2": "Portal de recursos humanos",
+    "Option 3": "Sitio web de la empresa",
+    "Correct Answer": "Portal de calidad de Telcel"
+  },
+  {
+    "Question Text": "25.- ¿En qué canal se transmite el SAT?",
+    "Option 1": "En el canal de datos",
+    "Option 2": "En el canal de control",
+    "Option 3": "En el canal de señalización",
+    "Correct Answer": "En el canal de voz"
+  },
+  {
+    "Question Text": "26.- Es un dispositivo IOT (Internet of Things):",
+    "Option 1": "Samsung Galaxy S21",
+    "Option 2": "Alcatel Move Track",
+    "Option 3": "HP LaserJet Pro",
+    "Correct Answer": "Alcatel Move Track"
+  },
+  {
+    "Question Text": "27.- ¿Cuales son los 3 sistemas de GSM?",
+    "Option 1": "MSC, HLR, VLR",
+    "Option 2": "MS, BTS, BSC",
+    "Option 3": "MS, BSS, BTS",
+    "Correct Answer": "MS, BSS, NSS"
+  },
+  {
+    "Question Text": "28.- ¿Qué significa en inglés las siglas WAP?",
+    "Option 1": "Wireless Access Protocol",
+    "Option 2": "Wide Area Protocol",
+    "Option 3": "Web Application Protocol",
+    "Correct Answer": "Wireless Application Protocol"
+  },
+  {
+    "Question Text": "29.- Dentro de la red GSM ¿Cuál es la función del IMEI?",
+    "Option 1": "Es la identificación del suscriptor",
+    "Option 2": "Es la identificación de la red",
+    "Option 3": "Es la identificación de la tarjeta SIM",
+    "Correct Answer": "Es la identificación de la terminal celular"
+  },
+  {
+    "Question Text": "30.- Modulador / Demodulador, actua como equipo terminal del circuito de datos permitiendo la transmisión de un flujo de datos digitales a través de una señal analógica:",
+    "Option 1": "Router",
+    "Option 2": "Switch",
+    "Option 3": "Hub",
+    "Correct Answer": "Modem"
+  },
+
+  {
+    "Question Text": "32.- ¿Cómo se denominan en 3G a las radio bases?",
+    "Option 1": "Base Transceiver Station",
+    "Option 2": "Mobile Switching Center",
+    "Option 3": "Remote Radio Unit",
+    "Correct Answer": "Nodo B"
+  },
+  {
+    "Question Text": "33.- Perfil que da acceso remoto de los ficheros de directorios, obtención, envío y borrado de ficheros",
+    "Option 1": "HTTP",
+    "Option 2": "TCP",
+    "Option 3": "SFTP",
+    "Correct Answer": "FTP"
+  },
+  {
+    "Question Text": "34.- Definición de Acción Correctiva",
+    "Option 1": "Acción tomada para eliminar los efectos de una no conformidad",
+    "Option 2": "Acción tomada para documentar una no conformidad",
+    "Option 3": "Acción tomada para corregir una no conformidad temporalmente",
+    "Correct Answer": "Acción tomada para eliminar la causa raíz de una no conformidad u otra situación indeseable que se presente en determinada circunstancia, a fin de prevenir recurrencia"
+  },
+  {
+    "Question Text": "35.- ¿Cual es el objetivo de la elaboración de documentos?",
+    "Option 1": "Proporcionar una guía para la creación de informes anuales",
+    "Option 2": "Proporcionar una guía para la creación de manuales de usuario",
+    "Option 3": "Proporcionar una guía para la revisión de políticas internas",
+    "Correct Answer": "Proporcionar una guía que permita a todas las áreas de la empresa elaborar la documentación del sistema de calidad"
+  },
+  {
+    "Question Text": "36.- Estándares en los que trabaja Telcel",
+    "Option 1": "ISO 14000 / 18000",
+    "Option 2": "ISO 9000-1 / 37000",
+    "Option 3": "ISO 26000 / 27001",
+    "Correct Answer": "ISO 9000-1 / 27000-20000"
+  },
+  {
+    "Question Text": "37.- Es un lineamiento del P-00.00.00.00.00.00-1 control de información documentada del sistema de gestión integrado",
+    "Option 1": "Es responsabilidad de cada gerente el consultar y emplear solo los documentos que se encuentren en el S/N 002 sistema @doc",
+    "Option 2": "Es responsabilidad del departamento de TI el consultar y emplear solo los documentos que se encuentren en el S/N 003 sistema @doc",
+    "Option 3": "Es responsabilidad del departamento de calidad el consultar y emplear solo los documentos que se encuentren en el S/N 004 sistema @doc",
+    "Correct Answer": "Es responsabilidad de cada empleado el consultar y emplear solo los documentos que se encuentren en el S/N 001 sistema @doc"
+  },
+  {
+    "Question Text": "38.- Es la probabilidad de explotación de una vulnerabilidad por parte de una amenaza",
+    "Option 1": "Amenaza de la seguridad de la información",
+    "Option 2": "Impacto de la seguridad de la información",
+    "Option 3": "Control de la seguridad de la información",
+    "Correct Answer": "Riesgo de la seguridad de la información"
+  },
+  {
+    "Question Text": "39.- Es un ejemplo de Activo de información",
+    "Option 1": "Infraestructura de TI",
+    "Option 2": "Software de gestión",
+    "Option 3": "Políticas internas",
+    "Correct Answer": "Datos personales de clientes y empleados"
+  },
+  {
+    "Question Text": "40.- Según la norma ISO/IEC 20000-1 2011, es un beneficio que ofrece la gestión de servicios de TI",
+    "Option 1": "Aumentar la cantidad de servicios de TI",
+    "Option 2": "Reducir los costos de TI",
+    "Option 3": "Mejorar la relación con los proveedores de TI",
+    "Correct Answer": "Aumentar la eficiencia en los servicios de TI"
+  },
+  {
+    "Question Text": "41.- De acuerdo al sitio de calidad, es el documento que representa la transformación de las necesidades de los clientes en la satisfacción de los mismos a través de los tres principales procesos",
+    "Option 1": "Manual de Calidad",
+    "Option 2": "Política de Calidad",
+    "Option 3": "Plan de Mejora",
+    "Correct Answer": "Red de procesos Radiomovil Dipsa SA de CV"
+  },
+
+  {
+    "Question Text": "42.- Para cambio por garantía de equipos venta empleado ¿Quien debe validar con su VoBo cualquier cambio de modelo?",
+    "Option 1": "Gerente de Ventas",
+    "Option 2": "Coordinador de Servicio",
+    "Option 3": "Supervisor de Calidad",
+    "Correct Answer": "Jefe de Atención a Clientes"
+  },
+  {
+    "Question Text": "43.-Es un lineamiento del documento de Seguridad y Salud en el trabajo",
+    "Option 1": "Cumplir con las normas de horario laboral",
+    "Option 2": "Vigilar que todos los empleados y contratistas cumplan en todo momento y de ser necesrio con las medidas de seguridad y salud.",
+    "Option 3": "Respetar los tiempos de descanso",
+    "Correct Answer": "Vigilar que todos los empleados y contratistas cumplan con las medidas de seguridad y salud. En caso de ser necesario, cuestionar y suspender cualquier acto inseguro que observen sin temor a ser sancionados"
+  },
+  {
+    "Question Text": "44.- Según la norma ISO/IEC 20000-1:2018 ¿Qué es un acuerdo de nivel de Servicio?",
+    "Option 1": "Acuerdo verbal entre el proveedor y el cliente",
+    "Option 2": "Acuerdo documentado entre la organización y el consumidor a nivel de servicio",
+    "Option 3": "Acuerdo tácito entre el proveedor y el cliente",
+    "Correct Answer": "Acuerdo documentado entre la organización y el consumidor que identifica servicios y su desempeño acordado"
+  },
+  {
+    "Question Text": "45.- Según la norma ISO 20001-1:2018 ¿Qué es la continuidad del servicio?",
+    "Option 1": "Capacidad de entregar un servicio sin interrupción fue acordada",
+    "Option 2": "Capacidad de entregar un servicio solo durante el horario laboral",
+    "Option 3": "Capacidad de entregar un servicio con interrupciones planificadas",
+    "Correct Answer": "Capacidad de entregar un servicio sin interrupción o con la disponibilidad que fue acordada"
+  },
+  {
+    "Question Text": "46.- Según la norma ISO 20000-1:2018 ¿Qué es un requerimiento de servicio?",
+    "Option 1": "Necesidades de clientes, que son obligatorias",
+    "Option 2": "Requerimientos opcionales de los clientes",
+    "Option 3": "Necesidades exclusivas de la organización",
+    "Correct Answer": "Necesidades de clientes, usuarios y la organización relacionados a los servicios y al sistema de gestión de servicios (SGS) que son obligatorias"
+  },
+  {
+    "Question Text": "47.- Cuando se documentan en el sistema de mejora continua acciones para corregir desviaciones en los procesos detectados en una auditoria o por incumplimiento, los directores, subdirectores o gerentes son responsables de:",
+    "Option 1": "Ignorar los problemas documentados",
+    "Option 2": "Validar que la acción cumpla con lo requerido en P-00-00-00-00-00-008, acciones correctivas, facilitar los recursos, supervisar su avance y tomar las acciones pertinentes en caso de no existir avances",
+    "Option 3": "Dejar que los empleados resuelvan los problemas",
+    "Correct Answer": "Validar que la acción cumpla con lo requerido en P-00-00-00-00-00-007, acciones correctivas, facilitar los recursos, supervisar su avance y tomar las acciones pertinentes en caso de no existir avances"
+  },
+  {
+    "Question Text": "48.- Las lineas VoLTE no son compatibles con los siguientes servicios:",
+    "Option 1": "Mensajería de texto y llamadas de voz",
+    "Option 2": "Transferencia de llamadas y claropay",
+    "Option 3": "Navegación por internet y correo electrónico",
+    "Correct Answer": "Transferencia de llamadas y videoconferencia"
+  },
+  {
+    "Question Text": "49.- Al reducir peligros, riesgos y accidentes contribuimos en:",
+    "Option 1": "Aumentar la productividad",
+    "Option 2": "Contar con ambientes agradables y seguros",
+    "Option 3": "Reducir costos operativos",
+    "Correct Answer": "Contar con un lugar de trabajo seguro y saludable"
+  },
+  {
+    "Question Text": "50.- ¿Cuales son los sistemas que conforman los dos servicios en el alcance de la norma ISO/IEC 20000-1 2018?",
+    "Option 1": "REMEDY, TEMIP, SIMAEC, Sistema de cajas (SICATEL)",
+    "Option 2": "REMEDY, TEMIP, Sistema de facturación, Red de procesos",
+    "Option 3": "REMEDY, Sistema de soporte, Gestión de calidad",
+    "Correct Answer": "REMEDY, TEMIP, Circulo Azul, Sistema de cajas (SICATEL)"
+  },
+  {
+    "Question Text": "51.- Canal unidireccional que se usa para buscar al móvil",
+    "Option 1": "TCH",
+    "Option 2": "BCCH",
+    "Option 3": "PCH",
+    "Correct Answer": "PCH"
+  },
+  {
+    "Question Text": "52.- ¿Qué procedimiento aplica cuando ingresa un equipo que no tiene servicio postventa?",
+    "Option 1": "El equipo debe ser devuelto al cliente",
+    "Option 2": "El equipo debe ser reemplazado inmediatamente",
+    "Option 3": "El AET primeramente tratará de repararlo para poder realizar cualquier cambio",
+    "Correct Answer": "El AET primeramente tratará de repararlo antes de cualquier cambio"
+  },
+  {
+    "Question Text": "53.- ¿Cual es el ancho de banda del canal fisico ARFCN?",
+    "Option 1": "100 Khz",
+    "Option 2": "200 Mhz",
+    "Option 3": "300 Khz",
+    "Correct Answer": "200 Khz"
+  },
+  {
+    "Question Text": "54- ¿Que debe hacer el AET con todos los equipos por entregar al cliente y que este haya sido reemplazado por CSA o se tenga en Seed Stock?",
+    "Option 1": "Entregar el equipo sin revisión",
+    "Option 2": "Realizar inspección a la terminal verificando que funcione correctamente y posteriormente realizar el reset",
+    "Option 3": "Devolver el equipo al fabricante",
+    "Correct Answer": "Realizar inspección a la terminal verificando que sea correcto software del operador Telcel y posteriormente realizar el reset"
+  },
+  {
+    "Question Text": "55.-¿Qué procedimiento aplica para los equipos de la competencia habilitados en Telcel?",
+    "Option 1": "Se puede recibir el equipo en el laboratorio para enviarlo a reparación previa consulta a la marca",
+    "Option 2": "Rechazar el equipo",
+    "Option 3": "Reemplazar el equipo",
+    "Correct Answer": "Se puede recibir el equipo en el laboratorio y tratar de corregir las fallas en el laboratorio"
+  },
+  {
+    "Question Text": "56.- ¿Cual es el proceso para garantías Huawei IoT?",
+    "Option 1": "Reparar en el laboratorio",
+    "Option 2": "Cambiar por uno de venta",
+    "Option 3": "Devolver al cliente",
+    "Correct Answer": "Cambiar por seed stock"
+  },
+  {
+    "Question Text": "57.- Es básicamente una tarjeta inteligente que sigue los estandares ISO, que contiene toda la información referente al usuario almacenada en la parte de usuario de la interfaz de radio",
+    "Option 1": "Tarjeta MicroSD",
+    "Option 2": "Tarjeta SD",
+    "Option 3": "Tarjeta de memoria",
+    "Correct Answer": "Tarjeta SIM"
+  },
+  {
+    "Question Text": "58.- ¿Cuales son los 3 servicios GSM que ofrece el SIM card?",
+    "Option 1": "Servicios de mensajería, servicios de llamadas, servicios de datos",
+    "Option 2": "Servicios de entretenimiento, servicios de redes sociales, servicios de juegos",
+    "Option 3": "Servicios administrados por la red, por el usuario y por la SIMCARD",
+    "Correct Answer": "Servicios administrados por la red, por el usuario y por la terminal"
+  },
+  {
+    "Question Text": "59.- Vigencia para realizar el tramite de devolución de equipos con sistema HMS de Huawei",
+    "Option 1": "12 días",
+    "Option 2": "16 días",
+    "Option 3": "10 días",
+    "Correct Answer": "15 días"
+  },
+  {
+    "Question Text": "60.- Tiempo de garantía que tienen los equipos de reemplazo iPhone",
+    "Option 1": "30 días",
+    "Option 2": "60 días",
+    "Option 3": "3 meses" ,
+    "Correct Answer": "90 días"
+  },
+  {
+    "Question Text": "61.- Una tarjeta SIM se considera dentro de garantía cuando:",
+    "Option 1": "Tiene menos de un año de facturada, no presenta daño físico o por humedad y no está quemada",
+    "Option 2": "Tiene menos de seis meses de facturada y no presenta daño físico",
+    "Option 3": "Tiene menos de dos años de facturada y no presenta daño por humedad",
+    "Correct Answer": "Tiene menos de un año de facturada, no presenta daño físico o por humedad y no está quemada, es decir que el equipo terminal no debe de mostrar tarjeta sim rechazada o puk bloqueado"
+  },
+  {
+    "Question Text": "62.- Uno de los compromisos más importantes del sistema de seguridad y salud en el trabajo es:",
+    "Option 1": "Aumentar la productividad",
+    "Option 2": "Reducir costos operativos",
+    "Option 3": "Prevenir enfermedades y lesiones",
+    "Correct Answer": "Prevenir accidentes y lesiones"
+  },
+  {
+    "Question Text": "63.- Cuando hablamos de calidad nos referimos al cumplimiento de requisitos entre los cuales podemos mencionar:",
+    "Option 1": "La cantidad de ventas anuales",
+    "Option 2": "Seguridad de la información, los aplicables (legales, gubernamentales del producto, establecidos por Telcel y los descritos en las normas que integran el SGI) y la seguridad y salud de los usuarios",
+    "Option 3": "La satisfacción del cliente",
+    "Correct Answer": "Seguridad de la información, los aplicables (legales, gubernamentales del producto, establecidos por Telcel y los descritos en las normas que integran el SGI) y la seguridad y salud de los trabajadores"
+  },
+  {
+    "Question Text": "64.- ¿De cuántos módulos o bloques importantes consta un teléfono celular sin importar marca, modelo o tecnología?",
+    "Option 1": "3",
+    "Option 2": "4",
+    "Option 3": "6",
+    "Correct Answer": "5"
+  },
+  {
+    "Question Text": "65.- Es un canal unidireccional en sentido de red a móvil que se utiliza para buscar al móvil (llamadas terminadas):",
+    "Option 1": "BCCH",
+    "Option 2": "LCH",
+    "Option 3": "TCH",
+    "Correct Answer": "PCH"
+  },
+  {
+    "Question Text": "66.- ¿En dónde se realiza la función básica de conmutación dentro del NSS?",
+    "Option 1": "HLR",
+    "Option 2": "MISC",
+    "Option 3": "VLR",
+    "Correct Answer": "MSC"
+  },
+  {
+    "Question Text": "67.- ¿Cuándo ocurre el Hard Hand Off?",
+    "Option 1": "Cuando el móvil cambia de celda sin interrupción",
+    "Option 2": "Cuando el móvil se apaga y se enciende nuevamente",
+    "Option 3": "Cuando el móvil momentáneamente se encuentra en ambas radiobases enganchado",
+    "Correct Answer": "Cuando el móvil momentáneamente se encuentra en el aire sin que ninguna radiobase lo tenga enganchado"
+  },
+  {
+    "Question Text": "68.- Este tipo de memoria es utilizada para guardar el software del teléfono y algunas veces el ESN. Es una memoria que se puede sobreescribir:",
+    "Option 1": "Memoria RAM",
+    "Option 2": "Memoria ROM",
+    "Option 3": "Memoria EEPROM",
+    "Correct Answer": "Memoria FLASH"
+  },
+  {
+    "Question Text": "69.- Este tipo de memoria es utilizada para guardar datos momentáneos u operaciones que son llevadas a cabo por el microcontrolador, siendo una memoria volátil al quitarle la batería al teléfono se pierden sus datos:",
+    "Option 1": "Memoria ROM",
+    "Option 2": "Memoria EEPROM",
+    "Option 3": "Memoria FLASH",
+    "Correct Answer": "Memoria RAM"
+  },
+  {
+    "Question Text": "70.- Este tipo de memoria sirve para almacenar datos como el directorio, la lista de llamadas perdidas, así como también valores de calibración del teléfono:",
+    "Option 1": "Memoria RAM",
+    "Option 2": "Memoria ROM",
+    "Option 3": "Memoria FLASH",
+    "Correct Answer": "Memoria EEPROM"
+  },
+
+  {
+    "Question Text": "71.- ¿Cuánto tiempo dura una pantalla LCD?",
+    "Option 1": "De 40,000 a 50,000 horas",
+    "Option 2": "De 30,000 a 40,000 horas",
+    "Option 3": "De 40,000 a 60,000 horas",
+    "Correct Answer": "De 50,000 a 60,000 horas"
+  },
+  {
+    "Question Text": "72.- Este es el primer sistema de telefonía analógica creada en el continente americano y es conocida también como estándar IS-19:",
+    "Option 1": "GSM (Glo-bal System for Mobile Communications)",
+    "Option 2": "CDMA (Code Division Multiple Access)",
+    "Option 3": "D-AMPS (Advanced Mobile Phone System)",
+    "Correct Answer": "AMPS (Advanced Mobile Phone System)"
+  },
+  {
+    "Question Text": "73.- Es lo que finalmente ven los clientes y a los que normalmente culpan por cualquier problema que pudiera tener los otros sistemas:",
+    "Option 1": "Analista de Equipo terminal",
+    "Option 2": "Asesor",
+    "Option 3": "Network Station",
+    "Correct Answer": "Mobile Station"
+  },
+  {
+    "Question Text": "74.- Permite hacer llamadas al número de emergencia:",
+    "Option 1": "GDN",
+    "Option 2": "ADN",
+    "Option 3": "EDN",
+    "Correct Answer": "SDN"
+  },
+  {
+    "Question Text": "75.- ¿Cuáles son los 3 servicios GSM que ofrece el SIM card?",
+    "Option 1": "Servicios administrados por el proveedor, Servicios administrados por la Red (operador Telcel), Servicios administrados por la compañia",
+    "Option 2": "Servicios administrados por el proveedor, Servicios administrados por el usuario, Servicios administrados por la red",
+    "Option 3": "Servicios administrados por la red, Servicios administrados por el cliente, Servicios administrados por la terminal",
+    "Correct Answer": "Servicios administrados por el usuario, Servicios administrados por la Red (operador Telcel), Servicios administrados por la terminal"
+  },
+  {
+    "Question Text": "76.- ¿Cuál es el tiempo establecido en archivo muerto de la papelería generada de los trámites de falla fuera de caja y penalizaciones para su posterior destrucción?",
+    "Option 1": "2 años",
+    "Option 2": "3 años",
+    "Option 3": "1 año",
+    "Correct Answer": "4 años"
+  },
+  {
+    "Question Text": "77.- ¿Cuáles son los principales cambios en la transición de la norma ISO/IEC 20000-1 de la versión 2011 a la versión 2018?",
+    "Option 1": "Simplificación de la información documentada, reportes por procesos, mejor distribución de los requisitos y procesos y mejor gestión de usuarios",
+    "Option 2": "Mayor cantidad de información documentada, menos reportes por procesos, mejor gestión de clientes",
+    "Option 3": "Simplificación de la información documentada, menos reportes por procesos, mejor gestión de la información",
+    "Correct Answer": "Simplificación de la información documentada, reportes por procesos, mejor distribución de los requisitos y procesos y mejor gestión de proveedores externos"
+  },
+  {
+    "Question Text": "78.- ¿En qué documento se describen las actividades para realizar la consulta y participación de los trabajadores?",
+    "Option 1": "PR-00.00.00.00.00-011 Evaluar la consulta y participación de los trabajadores",
+    "Option 2": "PR-00.00.00.00.00-011 Establecer la consulta y participación de los trabajadores",
+    "Option 3": "PR-00.00.00.00.00-013 Monitorear la consulta y participación de los trabajadores",
+    "Correct Answer": "PR-00.00.00.00.00-012 Gestionar la consulta y participación de los trabajadores"
+  },
+  {
+    "Question Text": "79.- ¿Cuál es el proceso de garantía de los accesorios de Apple vendidos por Telcel?",
+    "Option 1": "El analista de equipo terminal realiza revisión básica, validación de falla y asesora al cliente para que pueda tramitar su garantía mediante las líneas de soporte de Telcel",
+    "Option 2": "El cliente debe contactar directamente a Apple sin intervención de Telcel",
+    "Option 3": "El cliente debe enviar el accesorio a Telcel para validación y posterior envío a Apple",
+    "Correct Answer": "El analista de equipo terminal realiza revisión básica, validación de falla y asesora al cliente para que pueda tramitar su garantía mediante las líneas de soporte de Apple"
+  },
+  {
+    "Question Text": "80.- Una red de datos está compuesta por los siguientes elementos:",
+    "Option 1": "Hardware, Software y midleware",
+    "Option 2": "Hardware, Software y Proveedores de servicios",
+    "Option 3": "Hardware, Elementos de conectividad y Usuarios",
+    "Correct Answer": "Hardware, Software y Elementos de conectividad"
+  },
+  {
+    "Question Text": "81.- Según la norma ISO/IEC 20000-1:2018 ¿Qué es un objeto de configuración (CI)?",
+    "Option 1": "Elemento que controla los servicios",
+    "Option 2": "Elemento que no necesita control",
+    "Option 3": "Elemento secundario en la gestión de servicios",
+    "Correct Answer": "Elemento que requiere ser controlado para entregar un servicio"
+  },
+  {
+    "Question Text": "82.- Debe de realizar el mantenimiento de las series de los equipos reemplazados por el fabricante y/o proveedor originado de los descuentos",
+    "Option 1": "Analista de costos regional",
+    "Option 2": "El analista de ventas regional",
+    "Option 3": "El supervisor de mantenimiento",
+    "Correct Answer": "El analista de garantías regional"
+  },
+  {
+    "Question Text": "83.- ¿Cómo procede la garantía de un equipo sin relación comercial?",
+    "Option 1": "El AET deberá tratar de reparar como primera instancia el equipo",
+    "Option 2": "El equipo se reemplaza directamente",
+    "Option 3": "El equipo se devuelve al cliente sin reparación",
+    "Correct Answer": "El AET deberá tratar de reparar como primera instancia el equipo antes de aplicar cualquier cambio"
+  },
+  {
+    "Question Text": "84.- ¿Cuándo se creó el primer sistema de telefonía analógica en el continente americano?",
+    "Option 1": "Fue desarrollado por los Laboratorios Bell a principios de la década de los 90’s",
+    "Option 2": "En la década de los 90’s",
+    "Option 3": "En el año 2000",
+    "Correct Answer": "Fue desarrollado por los Laboratorios Bell a principios de la década de los 80’s"
+  },
+  {
+    "Question Text": "85.- ¿Cuándo se creó el primer sistema GSM por la CEPT?",
+    "Option 1": "1980",
+    "Option 2": "1990",
+    "Option 3": "1985",
+    "Correct Answer": "1982"
+  },
+  {
+    "Question Text": "86.- ¿Qué integra un programa interno de Protección Civil?",
+    "Option 1": "Planes de respuesta ante situaciones de riesgo",
+    "Option 2": "Planes de comunicación",
+    "Option 3": "Planes de marketing",
+    "Correct Answer": "Planes de respuesta ante emergencia"
+  },
+  {
+    "Question Text": "87.- Sismos, incendios y explosiones son:",
+    "Option 1": "Agentes perturbadores que se incluyen en el plan de protección respuesta ante emergencias",
+    "Option 2": "Eventos imprevistos que no requieren planificación",
+    "Option 3": "Situaciones de bajo riesgo",
+    "Correct Answer": "Agentes perturbadores que se incluyen en el plan de protección civil"
+  },
+  {
+    "Question Text": "88.- Es un canal unidireccional en el sentido red a movil utilizado por la red para asignar un canal dedicado de control tras un acceso aleatorio exitoso",
+    "Option 1": "PCH",
+    "Option 2": "ABRC",
+    "Option 3": "TCH",
+    "Correct Answer": "AGCH"
+  },
+  {
+    "Question Text": "89.- Misión, Visión, Valores y Objetivos institucionales forman parte de:",
+    "Option 1": "Plan de negocios",
+    "Option 2": "Cultura de intranet",
+    "Option 3": "Plan de marketing",
+    "Correct Answer": "Cultura corporativa"
+  },
+  {
+    "Question Text": "90.- ¿Quienes deben respetar las normas de seguridad personal de la empresa?",
+    "Option 1": "Solo los empleados",
+    "Option 2": "Todos los empleados, proveedores, clientes y contratistas, debido a que la seguridad e integridad de los empleados y de terceros puede estar en riesgo",
+    "Option 3": "Solo los contratistas",
+    "Correct Answer": "Todos los empleados, proveedores, contratistas, debido a que la seguridad e integridad de los empleados y de terceros puede estar en riesgo"
+  },
+  {
+    "Question Text": "91.- La norma ISO 20001:2018 ¿Cuántos procesos gestiona?",
+    "Option 1": "15",
+    "Option 2": "23",
+    "Option 3": "25",
+    "Correct Answer": "21"
+  },
+  {
+    "Question Text": "92.- ¿Cuál es el propósito de un sistema de gestión de seguridad y salud en el trabajo (SGSST)?",
+    "Option 1": "Es proporcionar un marco de referencia para monitorear los riesgos y oportunidades para la Seguridad y Salud en el Trabajo (SST)s",
+    "Option 2": "Es aumentar la productividad",
+    "Option 3": "Es garantizar la calidad de los productos y cumplir con las regulaciones gubernamentales",
+    "Correct Answer": "Es proporcionar un marco de referencia para gestionar los riesgos y oportunidades para la Seguridad y Salud en el Trabajo (SST)"
+  },
+  {
+    "Question Text": "93.- ¿Cuántos días de garantía tiene un equipo Apple de reparación con costo?",
+    "Option 1": "30 días",
+    "Option 2": "45 días",
+    "Option 3": "3 meses",
+    "Correct Answer": "90 días"
+  },
+  {
+    "Question Text": "94.- ¿Qué tipo de reparación se le da a los equipos que han sido portados a Telcel?",
+    "Option 1": "Se reemplazan automáticamente",
+    "Option 2": "Se devuelven al cliente sin revisión",
+    "Option 3": "Se envían a un centro de reciclaje",
+    "Correct Answer": "Se pueden recibir y tratar de corregir las fallas en Sertec, y puede ser escalado a la marca correspondiente para su reparación en garantía siempre y cuando el usuario presente la factura o el ticket debidamente sellado donde se indique la fecha de compra del IMEI de la unidad"
+  },
+  {
+    "Question Text": "95.- ¿Qué se hace con un equipo de +180 días que reclama el cliente y el equipo se encuentra en almacén?",
+    "Option 1": "Se devuelve al cliente sin más trámite",
+    "Option 2": "Se reemplaza automáticamente por un equipo nuevo",
+    "Option 3": "Se envia equipo a desguase y se le entrega uno nuevo",
+    "Correct Answer": "Se deberá de generar un nuevo folio SERTEC para realizar la entrega del mismo al usuario final además el AV deberá facturar a cero pesos el equipo a nombre del cliente en comentarios de la factura"
+  },
+  {
+    "Question Text": "96.- Tiene la responsabilidad de realizar la carga en SIGADE de los equipos que no han sido reemplazados en tiempo por el fabricante no existiendo ninguna aclaración por parte del proveedor y/o fabricante",
+    "Option 1": "Gerente de ventas",
+    "Option 2": "Analista de garantías regional",
+    "Option 3": "Coordinador de logística",
+    "Correct Answer": "Analista de costos regional"
+  },
+  {
+    "Question Text": "97.- Módem homologado por Telcel para Internet en Casa",
+    "Option 1": "Netgear Nighthawk",
+    "Option 2": "Huawei B315",
+    "Option 3": "Linksys WRT3200ACM",
+    "Correct Answer": "Eltel R520"
+  },
+  {
+    "Question Text": "98.- Internet de las cosas es:",
+    "Option 1": "Un nuevo tipo de red social",
+    "Option 2": "Un tipo de software antivirus",
+    "Option 3": "Un método de encriptación de datos",
+    "Correct Answer": "Conectar varias cosas de uso cotidiano a Internet"
+  },
+  {
+    "Question Text": "99.- ¿Cuál es el tiempo máximo que puede permanecer almacenada una terminal en el laboratorio de servicio técnico y al vencer dicho tiempo cómo se debe proceder?",
+    "Option 1": "90 días, se devuelve al cliente",
+    "Option 2": "181 días, se envia a desguase",
+    "Option 3": "120 días, se repara y se devuelve",
+    "Correct Answer": "180 días naturales a partir de la fecha de ingreso a servicio técnico, si está en buen estado se pasa a almacén para equipo de préstamos y si está en mal estado pasa a desguase"
+  },
+  {
+    "Question Text": "100.- Los documentos validados para el envío de equipos a garantía son:",
+    "Option 1": "Solo factura y ticket de compra",
+    "Option 2": "Solo SAP IQ09 y E-CAC",
+    "Option 3": "Ticket de compra y orden de servicio tecnico",
+    "Correct Answer": "Factura, ticket de compra, pantalla de integrador, SAP IQ09, E-CAC y Sertec"
+  },
+  {
+    "Question Text": "101.- ¿Cuáles son los 3 componentes principales en una red de telefonía celular?",
+    "Option 1": "CPU, RAM y Disco Duro",
+    "Option 2": "Antena, Bocina y Micrófono",
+    "Option 3": "Hardware, Elementos de conectividad y software",
+    "Correct Answer": "MTSO (Mobile Telephone Switch Office), BS (Base Station) y MS (Mobile Station)"
+  },
+   {
+    "Question Text": "102.- ¿En qué consiste el Soft Hand Off?",
+    "Option 1": "Es cuando el móvil cambia de red automáticamente",
+    "Option 2": "Es cuando el móvil pierde la señal",
+    "Option 3": "Es cuando el móvil se apaga y se enciende nuevamente",
+    "Correct Answer": "Es cuando dos radiobases tienen enganchado momentáneamente al móvil."
+  },
+  {
+    "Question Text": "103.- Son tres tonos o colores que sirven para monitorear la calidad de la señal así como su relación señal a ruido y la potencia",
+    "Option 1": "RTT - Real Time Tone",
+    "Option 2": "THT - Three-tone Harmony Test",
+    "Option 3": "STN - Signal Tone Network",
+    "Correct Answer": "SAT – Signal Audio Tone"
+  },
+  {
+    "Question Text": "104.- Etapa que controla el enrutamiento del audio tanto de la bocina como del micrófono, también tiene la etapa de demodulación y modulación (FM). Nos sirve también para generar los tonos de señalización (SAT y ST).",
+    "Option 1": "La etapa de Red",
+    "Option 2": "La etapa de Potencia",
+    "Option 3": "La etapa de Conectividad",
+    "Correct Answer": "La etapa de Banda Base"
+  },
+  {
+    "Question Text": "105.- ¿Cuál es el canal físico en GSM?",
+    "Option 1": "PCH (Paging Channel)",
+    "Option 2": "RACH (Random Access Channel)",
+    "Option 3": "TCH (Traffic Channel)",
+    "Correct Answer": "ARFCN (Absolute Radio Frequency Channel)"
+  },
+  {
+    "Question Text": "106.- Es un canal unidireccional con sentido móvil a red que se utiliza por las estaciones móviles para acceder a dicha red",
+    "Option 1": "TCH (Traffic Channel)",
+    "Option 2": "PCH (Paging Channel)",
+    "Option 3": "AGCH (Access Grant Channel)",
+    "Correct Answer": "RACH (Random Access Channel)"
+  },
+  {
+    "Question Text": "107.- Es un canal unidireccional en sentido red a móvil, utilizado por la red para asignar un canal dedicado de control tras un acceso aleatorio exitoso.",
+    "Option 1": "TCH (Traffic Channel)",
+    "Option 2": "PCH (Paging Channel)",
+    "Option 3": "RACH (Random Access Channel)",
+    "Correct Answer": "AGCH (Access Grant Channel)"
+  },
+  {
+    "Question Text": "108.- ¿Cuál es la función principal del NSS?",
+    "Option 1": "Controlar el tráfico de datos",
+    "Option 2": "Proveer servicios de valor agregado",
+    "Option 3": "Gestionar la seguridad de la red",
+    "Correct Answer": "Gestionar las comunicaciones entre los usuarios GSM y los usuarios de otras redes de telecomunicación."
+  },
+  {
+    "Question Text": "109.- ¿Qué es la MSC y cuál es su función?",
+    "Option 1": "Es la central de monitoreo de servicios móviles que verifica la calidad de la señal",
+    "Option 2": "Es la central de procesamiento de datos móviles que gestiona el almacenamiento de datos",
+    "Option 3": "Es la central de gestión de servicios móviles que supervisa las conexiones de red",
+    "Correct Answer": "(Mobile services Switching Centre) Es la central de conmutación de servicios móviles cuya misión principal es coordinar el establecimiento de llamadas desde y hacia usuarios GSM"
+  },
+  {
+    "Question Text": "110.- ¿Por cuáles elementos está formada una tarjeta SIM?",
+    "Option 1": "Por un chip de almacenamiento y una antena",
+    "Option 2": "Por una batería y un procesador",
+    "Option 3": "Por un módulo de comunicación y una tarjeta de memoria",
+    "Correct Answer": "Por un microprocesador, una memoria ROM, EEPROM y RAM de diferentes capacidades según sea el fabricante"
+  },
+  {
+    "Question Text": "111.- Almacena el número único de Identidad Internacional Móvil del Usuario y es el que se registra e identifica al usuario dentro de la red GSM y es de 15 dígitos",
+    "Option 1": "IMEI (International Mobile Equipment Identity",
+    "Option 2": "ICCID",
+    "Option 3": "MSISDN",
+    "Correct Answer": "IMSI (International Mobile Subscriber Identity)"
+  },
+  {
+    "Question Text": "112.- Almacena el número del usuario, es decir, es el número que se marca para contactar a un usuario dentro de la red GSM.",
+    "Option 1": "IMEI",
+    "Option 2": "ICCID",
+    "Option 3": "IMSI",
+    "Correct Answer": "MSISDN"
+  },
+  {
+  "Question Text": "113.- ¿Qué elementos componen el número de un suscriptor en la red GSM?",
+  "Option 1": "CC (Country Code), MSC (Mobile Switching Center), SN (Subscriber Number)",
+  "Option 2": "MCC (Mobile Country Code), NPA (Network Provider Address), HLR (Home Location Register)",
+  "Option 3": "NPA (Network Provider Address), IMSI (International Mobile Subscriber Identity), SN (Subscriber Number)",
+  "Correct Answer": "CC (Country Code), NPA (Numbering Plan Area), SN (Subscriber Number)"
+},
+
+  {
+    "Question Text": "114.- ¿Cuáles son los servicios GSM administrados por el Usuario?",
+    "Option 1": "Difusión de Mensajes de Texto, Aviso de Cargo ó Costo",
+    "Option 2": "Nombre del Proveedor del Servicio SPN, Asociación SIM-Teléfono GID1/GID2",
+    "Option 3": "Tabla de Servicios SIM SST",
+    "Correct Answer": "Selección de Red GSM, Número del Suscriptor MSISDN, Agenda Telefónica ADN, Agenda Telefónica Restringida FDN, Últimos números marcados LND, Números de Servicio SDN"
+  },
+  {
+    "Question Text": "115.- ¿Cuáles son los servicios GSM administrados por la Red?",
+    "Option 1": "Selección de Red GSM, Lista de referencia usada por la terminal para desplegar ó no los mensajes de difusión de texto enviados por la red GSM. Aviso de Cargo ó Costo",
+    "Option 2": "Número del Suscriptor MSISDN, Lista de referencia usada por la terminal para desplegar ó no los mensajes de difusión de texto enviados por la red GSM. Aviso de Cargo ó Costo ",
+    "Option 3": "Nombre del Proveedor del Servicio SPN",
+    "Correct Answer": "Difusión de Mensajes de Texto, Aviso de Cargo ó Costo"
+  },
+  {
+    "Question Text": "116.- ¿Cuáles son los servicios GSM administrados por la Terminal?",
+    "Option 1": "Difusión de Mensajes de Texto",
+    "Option 2": "Selección de Red GSM",
+    "Option 3": "Número del Suscriptor MSISDN",
+    "Correct Answer": "Nombre del Proveedor del Servicio SPN, Asociación SIM-Teléfono GID1/GID2, Tabla de Servicios SIM SST"
+  },
+  {
+    "Question Text": "117.- Es una tecnología 2.5G para envío de datos a través de la interfaz de aire en GSM.",
+     "Option 1": "GPRS (General Packet Radio Service)",
+    "Option 2": "EDGE (Enhanced Data rates for GSM Evolution)",
+    "Option 3": "LTE (Long Term Evolution)",
+    "Correct Answer": "(CSD) Circuit Switch Data"
+  },
+  {
+    "Question Text": "118.- ¿Qué tecnología permite la transmisión de datos y soporta servicios como Web browsing, FTP, e-mail, y FAX, con velocidades de 9.6 o 14.4 kbps?",
+    "Option 1": "GPRS (General Packet Radio Service)",
+    "Option 2": "EDGE (Enhanced Data rates for GSM Evolution)",
+    "Option 3": "LTE (Long Term Evolution)",
+    "Correct Answer": "CSD (Circuit Switched Data)"
+},
+
+  {
+    "Question Text": "119.- Es una característica de la tecnología 3G (UMTS)",
+    "Option 1": "Incrementa la velocidad a 10 Mbps por usuario móvil",
+    "Option 2": "Reduce la latencia a menos de 1 ms",
+    "Option 3": "Ofrece comunicación solo de voz",
+    "Correct Answer": "Permite introducir muchos más usuarios a la red global del sistema, y además permite incrementar la velocidad a 2 Mbps por usuario móvil."
+  },
+  {
+    "Question Text": "120.- ¿Qué sistema permite el uso de más de un canal de la interfaz de aire en la transmisión de datos, logrando velocidades de hasta 56.6 kbps?",
+    "Option 1": "GPRS (General Packet Radio Service)",
+    "Option 2": "EDGE (Enhanced Data rates for GSM Evolution)",
+    "Option 3": "HSCSD (High Speed Circuit Switched Data)",
+    "Correct Answer": "HSCSD (High Speed Circuit Switched Data)"
+},
+
+  {
+    "Question Text": "121.- Constituye una tecnología móvil inalámbrica de tercera generación que aumenta las tasas de transmisión de datos de los sistemas GSM utilizando la interfaz aérea CDMA en lugar de TDMA",
+    "Option 1": "LTE",
+    "Option 2": "HSPA",
+    "Option 3": "GPRS",
+    "Correct Answer": "W-CDMA (Wideband-Code Division Multiple Access)"
+  },
+  {
+    "Question Text": "122.- Son redes de propiedad privada dentro de un solo edificio o campus de hasta unos cuantos kilómetros de extensión",
+    "Option 1": "WAN (Wide Area Network)",
+    "Option 2": "MAN (Metropolitan Area Network)",
+    "Option 3": "PAN (Personal Area Network)",
+    "Correct Answer": "Redes de Área Local, generalmente llamadas LAN (Local Area Network)"
+  },
+  {
+    "Question Text": "123.- Es el identificador de cada host dentro de su red de redes; consta de 4 bytes.",
+    "Option 1": "Dirección MAC",
+    "Option 2": "Dirección URL",
+    "Option 3": "Dirección de Subred",
+    "Correct Answer": "Dirección IP"
+},
+{
+    "Question Text": "124.- Tiene la función de obtener la dirección física de un ordenador a partir de su dirección IP.",
+    "Option 1": "Protocolo DNS",
+    "Option 2": "Protocolo ICMP",
+    "Option 3": "Protocolo RARP",
+    "Correct Answer": "Protocolo ARP"
+},
+{
+    "Question Text": "125.- Se encarga de informar al origen si se ha producido algún error durante la entrega de su mensaje.",
+    "Option 1": "Protocolo TCP",
+    "Option 2": "Protocolo UDP",
+    "Option 3": "Protocolo SNMP",
+    "Correct Answer": "Protocolo ICMP"
+},
+{
+    "Question Text": "126.- Proporciona una comunicación muy sencilla entre las aplicaciones de dos ordenadores.",
+    "Option 1": "Protocolo TCP",
+    "Option 2": "Protocolo SNMP",
+    "Option 3": "Protocolo FTP",
+    "Correct Answer": "Protocolo UDP"
+},
+{
+    "Question Text": "127.- Permite una comunicación fiable entre dos aplicaciones, de esta forma las aplicaciones que lo utilicen no tienen que preocuparse de la integridad de la información.",
+    "Option 1": "Protocolo UDP",
+    "Option 2": "Protocolo IP",
+    "Option 3": "Protocolo SNMP",
+    "Correct Answer": "Protocolo TCP"
+},
+{
+    "Question Text": "128.- Es un protocolo de direccionamiento IP que permite asignar de forma automática direcciones IP a las máquinas, sin tener que ir una por una poniéndoles IP, viendo cuales quedan libres.",
+    "Option 1": "Protocolo TCP",
+    "Option 2": "Protocolo IP",
+    "Option 3": "Protocolo DNS",
+    "Correct Answer": "Protocolo DHCP"
+},
+{
+    "Question Text": "129.- Son redes que se extienden sobre un área geográfica extensa, a veces un país o un continente, contiene una colección de máquinas dedicadas a ejecutar programas de aplicación de usuarios.",
+    "Option 1": "Redes de Área Local (LAN)",
+    "Option 2": "Redes de Área Metropolitana (MAN)",
+    "Option 3": "Redes Privadas Virtuales (VPN)",
+    "Correct Answer": "Redes de Área Amplia o WAN (Wide Area Network)"
+},
+{
+    "Question Text": "130.- Para habilitación ¿cuáles equipos deberán ser ingresados a ST?",
+    "Option 1": "Todos los equipos en almacén",
+    "Option 2": "Solo los equipos nuevos",
+    "Option 3": "Equipos de clientes con portabilidad en proceso o completada",
+    "Correct Answer": "Solo los equipos que se encuentren ligados a una línea en proceso de portabilidad o que esta ya se encuentre portada."
+},
+{
+    "Question Text": "131.- ¿Cuál es el tiempo máximo para una habilitación o monitoreo de un equipo celular en Servicio Técnico?",
+    "Option 1": "24 horas",
+    "Option 2": "72 horas",
+    "Option 3": "36 horas",
+    "Correct Answer": "48 horas"
+},
+{
+    "Question Text": "132.- ¿Qué procede con un equipo de +180 días que reclama el cliente y el equipo se encuentra en almacén regional?",
+    "Option 1": "Devolverlo al cliente sin autorización",
+    "Option 2": "Enviar el equipo a reparación",
+    "Option 3": "Informar al cliente que el equipo no se puede recuperar",
+    "Correct Answer": "Solo la Gerencia de Atención a Clientes podrá autorizar al JCAC/CAE/STT/CAD la entrega del equipo al cliente"
+},
+{
+    "Question Text": "133.- ¿Qué procede con un equipo de +180 días que reclama el cliente y el equipo no se puede recuperar?",
+    "Option 1": "Devolver el equipo al almacén",
+    "Option 2": "Informar al cliente que no hay solución",
+    "Option 3": "Derivar el caso a atención al cliente",
+    "Correct Answer": "Es responsabilidad del JST encontrar una solución para el cliente."
+},
+{
+    "Question Text": "134.- ¿Cuándo se considera una falla técnica masiva?",
+    "Option 1": "Cuando hay más de 10 casos de la misma falla en un mes",
+    "Option 2": "Cuando hay más de 5 casos de la misma falla en un día",
+    "Option 3": "Cuando hay más de 2 casos de la misma falla en una semana",
+    "Correct Answer": "Cuando se tengan más de 3 casos en un Laboratorio de ST de la misma falla, en un mismo producto, en un periodo de 24 hrs."
+},
+{
+    "Question Text": "135.- ¿Qué procede con los equipos que se hayan enviado a CSA a reparación con costo y no hayan sido devueltos al Centro de Atención?",
+    "Option 1": "Devolver el costo al cliente",
+    "Option 2": "Enviarlos a otro centro de reparación",
+    "Option 3": "Descontarlos por incumplimiento en tiempo de respuesta",
+    "Correct Answer": "Estos podrán ser descontados por incumplimiento en tiempo de respuesta siempre y cuando el equipo enviado haya sido comercializado a través de alguna fuerza de venta Telcel."
+},
+{
+    "Question Text": "136.- ¿Cuál es la responsabilidad del AET para los casos de reincidencia?",
+    "Option 1": "Reparar la terminal nuevamente",
+    "Option 2": "Enviar el equipo a un centro de reparación diferente",
+    "Option 3": "Autorizar el cambio inmediato sin intentar reparar la terminal",
+    "Correct Answer": "Deberá autorizar el cambio inmediato sin tratar de reparar la terminal sin importar que la falla sea distinta al folio en el cual fue enviada con anterioridad al CSA."
+},
+{
+    "Question Text": "137.- ¿Cuánto tiempo se deben mantener en resguardo los diagnósticos Sertec firmados por el cliente?",
+    "Option 1": "En el CAC por 3 meses y luego al archivo muerto por 6 meses",
+    "Option 2": "En el CAC por 6 meses y luego al archivo muerto por 12 meses",
+    "Option 3": "En el CAC por 12 meses y luego al archivo muerto por 6 meses",
+    "Correct Answer": "En el CAC por 6 meses y posteriormente ser enviados al archivo muerto para su almacenamiento durante 12 meses más para su posterior destrucción."
+},
+{
+    "Question Text": "138.- ¿Quién tiene la responsabilidad de depurar su lista de pendientes dos veces por semana, a fin de que las demás áreas involucradas en el proceso (almacén/costos/finanzas) tengan tiempo suficiente para extraer y cargar los registros en el sistema SIGADE?",
+    "Option 1": "Gerente de Ventas",
+    "Option 2": "Analista de Inventarios",
+    "Option 3": "Supervisor de Almacén",
+    "Correct Answer": "Analista de ventas del CAC"
+},
+{
+    "Question Text": "139.- ¿Quiénes deben respetar las normas de seguridad de la empresa?",
+    "Option 1": "Solo los trabajadores internos",
+    "Option 2": "Solo los trabajadores externos",
+    "Option 3": "Todos los trabajadores internos y externos, así como los visitantes y clientes en los centros de trabajo",
+    "Correct Answer": "Todos los trabajadores internos y externos, así como los visitantes y clientes en los centros de trabajo"
+},
+{
+    "Question Text": "140.- ¿En qué documento se describen las actividades para realizar la consulta y participación de los trabajadores?",
+    "Option 1": "P-00.01 01.01.00-001 consulta y participación del SGSST",
+    "Option 2": "P-00.02 01.03.00-003 consulta y participación del SGSST",
+    "Option 3": "P-00.03 01.02.00-004 consulta y participación del SGSST",
+    "Correct Answer": "P-00.02 01.02.00-002 consulta y participación del SGSST"
+},
+{
+    "Question Text": "141.- ¿Quiénes deben respetar esta política de la SST, así como las normas de seguridad y salud definidas por la empresa?",
+    "Option 1": "Solo los colaboradores internos",
+    "Option 2": "Solo los proveedores y contratistas",
+    "Option 3": "Todos los colaboradores, representantes, proveedores, distribuidores, contratistas y demás socios comerciales",
+    "Correct Answer": "Todos los colaboradores, representantes, proveedores, distribuidores, contratistas y demás socios comerciales"
+},
+{
+  "Question Text": "142.- Cuando hablamos de calidad nos referimos al cumplimiento de requisitos entre los cuales podemos mencionar:",
+  "Option 1": "Eficiencia de la red, estabilidad del sistema, compatibilidad con dispositivos antiguos",
+  "Option 2": "Velocidad de conexión, rendimiento de la batería, facilidad de uso",
+  "Option 3": "Seguridad de la información, requisitos legales y gubernamentales, seguridad y salud de los trabajadores",
+  "Correct Answer": "Seguridad de la información, los aplicables (legales, gubernamentales, del producto, establecidos por Telcel y los descritos en las normas que integran el SGI) y la seguridad y salud de los trabajadores"
+},
+{
+  "Question Text": "143.- Es un nombre de equipo que proporciona nombres más fácilmente recordados en lugar de la IP numérica.",
+  "Option 1": "Hostname",
+  "Option 2": "IP Address",
+  "Option 3": "Gateway",
+  "Correct Answer": "Dominio"
+},
+{
+  "Question Text": "144.- Controlador de red radio, nodo de la red de acceso UMTS encargado de controlar las estaciones base (Nodos B).",
+  "Option 1": "MSC (Mobile Switching Center)",
+  "Option 2": "BTS (Base Transceiver Station)",
+  "Option 3": "SGSN (Serving GPRS Support Node)",
+  "Correct Answer": "RCN (Radio Network Controller)"
+},
+{
+  "Question Text": "145.- Sistema de telefonía celular diseñado para que fuera compatible con los antiguos sistemas de telefonía análoga AMPS.",
+  "Option 1": "CDMA",
+  "Option 2": "GSM",
+  "Option 3": "LTE",
+  "Correct Answer": "D-AMPS (Digital Advanced Mobile Phone System)"
+},
+{
+  "Question Text": "146.- Elemento que forma parte del BSS y se denomina Controlador de Estaciones Base.",
+  "Option 1": "Node B",
+  "Option 2": "MSC",
+  "Option 3": "EIR",
+  "Correct Answer": "BSC"
+},
+{
+  "Question Text": "147.- Es una de las aplicaciones más conocidas de los TFT.",
+  "Option 1": "Antenas de red",
+  "Option 2": "Sensores de movimiento",
+  "Option 3": "Cámaras de seguridad",
+  "Correct Answer": "Las pantallas de visualización planas de LCD"
+},
+{
+  "Question Text": "148.- Fragmento de paquete que es enviado con la suficiente información como para que la red pueda simplemente encaminar el fragmento hacia el ordenador receptor de manera independiente a los fragmentos restantes.",
+  "Option 1": "Frame",
+  "Option 2": "Segment",
+  "Option 3": "Cell",
+  "Correct Answer": "Datagrama"
+},
+{
+  "Question Text": "149.- Técnicas para modulación de LTE.",
+  "Option 1": "QAM para uplink y QPSK para downlink",
+  "Option 2": "SCFDMA para downlink y ODFMA para uplink",
+  "Option 3": "FDMA para uplink y TDMA para downlink",
+  "Correct Answer": "SCFDMA para uplink y ODFMA para downlink"
+},
+{
+  "Question Text": "150.- Es la base del internet y sirve para enlazar computadoras que utilizan diferentes sistemas operativos incluyendo PC, minicomputadoras y computadoras centrales sobre redes de área local (LAN) y área extensa (WLAN).",
+  "Option 1": "HTTP/HTTPS",
+  "Option 2": "FTP",
+  "Option 3": "SMTP",
+  "Correct Answer": "TCP/IP (Transmisión Control Protocol / Internet Protocol)"
+},
+{
+  "Question Text": "151.- ¿Cuál es el objetivo y los resultados previstos del sistema de gestión de la SST?",
+  "Option 1": "Aumentar la productividad de la empresa",
+  "Option 2": "Reducir costos operativos",
+  "Option 3": "Mejorar la satisfacción del cliente",
+  "Correct Answer": "Prevenir lesiones y deterioro de la salud relacionados con el trabajo a los trabajadores; Proporcionar lugares de trabajo seguros y saludables; eliminar los peligros; minimizar los riesgos para la SST; tomar medidas de prevención y protección eficaces"
+},
+{
+  "Question Text": "152.- ¿Qué es la salud?",
+  "Option 1": "La ausencia de enfermedades, bienestar fisico y mental",
+  "Option 2": "Un estado de bienestar económico",
+  "Option 3": "El bienestar emocional, fisico y social",
+  "Correct Answer": "El completo bienestar de los aspectos Físico, Mental y Social"
+},
+{
+  "Question Text": "153.- ¿Qué engloba la Salud y Seguridad en el trabajo?",
+  "Option 1": "Solo la prevención de accidentes",
+  "Option 2": "Mejoras en la productividad",
+  "Option 3": "Reducción de costos",
+  "Correct Answer": "Prevención de riesgos, promoción y mantenimiento de seguridad y salud, creación de condiciones adecuadas"
+},
+{
+  "Question Text": "154.- Su compromiso es asumir la total responsabilidad y rendición de cuentas para la prevención de lesiones y el deterioro de la salud relacionados con el trabajo, así como la provisión de actividades y lugares de trabajo seguros y saludables.",
+  "Option 1": "Los empleados",
+  "Option 2": "El departamento de recursos humanos",
+  "Option 3": "El comité de seguridad",
+  "Correct Answer": "La alta dirección"
+},
+{
+  "Question Text": "155.- ¿Cuántas geocercas se pueden configurar en la aplicación de Zeek my auto?",
+  "Option 1": "Hasta 5",
+  "Option 2": "Hasta 8",
+  "Option 3": "Hasta 15",
+  "Correct Answer": "Máximo 10"
+},
+{
+  "Question Text": "156.- ¿Cuánto tiempo de historial se puede tener en la aplicación de Zeek my auto?",
+  "Option 1": "Los viajes del último mes",
+  "Option 2": "Los viajes de la última semana",
+  "Option 3": "Los viajes de los últimos 7 días",
+  "Correct Answer": "Los viajes que presenta la aplicación son de hoy, ayer y antier"
+},
+{
+  "Question Text": "157.- ¿Cuántos autos puedo tener dentro de la misma cuenta de Zeek my auto?",
+  "Option 1": "Hasta 5 autos",
+  "Option 2": "Hasta 10 autos",
+  "Option 3": "Hasta 20 autos",
+  "Correct Answer": "Hasta 24 autos"
+},
+{
+  "Question Text": "158.- Es un método para la transmisión de datos a través de un canal analógico. Los bits de datos son agrupados en pares y son representados por una forma de onda única llamada símbolo.",
+  "Option 1": "QAM",
+  "Option 2": "OFDM",
+  "Option 3": "BPSK",
+  "Correct Answer": "Pi/4 DQPSK"
+},
+{
+  "Question Text": "159.- ¿Cuál es el APN que debe tener configurado los módems de internet en casa Telcel?",
+  "Option 1": "internet.itelcel.com",
+  "Option 2": "telcel.internet.com",
+  "Option 3": "internet.mitelcel.com",
+  "Correct Answer": "hogar.itelcel.com"
+},
+{
+  "Question Text": "160.- Característica que permite sacar una memoria externa sin tener que apagar el dispositivo donde se encuentra protegiendo la información contra pérdida.",
+  "Option 1": "Plug and play",
+  "Option 2": "Swap and save",
+  "Option 3": "Safe eject",
+  "Correct Answer": "Hot swap"
+},
+{
+  "Question Text": "161.- ¿Dónde se gestionan las garantías o reparaciones con costo por parte de Apple?",
+  "Option 1": "Apple Store",
+  "Option 2": "iTunes",
+  "Option 3": "Apple Support",
+  "Correct Answer": "GSX2"
+},
+{
+  "Question Text": "162.- ¿Cuál es el significado de NFC?",
+  "Option 1": "Network Field Communication",
+  "Option 2": "Near Field Connection",
+  "Option 3": "Network Fast Communication",
+  "Correct Answer": "Near Field Communication"
+},
+{
+  "Question Text": "163.- Red móvil basada en enrutamiento dinámico del tráfico TCP/IP sobre una estructura de nodos móviles no predeterminados.",
+  "Option 1": "WAN (Wide Area Network)",
+  "Option 2": "LAN (Local Area Network)",
+  "Option 3": "PAN (Personal Area Network)",
+  "Correct Answer": "MANET (Mobile Ad hoc Network)"
+},
+{
+  "Question Text": "164.- No importa la marca, modelo y tecnología ¿Cuántos y cuáles son los módulos más importantes del teléfono?",
+  "Option 1": "Etapa de alimentación, etapa de pantalla, etapa de sensores",
+  "Option 2": "Etapa de conectividad, etapa de batería, etapa de memoria",
+  "Option 3": "Etapa de cámara, etapa de altavoces, etapa de micrófono",
+  "Correct Answer": "Etapa de RF, etapa de banda base, etapa lógica, etapa de reguladores y circuito de carga y etapa de interfaz de usuario"
+},
+{
+  "Question Text": "165.- Plantilla del teclado interno que realiza la función de conductor eléctrico al oprimir las teclas.",
+  "Option 1": "QWERTY",
+  "Option 2": "Dvorak",
+  "Option 3": "Chiclet",
+  "Correct Answer": "Miller"
+},
+{
+  "Question Text": "166.- Es el encargado del departamento de datos personales en Telcel.",
+  "Option 1": "Director de TI",
+  "Option 2": "Gerente de Seguridad",
+  "Option 3": "Director de Operaciones",
+  "Correct Answer": "Gerencia de cumplimiento de datos personales en Telcel"
+},
+{
+  "Question Text": "167.- Son los responsables de autorizar el inicio de acciones correctivas y de mejora, aprobar al líder y la integración de un equipo de trabajo para acciones en el sistema de mejora continua.",
+  "Option 1": "El departamento de calidad",
+  "Option 2": "El comité de seguridad",
+  "Option 3": "El equipo de desarrollo",
+  "Correct Answer": "La alta dirección"
+},
+{
+  "Question Text": "168.- ¿Quién inventó el receptor superheterodino?",
+  "Option 1": "Nikola Tesla en 1906",
+  "Option 2": "Guglielmo Marconi en 1909",
+  "Option 3": "Lee de Forest en 1915",
+  "Correct Answer": "Edwin Armstrong en 1918"
+},
+{
+  "Question Text": "169.- Es una red de distribución de datos para un área geográfica en el entorno de una ciudad. La distancia entre las estaciones más alejadas es de 10 km.",
+  "Option 1": "WAN (Wide Area Network)",
+  "Option 2": "LAN (Local Area Network)",
+  "Option 3": "SAN (Storage Area Network)",
+  "Correct Answer": "MAN (Metropolitan Area Network)"
+},
+{
+  "Question Text": "170.- Es el resultado de aplicar cierto algoritmo matemático denominado función hash, al contenido.",
+  "Option 1": "Clave pública",
+  "Option 2": "Token",
+  "Option 3": "Certificado digital",
+  "Correct Answer": "Firma digital"
+},
+{
+    "Question Text": "171.- Significado de las siglas de GUI.",
+    "Option 1": "General User Interface",
+    "Option 2": "Graphical User Internet",
+    "Option 3": "General User Interaction",
+    "Correct Answer": "Graphical User Interface"
+},
+{
+    "Question Text": "172.- Es el protocolo de túnel GPRS para el encapsulado y conmutación de la información de usuario hasta las pasarelas con otras redes.",
+    "Option 1": "HTTP (Hypertext Transfer Protocol)",
+    "Option 2": "FTP (File Transfer Protocol)",
+    "Option 3": "SMTP (Simple Mail Transfer Protocol)",
+    "Correct Answer": "GTP (GPRS Tunneling Protocol)"
+},
+{
+    "Question Text": "173.- Red móvil basada en enrutamiento dinámico de del tráfico TCP/IP sobre una estructura de nodos móviles no predeterminados.",
+    "Option 1": "WAN (Wide Area Network)",
+    "Option 2": "LAN (Local Area Network)",
+    "Option 3": "PAN (Personal Area Network)",
+    "Correct Answer": "MANET (Mobile Ad hoc Network)"
+},
+{
+    "Question Text": "174.- Formato de memoria flash más pequeña que la miniSD, desarrollada por ScanDisk, mide 15 milímetros x 11 x 1, esto es tres y media veces más pequeña que la miniSD.",
+    "Option 1": "Tarjeta SD",
+    "Option 2": "Tarjeta CompactFlash",
+    "Option 3": "Tarjeta Memory Stick",
+    "Correct Answer": "Tarjeta microSD"
+},
+{
+    "Question Text": "175.- La interfaz de radio GSM utiliza una combinación de:",
+    "Option 1": "CDMA y FDMA y FH",
+    "Option 2": "CDMA y TDMA y FH",
+    "Option 3": "OFDM y QAM y FH",
+    "Correct Answer": "FDMA, TDMA y FH"
+},
+{
+    "Question Text": "176.- ¿Para qué equipos no aplica el trámite de descuento a proveedor, ni el FFC, ni el descuento por reincidencia en falla?",
+    "Option 1": "Para equipos nuevos",
+    "Option 2": "Para equipos usados",
+    "Option 3": "Para equipos reacondicionados",
+    "Correct Answer": "Para equipos de la competencia habilitados por Telcel"
+},
+{
+    "Question Text": "177.- Es el encargado de proporcionar y gestionar el interfaz radio entre las estaciones móviles y el resto de GSM.",
+    "Option 1": "MSC",
+    "Option 2": "SGSN",
+    "Option 3": "GGSN",
+    "Correct Answer": "BSS"
+},
+{
+    "Question Text": "178.- Es cualquier daño a la condición física, mental o cognitiva de una persona que se presenta de forma progresiva a lo largo del tiempo.",
+    "Option 1": "Enfermedad",
+    "Option 2": "Accidente",
+    "Option 3": "Fatiga",
+    "Correct Answer": "Deterioro de la salud"
+},
+{
+    "Question Text": "179.- Son acciones realizadas por el trabajador que implican una omisión o violación a un método de trabajo o medida determinados como seguros.",
+    "Option 1": "Condiciones inseguras",
+    "Option 2": "Procedimientos incorrectos",
+    "Option 3": "Errores humanos",
+    "Correct Answer": "Actos inseguros"
+},
+{
+    "Question Text": "180.- Son aquellas que derivan de la inobservancia o desatención de las medidas establecidas como seguras, y que pueden conllevar la ocurrencia de un incidente, accidente, enfermedad de trabajo o daño material al centro de trabajo.",
+    "Option 1": "Actos inseguros",
+    "Option 2": "Errores humanos",
+    "Option 3": "Malas prácticas",
+    "Correct Answer": "Condiciones Inseguras"
+},
+{
+    "Question Text": "181.- Es toda fuente con un potencial para causar lesiones y deterioro de la salud.",
+    "Option 1": "Riesgo",
+    "Option 2": "Accidente",
+    "Option 3": "Enfermedad",
+    "Correct Answer": "Peligro"
+},
+{
+    "Question Text": "182.- Es la correlación de la peligrosidad de uno o varios factores y la exposición de los trabajadores con la posibilidad de causar efectos adversos para su vida, integridad física o salud, o dañar al centro de trabajo.",
+    "Option 1": "Peligro",
+    "Option 2": "Accidente",
+    "Option 3": "Enfermedad",
+    "Correct Answer": "Riesgo"
+},
+{
+    "Question Text": "183.- Son aquellos sucesos que surgen del trabajo o en el transcurso del trabajo, en el que se han producido lesiones y/o deterioro de la salud (accidentes).",
+    "Option 1": "Accidentes laborales",
+    "Option 2": "Actos inseguros",
+    "Option 3": "Condiciones peligrosas",
+    "Correct Answer": "Incidentes laborales"
+},
+{
+    "Question Text": "184.- ¿Quiénes son los responsables del departamento de datos personales en Telcel?",
+    "Option 1": "Director de TI",
+    "Option 2": "Gerente de Seguridad",
+    "Option 3": "Director de Operaciones",
+    "Correct Answer": "Gerencia de cumplimiento de datos personales"
+},
+{
+    "Question Text": "185.- La EIR es una base de datos en la que existe información sobre el estado de los teléfonos móviles. Dentro de esta base de datos existen tres listas de IMEI",
+    "Option 1": "Lista azul, lista roja, lista verde",
+    "Option 2": "Lista dorada, lista plateada, lista bronce",
+    "Option 3": "Lista violeta, lista naranja, lista marrón",
+    "Correct Answer": "Lista blanca, gris y negra"
+},
+{
+    "Question Text": "186.- ¿Cuáles son los tres tipos de codificadores de voz?",
+    "Option 1": "Analógico, digital, híbrido",
+    "Option 2": "Sintonizador, modulador, demodulador",
+    "Option 3": "Transcodificador, compresor, descompresor",
+    "Correct Answer": "Vocoder, Waveform coder y Hybrid coder"
+},
+{
+    "Question Text": "187.- ¿Qué es un control?",
+    "Option 1": "Un mecanismo de supervisión",
+    "Option 2": "Un dispositivo de medición",
+    "Option 3": "Una técnica de evaluación",
+    "Correct Answer": "Cualquier medida de seguridad que definimos para tratar algún riesgo, pueden ser administrativas, físicas y tecnológicas"
+},
+{
+    "Question Text": "188.- Son responsables de definir y mantener la clasificación de la información y el nivel de seguridad requerido.",
+    "Option 1": "Gerentes de proyecto",
+    "Option 2": "Jefes de departamento",
+    "Option 3": "Auditores internos",
+    "Correct Answer": "Dueños de la información"
+},
+{
+    "Question Text": "189.- Son los encargados de implantar y cumplir las políticas y estándares de seguridad de la información, sobre los sistemas que diseñen, desarrollen o administren.",
+    "Option 1": "Desarrolladores de software",
+    "Option 2": "Ingenieros de red",
+    "Option 3": "Analistas de datos",
+    "Correct Answer": "Administradores de sistemas"
+},
+{
+    "Question Text": "190.- Son aquellas características inherentes a las instalaciones, procesos, maquinaria, equipo, herramientas y materiales, que pueden provocar un incidente, accidente, enfermedad de trabajo o daño material al centro de trabajo.",
+    "Option 1": "Actos inseguros",
+    "Option 2": "Riesgos laborales",
+    "Option 3": "Peligros potenciales",
+    "Correct Answer": "Condiciones peligrosas"
+},
+{
+    "Question Text": "191.- Son dos etapas del proceso de gestionar riesgos y oportunidades del SGI.",
+    "Option 1": "Implementar controles / Monitorear resultados",
+    "Option 2": "Evaluar el impacto / Revisar procedimientos",
+    "Option 3": "Planificar acciones / Ejecutar medidas",
+    "Correct Answer": "Identificar amenazas y peligros / Analizar el riesgo"
+},
+{
+    "Question Text": "192.- Es una debilidad de un activo que puede ser explotada por una o más amenazas.",
+    "Option 1": "Riesgo",
+    "Option 2": "Amenaza",
+    "Option 3": "Peligro",
+    "Correct Answer": "Vulnerabilidad"
+},
+{
+    "Question Text": "193.- ¿Qué define el código de ética?",
+    "Option 1": "Las políticas de seguridad",
+    "Option 2": "Las normas de calidad",
+    "Option 3": "Las directrices de innovación",
+    "Correct Answer": "Los lineamientos y criterios para el desempeño de todos nuestros empleados"
+},
+{
+    "Question Text": "194.- De acuerdo a la norma ISO/IEC20000-1:2018 ¿Qué es un objeto de configuración (CI)?",
+    "Option 1": "Elemento que debe ser documentado para ser rastreado",
+    "Option 2": "Componente que necesita ser actualizado regularmente",
+    "Option 3": "Elemento que requiere ser revisado periódicamente",
+    "Correct Answer": "Elemento que requiere ser controlado para entregar un servicio"
+},
+{
+    "Question Text": "195.- ¿Qué establece el código de ética?",
+    "Option 1": "Normas de comportamiento en el lugar de trabajo",
+    "Option 2": "Pautas para la interacción con clientes",
+    "Option 3": "Procedimientos para la gestión de proyectos",
+    "Correct Answer": "Tu responsabilidad como empleado o socio de América Móvil para cumplir las leyes aplicables, actuar con integridad y honestidad en todos los aspectos y ser responsables de nuestras acciones"
+},
+{
+    "Question Text": "196.- De acuerdo con el código de ética ¿Cómo demuestras el compromiso con el futuro de la empresa?",
+    "Option 1": "Asistiendo a todas las reuniones",
+    "Option 2": "Cumpliendo con las tareas asignadas",
+    "Option 3": "Trabajando horas extra",
+    "Correct Answer": "Comprender y adoptar los principios y valores de nuestra empresa"
+},
+{
+    "Question Text": "197.- Red bus, red estrella, red anillo o doble anillo, red en malla, red en árbol y red mixta ¿A qué término hacen referencia?",
+    "Option 1": "Tipos de protocolo",
+    "Option 2": "Modelos de comunicación",
+    "Option 3": "Tipos de servidores",
+    "Correct Answer": "Topologías de red"
+},
+{
+    "Question Text": "198.- La imagen y reputación de Telcel se consideran.",
+    "Option 1": "Bienes tangibles",
+    "Option 2": "Activos físicos",
+    "Option 3": "Recursos financieros",
+    "Correct Answer": "Bienes intangibles"
+},
+{
+    "Question Text": "199.- ¿Con qué navegadores es compatible la interfaz web de Zeek mi Auto?",
+    "Option 1": "Mozilla Firefox, Opera, Microsoft Edge",
+    "Option 2": "Internet Explorer, Safari, Google Chrome",
+    "Option 3": "Mozilla Firefox, Safari, Opera",
+    "Correct Answer": "Google Chrome, Safari, Microsoft Edge"
+},
+{
+    "Question Text": "200.- Preservación de la confidencialidad, integridad y disponibilidad de los activos de información.",
+    "Option 1": "Gestión de riesgos",
+    "Option 2": "Control de acceso",
+    "Option 3": "Monitoreo de redes",
+    "Correct Answer": "Seguridad de la información"
+},
+{
+    "Question Text": "201.- ¿Cuáles son los objetivos institucionales de Telcel?",
+    "Option 1": "Innovación, calidad, eficiencia, expansión, sostenibilidad",
+    "Option 2": "Rentabilidad, satisfacción de empleados, expansión, cumplimiento, calidad",
+    "Option 3": "Crecimiento, liderazgo, innovación, calidad, satisfacción de usuarios",
+    "Correct Answer": "Rentabilidad, satisfacción de usuarios, crecimiento, liderazgo, cumplimiento y sustentabilidad"
+},
+{
+    "Question Text": "202.- ¿Cuáles son las principales causas de accidentes identificadas a nivel nacional?",
+    "Option 1": "Electrocución, intoxicación, explosiones",
+    "Option 2": "Caída desde alturas, accidentes de tráfico, incendios",
+    "Option 3": "Caída mismo nivel, caída en o desde escaleras y escalones, golpe por objetos",
+    "Correct Answer": "Caída mismo nivel, caída en o desde escaleras y escalones, golpe por objetos"
+},
+{
+    "Question Text": "203.- Es el documento en el que se describen los principales tipos de emergencia que podrían presentarse en los centros de trabajo.",
+    "Option 1": "Manual de procedimientos",
+    "Option 2": "Protocolo de evacuación",
+    "Option 3": "Plan de continuidad del negocio",
+    "Correct Answer": "Plan de preparación y respuesta ante emergencias Telcel"
+},
+{
+    "Question Text": "204.- Es uno de los servicios preventivos de seguridad y salud que Telcel ha implementado en todos los centros de trabajo.",
+    "Option 1": "Servicio médico interno",
+    "Option 2": "Brigada de primeros auxilios",
+    "Option 3": "Plan de evacuación",
+    "Correct Answer": "Comité interno de protección civil"
+},
+{
+    "Question Text": "205.- Son 2 tipos de cambios que impactan en el desempeño de la SST.",
+    "Option 1": "Climáticos y sociales",
+    "Option 2": "Económicos y tecnológicos",
+    "Option 3": "Climáticos, Económicos, instalaciones y equipo",
+    "Correct Answer": "Personal y condiciones de trabajo, instalaciones y equipo"
+},
+{
+    "Question Text": "206.- Toda lesión orgánica o perturbación funcional, inmediata o posterior, o la muerte, producida repentinamente en ejercicio o con motivo del trabajo, cualesquiera que sean el lugar y el tiempo en que se preste.",
+    "Option 1": "Enfermedad profesional",
+    "Option 2": "Emergencia de trabajo",
+    "Option 3": "Riesgo de trabajo",
+    "Correct Answer": "Accidente de trabajo"
+},
+{
+    "Question Text": "207.- Situación anormal que puede causar un daño a la sociedad y propiciar un riesgo excesivo para la seguridad e integridad de la población en general, generada o asociada con la inminencia, alta probabilidad o presencia de un agente perturbador.",
+    "Option 1": "Desastre",
+    "Option 2": "Incidente",
+    "Option 3": "Desastres naturales",
+    "Correct Answer": "Emergencia"
+},
+{
+    "Question Text": "208.- Deben cumplir con los requisitos de seguridad que se encuentren vigentes y deben asegurar que la confidencialidad, integridad y disponibilidad de la información que utilizan se mantiene al más alto nivel.",
+    "Option 1": "Administradores de sistemas",
+    "Option 2": "Proveedores de servicios",
+    "Option 3": "Auditores internos",
+    "Correct Answer": "Usuarios Finales"
+},
+{
+    "Question Text": "209.- Definir, difundir, monitorear y en caso de ser necesario replantear y/o tomar acciones para la mejora particular del área a su cargo, así como mantener informado al personal es responsabilidad de:",
+    "Option 1": "Gerentes de proyecto",
+    "Option 2": "Supervisores de área",
+    "Option 3": "Encargados de seguridad",
+    "Correct Answer": "La alta dirección"
+},
+{
+    "Question Text": "210.- Los derechos ARCO se refiere a:",
+    "Option 1": "Derechos de Autor, Responsabilidad, Confidencialidad y Operaciones",
+    "Option 2": "Derechos de Aceptación, Reclamación, Cancelación y Observación",
+    "Option 3": "Derechos de: Acceso, Rectificación, Cancelación y Oposición",
+    "Correct Answer": "Derechos de: Acceso, Rectificación, Cancelación y Oposición"
+},
+{
+    "Question Text": "211.- Es el efecto de la incertidumbre sobre la consecución de los objetivos",
+    "Option 1": "Amenaza",
+    "Option 2": "Vulnerabilidad",
+    "Option 3": "Oportunidad",
+    "Correct Answer": "Riesgo de TI"
+},
+{
+    "Question Text": "212.- Interrupción inesperada de un servicio, reducción en la calidad de un servicio o fallo de un elemento de configuración que aún no ha tenido impacto en el servicio",
+    "Option 1": "Problema de TI",
+    "Option 2": "Evento de TI",
+    "Option 3": "Error de TI",
+    "Correct Answer": "Incidente de TI"
+},
+{
+    "Question Text": "213.- Es un actor, circunstancia, acción o evento que de presentarse podría causar daño o afectación a un sistema u organización",
+    "Option 1": "Riesgo",
+    "Option 2": "Vulnerabilidad",
+    "Option 3": "Peligro",
+    "Correct Answer": "Amenaza"
+},
+{
+    "Question Text": "214.- Es el conocimiento o datos que son esenciales para la organización. Por ejemplo: información financiera, datos personales, detalle de llamadas, etc.",
+    "Option 1": "Recurso de la información",
+    "Option 2": "Valor de la información",
+    "Option 3": "Activo intangible",
+    "Correct Answer": "Activo de la información"
+},
+{
+    "Question Text": "215.- Cualquier cosa que tenga valor para la Organización. Por ejemplo: información, software (programas de cómputo), físicos (como servidores, equipos de cómputo, red, etc.), servicios, personas, etc",
+    "Option 1": "Recurso",
+    "Option 2": "Elemento",
+    "Option 3": "Bien",
+    "Correct Answer": "Activo"
+},
+{
+    "Question Text": "216.- Brindar la mejor experiencia de servicio a través de las más avanzadas soluciones de comunicación, tecnología de información y contenido digital para acelerar el desarrollo de los países donde operamos y promover la igualdad de oportunidades entre la gente.",
+    "Option 1": "Visión de Telcel",
+    "Option 2": "Valores de Telcel",
+    "Option 3": "Principios de Telcel",
+    "Correct Answer": "Misión de Telcel"
+},
+{
+    "Question Text": "217.- Consolidarnos como un agente de cambio al proporcionar servicios de conectividad y alta tecnología; preservando nuestro liderazgo en la industria de las telecomunicaciones y reafirmando nuestro compromiso con las personas para hacer un mundo más próspero para todos.",
+    "Option 1": "Misión de Telcel",
+    "Option 2": "Valores de Telcel",
+    "Option 3": "Principios de Telcel",
+    "Correct Answer": "Visión de Telcel"
+},
+{
+    "Question Text": "218.- Experiencia del cliente, Innovación, Desarrollo humano, Sustentabilidad, Integridad, Eficiencia, Colaboración; hacen referencia a:",
+    "Option 1": "Principios de Telcel",
+    "Option 2": "Misión de Telcel",
+    "Option 3": "Visión de Telcel",
+    "Correct Answer": "Valores de Telcel"
+},
+{
+    "Question Text": "219.- ¿Por cuáles normas está integrado el Sistema de Gestión de la Calidad de Telcel?",
+    "Option 1": "ISO 14001, ISO 18001, ISO 50001 e ISO 9001",
+    "Option 2": "ISO 9001, ISO 27001, ISO 22000 e ISO 45001",
+    "Option 3": "ISO 10001, ISO 14001, ISO 20000 e ISO 27001",
+    "Correct Answer": "ISO 9001, ISO 20000-1, ISO 27001 e ISO 45001 en sus versiones vigentes"
+},
+{
+    "Question Text": "220.- Para la norma ISO 9001 el alcance es:",
+    "Option 1": "La gestión de calidad de los productos",
+    "Option 2": "La prestación del servicio de atención al cliente",
+    "Option 3": "La gestión ambiental de las operaciones",
+    "Correct Answer": "La prestación del servicio de telefonía celular"
+},
+{
+    "Question Text": "221.- Para la norma ISO/IEC 20000-1 el alcance es:",
+    "Option 1": "El soporte técnico de dispositivos",
+    "Option 2": "La gestión de la seguridad de la información",
+    "Option 3": "La gestión de calidad en los procesos de ventas",
+    "Correct Answer": "El Sistema de Gestión de Servicios que soporta actualmente a la generación de incidentes para el Global Service Operation Center (GSOC) de la Dirección de operación y mantenimiento, el Servicio al cliente en redención de puntos (Círculo Azul) y Recepción de pagos (SICATEL) de la Dirección de informática"
+},
+{
+    "Question Text": "222.- Para la norma ISO/IEC 27001 el alcance es:",
+    "Option 1": "La gestión de servicios de TI",
+    "Option 2": "La gestión de la calidad de los productos",
+    "Option 3": "La gestión ambiental de las operaciones",
+    "Correct Answer": "La protección de la información de datos personales de clientes y empleados, en los procesos para la comercialización del servicio de voz y datos de telefonía inalámbrica y el proceso interno de administrar recursos humanos"
+},
+{
+    "Question Text": "223.- Para la norma ISO 45001 el alcance es:",
+    "Option 1": "La gestión ambiental de las operaciones",
+    "Option 2": "La prestación de servicios de atención al cliente",
+    "Option 3": "La gestión de la seguridad y salud en el trabajo",
+    "Correct Answer": "El Sistema de Gestión de Seguridad y Salud en el Trabajo (SGSST) aplica a todos los trabajadores tanto internos como externos, así como a los visitantes y clientes que se encuentren en los centros de trabajo, en las 9 regiones celulares del país"
+},
+{
+    "Question Text": "224.- Es una base de datos en la que existe información sobre el estado de los teléfonos móviles, en la cual se tienen tres listas de IMEI: la blanca, la gris y la negra.",
+    "Option 1": "HLR (Home Location Register)",
+    "Option 2": "VLR (Visitor Location Register)",
+    "Option 3": "MSC (Mobile Switching Center)",
+    "Correct Answer": "EIR (Equipment Identity Register)"
+},
+{
+    "Question Text": "225.- Son dos controles a través de los cuales la empresa proporciona condiciones seguras y saludables",
+    "Option 1": "Supervisión continua y auditorías internas",
+    "Option 2": "Políticas de privacidad y firewalls",
+    "Option 3": "Equipos de protección personal y señalización adecuada",
+    "Correct Answer": "Establecimiento de procesos y políticas, programas de capacitación en materia de seguridad y salud"
+},
+{
+    "Question Text": "226.- Este es un solo tono de 10 kHz de distinta duración. Este tono se genera en el teléfono y se envía a la radiobase.",
+    "Option 1": "DTMF – Dual Tone Multi Frequency",
+    "Option 2": "CNG – Comfort Noise Generation",
+    "Option 3": "SIT – Special Information Tone",
+    "Correct Answer": "ST – Signal Tone"
+},
+{
+    "Question Text": "227.- Es un conjunto de dispositivos conectados entre sí, que permite a los usuarios tener transferencia de datos y compartir recursos de hardware y de software.",
+    "Option 1": "Internet",
+    "Option 2": "Intranet",
+    "Option 3": "LAN (Local Area Network)",
+    "Correct Answer": "Red de datos"
+},
+{
+    "Question Text": "228.- Es el identificador de cada host dentro de su red de redes",
+    "Option 1": "Dirección MAC",
+    "Option 2": "Hostname",
+    "Option 3": "Dirección URL",
+    "Correct Answer": "Dirección IP"
+},
+{
+    "Question Text": "229.- Es cuando enviamos un datagrama desde un ordenador hasta otro y éste tiene que ser capaz de encontrar la ruta más adecuada para llegar a su destino.",
+    "Option 1": "Conmutación",
+    "Option 2": "Encaminamiento",
+    "Option 3": "Multiplexación",
+    "Correct Answer": "Encaminamiento"
+},
+{
+    "Question Text": "230.- Son utilizados para distinguir las distintas conexiones dentro de un mismo ordenador.",
+    "Option 1": "Direcciones IP",
+    "Option 2": "Sockets",
+    "Option 3": "Interfaces de red",
+    "Correct Answer": "Puertos"
+},
+{
+    "Question Text": "231.- Es la especificación de cómo se cumplen los requisitos de las normas ISO implementadas en el sistema de gestión integrado de Telcel, ISO 9001, ISO 20000-1, ISO 27001 e ISO 45001 vigentes.",
+    "Option 1": "Manual de procedimientos operativos",
+    "Option 2": "Plan de calidad",
+    "Option 3": "Guía de implementación ISO",
+    "Correct Answer": "Manual del sistema de gestión integrado"
+},
+{
+    "Question Text": "232.- Base de datos utilizada para registrar los elementos de configuración, y las relaciones entre los mismos a lo largo del ciclo de vida del servicio.",
+    "Option 1": "Registro de activos",
+    "Option 2": "CMDB (Configuration Management Database)",
+    "Option 3": "Repositorio de servicios",
+    "Correct Answer": "Inventario de activos"
+},
+{
+    "Question Text": "233.- Documento que elabora la organización de TI para informar a clientes y usuarios. Proporciona una visión esquemática, en términos de negocio, de todos los servicios de negocio y de la infraestructura ofrecidos por el proveedor TI.",
+    "Option 1": "Acuerdo de nivel de servicio (SLA)",
+    "Option 2": "Plan de capacidad",
+    "Option 3": "Esquema de arquitectura",
+    "Correct Answer": "Catalogo de servicios"
+},
+{
+    "Question Text": "234.- Persona u organización que podría recibir o que recibe un producto o un servicio, destinado a esa persona u organización o requerido por ella.",
+    "Option 1": "Proveedor",
+    "Option 2": "Usuario",
+    "Option 3": "Distribuidor",
+    "Correct Answer": "Cliente"
+},
+{
+    "Question Text": "235.- Adición, modificación o eliminación referida a hardware, redes, software, aplicaciones, entornos, sistemas, implementaciones o documentación relacionada, previamente aprobados, de apoyo o base.",
+    "Option 1": "Actualización",
+    "Option 2": "Migración",
+    "Option 3": "Implementación",
+    "Correct Answer": "Cambio"
+},
+{
+    "Question Text": "236.- Recopilación, de uno o más elementos de configuración nuevos o modificados desplegada en el entorno de producción como consecuencia de uno o más cambios.",
+    "Option 1": "Implementación",
+    "Option 2": "Lanzamiento",
+    "Option 3": "Publicación",
+    "Correct Answer": "Entrega"
+},
+{
+    "Question Text": "237.- Medio de entrega de valor al cliente facilitando que alcance los resultados que quiere lograr.",
+    "Option 1": "Proceso",
+    "Option 2": "Producto",
+    "Option 3": "Sistema",
+    "Correct Answer": "Servicio"
+},
+{
+    "Question Text": "238.- Es una medida de las consecuencias, daños o efectos de la materialización de un riesgo.",
+    "Option 1": "Probabilidad",
+    "Option 2": "Vulnerabilidad",
+    "Option 3": "Frecuencia",
+    "Correct Answer": "Impacto"
+},
+{
+    "Question Text": "239.- Es una medida o mecanismo para mitigar un riesgo. Es un mecanismo establecido para prevenir, detectar y reaccionar ante un evento de seguridad.",
+    "Option 1": "Riesgo",
+    "Option 2": "Amenaza",
+    "Option 3": "Vulnerabilidad",
+    "Correct Answer": "Control"
+},
+{
+    "Question Text": "240.- ¿Cómo se realiza la garantía de los dispositivos IoT de las marcas Kodak, Pomo y Alcatel?",
+    "Option 1": "Se realiza a través de un centro de servicio especializado",
+    "Option 2": "Se realiza el proceso de garantía vigente para dispositivos IoT",
+    "Option 3": "Se realiza directamente con el fabricante",
+    "Correct Answer": "Se realiza el proceso de garantía vigente para equipos celulares"
+},
+{
+    "Question Text": "241.- Selecciona uno de los escenarios donde no aplica la penalización por falla fuera de caja.",
+    "Option 1": "Cuando el equipo tiene menos de 7 días de uso",
+    "Option 2": "Cuando el cliente tiene una suscripción premium",
+    "Option 3": "No aplica para las marcas que ya no tienen relación comercial con Telcel",
+    "Correct Answer": "No aplica para las marcas que ya no tienen relación comercial con Telcel"
+},
+{
+    "Question Text": "242.- ¿Cuáles números indican el proveedor o fabricante en el IMEI?",
+    "Option 1": "1 y 2",
+    "Option 2": "5 y 6",
+    "Option 3": "9 y 10",
+    "Correct Answer": "7 y 8"
+},
+{
+    "Question Text": "243.- ¿Cuánto tiempo se tiene para generar una solicitud de Servicio Técnico?",
+    "Option 1": "1 minuto",
+    "Option 2": "5 minutos",
+    "Option 3": "10 minutos",
+    "Correct Answer": "3 minutos"
+},
+{
+    "Question Text": "244.- ¿Cuándo el cliente presiona END, el teléfono transmite el signal tone durante?",
+    "Option 1": "0.5 s a través del RVC",
+    "Option 2": "1.2 s a través del RVC",
+    "Option 3": "2.0 s a través del RVC",
+    "Correct Answer": "1.8 s a través del RVC"
+},
+{
+    "Question Text": "245.- Soporte de información e instalaciones se consideran:",
+    "Option 1": "Activos intangibles",
+    "Option 2": "Recursos humanos",
+    "Option 3": "Bienes de consumo",
+    "Correct Answer": "Activos fijos tangibles"
+},
+{
+    "Question Text": "246.- Organismo bipartito en cada centro de trabajo conformado por representantes de los trabajadores y del patrón, que realiza recorridos de verificación para prevenir actos y condiciones inseguras o peligrosas.",
+    "Option 1": "Comité de Emergencias",
+    "Option 2": "Consejo de Administración",
+    "Option 3": "Brigada de Protección Civil",
+    "Correct Answer": "Comisión de Seguridad e Higiene"
+},
+{
+    "Question Text": "247.- ¿Cuál es el color que indica obligación dentro de las señales de seguridad?",
+    "Option 1": "Rojo",
+    "Option 2": "Verde",
+    "Option 3": "Amarillo",
+    "Correct Answer": "Azul"
+},
+{
+    "Question Text": "248.- ¿Cuál es el objetivo del Programa de Salud Integral Carso?",
+    "Option 1": "Proveer atención médica gratuita a los empleados",
+    "Option 2": "Promover la actividad física y la dieta saludable",
+    "Option 3": "Ayudar a identificar oportunamente enfermedades crónico degenerativas",
+    "Correct Answer": "Ayudar a identificar oportunamente enfermedades crónico degenerativas"
+},
+{
+    "Question Text": "249.- ¿Cuál es el documento que describe las etapas mediante las cuales Telcel informa, investiga y toma acciones para determinar y gestionar incidentes y las no conformidades en materia de Seguridad y Salud en el Trabajo?",
+    "Option 1": "Manual de Procedimientos de Seguridad",
+    "Option 2": "Guía de Buenas Prácticas en el Trabajo",
+    "Option 3": "Política de Salud y Seguridad Ocupacional",
+    "Correct Answer": "PR-00.00.00.00.00.027 Gestionar incidentes y No conformidades del SGSST"
+},
+{
+    "Question Text": "250.- ¿Cuál es la definición de fuego?",
+    "Option 1": "Es una combustión lenta que produce calor",
+    "Option 2": "Es una reacción química de alta velocidad que libera luz y calor al momento de la oxidación",
+    "Option 3": "Es un proceso de oxidación que se produce sin emisión de luz",
+    "Correct Answer": "Es una reacción química de alta velocidad que libera luz y calor al momento de la oxidación"
+},
+{
+    "Question Text": "251.- ¿Cuál es el ciclo de vida de un servicio?",
+    "Option 1": "Iniciación, desarrollo, implementación, finalización",
+    "Option 2": "Planificación, ejecución, monitoreo, cierre",
+    "Option 3": "Mejora, planificación, diseño, transición y entrega",
+    "Correct Answer": "Mejora, planificación, diseño, transición y entrega"
+},
+{
+    "Question Text": "252.- ¿Cuál es el propósito de las señales de seguridad e higiene?",
+    "Option 1": "Indicar las salidas de emergencia",
+    "Option 2": "Prevenir accidentes y ayudar a los trabajadores a realizar sus actividades con mayor seguridad",
+    "Option 3": "Mostrar la ubicación de los extintores",
+    "Correct Answer": "Prevenir accidentes y ayudar a los trabajadores a realizar sus actividades con mayor seguridad"
+},
+{
+    "Question Text": "253.- ¿Cuáles son las clases de fuego?",
+    "Option 1": "Tipo A: Por materiales metálicos. Tipo B: Por líquidos y gases inflamables. Tipo C: Por materiales radiactivos",
+    "Option 2": "Tipo A: Por combustibles sólidos ordinarios. Tipo B: Por líquidos y gases inflamables. Tipo C: Por equipamientos eléctricos. Tipo D: Por sodio, potasio o magnesio. Tipo K: Por aceites vegetales y animales",
+    "Option 3": "Tipo A: Por líquidos y gases inflamables. Tipo B: Por materiales metálicos. Tipo C: Por equipamientos eléctricos",
+    "Correct Answer": "Tipo A: Por combustibles sólidos ordinarios. Tipo B: Por líquidos y gases inflamables. Tipo C: Por equipamientos eléctricos. Tipo D: Por sodio, potasio o magnesio. Tipo K: Por aceites vegetales y animales"
+},
+{
+    "Question Text": "254.- ¿Qué es un incendio?",
+    "Option 1": "Es una combustión controlada",
+    "Option 2": "Es la etapa en la que el fuego se propaga rapidamente sin control de tiempo y espacio",
+    "Option 3": "Es una reacción química de baja velocidad",
+    "Correct Answer": "Es la etapa en la que el fuego se propaga rapidamente sin control de tiempo y espacio"
+},
+{
+    "Question Text": "255.- La interfaz de radio GSM utiliza una combinación de:",
+    "Option 1": "FDMA y QAM",
+    "Option 2": "TDMA, CDMA con una pizca de salto en frecuencia",
+    "Option 3": "OFDM y SC-FDMA",
+    "Correct Answer": "TDMA, CDMA con una pizca de salto en frecuencia"
+},
+{
+    "Question Text": "256.- Objetivos establecidos anualmente y estos se toman como referencia para que cada Dirección establezca sus objetivos particulares, cuidando que estén alineados y consideren el SGI",
+    "Option 1": "Objetivos de la Norma ISO 20000-1 (20k1)",
+    "Option 2": "Objetivos de la Norma ISO 27001",
+    "Option 3": "Objetivos de la Norma 9k1 (9000-1)",
+    "Correct Answer": "Objetivos de la Norma 9k1 (9000-1)"
+},
+{
+    "Question Text": "257.- Es el objetivo definido para la Norma ISO 20000-1 (20k1)",
+    "Option 1": "Asegurar la satisfacción del cliente",
+    "Option 2": "Asegurar el cumplimiento al 100% de los procesos en los servicios en el alcance del SGS",
+    "Option 3": "Garantizar la confidencialidad de la información",
+    "Correct Answer": "Asegurar el cumplimiento al 100% de los procesos en los servicios en el alcance del SGS"
+},
+{
+  "Question Text": "258.- Son objetivos propuestos para la Norma ISO 45000-1 para el ejercicio 2024",
+  "Option 1": "Aumentar la productividad, Reducir costos operativos",
+  "Option 2": "Incidentes y enfermedades de trabajo, Validar el cumplimiento de los requisitos legales y otros requisitos para la SST",
+  "Option 3": "Mejorar la satisfacción del cliente, Incrementar la innovación",
+  "Correct Answer": "Incidentes y enfermedades de trabajo, Validar el cumplimiento de los requisitos legales y otros requisitos para la SST"
+},
+{
+  "Question Text": "259.- Es un conjunto de herramientas de desarrollo que le permite a un programador crear aplicaciones para un sistema bastante concreto.",
+  "Option 1": "API – Interfaz de Programación de Aplicaciones",
+  "Option 2": "IDE – Entorno de Desarrollo Integrado",
+  "Option 3": "SDK – Kit de desarrollo de aplicaciones (Software Development KIT)",
+  "Correct Answer": "SDK – Kit de desarrollo de aplicaciones (Software Development KIT)"
+},
+{
+  "Question Text": "260.- En México la temporada de huracanes abarca el periodo comprendido entre los meses:",
+  "Option 1": "Abril y Octubre",
+  "Option 2": "Junio y Diciembre",
+  "Option 3": "Mayo y Noviembre",
+  "Correct Answer": "Mayo y Noviembre"
+},
+{
+  "Question Text": "261.- ¿Qué son las adicciones?",
+  "Option 1": "Son hábitos saludables que mejoran la calidad de vida",
+  "Option 2": "Son conductas peligrosas que afectan a tu salud física , mental y social",
+  "Option 3": "Son actividades recreativas que reducen el estrés",
+  "Correct Answer": "Son conductas peligrosas que afectan a tu salud física , mental y social"
+},
+{
+  "Question Text": "262.- ¿Cuáles son los mayores riesgos de incendio dentro de Telcel?",
+  "Option 1": "Por fallos en el sistema de calefacción o aire acondicionado",
+  "Option 2": "Por cortocircuitos o por almacenamiento de materiales combustibles",
+  "Option 3": "Por fugas de gas en la cocina",
+  "Correct Answer": "Por cortocircuitos o por almacenamiento de materiales combustibles"
+},
+{
+  "Question Text": "263.- Su objetivo es prevenir accidentes en el área de trabajo identificando condiciones dentro de las instalaciones que puedan causarnos accidentes.",
+  "Option 1": "Equipo de primeros auxilios",
+  "Option 2": "Brigada de emergencia",
+  "Option 3": "Comisión de seguridad e higiene",
+  "Correct Answer": "Comisión de seguridad e higiene"
+},
+{
+  "Question Text": "264.- Es la clasificación de los agentes extintores de acuerdo con la apariencia que tienen al ser expuestos a la atmósfera.",
+  "Option 1": "Líquidos, sólidos, gases y vapores",
+  "Option 2": "Orgánicos, inorgánicos, sintéticos y naturales",
+  "Option 3": "Ácidos, bases, neutros y alcalinos",
+  "Correct Answer": "Líquidos, sólidos, gases y vapores"
+},
+{
+  "Question Text": "265.- Persona u organización (interna o externa) que pueden afectar, ser afectadas o percibirse como afectadas por una decisión o actividad relacionada al SGS o los servicios.",
+  "Option 1": "Cliente",
+  "Option 2": "Proveedor",
+  "Option 3": "Parte interesada",
+  "Correct Answer": "Parte interesada"
+},
+{
+  "Question Text": "266.- De acuerdo con la norma ISO/IEC 20000-1:2018, ¿cuáles son las fases que componen el ciclo de vida de un servicio?",
+  "Option 1": "Inicio, desarrollo, implementación, cierre",
+  "Option 2": "Planificación, ejecución, monitoreo, cierre",
+  "Option 3": "Mejora, planificación, diseño, transición y entrega",
+  "Correct Answer": "Mejora, planificación, diseño, transición y entrega"
+},
+{
+  "Question Text": "267.- Término genérico para definir el conjunto de parámetros que definen el tipo y la calidad del servicio proporcionado.",
+  "Option 1": "SLA – Acuerdo de Nivel de Servicio",
+  "Option 2": "QoS – Quality of Service",
+  "Option 3": "KPI – Indicador Clave de Rendimiento",
+  "Correct Answer": "QoS – Quality of Service"
+},
+{
+  "Question Text": "268.- TÉCNICA DE MODULACIÓN POR FRECUENCIA O FRECUENCIA MODULADA.",
+  "Option 1": "MODULACIÓN EN DONDE LA FRECUENCIA Y LA AMPLITUD DE LA SEÑAL PORTADORA VARÍAN SIN FUNCION DEL AMPLITUD DE LA SEÑAL BASE.",
+  "Option 2": "ES CUANDO LA AMPLITUD DE LA SEÑAL PORTADORA VARÍA DE ACUERDO A LA SEÑAL BASE.",
+  "Option 3": "ES CUANDO LA POTENCIA DE LA SEÑAL QUE SE DESEA TRASMITIR VARIA EN FUNCION DE LA FRECUENCIA MAS NO DE LA AMPLITUD DE LA SEÑAL PORTADORA",
+  "Correct Answer": "ES CUANDO LA SEÑAL QUE SE DESEA TRASMITIR HACE VARIAR LA FRECUENCIA MAS NO LA AMPLITUD DE LA SEÑAL PORTADORA."
+}   
+
+
+
+
+
+]

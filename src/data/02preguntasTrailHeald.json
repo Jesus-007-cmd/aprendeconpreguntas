@@ -1,0 +1,354 @@
+[
+  
+    {
+      "Question Text": "¿Qué son los módulos en Trailhead?",
+      "Option 1": "Proyectos del mundo real en Trailhead Playground.",
+      "Option 2": "Rutas guiadas compuestas de módulos y proyectos.",
+      "Option 3": "Una colección de rutas de aprendizaje personalizadas.",
+      "Correct Answer": "Unidades breves que guían por temas específicos."
+    },
+    {
+      "Question Text": "¿Qué ofrecen los proyectos en Trailhead?",
+      "Option 1": "Habilidades relevantes y práctica con los productos de Salesforce.",
+      "Option 2": "Una colección de rutas de aprendizaje personalizadas.",
+      "Option 3": "Rutas guiadas compuestas de módulos y proyectos.",
+      "Correct Answer": "Habilidades relevantes y práctica con los productos de Salesforce."
+    },
+    {
+      "Question Text": "¿Qué son los trailmixes en Trailhead?",
+      "Option 1": "Problemas empresariales del mundo real.",
+      "Option 2": "Proyectos del mundo real en Trailhead Playground.",
+      "Option 3": "Rutas de aprendizaje personalizadas creadas por el usuario.",
+      "Correct Answer": "Rutas de aprendizaje personalizadas creadas por el usuario."
+    },
+    {
+      "Question Text": "¿Qué permiten las superbadges en Trailhead?",
+      "Option 1": "Validar sus habilidades mediante exámenes escritos.",
+      "Option 2": "Interactuar con Trailblazers de todo el mundo.",
+      "Option 3": "Aplicar nuevas habilidades en problemas empresariales del mundo real.",
+      "Correct Answer": "Aplicar nuevas habilidades en problemas empresariales del mundo real."
+    },
+    {
+      "Question Text": "¿Qué demuestran las certificaciones de Salesforce?",
+      "Option 1": "Experiencias con productos de Salesforce.",
+      "Option 2": "Conocimientos y experiencias con productos de Salesforce.",
+      "Option 3": "Habilidades para mejorar su currículum.",
+      "Correct Answer": "Conocimientos y experiencias con productos de Salesforce."
+    },
+    {
+      "Question Text": "¿Dónde pueden los usuarios obtener ayuda y soporte en su recorrido de aprendizaje?",
+      "Option 1": "En las certificaciones de Salesforce.",
+      "Option 2": "En Trailhead Playground.",
+      "Option 3": "En la Trailblazer Community.",
+      "Correct Answer": "En la Trailblazer Community."
+    },
+    {
+      "Question Text": "Según el texto, ¿qué son las rutas en Trailhead?",
+      "Option 1": "Rutas guiadas compuestas de módulos y proyectos.",
+      "Option 2": "Una colección de problemas empresariales del mundo real.",
+      "Option 3": "Herramientas para mejorar su currículum.",
+      "Correct Answer": "Rutas guiadas compuestas de módulos y proyectos."
+    },
+    {
+      "Question Text": "¿Qué demuestran las certificaciones de Salesforce?",
+      "Option 1": "Experiencias con productos de Salesforce.",
+      "Option 2": "Conocimientos y experiencias con productos de Salesforce.",
+      "Option 3": "Habilidades para mejorar su currículum.",
+      "Correct Answer": "Mejorar su currículum y a validar sus habilidades."
+    },
+    {
+      "Question Text": "¿Qué característica permite el modelo 'Metadata model' en la etapa 'Connect' de Salesforce Data Cloud?",
+      "Option 1": "Automatización completa de marketing digital.",
+      "Option 2": "Control total sobre la seguridad de los datos en la nube.",
+      "Option 3": "Conexión de aplicaciones de terceros sin interfaz.",
+      "Correct Answer": "Control total sobre la seguridad de los datos en la nube."
+  },
+  {
+    "Question Text": "En la etapa 'Harmonize' de Salesforce Data Cloud, ¿qué función cumple el 'Customer Graph'?",
+    "Option 1": "Seguimiento de la eficiencia de los empleados.",
+    "Option 2": "Protección contra el fraude de datos.",
+    "Option 3": "Mejora de la velocidad de procesamiento de datos.",
+    "Correct Answer": "Mejora de la velocidad de procesamiento de datos."
+},
+{
+  "Question Text": "¿Qué objetivo principal tiene la etapa 'Engage' en Salesforce Data Cloud?",
+  "Option 1": "Reducir los costos operativos de la empresa.",
+  "Option 2": "Minimizar el uso de recursos computacionales.",
+  "Option 3": "Maximizar la retención de empleados.",
+  "Correct Answer": "Reducir los costos operativos de la empresa."
+},
+{
+  "Question Text": "¿Cómo contribuye 'Customer Magic' en la etapa 'Experience' de Salesforce Data Cloud?",
+  "Option 1": "Implementando realidad aumentada para entrenamientos.",
+  "Option 2": "Proporcionando análisis en tiempo real del rendimiento financiero.",
+  "Option 3": "Automatizando las respuestas del servicio de atención al cliente.",
+  "Correct Answer": "Automatizando las respuestas del servicio de atención al cliente."
+},
+{
+  "Question Text": "¿Qué ventaja ofrece la característica 'Zero copy federation' en la etapa 'Connect' de Salesforce Data Cloud?",
+  "Option 1": "Permite una mayor personalización de los informes de ventas.",
+  "Option 2": "Facilita la migración de datos entre diferentes plataformas.",
+  "Option 3": "Aumenta la velocidad de las transacciones en línea.",
+  "Correct Answer": "Facilita la migración de datos entre diferentes plataformas."
+},
+{
+  "Question Text": "¿Cómo ayuda 'Customer 360' en la etapa 'Engage' a mejorar la interacción con los clientes?",
+  "Option 1": "Optimizando los canales de comunicación interna.",
+  "Option 2": "Incrementando la seguridad en las transacciones en línea.",
+  "Option 3": "Reduciendo el tiempo de respuesta en el soporte técnico.",
+  "Correct Answer": "Reduciendo el tiempo de respuesta en el soporte técnico."
+},
+{
+  "Question Text": "¿Qué facilita la etapa 'Experience' con la característica 'Customer Magic'?",
+  "Option 1": "Reducción de costos de infraestructura IT.",
+  "Option 2": "Integración de nuevos empleados.",
+  "Option 3": "Mejora de procesos logísticos.",
+  "Correct Answer": "Reducción de costos de infraestructura IT."
+},
+{
+  "Question Text": "¿Cuál es el porcentaje de clientes que espera que las interacciones con una empresa estén personalizadas?",
+  "Option 1": "50%",
+  "Option 2": "65%",
+  "Option 3": "80%",
+  "Correct Answer": "71%"
+},
+{
+  "Question Text": "Según el texto, ¿cuál es el número promedio de aplicaciones que tiene una empresa media?",
+  "Option 1": "500",
+  "Option 2": "800",
+  "Option 3": "950",
+  "Correct Answer": "1,061"
+},
+{
+  "Question Text": "¿Qué permite Salesforce Data Cloud en términos de integración de datos?",
+  "Option 1": "Solamente permite integrar datos de servicios móviles y web.",
+  "Option 2": "Permite integrar datos solo de dispositivos conectados.",
+  "Option 3": "Integra datos solo desde aplicaciones de Salesforce.",
+  "Correct Answer": "Aporta datos desde cualquier fuente, incluidos sistemas heredados y dispositivos conectados."
+},
+{
+  "Question Text": "¿Qué problema resuelve Salesforce Data Cloud en relación con la visión del cliente?",
+  "Option 1": "Dificultad para comunicar cambios a los clientes en tiempo real.",
+  "Option 2": "Falta de herramientas para análisis de datos de ventas.",
+  "Option 3": "Incapacidad de compartir datos entre departamentos.",
+  "Correct Answer": "Dificultad para sintetizar todos los datos en una vista unificada del cliente."
+},
+{
+  "Question Text": "¿Qué esperan los clientes de las interacciones con las empresas según el texto?",
+  "Option 1": "Interacciones rápidas y eficientes",
+  "Option 2": "Comunicación constante y actualizaciones regulares",
+  "Option 3": "Descuentos y ofertas personalizadas",
+  "Correct Answer": "Interacciones personalizadas"
+},
+{
+  "Question Text": "¿Cuál es el principal desafío que enfrentan las empresas al tratar de personalizar las interacciones según el texto?",
+  "Option 1": "Falta de tecnología adecuada",
+  "Option 2": "Falta de experiencia en el manejo de datos",
+  "Option 3": "Costos elevados de implementación de soluciones personalizadas",
+  "Correct Answer": "Ir al ritmo de los nuevos dispositivos, datos y experiencias"
+},
+{
+  "Question Text": "¿Qué solución ofrece Salesforce Data Cloud para el problema de fragmentación de perfiles de cliente?",
+  "Option 1": "Unificación de todos los datos de clientes en un sistema de informes",
+  "Option 2": "Creación de un único perfil digital por cliente",
+  "Option 3": "Reducción del número de aplicaciones usadas",
+  "Correct Answer": "Unificación de todos los datos de clientes en una única fuente de información"
+},
+{
+  "Question Text": "¿Cómo se desarrolla el gráfico de cliente en tiempo real según el texto?",
+  "Option 1": "Se actualiza semanalmente",
+  "Option 2": "Se mantiene estático una vez creado",
+  "Option 3": "Se genera una vez al mes",
+  "Correct Answer": "Se desarrolla de manera dinámica a medida que se incorporan más datos sobre los clientes"
+},
+{
+  "Question Text": "¿Dónde pueden activarse los datos obtenidos en Salesforce Data Cloud?",
+  "Option 1": "Solo en informes internos",
+  "Option 2": "Exclusivamente en campañas de marketing digital",
+  "Option 3": "Únicamente en ventas y servicio al cliente",
+  "Correct Answer": "En toda la plataforma de Customer 360"
+},
+{
+  "Question Text": "¿Qué herramientas de Salesforce se mencionan que se benefician de los datos en tiempo real de Data Cloud?",
+  "Option 1": "Marketing Cloud y Service Cloud",
+  "Option 2": "Tableau y Slack",
+  "Option 3": "Chatter y Salesforce Maps",
+  "Correct Answer": "Flow y Einstein"
+},
+{
+  "Question Text": "Según el texto, ¿cuáles son los beneficios directos de usar la plataforma Customer 360 mejorada por Data Cloud?",
+  "Option 1": "Mejora en la gestión de empleados y reducción de tareas manuales",
+  "Option 2": "Aumento de la visibilidad en redes sociales y mejora en el manejo de datos",
+  "Option 3": "Expansión de operaciones internacionales y diversificación de productos",
+  "Correct Answer": "Ayuda a las empresas a ahorrar costes y tiempo, y a incrementar los ingresos"
+},
+{
+  "Question Text": "¿Cómo beneficia Data Cloud a los representantes de ventas durante las llamadas con clientes?",
+  "Option 1": "Proporcionando informes de ventas automatizados después de cada llamada",
+  "Option 2": "Facilitando la grabación automática de las llamadas para revisión futura",
+  "Option 3": "Ofreciendo descuentos automáticos durante las llamadas",
+  "Correct Answer": "Recibiendo orientación en tiempo real para adaptar la conversación y ofrecer propuestas personalizadas"
+},
+{
+  "Question Text": "¿Qué permite Data Cloud a los representantes de servicio en campo?",
+  "Option 1": "Emitir facturas automáticamente al resolver problemas",
+  "Option 2": "Realizar encuestas de satisfacción en tiempo real",
+  "Option 3": "Realizar seguimiento de la ubicación en tiempo real del personal de campo",
+  "Correct Answer": "Proporcionar un servicio proactivo con alertas en tiempo real que detectan retos y permiten intervenciones efectivas"
+},
+{
+  "Question Text": "¿Qué capacidades ofrece Data Cloud para los expertos en marketing?",
+  "Option 1": "Envío automático de correos electrónicos a todos los clientes diariamente",
+  "Option 2": "Creación de anuncios digitales sin supervisión humana",
+  "Option 3": "Ajuste de presupuestos de marketing basado en datos históricos",
+  "Correct Answer": "Proporcionar mensajes personalizados a través de canales que se adaptan a la actividad del cliente en tiempo real"
+},
+{
+  "Question Text": "¿Cómo ayuda Data Cloud a los comercios en línea?",
+  "Option 1": "Optimizando el diseño web para todos los usuarios",
+  "Option 2": "Generando reportes mensuales de desempeño de ventas",
+  "Option 3": "Manteniendo un inventario actualizado automáticamente",
+  "Correct Answer": "Creando experiencias de compra personalizadas que se adaptan a las acciones de los clientes en tiempo real"
+},
+{
+  "Question Text": "¿Qué tipo de herramientas utilizan los equipos de TI con Data Cloud?",
+  "Option 1": "Herramientas avanzadas de programación para análisis de datos",
+  "Option 2": "Software especializado en la gestión de redes internas",
+  "Option 3": "Programas de formación continua para empleados",
+  "Correct Answer": "Herramientas con poca programación que utilizan datos en tiempo real para funciones como detección de fraudes"
+},
+{
+  "Question Text": "¿Qué beneficio específico proporciona MuleSoft a través de Salesforce Data Cloud?",
+  "Option 1": "Automatiza completamente el marketing en redes sociales",
+  "Option 2": "Facilita la gestión de recursos humanos en tiempo real",
+  "Option 3": "Centraliza el almacenamiento de datos en la nube",
+  "Correct Answer": "Desbloquea datos en tiempo real en cualquier sistema moderno o heredado"
+},
+{
+  "Question Text": "¿Cómo contribuye Tableau a las operaciones de negocio con Salesforce Data Cloud?",
+  "Option 1": "Optimizando las interacciones del cliente mediante inteligencia artificial",
+  "Option 2": "Facilitando la colaboración interna con herramientas de comunicación",
+  "Option 3": "Proporcionando soluciones de almacenamiento de datos a gran escala",
+  "Correct Answer": "Permitiendo a las empresas supervisar KPIs en tiempo real para fundamentar acciones empresariales"
+},
+{
+  "Question Text": "¿Qué mejora introduce Slack cuando se integra con Salesforce Data Cloud?",
+  "Option 1": "Proporciona análisis detallados de la productividad del empleado",
+  "Option 2": "Automatiza la asignación de tareas y proyectos",
+  "Option 3": "Ofrece gestión mejorada de relaciones con clientes",
+  "Correct Answer": "Aumenta la eficacia permitiendo que los equipos vean automáticamente los datos en tiempo real con flujos de trabajo inteligentes"
+},
+{
+  "Question Text": "¿Cómo ayuda Data Cloud a las organizaciones de salud y ciencias de la vida?",
+  "Option 1": "Mejorando la precisión de los diagnósticos médicos",
+  "Option 2": "Automatizando la administración de medicamentos",
+  "Option 3": "Gestionando la logística del suministro médico",
+  "Correct Answer": "Conectando datos clínicos y no clínicos para proporcionar información inteligente que puede ayudar a mejorar los resultados de los pacientes"
+},
+{
+  "Question Text": "¿De qué manera Data Cloud asiste a los asesores financieros y banqueros?",
+  "Option 1": "Proporcionando análisis de tendencias del mercado",
+  "Option 2": "Facilitando transacciones automáticas seguras",
+  "Option 3": "Optimizando estrategias de inversión a largo plazo",
+  "Correct Answer": "Permitiendo que ofrezcan consejos adecuados en el momento oportuno para ayudar a los clientes a acelerar sus objetivos financieros"
+},
+{
+  "Question Text": "¿Qué ofrece la colección de Data Cloud en AppExchange?",
+  "Option 1": "Herramientas para mejorar la comunicación interna",
+  "Option 2": "Soluciones para la gestión de recursos humanos",
+  "Option 3": "Software para la gestión de proyectos",
+  "Correct Answer": "Aplicaciones que ayudan a las empresas a automatizar la publicidad oportuna y a enriquecer los perfiles de los clientes"
+},
+{
+  "Question Text": "¿Qué es un KPI y para qué se utiliza en el contexto empresarial?",
+  "Option 1": "Es un programa de software que automatiza las operaciones de ventas.",
+  "Option 2": "Es un tipo de política corporativa enfocada en la gestión de empleados.",
+  "Option 3": "Es una herramienta de marketing digital para redes sociales.",
+  "Correct Answer": "Es una medida cuantificable utilizada para evaluar el éxito en alcanzar objetivos críticos para el negocio."
+},
+{
+  "Question Text": "¿Cuál de las siguientes opciones describe mejor la manera en que funciona Salesforce Data Cloud?",
+  "Option 1": "Utiliza un lago de datos que no unifica los perfiles de los clientes",
+  "Option 2": "Solo se activa en Service Cloud y Marketing Cloud",
+  "Option 3": "Crea experiencias personalizadas que no son en tiempo real",
+  "Correct Answer": "Combina los datos de los clientes de cualquier fuente en tiempo real en un perfil unificado"
+},
+{
+  "Question Text": "¿Cuál es el propósito principal de utilizar una técnica de regresión en el análisis de datos?",
+  "Option 1": "Clasificar los datos en diferentes categorías basadas en atributos predefinidos.",
+  "Option 2": "Reducir la cantidad de variables en un conjunto de datos para simplificar análisis posteriores.",
+  "Option 3": "Identificar y eliminar valores atípicos y errores de los datos.",
+  "Correct Answer": "Modelar la relación entre una variable dependiente y una o más variables independientes para hacer predicciones."
+},
+{
+  "Question Text": "¿Qué capacidades de predicción ofrece Inteligencia Einstein en Salesforce?",
+  "Option 1": "Predecir el clima basado en la ubicación geográfica del usuario.",
+  "Option 2": "Determinar la probabilidad de éxito en las interacciones de ventas.",
+  "Option 3": "Automatizar respuestas en redes sociales.",
+  "Correct Answer": "Determinar la probabilidad de éxito en las interacciones de ventas."
+},
+{
+  "Question Text": "¿Cómo utiliza Inteligencia Einstein el análisis de texto?",
+  "Option 1": "Para corregir errores gramaticales en comunicaciones de marketing.",
+  "Option 2": "Para clasificar comunicaciones de clientes según urgencia y sentimiento.",
+  "Option 3": "Para traducir automáticamente textos entre diferentes idiomas.",
+  "Correct Answer": "Para clasificar comunicaciones de clientes según urgencia y sentimiento."
+},
+{
+  "Question Text": "¿Cómo beneficia la característica de recomendaciones personalizadas de Einstein a los usuarios de Salesforce?",
+  "Option 1": "Ofreciendo descuentos automáticos a clientes frecuentes.",
+  "Option 2": "Sugiriendo productos o servicios personalizados a clientes basados en sus datos históricos.",
+  "Option 3": "Recomendando nuevos cursos de formación para empleados.",
+  "Correct Answer": "Sugiriendo productos o servicios personalizados a clientes basados en sus datos históricos."
+},
+{
+  "Question Text": "¿Qué describe mejor el engagement de la empresa?",
+  "Option 1": "El grado en que una empresa logra aumentar sus ventas cada año.",
+  "Option 2": "La conexión emocional y el nivel de entusiasmo que los empleados sienten hacia su lugar de trabajo.",
+  "Option 3": "La capacidad de una empresa para expandirse a nuevos mercados geográficos.",
+  "Correct Answer": "La conexión emocional y el nivel de entusiasmo que los empleados sienten hacia su lugar de trabajo."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+  ]
+  
+    
+    
+      
+      
