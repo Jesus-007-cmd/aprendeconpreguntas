@@ -1,4 +1,49 @@
 /* QuizApp.css */
+.quiz-container {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  min-height: 50vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.question-container {
+  background-color: #333; /* Fondo gris oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50; /* Fondo del botón */
+  color: white; /* Texto del botón */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 1.5vh; /* Tamaño del texto relativo al ancho de la pantalla */
+}
+
+button:hover {
+  background-color: #45a049; /* Fondo del botón al pasar el ratón */
+}
+
+.correct {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 255, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 6vw; /* Tamaño del texto relativo al ancho de la pantalla */
+  text-align: center;
+  z-index: 1000; /* Asegura que esté sobre las preguntas y respuestas */
+}
+
 .search-bar {
   margin: 20px;
   text-align: center;
@@ -25,9 +70,11 @@
 }
 
 .search-results .question-container {
-  background-color: #f9f9f9;
+  background-color: #333; /* Fondo gris oscuro */
+  color: #fff; /* Texto blanco */
   padding: 20px;
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 4vw; /* Tamaño del texto relativo al ancho de la pantalla */
 }

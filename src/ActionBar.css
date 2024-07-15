@@ -1,62 +1,80 @@
-/* ActionBar.css */
-.action-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Centra verticalmente los elementos */
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+/* QuizApp.css */
+.quiz-container {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
   }
   
-  .action-bar .gear-icon {
-    display: none; /* Por defecto, el icono de engrane no se muestra */
+  .question-container {
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Fondo del botón */
+    color: white; /* Texto del botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 24px;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Fondo del botón al pasar el ratón */
+  }
+  
+  .correct {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 255, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
     color: white;
+    font-size: 32px; /* Doble del tamaño original */
+    text-align: center;
+    z-index: 1000; /* Asegura que esté sobre las preguntas y respuestas */
   }
   
-  .action-bar .options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .search-bar {
+    margin: 20px;
+    text-align: center;
   }
   
-  .action-bar button {
+  .search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
-    margin: 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 100.5vh;
   }
   
-  .action-bar button:hover {
+  .search-bar button:hover {
     background-color: #45a049;
   }
   
-  .action-bar input {
-    padding: 10px;
-    margin: 5px;
-    border: none;
+  .search-results .question-container {
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  @media (max-width: 768px) {
-    .action-bar .gear-icon {
-      display: block; /* Mostrar el icono de engrane en dispositivos móviles */
-    }
-    .action-bar .options {
-      display: none; /* Ocultar las opciones en dispositivos móviles por defecto */
-    }
-    .action-bar .options.show {
-      display: flex; /* Mostrar las opciones cuando el icono de engrane sea presionado */
-    }
   }
   

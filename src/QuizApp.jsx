@@ -1,4 +1,3 @@
-// QuizApp.js
 import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './QuizApp.css';
@@ -14,8 +13,8 @@ function QuizApp() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showCorrect, setShowCorrect] = useState(false);
   const [incorrectQuestions, setIncorrectQuestions] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const [showOnlyCorrect, setShowOnlyCorrect] = useState(false);
 
   const shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -56,7 +55,7 @@ function QuizApp() {
         } else {
           setShowResult(true);
         }
-      }, 1500); // Mostrar "¡Bien hecho!" por 1.5 segundos
+      }, 500); // Mostrar "¡Bien hecho!" por 1.5 segundos
     } else {
       const updatedIncorrectQuestions = [...incorrectQuestions, currentQuestion];
       setIncorrectQuestions(updatedIncorrectQuestions);
@@ -71,6 +70,7 @@ function QuizApp() {
     setShowResult(false);
     setSelectedAnswer(null);
     setIncorrectQuestions([]);
+    setShowOnlyCorrect(false);
     const shuffleAnswers = () => {
       const shuffledQuestions = questionsData.map(question => {
         const options = [
@@ -106,6 +106,7 @@ function QuizApp() {
       setScore(0);
       setShowResult(false);
       setSelectedAnswer(null);
+      setShowOnlyCorrect(false);
     } else {
       alert('No hay preguntas incorrectas almacenadas.');
     }
@@ -117,16 +118,30 @@ function QuizApp() {
       setScore(0);
       setShowResult(false);
       setSelectedAnswer(null);
+      setShowOnlyCorrect(false);
     } else {
       alert('Número de pregunta fuera de rango.');
     }
   };
 
-  const handleSearch = () => {
+  const handleSearch = (term) => {
     const results = questionsData.filter(question =>
-      question["Question Text"].toLowerCase().includes(searchTerm.toLowerCase())
-    );
+      question["Question Text"].toLowerCase().includes(term.toLowerCase())
+    ).map(question => ({
+      "Question Text": question["Question Text"],
+      "Correct Answer": question["Correct Answer"]
+    }));
     setSearchResults(results);
+  };
+  
+
+  const handleBackToQuiz = () => {
+    setSearchResults([]);
+    setShowOnlyCorrect(false);
+  };
+
+  const handleShowOnlyCorrect = () => {
+    setShowOnlyCorrect(true);
   };
 
   return (
@@ -136,16 +151,9 @@ function QuizApp() {
         handleGenerateJson={handleGenerateJson}
         handleStartMiniQuiz={handleStartMiniQuiz}
         handleStartFromQuestion={handleStartFromQuestion}
+        handleSearch={handleSearch}
+        handleBackToQuiz={handleBackToQuiz}
       />
-      <div className="search-bar">
-        <input
-          type="text"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Buscar pregunta"
-        />
-        <button onClick={handleSearch}>Buscar</button>
-      </div>
       {searchResults.length > 0 ? (
         <div className="search-results">
           {searchResults.map((question, index) => (
@@ -163,20 +171,24 @@ function QuizApp() {
       ) : (
         !showResult ? (
           <div>
-            <h1>Quiz App</h1>
+          
             {questions.length > 0 && currentQuestionIndex < questions.length && (
               <div className="question-container">
                 <h2>{questions[currentQuestionIndex]["Question Text"]}</h2>
-                {questions[currentQuestionIndex]["options"].map(option => (
-                  <button
-                    key={uuidv4()}
-                    onClick={() => handleAnswerSelect(option)}
-                    className={selectedAnswer === option ? "selected" : ""}
-                    style={{ fontSize: '18px', padding: '10px', margin: '5px' }} // Estilos en línea
-                  >
-                    {option}
-                  </button>
-                ))}
+                {showOnlyCorrect ? (
+                  <p>{questions[currentQuestionIndex]["Correct Answer"]}</p>
+                ) : (
+                  questions[currentQuestionIndex]["options"].map(option => (
+                    <button
+                      key={uuidv4()}
+                      onClick={() => handleAnswerSelect(option)}
+                      className={selectedAnswer === option ? "selected" : ""}
+                      style={{ fontSize: '5vh', padding: '10px', margin: '5px' }} // Estilos en línea
+                    >
+                      {option}
+                    </button>
+                  ))
+                )}
                 {showCorrect && <div className="correct">¡Bien hecho!</div>}
               </div>
             )}
