@@ -14,6 +14,8 @@ function QuizApp() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showCorrect, setShowCorrect] = useState(false);
   const [incorrectQuestions, setIncorrectQuestions] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
 
   const shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -54,7 +56,7 @@ function QuizApp() {
         } else {
           setShowResult(true);
         }
-      }, 500); // Mostrar "¡Bien hecho!" por 1.5 segundos
+      }, 1500); // Mostrar "¡Bien hecho!" por 1.5 segundos
     } else {
       const updatedIncorrectQuestions = [...incorrectQuestions, currentQuestion];
       setIncorrectQuestions(updatedIncorrectQuestions);
@@ -120,40 +122,72 @@ function QuizApp() {
     }
   };
 
+  const handleSearch = () => {
+    const results = questionsData.filter(question =>
+      question["Question Text"].toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResults(results);
+  };
+
   return (
     <div className="quiz-container">
       <Bar incorrectQuestions={incorrectQuestions} />
-      <ActionBar 
-        handleGenerateJson={handleGenerateJson} 
-        handleStartMiniQuiz={handleStartMiniQuiz} 
-        handleStartFromQuestion={handleStartFromQuestion} 
+      <ActionBar
+        handleGenerateJson={handleGenerateJson}
+        handleStartMiniQuiz={handleStartMiniQuiz}
+        handleStartFromQuestion={handleStartFromQuestion}
       />
-      {!showResult ? (
-        <div>
-          <h1>Quiz App</h1>
-          {questions.length > 0 && currentQuestionIndex < questions.length && (
-            <div className="question-container">
-              <h2>{questions[currentQuestionIndex]["Question Text"]}</h2>
-              {questions[currentQuestionIndex]["options"].map(option => (
-                <button
-                  key={uuidv4()}
-                  onClick={() => handleAnswerSelect(option)}
-                  className={selectedAnswer === option ? "selected" : ""}
-                  style={{ fontSize: '18px', padding: '10px', margin: '5px' }} // Estilos en línea
-                >
-                  {option}
-                </button>
-              ))}
-              {showCorrect && <div className="correct">¡Bien hecho!</div>}
+      <div className="search-bar">
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Buscar pregunta"
+        />
+        <button onClick={handleSearch}>Buscar</button>
+      </div>
+      {searchResults.length > 0 ? (
+        <div className="search-results">
+          {searchResults.map((question, index) => (
+            <div key={uuidv4()} className="question-container">
+              <h2>{question["Question Text"]}</h2>
+              <ul>
+                <li>{question["Option 1"]}</li>
+                <li>{question["Option 2"]}</li>
+                <li>{question["Option 3"]}</li>
+                <li>{question["Correct Answer"]}</li>
+              </ul>
             </div>
-          )}
+          ))}
         </div>
       ) : (
-        <div className="result-container">
-          <h1>Result</h1>
-          <p>Your Score: {score}</p>
-          <button onClick={handleRestartQuiz}>Restart Quiz</button>
-        </div>
+        !showResult ? (
+          <div>
+            <h1>Quiz App</h1>
+            {questions.length > 0 && currentQuestionIndex < questions.length && (
+              <div className="question-container">
+                <h2>{questions[currentQuestionIndex]["Question Text"]}</h2>
+                {questions[currentQuestionIndex]["options"].map(option => (
+                  <button
+                    key={uuidv4()}
+                    onClick={() => handleAnswerSelect(option)}
+                    className={selectedAnswer === option ? "selected" : ""}
+                    style={{ fontSize: '18px', padding: '10px', margin: '5px' }} // Estilos en línea
+                  >
+                    {option}
+                  </button>
+                ))}
+                {showCorrect && <div className="correct">¡Bien hecho!</div>}
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="result-container">
+            <h1>Result</h1>
+            <p>Your Score: {score}</p>
+            <button onClick={handleRestartQuiz}>Restart Quiz</button>
+          </div>
+        )
       )}
     </div>
   );
