@@ -37,4 +37,17 @@
   .result-container {
     text-align: center;
   }
-  
+  /* QuizApp.css */
+.correct {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 255, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 32px; /* Doble del tamaño original */
+  text-align: center;
+  z-index: 1000; /* Asegura que esté sobre las preguntas y respuestas */
+}

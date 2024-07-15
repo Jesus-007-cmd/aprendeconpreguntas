@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import './QuizApp.css';
 import questionsData from './data/preguntastelcel2.json';
 import Bar from './Bar';
+import ActionBar from './ActionBar';
 
 function QuizApp() {
   const [questions, setQuestions] = useState([]);
@@ -53,9 +54,11 @@ function QuizApp() {
         } else {
           setShowResult(true);
         }
-      }, 500);
+      }, 500); // Mostrar "¡Bien hecho!" por 1.5 segundos
     } else {
-      setIncorrectQuestions([...incorrectQuestions, currentQuestion]);
+      const updatedIncorrectQuestions = [...incorrectQuestions, currentQuestion];
+      setIncorrectQuestions(updatedIncorrectQuestions);
+      localStorage.setItem('incorrectQuestions', JSON.stringify(updatedIncorrectQuestions));
       setSelectedAnswer(selectedAnswer);
     }
   };
@@ -82,8 +85,8 @@ function QuizApp() {
     };
     shuffleAnswers();
   };
+
   const handleGenerateJson = () => {
-    const incorrectQuestions = JSON.parse(localStorage.getItem('incorrectQuestions')) || [];
     const jsonContent = JSON.stringify(incorrectQuestions, null, 2);
     const blob = new Blob([jsonContent], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -92,9 +95,39 @@ function QuizApp() {
     link.download = 'incorrect_questions.json';
     link.click();
   };
+
+  const handleStartMiniQuiz = () => {
+    const storedIncorrectQuestions = JSON.parse(localStorage.getItem('incorrectQuestions')) || [];
+    if (storedIncorrectQuestions.length > 0) {
+      setQuestions(storedIncorrectQuestions);
+      setCurrentQuestionIndex(0);
+      setScore(0);
+      setShowResult(false);
+      setSelectedAnswer(null);
+    } else {
+      alert('No hay preguntas incorrectas almacenadas.');
+    }
+  };
+
+  const handleStartFromQuestion = (index) => {
+    if (index >= 0 && index < questions.length) {
+      setCurrentQuestionIndex(index);
+      setScore(0);
+      setShowResult(false);
+      setSelectedAnswer(null);
+    } else {
+      alert('Número de pregunta fuera de rango.');
+    }
+  };
+
   return (
     <div className="quiz-container">
       <Bar incorrectQuestions={incorrectQuestions} />
+      <ActionBar 
+        handleGenerateJson={handleGenerateJson} 
+        handleStartMiniQuiz={handleStartMiniQuiz} 
+        handleStartFromQuestion={handleStartFromQuestion} 
+      />
       {!showResult ? (
         <div>
           <h1>Quiz App</h1>
@@ -102,15 +135,16 @@ function QuizApp() {
             <div className="question-container">
               <h2>{questions[currentQuestionIndex]["Question Text"]}</h2>
               {questions[currentQuestionIndex]["options"].map(option => (
-                <button 
+                <button
                   key={uuidv4()}
                   onClick={() => handleAnswerSelect(option)}
                   className={selectedAnswer === option ? "selected" : ""}
+                  style={{ fontSize: '18px', padding: '10px', margin: '5px' }} // Estilos en línea
                 >
                   {option}
                 </button>
               ))}
-              {showCorrect && <div><p className="correct">¡Bien hecho!</p></div>}
+              {showCorrect && <div className="correct">¡Bien hecho!</div>}
             </div>
           )}
         </div>
