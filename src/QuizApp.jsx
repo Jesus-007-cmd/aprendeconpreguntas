@@ -140,9 +140,7 @@ function QuizApp() {
     setShowOnlyCorrect(false);
   };
 
-  const handleShowOnlyCorrect = () => {
-    setShowOnlyCorrect(true);
-  };
+  
 
   return (
     <div className="quiz-container">
@@ -183,7 +181,7 @@ function QuizApp() {
                       key={uuidv4()}
                       onClick={() => handleAnswerSelect(option)}
                       className={selectedAnswer === option ? "selected" : ""}
-                      style={{ fontSize: '5vh', padding: '10px', margin: '5px' }} // Estilos en línea
+                      style={{ fontSize: '4vh', padding: '10px', margin: '5px' }} // Estilos en línea
                     >
                       {option}
                     </button>
