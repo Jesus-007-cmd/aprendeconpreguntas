@@ -1,0 +1,38 @@
+[
+    {
+        "Question Text": "¿Cuál es la traducción correcta de 'Bonjour'?",
+        "Option 1": "Buenas tardes",
+        "Option 2": "Hola",
+        "Option 3": "Adiós",
+        "Correct Answer": "Buenos días"
+      },
+      {
+        "Question Text": "¿Qué expresión se utiliza comúnmente en un escenario informal para decir 'Hey' en francés?",
+        "Option 1": "Salut",
+        "Option 2": "Bonsoir",
+        "Option 3": "Quoi de neuf?",
+        "Correct Answer": "Coucou"
+      },
+      {
+        "Question Text": "¿Cómo se pronuncia correctamente 'Salut' en francés?",
+        "Option 1": "sa-lut",
+        "Option 2": "sah-loo",
+        "Option 3": "sa-lay",
+        "Correct Answer": "sa-lú"
+      },
+      {
+        "Question Text": "¿Cuál es la forma formal de decir 'Un placer conocerlo' en francés?",
+        "Option 1": "Ça va?",
+        "Option 2": "Comment vas-tu?",
+        "Option 3": "Ça roule?",
+        "Correct Answer": "Enchanté(e)"
+      },
+      {
+        "Question Text": "¿Qué frase en francés se utiliza al contestar el teléfono para decir 'Hola'?",
+        "Option 1": "Bonsoir",
+        "Option 2": "Bienvenue",
+        "Option 3": "Salut",
+        "Correct Answer": "Allô"
+      }
+      
+]

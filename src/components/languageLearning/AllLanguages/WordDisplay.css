@@ -1,0 +1,84 @@
+/* WordDisplay.css */
+
+.word-display-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .word-selection h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .word-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .word-item input {
+    margin-right: 10px;
+  }
+  
+  .word-item label {
+    font-size: 1.2rem;
+  }
+  
+  .start-button, .stop-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover, .stop-button:hover {
+    background-color: #45a049;
+  }
+  
+  .fullscreen-display {
+    position: fixed; /* Se sobrepone a otros componentes */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+  
+  .word-content {
+    text-align: center;
+  }
+  
+  .fullscreen-display h1 {
+    font-size: 5rem;
+    color: #333;
+  }
+  .word{
+    font-size: 4rem;
+    color:darkblue;
+    margin-top: 10px;
+  }
+  .meaning{
+    font-size: 3rem;
+    color: #4a0000;
+    margin-top: 10px;
+  }
+  .idiom{
+    font-size: 6rem;
+    color: #120000;
+    margin-top: 10px;
+  }
+  .pronunciation {
+    font-size: 2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  

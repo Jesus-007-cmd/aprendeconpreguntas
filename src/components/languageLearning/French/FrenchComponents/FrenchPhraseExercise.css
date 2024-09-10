@@ -1,0 +1,76 @@
+.french-practice-exercise {
+  font-family: Arial, sans-serif;
+}
+
+.exercise-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.questions {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.answers {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.question-item {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.dialect-selector {
+  margin-bottom: 20px;
+}
+
+.answers button {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.question-item {
+  display: flex;
+  align-items: center;
+}
+
+.question-item input {
+  flex: 1;
+  margin-right: 10px;
+}
+.accent-instructions{
+  color: black;
+
+}
+.accent-instructions-list{
+  color: black;
+  background-color: blue;
+
+}

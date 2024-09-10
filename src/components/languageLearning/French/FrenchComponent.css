@@ -1,0 +1,26 @@
+/* FrenchComponent.css */
+.french-learning {
+    text-align: center;
+    background-color: #f0f0f0; /* Fondo claro para el componente */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .checkbox-container {
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  

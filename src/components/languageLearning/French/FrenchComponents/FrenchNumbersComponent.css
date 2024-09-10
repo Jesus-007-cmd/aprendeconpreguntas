@@ -1,0 +1,114 @@
+/* FrenchNumbersComponent.css */
+.french-numbers-container {
+    background-color: #e3f2fd; /* Fondo azul claro */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  label, h3, p{
+    color: #0d47a1;
+    font-weight: bolder;
+  }
+  
+  .french-numbers-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .french-numbers-list li {
+    margin: 10px;
+  }
+  
+  .french-numbers-list button {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .french-numbers-list button:hover {
+    background-color: #0d47a1; /* Cambia el color al pasar el mouse */
+  }
+  
+  .french-numbers-list button:focus {
+    outline: none; /* Elimina el borde al hacer clic */
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #43a047; /* Botón verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2e7d32;
+  }
+  
+  button:focus {
+    outline: none; /* Elimina el borde al hacer clic */
+  }
+  
+  .french-numbers-container {
+    margin-top: 20px;
+  }
+  
+  .french-numbers-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .french-numbers-list li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Color verde para los botones */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+  }
+  
+  .highlighted {
+    color: red; /* El color rojo cuando está resaltado */
+  }
+  

@@ -1,0 +1,182 @@
+[
+    {
+      "Question Text": "1.- ¿Cuál es la primera etapa para diseñar un programa de capacitación?",
+      "Option 1": "Diseñar un curso que solucione la necesidad.",
+      "Option 2": "Impartir el curso diseñado con base a la necesidad.",
+      "Option 3": "Evaluar con instrumentos de evaluación.",
+      "Correct Answer": "Etapa de la detección de la necesidad."
+    },
+    {
+      "Question Text": "2.- ¿Qué se debe hacer después de detectar la necesidad en un programa de capacitación?",
+      "Option 1": "Impartir el curso diseñado.",
+      "Option 2": "Evaluar con instrumentos de evaluación.",
+      "Option 3": "Detectar nuevas necesidades.",
+      "Correct Answer": "Diseñar un curso que solucione la necesidad."
+    },
+    {
+      "Question Text": "3.- ¿Qué paso sigue después de diseñar el curso en un programa de capacitación?",
+      "Option 1": "Evaluar con instrumentos de evaluación.",
+      "Option 2": "Impartir el curso diseñado con base a la necesidad.",
+      "Option 3": "Revisar el contenido del curso.",
+      "Correct Answer": "Impartir el curso diseñado con base a la necesidad."
+    },
+    {
+      "Question Text": "4.- ¿Qué se debe hacer para asegurarse de que el curso ha enseñado lo que se planeó?",
+      "Option 1": "Volver a diseñar el curso.",
+      "Option 2": "Impartir el curso de nuevo.",
+      "Option 3": "Detectar nuevas necesidades.",
+      "Correct Answer": "Evaluar con instrumentos de evaluación."
+    },
+    {
+      "Question Text": "5.- ¿Qué se busca lograr con la evaluación en un programa de capacitación?",
+      "Option 1": "Identificar nuevas necesidades.",
+      "Option 2": "Asegurar que los estudiantes comprendan el contenido.",
+      "Option 3": "Reforzar los temas importantes.",
+      "Correct Answer": "Asegurar que se ha logrado el objetivo de aprendizaje."
+    },
+    {
+        "Question Text": "¿Qué ocurrió en la década de 1940 que resaltó la necesidad de una fuerza laboral capacitada en México?",
+        "Option 1": "El auge de la educación pública",
+        "Option 2": "La firma del Tratado de Libre Comercio",
+        "Option 3": "La reforma del artículo 123 de la Constitución",
+        "Correct Answer": "La Segunda Guerra Mundial impulsó la industrialización"
+      },
+      {
+        "Question Text": "¿Qué institución fue creada en 1936 para preparar a los trabajadores en México?",
+        "Option 1": "El Instituto Nacional de Capacitación",
+        "Option 2": "La Universidad Nacional Autónoma de México",
+        "Option 3": "La Secretaría de Educación Pública",
+        "Correct Answer": "El Instituto Politécnico Nacional"
+      },
+      {
+        "Question Text": "¿Qué reforma laboral promovió la capacitación continua en México en 2012?",
+        "Option 1": "La reforma educativa",
+        "Option 2": "La creación de ICEMéxico",
+        "Option 3": "La Ley Federal del Trabajo de 1978",
+        "Correct Answer": "La reforma laboral de 2012 durante la presidencia de Felipe Calderón"
+      },
+      {
+        "Question Text": "¿Qué fenómeno reciente ha incrementado la necesidad de capacitación en México?",
+        "Option 1": "La crisis del petróleo",
+        "Option 2": "La reforma laboral de 2012",
+        "Option 3": "El crecimiento del sector agrícola",
+        "Correct Answer": "El fenómeno del nearshoring"
+      },
+      {
+        "Question Text": "¿Qué institución global estableció estándares laborales en 1919?",
+        "Option 1": "La Organización Mundial del Comercio",
+        "Option 2": "El Instituto de Capacitación para el Trabajo",
+        "Option 3": "El Consejo Nacional de Normalización",
+        "Correct Answer": "La Organización Internacional del Trabajo (OIT)"
+      },
+      {
+        "Question Text": "¿Qué organización fue creada en 1978 como resultado de la presión de los sindicatos en México?",
+        "Option 1": "La Organización Internacional del Trabajo (OIT)",
+        "Option 2": "El Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER)",
+        "Option 3": "El Instituto Politécnico Nacional (IPN)",
+        "Correct Answer": "La Confederación de Trabajadores de México (CTM)"
+      },
+      {
+        "Question Text": "¿Qué evento global subrayó la importancia de la capacitación laboral para mejorar la eficiencia y productividad durante la década de 1970?",
+        "Option 1": "La Revolución Mexicana",
+        "Option 2": "La crisis del petróleo de 1973",
+        "Option 3": "La firma del Tratado de Libre Comercio de América del Norte (TLCAN)",
+        "Correct Answer": "La crisis del petróleo de 1973"
+      },
+      {
+        "Question Text": "¿Cuál fue la principal contribución de la creación de CONOCER en 1993?",
+        "Option 1": "Establecer un sistema de seguridad social",
+        "Option 2": "Desarrollar un marco regulatorio para la capacitación laboral",
+        "Option 3": "Promover la educación formal en todo México",
+        "Correct Answer": "Desarrollar un marco regulatorio para la capacitación laboral"
+      },
+      {
+        "Question Text": "¿Qué acontecimiento marcó un punto crucial para la economía mexicana en 1994?",
+        "Option 1": "La reforma del artículo 123 de la Constitución",
+        "Option 2": "La creación del Instituto Nacional de Capacitación",
+        "Option 3": "La aprobación de la Ley Federal del Trabajo",
+        "Correct Answer": "La firma del Tratado de Libre Comercio de América del Norte (TLCAN)"
+      },
+      {
+        "Question Text": "¿Qué impacto tuvo la pandemia de COVID-19 en la capacitación laboral?",
+        "Option 1": "Redujo la necesidad de capacitación en las empresas",
+        "Option 2": "Impulsó la adopción de plataformas digitales para la capacitación",
+        "Option 3": "Estancó la capacitación en competencias digitales",
+        "Correct Answer": "Impulsó la adopción de plataformas digitales para la capacitación"
+      },
+      {
+        "Question Text": "¿Qué ley regula específicamente la capacitación y el adiestramiento de los trabajadores en México?",
+        "Option 1": "Ley del Seguro Social",
+        "Option 2": "Ley de Educación Pública",
+        "Option 3": "Ley General de Salud",
+        "Correct Answer": "Ley Federal del Trabajo"
+      },
+      {
+        "Question Text": "¿Cuál es la función principal de las comisiones mixtas de capacitación y adiestramiento en las empresas?",
+        "Option 1": "Desarrollar los planes de producción",
+        "Option 2": "Supervisar la implementación de políticas de recursos humanos",
+        "Option 3": "Elaborar los informes financieros trimestrales",
+        "Correct Answer": "Vigilar la implementación de los programas de capacitación"
+      },
+      {
+        "Question Text": "¿Qué artículo de la Ley Federal del Trabajo establece la obligación de los patrones de proporcionar capacitación a sus trabajadores?",
+        "Option 1": "Artículo 82",
+        "Option 2": "Artículo 110",
+        "Option 3": "Artículo 145",
+        "Correct Answer": "Artículo 153-A"
+      },
+      {
+        "Question Text": "¿Qué sistema se utiliza para registrar las constancias de capacitación emitidas por las empresas?",
+        "Option 1": "Sistema de Evaluación Laboral (SEL)",
+        "Option 2": "Registro Único de Capacitación (RUC)",
+        "Option 3": "Sistema de Gestión de Competencias (SGC)",
+        "Correct Answer": "Sistema Integral de Capacitación Empresarial (SIRCE)"
+      },
+      {
+        "Question Text": "¿Qué figura es responsable de emitir constancias de capacitación registradas ante la STPS?",
+        "Option 1": "El instructor certificado de la empresa",
+        "Option 2": "El supervisor de recursos humanos",
+        "Option 3": "El director general de la empresa",
+        "Correct Answer": "El agente capacitador externo"
+      },
+      {
+        "Question Text": "¿Cuál fue el impacto del Plan Marshall en la capacitación laboral global, incluido México?",
+        "Option 1": "Reducción de la capacitación en Europa",
+        "Option 2": "Incremento en la producción agrícola",
+        "Option 3": "Desarrollo de la tecnología de información",
+        "Correct Answer": "Modernización y capacitación laboral"
+      },
+      {
+        "Question Text": "¿Qué reforma importante en 1978 impulsó la obligación de proporcionar capacitación en México?",
+        "Option 1": "Reforma energética",
+        "Option 2": "Reforma educativa",
+        "Option 3": "Reforma fiscal",
+        "Correct Answer": "Reforma del artículo 123 de la Constitución"
+      },
+      {
+        "Question Text": "¿Cuál fue uno de los efectos de la recesión mundial de 1981-1982 en la capacitación laboral en México?",
+        "Option 1": "Aumento en la demanda de trabajadores migrantes",
+        "Option 2": "Reforzamiento de las leyes laborales",
+        "Option 3": "Cambio en las políticas de exportación",
+        "Correct Answer": "Reducción de programas de formación en las empresas"
+      },
+      {
+        "Question Text": "¿Qué iniciativa privada fue fundada en 2014 para promover la profesionalización de los capacitadores en México?",
+        "Option 1": "CONOCER",
+        "Option 2": "Instituto Nacional de Capacitación para el Trabajo (ICAT)",
+        "Option 3": "Programa Nacional de Capacitación Laboral",
+        "Correct Answer": "ICEMéxico"
+      },
+      {
+        "Question Text": "¿Qué evento aceleró la adopción de plataformas digitales para la capacitación en México?",
+        "Option 1": "Crecimiento de la industria tecnológica",
+        "Option 2": "Reforma laboral de 2012",
+        "Option 3": "Firma del Tratado de Libre Comercio",
+        "Correct Answer": "Pandemia de COVID-19"
+      }
+      
+      
+      
+      
+  ]
+  

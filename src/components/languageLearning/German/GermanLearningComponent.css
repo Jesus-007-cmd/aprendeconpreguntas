@@ -1,0 +1,71 @@
+.german-numbers-container {
+  margin-top: 20px;
+}
+
+.german-numbers-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas */
+  gap: 10px; /* Espacio entre los elementos */
+  list-style: none;
+  padding: 0;
+}
+
+.german-numbers-list li {
+  display: flex;
+  justify-content: center;
+}
+
+.german-numbers-list button {
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Hace que los botones ocupen todo el ancho del contenedor */
+  text-align: center;
+}
+
+.german-numbers-list button:hover {
+  background-color: #005f6b;
+}
+
+.read-all-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-all-button:disabled {
+  background-color: #6c757d;
+}
+.legend {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.legend h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.legend p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.legend ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.legend ul li {
+  margin-bottom: 8px;
+}

@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './QuizApp.css';
-import questionsData from './data/preguntastelcel2.json';
+import trailheadQuestions1 from '../../data/01preguntasTrailHeald.json';
+import trailheadQuestions2 from '../../data/02preguntasTrailHeald.json';
+import trailheadQuestions3 from '../../data/03PreguntasTrailHead.json';
+import preguntascertificacionCAP2 from '../../data/preguntascertificacionCAP2.json';
+import telcelQuestions1 from '../../data/preguntastelcel.json';
+import telcelQuestions2 from '../../data/preguntastelcel2.json';
+import lenguajeFrances from '../../data/LenguajeFrances.json'
+
 import Bar from './Bar';
 import ActionBar from './ActionBar';
 
@@ -15,6 +22,7 @@ function QuizApp() {
   const [incorrectQuestions, setIncorrectQuestions] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [showOnlyCorrect, setShowOnlyCorrect] = useState(false);
+  const [category, setCategory] = useState('');  // Nuevo estado para la categoría
 
   const shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -22,9 +30,30 @@ function QuizApp() {
       [array[i], array[j]] = [array[j], array[i]];
     }
   };
+  const loadQuestions = (category) => {
+    switch (category) {
+      case 'trailhead1':
+        return trailheadQuestions1;
+      case 'trailhead2':
+        return trailheadQuestions2;
+      case 'trailhead3':
+        return trailheadQuestions3;
+      case 'certificacion':
+        return preguntascertificacionCAP2;
+      case 'telcel1':
+        return telcelQuestions1;
+      case 'telcel2':
+        return telcelQuestions2;
+      case 'lenguajeFrances':
+        return lenguajeFrances;
+      default:
+        return [];
+    }
+  };
+  
 
   useEffect(() => {
-    const shuffleAnswers = () => {
+    const shuffleQuestions = (questionsData) => {
       const shuffledQuestions = questionsData.map(question => {
         const options = [
           question["Option 1"],
@@ -35,12 +64,16 @@ function QuizApp() {
         shuffleArray(options);
         return { ...question, options };
       });
-
-      setQuestions(shuffledQuestions);
+      setQuestions(shuffledQuestions);  // Establecer las preguntas barajadas
     };
-
-    shuffleAnswers();
-  }, []);
+  
+    if (category) {
+      const selectedQuestions = loadQuestions(category);  // Cargar preguntas según la categoría seleccionada
+      shuffleQuestions(selectedQuestions);  // Barajar las respuestas
+    }
+  }, [category]);
+  
+  
 
   const handleAnswerSelect = selectedAnswer => {
     const currentQuestion = questions[currentQuestionIndex];
@@ -71,8 +104,9 @@ function QuizApp() {
     setSelectedAnswer(null);
     setIncorrectQuestions([]);
     setShowOnlyCorrect(false);
+  
     const shuffleAnswers = () => {
-      const shuffledQuestions = questionsData.map(question => {
+      const shuffledQuestions = questions.map(question => {  // Cambiado de questionsData a questions
         const options = [
           question["Option 1"],
           question["Option 2"],
@@ -82,11 +116,12 @@ function QuizApp() {
         shuffleArray(options);
         return { ...question, options };
       });
-
+  
       setQuestions(shuffledQuestions);
     };
     shuffleAnswers();
   };
+  
 
   const handleGenerateJson = () => {
     const jsonContent = JSON.stringify(incorrectQuestions, null, 2);
@@ -123,9 +158,8 @@ function QuizApp() {
       alert('Número de pregunta fuera de rango.');
     }
   };
-
   const handleSearch = (term) => {
-    const results = questionsData.filter(question =>
+    const results = questions.filter(question =>  // Cambiado de questionsData a questions
       question["Question Text"].toLowerCase().includes(term.toLowerCase())
     ).map(question => ({
       "Question Text": question["Question Text"],
@@ -133,6 +167,7 @@ function QuizApp() {
     }));
     setSearchResults(results);
   };
+  
   
 
   const handleBackToQuiz = () => {
@@ -144,6 +179,16 @@ function QuizApp() {
 
   return (
     <div className="quiz-container">
+      <div className="category-buttons">
+      <button onClick={() => setCategory('trailhead1')}>Preguntas Trailhead 1</button>
+      <button onClick={() => setCategory('trailhead2')}>Preguntas Trailhead 2</button>
+      <button onClick={() => setCategory('trailhead3')}>Preguntas Trailhead 3</button>
+      <button onClick={() => setCategory('certificacion')}>Preguntas Certificación</button>
+      <button onClick={() => setCategory('telcel1')}>Preguntas Telcel 1</button>
+      <button onClick={() => setCategory('telcel2')}>Preguntas Telcel 2</button>
+      <button onClick={() => setCategory('lenguajeFrances')}>Preguntas Frances</button>
+      
+    </div>
       <Bar incorrectQuestions={incorrectQuestions} />
       <ActionBar
         handleGenerateJson={handleGenerateJson}

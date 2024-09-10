@@ -1,81 +1,79 @@
- [
-    {
+[
+  {
     "Question Text": "¿Qué plataforma permite a las empresas vender, facilitar servicios y comercializar con sus clientes, además de ofrecer Trailhead para adquirir habilidades y la Trailblazer Community para conectar con expertos y oportunidades profesionales?",
     "Option 1": "Salesforce",
     "Option 2": "HubSpot",
     "Option 3": "Microsoft Dynamics",
     "Correct Answer": "Salesforce"
-    },
-    {
-        "Question Text": "¿Cuál es el principal producto de Salesforce, que es el CRM número 1 del mundo y proporciona a las empresas
-         herramientas para vender, facilitar servicios y comercializar con sus clientes?",
-        "Option 1": "Salesforce Service Cloud",
-        "Option 2": "Salesforce Marketing Cloud",
-        "Option 3": "Salesforce Sales Cloud",
-        "Correct Answer": "Salesforce Sales Cloud"
-      },
-      {
-        "Question Text": "¿Qué plataforma de Salesforce permite a los usuarios adquirir habilidades buscadas por las empresas 
-        en el momento de la contratación?",
-        "Option 1": "Salesforce Marketing Cloud",
-        "Option 2": "Trailhead",
-        "Option 3": "Salesforce Service Cloud",
-        "Correct Answer": "Trailhead"
-      },
-      {
-        "Question Text": "¿Qué es Trailhead en el contexto de Salesforce?",
-        "Option 1": "Una plataforma de gestión de relaciones con clientes.",
-        "Option 2": "Una plataforma para ventas y seguimiento de clientes",
-        "Option 3": "Un software de administración empresarial.",
-        "Correct Answer": "Una plataforma educativa en línea."
-      },
-      {
-        "Question Text": "¿Cómo hace Trailhead el aprendizaje interactivo y entretenido?",
-        "Option 1": "A través de tutoriales extensos.",
-        "Option 2": "Ofreciendo exámenes escritos.",
-        "Option 3": "Proporcionando descuentos en productos de Salesforce.",
-        "Correct Answer": "Mediante el uso de gamificación."
-      },
-      {
-        "Question Text": "¿Qué ganan los usuarios al completar módulos y proyectos en Trailhead?",
-        "Option 1": "Descuentos en productos de Salesforce.",
-        "Option 2": "Acceso a funciones premium.",
-        "Option 3": "Oportunidades de empleo directo en Salesforce.",
-        "Correct Answer": "Insignias y puntos."
-      },
-      {
-        "Question Text": "¿Qué función cumple Trailhead en el desarrollo profesional de los usuarios?",
-        "Option 1": "Proporciona descuentos en productos de Salesforce.",
-        "Option 2": "Ofrece oportunidades de empleo directo en Salesforce.",
-        "Option 3": "Ayuda a prepararse para certificaciones oficiales de Salesforce.",
-        "Correct Answer": "Ayuda a prepararse para certificaciones oficiales de Salesforce."
-      },
-      {
-        "Question Text": "¿Qué significa metafóricamente el término 'trailhead' en el contexto de la plataforma de aprendizaje de Salesforce?",
-        "Option 1": "Representa el final de un sendero de aprendizaje.",
-        "Option 2": "Indica el nivel avanzado de conocimiento alcanzado.",
-        "Option 3": "Marca el punto de partida para el aprendizaje y desarrollo de habilidades.",
-        "Correct Answer": "Marca el punto de partida para el aprendizaje y desarrollo de habilidades."
-      },
-      {
-        "Question Text": "¿Qué se promueve al unirse a la Trailblazer Community según el texto?",
-        "Option 1": "Aprender habilidades nuevas solo.",
-        "Option 2": "Conectar con Trailblazers de cualquier parte del mundo y aprender habilidades nuevas.",
-        "Option 3": "Desarrollar una red profesional únicamente.",
-        "Correct Answer": "Conectar con Trailblazers de cualquier parte del mundo y aprender habilidades nuevas."
-      },
-      {
-        "Question Text": "¿Cómo se pueden conectar los miembros de la Trailblazer Community?",
-        "Option 1": "Solo a través de módulos en Trailhead.",
-        "Option 2": "Unirse a grupos por ubicación, función o interés.",
-        "Option 3": "Contribuir y compartir conocimientos únicamente.",
-        "Correct Answer": "Unirse a grupos por ubicación, función o interés."
-      },
-      {
-        "Question Text": "¿Qué se espera que hagan los miembros de la Trailblazer Community según el texto?",
-        "Option 1": "Solo contribuir y compartir conocimientos.",
-        "Option 2": "Solo desarrollar su red profesional.",
-        "Option 3": "Contribuir, compartir conocimientos, ofrecer orientación y desarrollar su red.",
-        "Correct Answer": "Contribuir, compartir conocimientos, ofrecer orientación y desarrollar su red."
-      } 
-    ]
+  },
+  {
+    "Question Text": "¿Cuál es el principal producto de Salesforce, que es el CRM número 1 del mundo y proporciona a las empresas herramientas para vender, facilitar servicios y comercializar con sus clientes?",
+    "Option 1": "Salesforce Service Cloud",
+    "Option 2": "Salesforce Marketing Cloud",
+    "Option 3": "Salesforce Sales Cloud",
+    "Correct Answer": "Salesforce Sales Cloud"
+  },
+  {
+    "Question Text": "¿Qué plataforma de Salesforce permite a los usuarios adquirir habilidades buscadas por las empresasen el momento de la contratación?",
+    "Option 1": "Salesforce Marketing Cloud",
+    "Option 2": "Trailhead",
+    "Option 3": "Salesforce Service Cloud",
+    "Correct Answer": "Trailhead"
+  },
+  {
+    "Question Text": "¿Qué es Trailhead en el contexto de Salesforce?",
+    "Option 1": "Una plataforma de gestión de relaciones con clientes.",
+    "Option 2": "Una plataforma para ventas y seguimiento de clientes",
+    "Option 3": "Un software de administración empresarial.",
+    "Correct Answer": "Una plataforma educativa en línea."
+  },
+  {
+    "Question Text": "¿Cómo hace Trailhead el aprendizaje interactivo y entretenido?",
+    "Option 1": "A través de tutoriales extensos.",
+    "Option 2": "Ofreciendo exámenes escritos.",
+    "Option 3": "Proporcionando descuentos en productos de Salesforce.",
+    "Correct Answer": "Mediante el uso de gamificación."
+  },
+  {
+    "Question Text": "¿Qué ganan los usuarios al completar módulos y proyectos en Trailhead?",
+    "Option 1": "Descuentos en productos de Salesforce.",
+    "Option 2": "Acceso a funciones premium.",
+    "Option 3": "Oportunidades de empleo directo en Salesforce.",
+    "Correct Answer": "Insignias y puntos."
+  },
+  {
+    "Question Text": "¿Qué función cumple Trailhead en el desarrollo profesional de los usuarios?",
+    "Option 1": "Proporciona descuentos en productos de Salesforce.",
+    "Option 2": "Ofrece oportunidades de empleo directo en Salesforce.",
+    "Option 3": "Ayuda a prepararse para certificaciones oficiales de Salesforce.",
+    "Correct Answer": "Ayuda a prepararse para certificaciones oficiales de Salesforce."
+  },
+  {
+    "Question Text": "¿Qué significa metafóricamente el término 'trailhead' en el contexto de la plataforma de aprendizaje de Salesforce?",
+    "Option 1": "Representa el final de un sendero de aprendizaje.",
+    "Option 2": "Indica el nivel avanzado de conocimiento alcanzado.",
+    "Option 3": "Marca el punto de partida para el aprendizaje y desarrollo de habilidades.",
+    "Correct Answer": "Marca el punto de partida para el aprendizaje y desarrollo de habilidades."
+  },
+  {
+    "Question Text": "¿Qué se promueve al unirse a la Trailblazer Community según el texto?",
+    "Option 1": "Aprender habilidades nuevas solo.",
+    "Option 2": "Conectar con Trailblazers de cualquier parte del mundo y aprender habilidades nuevas.",
+    "Option 3": "Desarrollar una red profesional únicamente.",
+    "Correct Answer": "Conectar con Trailblazers de cualquier parte del mundo y aprender habilidades nuevas."
+  },
+  {
+    "Question Text": "¿Cómo se pueden conectar los miembros de la Trailblazer Community?",
+    "Option 1": "Solo a través de módulos en Trailhead.",
+    "Option 2": "Unirse a grupos por ubicación, función o interés.",
+    "Option 3": "Contribuir y compartir conocimientos únicamente.",
+    "Correct Answer": "Unirse a grupos por ubicación, función o interés."
+  },
+  {
+    "Question Text": "¿Qué se espera que hagan los miembros de la Trailblazer Community según el texto?",
+    "Option 1": "Solo contribuir y compartir conocimientos.",
+    "Option 2": "Solo desarrollar su red profesional.",
+    "Option 3": "Contribuir, compartir conocimientos, ofrecer orientación y desarrollar su red.",
+    "Correct Answer": "Contribuir, compartir conocimientos, ofrecer orientación y desarrollar su red."
+  }
+]

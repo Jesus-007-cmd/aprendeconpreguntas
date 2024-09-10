@@ -1,0 +1,35 @@
+.sein-exercise {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .sentence {
+    margin-bottom: 20px;
+  }
+  
+  .sentence p {
+    font-size: 18px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005f6b;
+  }
+  
+  .explanation {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  

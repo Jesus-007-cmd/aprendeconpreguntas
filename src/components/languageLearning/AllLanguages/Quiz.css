@@ -1,0 +1,123 @@
+/* General container */
+.container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Card for question and answer options */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Question section */
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-count {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.question-text {
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Answer section buttons */
+.answer-section button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.answer-section button:hover {
+  background-color: #45a049;
+}
+
+.answer-section button:active {
+  background-color: #388e3c;
+}
+
+/* Score section */
+.score-section {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Pronunciation section */
+.pronunciation-section {
+  margin-top: 30px;
+}
+
+.pronunciation-section h3 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+.pronunciation-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pronunciation-section li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pronunciation-section button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.text{
+  color:#0056b3;
+}
+.pronunciation-section button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Result feedback */
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
