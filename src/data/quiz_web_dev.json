@@ -184,7 +184,7 @@
                         "Option 3": "El operador de transformación que convierte datos a diferentes formatos automáticamente.",
                         "Correct Answer": "El operador de asignación."
                     },
-                    [
+                    
                         {
                             "Question Text": "¿Cuál es la función principal de los operadores aritméticos en JavaScript?",
                             "Option 1": "Definir la estructura y el contenido de una página web.",
@@ -271,4 +271,6 @@
                                 "Correct Answer": "Permite guardar una colección de valores en una sola variable."
                             }
                           
+                
+  
 ]
