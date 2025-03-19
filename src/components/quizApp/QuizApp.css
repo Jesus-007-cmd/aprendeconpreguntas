@@ -132,6 +132,10 @@ button:hover {
   top: 0;
   border-radius: 10px;
 }
+.quiz-button {
+  width: auto; /* Deja que el botón se adapte al contenido */
+  max-width: 300px; /* No permitir que sean más grandes que 300px */
+}
 
 @keyframes glowing {
   0% { background-position: 0 0; }

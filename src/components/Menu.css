@@ -58,5 +58,15 @@
     .dropdown-item {
       padding: 8px;
     }
+    .question-container {
+        font-size: 2.5vh; /* Reducir tamaño de fuente */
+        width: 95%; /* Hacer que el contenedor se ajuste mejor */
+      }
+    
+      button {
+        font-size: 2vh; /* Reducir tamaño de texto en los botones */
+        padding: 8px 15px; /* Reducir espacio interno en los botones */
+        width: 90%; /* Limitar el ancho máximo */
+        max-width: 300px; /* Evitar que los botones sean demasiado anchos */
+      }
   }
-  

@@ -105,6 +105,7 @@ function QuizApp() {
     const currentQuestion = questions[currentQuestionIndex];
 
     if (selectedAnswer === currentQuestion["Correct Answer"]) {
+      setSelectedAnswer(selectedAnswer);
       setScore(score + 1);
       setShowCorrect(true);
       setTimeout(() => {
@@ -282,7 +283,7 @@ function QuizApp() {
             {questions.length > 0 && currentQuestionIndex < questions.length && (
               <div className="question-container">
                 {questions[currentQuestionIndex]["Question Text"]} <p></p>
-                {selectedAnswer && <p>Opción seleccionada: {selectedAnswer}</p>}
+                {selectedAnswer && <p>{questions[currentQuestionIndex-1]["Question Text"]} : {selectedAnswer}</p>}
                 {showOnlyCorrect ? (
                   <p>{questions[currentQuestionIndex]["Correct Answer"]}</p>
                 ) : (
@@ -290,7 +291,7 @@ function QuizApp() {
                     <button
                       key={uuidv4()}
                       onClick={() => handleAnswerSelect(option)}
-                      className="answer-button" // Ahora usará los estilos de CSS
+                      className={`quiz-button ${selectedAnswer === option ? "selected" : ""}`}
                     >
                       {option}
                     </button>
