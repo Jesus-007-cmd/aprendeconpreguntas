@@ -14,32 +14,27 @@ body {
   align-items: center;
 }
 
+/* Mejorar la estructura del contenedor principal */
 .quiz-container {
-  background-color: #121212;
-  color: #ffffff;
-  height: 100vh; /* Ocupar todo el alto de la pantalla */
-  width: 100vw;  /* Ocupar todo el ancho de la pantalla */
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  width: 100%; /* Ocupar todo el ancho */
+  max-width: 600px; /* Limitar el ancho máximo */
+  margin: auto; /* Centrar el contenido */
+  padding: 20px; /* Añadir espaciado interno */
   box-sizing: border-box;
 }
 
+/* Ajustar el contenedor de preguntas */
 .question-container {
-  background-color: #0d0a0a;
-  color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  font-size: 3vh;
+  width: 90%; /* Ajustar ancho */
+  max-width: 500px; /* No permitir que sea más ancho de lo necesario */
   text-align: center;
-  width: 80%; /* Ajustamos el ancho */
-  height: auto; /* Ajustamos la altura para ocupar el espacio necesario */
-  word-wrap: break-word;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
-  border: 1px solid #333;
 }
+
+
 
 .fullscreen-question {
   width: 100%; /* Ocupar todo el ancho */
@@ -50,16 +45,22 @@ body {
 }
 
 button {
-  background-color: #0056b3;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 8px;
-  margin: 5px;
-  font-size: 2vh;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0px 4px 6px rgba(0, 123, 255, 0.2);
+  width: 90%; /* Para que se ajusten sin ocupar todo el ancho */
+  max-width: 300px; /* Evitar que sean demasiado grandes */
+  font-size: 2vh; /* Reducir el tamaño del texto */
 }
+
+/* Corregir el menú de selección de categorías */
+.category-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+
+
 /* Ajustar botones de respuestas */
 .answer-button {
   width: 90%; /* Evitar que ocupen todo el ancho */
@@ -143,18 +144,26 @@ button:hover {
   100% { background-position: 0 0; }
 }
 
-/* Para pantallas pequeñas */
+
+/* Ajustar para pantallas pequeñas */
 @media (max-width: 600px) {
+  .quiz-container {
+    width: 100%; /* Asegurar que ocupe todo el ancho */
+    max-width: 100%; /* No dejar margen vacío */
+    padding: 10px;
+  }
+
   .question-container {
-    font-size: 2vh;
+    width: 95%; /* Reducir un poco más el ancho */
+  }
+
+  .category-buttons {
+    width: 100%;
   }
 
   button {
-    font-size: 1.5vh;
+    font-size: 1.8vh; /* Reducir el tamaño de los botones en móviles */
   }
-}
-/* Hacer más compacto en móviles */
-@media (max-width: 600px) {
   .answer-button {
     font-size: 0.85rem; /* Reducir tamaño del texto */
     padding: 6px 10px; /* Menos padding */
