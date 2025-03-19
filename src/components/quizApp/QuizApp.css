@@ -60,6 +60,23 @@ button {
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0px 4px 6px rgba(0, 123, 255, 0.2);
 }
+/* Ajustar botones de respuestas */
+.answer-button {
+  width: 90%; /* Evitar que ocupen todo el ancho */
+  max-width: 300px; /* No más anchos de 300px */
+  margin: 10px auto; /* Añadir margen entre botones */
+  padding: 8px 12px; /* Reducir padding */
+  font-size: 0.9rem; /* Reducir tamaño del texto */
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  word-wrap: break-word; /* Evitar desbordamiento de texto */
+}
+
 
 button:hover {
   background-color: #004494;
@@ -130,5 +147,13 @@ button:hover {
 
   button {
     font-size: 1.5vh;
+  }
+}
+/* Hacer más compacto en móviles */
+@media (max-width: 600px) {
+  .answer-button {
+    font-size: 0.85rem; /* Reducir tamaño del texto */
+    padding: 6px 10px; /* Menos padding */
+    max-width: 250px; /* Evitar que sean demasiado anchos */
   }
 }
