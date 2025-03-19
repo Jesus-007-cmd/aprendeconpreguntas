@@ -547,7 +547,7 @@ const ItalianArticlesTrainer = ({ onExit }) => {
               const undeterminedArticleInfo = articlesData.find(
                 (article) => article.article === item.undetermined
               );
-              const wordToSpeak = extractWord(item.question); // Extraer la palabra en italiano
+            //  const wordToSpeak = extractWord(item.question); // Extraer la palabra en italiano
               return (
                 <tr key={item.id}>
                   {/* Columna con la pregunta */}

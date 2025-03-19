@@ -27,7 +27,7 @@ const CombineCSVFiles = () => {
   // Función para combinar los datos de varios CSV
   const combineCsvData = (csvFiles) => {
     const combined = [];
-    const headers = Object.keys(csvFiles[0][0]); // Usar encabezados del primer archivo
+    //const headers = Object.keys(csvFiles[0][0]); // Usar encabezados del primer archivo
 
     csvFiles.forEach((file) => {
       file.forEach((row) => {

@@ -24,7 +24,7 @@ import portugueseSpanishQuestions190 from "./questions/Articles-Portuguese-Spani
 import portuguese_phrases_questions from "./questions/portuguese_phrases_questions_final.json";
 import portuguese_verbs_full_questions from "./questions/portuguese_verbs_full_questions.json";
 
-import chineseSpanishQuestions190 from "./questions/Chinese-Spanish.json"; // Si es necesario
+//import chineseSpanishQuestions190 from "./questions/Chinese-Spanish.json"; // Si es necesario
 
 import articlesGermanSpanish190 from "./questions/Articles-German-Spanish.json";
 import articlesPortugueseSpanish190 from "./questions/Articles-Portuguese-Spanish.json";
