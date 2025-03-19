@@ -289,12 +289,12 @@ function QuizApp() {
                     <button
                       key={uuidv4()}
                       onClick={() => handleAnswerSelect(option)}
-                      className={selectedAnswer === option ? "selected" : ""}
-                      style={{ fontSize: '4vh', padding: '10px', margin: '5px' }}
+                      className="answer-button" // Ahora usará los estilos de CSS
                     >
                       {option}
                     </button>
                   ))
+                  
                 )}
                 {showCorrect && <div className="correct">¡Bien hecho!</div>}
               </div>
