@@ -282,6 +282,7 @@ function QuizApp() {
             {questions.length > 0 && currentQuestionIndex < questions.length && (
               <div className="question-container">
                 {questions[currentQuestionIndex]["Question Text"]} <p></p>
+                {selectedAnswer && <p>Opción seleccionada: {selectedAnswer}</p>}
                 {showOnlyCorrect ? (
                   <p>{questions[currentQuestionIndex]["Correct Answer"]}</p>
                 ) : (
