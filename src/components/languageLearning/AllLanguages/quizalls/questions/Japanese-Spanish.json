@@ -1,0 +1,2286 @@
+{
+    "questionLanguage": "ja-JP",
+    "responseLanguage": "es-US",
+    "questions": [
+        {
+            "word": "コンピュータ (konpyūta)",
+            "translation": "El computador",
+            "pronunciation": "コンピュータ (konpyūta)",
+            "options": [
+                "El conocimiento",
+                "La belleza",
+                "Beber",
+                "El computador"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "いえ (ie)",
+            "translation": "La casa",
+            "pronunciation": "いえ (ie)",
+            "options": [
+                "Amar",
+                "Permitir",
+                "Policía",
+                "La casa"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "かばん (kaban)",
+            "translation": "La bolsa",
+            "pronunciation": "かばん (kaban)",
+            "options": [
+                "Policía",
+                "Llave",
+                "La bolsa",
+                "Mantener"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "コンピュータ (konpyūta)",
+            "translation": "Un computador",
+            "pronunciation": "コンピュータ (konpyūta)",
+            "options": [
+                "Mantener",
+                "Las bolsas",
+                "Aquí está = aquí está",
+                "Un computador"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "いっけんのいえ (ikken no ie)",
+            "translation": "Una casa",
+            "pronunciation": "いっけんのいえ (ikken no ie)",
+            "options": [
+                "Son las nueve. Estás tarde otra vez.",
+                "Una casa",
+                "¡Mira! Ahí está Chris.",
+                "Gustar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "かばん (kaban)",
+            "translation": "Una bolsa",
+            "pronunciation": "かばん (kaban)",
+            "options": [
+                "La gata",
+                "Viajar",
+                "Ningunas casas",
+                "Una bolsa"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "コンピュータなし (konpyūta nashi)",
+            "translation": "Ningún computador",
+            "pronunciation": "コンピュータなし (konpyūta nashi)",
+            "options": [
+                "Ningún computador",
+                "Frío",
+                "La amiga",
+                "Un medicamento"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "いえがない (ie ga nai)",
+            "translation": "Ninguna casa",
+            "pronunciation": "いえがない (ie ga nai)",
+            "options": [
+                "El periódico",
+                "Una cámara de video",
+                "Ninguna casa",
+                "Un teléfono"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "かばんがない (kaban ga nai)",
+            "translation": "Ninguna bolsa",
+            "pronunciation": "かばんがない (kaban ga nai)",
+            "options": [
+                "Viajar",
+                "Llamar",
+                "Entender",
+                "Ninguna bolsa"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "これはコンピュータです (kore wa konpyūta desu)",
+            "translation": "Eso es un computador.",
+            "pronunciation": "これはコンピュータです (kore wa konpyūta desu)",
+            "options": [
+                "Gracias. Eso es muy amable de tu parte.",
+                "Los computadores",
+                "Eso es un computador.",
+                "El coche"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "これはコンピュータではなくモニターです (kore wa konpyūta de wa naku monitā desu)",
+            "translation": "Eso no es un computador, es un monitor.",
+            "pronunciation": "これはコンピュータではなくモニターです (kore wa konpyūta de wa naku monitā desu)",
+            "options": [
+                "Eso no es un computador, es un monitor.",
+                "Esa gente no es inglesa. Son japoneses.",
+                "Mi hermano es muy alto. Es policía.",
+                "\"Aquí está tu llave\" \"Gracias\"."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "コンピュータ (konpyūta)",
+            "translation": "Los computadores",
+            "pronunciation": "コンピュータ (konpyūta)",
+            "options": [
+                "Las casas",
+                "Ningunas bolsas",
+                "Las narices",
+                "Los computadores"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "いえ (ie)",
+            "translation": "Las casas",
+            "pronunciation": "いえ (ie)",
+            "options": [
+                "La niña",
+                "Las casas",
+                "Mantener",
+                "Doctor"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "かばん (kaban)",
+            "translation": "Las bolsas",
+            "pronunciation": "かばん (kaban)",
+            "options": [
+                "Llamar",
+                "Las bolsas",
+                "Comer",
+                "Una bolsa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "コンピュータなし (konpyūta nashi)",
+            "translation": "Ningunos computadores",
+            "pronunciation": "コンピュータなし (konpyūta nashi)",
+            "options": [
+                "Tengo 31 años. Mi hermana tiene 27.",
+                "Son las nueve. Estás tarde otra vez.",
+                "Los intereses",
+                "Ningunos computadores"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "いえがない (ie ga nai)",
+            "translation": "Ningunas casas",
+            "pronunciation": "いえがない (ie ga nai)",
+            "options": [
+                "Las bolsas",
+                "El libro",
+                "Ningunas casas",
+                "Bailar"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "かばんがない (kaban ga nai)",
+            "translation": "Ningunas bolsas",
+            "pronunciation": "かばんがない (kaban ga nai)",
+            "options": [
+                "Ocurrir",
+                "Una aspiradora",
+                "Ningunas bolsas",
+                "Ventana"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ほん (hon)",
+            "translation": "El libro",
+            "pronunciation": "ほん (hon)",
+            "options": [
+                "Ninguna casa",
+                "Una oficina",
+                "El libro",
+                "Hay = ahí está"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "おんな (onna)",
+            "translation": "La mujer",
+            "pronunciation": "おんな (onna)",
+            "options": [
+                "La mujer",
+                "Bailar",
+                "Ventana",
+                "La niña"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "くるま (kuruma)",
+            "translation": "El coche",
+            "pronunciation": "くるま (kuruma)",
+            "options": [
+                "Es/Está",
+                "El coche",
+                "Los cabellos",
+                "Beber"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "ケーキ (kēki)",
+            "translation": "Un pastel",
+            "pronunciation": "ケーキ (kēki)",
+            "options": [
+                "Un pastel",
+                "Los hombres",
+                "Un teléfono",
+                "Hoy hace sol, pero no hace calor."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "おとこ (otoko)",
+            "translation": "El hombre",
+            "pronunciation": "おとこ (otoko)",
+            "options": [
+                "El pie",
+                "El hombre",
+                "Fingir",
+                "La bolsa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "おとこたち (otokotachi)",
+            "translation": "Los hombres",
+            "pronunciation": "おとこたち (otokotachi)",
+            "options": [
+                "Eso es = eso es",
+                "Tengo 31 años. Mi hermana tiene 27.",
+                "Los hombres",
+                "Aquí está = aquí está"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "おんなたち (onnatachi)",
+            "translation": "Las mujeres",
+            "pronunciation": "おんなたち (onnatachi)",
+            "options": [
+                "Escribir",
+                "Las mujeres",
+                "El interés (tasa)",
+                "Vender"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "くるま (kuruma)",
+            "translation": "El coche",
+            "pronunciation": "くるま (kuruma)",
+            "options": [
+                "El computador",
+                "\"Aquí está tu llave\" \"Gracias\".",
+                "Estoy cansado, pero no tengo hambre.",
+                "El coche"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "くるまたち (kurumatachi)",
+            "translation": "Los coches",
+            "pronunciation": "くるまたち (kurumatachi)",
+            "options": [
+                "El castillo",
+                "El pecho",
+                "Los coches",
+                "Eso es un computador."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "じゅうたん (jūtan)",
+            "translation": "La alfombra",
+            "pronunciation": "じゅうたん (jūtan)",
+            "options": [
+                "La alfombra",
+                "El doctor",
+                "A John no le interesa la política. Le interesa la música.",
+                "Quedarse"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "じゅうたんたち (jūtan tachi)",
+            "translation": "Las alfombras",
+            "pronunciation": "じゅうたんたち (jūtan tachi)",
+            "options": [
+                "Una decisión",
+                "Permitir",
+                "La mochila",
+                "Las alfombras"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "しろ (shiro)",
+            "translation": "El castillo",
+            "pronunciation": "しろ (shiro)",
+            "options": [
+                "Entender",
+                "Estoy cansado, pero no tengo hambre.",
+                "Doctor",
+                "El castillo"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "しろたち (shirotachi)",
+            "translation": "Los castillos",
+            "pronunciation": "しろたち (shirotachi)",
+            "options": [
+                "Una cámara de video",
+                "Una casa",
+                "El doctor",
+                "Los castillos"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "かみ (kami)",
+            "translation": "El cabello",
+            "pronunciation": "かみ (kami)",
+            "options": [
+                "Las mochilas",
+                "El cabello",
+                "Comer",
+                "La realidad"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "かみたち (kamitachi)",
+            "translation": "Los cabellos",
+            "pronunciation": "かみたち (kamitachi)",
+            "options": [
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+                "Comer",
+                "Los cabellos",
+                "Las mujeres"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "しんぶん (shinbun)",
+            "translation": "El periódico",
+            "pronunciation": "しんぶん (shinbun)",
+            "options": [
+                "¡Mira! Ahí está Chris.",
+                "La gata",
+                "Ningunas casas",
+                "El periódico"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "しんぶんたち (shinbun tachi)",
+            "translation": "Los periódicos",
+            "pronunciation": "しんぶんたち (shinbun tachi)",
+            "options": [
+                "Son las nueve. Estás tarde otra vez.",
+                "La belleza",
+                "Los periódicos",
+                "Un gobierno"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "しごと (shigoto)",
+            "translation": "El trabajo",
+            "pronunciation": "しごと (shigoto)",
+            "options": [
+                "Llorar",
+                "Los trabajos",
+                "El trabajo",
+                "Ninguna bolsa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "しごとたち (shigototachi)",
+            "translation": "Los trabajos",
+            "pronunciation": "しごとたち (shigototachi)",
+            "options": [
+                "Vivir",
+                "Ninguna bolsa",
+                "La nariz",
+                "Los trabajos"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "ひざ (hiza)",
+            "translation": "La rodilla",
+            "pronunciation": "ひざ (hiza)",
+            "options": [
+                "El trabajo",
+                "La bolsa",
+                "La rodilla",
+                "Un gobierno"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ひざたち (hizatachi)",
+            "translation": "Las rodillas",
+            "pronunciation": "ひざたち (hizatachi)",
+            "options": [
+                "El libro",
+                "Las rodillas",
+                "La bolsa",
+                "Una casa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "じてんしゃ (jitensha)",
+            "translation": "Una bicicleta",
+            "pronunciation": "じてんしゃ (jitensha)",
+            "options": [
+                "El cabello",
+                "El periódico",
+                "Un queso",
+                "Una bicicleta"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "フロッピーディスク (furoppīdisuku)",
+            "translation": "Un disquete",
+            "pronunciation": "フロッピーディスク (furoppīdisuku)",
+            "options": [
+                "Un disquete",
+                "El periódico",
+                "Las narices",
+                "Periodista"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "ちしき (chishiki)",
+            "translation": "El conocimiento",
+            "pronunciation": "ちしき (chishiki)",
+            "options": [
+                "La región",
+                "Vivir",
+                "El conocimiento",
+                "Estoy cansado, pero no tengo hambre."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ちがい (chigai)",
+            "translation": "La diferencia",
+            "pronunciation": "ちがい (chigai)",
+            "options": [
+                "Gustar",
+                "La diferencia",
+                "Volar",
+                "Eso es = eso es"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "りしりつ (rishiritsu)",
+            "translation": "El interés (tasa)",
+            "pronunciation": "りしりつ (rishiritsu)",
+            "options": [
+                "Estudiar",
+                "Un disquete",
+                "El interés (tasa)",
+                "Las casas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "りしりつたち (rishiritsutachi)",
+            "translation": "Los intereses",
+            "pronunciation": "りしりつたち (rishiritsutachi)",
+            "options": [
+                "Los intereses",
+                "Fingir",
+                "La alfombra",
+                "Intervenir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "はな (hana)",
+            "translation": "La nariz",
+            "pronunciation": "はな (hana)",
+            "options": [
+                "El doctor",
+                "Es/Está",
+                "La nariz",
+                "La niña"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "はなたち (hanatachi)",
+            "translation": "Las narices",
+            "pronunciation": "はなたち (hanatachi)",
+            "options": [
+                "El vientre",
+                "Las mujeres",
+                "El amigo",
+                "Las narices"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "しろ (shiro)",
+            "translation": "El castillo",
+            "pronunciation": "しろ (shiro)",
+            "options": [
+                "El castillo",
+                "Recibir",
+                "El cabello",
+                "Hay = ahí está"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "しろたち (shirotachi)",
+            "translation": "Los castillos",
+            "pronunciation": "しろたち (shirotachi)",
+            "options": [
+                "Un disquete",
+                "Un queso",
+                "Los castillos",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "かみ (kami)",
+            "translation": "El cabello",
+            "pronunciation": "かみ (kami)",
+            "options": [
+                "El cabello",
+                "Hoy hace sol, pero no hace calor.",
+                "Intervenir",
+                "El interés (tasa)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "かみたち (kamitachi)",
+            "translation": "Los cabellos",
+            "pronunciation": "かみたち (kamitachi)",
+            "options": [
+                "Los cabellos",
+                "Recibir",
+                "El hombre",
+                "Un gobierno"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "しんぶん (shinbun)",
+            "translation": "El periódico",
+            "pronunciation": "しんぶん (shinbun)",
+            "options": [
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+                "Un disquete",
+                "El periódico",
+                "El coche"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "しんぶんたち (shinbun tachi)",
+            "translation": "Los periódicos",
+            "pronunciation": "しんぶんたち (shinbun tachi)",
+            "options": [
+                "Los hombres",
+                "Un cuchillo",
+                "Los periódicos",
+                "Una cámara de video"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "しごと (shigoto)",
+            "translation": "El trabajo",
+            "pronunciation": "しごと (shigoto)",
+            "options": [
+                "El trabajo",
+                "Un medicamento",
+                "El dedo (del pie)",
+                "Estudiar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "しごとたち (shigototachi)",
+            "translation": "Los trabajos",
+            "pronunciation": "しごとたち (shigototachi)",
+            "options": [
+                "Un disquete",
+                "Cumplir",
+                "Los trabajos",
+                "Ningunas casas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "せいふ (seifu)",
+            "translation": "Un gobierno",
+            "pronunciation": "せいふ (seifu)",
+            "options": [
+                "Un gobierno",
+                "Recibir",
+                "Mantener",
+                "Las mochilas"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "くすり (kusuri)",
+            "translation": "Un medicamento",
+            "pronunciation": "くすり (kusuri)",
+            "options": [
+                "Un medicamento",
+                "Los hombres",
+                "Un pastel",
+                "Los trenes"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "でんわ (denwa)",
+            "translation": "Un teléfono",
+            "pronunciation": "でんわ (denwa)",
+            "options": [
+                "Un disquete",
+                "Vender",
+                "Un medicamento",
+                "Un teléfono"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "インターホン (intāhon)",
+            "translation": "Un intercomunicador",
+            "pronunciation": "インターホン (intāhon)",
+            "options": [
+                "Un queso",
+                "Estoy cansado, pero no tengo hambre.",
+                "Un intercomunicador",
+                "Caminar"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ビデオレコーダー (bideo rekōdā)",
+            "translation": "Un videograbador",
+            "pronunciation": "ビデオレコーダー (bideo rekōdā)",
+            "options": [
+                "Recibir",
+                "Una decisión",
+                "Policía",
+                "Un videograbador"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "ビデオカメラ (bideo kamera)",
+            "translation": "Una cámara de video",
+            "pronunciation": "ビデオカメラ (bideo kamera)",
+            "options": [
+                "Un disquete",
+                "Corregir",
+                "Una cámara de video",
+                "Hoy hace sol, pero no hace calor."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "じむしょ (jimusho)",
+            "translation": "Una oficina",
+            "pronunciation": "じむしょ (jimusho)",
+            "options": [
+                "Una oficina",
+                "El hombre",
+                "Ventana",
+                "A John no le interesa la política. Le interesa la música."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "ないふ (naifu)",
+            "translation": "Un cuchillo",
+            "pronunciation": "ないふ (naifu)",
+            "options": [
+                "Un cuchillo",
+                "Corregir",
+                "No",
+                "Una solución"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "そうじき (sōjiki)",
+            "translation": "Una aspiradora",
+            "pronunciation": "そうじき (sōjiki)",
+            "options": [
+                "El cabello",
+                "Periodista",
+                "Una aspiradora",
+                "Las bolsas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ちーず (chīzu)",
+            "translation": "Un queso",
+            "pronunciation": "ちーず (chīzu)",
+            "options": [
+                "Un videograbador",
+                "Ningunas bolsas",
+                "Un queso",
+                "El interés (tasa)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "かいけつ (kaiketsu)",
+            "translation": "Una solución",
+            "pronunciation": "かいけつ (kaiketsu)",
+            "options": [
+                "Una solución",
+                "Un cuchillo",
+                "La cabeza",
+                "Nadar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "けってい (kettei)",
+            "translation": "Una decisión",
+            "pronunciation": "けってい (kettei)",
+            "options": [
+                "Dividir",
+                "El periódico",
+                "El trabajo",
+                "Una decisión"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "テレビ (terebi)",
+            "translation": "Una televisión",
+            "pronunciation": "テレビ (terebi)",
+            "options": [
+                "Un pastel",
+                "Las narices",
+                "El periódico",
+                "Una televisión"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "げんじつ (genjitsu)",
+            "translation": "La realidad",
+            "pronunciation": "げんじつ (genjitsu)",
+            "options": [
+                "Un medicamento",
+                "El amigo",
+                "Amar",
+                "La realidad"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "しゃかい (shakai)",
+            "translation": "La sociedad",
+            "pronunciation": "しゃかい (shakai)",
+            "options": [
+                "El castillo",
+                "La sociedad",
+                "Los hombres",
+                "Estoy cansado, pero no tengo hambre."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "うつくしさ (utsukushisa)",
+            "translation": "La belleza",
+            "pronunciation": "うつくしさ (utsukushisa)",
+            "options": [
+                "La belleza",
+                "El trabajo",
+                "Los amigos",
+                "Una aspiradora"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "りしりつ (rishiritsu)",
+            "translation": "El interés (tasa)",
+            "pronunciation": "りしりつ (rishiritsu)",
+            "options": [
+                "El interés (tasa)",
+                "Una aspiradora",
+                "Amar",
+                "Los periódicos"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "りしりつたち (rishiritsutachi)",
+            "translation": "Los intereses",
+            "pronunciation": "りしりつたち (rishiritsutachi)",
+            "options": [
+                "Un gobierno",
+                "Los intereses",
+                "Kate y yo somos buenos amigos.",
+                "Escribir"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "はな (hana)",
+            "translation": "La nariz",
+            "pronunciation": "はな (hana)",
+            "options": [
+                "La nariz",
+                "Periodista",
+                "Ventana",
+                "Llorar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "はなたち (hanatachi)",
+            "translation": "Las narices",
+            "pronunciation": "はなたち (hanatachi)",
+            "options": [
+                "Un teléfono",
+                "Bailar",
+                "Las narices",
+                "La región"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "おとこ (otoko)",
+            "translation": "El hombre",
+            "pronunciation": "おとこ (otoko)",
+            "options": [
+                "Mantener",
+                "Aprender",
+                "Deber",
+                "El hombre"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "おとこたち (otokotachi)",
+            "translation": "Los hombres",
+            "pronunciation": "おとこたち (otokotachi)",
+            "options": [
+                "Los hombres",
+                "Hoy hace sol, pero no hace calor.",
+                "Llorar",
+                "Volar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "おんな (onna)",
+            "translation": "La mujer",
+            "pronunciation": "おんな (onna)",
+            "options": [
+                "Eso no es un computador, es un monitor.",
+                "La mujer",
+                "Eso es un computador.",
+                "Los amigos"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "おんなたち (onnatachi)",
+            "translation": "Las mujeres",
+            "pronunciation": "おんなたち (onnatachi)",
+            "options": [
+                "Las mujeres",
+                "El castillo",
+                "Cumplir",
+                "Hay = ahí está"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "くるま (kuruma)",
+            "translation": "El coche",
+            "pronunciation": "くるま (kuruma)",
+            "options": [
+                "Viajar",
+                "Las alfombras",
+                "Gracias. Eso es muy amable de tu parte.",
+                "El coche"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "くるまたち (kurumatachi)",
+            "translation": "Los coches",
+            "pronunciation": "くるまたち (kurumatachi)",
+            "options": [
+                "Hablar",
+                "Es/Está",
+                "Intervenir",
+                "Los coches"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "じゅうたん (jūtan)",
+            "translation": "La alfombra",
+            "pronunciation": "じゅうたん (jūtan)",
+            "options": [
+                "La alfombra",
+                "La rodilla",
+                "Una bolsa",
+                "Volar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "じゅうたんたち (jūtan tachi)",
+            "translation": "Las alfombras",
+            "pronunciation": "じゅうたんたち (jūtan tachi)",
+            "options": [
+                "El vientre",
+                "Las alfombras",
+                "La gata",
+                "Estoy cansado, pero no tengo hambre."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "しろ (shiro)",
+            "translation": "El castillo",
+            "pronunciation": "しろ (shiro)",
+            "options": [
+                "El castillo",
+                "El doctor",
+                "Poseer",
+                "Vender"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "しろたち (shirotachi)",
+            "translation": "Los castillos",
+            "pronunciation": "しろたち (shirotachi)",
+            "options": [
+                "Las bolsas",
+                "No",
+                "Los castillos",
+                "Toser"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "かみ (kami)",
+            "translation": "El cabello",
+            "pronunciation": "かみ (kami)",
+            "options": [
+                "Mantener",
+                "El cabello",
+                "El tren",
+                "Un pastel"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "かみたち (kamitachi)",
+            "translation": "Los cabellos",
+            "pronunciation": "かみたち (kamitachi)",
+            "options": [
+                "Las mochilas",
+                "Las alfombras",
+                "Los cabellos",
+                "Una bicicleta"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "しんぶん (shinbun)",
+            "translation": "El periódico",
+            "pronunciation": "しんぶん (shinbun)",
+            "options": [
+                "Una bolsa",
+                "El periódico",
+                "Las mochilas",
+                "Kate y yo somos buenos amigos."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "しんぶんたち (shinbun tachi)",
+            "translation": "Los periódicos",
+            "pronunciation": "しんぶんたち (shinbun tachi)",
+            "options": [
+                "Estudiar",
+                "Los periódicos",
+                "Los castillos",
+                "Las rodillas"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "しごと (shigoto)",
+            "translation": "El trabajo",
+            "pronunciation": "しごと (shigoto)",
+            "options": [
+                "Ningunas bolsas",
+                "El trabajo",
+                "El amigo",
+                "El libro"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "しごとたち (shigototachi)",
+            "translation": "Los trabajos",
+            "pronunciation": "しごとたち (shigototachi)",
+            "options": [
+                "Una bicicleta",
+                "Llamar",
+                "Los trabajos",
+                "Estudiar"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ひざ (hiza)",
+            "translation": "La rodilla",
+            "pronunciation": "ひざ (hiza)",
+            "options": [
+                "¡Mira! Ahí está Chris.",
+                "Eso es = eso es",
+                "Escribir",
+                "La rodilla"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "ひざたち (hizatachi)",
+            "translation": "Las rodillas",
+            "pronunciation": "ひざたち (hizatachi)",
+            "options": [
+                "Saltar",
+                "Gracias. Eso es muy amable de tu parte.",
+                "Las rodillas",
+                "Un teléfono"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "じてんしゃ (jitensha)",
+            "translation": "Una bicicleta",
+            "pronunciation": "じてんしゃ (jitensha)",
+            "options": [
+                "Bailar",
+                "Una bicicleta",
+                "Hablar",
+                "Una casa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "フロッピーディスク (furoppīdisuku)",
+            "translation": "Un disquete",
+            "pronunciation": "フロッピーディスク (furoppīdisuku)",
+            "options": [
+                "El cuello",
+                "Los computadores",
+                "Un disquete",
+                "La diferencia"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ちしき (chishiki)",
+            "translation": "El conocimiento",
+            "pronunciation": "ちしき (chishiki)",
+            "options": [
+                "Ninguna bolsa",
+                "El conocimiento",
+                "Una oficina",
+                "Estudiar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "ちがい (chigai)",
+            "translation": "La diferencia",
+            "pronunciation": "ちがい (chigai)",
+            "options": [
+                "Los intereses",
+                "La diferencia",
+                "Llamar",
+                "Kate y yo somos buenos amigos."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "ビデオレコーダー (bideo rekōdā)",
+            "translation": "Un videograbador",
+            "pronunciation": "ビデオレコーダー (bideo rekōdā)",
+            "options": [
+                "El interés (tasa)",
+                "Bailar",
+                "Un videograbador",
+                "Las narices"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ビデオカメラ (bideo kamera)",
+            "translation": "Una cámara de video",
+            "pronunciation": "ビデオカメラ (bideo kamera)",
+            "options": [
+                "La diferencia",
+                "Ninguna casa",
+                "Una cámara de video",
+                "Un medicamento"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "そうじき (sōjiki)",
+            "translation": "Una aspiradora",
+            "pronunciation": "そうじき (sōjiki)",
+            "options": [
+                "Olvidar",
+                "Una aspiradora",
+                "Adquirir",
+                "Las alfombras"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "こども (kodomo)",
+            "translation": "El niño",
+            "pronunciation": "こども (kodomo)",
+            "options": [
+                "Ningunas casas",
+                "La gata",
+                "El niño",
+                "Esa gente no es inglesa. Son japoneses."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ねこ (neko)",
+            "translation": "El gato",
+            "pronunciation": "ねこ (neko)",
+            "options": [
+                "El gato",
+                "Las amigas",
+                "Mike tiene miedo de los perros.",
+                "Comprar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "いしゃ (isha)",
+            "translation": "El doctor",
+            "pronunciation": "いしゃ (isha)",
+            "options": [
+                "El doctor",
+                "Ningunas casas",
+                "Un intercomunicador",
+                "El interés (tasa)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "おんなのこ (onna no ko)",
+            "translation": "La niña",
+            "pronunciation": "おんなのこ (onna no ko)",
+            "options": [
+                "El hombre",
+                "Corregir",
+                "La niña",
+                "La diferencia"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "メスねこ (mesu neko)",
+            "translation": "La gata",
+            "pronunciation": "メスねこ (mesu neko)",
+            "options": [
+                "Gustar",
+                "La gata",
+                "Vender",
+                "Vivir"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "ちいき (chiiki)",
+            "translation": "La región",
+            "pronunciation": "ちいき (chiiki)",
+            "options": [
+                "Estudiar",
+                "El hombre",
+                "La región",
+                "Doctor"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ひょうげん (hyōgen)",
+            "translation": "La expresión",
+            "pronunciation": "ひょうげん (hyōgen)",
+            "options": [
+                "La expresión",
+                "Mike tiene miedo de los perros.",
+                "El libro",
+                "Beber"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "でんしゃ (densha)",
+            "translation": "El tren",
+            "pronunciation": "でんしゃ (densha)",
+            "options": [
+                "El vientre",
+                "El dedo (del pie)",
+                "Comprar",
+                "El tren"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "でんしゃたち (denshatatci)",
+            "translation": "Los trenes",
+            "pronunciation": "でんしゃたち (denshatatci)",
+            "options": [
+                "Escribir",
+                "Trabajar",
+                "Los trenes",
+                "La casa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ともだち (tomodachi)",
+            "translation": "El amigo",
+            "pronunciation": "ともだち (tomodachi)",
+            "options": [
+                "El amigo",
+                "La amiga",
+                "Un queso",
+                "El libro"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "ともだちたち (tomodachitachi)",
+            "translation": "Los amigos",
+            "pronunciation": "ともだちたち (tomodachitachi)",
+            "options": [
+                "El periódico",
+                "Los amigos",
+                "Los intereses",
+                "Los trenes"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "バックパック (bakkupakku)",
+            "translation": "La mochila",
+            "pronunciation": "バックパック (bakkupakku)",
+            "options": [
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+                "Bailar",
+                "La amiga",
+                "La mochila"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "バックパックたち (bakkupakkutachi)",
+            "translation": "Las mochilas",
+            "pronunciation": "バックパックたち (bakkupakkutachi)",
+            "options": [
+                "Ocurrir",
+                "Jane no está en casa ahora. Está en el trabajo.",
+                "Las mochilas",
+                "Una cámara de video"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "くるま (kuruma)",
+            "translation": "El coche",
+            "pronunciation": "くるま (kuruma)",
+            "options": [
+                "Ningunas casas",
+                "El coche",
+                "Eso no es un computador, es un monitor.",
+                "El libro"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "くるまたち (kurumatachi)",
+            "translation": "Los coches",
+            "pronunciation": "くるまたち (kurumatachi)",
+            "options": [
+                "Dividir",
+                "Cumplir",
+                "Eso no es un computador, es un monitor.",
+                "Los coches"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "ともだち (tomodachi)",
+            "translation": "La amiga",
+            "pronunciation": "ともだち (tomodachi)",
+            "options": [
+                "Una casa",
+                "Permitir",
+                "La amiga",
+                "El cuello"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ともだちたち (tomodachitachi)",
+            "translation": "Las amigas",
+            "pronunciation": "ともだちたち (tomodachitachi)",
+            "options": [
+                "El interés (tasa)",
+                "Llorar",
+                "Las amigas",
+                "Las alfombras"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "はなす (hanasu)",
+            "translation": "Hablar",
+            "pronunciation": "はなす (hanasu)",
+            "options": [
+                "Poseer",
+                "Hablar",
+                "El periódico",
+                "El pie"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "あいする (aisuru)",
+            "translation": "Amar",
+            "pronunciation": "あいする (aisuru)",
+            "options": [
+                "Amar",
+                "El interés (tasa)",
+                "Las mujeres",
+                "Hablar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "べんきょうする (benkyō suru)",
+            "translation": "Estudiar",
+            "pronunciation": "べんきょうする (benkyō suru)",
+            "options": [
+                "Estudiar",
+                "El tren",
+                "Mike tiene miedo de los perros.",
+                "Una aspiradora"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "すき (suki)",
+            "translation": "Gustar",
+            "pronunciation": "すき (suki)",
+            "options": [
+                "Llamar",
+                "La alfombra",
+                "Amar",
+                "Gustar"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "おどる (odoru)",
+            "translation": "Bailar",
+            "pronunciation": "おどる (odoru)",
+            "options": [
+                "Bailar",
+                "Mike tiene miedo de los perros.",
+                "Cumplir",
+                "La región"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "よぶ (yobu)",
+            "translation": "Llamar",
+            "pronunciation": "よぶ (yobu)",
+            "options": [
+                "Vender",
+                "Llamar",
+                "Mantener",
+                "Eso no es un computador, es un monitor."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "とぶ (tobu)",
+            "translation": "Volar",
+            "pronunciation": "とぶ (tobu)",
+            "options": [
+                "Policía",
+                "Volar",
+                "Las mujeres",
+                "La nariz"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "とどまる (todomareru)",
+            "translation": "Quedarse",
+            "pronunciation": "とどまる (todomareru)",
+            "options": [
+                "Los trenes",
+                "Las amigas",
+                "La mujer",
+                "Quedarse"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "りょこうする (ryokō suru)",
+            "translation": "Viajar",
+            "pronunciation": "りょこうする (ryokō suru)",
+            "options": [
+                "Una oficina",
+                "Mike tiene miedo de los perros.",
+                "Viajar",
+                "La región"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "とぶ (tobu)",
+            "translation": "Saltar",
+            "pronunciation": "とぶ (tobu)",
+            "options": [
+                "Saltar",
+                "Cumplir",
+                "Toser",
+                "Esa gente no es inglesa. Son japoneses."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "はたらく (hataraku)",
+            "translation": "Trabajar",
+            "pronunciation": "はたらく (hataraku)",
+            "options": [
+                "Trabajar",
+                "El conocimiento",
+                "El amigo",
+                "Vivir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "かう (kau)",
+            "translation": "Comprar",
+            "pronunciation": "かう (kau)",
+            "options": [
+                "Comprar",
+                "El libro",
+                "Hablar",
+                "Una oficina"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "なく (naku)",
+            "translation": "Llorar",
+            "pronunciation": "なく (naku)",
+            "options": [
+                "Recibir",
+                "Poseer",
+                "Llorar",
+                "Partir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "およぐ (oyogu)",
+            "translation": "Nadar",
+            "pronunciation": "およぐ (oyogu)",
+            "options": [
+                "El conocimiento",
+                "Nadar",
+                "Un computador",
+                "Una casa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "あるく (aruku)",
+            "translation": "Caminar",
+            "pronunciation": "あるく (aruku)",
+            "options": [
+                "El tren",
+                "Una solución",
+                "Aprender",
+                "Caminar"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "すむ (sumu)",
+            "translation": "Vivir",
+            "pronunciation": "すむ (sumu)",
+            "options": [
+                "Vivir",
+                "Intervenir",
+                "Fingir",
+                "Frío"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "たべる (taberu)",
+            "translation": "Comer",
+            "pronunciation": "たべる (taberu)",
+            "options": [
+                "Comer",
+                "Kate y yo somos buenos amigos.",
+                "Viajar",
+                "Jane no está en casa ahora. Está en el trabajo."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "のむ (nomu)",
+            "translation": "Beber",
+            "pronunciation": "のむ (nomu)",
+            "options": [
+                "Kate y yo somos buenos amigos.",
+                "Beber",
+                "Caer",
+                "Un pastel"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "うる (uru)",
+            "translation": "Vender",
+            "pronunciation": "うる (uru)",
+            "options": [
+                "Fingir",
+                "A John no le interesa la política. Le interesa la música.",
+                "Vender",
+                "Deber"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "はしる (hashiru)",
+            "translation": "Correr",
+            "pronunciation": "はしる (hashiru)",
+            "options": [
+                "Correr",
+                "La bolsa",
+                "Es/Está",
+                "Tus llaves están en la mesa."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "うけとる (uketoru)",
+            "translation": "Recibir",
+            "pronunciation": "うけとる (uketoru)",
+            "options": [
+                "Mantener",
+                "La casa",
+                "Recibir",
+                "El periódico"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "おこる (okoru)",
+            "translation": "Ocurrir",
+            "pronunciation": "おこる (okoru)",
+            "options": [
+                "Ocurrir",
+                "Llorar",
+                "Un cuchillo",
+                "Un intercomunicador"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "かく (kaku)",
+            "translation": "Escribir",
+            "pronunciation": "かく (kaku)",
+            "options": [
+                "Las casas",
+                "Las narices",
+                "Escribir",
+                "Ventana"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "たもつ (tamotsu)",
+            "translation": "Mantener",
+            "pronunciation": "たもつ (tamotsu)",
+            "options": [
+                "Ningunos computadores",
+                "Kate y yo somos buenos amigos.",
+                "Entender",
+                "Mantener"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "まなぶ (manabu)",
+            "translation": "Aprender",
+            "pronunciation": "まなぶ (manabu)",
+            "options": [
+                "La belleza",
+                "Hablar",
+                "Aprender",
+                "La diferencia"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "いきる (ikiru)",
+            "translation": "Vivir",
+            "pronunciation": "いきる (ikiru)",
+            "options": [
+                "Una cámara de video",
+                "Llamar",
+                "Vivir",
+                "La amiga"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "しなければならない (shinakereba naranai)",
+            "translation": "Deber",
+            "pronunciation": "しなければならない (shinakereba naranai)",
+            "options": [
+                "Un teléfono",
+                "Deber",
+                "El interés (tasa)",
+                "\"Aquí está tu llave\" \"Gracias\"."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "わすれる (wasureru)",
+            "translation": "Olvidar",
+            "pronunciation": "わすれる (wasureru)",
+            "options": [
+                "Eso es = eso es",
+                "Hablar",
+                "El niño",
+                "Olvidar"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "わかる (wakaru)",
+            "translation": "Entender",
+            "pronunciation": "わかる (wakaru)",
+            "options": [
+                "Llorar",
+                "Entender",
+                "El cabello",
+                "Ningún computador"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "でる (deru)",
+            "translation": "Partir",
+            "pronunciation": "でる (deru)",
+            "options": [
+                "Partir",
+                "Mentir",
+                "Jane no está en casa ahora. Está en el trabajo.",
+                "La diferencia"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "なおす (naosu)",
+            "translation": "Corregir",
+            "pronunciation": "なおす (naosu)",
+            "options": [
+                "Corregir",
+                "Gracias. Eso es muy amable de tu parte.",
+                "Las narices",
+                "Hoy hace sol, pero no hace calor."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "かいにゅうする (kainyū suru)",
+            "translation": "Intervenir",
+            "pronunciation": "かいにゅうする (kainyū suru)",
+            "options": [
+                "Los castillos",
+                "Intervenir",
+                "El tren",
+                "Las amigas"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "はたす (hatasu)",
+            "translation": "Cumplir",
+            "pronunciation": "はたす (hatasu)",
+            "options": [
+                "Trabajar",
+                "Cumplir",
+                "Llamar",
+                "Permitir"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "おちる (ochiru)",
+            "translation": "Caer",
+            "pronunciation": "おちる (ochiru)",
+            "options": [
+                "Una decisión",
+                "Caer",
+                "Cumplir",
+                "Fingir"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "せきをする (seki o suru)",
+            "translation": "Toser",
+            "pronunciation": "せきをする (seki o suru)",
+            "options": [
+                "Las mochilas",
+                "Toser",
+                "El tren",
+                "Los coches"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "わける (wakeru)",
+            "translation": "Dividir",
+            "pronunciation": "わける (wakeru)",
+            "options": [
+                "Una casa",
+                "Dividir",
+                "El interés (tasa)",
+                "La alfombra"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "ふりをする (furi o suru)",
+            "translation": "Fingir",
+            "pronunciation": "ふりをする (furi o suru)",
+            "options": [
+                "El niño",
+                "Llamar",
+                "Fingir",
+                "Un intercomunicador"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "える (eru)",
+            "translation": "Adquirir",
+            "pronunciation": "える (eru)",
+            "options": [
+                "Aprender",
+                "Ventana",
+                "Ninguna casa",
+                "Adquirir"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "うそをつく (uso o tsuku)",
+            "translation": "Mentir",
+            "pronunciation": "うそをつく (uso o tsuku)",
+            "options": [
+                "La alfombra",
+                "Nadar",
+                "Comprar",
+                "Mentir"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "もつ (motsu)",
+            "translation": "Poseer",
+            "pronunciation": "もつ (motsu)",
+            "options": [
+                "La belleza",
+                "Poseer",
+                "Una solución",
+                "La pierna"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "きる (kiru)",
+            "translation": "Vestir",
+            "pronunciation": "きる (kiru)",
+            "options": [
+                "Ningunas casas",
+                "La gata",
+                "Las mochilas",
+                "Vestir"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "ゆるす (yurusu)",
+            "translation": "Permitir",
+            "pronunciation": "ゆるす (yurusu)",
+            "options": [
+                "Permitir",
+                "Ningunas bolsas",
+                "Un pastel",
+                "La cabeza"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "です (desu)",
+            "translation": "Soy/Estoy",
+            "pronunciation": "です (desu)",
+            "options": [
+                "Recibir",
+                "Volar",
+                "Soy/Estoy",
+                "Las amigas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "です (desu)",
+            "translation": "Es/Está",
+            "pronunciation": "です (desu)",
+            "options": [
+                "El gato",
+                "A John no le interesa la política. Le interesa la música.",
+                "Un teléfono",
+                "Es/Está"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "です (desu)",
+            "translation": "Somos/Están",
+            "pronunciation": "です (desu)",
+            "options": [
+                "Ninguna bolsa",
+                "Somos/Están",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+                "Llorar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "じゃない (ja nai)",
+            "translation": "No",
+            "pronunciation": "じゃない (ja nai)",
+            "options": [
+                "Las bolsas",
+                "Es/Está",
+                "¡Mira! Ahí está Chris.",
+                "No"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "さむい (samui)",
+            "translation": "Frío",
+            "pronunciation": "さむい (samui)",
+            "options": [
+                "Mi hermano es muy alto. Es policía.",
+                "Un computador",
+                "Frío",
+                "Entender"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "けいさつかん (keisatsukan)",
+            "translation": "Policía",
+            "pronunciation": "けいさつかん (keisatsukan)",
+            "options": [
+                "Es/Está",
+                "Quedarse",
+                "La gata",
+                "Policía"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "いしゃ (isha)",
+            "translation": "Doctor",
+            "pronunciation": "いしゃ (isha)",
+            "options": [
+                "Un pastel",
+                "Doctor",
+                "Un computador",
+                "Mike tiene miedo de los perros."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "きしゃ (kisha)",
+            "translation": "Periodista",
+            "pronunciation": "きしゃ (kisha)",
+            "options": [
+                "Periodista",
+                "Saltar",
+                "Aquí está = aquí está",
+                "Soy/Estoy"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "かぎ (kagi)",
+            "translation": "Llave",
+            "pronunciation": "かぎ (kagi)",
+            "options": [
+                "Permitir",
+                "Adquirir",
+                "Llave",
+                "Una bicicleta"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "まど (mado)",
+            "translation": "Ventana",
+            "pronunciation": "まど (mado)",
+            "options": [
+                "La mochila",
+                "Nadar",
+                "Ventana",
+                "Una decisión"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "さむいです。まどをしめてくれますか？ (samui desu. mado o shimete kuremasu ka?)",
+            "translation": "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+            "pronunciation": "さむいです。まどをしめてくれますか？ (samui desu. mado o shimete kuremasu ka?)",
+            "options": [
+                "La mochila",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+                "Vestir",
+                "Eso es un computador."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "わたしは31さいです。いもうとは27さいです。(watashi wa 31-sai desu. imōto wa 27-sai desu)",
+            "translation": "Tengo 31 años. Mi hermana tiene 27.",
+            "pronunciation": "わたしは31さいです。いもうとは27さいです。(watashi wa 31-sai desu. imōto wa 27-sai desu)",
+            "options": [
+                "Los periódicos",
+                "El hombre",
+                "Gracias. Eso es muy amable de tu parte.",
+                "Tengo 31 años. Mi hermana tiene 27."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "わたしのあにはせがたかいです。けいさつかんです。 (watashi no ani wa se ga takai desu. keisatsukan desu)",
+            "translation": "Mi hermano es muy alto. Es policía.",
+            "pronunciation": "わたしのあにはせがたかいです。けいさつかんです。 (watashi no ani wa se ga takai desu. keisatsukan desu)",
+            "options": [
+                "El pecho",
+                "El conocimiento",
+                "Mi hermano es muy alto. Es policía.",
+                "Intervenir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Maiku wa inu o kowagatteimasu. (マイクは犬を怖がっています。)",
+            "translation": "Mike tiene miedo de los perros.",
+            "pronunciation": "maiku wa inu o kowagatteimasu. (マイクは犬を怖がっています。)",
+            "options": [
+                "Mike tiene miedo de los perros.",
+                "Ninguna casa",
+                "Toser",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "9-ji desu. Anata wa mata okureteimasu. (9時です。あなたはまた遅れています。)",
+            "translation": "Son las nueve. Estás tarde otra vez.",
+            "pronunciation": "9-ji desu. anata wa mata okureteimasu. (9時です。あなたはまた遅れています。)",
+            "options": [
+                "Policía",
+                "Las mujeres",
+                "Son las nueve. Estás tarde otra vez.",
+                "El interés (tasa)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Keito to watashi wa ii tomodachi desu. (ケイトと私は良い友達です。)",
+            "translation": "Kate y yo somos buenos amigos.",
+            "pronunciation": "keito to watashi wa ii tomodachi desu. (ケイトと私は良い友達です。)",
+            "options": [
+                "Ningún computador",
+                "Kate y yo somos buenos amigos.",
+                "Las amigas",
+                "Toser"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Anata no kagi wa tēburu no ue ni arimasu. (あなたの鍵はテーブルの上にあります。)",
+            "translation": "Tus llaves están en la mesa.",
+            "pronunciation": "anata no kagi wa tēburu no ue ni arimasu. (あなたの鍵はテーブルの上にあります。)",
+            "options": [
+                "Tus llaves están en la mesa.",
+                "Una aspiradora",
+                "Las bolsas",
+                "Entender"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Watashi wa tsukareteimasu ga, onaka ga suiteimasen. (私は疲れていますが、お腹が空いていません。)",
+            "translation": "Estoy cansado, pero no tengo hambre.",
+            "pronunciation": "watashi wa tsukareteimasu ga, onaka ga suiteimasen. (私は疲れていますが、お腹が空いていません。)",
+            "options": [
+                "Un intercomunicador",
+                "Los trabajos",
+                "Las rodillas",
+                "Estoy cansado, pero no tengo hambre."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Jon wa seiji ni kyōmi ga arimasen. Ongaku ni kyōmi ga arimasu. (ジョンは政治に興味がありません。音楽に興味があります。)",
+            "translation": "A John no le interesa la política. Le interesa la música.",
+            "pronunciation": "jon wa seiji ni kyōmi ga arimasen. ongaku ni kyōmi ga arimasu. (ジョンは政治に興味がありません。音楽に興味があります。)",
+            "options": [
+                "A John no le interesa la política. Le interesa la música.",
+                "Recibir",
+                "Llorar",
+                "Somos/Están"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Jēn wa ima ie ni imasen. Kanojo wa shigotochū desu. (ジェーンは今家にいません。彼女は仕事中です。)",
+            "translation": "Jane no está en casa ahora. Está en el trabajo.",
+            "pronunciation": "jēn wa ima ie ni imasen. kanojo wa shigotochū desu. (ジェーンは今家にいません。彼女は仕事中です。)",
+            "options": [
+                "La nariz",
+                "Hoy hace sol, pero no hace calor.",
+                "La cabeza",
+                "Jane no está en casa ahora. Está en el trabajo."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Korera no hitobito wa igirisujin dewa arimasen. Karera wa nihonjin desu. (これらの人々はイギリス人ではありません。彼らは日本人です。)",
+            "translation": "Esa gente no es inglesa. Son japoneses.",
+            "pronunciation": "korera no hitobito wa igirisujin dewa arimasen. karera wa nihonjin desu. (これらの人々はイギリス人ではありません。彼らは日本人です。)",
+            "options": [
+                "Un computador",
+                "Comer",
+                "Hay = ahí está",
+                "Esa gente no es inglesa. Son japoneses."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Kyō wa hareteimasu ga, atatakaku wa arimasen. (今日は晴れていますが、暖かくはありません。)",
+            "translation": "Hoy hace sol, pero no hace calor.",
+            "pronunciation": "kyō wa hareteimasu ga, atatakaku wa arimasen. (今日は晴れていますが、暖かくはありません。)",
+            "options": [
+                "Permitir",
+                "Las casas",
+                "Hoy hace sol, pero no hace calor.",
+                "Nadar"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Kore wa = kore wa (これは = これは)",
+            "translation": "Eso es = eso es",
+            "pronunciation": "kore wa = kore wa (これは = これは)",
+            "options": [
+                "Los coches",
+                "Eso es = eso es",
+                "La región",
+                "Un cuchillo"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Arimasu = soko ni arimasu (あります = そこにあります)",
+            "translation": "Hay = ahí está",
+            "pronunciation": "arimasu = soko ni arimasu (あります = そこにあります)",
+            "options": [
+                "Una bicicleta",
+                "Eso es = eso es",
+                "La gata",
+                "Hay = ahí está"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Koko ni arimasu = koko ni arimasu (ここにあります = ここにあります)",
+            "translation": "Aquí está = aquí está",
+            "pronunciation": "koko ni arimasu = koko ni arimasu (ここにあります = ここにあります)",
+            "options": [
+                "Las casas",
+                "Las rodillas",
+                "Aquí está = aquí está",
+                "Gustar"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Arigatou. Anata wa totemo shinsetsu desu. (ありがとう。それはとても親切です)",
+            "translation": "Gracias. Eso es muy amable de tu parte.",
+            "pronunciation": "arigatou. anata wa totemo shinsetsu desu. (ありがとう。それはとても親切です)",
+            "options": [
+                "El niño",
+                "Toser",
+                "Un videograbador",
+                "Gracias. Eso es muy amable de tu parte."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Mite! Chris ga imasu. (見て！クリスがいます)",
+            "translation": "¡Mira! Ahí está Chris.",
+            "pronunciation": "mite! chris ga imasu. (見て！クリスがいます)",
+            "options": [
+                "La diferencia",
+                "Partir",
+                "¡Mira! Ahí está Chris.",
+                "Una decisión"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "\"Kore wa anata no kagi desu\" \"Arigatou\". (「これはあなたの鍵です」「ありがとう」)",
+            "translation": "\"Aquí está tu llave\" \"Gracias\".",
+            "pronunciation": "\"kore wa anata no kagi desu\" \"arigatou\". (「これはあなたの鍵です」「ありがとう」)",
+            "options": [
+                "\"Aquí está tu llave\" \"Gracias\".",
+                "Los castillos",
+                "Poseer",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Atama (あたま)",
+            "translation": "La cabeza",
+            "pronunciation": "atama (あたま)",
+            "options": [
+                "Los cabellos",
+                "La cabeza",
+                "Caminar",
+                "El niño"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Kubi (くび)",
+            "translation": "El cuello",
+            "pronunciation": "kubi (くび)",
+            "options": [
+                "Ventana",
+                "El cuello",
+                "Ningunas casas",
+                "Las bolsas"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Mune (むね)",
+            "translation": "El pecho",
+            "pronunciation": "mune (むね)",
+            "options": [
+                "El pecho",
+                "Un intercomunicador",
+                "Toser",
+                "El dedo (del pie)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Onaka (おなか)",
+            "translation": "El vientre",
+            "pronunciation": "onaka (おなか)",
+            "options": [
+                "Caminar",
+                "Llorar",
+                "El vientre",
+                "Recibir"
+            ],
+            "correctAnswer": 3
+        }
+    ]
+}

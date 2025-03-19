@@ -1,0 +1,66 @@
+{
+    "questionLanguage": "fr-FR",
+    "responseLanguage": "es-US",
+    "questions": [
+        {
+            "word": "le",
+            "translation": "el (masculino)",
+            "pronunciation": "le",
+            "options": [
+                "los/las (plural)",
+                "un (masculino)",
+                "el (masculino)",
+                "la (femenino)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "la",
+            "translation": "la (femenino)",
+            "pronunciation": "la",
+            "options": [
+                "la (femenino)",
+                "una (femenino)",
+                "un (masculino)",
+                "el (masculino)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "les",
+            "translation": "los/las (plural)",
+            "pronunciation": "les",
+            "options": [
+                "la (femenino)",
+                "un (masculino)",
+                "los/las (plural)",
+                "el (masculino)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "un",
+            "translation": "un (masculino)",
+            "pronunciation": "un",
+            "options": [
+                "el (masculino)",
+                "la (femenino)",
+                "un (masculino)",
+                "una (femenino)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "une",
+            "translation": "una (femenino)",
+            "pronunciation": "une",
+            "options": [
+                "la (femenino)",
+                "el (masculino)",
+                "una (femenino)",
+                "un (masculino)"
+            ],
+            "correctAnswer": 3
+        }
+    ]
+}

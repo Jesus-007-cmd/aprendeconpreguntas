@@ -1,0 +1,54 @@
+{
+    "questionLanguage": "pt-PT",
+    "responseLanguage": "es-US",
+    "questions": [
+        {
+            "word": "o",
+            "translation": "el (masculino)",
+            "pronunciation": "o",
+            "options": [
+                "una (femenino)",
+                "el (masculino)",
+                "un (masculino)",
+                "la (femenino)"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "a",
+            "translation": "la (femenino)",
+            "pronunciation": "a",
+            "options": [
+                "una (femenino)",
+                "el (masculino)",
+                "un (masculino)",
+                "la (femenino)"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "um",
+            "translation": "un (masculino)",
+            "pronunciation": "um",
+            "options": [
+                "la (femenino)",
+                "un (masculino)",
+                "una (femenino)",
+                "el (masculino)"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "uma",
+            "translation": "una (femenino)",
+            "pronunciation": "uma",
+            "options": [
+                "una (femenino)",
+                "un (masculino)",
+                "el (masculino)",
+                "la (femenino)"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

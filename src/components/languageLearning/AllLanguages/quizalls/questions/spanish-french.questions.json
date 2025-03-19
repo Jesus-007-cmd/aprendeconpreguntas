@@ -1,0 +1,583 @@
+{
+    "responseLanguage": "fr-FR",
+    "questionLanguage": "es-US",
+    "questions": [
+      {
+        "word": "La casa",
+        "translation": "La maison",
+        "pronunciation": "la mezon",
+        "options": [
+          "L'homme",
+          "La porte",
+          "La maison",
+          "L'enfant"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "El hombre",
+        "translation": "L'homme",
+        "pronunciation": "lom",
+        "options": [
+          "La maison",
+          "L'homme",
+          "La femme",
+          "La chaise"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El huevo",
+        "translation": "L'œuf",
+        "pronunciation": "luhf",
+        "options": [
+          "La clé",
+          "Le lit",
+          "L'œuf",
+          "Le sac"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Un pastel",
+        "translation": "Un gâteau",
+        "pronunciation": "a gató",
+        "options": [
+          "Le lit",
+          "Un gâteau",
+          "Le sac",
+          "La voiture"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Una mantequilla",
+        "translation": "Un beurre",
+        "pronunciation": "an buer",
+        "options": [
+          "Le sac",
+          "Un beurre",
+          "Le lit",
+          "L'œuf"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El auto",
+        "translation": "La voiture",
+        "pronunciation": "la vwatür",
+        "options": [
+          "La voiture",
+          "L'homme",
+          "La femme",
+          "L'enfant"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La llave",
+        "translation": "La clé",
+        "pronunciation": "la kle",
+        "options": [
+          "La clé",
+          "L'homme",
+          "La maison",
+          "La femme"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La puerta",
+        "translation": "La porte",
+        "pronunciation": "la port",
+        "options": [
+          "La maison",
+          "La chaise",
+          "La porte",
+          "Le lit"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "La clase",
+        "translation": "Le cours",
+        "pronunciation": "le kur",
+        "options": [
+          "Le lit",
+          "Le cours",
+          "La femme",
+          "L'œuf"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El niño/la niña",
+        "translation": "L'enfant",
+        "pronunciation": "lãnfan",
+        "options": [
+          "L'enfant",
+          "La maison",
+          "L'homme",
+          "Le lit"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La lámpara",
+        "translation": "La lampe",
+        "pronunciation": "la lamp",
+        "options": [
+          "La lampe",
+          "La clé",
+          "Le lit",
+          "La voiture"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La toalla",
+        "translation": "La serviette",
+        "pronunciation": "la serviet",
+        "options": [
+          "L'homme",
+          "La serviette",
+          "La maison",
+          "Le sac"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La cama",
+        "translation": "Le lit",
+        "pronunciation": "le li",
+        "options": [
+          "La maison",
+          "Le lit",
+          "La lampe",
+          "La chaise"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La alfombra",
+        "translation": "Le tapis",
+        "pronunciation": "le tapi",
+        "options": [
+          "Le sac",
+          "Le tapis",
+          "La voiture",
+          "L'homme"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La maleta",
+        "translation": "La valise",
+        "pronunciation": "la valiz",
+        "options": [
+          "La chaise",
+          "La valise",
+          "La maison",
+          "L'œuf"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La bolsa",
+        "translation": "Le sac",
+        "pronunciation": "le sak",
+        "options": [
+          "Le sac",
+          "La voiture",
+          "Le tapis",
+          "La maison"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Un hombre",
+        "translation": "Un homme",
+        "pronunciation": "ãn õm",
+        "options": [
+          "Un homme",
+          "Une femme",
+          "Une chaise",
+          "Un gâteau"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Una mujer",
+        "translation": "Une femme",
+        "pronunciation": "ün fam",
+        "options": [
+          "Une femme",
+          "Un homme",
+          "Un enfant",
+          "Un gâteau"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La silla",
+        "translation": "La chaise",
+        "pronunciation": "la shez",
+        "options": [
+          "La maison",
+          "La chaise",
+          "Le sac",
+          "Le tapis"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Yo tengo",
+        "translation": "J'ai",
+        "pronunciation": "she",
+        "options": [
+          "J'ai",
+          "Tu as",
+          "Il a",
+          "Nous avons"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Tú tienes",
+        "translation": "Tu as",
+        "pronunciation": "ty a",
+        "options": [
+          "J'ai",
+          "Tu as",
+          "Il a",
+          "Nous avons"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Él tiene",
+        "translation": "Il a",
+        "pronunciation": "il a",
+        "options": [
+          "J'ai",
+          "Tu as",
+          "Il a",
+          "Nous avons"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Nosotros tenemos",
+        "translation": "Nous avons",
+        "pronunciation": "nu zavon",
+        "options": [
+          "J'ai",
+          "Tu as",
+          "Il a",
+          "Nous avons"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Vosotros tenéis",
+        "translation": "Vous avez",
+        "pronunciation": "vu zave",
+        "options": [
+          "Vous avez",
+          "Ils ont",
+          "Nous sommes",
+          "Je suis"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ellos tienen",
+        "translation": "Ils ont",
+        "pronunciation": "ilzõ",
+        "options": [
+          "Ils ont",
+          "Nous avons",
+          "Tu es",
+          "Il est"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Hoy es domingo",
+        "translation": "Aujourd'hui c'est dimanche",
+        "pronunciation": "oʒurdwi se dimɑ̃ʃ",
+        "options": [
+          "Aujourd'hui c'est dimanche",
+          "Hier c'était lundi",
+          "Demain c'est vendredi",
+          "Après-demain c'est samedi"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Yo soy",
+        "translation": "Je suis",
+        "pronunciation": "ʒə sɥi",
+        "options": [
+          "Je suis",
+          "Tu es",
+          "Il est",
+          "Nous sommes"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Tú eres",
+        "translation": "Tu es",
+        "pronunciation": "ty ɛ",
+        "options": [
+          "Je suis",
+          "Tu es",
+          "Il est",
+          "Nous sommes"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Él es",
+        "translation": "Il est",
+        "pronunciation": "il ɛ",
+        "options": [
+          "Je suis",
+          "Tu es",
+          "Il est",
+          "Nous sommes"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Nosotros somos",
+        "translation": "Nous sommes",
+        "pronunciation": "nu sɔm",
+        "options": [
+          "Je suis",
+          "Tu es",
+          "Il est",
+          "Nous sommes"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Vosotros sois",
+        "translation": "Vous êtes",
+        "pronunciation": "vu zɛt",
+        "options": [
+          "Vous êtes",
+          "Ils sont",
+          "Il est",
+          "Nous sommes"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ellos son",
+        "translation": "Ils sont",
+        "pronunciation": "il sɔ̃",
+        "options": [
+          "Je suis",
+          "Tu es",
+          "Il est",
+          "Ils sont"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Setenta y tres",
+        "translation": "Soixante-treize",
+        "pronunciation": "swɑsɑ̃t tʁɛz",
+        "options": [
+          "Soixante-treize",
+          "Soixante-quatorze",
+          "Soixante-quinze",
+          "Soixante-dix-huit"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ochenta",
+        "translation": "Quatre-vingts",
+        "pronunciation": "katʁə vɛ̃",
+        "options": [
+          "Quatre-vingts",
+          "Soixante-dix",
+          "Soixante",
+          "Cinquante"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cincuenta y cuatro",
+        "translation": "Cinquante-quatre",
+        "pronunciation": "sɛ̃kɑ̃t katʁ",
+        "options": [
+          "Cinquante-trois",
+          "Cinquante-quatre",
+          "Cinquante-cinq",
+          "Cinquante-six"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Veinte",
+        "translation": "Vingt",
+        "pronunciation": "vɛ̃",
+        "options": [
+          "Vingt",
+          "Trente",
+          "Quarante",
+          "Cinquante"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Setenta y ocho",
+        "translation": "Soixante-dix-huit",
+        "pronunciation": "swɑsɑ̃t di zɥit",
+        "options": [
+          "Soixante-dix-huit",
+          "Soixante-dix",
+          "Soixante-quinze",
+          "Soixante-quatorze"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Once",
+        "translation": "Onze",
+        "pronunciation": "õz",
+        "options": [
+          "Onze",
+          "Douze",
+          "Treize",
+          "Quatorze"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cincuenta",
+        "translation": "Cinquante",
+        "pronunciation": "sɛ̃kɑ̃t",
+        "options": [
+          "Cinquante",
+          "Soixante",
+          "Quarante",
+          "Soixante-dix"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Diecisiete",
+        "translation": "Dix-sept",
+        "pronunciation": "dis sɛt",
+        "options": [
+          "Seize",
+          "Dix-sept",
+          "Dix-huit",
+          "Dix-neuf"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Veintiocho",
+        "translation": "Vingt-huit",
+        "pronunciation": "vɛ̃t ɥit",
+        "options": [
+          "Vingt-huit",
+          "Vingt-neuf",
+          "Vingt-six",
+          "Dix-sept"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cien",
+        "translation": "Cent",
+        "pronunciation": "sɑ̃",
+        "options": [
+          "Cent",
+          "Deux cents",
+          "Trois cents",
+          "Cent un"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Doscientos uno",
+        "translation": "Deux cents un",
+        "pronunciation": "dø sɑ̃ œ̃",
+        "options": [
+          "Deux cents un",
+          "Trois cents un",
+          "Cent un",
+          "Cinq cents un"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Trescientos veinticuatro",
+        "translation": "Trois cents vingt-quatre",
+        "pronunciation": "tʁwa sɑ̃ vɛ̃ katʁ",
+        "options": [
+          "Trois cents vingt-quatre",
+          "Deux cents vingt-quatre",
+          "Cinq cents vingt-quatre",
+          "Six cents vingt-quatre"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ciento veintidós",
+        "translation": "Cent vingt-deux",
+        "pronunciation": "sɑ̃ vɛ̃ dø",
+        "options": [
+          "Cent vingt-deux",
+          "Deux cents vingt-deux",
+          "Trois cents vingt-deux",
+          "Quatre cents vingt-deux"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Quinientos cuarenta",
+        "translation": "Cinq cents quarante",
+        "pronunciation": "sɛ̃ sɑ̃ kaʁɑ̃t",
+        "options": [
+          "Cinq cents quarante",
+          "Six cents quarante",
+          "Quatre cents quarante",
+          "Trois cents quarante"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Seiscientos noventa y siete",
+        "translation": "Six cents quatre-vingt-dix-sept",
+        "pronunciation": "si sɑ̃ katʁə vɛ̃ dis sɛt",
+        "options": [
+          "Six cents quatre-vingt-dix-sept",
+          "Cinq cents quatre-vingt-dix-sept",
+          "Quatre cents quatre-vingt-dix-sept",
+          "Deux cents quatre-vingt-dix-sept"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Mil",
+        "translation": "Mille",
+        "pronunciation": "mil",
+        "options": [
+          "Mille",
+          "Deux mille",
+          "Trois mille",
+          "Cinq mille"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
+  

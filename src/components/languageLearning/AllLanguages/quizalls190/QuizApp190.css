@@ -1,0 +1,90 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1c1c1c;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+h2, h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3498db; /* Azul */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9; /* Azul más oscuro */
+  transform: translateY(-5px); /* Efecto de levantamiento */
+  box-shadow: 0 4px 15px rgba(41, 128, 185, 0.75); /* Sombra al hacer hover */
+}
+
+button.selected {
+  background-color: #1abc9c; /* Color verde azulado para el botón seleccionado */
+}
+
+.correct {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1abc9c; /* Verde azulado para mostrar el mensaje correcto */
+  margin-top: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.score {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #1abc9c; /* Verde para el puntaje */
+}
+
+.result-container {
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.help-container {
+  margin-top: 30px;
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.help-container p {
+  color: #ecf0f1;
+  margin: 10px 0;
+}
+
+button:disabled {
+  background-color: #95a5a6; /* Botón deshabilitado */
+  cursor: not-allowed;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.75); /* Sombra azul al enfoque */
+}

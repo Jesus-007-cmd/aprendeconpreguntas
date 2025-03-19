@@ -1,0 +1,1336 @@
+{
+  "questionLanguage": "zh-CN",
+  "responseLanguage": "es-ES",
+  "questions": [
+    {
+      "word": "\u7535\u8111",
+      "translation": "El computador",
+      "pronunciation": "\u7535\u8111 (di\u00e0nn\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u623f\u5b50",
+      "translation": "La casa",
+      "pronunciation": "\u623f\u5b50 (f\u00e1ngzi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u888b",
+      "translation": "La bolsa",
+      "pronunciation": "\u888b (d\u00e0i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4e00\u53f0\u7535\u8111",
+      "translation": "Un computador",
+      "pronunciation": "\u4e00\u53f0\u7535\u8111 (y\u012b t\u00e1i di\u00e0nn\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4e00\u95f4\u623f\u5b50",
+      "translation": "Una casa",
+      "pronunciation": "\u4e00\u95f4\u623f\u5b50 (y\u012b ji\u0101n f\u00e1ngzi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4e00\u4e2a\u888b\u5b50",
+      "translation": "Una bolsa",
+      "pronunciation": "\u4e00\u4e2a\u888b\u5b50 (y\u012bg\u00e8 d\u00e0izi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6ca1\u6709\u7535\u8111",
+      "translation": "Ning\u00fan computador",
+      "pronunciation": "\u6ca1\u6709\u7535\u8111 (m\u00e9iy\u01d2u di\u00e0nn\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6ca1\u6709\u623f\u5b50",
+      "translation": "Ninguna casa",
+      "pronunciation": "\u6ca1\u6709\u623f\u5b50 (m\u00e9iy\u01d2u f\u00e1ngzi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6ca1\u6709\u888b\u5b50",
+      "translation": "Ninguna bolsa",
+      "pronunciation": "\u6ca1\u6709\u888b\u5b50 (m\u00e9iy\u01d2u d\u00e0izi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8fd9\u662f\u7535\u8111",
+      "translation": "Eso es un computador.",
+      "pronunciation": "\u8fd9\u662f\u7535\u8111 (zh\u00e8 sh\u00ec di\u00e0nn\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8fd9\u4e0d\u662f\u7535\u8111\uff0c\u662f\u663e\u793a\u5668",
+      "translation": "Eso no es un computador, es un monitor.",
+      "pronunciation": "\u8fd9\u4e0d\u662f\u7535\u8111\uff0c\u662f\u663e\u793a\u5668 (zh\u00e8 b\u00f9sh\u00ec di\u00e0nn\u01ceo, sh\u00ec xi\u01censh\u00ecq\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7535\u8111",
+      "translation": "Los computadores",
+      "pronunciation": "\u7535\u8111 (di\u00e0nn\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u623f\u5b50",
+      "translation": "Las casas",
+      "pronunciation": "\u623f\u5b50 (f\u00e1ngzi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u888b",
+      "translation": "Las bolsas",
+      "pronunciation": "\u888b (d\u00e0i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6ca1\u6709\u7535\u8111",
+      "translation": "Ningunos computadores",
+      "pronunciation": "\u6ca1\u6709\u7535\u8111 (m\u00e9iy\u01d2u di\u00e0nn\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6ca1\u6709\u623f\u5b50",
+      "translation": "Ningunas casas",
+      "pronunciation": "\u6ca1\u6709\u623f\u5b50 (m\u00e9iy\u01d2u f\u00e1ngzi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6ca1\u6709\u888b\u5b50",
+      "translation": "Ningunas bolsas",
+      "pronunciation": "\u6ca1\u6709\u888b\u5b50 (m\u00e9iy\u01d2u d\u00e0izi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4e66",
+      "translation": "El libro",
+      "pronunciation": "\u4e66 (sh\u016b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5973\u4eba",
+      "translation": "La mujer",
+      "pronunciation": "\u5973\u4eba (n\u01dar\u00e9n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6c7d\u8f66",
+      "translation": "El coche",
+      "pronunciation": "\u6c7d\u8f66 (q\u00ecch\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u86cb\u7cd5",
+      "translation": "Un pastel",
+      "pronunciation": "\u86cb\u7cd5 (d\u00e0ng\u0101o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7537\u4eba",
+      "translation": "El hombre",
+      "pronunciation": "\u7537\u4eba (n\u00e1nr\u00e9n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7537\u4eba\u4eec",
+      "translation": "Los hombres",
+      "pronunciation": "\u7537\u4eba\u4eec (n\u00e1nr\u00e9n men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5973\u4eba\u4eec",
+      "translation": "Las mujeres",
+      "pronunciation": "\u5973\u4eba\u4eec (n\u01dar\u00e9n men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6c7d\u8f66",
+      "translation": "El coche",
+      "pronunciation": "\u6c7d\u8f66 (q\u00ecch\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6c7d\u8f66\u4eec",
+      "translation": "Los coches",
+      "pronunciation": "\u6c7d\u8f66\u4eec (q\u00ecch\u0113 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5730\u6bef",
+      "translation": "La alfombra",
+      "pronunciation": "\u5730\u6bef (d\u00ect\u01cen)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5730\u6bef\u4eec",
+      "translation": "Las alfombras",
+      "pronunciation": "\u5730\u6bef\u4eec (d\u00ect\u01cen men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u57ce\u5821",
+      "translation": "El castillo",
+      "pronunciation": "\u57ce\u5821 (ch\u00e9ngb\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u57ce\u5821\u4eec",
+      "translation": "Los castillos",
+      "pronunciation": "\u57ce\u5821\u4eec (ch\u00e9ngb\u01ceo men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5934\u53d1",
+      "translation": "El cabello",
+      "pronunciation": "\u5934\u53d1 (t\u00f3uf\u00e0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5934\u53d1\u4eec",
+      "translation": "Los cabellos",
+      "pronunciation": "\u5934\u53d1\u4eec (t\u00f3uf\u00e0 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u62a5\u7eb8",
+      "translation": "El peri\u00f3dico",
+      "pronunciation": "\u62a5\u7eb8 (b\u00e0ozh\u01d0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u62a5\u7eb8\u4eec",
+      "translation": "Los peri\u00f3dicos",
+      "pronunciation": "\u62a5\u7eb8\u4eec (b\u00e0ozh\u01d0 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5de5\u4f5c",
+      "translation": "El trabajo",
+      "pronunciation": "\u5de5\u4f5c (g\u014dngzu\u00f2)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5de5\u4f5c\u4eec",
+      "translation": "Los trabajos",
+      "pronunciation": "\u5de5\u4f5c\u4eec (g\u014dngzu\u00f2 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u819d\u76d6",
+      "translation": "La rodilla",
+      "pronunciation": "\u819d\u76d6 (x\u012bg\u00e0i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u819d\u76d6\u4eec",
+      "translation": "Las rodillas",
+      "pronunciation": "\u819d\u76d6\u4eec (x\u012bg\u00e0i men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u81ea\u884c\u8f66",
+      "translation": "Una bicicleta",
+      "pronunciation": "\u81ea\u884c\u8f66 (z\u00ecx\u00edngch\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8f6f\u76d8",
+      "translation": "Un disquete",
+      "pronunciation": "\u8f6f\u76d8 (ru\u01cenp\u00e1n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u77e5\u8bc6",
+      "translation": "El conocimiento",
+      "pronunciation": "\u77e5\u8bc6 (zh\u012bsh\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5dee\u5f02",
+      "translation": "La diferencia",
+      "pronunciation": "\u5dee\u5f02 (ch\u0101y\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5229\u7387",
+      "translation": "El inter\u00e9s (tasa)",
+      "pronunciation": "\u5229\u7387 (l\u00ecl\u01dc)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5229\u7387\u4eec",
+      "translation": "Los intereses",
+      "pronunciation": "\u5229\u7387\u4eec (l\u00ecl\u01dc men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u9f3b\u5b50",
+      "translation": "La nariz",
+      "pronunciation": "\u9f3b\u5b50 (b\u00edzi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u9f3b\u5b50\u4eec",
+      "translation": "Las narices",
+      "pronunciation": "\u9f3b\u5b50\u4eec (b\u00edzi men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u57ce\u5821",
+      "translation": "El castillo",
+      "pronunciation": "\u57ce\u5821 (ch\u00e9ngb\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u57ce\u5821\u4eec",
+      "translation": "Los castillos",
+      "pronunciation": "\u57ce\u5821\u4eec (ch\u00e9ngb\u01ceo men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5934\u53d1",
+      "translation": "El cabello",
+      "pronunciation": "\u5934\u53d1 (t\u00f3uf\u00e0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5934\u53d1\u4eec",
+      "translation": "Los cabellos",
+      "pronunciation": "\u5934\u53d1\u4eec (t\u00f3uf\u00e0 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u62a5\u7eb8",
+      "translation": "El peri\u00f3dico",
+      "pronunciation": "\u62a5\u7eb8 (b\u00e0ozh\u01d0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u62a5\u7eb8\u4eec",
+      "translation": "Los peri\u00f3dicos",
+      "pronunciation": "\u62a5\u7eb8\u4eec (b\u00e0ozh\u01d0 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5de5\u4f5c",
+      "translation": "El trabajo",
+      "pronunciation": "\u5de5\u4f5c (g\u014dngzu\u00f2)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5de5\u4f5c\u4eec",
+      "translation": "Los trabajos",
+      "pronunciation": "\u5de5\u4f5c\u4eec (g\u014dngzu\u00f2 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u653f\u5e9c",
+      "translation": "Un gobierno",
+      "pronunciation": "\u653f\u5e9c (zh\u00e8ngf\u01d4)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u836f\u7269",
+      "translation": "Un medicamento",
+      "pronunciation": "\u836f\u7269 (y\u00e0ow\u00f9)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7535\u8bdd",
+      "translation": "Un tel\u00e9fono",
+      "pronunciation": "\u7535\u8bdd (di\u00e0nhu\u00e0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5bf9\u8bb2\u673a",
+      "translation": "Un intercomunicador",
+      "pronunciation": "\u5bf9\u8bb2\u673a (du\u00ecji\u01cengj\u012b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5f55\u50cf\u673a",
+      "translation": "Un videograbador",
+      "pronunciation": "\u5f55\u50cf\u673a (l\u00f9xi\u00e0ng j\u012b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6444\u50cf\u673a",
+      "translation": "Una c\u00e1mara de video",
+      "pronunciation": "\u6444\u50cf\u673a (sh\u00e8xi\u00e0ng j\u012b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u529e\u516c\u5ba4",
+      "translation": "Una oficina",
+      "pronunciation": "\u529e\u516c\u5ba4 (b\u00e0ng\u014dngsh\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5200",
+      "translation": "Un cuchillo",
+      "pronunciation": "\u5200 (d\u0101o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5438\u5c18\u5668",
+      "translation": "Una aspiradora",
+      "pronunciation": "\u5438\u5c18\u5668 (x\u012bch\u00e9nq\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5976\u916a",
+      "translation": "Un queso",
+      "pronunciation": "\u5976\u916a (n\u01ceil\u00e0o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u89e3\u51b3\u65b9\u6848",
+      "translation": "Una soluci\u00f3n",
+      "pronunciation": "\u89e3\u51b3\u65b9\u6848 (ji\u011bju\u00e9 f\u0101ng'\u00e0n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u51b3\u5b9a",
+      "translation": "Una decisi\u00f3n",
+      "pronunciation": "\u51b3\u5b9a (ju\u00e9d\u00ecng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7535\u89c6",
+      "translation": "Una televisi\u00f3n",
+      "pronunciation": "\u7535\u89c6 (di\u00e0nsh\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u73b0\u5b9e",
+      "translation": "La realidad",
+      "pronunciation": "\u73b0\u5b9e (xi\u00e0nsh\u00ed)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u793e\u4f1a",
+      "translation": "La sociedad",
+      "pronunciation": "\u793e\u4f1a (sh\u00e8hu\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7f8e\u4e3d",
+      "translation": "La belleza",
+      "pronunciation": "\u7f8e\u4e3d (m\u011bil\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5229\u7387",
+      "translation": "El inter\u00e9s (tasa)",
+      "pronunciation": "\u5229\u7387 (l\u00ecl\u01dc)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5229\u7387\u4eec",
+      "translation": "Los intereses",
+      "pronunciation": "\u5229\u7387\u4eec (l\u00ecl\u01dc men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u9f3b\u5b50",
+      "translation": "La nariz",
+      "pronunciation": "\u9f3b\u5b50 (b\u00edzi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u9f3b\u5b50\u4eec",
+      "translation": "Las narices",
+      "pronunciation": "\u9f3b\u5b50\u4eec (b\u00edzi men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7537\u4eba",
+      "translation": "El hombre",
+      "pronunciation": "\u7537\u4eba (n\u00e1nr\u00e9n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7537\u4eba\u4eec",
+      "translation": "Los hombres",
+      "pronunciation": "\u7537\u4eba\u4eec (n\u00e1nr\u00e9n men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5973\u4eba",
+      "translation": "La mujer",
+      "pronunciation": "\u5973\u4eba (n\u01dar\u00e9n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5973\u4eba\u4eec",
+      "translation": "Las mujeres",
+      "pronunciation": "\u5973\u4eba\u4eec (n\u01dar\u00e9n men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6c7d\u8f66",
+      "translation": "El coche",
+      "pronunciation": "\u6c7d\u8f66 (q\u00ecch\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6c7d\u8f66\u4eec",
+      "translation": "Los coches",
+      "pronunciation": "\u6c7d\u8f66\u4eec (q\u00ecch\u0113 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5730\u6bef",
+      "translation": "La alfombra",
+      "pronunciation": "\u5730\u6bef (d\u00ect\u01cen)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5730\u6bef\u4eec",
+      "translation": "Las alfombras",
+      "pronunciation": "\u5730\u6bef\u4eec (d\u00ect\u01cen men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u57ce\u5821",
+      "translation": "El castillo",
+      "pronunciation": "\u57ce\u5821 (ch\u00e9ngb\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u57ce\u5821\u4eec",
+      "translation": "Los castillos",
+      "pronunciation": "\u57ce\u5821\u4eec (ch\u00e9ngb\u01ceo men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5934\u53d1",
+      "translation": "El cabello",
+      "pronunciation": "\u5934\u53d1 (t\u00f3uf\u00e0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5934\u53d1\u4eec",
+      "translation": "Los cabellos",
+      "pronunciation": "\u5934\u53d1\u4eec (t\u00f3uf\u00e0 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u62a5\u7eb8",
+      "translation": "El peri\u00f3dico",
+      "pronunciation": "\u62a5\u7eb8 (b\u00e0ozh\u01d0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u62a5\u7eb8\u4eec",
+      "translation": "Los peri\u00f3dicos",
+      "pronunciation": "\u62a5\u7eb8\u4eec (b\u00e0ozh\u01d0 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5de5\u4f5c",
+      "translation": "El trabajo",
+      "pronunciation": "\u5de5\u4f5c (g\u014dngzu\u00f2)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5de5\u4f5c\u4eec",
+      "translation": "Los trabajos",
+      "pronunciation": "\u5de5\u4f5c\u4eec (g\u014dngzu\u00f2 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u819d\u76d6",
+      "translation": "La rodilla",
+      "pronunciation": "\u819d\u76d6 (x\u012bg\u00e0i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u819d\u76d6\u4eec",
+      "translation": "Las rodillas",
+      "pronunciation": "\u819d\u76d6\u4eec (x\u012bg\u00e0i men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u81ea\u884c\u8f66",
+      "translation": "Una bicicleta",
+      "pronunciation": "\u81ea\u884c\u8f66 (z\u00ecx\u00edngch\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8f6f\u76d8",
+      "translation": "Un disquete",
+      "pronunciation": "\u8f6f\u76d8 (ru\u01cenp\u00e1n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u77e5\u8bc6",
+      "translation": "El conocimiento",
+      "pronunciation": "\u77e5\u8bc6 (zh\u012bsh\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5dee\u5f02",
+      "translation": "La diferencia",
+      "pronunciation": "\u5dee\u5f02 (ch\u0101y\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5f55\u50cf\u673a",
+      "translation": "Un videograbador",
+      "pronunciation": "\u5f55\u50cf\u673a (l\u00f9xi\u00e0ng j\u012b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6444\u50cf\u673a",
+      "translation": "Una c\u00e1mara de video",
+      "pronunciation": "\u6444\u50cf\u673a (sh\u00e8xi\u00e0ng j\u012b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5438\u5c18\u5668",
+      "translation": "Una aspiradora",
+      "pronunciation": "\u5438\u5c18\u5668 (x\u012bch\u00e9nq\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5b69\u5b50",
+      "translation": "El ni\u00f1o",
+      "pronunciation": "\u5b69\u5b50 (h\u00e1izi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u732b",
+      "translation": "El gato",
+      "pronunciation": "\u732b (m\u0101o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u533b\u751f",
+      "translation": "El doctor",
+      "pronunciation": "\u533b\u751f (y\u012bsh\u0113ng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5973\u5b69",
+      "translation": "La ni\u00f1a",
+      "pronunciation": "\u5973\u5b69 (n\u01dah\u00e1i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6bcd\u732b",
+      "translation": "La gata",
+      "pronunciation": "\u6bcd\u732b (m\u01d4 m\u0101o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5730\u533a",
+      "translation": "La regi\u00f3n",
+      "pronunciation": "\u5730\u533a (d\u00ecq\u016b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8868\u8fbe",
+      "translation": "La expresi\u00f3n",
+      "pronunciation": "\u8868\u8fbe (bi\u01ceod\u00e1)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u706b\u8f66",
+      "translation": "El tren",
+      "pronunciation": "\u706b\u8f66 (hu\u01d2ch\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u706b\u8f66\u4eec",
+      "translation": "Los trenes",
+      "pronunciation": "\u706b\u8f66\u4eec (hu\u01d2ch\u0113 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u670b\u53cb",
+      "translation": "El amigo",
+      "pronunciation": "\u670b\u53cb (p\u00e9ngy\u01d2u)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u670b\u53cb\u4eec",
+      "translation": "Los amigos",
+      "pronunciation": "\u670b\u53cb\u4eec (p\u00e9ngy\u01d2u men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u80cc\u5305",
+      "translation": "La mochila",
+      "pronunciation": "\u80cc\u5305 (b\u0113ib\u0101o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u80cc\u5305\u4eec",
+      "translation": "Las mochilas",
+      "pronunciation": "\u80cc\u5305\u4eec (b\u0113ib\u0101o men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6c7d\u8f66",
+      "translation": "El coche",
+      "pronunciation": "\u6c7d\u8f66 (q\u00ecch\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6c7d\u8f66\u4eec",
+      "translation": "Los coches",
+      "pronunciation": "\u6c7d\u8f66\u4eec (q\u00ecch\u0113 men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5973\u670b\u53cb",
+      "translation": "La amiga",
+      "pronunciation": "\u5973\u670b\u53cb (n\u01da p\u00e9ngy\u01d2u)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5973\u670b\u53cb\u4eec",
+      "translation": "Las amigas",
+      "pronunciation": "\u5973\u670b\u53cb\u4eec (n\u01da p\u00e9ngy\u01d2u men)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8bf4\u8bdd",
+      "translation": "Hablar",
+      "pronunciation": "\u8bf4\u8bdd (shu\u014dhu\u00e0)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7231",
+      "translation": "Amar",
+      "pronunciation": "\u7231 (\u00e0i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5b66\u4e60",
+      "translation": "Estudiar",
+      "pronunciation": "\u5b66\u4e60 (xu\u00e9x\u00ed)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u559c\u6b22",
+      "translation": "Gustar",
+      "pronunciation": "\u559c\u6b22 (x\u01d0huan)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8df3\u821e",
+      "translation": "Bailar",
+      "pronunciation": "\u8df3\u821e (ti\u00e0ow\u01d4)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u547c\u53eb",
+      "translation": "Llamar",
+      "pronunciation": "\u547c\u53eb (h\u016bji\u00e0o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u98de",
+      "translation": "Volar",
+      "pronunciation": "\u98de (f\u0113i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u505c\u7559",
+      "translation": "Quedarse",
+      "pronunciation": "\u505c\u7559 (t\u00edngli\u00fa)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u65c5\u884c",
+      "translation": "Viajar",
+      "pronunciation": "\u65c5\u884c (l\u01dax\u00edng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8df3",
+      "translation": "Saltar",
+      "pronunciation": "\u8df3 (ti\u00e0o)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5de5\u4f5c",
+      "translation": "Trabajar",
+      "pronunciation": "\u5de5\u4f5c (g\u014dngzu\u00f2)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4e70",
+      "translation": "Comprar",
+      "pronunciation": "\u4e70 (m\u01cei)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u54ed",
+      "translation": "Llorar",
+      "pronunciation": "\u54ed (k\u016b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6e38\u6cf3",
+      "translation": "Nadar",
+      "pronunciation": "\u6e38\u6cf3 (y\u00f3uy\u01d2ng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8d70\u8def",
+      "translation": "Caminar",
+      "pronunciation": "\u8d70\u8def (z\u01d2ul\u00f9)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4f4f",
+      "translation": "Vivir",
+      "pronunciation": "\u4f4f (zh\u00f9)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5403",
+      "translation": "Comer",
+      "pronunciation": "\u5403 (ch\u012b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u559d",
+      "translation": "Beber",
+      "pronunciation": "\u559d (h\u0113)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5356",
+      "translation": "Vender",
+      "pronunciation": "\u5356 (m\u00e0i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8dd1\u6b65",
+      "translation": "Correr",
+      "pronunciation": "\u8dd1\u6b65 (p\u01ceob\u00f9)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u63a5\u6536",
+      "translation": "Recibir",
+      "pronunciation": "\u63a5\u6536 (ji\u0113sh\u014du)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u53d1\u751f",
+      "translation": "Ocurrir",
+      "pronunciation": "\u53d1\u751f (f\u0101sh\u0113ng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5199",
+      "translation": "Escribir",
+      "pronunciation": "\u5199 (xi\u011b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4fdd\u6301",
+      "translation": "Mantener",
+      "pronunciation": "\u4fdd\u6301 (b\u01ceoch\u00ed)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5b66\u4e60",
+      "translation": "Aprender",
+      "pronunciation": "\u5b66\u4e60 (xu\u00e9x\u00ed)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6d3b\u7740",
+      "translation": "Vivir",
+      "pronunciation": "\u6d3b\u7740 (hu\u00f3zhe)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5fc5\u987b",
+      "translation": "Deber",
+      "pronunciation": "\u5fc5\u987b (b\u00ecx\u016b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5fd8\u8bb0",
+      "translation": "Olvidar",
+      "pronunciation": "\u5fd8\u8bb0 (w\u00e0ngj\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u660e\u767d",
+      "translation": "Entender",
+      "pronunciation": "\u660e\u767d (m\u00edngb\u00e1i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u79bb\u5f00",
+      "translation": "Partir",
+      "pronunciation": "\u79bb\u5f00 (l\u00edk\u0101i)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7ea0\u6b63",
+      "translation": "Corregir",
+      "pronunciation": "\u7ea0\u6b63 (ji\u016bzh\u00e8ng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5e72\u9884",
+      "translation": "Intervenir",
+      "pronunciation": "\u5e72\u9884 (g\u0101ny\u00f9)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5c65\u884c",
+      "translation": "Cumplir",
+      "pronunciation": "\u5c65\u884c (l\u01dax\u00edng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8dcc\u5012",
+      "translation": "Caer",
+      "pronunciation": "\u8dcc\u5012 (di\u0113d\u01ceo)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u54b3\u55fd",
+      "translation": "Toser",
+      "pronunciation": "\u54b3\u55fd (k\u00e9s\u00f2u)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5206",
+      "translation": "Dividir",
+      "pronunciation": "\u5206 (f\u0113n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5047\u88c5",
+      "translation": "Fingir",
+      "pronunciation": "\u5047\u88c5 (ji\u01cezhu\u0101ng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u83b7\u5f97",
+      "translation": "Adquirir",
+      "pronunciation": "\u83b7\u5f97 (hu\u00f2d\u00e9)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6492\u8c0e",
+      "translation": "Mentir",
+      "pronunciation": "\u6492\u8c0e (s\u0101hu\u01ceng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u62e5\u6709",
+      "translation": "Poseer",
+      "pronunciation": "\u62e5\u6709 (y\u01d2ngy\u01d2u)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7a7f",
+      "translation": "Vestir",
+      "pronunciation": "\u7a7f (chu\u0101n)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u5141\u8bb8",
+      "translation": "Permitir",
+      "pronunciation": "\u5141\u8bb8 (y\u01d4nx\u01d4)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u662f",
+      "translation": "Soy/Estoy",
+      "pronunciation": "\u662f (sh\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u662f",
+      "translation": "Es/Est\u00e1",
+      "pronunciation": "\u662f (sh\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u662f",
+      "translation": "Somos/Est\u00e1n",
+      "pronunciation": "\u662f (sh\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u4e0d",
+      "translation": "No",
+      "pronunciation": "\u4e0d (b\u00f9)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u51b7",
+      "translation": "Fr\u00edo",
+      "pronunciation": "\u51b7 (l\u011bng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8b66\u5bdf",
+      "translation": "Polic\u00eda",
+      "pronunciation": "\u8b66\u5bdf (j\u01d0ngch\u00e1)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u533b\u751f",
+      "translation": "Doctor",
+      "pronunciation": "\u533b\u751f (y\u012bsh\u0113ng)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u8bb0\u8005",
+      "translation": "Periodista",
+      "pronunciation": "\u8bb0\u8005 (j\u00eczh\u011b)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u94a5\u5319",
+      "translation": "Llave",
+      "pronunciation": "\u94a5\u5319 (y\u00e0oshi)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u7a97\u53e3",
+      "translation": "Ventana",
+      "pronunciation": "\u7a97\u53e3 (chu\u0101ngk\u01d2u)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6211\u5f88\u51b7\u3002\u4f60\u80fd\u5173\u4e0a\u7a97\u6237\u5417\uff1f(w\u01d2",
+      "translation": "Tengo fr\u00edo. \u00bfPuedes cerrar la ventana, por favor?",
+      "pronunciation": "\u6211\u5f88\u51b7\u3002\u4f60\u80fd\u5173\u4e0a\u7a97\u6237\u5417\uff1f(w\u01d2 h\u011bn l\u011bng. n\u01d0 n\u00e9ng gu\u0101n sh\u00e0ng chu\u0101ngh\u00f9 ma?)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u621131\u5c81\u3002\u6211\u7684\u59d0\u59d027\u5c81\u3002(w\u01d2",
+      "translation": "Tengo 31 a\u00f1os. Mi hermana tiene 27.",
+      "pronunciation": "\u621131\u5c81\u3002\u6211\u7684\u59d0\u59d027\u5c81\u3002(w\u01d2 31 su\u00ec. w\u01d2 de ji\u011bji\u011b 27 su\u00ec)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u6211\u54e5\u54e5\u5f88\u9ad8\u3002\u4ed6\u662f\u8b66\u5bdf\u3002(w\u01d2",
+      "translation": "Mi hermano es muy alto. Es polic\u00eda.",
+      "pronunciation": "\u6211\u54e5\u54e5\u5f88\u9ad8\u3002\u4ed6\u662f\u8b66\u5bdf\u3002(w\u01d2 g\u0113g\u0113 h\u011bn g\u0101o. t\u0101 sh\u00ec j\u01d0ngch\u00e1)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "M\u00e0ik\u00e8",
+      "translation": "Mike tiene miedo de los perros.",
+      "pronunciation": "M\u00e0ik\u00e8 p\u00e0 g\u01d2u. (\u8fc8\u514b\u6015\u72d7)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Xi\u00e0nz\u00e0i",
+      "translation": "Son las nueve. Est\u00e1s tarde otra vez.",
+      "pronunciation": "Xi\u00e0nz\u00e0i sh\u00ec ji\u01d4 di\u01cen. N\u01d0 y\u00f2u ch\u00edd\u00e0o le. (\u73b0\u5728\u662f\u4e5d\u70b9\u3002\u4f60\u53c8\u8fdf\u5230\u4e86\u3002)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "K\u01ceit\u00e8",
+      "translation": "Kate y yo somos buenos amigos.",
+      "pronunciation": "K\u01ceit\u00e8 h\u00e9 w\u01d2 sh\u00ec h\u01ceo p\u00e9ngy\u01d2u. (\u51ef\u7279\u548c\u6211\u662f\u597d\u670b\u53cb)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "N\u01d0",
+      "translation": "Tus llaves est\u00e1n en la mesa.",
+      "pronunciation": "N\u01d0 de y\u00e0oshi z\u00e0i zhu\u014dzi sh\u00e0ng. (\u4f60\u7684\u94a5\u5319\u5728\u684c\u5b50\u4e0a)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "W\u01d2",
+      "translation": "Estoy cansado, pero no tengo hambre.",
+      "pronunciation": "W\u01d2 l\u00e8ile, d\u00e0n w\u01d2 b\u00f9 \u00e8. (\u6211\u7d2f\u4e86\uff0c\u4f46\u6211\u4e0d\u997f)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Yu\u0113h\u00e0n",
+      "translation": "A John no le interesa la pol\u00edtica. Le interesa la m\u00fasica.",
+      "pronunciation": "Yu\u0113h\u00e0n du\u00ec zh\u00e8ngzh\u00ec b\u00f9 g\u01cen x\u00ecngq\u00f9. T\u0101 du\u00ec y\u012bnyu\u00e8 g\u01cen x\u00ecngq\u00f9. (\u7ea6\u7ff0\u5bf9\u653f\u6cbb\u4e0d\u611f\u5174\u8da3\u3002\u4ed6\u5bf9\u97f3\u4e50\u611f\u5174\u8da3)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ji\u01cen",
+      "translation": "Jane no est\u00e1 en casa ahora. Est\u00e1 en el trabajo.",
+      "pronunciation": "Ji\u01cen xi\u00e0nz\u00e0i b\u00f9 z\u00e0i ji\u0101. T\u0101 z\u00e0i g\u014dngzu\u00f2. (\u7b80\u73b0\u5728\u4e0d\u5728\u5bb6\u3002\u5979\u5728\u5de5\u4f5c)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Zh\u00e8xi\u0113",
+      "translation": "Esa gente no es inglesa. Son japoneses.",
+      "pronunciation": "Zh\u00e8xi\u0113 r\u00e9n b\u00f9 sh\u00ec y\u012bnggu\u00f3 r\u00e9n. T\u0101men sh\u00ec r\u00ecb\u011bn r\u00e9n. (\u8fd9\u4e9b\u4eba\u4e0d\u662f\u82f1\u56fd\u4eba\u3002\u4ed6\u4eec\u662f\u65e5\u672c\u4eba)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "J\u012bnti\u0101n",
+      "translation": "Hoy hace sol, pero no hace calor.",
+      "pronunciation": "J\u012bnti\u0101n sh\u00ec q\u00edngti\u0101n, d\u00e0n b\u00f9 r\u00e8. (\u4eca\u5929\u662f\u6674\u5929\uff0c\u4f46\u4e0d\u70ed)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "N\u00e0",
+      "translation": "Eso es = eso es",
+      "pronunciation": "N\u00e0 sh\u00ec = n\u00e0 sh\u00ec (\u90a3\u662f = \u90a3\u662f)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Y\u01d2u",
+      "translation": "Hay = ah\u00ed est\u00e1",
+      "pronunciation": "Y\u01d2u = n\u00e0l\u01d0 (\u6709 = \u90a3\u91cc)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Zh\u00e8l\u01d0",
+      "translation": "Aqu\u00ed est\u00e1 = aqu\u00ed est\u00e1",
+      "pronunciation": "Zh\u00e8l\u01d0 = zh\u00e8l\u01d0 (\u8fd9\u91cc = \u8fd9\u91cc)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Xi\u00e8xi\u00e8.",
+      "translation": "Gracias. Eso es muy amable de tu parte.",
+      "pronunciation": "Xi\u00e8xi\u00e8. Zh\u00e8 h\u011bn h\u01ceo n\u01d0. (\u8c22\u8c22\u3002\u8fd9\u5bf9\u4f60\u6765\u8bf4\u5f88\u4eb2\u5207)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "K\u00e0n!",
+      "translation": "\u00a1Mira! Ah\u00ed est\u00e1 Chris.",
+      "pronunciation": "K\u00e0n! N\u00e0 sh\u00ec K\u00e8l\u01d0s\u012b. (\u770b\uff01\u90a3\u662f\u514b\u91cc\u65af)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\"Zh\u00e8l\u01d0",
+      "translation": "\"Aqu\u00ed est\u00e1 tu llave\" \"Gracias\".",
+      "pronunciation": "\"Zh\u00e8l\u01d0 sh\u00ec n\u01d0 de y\u00e0oshi\" \"Xi\u00e8xi\u00e8\". (\u300c\u8fd9\u91cc\u662f\u4f60\u7684\u94a5\u5319\u300d\u300c\u8c22\u8c22\u300d)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "T\u00f3u",
+      "translation": "La cabeza",
+      "pronunciation": "T\u00f3u (\u5934)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "B\u00f3zi",
+      "translation": "El cuello",
+      "pronunciation": "B\u00f3zi (\u8116\u5b50)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Xi\u014dng",
+      "translation": "El pecho",
+      "pronunciation": "Xi\u014dng (\u80f8)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "D\u00f9zi",
+      "translation": "El vientre",
+      "pronunciation": "D\u00f9zi (\u809a\u5b50)",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswer": 2
+    }
+  ]
+}

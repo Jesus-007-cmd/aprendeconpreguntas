@@ -1,0 +1,39 @@
+{
+    "questionLanguage": "es-US",
+    "responseLanguage": "en-US",
+    "questions": [
+        {
+            "word": "el/la (definido)",
+            "translation": "the",
+            "pronunciation": "the",
+            "options": [
+                "a",
+                "an",
+                "the"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "un/una (indefinido)",
+            "translation": "a",
+            "pronunciation": "a",
+            "options": [
+                "the",
+                "a",
+                "an"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "un/una (indefinido, usado antes de vocal)",
+            "translation": "an",
+            "pronunciation": "an",
+            "options": [
+                "a",
+                "an",
+                "the"
+            ],
+            "correctAnswer": 2
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+/* Ajustar margen superior para evitar que la tabla se suba */
+.italian-articles-trainer {
+    text-align: center;
+    padding: 40px;
+    background-color: #1e1e1e !important;
+    margin: 100px auto;  /* Márgenes superiores */
+    max-width: 1000px;  /* Asegurar que el ancho máximo sea adecuado */
+    border-radius: 10px;
+    overflow: hidden;  /* Controlar el contenido dentro del contenedor */
+  }
+  
+  /* Tabla con bordes blancos */
+  .articles-table {
+    width: 100%;
+    border-collapse: collapse;  /* Para que los bordes no tengan espacio entre ellos */
+    margin-bottom: 20px;
+    border: 2px solid #ffffff !important;  /* Bordes blancos */
+  }
+  
+  .articles-table th, .articles-table td {
+    border: 2px solid #ffffff !important;  /* Bordes blancos para celdas */
+    padding: 12px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .articles-table th {
+    background-color: #00e5ff;
+    color: #000000;
+  }
+  
+  .articles-table td {
+    background-color: #2c2c2c;
+  }
+  
+  /* Estilo interactivo para los artículos */
+  .article {
+    cursor: pointer;
+    color: #00e5ff;
+  }
+  
+  .article:hover {
+    color: #00b2cc;
+  }
+  
+  /* Responsivo: Ajustar el tamaño del texto y el espaciado en pantallas pequeñas */
+  @media (max-width: 600px) {
+    .italian-articles-trainer h1 {
+      font-size: 28px;
+    }
+  
+    .articles-table th, .articles-table td {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,66 @@
+{
+    "questionLanguage": "de-DE",
+    "responseLanguage": "es-US",
+    "questions": [
+        {
+            "word": "der",
+            "translation": "el (masculino)",
+            "pronunciation": "der",
+            "options": [
+                "el (masculino)",
+                "el/la (neutro)",
+                "un (masculino)",
+                "la (femenino)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "die",
+            "translation": "la (femenino)",
+            "pronunciation": "die",
+            "options": [
+                "el/la (neutro)",
+                "la (femenino)",
+                "una (femenino)",
+                "un (masculino)"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "das",
+            "translation": "el/la (neutro)",
+            "pronunciation": "das",
+            "options": [
+                "una (femenino)",
+                "la (femenino)",
+                "el (masculino)",
+                "el/la (neutro)"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "ein",
+            "translation": "un (masculino)",
+            "pronunciation": "ein",
+            "options": [
+                "la (femenino)",
+                "una (femenino)",
+                "el/la (neutro)",
+                "un (masculino)"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "eine",
+            "translation": "una (femenino)",
+            "pronunciation": "eine",
+            "options": [
+                "una (femenino)",
+                "un (masculino)",
+                "el/la (neutro)",
+                "la (femenino)"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

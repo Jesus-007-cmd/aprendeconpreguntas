@@ -1,0 +1,426 @@
+{
+    "responseLanguage": "pt-BR",
+    "questionLanguage": "pt-PT",
+    "questions": [
+        {
+            "word": "Voc\u00eas _____ aqui no Rio?",
+            "translation": "Voc\u00eas _____ aqui no Rio?",
+            "pronunciation": "Voc\u00eas _____ aqui no Rio?",
+            "options": [
+                "moram",
+                "falam",
+                "falo",
+                "falamos"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "N\u00e3o. N\u00f3s _____ mineiros e _____ em Belo Horizonte.",
+            "translation": "N\u00e3o. N\u00f3s _____ mineiros e _____ em Belo Horizonte.",
+            "pronunciation": "N\u00e3o. N\u00f3s _____ mineiros e _____ em Belo Horizonte.",
+            "options": [
+                "parto",
+                "somos",
+                "partes",
+                "partimos"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "N\u00e3o. N\u00f3s _____ mineiros e _____ em Belo Horizonte.",
+            "translation": "N\u00e3o. N\u00f3s _____ mineiros e _____ em Belo Horizonte.",
+            "pronunciation": "N\u00e3o. N\u00f3s _____ mineiros e _____ em Belo Horizonte.",
+            "options": [
+                "vendem",
+                "moramos",
+                "vendemos",
+                "vende"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "N\u00f3s _____ aqui em f\u00e9rias.",
+            "translation": "N\u00f3s _____ aqui em f\u00e9rias.",
+            "pronunciation": "N\u00f3s _____ aqui em f\u00e9rias.",
+            "options": [
+                "escrevemos",
+                "escreves",
+                "estamos",
+                "escreve"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Voc\u00ea _____ em S\u00e3o Paulo? _____, sim.",
+            "translation": "Voc\u00ea _____ em S\u00e3o Paulo? _____, sim.",
+            "pronunciation": "Voc\u00ea _____ em S\u00e3o Paulo? _____, sim.",
+            "options": [
+                "mora",
+                "assisto",
+                "assistimos",
+                "assiste"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Voc\u00ea _____ em S\u00e3o Paulo? _____, sim.",
+            "translation": "Voc\u00ea _____ em S\u00e3o Paulo? _____, sim.",
+            "pronunciation": "Voc\u00ea _____ em S\u00e3o Paulo? _____, sim.",
+            "options": [
+                "falam",
+                "moro",
+                "falas",
+                "falo"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ele _____ espanhol.",
+            "translation": "Ele _____ espanhol.",
+            "pronunciation": "Ele _____ espanhol.",
+            "options": [
+                "escrevem",
+                "escrevemos",
+                "fala",
+                "escreve"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Nossos amigos _____ na Espanha.",
+            "translation": "Nossos amigos _____ na Espanha.",
+            "pronunciation": "Nossos amigos _____ na Espanha.",
+            "options": [
+                "falo",
+                "falamos",
+                "falas",
+                "moram"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "N\u00f3s _____ em Belo Horizonte.",
+            "translation": "N\u00f3s _____ em Belo Horizonte.",
+            "pronunciation": "N\u00f3s _____ em Belo Horizonte.",
+            "options": [
+                "vendemos",
+                "vendes",
+                "vendo",
+                "moramos"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "O senhor _____ franc\u00eas.",
+            "translation": "O senhor _____ franc\u00eas.",
+            "pronunciation": "O senhor _____ franc\u00eas.",
+            "options": [
+                "assistes",
+                "fala",
+                "assisto",
+                "assistimos"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ela _____ a porta.",
+            "translation": "Ela _____ a porta.",
+            "pronunciation": "Ela _____ a porta.",
+            "options": [
+                "moras",
+                "moram",
+                "atende",
+                "moro"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Eu _____ meus clientes de manh\u00e3.",
+            "translation": "Eu _____ meus clientes de manh\u00e3.",
+            "pronunciation": "Eu _____ meus clientes de manh\u00e3.",
+            "options": [
+                "escrevo",
+                "escrevem",
+                "escreve",
+                "atendo"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Eles _____ as portas.",
+            "translation": "Eles _____ as portas.",
+            "pronunciation": "Eles _____ as portas.",
+            "options": [
+                "parte",
+                "parto",
+                "abrem",
+                "partimos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Os \u00f4nibus _____ \u00e0s 10 horas.",
+            "translation": "Os \u00f4nibus _____ \u00e0s 10 horas.",
+            "pronunciation": "Os \u00f4nibus _____ \u00e0s 10 horas.",
+            "options": [
+                "assistem",
+                "assistimos",
+                "assisto",
+                "partem"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "N\u00f3s _____ \u00e0 televis\u00e3o toda noite.",
+            "translation": "N\u00f3s _____ \u00e0 televis\u00e3o toda noite.",
+            "pronunciation": "N\u00f3s _____ \u00e0 televis\u00e3o toda noite.",
+            "options": [
+                "assiste",
+                "assistimos",
+                "assistem",
+                "assisto"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Eu _____ pouco.",
+            "translation": "Eu _____ pouco.",
+            "pronunciation": "Eu _____ pouco.",
+            "options": [
+                "escreves",
+                "escrevemos",
+                "escrevo",
+                "escrevem"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Eles _____ pr\u00e9dios.",
+            "translation": "Eles _____ pr\u00e9dios.",
+            "pronunciation": "Eles _____ pr\u00e9dios.",
+            "options": [
+                "moras",
+                "mora",
+                "moro",
+                "vendem"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Os \u00f4nibus _____ para o Rio amanh\u00e3.",
+            "translation": "Os \u00f4nibus _____ para o Rio amanh\u00e3.",
+            "pronunciation": "Os \u00f4nibus _____ para o Rio amanh\u00e3.",
+            "options": [
+                "parto",
+                "partes",
+                "parte",
+                "partem"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Voc\u00ea _____ o curso amanh\u00e3.",
+            "translation": "Voc\u00ea _____ o curso amanh\u00e3.",
+            "pronunciation": "Voc\u00ea _____ o curso amanh\u00e3.",
+            "options": [
+                "assistem",
+                "assisto",
+                "come\u00e7a",
+                "assistes"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "N\u00f3s _____ o curso hoje.",
+            "translation": "N\u00f3s _____ o curso hoje.",
+            "pronunciation": "N\u00f3s _____ o curso hoje.",
+            "options": [
+                "come\u00e7amos",
+                "parto",
+                "partem",
+                "parte"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Eu n\u00e3o _____ em apartamento.",
+            "translation": "Eu n\u00e3o _____ em apartamento.",
+            "pronunciation": "Eu n\u00e3o _____ em apartamento.",
+            "options": [
+                "fala",
+                "moro",
+                "falas",
+                "falamos"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "O senhor _____ franc\u00eas, mas eu n\u00e3o.",
+            "translation": "O senhor _____ franc\u00eas, mas eu n\u00e3o.",
+            "pronunciation": "O senhor _____ franc\u00eas, mas eu n\u00e3o.",
+            "options": [
+                "fala",
+                "vendemos",
+                "vendem",
+                "vendo"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "N\u00f3s _____ muitos pr\u00e9dios.",
+            "translation": "N\u00f3s _____ muitos pr\u00e9dios.",
+            "pronunciation": "N\u00f3s _____ muitos pr\u00e9dios.",
+            "options": [
+                "assistem",
+                "assiste",
+                "assistes",
+                "vendemos"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Ele _____ o telefone.",
+            "translation": "Ele _____ o telefone.",
+            "pronunciation": "Ele _____ o telefone.",
+            "options": [
+                "partimos",
+                "partes",
+                "atende",
+                "parto"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "N\u00f3s sempre _____ o diretor.",
+            "translation": "N\u00f3s sempre _____ o diretor.",
+            "pronunciation": "N\u00f3s sempre _____ o diretor.",
+            "options": [
+                "partimos",
+                "partem",
+                "atendemos",
+                "parte"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Ele _____ a loja \u00e0s 9 horas.",
+            "translation": "Ele _____ a loja \u00e0s 9 horas.",
+            "pronunciation": "Ele _____ a loja \u00e0s 9 horas.",
+            "options": [
+                "parte",
+                "abre",
+                "partes",
+                "parto"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "O diretor _____ o cofre do banco.",
+            "translation": "O diretor _____ o cofre do banco.",
+            "pronunciation": "O diretor _____ o cofre do banco.",
+            "options": [
+                "falamos",
+                "falam",
+                "abre",
+                "falas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Meu trem _____ desta esta\u00e7\u00e3o.",
+            "translation": "Meu trem _____ desta esta\u00e7\u00e3o.",
+            "pronunciation": "Meu trem _____ desta esta\u00e7\u00e3o.",
+            "options": [
+                "assistes",
+                "assisto",
+                "assiste",
+                "parte"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Eles _____ \u00e0 televis\u00e3o toda noite.",
+            "translation": "Eles _____ \u00e0 televis\u00e3o toda noite.",
+            "pronunciation": "Eles _____ \u00e0 televis\u00e3o toda noite.",
+            "options": [
+                "assistem",
+                "parte",
+                "partimos",
+                "parto"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Os diretores _____ tudo na reuni\u00e3o.",
+            "translation": "Os diretores _____ tudo na reuni\u00e3o.",
+            "pronunciation": "Os diretores _____ tudo na reuni\u00e3o.",
+            "options": [
+                "partimos",
+                "discutem",
+                "partem",
+                "parte"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "A secret\u00e1ria _____ na sala do engenheiro.",
+            "translation": "A secret\u00e1ria _____ na sala do engenheiro.",
+            "pronunciation": "A secret\u00e1ria _____ na sala do engenheiro.",
+            "options": [
+                "entra",
+                "vende",
+                "vendemos",
+                "vendes"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "N\u00f3s _____ aqui em f\u00e9rias.",
+            "translation": "N\u00f3s _____ aqui em f\u00e9rias.",
+            "pronunciation": "N\u00f3s _____ aqui em f\u00e9rias.",
+            "options": [
+                "estamos",
+                "parto",
+                "partimos",
+                "partes"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Ele _____ o curso amanh\u00e3.",
+            "translation": "Ele _____ o curso amanh\u00e3.",
+            "pronunciation": "Ele _____ o curso amanh\u00e3.",
+            "options": [
+                "vendes",
+                "vendemos",
+                "vende",
+                "come\u00e7a"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "A senhora _____ aqui?",
+            "translation": "A senhora _____ aqui?",
+            "pronunciation": "A senhora _____ aqui?",
+            "options": [
+                "falas",
+                "fala",
+                "mora",
+                "falamos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Voc\u00eas n\u00e3o _____ em apartamento?",
+            "translation": "Voc\u00eas n\u00e3o _____ em apartamento?",
+            "pronunciation": "Voc\u00eas n\u00e3o _____ em apartamento?",
+            "options": [
+                "vendes",
+                "vendo",
+                "vende",
+                "moram"
+            ],
+            "correctAnswer": 4
+        }
+    ]
+}

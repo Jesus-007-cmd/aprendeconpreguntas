@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './QuizApp.css';
 import trailheadQuestions1 from '../../data/01preguntasTrailHeald.json';
@@ -7,8 +7,8 @@ import trailheadQuestions3 from '../../data/03PreguntasTrailHead.json';
 import preguntascertificacionCAP2 from '../../data/preguntascertificacionCAP2.json';
 import telcelQuestions1 from '../../data/preguntastelcel.json';
 import telcelQuestions2 from '../../data/preguntastelcel2.json';
-import lenguajeFrances from '../../data/LenguajeFrances.json'
-
+import lenguajeFrances from '../../data/LenguajeFrances.json';
+import quiz_web_dev from '../../data/quiz_web_dev.json';
 import Bar from './Bar';
 import ActionBar from './ActionBar';
 
@@ -22,7 +22,33 @@ function QuizApp() {
   const [incorrectQuestions, setIncorrectQuestions] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [showOnlyCorrect, setShowOnlyCorrect] = useState(false);
-  const [category, setCategory] = useState('');  // Nuevo estado para la categoría
+  const [category, setCategory] = useState(''); // Estado para la categoría
+  const [showMenu, setShowMenu] = useState(true); // Estado para mostrar el menú
+
+  // Referencia para el contenedor de la aplicación
+  const quizContainerRef = useRef(null);
+
+  // Función para activar el modo pantalla completa
+  const enterFullScreen = () => {
+    if (quizContainerRef.current.requestFullscreen) {
+      quizContainerRef.current.requestFullscreen();
+    } else if (quizContainerRef.current.webkitRequestFullscreen) { // Soporte para Safari
+      quizContainerRef.current.webkitRequestFullscreen();
+    } else if (quizContainerRef.current.msRequestFullscreen) { // Soporte para IE/Edge
+      quizContainerRef.current.msRequestFullscreen();
+    }
+  };
+
+  // Función para salir del modo pantalla completa
+  const exitFullScreen = () => {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) { // Soporte para Safari
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) { // Soporte para IE/Edge
+      document.msExitFullscreen();
+    }
+  };
 
   const shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -30,6 +56,7 @@ function QuizApp() {
       [array[i], array[j]] = [array[j], array[i]];
     }
   };
+
   const loadQuestions = (category) => {
     switch (category) {
       case 'trailhead1':
@@ -46,11 +73,12 @@ function QuizApp() {
         return telcelQuestions2;
       case 'lenguajeFrances':
         return lenguajeFrances;
+      case 'quiz_web_dev':
+          return quiz_web_dev;
       default:
         return [];
     }
   };
-  
 
   useEffect(() => {
     const shuffleQuestions = (questionsData) => {
@@ -64,16 +92,14 @@ function QuizApp() {
         shuffleArray(options);
         return { ...question, options };
       });
-      setQuestions(shuffledQuestions);  // Establecer las preguntas barajadas
+      setQuestions(shuffledQuestions);
     };
-  
+
     if (category) {
-      const selectedQuestions = loadQuestions(category);  // Cargar preguntas según la categoría seleccionada
-      shuffleQuestions(selectedQuestions);  // Barajar las respuestas
+      const selectedQuestions = loadQuestions(category);
+      shuffleQuestions(selectedQuestions);
     }
   }, [category]);
-  
-  
 
   const handleAnswerSelect = selectedAnswer => {
     const currentQuestion = questions[currentQuestionIndex];
@@ -88,13 +114,18 @@ function QuizApp() {
         } else {
           setShowResult(true);
         }
-      }, 500); // Mostrar "¡Bien hecho!" por 1.5 segundos
+      }, 500); // Mostrar "¡Bien hecho!" por 0.5 segundos
     } else {
       const updatedIncorrectQuestions = [...incorrectQuestions, currentQuestion];
       setIncorrectQuestions(updatedIncorrectQuestions);
       localStorage.setItem('incorrectQuestions', JSON.stringify(updatedIncorrectQuestions));
       setSelectedAnswer(selectedAnswer);
     }
+  };
+
+  const handleCategorySelect = (selectedCategory) => {
+    setCategory(selectedCategory);
+    setShowMenu(false); // Ocultar el menú al seleccionar una categoría
   };
 
   const handleRestartQuiz = () => {
@@ -106,7 +137,7 @@ function QuizApp() {
     setShowOnlyCorrect(false);
   
     const shuffleAnswers = () => {
-      const shuffledQuestions = questions.map(question => {  // Cambiado de questionsData a questions
+      const shuffledQuestions = questions.map(question => {
         const options = [
           question["Option 1"],
           question["Option 2"],
@@ -121,7 +152,6 @@ function QuizApp() {
     };
     shuffleAnswers();
   };
-  
 
   const handleGenerateJson = () => {
     const jsonContent = JSON.stringify(incorrectQuestions, null, 2);
@@ -158,8 +188,9 @@ function QuizApp() {
       alert('Número de pregunta fuera de rango.');
     }
   };
+
   const handleSearch = (term) => {
-    const results = questions.filter(question =>  // Cambiado de questionsData a questions
+    const results = questions.filter(question =>
       question["Question Text"].toLowerCase().includes(term.toLowerCase())
     ).map(question => ({
       "Question Text": question["Question Text"],
@@ -167,38 +198,72 @@ function QuizApp() {
     }));
     setSearchResults(results);
   };
-  
-  
 
   const handleBackToQuiz = () => {
     setSearchResults([]);
     setShowOnlyCorrect(false);
   };
 
-  
-
   return (
-    <div className="quiz-container">
-      <div className="category-buttons">
-      <button onClick={() => setCategory('trailhead1')}>Preguntas Trailhead 1</button>
-      <button onClick={() => setCategory('trailhead2')}>Preguntas Trailhead 2</button>
-      <button onClick={() => setCategory('trailhead3')}>Preguntas Trailhead 3</button>
-      <button onClick={() => setCategory('certificacion')}>Preguntas Certificación</button>
-      <button onClick={() => setCategory('telcel1')}>Preguntas Telcel 1</button>
-      <button onClick={() => setCategory('telcel2')}>Preguntas Telcel 2</button>
-      <button onClick={() => setCategory('lenguajeFrances')}>Preguntas Frances</button>
+    <div ref={quizContainerRef} className="quiz-container">
+      {/* Mostrar solo si el menú está activo */}
+      {showMenu && (
+        <>
+          <button onClick={enterFullScreen} style={{ marginBottom: '10px', backgroundColor: 'blue', color: 'white' }}>
+            Pantalla Completa
+          </button>
+
+          <button onClick={exitFullScreen} className="exit-fullscreen-btn">
+            Salir Pantalla Completa
+          </button>
+
+          <div className="category-buttons">
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('trailhead1')}>Preguntas Trailhead 1</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('trailhead2')}>Preguntas Trailhead 2</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('trailhead3')}>Preguntas Trailhead 3</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('certificacion')}>Preguntas Certificación</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('telcel1')}>Preguntas Telcel 1</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('telcel2')}>Preguntas Telcel 2</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('lenguajeFrances')}>Preguntas Frances</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('quiz_web_dev')}>Preguntas Desarrollo Web Resposivo</button>
+          </div>
+          {/* Resto del contenido del quiz */}
+<Bar incorrectQuestions={incorrectQuestions} />
+<ActionBar
+  handleGenerateJson={handleGenerateJson}
+  handleStartMiniQuiz={handleStartMiniQuiz}
+  handleStartFromQuestion={handleStartFromQuestion}
+  handleSearch={handleSearch}
+  handleBackToQuiz={handleBackToQuiz}
+/>
+        </>
+
+
+      )}
+
+      {/* Mostrar el ícono de engranaje solo si el menú está oculto */}
+      {!showMenu && (
+        <button
+          style={{
+            position: 'absolute',
+            bottom: '10px',
+            right: '10px',
+            backgroundColor: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+            fontSize: '2rem',
+            color: 'white',
+          }}
+          onClick={() => setShowMenu(true)}
+        >
+          ⚙️
+        </button>
+      )}
+
       
-    </div>
-      <Bar incorrectQuestions={incorrectQuestions} />
-      <ActionBar
-        handleGenerateJson={handleGenerateJson}
-        handleStartMiniQuiz={handleStartMiniQuiz}
-        handleStartFromQuestion={handleStartFromQuestion}
-        handleSearch={handleSearch}
-        handleBackToQuiz={handleBackToQuiz}
-      />
+
       {searchResults.length > 0 ? (
-        <div className="search-results">
+        <div className="question-container">
           {searchResults.map((question, index) => (
             <div key={uuidv4()} className="question-container">
               <h2>{question["Question Text"]}</h2>
@@ -214,10 +279,9 @@ function QuizApp() {
       ) : (
         !showResult ? (
           <div>
-          
             {questions.length > 0 && currentQuestionIndex < questions.length && (
               <div className="question-container">
-                <h2>{questions[currentQuestionIndex]["Question Text"]}</h2>
+                {questions[currentQuestionIndex]["Question Text"]} <p></p>
                 {showOnlyCorrect ? (
                   <p>{questions[currentQuestionIndex]["Correct Answer"]}</p>
                 ) : (
@@ -226,7 +290,7 @@ function QuizApp() {
                       key={uuidv4()}
                       onClick={() => handleAnswerSelect(option)}
                       className={selectedAnswer === option ? "selected" : ""}
-                      style={{ fontSize: '4vh', padding: '10px', margin: '5px' }} // Estilos en línea
+                      style={{ fontSize: '4vh', padding: '10px', margin: '5px' }}
                     >
                       {option}
                     </button>

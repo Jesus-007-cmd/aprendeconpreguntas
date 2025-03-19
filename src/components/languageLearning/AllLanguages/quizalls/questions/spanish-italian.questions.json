@@ -1,0 +1,583 @@
+{
+    "responseLanguage": "it-IT",
+    "questionLanguage": "es-US",
+    "questions": [
+      {
+        "word": "La casa",
+        "translation": "La casa",
+        "pronunciation": "la casa",
+        "options": [
+          "L'uomo",
+          "La porta",
+          "La casa",
+          "Il bambino"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "El hombre",
+        "translation": "L'uomo",
+        "pronunciation": "l'uomo",
+        "options": [
+          "La casa",
+          "L'uomo",
+          "La donna",
+          "La sedia"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El huevo",
+        "translation": "L'uovo",
+        "pronunciation": "l'uovo",
+        "options": [
+          "La chiave",
+          "Il letto",
+          "L'uovo",
+          "La borsa"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Un pastel",
+        "translation": "Una torta",
+        "pronunciation": "una torta",
+        "options": [
+          "Il letto",
+          "Una torta",
+          "La borsa",
+          "L'auto"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Una mantequilla",
+        "translation": "Un burro",
+        "pronunciation": "un burro",
+        "options": [
+          "La borsa",
+          "Un burro",
+          "Il letto",
+          "L'uovo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El auto",
+        "translation": "L'auto",
+        "pronunciation": "l'auto",
+        "options": [
+          "L'auto",
+          "L'uomo",
+          "La donna",
+          "Il bambino"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La llave",
+        "translation": "La chiave",
+        "pronunciation": "la chiave",
+        "options": [
+          "La chiave",
+          "L'uomo",
+          "La casa",
+          "La donna"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La puerta",
+        "translation": "La porta",
+        "pronunciation": "la porta",
+        "options": [
+          "La casa",
+          "La sedia",
+          "La porta",
+          "Il letto"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "La clase",
+        "translation": "La lezione",
+        "pronunciation": "la lezione",
+        "options": [
+          "Il letto",
+          "La lezione",
+          "La donna",
+          "L'uovo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El niño/la niña",
+        "translation": "Il bambino/la bambina",
+        "pronunciation": "il bambino/la bambina",
+        "options": [
+          "Il bambino/la bambina",
+          "La casa",
+          "L'uomo",
+          "Il letto"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La lámpara",
+        "translation": "La lampada",
+        "pronunciation": "la lampada",
+        "options": [
+          "La lampada",
+          "La chiave",
+          "Il letto",
+          "L'auto"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La toalla",
+        "translation": "L'asciugamano",
+        "pronunciation": "l'asciugamano",
+        "options": [
+          "L'uomo",
+          "L'asciugamano",
+          "La casa",
+          "La borsa"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La cama",
+        "translation": "Il letto",
+        "pronunciation": "il letto",
+        "options": [
+          "La casa",
+          "Il letto",
+          "La lampada",
+          "La sedia"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La alfombra",
+        "translation": "Il tappeto",
+        "pronunciation": "il tappeto",
+        "options": [
+          "La borsa",
+          "Il tappeto",
+          "L'auto",
+          "L'uomo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La maleta",
+        "translation": "La valigia",
+        "pronunciation": "la valigia",
+        "options": [
+          "La sedia",
+          "La valigia",
+          "La casa",
+          "L'uovo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La bolsa",
+        "translation": "La borsa",
+        "pronunciation": "la borsa",
+        "options": [
+          "La borsa",
+          "L'auto",
+          "Il tappeto",
+          "La casa"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Un hombre",
+        "translation": "Un uomo",
+        "pronunciation": "un uomo",
+        "options": [
+          "Un uomo",
+          "Una donna",
+          "Una sedia",
+          "Una torta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Una mujer",
+        "translation": "Una donna",
+        "pronunciation": "una donna",
+        "options": [
+          "Una donna",
+          "Un uomo",
+          "Un bambino",
+          "Una torta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La silla",
+        "translation": "La sedia",
+        "pronunciation": "la sedia",
+        "options": [
+          "La casa",
+          "La sedia",
+          "La borsa",
+          "Il tappeto"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Yo tengo",
+        "translation": "Io ho",
+        "pronunciation": "io ho",
+        "options": [
+          "Io ho",
+          "Tu hai",
+          "Lui ha",
+          "Noi abbiamo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Tú tienes",
+        "translation": "Tu hai",
+        "pronunciation": "tu hai",
+        "options": [
+          "Io ho",
+          "Tu hai",
+          "Lui ha",
+          "Noi abbiamo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Él tiene",
+        "translation": "Lui ha",
+        "pronunciation": "lui ha",
+        "options": [
+          "Io ho",
+          "Tu hai",
+          "Lui ha",
+          "Noi abbiamo"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Nosotros tenemos",
+        "translation": "Noi abbiamo",
+        "pronunciation": "noi abbiamo",
+        "options": [
+          "Io ho",
+          "Tu hai",
+          "Lui ha",
+          "Noi abbiamo"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Vosotros tenéis",
+        "translation": "Voi avete",
+        "pronunciation": "voi avete",
+        "options": [
+          "Voi avete",
+          "Loro hanno",
+          "Noi siamo",
+          "Io sono"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ellos tienen",
+        "translation": "Loro hanno",
+        "pronunciation": "loro hanno",
+        "options": [
+          "Loro hanno",
+          "Noi abbiamo",
+          "Tu sei",
+          "Lui è"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Hoy es domingo",
+        "translation": "Oggi è domenica",
+        "pronunciation": "oggi è domenica",
+        "options": [
+          "Oggi è domenica",
+          "Ieri era lunedì",
+          "Domani è venerdì",
+          "Dopodomani è sabato"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Yo soy",
+        "translation": "Io sono",
+        "pronunciation": "io sono",
+        "options": [
+          "Io sono",
+          "Tu sei",
+          "Lui è",
+          "Noi siamo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Tú eres",
+        "translation": "Tu sei",
+        "pronunciation": "tu sei",
+        "options": [
+          "Io sono",
+          "Tu sei",
+          "Lui è",
+          "Noi siamo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Él es",
+        "translation": "Lui è",
+        "pronunciation": "lui è",
+        "options": [
+          "Io sono",
+          "Tu sei",
+          "Lui è",
+          "Noi siamo"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Nosotros somos",
+        "translation": "Noi siamo",
+        "pronunciation": "noi siamo",
+        "options": [
+          "Io sono",
+          "Tu sei",
+          "Lui è",
+          "Noi siamo"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Vosotros sois",
+        "translation": "Voi siete",
+        "pronunciation": "voi siete",
+        "options": [
+          "Voi siete",
+          "Loro sono",
+          "Lui è",
+          "Noi siamo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ellos son",
+        "translation": "Loro sono",
+        "pronunciation": "loro sono",
+        "options": [
+          "Io sono",
+          "Tu sei",
+          "Lui è",
+          "Loro sono"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Setenta y tres",
+        "translation": "Settanta tre",
+        "pronunciation": "settanta tre",
+        "options": [
+          "Settanta tre",
+          "Settanta quattro",
+          "Settanta cinque",
+          "Settanta sei"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ochenta",
+        "translation": "Ottanta",
+        "pronunciation": "ottanta",
+        "options": [
+          "Ottanta",
+          "Settanta",
+          "Sessanta",
+          "Cinquanta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cincuenta y cuatro",
+        "translation": "Cinquanta quattro",
+        "pronunciation": "cinquanta quattro",
+        "options": [
+          "Cinquanta tre",
+          "Cinquanta quattro",
+          "Cinquanta cinque",
+          "Cinquanta sei"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Veinte",
+        "translation": "Venti",
+        "pronunciation": "venti",
+        "options": [
+          "Venti",
+          "Trenta",
+          "Quaranta",
+          "Cinquanta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Setenta y ocho",
+        "translation": "Settanta otto",
+        "pronunciation": "settanta otto",
+        "options": [
+          "Settanta otto",
+          "Settanta",
+          "Settanta cinque",
+          "Settanta quattro"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Once",
+        "translation": "Undici",
+        "pronunciation": "undici",
+        "options": [
+          "Undici",
+          "Dodici",
+          "Tredici",
+          "Quattordici"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cincuenta",
+        "translation": "Cinquanta",
+        "pronunciation": "cinquanta",
+        "options": [
+          "Cinquanta",
+          "Sessanta",
+          "Quaranta",
+          "Settanta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Diecisiete",
+        "translation": "Diciassette",
+        "pronunciation": "diciassette",
+        "options": [
+          "Sedici",
+          "Diciassette",
+          "Diciotto",
+          "Diciannove"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Veintiocho",
+        "translation": "Ventotto",
+        "pronunciation": "ventotto",
+        "options": [
+          "Ventotto",
+          "Ventinove",
+          "Ventisei",
+          "Diciassette"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cien",
+        "translation": "Cento",
+        "pronunciation": "cento",
+        "options": [
+          "Cento",
+          "Duecento",
+          "Trecento",
+          "Cento uno"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Doscientos uno",
+        "translation": "Duecento uno",
+        "pronunciation": "duecento uno",
+        "options": [
+          "Duecento uno",
+          "Trecento uno",
+          "Cento uno",
+          "Cinquecento uno"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Trescientos veinticuatro",
+        "translation": "Trecento ventiquattro",
+        "pronunciation": "trecento ventiquattro",
+        "options": [
+          "Trecento ventiquattro",
+          "Duecento ventiquattro",
+          "Cinquecento ventiquattro",
+          "Seicento ventiquattro"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ciento veintidós",
+        "translation": "Cento ventidue",
+        "pronunciation": "cento ventidue",
+        "options": [
+          "Cento ventidue",
+          "Duecento ventidue",
+          "Trecento ventidue",
+          "Quattrocento ventidue"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Quinientos cuarenta",
+        "translation": "Cinquecento quaranta",
+        "pronunciation": "cinquecento quaranta",
+        "options": [
+          "Cinquecento quaranta",
+          "Seicento quaranta",
+          "Quattrocento quaranta",
+          "Trecento quaranta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Seiscientos noventa y siete",
+        "translation": "Seicento novantasette",
+        "pronunciation": "seicento novantasette",
+        "options": [
+          "Seicento novantasette",
+          "Cinquecento novantasette",
+          "Quattrocento novantasette",
+          "Duecento novantasette"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Mil",
+        "translation": "Mille",
+        "pronunciation": "mille",
+        "options": [
+          "Mille",
+          "Duemila",
+          "Tremila",
+          "Cinquemila"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
+  

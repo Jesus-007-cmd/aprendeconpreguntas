@@ -1,0 +1,607 @@
+{
+    "responseLanguage": "it-IT",
+    "questionLanguage": "es-ES",
+    "questions": [
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para masculino singular y consonante excepto z, gn, ps, pn?",
+            "translation": "Il",
+            "pronunciation": "Il",
+            "options": [
+                "Il",
+                "Lo",
+                "Gli",
+                "L'"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para masculino singular y vocal?",
+            "translation": "L'",
+            "pronunciation": "L'",
+            "options": [
+                "Il",
+                "Lo",
+                "Gli",
+                "L'"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para masculino singular y s+consonante?",
+            "translation": "Lo",
+            "pronunciation": "Lo",
+            "options": [
+                "Il",
+                "Lo",
+                "Gli",
+                "L'"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para masculino plural y vocal?",
+            "translation": "Gli",
+            "pronunciation": "Gli",
+            "options": [
+                "I",
+                "Gli",
+                "Il",
+                "Lo"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para masculino plural y consonante?",
+            "translation": "I",
+            "pronunciation": "I",
+            "options": [
+                "I",
+                "Gli",
+                "Il",
+                "L'"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para femenino singular y consonante?",
+            "translation": "La",
+            "pronunciation": "La",
+            "options": [
+                "La",
+                "Le",
+                "L'",
+                "Gli"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para femenino singular y vocal?",
+            "translation": "L'",
+            "pronunciation": "L'",
+            "options": [
+                "La",
+                "Le",
+                "L'",
+                "Il"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "\u00bfQu\u00e9 art\u00edculo se utiliza para femenino plural, independientemente de la consonante o vocal?",
+            "translation": "Le",
+            "pronunciation": "Le",
+            "options": [
+                "La",
+                "Le",
+                "L'",
+                "Gli"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "El tren",
+            "translation": "Il treno",
+            "pronunciation": "Il treno",
+            "options": [
+                "La macchina",
+                "Le case",
+                "Il bambino",
+                "Il treno"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Los trenes",
+            "translation": "I treni",
+            "pronunciation": "I treni",
+            "options": [
+                "La macchina",
+                "Il bambino",
+                "Le case",
+                "I treni"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "El amigo",
+            "translation": "L'amico",
+            "pronunciation": "L'amico",
+            "options": [
+                "Le case",
+                "La macchina",
+                "L'amico",
+                "Il bambino"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Los amigos",
+            "translation": "Gli amici",
+            "pronunciation": "Gli amici",
+            "options": [
+                "Il bambino",
+                "Gli amici",
+                "Le case",
+                "La macchina"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "El zaino",
+            "translation": "Lo zaino",
+            "pronunciation": "Lo zaino",
+            "options": [
+                "Lo zaino",
+                "La macchina",
+                "Il bambino",
+                "Le case"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Los zainos",
+            "translation": "Gli zaini",
+            "pronunciation": "Gli zaini",
+            "options": [
+                "Le case",
+                "La macchina",
+                "Gli zaini",
+                "Il bambino"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "El auto",
+            "translation": "La macchina",
+            "pronunciation": "La macchina",
+            "options": [
+                "Le case",
+                "La macchina",
+                "Il bambino",
+                "La macchina"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Los autos",
+            "translation": "Le macchine",
+            "pronunciation": "Le macchine",
+            "options": [
+                "La macchina",
+                "Le case",
+                "Il bambino",
+                "Le macchine"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "La amiga",
+            "translation": "L'amica",
+            "pronunciation": "L'amica",
+            "options": [
+                "Il bambino",
+                "La macchina",
+                "Le case",
+                "L'amica"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Las amigas",
+            "translation": "Le amiche",
+            "pronunciation": "Le amiche",
+            "options": [
+                "Le amiche",
+                "La macchina",
+                "Il bambino",
+                "Le case"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "El ni\u00f1o",
+            "translation": "Il bambino",
+            "pronunciation": "Il bambino",
+            "options": [
+                "La macchina",
+                "Il bambino",
+                "Le case",
+                "Il bambino"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "El gato",
+            "translation": "Il gatto",
+            "pronunciation": "Il gatto",
+            "options": [
+                "Il bambino",
+                "Il gatto",
+                "Le case",
+                "La macchina"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "El doctor",
+            "translation": "Il dottore",
+            "pronunciation": "Il dottore",
+            "options": [
+                "Il dottore",
+                "La macchina",
+                "Il bambino",
+                "Le case"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "La ni\u00f1a",
+            "translation": "La bambina",
+            "pronunciation": "La bambina",
+            "options": [
+                "La bambina",
+                "Le case",
+                "Il bambino",
+                "La macchina"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "La gata",
+            "translation": "La gatta",
+            "pronunciation": "La gatta",
+            "options": [
+                "Le case",
+                "La gatta",
+                "Il bambino",
+                "La macchina"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "La regi\u00f3n",
+            "translation": "La regione",
+            "pronunciation": "La regione",
+            "options": [
+                "La macchina",
+                "Il bambino",
+                "La regione",
+                "Le case"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "El perro",
+            "translation": "Il cane",
+            "pronunciation": "Il cane",
+            "options": [
+                "Il bambino",
+                "La macchina",
+                "Le case",
+                "Il cane"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Los perros",
+            "translation": "I cani",
+            "pronunciation": "I cani",
+            "options": [
+                "Le case",
+                "Il bambino",
+                "I cani",
+                "La macchina"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "El libro",
+            "translation": "Il libro",
+            "pronunciation": "Il libro",
+            "options": [
+                "Il bambino",
+                "Le case",
+                "Il libro",
+                "La macchina"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Los libros",
+            "translation": "I libri",
+            "pronunciation": "I libri",
+            "options": [
+                "La macchina",
+                "I libri",
+                "Il bambino",
+                "Le case"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "El estudiante",
+            "translation": "Lo studente",
+            "pronunciation": "Lo studente",
+            "options": [
+                "Il bambino",
+                "La macchina",
+                "Le case",
+                "Lo studente"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Los estudiantes",
+            "translation": "Gli studenti",
+            "pronunciation": "Gli studenti",
+            "options": [
+                "La macchina",
+                "Le case",
+                "Gli studenti",
+                "Il bambino"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "La casa",
+            "translation": "La casa",
+            "pronunciation": "La casa",
+            "options": [
+                "La casa",
+                "Le case",
+                "Il bambino",
+                "La macchina"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Las casas",
+            "translation": "Le case",
+            "pronunciation": "Le case",
+            "options": [
+                "La macchina",
+                "Le case",
+                "Il bambino",
+                "Le case"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "El elefante",
+            "translation": "L'elefante",
+            "pronunciation": "L'elefante",
+            "options": [
+                "La macchina",
+                "Le case",
+                "Il bambino",
+                "L'elefante"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Los elefantes",
+            "translation": "Gli elefanti",
+            "pronunciation": "Gli elefanti",
+            "options": [
+                "Gli elefanti",
+                "Le case",
+                "Il bambino",
+                "La macchina"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "El hermano",
+            "translation": "Il fratello",
+            "pronunciation": "Il fratello",
+            "options": [
+                "Il bambino",
+                "La macchina",
+                "Il fratello",
+                "Le case"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Los hermanos",
+            "translation": "I fratelli",
+            "pronunciation": "I fratelli",
+            "options": [
+                "La macchina",
+                "Le case",
+                "Il bambino",
+                "I fratelli"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "El hombre",
+            "translation": "L'uomo",
+            "pronunciation": "L'uomo",
+            "options": [
+                "Il bambino",
+                "La macchina",
+                "Le case",
+                "L'uomo"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Los hombres",
+            "translation": "Gli uomini",
+            "pronunciation": "Gli uomini",
+            "options": [
+                "Le case",
+                "Gli uomini",
+                "Il bambino",
+                "La macchina"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "La madre",
+            "translation": "La madre",
+            "pronunciation": "La madre",
+            "options": [
+                "La macchina",
+                "Le case",
+                "La madre",
+                "Il bambino"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Las madres",
+            "translation": "Le madri",
+            "pronunciation": "Le madri",
+            "options": [
+                "Le case",
+                "La macchina",
+                "Il bambino",
+                "Le madri"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "El d\u00eda",
+            "translation": "Il giorno",
+            "pronunciation": "Il giorno",
+            "options": [
+                "Il giorno",
+                "Le case",
+                "Il bambino",
+                "La macchina"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Los d\u00edas",
+            "translation": "I giorni",
+            "pronunciation": "I giorni",
+            "options": [
+                "Il bambino",
+                "I giorni",
+                "Le case",
+                "La macchina"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "La noche",
+            "translation": "La notte",
+            "pronunciation": "La notte",
+            "options": [
+                "Il bambino",
+                "La macchina",
+                "La notte",
+                "Le case"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Las noches",
+            "translation": "Le notti",
+            "pronunciation": "Le notti",
+            "options": [
+                "Le case",
+                "Il bambino",
+                "Le notti",
+                "La macchina"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "El carro",
+            "translation": "La macchina",
+            "pronunciation": "La macchina",
+            "options": [
+                "Le case",
+                "Il bambino",
+                "La macchina",
+                "La macchina"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Los carros",
+            "translation": "Le macchine",
+            "pronunciation": "Le macchine",
+            "options": [
+                "Le case",
+                "La macchina",
+                "Il bambino",
+                "Le macchine"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "El vaso",
+            "translation": "Il bicchiere",
+            "pronunciation": "Il bicchiere",
+            "options": [
+                "Il bambino",
+                "La macchina",
+                "Il bicchiere",
+                "Le case"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Los vasos",
+            "translation": "I bicchieri",
+            "pronunciation": "I bicchieri",
+            "options": [
+                "Le case",
+                "Il bambino",
+                "I bicchieri",
+                "La macchina"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "La llave",
+            "translation": "La chiave",
+            "pronunciation": "La chiave",
+            "options": [
+                "Le case",
+                "La chiave",
+                "La macchina",
+                "Il bambino"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Las llaves",
+            "translation": "Le chiavi",
+            "pronunciation": "Le chiavi",
+            "options": [
+                "Le case",
+                "Il bambino",
+                "La macchina",
+                "Le chiavi"
+            ],
+            "correctAnswer": 4
+        }
+  
+    ]
+}

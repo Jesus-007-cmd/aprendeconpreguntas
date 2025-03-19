@@ -1,0 +1,583 @@
+{
+  "questionLanguage": "de-DE",
+    "responseLanguage": "es-US",
+    "questions": [
+      {
+        "word": "Das Haus",
+        "translation": "La casa",
+        "pronunciation": "haus",
+        "options": [
+          "El hombre",
+          "La casa",
+          "La mujer",
+          "El niño"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Der Mann",
+        "translation": "El hombre",
+        "pronunciation": "man",
+        "options": [
+          "El hombre",
+          "El niño",
+          "La casa",
+          "La mujer"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Das Ei",
+        "translation": "El huevo",
+        "pronunciation": "ei",
+        "options": [
+          "La casa",
+          "El auto",
+          "El huevo",
+          "La llave"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Ein Kuchen",
+        "translation": "Un pastel",
+        "pronunciation": "kujen",
+        "options": [
+          "El huevo",
+          "Un pastel",
+          "La llave",
+          "El auto"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Eine Butter",
+        "translation": "Una mantequilla",
+        "pronunciation": "buter",
+        "options": [
+          "Una mantequilla",
+          "La llave",
+          "La casa",
+          "El hombre"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Das Auto",
+        "translation": "El auto",
+        "pronunciation": "auto",
+        "options": [
+          "El auto",
+          "La llave",
+          "La casa",
+          "Un pastel"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Der Schlüssel",
+        "translation": "La llave",
+        "pronunciation": "schlusel",
+        "options": [
+          "La llave",
+          "El auto",
+          "La casa",
+          "El huevo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Die Tür",
+        "translation": "La puerta",
+        "pronunciation": "tiur",
+        "options": [
+          "La puerta",
+          "La casa",
+          "La llave",
+          "El auto"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Der Unterricht",
+        "translation": "La clase",
+        "pronunciation": "unterrijt",
+        "options": [
+          "La llave",
+          "La clase",
+          "El auto",
+          "El hombre"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Das Kind",
+        "translation": "El niño/la niña",
+        "pronunciation": "ind",
+        "options": [
+          "La casa",
+          "El niño/la niña",
+          "La llave",
+          "El huevo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Die Lampe",
+        "translation": "La lámpara",
+        "pronunciation": "lampe",
+        "options": [
+          "La llave",
+          "La lámpara",
+          "La casa",
+          "El auto"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Das Handtuch",
+        "translation": "La toalla",
+        "pronunciation": "handtuj",
+        "options": [
+          "La toalla",
+          "La casa",
+          "La llave",
+          "El auto"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Das Bett",
+        "translation": "La cama",
+        "pronunciation": "bett",
+        "options": [
+          "La cama",
+          "La llave",
+          "El auto",
+          "La casa"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Der Teppich",
+        "translation": "La alfombra",
+        "pronunciation": "tepij",
+        "options": [
+          "La casa",
+          "La llave",
+          "La alfombra",
+          "El auto"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Der Koffer",
+        "translation": "La maleta",
+        "pronunciation": "kofer",
+        "options": [
+          "La llave",
+          "La maleta",
+          "La casa",
+          "El auto"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Die Tasche",
+        "translation": "La bolsa",
+        "pronunciation": "tashe",
+        "options": [
+          "La llave",
+          "La casa",
+          "La bolsa",
+          "El auto"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Ein Mann",
+        "translation": "Un hombre",
+        "pronunciation": "ain man",
+        "options": [
+          "Un hombre",
+          "Una mujer",
+          "Un niño",
+          "Una casa"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Eine Frau",
+        "translation": "Una mujer",
+        "pronunciation": "aine frau",
+        "options": [
+          "Un hombre",
+          "Un niño",
+          "Una mujer",
+          "Una casa"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Der Stuhl",
+        "translation": "La silla",
+        "pronunciation": "shtul",
+        "options": [
+          "La silla",
+          "La mesa",
+          "La llave",
+          "El auto"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ich habe",
+        "translation": "Yo tengo",
+        "pronunciation": "ij habe",
+        "options": [
+          "Yo tengo",
+          "Tú tienes",
+          "Él tiene",
+          "Nosotros tenemos"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Du hast",
+        "translation": "Tú tienes",
+        "pronunciation": "du hast",
+        "options": [
+          "Yo tengo",
+          "Tú tienes",
+          "Él tiene",
+          "Nosotros tenemos"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Er hat",
+        "translation": "Él tiene",
+        "pronunciation": "er hat",
+        "options": [
+          "Yo tengo",
+          "Tú tienes",
+          "Él tiene",
+          "Nosotros tenemos"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Wir haben",
+        "translation": "Nosotros tenemos",
+        "pronunciation": "vir haben",
+        "options": [
+          "Yo tengo",
+          "Tú tienes",
+          "Él tiene",
+          "Nosotros tenemos"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Ihr habt",
+        "translation": "Vosotros tenéis",
+        "pronunciation": "ir habt",
+        "options": [
+          "Ellos tienen",
+          "Vosotros tenéis",
+          "Nosotros tenemos",
+          "Yo tengo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Sie haben",
+        "translation": "Ellos tienen",
+        "pronunciation": "zi haben",
+        "options": [
+          "Yo tengo",
+          "Tú tienes",
+          "Él tiene",
+          "Ellos tienen"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Heute ist Sonntag",
+        "translation": "Hoy es domingo",
+        "pronunciation": "hoite ist zontag",
+        "options": [
+          "Hoy es lunes",
+          "Hoy es domingo",
+          "Hoy es sábado",
+          "Hoy es martes"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Ich bin",
+        "translation": "Yo soy",
+        "pronunciation": "ij bin",
+        "options": [
+          "Yo soy",
+          "Tú eres",
+          "Él es",
+          "Nosotros somos"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Du bist",
+        "translation": "Tú eres",
+        "pronunciation": "du bist",
+        "options": [
+          "Yo soy",
+          "Tú eres",
+          "Él es",
+          "Nosotros somos"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Er ist",
+        "translation": "Él es",
+        "pronunciation": "er ist",
+        "options": [
+          "Yo soy",
+          "Tú eres",
+          "Él es",
+          "Nosotros somos"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Wir sind",
+        "translation": "Nosotros somos",
+        "pronunciation": "vir zind",
+        "options": [
+          "Yo soy",
+          "Tú eres",
+          "Él es",
+          "Nosotros somos"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Ihr seid",
+        "translation": "Vosotros sois",
+        "pronunciation": "ir said",
+        "options": [
+          "Ellos son",
+          "Vosotros sois",
+          "Nosotros somos",
+          "Yo soy"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Sie sind",
+        "translation": "Ellos son",
+        "pronunciation": "zi zind",
+        "options": [
+          "Yo soy",
+          "Tú eres",
+          "Él es",
+          "Ellos son"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Dreiundsiebzig",
+        "translation": "Setenta y tres",
+        "pronunciation": "draiundzibtsij",
+        "options": [
+          "Sesenta y tres",
+          "Setenta y tres",
+          "Ochenta y tres",
+          "Cincuenta y tres"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Achtzig",
+        "translation": "Ochenta",
+        "pronunciation": "ajtzig",
+        "options": [
+          "Ochenta",
+          "Setenta",
+          "Noventa",
+          "Cincuenta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Vierundfünfzig",
+        "translation": "Cincuenta y cuatro",
+        "pronunciation": "fiarundfunfzig",
+        "options": [
+          "Cincuenta y cuatro",
+          "Sesenta y cuatro",
+          "Cuarenta y cuatro",
+          "Setenta y cuatro"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Zwanzig",
+        "translation": "Veinte",
+        "pronunciation": "tsvantsig",
+        "options": [
+          "Diez",
+          "Cincuenta",
+          "Veinte",
+          "Treinta"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Achtundsiebzig",
+        "translation": "Setenta y ocho",
+        "pronunciation": "ajtundzibtsij",
+        "options": [
+          "Ochenta y ocho",
+          "Sesenta y ocho",
+          "Setenta y ocho",
+          "Cincuenta y ocho"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Elf",
+        "translation": "Once",
+        "pronunciation": "elf",
+        "options": [
+          "Once",
+          "Doce",
+          "Catorce",
+          "Trece"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Fünfzig",
+        "translation": "Cincuenta",
+        "pronunciation": "funfzig",
+        "options": [
+          "Cincuenta",
+          "Sesenta",
+          "Cuarenta",
+          "Setenta"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Siebzehn",
+        "translation": "Diecisiete",
+        "pronunciation": "zibtsehn",
+        "options": [
+          "Diecisiete",
+          "Dieciséis",
+          "Dieciocho",
+          "Diecinueve"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Achtundzwanzig",
+        "translation": "Veintiocho",
+        "pronunciation": "ajtundtsvantsig",
+        "options": [
+          "Veintiséis",
+          "Veintisiete",
+          "Veintiocho",
+          "Veintinueve"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Hundert",
+        "translation": "Cien",
+        "pronunciation": "jundert",
+        "options": [
+          "Cien",
+          "Mil",
+          "Cincuenta",
+          "Doscientos"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Zweihundertundeins",
+        "translation": "Doscientos uno",
+        "pronunciation": "tsvaijundertundeins",
+        "options": [
+          "Trescientos uno",
+          "Doscientos uno",
+          "Cien uno",
+          "Ciento uno"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Dreihundertvierundzwanzig",
+        "translation": "Trescientos veinticuatro",
+        "pronunciation": "drai-jundert-fiarundtsvantsig",
+        "options": [
+          "Doscientos veinticuatro",
+          "Cincuenta y cuatro",
+          "Trescientos veinticuatro",
+          "Seiscientos veinticuatro"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Einshundertzweiundzwanzig",
+        "translation": "Ciento veintidós",
+        "pronunciation": "ains-jundert-tsvaiundtsvantsig",
+        "options": [
+          "Ciento veintidós",
+          "Trescientos veintidós",
+          "Doscientos veintidós",
+          "Cincuenta y dos"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Fünfhundertvierzig",
+        "translation": "Quinientos cuarenta",
+        "pronunciation": "funf-jundert-fiarzig",
+        "options": [
+          "Cuarenta",
+          "Cincuenta",
+          "Quinientos cuarenta",
+          "Seiscientos cuarenta"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Sechshundertsiebenundneunzig",
+        "translation": "Seiscientos noventa y siete",
+        "pronunciation": "zejs-jundert-zibundnointsig",
+        "options": [
+          "Seiscientos ochenta y siete",
+          "Setecientos ochenta y siete",
+          "Quinientos noventa y siete",
+          "Seiscientos noventa y siete"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Eintausend",
+        "translation": "Mil",
+        "pronunciation": "aintausend",
+        "options": [
+          "Mil",
+          "Doscientos",
+          "Cincuenta",
+          "Diez mil"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
+  

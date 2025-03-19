@@ -1,0 +1,1781 @@
+{
+  "questionLanguage": "fr-FR",
+  "responseLanguage": "es-US",
+  "questions": [
+    {
+      "word": "L'ordinateur",
+      "translation": "El computador",
+      "pronunciation": "l'ordinateur",
+      "options": ["La diferencia", "El computador", "Las mochilas", "Hablar"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "La maison",
+      "translation": "La casa",
+      "pronunciation": "la maison",
+      "options": [
+        "Hablar",
+        "La casa",
+        "A John no le interesa la política. Le interesa la música.",
+        "El tren"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le sac",
+      "translation": "La bolsa",
+      "pronunciation": "le sac",
+      "options": ["La belleza", "Recibir", "Los amigos", "La bolsa"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Un ordinateur",
+      "translation": "Un computador",
+      "pronunciation": "un ordinateur",
+      "options": ["Permitir", "Toser", "El gato", "Un computador"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Une maison",
+      "translation": "Una casa",
+      "pronunciation": "une maison",
+      "options": [
+        "Gracias. Eso es muy amable de tu parte.",
+        "Una casa",
+        "Un pastel",
+        "Aquí está = aquí está"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Un sac",
+      "translation": "Una bolsa",
+      "pronunciation": "un sac",
+      "options": ["Policía", "La belleza", "Una bolsa", "La realidad"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Aucun ordinateur",
+      "translation": "Ningún computador",
+      "pronunciation": "aucun ordinateur",
+      "options": [
+        "Ningún computador",
+        "El cabello",
+        "Un videograbador",
+        "Una cámara de video"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Aucune maison",
+      "translation": "Ninguna casa",
+      "pronunciation": "aucune maison",
+      "options": ["La mujer", "Escribir", "Ninguna casa", "Un cuchillo"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Aucun sac",
+      "translation": "Ninguna bolsa",
+      "pronunciation": "aucun sac",
+      "options": ["Corregir", "Ninguna bolsa", "Viajar", "Entender"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "C'est un ordinateur.",
+      "translation": "Eso es un computador.",
+      "pronunciation": "c'est un ordinateur.",
+      "options": [
+        "Un disquete",
+        "Eso es un computador.",
+        "El castillo",
+        "Deber"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ce n'est pas un ordinateur, c'est un moniteur.",
+      "translation": "Eso no es un computador, es un monitor.",
+      "pronunciation": "ce n'est pas un ordinateur, c'est un moniteur.",
+      "options": [
+        "Periodista",
+        "El tren",
+        "Ventana",
+        "Eso no es un computador, es un monitor."
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les ordinateurs",
+      "translation": "Los computadores",
+      "pronunciation": "les ordinateurs",
+      "options": ["Las rodillas", "Los computadores", "Recibir", "El coche"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les maisons",
+      "translation": "Las casas",
+      "pronunciation": "les maisons",
+      "options": ["Las casas", "Una solución", "Las rodillas", "Hablar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Les sacs",
+      "translation": "Las bolsas",
+      "pronunciation": "les sacs",
+      "options": [
+        "Las bolsas",
+        "Frío",
+        "Una cámara de video",
+        "Mi hermano es muy alto. Es policía."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Aucun ordinateur",
+      "translation": "Ningunos computadores",
+      "pronunciation": "aucun ordinateur",
+      "options": [
+        "Ningunos computadores",
+        "Ningunas bolsas",
+        "Bailar",
+        "Cumplir"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Aucune maison",
+      "translation": "Ningunas casas",
+      "pronunciation": "aucune maison",
+      "options": ["Ningunas casas", "Una solución", "Ninguna casa", "El pie"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Aucun sac",
+      "translation": "Ningunas bolsas",
+      "pronunciation": "aucun sac",
+      "options": [
+        "Las bolsas",
+        "Ningunas bolsas",
+        "Las casas",
+        "Eso es = eso es"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le livre",
+      "translation": "El libro",
+      "pronunciation": "le livre",
+      "options": ["El libro", "Comprar", "Entender", "Doctor"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "La femme",
+      "translation": "La mujer",
+      "pronunciation": "la femme",
+      "options": ["La mujer", "Un medicamento", "Estudiar", "La región"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "La voiture",
+      "translation": "El coche",
+      "pronunciation": "la voiture",
+      "options": ["El cuello", "Los castillos", "El coche", "Hablar"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Un gâteau",
+      "translation": "Un pastel",
+      "pronunciation": "un gâteau",
+      "options": [
+        "Un pastel",
+        "Mi hermano es muy alto. Es policía.",
+        "Ningún computador",
+        "La alfombra"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "L'homme",
+      "translation": "El hombre",
+      "pronunciation": "l'homme",
+      "options": [
+        "Gustar",
+        "Ventana",
+        "Hoy hace sol, pero no hace calor.",
+        "El hombre"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les hommes",
+      "translation": "Los hombres",
+      "pronunciation": "les hommes",
+      "options": ["La región", "La nariz", "Los hombres", "Los cabellos"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les femmes",
+      "translation": "Las mujeres",
+      "pronunciation": "les femmes",
+      "options": [
+        "El interés (tasa)",
+        "Las mujeres",
+        "Tus llaves están en la mesa.",
+        "Una cámara de video"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "La voiture",
+      "translation": "El coche",
+      "pronunciation": "la voiture",
+      "options": ["Mantener", "La región", "El coche", "La bolsa"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les voitures",
+      "translation": "Los coches",
+      "pronunciation": "les voitures",
+      "options": [
+        "¡Mira! Ahí está Chris.",
+        "Un intercomunicador",
+        "Los coches",
+        "Saltar"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Le tapis",
+      "translation": "La alfombra",
+      "pronunciation": "le tapis",
+      "options": [
+        "Una cámara de video",
+        "Una bolsa",
+        "La alfombra",
+        "Gracias. Eso es muy amable de tu parte."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les tapis",
+      "translation": "Las alfombras",
+      "pronunciation": "les tapis",
+      "options": [
+        "Un queso",
+        "Las alfombras",
+        "La mochila",
+        "Estoy cansado, pero no tengo hambre."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le château",
+      "translation": "El castillo",
+      "pronunciation": "le château",
+      "options": ["El niño", "Las casas", "El castillo", "Los castillos"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les châteaux",
+      "translation": "Los castillos",
+      "pronunciation": "les châteaux",
+      "options": [
+        "Los intereses",
+        "Los castillos",
+        "Aquí está = aquí está",
+        "El pie"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les cheveux",
+      "translation": "El cabello",
+      "pronunciation": "les cheveux",
+      "options": [
+        "Eso es un computador.",
+        "El cabello",
+        "La expresión",
+        "La pierna"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les cheveux",
+      "translation": "Los cabellos",
+      "pronunciation": "les cheveux",
+      "options": ["Los cabellos", "Un disquete", "La realidad", "Adquirir"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Le journal",
+      "translation": "El periódico",
+      "pronunciation": "le journal",
+      "options": ["Los hombres", "La pierna", "El tren", "El periódico"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les journaux",
+      "translation": "Los periódicos",
+      "pronunciation": "les journaux",
+      "options": ["La realidad", "La diferencia", "Llamar", "Los periódicos"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Le travail",
+      "translation": "El trabajo",
+      "pronunciation": "le travail",
+      "options": [
+        "Los castillos",
+        "El trabajo",
+        "Corregir",
+        "Eso es un computador."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les travaux",
+      "translation": "Los trabajos",
+      "pronunciation": "les travaux",
+      "options": ["Viajar", "Ninguna bolsa", "Llave", "Los trabajos"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Le genou",
+      "translation": "La rodilla",
+      "pronunciation": "le genou",
+      "options": ["Mantener", "Llamar", "La rodilla", "Eso es = eso es"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les genoux",
+      "translation": "Las rodillas",
+      "pronunciation": "les genoux",
+      "options": ["Las rodillas", "Las bolsas", "Una aspiradora", "El gato"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Un vélo",
+      "translation": "Una bicicleta",
+      "pronunciation": "un vélo",
+      "options": [
+        "Un medicamento",
+        "La niña",
+        "Una bicicleta",
+        "¡Mira! Ahí está Chris."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Une disquette",
+      "translation": "Un disquete",
+      "pronunciation": "une disquette",
+      "options": ["Un disquete", "Los trenes", "El niño", "La mujer"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "La connaissance",
+      "translation": "El conocimiento",
+      "pronunciation": "la connaissance",
+      "options": [
+        "El interés (tasa)",
+        "Las narices",
+        "El conocimiento",
+        "Mi hermano es muy alto. Es policía."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "La différence",
+      "translation": "La diferencia",
+      "pronunciation": "la différence",
+      "options": [
+        "Tus llaves están en la mesa.",
+        "Toser",
+        "La diferencia",
+        "Aprender"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Le taux d'intérêt",
+      "translation": "El interés (tasa)",
+      "pronunciation": "le taux d'intérêt",
+      "options": [
+        "Hoy hace sol, pero no hace calor.",
+        "El interés (tasa)",
+        "La diferencia",
+        "Una bolsa"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les taux d'intérêt",
+      "translation": "Los intereses",
+      "pronunciation": "les taux d'intérêt",
+      "options": [
+        "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+        "La región",
+        "Una oficina",
+        "Los intereses"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Le nez",
+      "translation": "La nariz",
+      "pronunciation": "le nez",
+      "options": ["Un videograbador", "La nariz", "Llave", "Un disquete"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les nez",
+      "translation": "Las narices",
+      "pronunciation": "les nez",
+      "options": ["Dividir", "Las narices", "No", "Una bolsa"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le château",
+      "translation": "El castillo",
+      "pronunciation": "le château",
+      "options": ["Los castillos", "El castillo", "Las bolsas", "Trabajar"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les châteaux",
+      "translation": "Los castillos",
+      "pronunciation": "les châteaux",
+      "options": ["El trabajo", "Los castillos", "El doctor", "Volar"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les cheveux",
+      "translation": "El cabello",
+      "pronunciation": "les cheveux",
+      "options": [
+        "Frío",
+        "Mi hermano es muy alto. Es policía.",
+        "Dividir",
+        "El cabello"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les cheveux",
+      "translation": "Los cabellos",
+      "pronunciation": "les cheveux",
+      "options": ["Los cabellos", "Deber", "Beber", "Doctor"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Le journal",
+      "translation": "El periódico",
+      "pronunciation": "le journal",
+      "options": [
+        "Gracias. Eso es muy amable de tu parte.",
+        "Recibir",
+        "El periódico",
+        "Una televisión"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les journaux",
+      "translation": "Los periódicos",
+      "pronunciation": "les journaux",
+      "options": [
+        "Mi hermano es muy alto. Es policía.",
+        "La gata",
+        "Kate y yo somos buenos amigos.",
+        "Los periódicos"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Le travail",
+      "translation": "El trabajo",
+      "pronunciation": "le travail",
+      "options": ["Las alfombras", "La amiga", "Nadar", "El trabajo"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les travaux",
+      "translation": "Los trabajos",
+      "pronunciation": "les travaux",
+      "options": ["Los trabajos", "Los hombres", "El gato", "La diferencia"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Un gouvernement",
+      "translation": "Un gobierno",
+      "pronunciation": "un gouvernement",
+      "options": [
+        "¡Mira! Ahí está Chris.",
+        "Ningunos computadores",
+        "Olvidar",
+        "Un gobierno"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Un médicament",
+      "translation": "Un medicamento",
+      "pronunciation": "un médicament",
+      "options": [
+        "Un medicamento",
+        "Los cabellos",
+        "Tengo 31 años. Mi hermana tiene 27.",
+        "Estudiar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Un téléphone",
+      "translation": "Un teléfono",
+      "pronunciation": "un téléphone",
+      "options": [
+        "Las mochilas",
+        "Adquirir",
+        "Un teléfono",
+        "Esa gente no es inglesa. Son japoneses."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Un interphone",
+      "translation": "Un intercomunicador",
+      "pronunciation": "un interphone",
+      "options": [
+        "Un intercomunicador",
+        "Los castillos",
+        "La bolsa",
+        "Corregir"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Un magnétoscope",
+      "translation": "Un videograbador",
+      "pronunciation": "un magnétoscope",
+      "options": ["Olvidar", "Llorar", "El pie", "Un videograbador"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Une caméra vidéo",
+      "translation": "Una cámara de video",
+      "pronunciation": "une caméra vidéo",
+      "options": ["La niña", "Una cámara de video", "El pecho", "Amar"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Un bureau",
+      "translation": "Una oficina",
+      "pronunciation": "un bureau",
+      "options": ["Una oficina", "Ningunas casas", "Hablar", "Una televisión"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Un couteau",
+      "translation": "Un cuchillo",
+      "pronunciation": "un couteau",
+      "options": ["Un cuchillo", "Escribir", "Ventana", "Soy/Estoy"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Un aspirateur",
+      "translation": "Una aspiradora",
+      "pronunciation": "un aspirateur",
+      "options": ["Un gobierno", "La bolsa", "Una aspiradora", "Un computador"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Un fromage",
+      "translation": "Un queso",
+      "pronunciation": "un fromage",
+      "options": [
+        "Esa gente no es inglesa. Son japoneses.",
+        "Ninguna bolsa",
+        "Un queso",
+        "Una solución"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Une solution",
+      "translation": "Una solución",
+      "pronunciation": "une solution",
+      "options": [
+        "Mantener",
+        "A John no le interesa la política. Le interesa la música.",
+        "Ocurrir",
+        "Una solución"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Une décision",
+      "translation": "Una decisión",
+      "pronunciation": "une décision",
+      "options": [
+        "Esa gente no es inglesa. Son japoneses.",
+        "La sociedad",
+        "El coche",
+        "Una decisión"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Une télévision",
+      "translation": "Una televisión",
+      "pronunciation": "une télévision",
+      "options": [
+        "Una solución",
+        "Una televisión",
+        "Tus llaves están en la mesa.",
+        "Volar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "La réalité",
+      "translation": "La realidad",
+      "pronunciation": "la réalité",
+      "options": [
+        "La realidad",
+        "Los coches",
+        "Ningunas casas",
+        "Un videograbador"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "La société",
+      "translation": "La sociedad",
+      "pronunciation": "la société",
+      "options": ["Frío", "Los computadores", "Cumplir", "La sociedad"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "La beauté",
+      "translation": "La belleza",
+      "pronunciation": "la beauté",
+      "options": ["Ocurrir", "Las mujeres", "Una decisión", "La belleza"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Le taux d'intérêt",
+      "translation": "El interés (tasa)",
+      "pronunciation": "le taux d'intérêt",
+      "options": [
+        "Una cámara de video",
+        "Las narices",
+        "El interés (tasa)",
+        "El cuello"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les taux d'intérêt",
+      "translation": "Los intereses",
+      "pronunciation": "les taux d'intérêt",
+      "options": [
+        "Fingir",
+        "Jane no está en casa ahora. Está en el trabajo.",
+        "Los intereses",
+        "La gata"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Le nez",
+      "translation": "La nariz",
+      "pronunciation": "le nez",
+      "options": ["El interés (tasa)", "Llave", "Doctor", "La nariz"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les nez",
+      "translation": "Las narices",
+      "pronunciation": "les nez",
+      "options": [
+        "Los trenes",
+        "Las narices",
+        "El conocimiento",
+        "Hoy hace sol, pero no hace calor."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "L'homme",
+      "translation": "El hombre",
+      "pronunciation": "l'homme",
+      "options": ["Fingir", "Quedarse", "El hombre", "La sociedad"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les hommes",
+      "translation": "Los hombres",
+      "pronunciation": "les hommes",
+      "options": [
+        "Jane no está en casa ahora. Está en el trabajo.",
+        "Los hombres",
+        "Llave",
+        "Vestir"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "La femme",
+      "translation": "La mujer",
+      "pronunciation": "la femme",
+      "options": ["Ninguna casa", "La mujer", "Volar", "Bailar"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les femmes",
+      "translation": "Las mujeres",
+      "pronunciation": "les femmes",
+      "options": [
+        "Las mochilas",
+        "Gracias. Eso es muy amable de tu parte.",
+        "Las mujeres",
+        "Cumplir"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "La voiture",
+      "translation": "El coche",
+      "pronunciation": "la voiture",
+      "options": [
+        "El coche",
+        "El niño",
+        "Un videograbador",
+        "Eso es un computador."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Les voitures",
+      "translation": "Los coches",
+      "pronunciation": "les voitures",
+      "options": ["Los coches", "Poseer", "El cabello", "Recibir"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Le tapis",
+      "translation": "La alfombra",
+      "pronunciation": "le tapis",
+      "options": ["La alfombra", "El dedo (del pie)", "Caminar", "Correr"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Les tapis",
+      "translation": "Las alfombras",
+      "pronunciation": "les tapis",
+      "options": ["Volar", "El computador", "Las alfombras", "La cabeza"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Le château",
+      "translation": "El castillo",
+      "pronunciation": "le château",
+      "options": ["Ocurrir", "Trabajar", "Volar", "El castillo"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les châteaux",
+      "translation": "Los castillos",
+      "pronunciation": "les châteaux",
+      "options": [
+        "El dedo (del pie)",
+        "Un intercomunicador",
+        "Los castillos",
+        "Eso no es un computador, es un monitor."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les cheveux",
+      "translation": "El cabello",
+      "pronunciation": "les cheveux",
+      "options": [
+        "Mi hermano es muy alto. Es policía.",
+        "Una oficina",
+        "Ningunos computadores",
+        "El cabello"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les cheveux",
+      "translation": "Los cabellos",
+      "pronunciation": "les cheveux",
+      "options": [
+        "Los periódicos",
+        "Mike tiene miedo de los perros.",
+        "Los cabellos",
+        "Los computadores"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Le journal",
+      "translation": "El periódico",
+      "pronunciation": "le journal",
+      "options": ["La bolsa", "El periódico", "La expresión", "Vivir"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les journaux",
+      "translation": "Los periódicos",
+      "pronunciation": "les journaux",
+      "options": [
+        "Esa gente no es inglesa. Son japoneses.",
+        "La niña",
+        "Un cuchillo",
+        "Los periódicos"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Le travail",
+      "translation": "El trabajo",
+      "pronunciation": "le travail",
+      "options": ["Somos/Están", "Aprender", "El trabajo", "El castillo"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les travaux",
+      "translation": "Los trabajos",
+      "pronunciation": "les travaux",
+      "options": [
+        "Los hombres",
+        "Los trabajos",
+        "Gracias. Eso es muy amable de tu parte.",
+        "Recibir"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le genou",
+      "translation": "La rodilla",
+      "pronunciation": "le genou",
+      "options": ["La mujer", "La rodilla", "Las mochilas", "Las mujeres"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les genoux",
+      "translation": "Las rodillas",
+      "pronunciation": "les genoux",
+      "options": ["Los amigos", "La diferencia", "El vientre", "Las rodillas"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Un vélo",
+      "translation": "Una bicicleta",
+      "pronunciation": "un vélo",
+      "options": ["Hablar", "La diferencia", "Una bicicleta", "El cuello"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Une disquette",
+      "translation": "Un disquete",
+      "pronunciation": "une disquette",
+      "options": ["La realidad", "Mentir", "Las bolsas", "Un disquete"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "La connaissance",
+      "translation": "El conocimiento",
+      "pronunciation": "la connaissance",
+      "options": [
+        "El gato",
+        "Una decisión",
+        "El conocimiento",
+        "Aquí está = aquí está"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "La différence",
+      "translation": "La diferencia",
+      "pronunciation": "la différence",
+      "options": ["Policía", "La diferencia", "Las amigas", "El castillo"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Un magnétoscope",
+      "translation": "Un videograbador",
+      "pronunciation": "un magnétoscope",
+      "options": [
+        "La región",
+        "La diferencia",
+        "Un videograbador",
+        "Tengo 31 años. Mi hermana tiene 27."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Une caméra vidéo",
+      "translation": "Una cámara de video",
+      "pronunciation": "une caméra vidéo",
+      "options": ["Poseer", "La gata", "Una cámara de video", "Aprender"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Un aspirateur",
+      "translation": "Una aspiradora",
+      "pronunciation": "un aspirateur",
+      "options": ["Recibir", "Hablar", "Una aspiradora", "Las rodillas"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "L'enfant",
+      "translation": "El niño",
+      "pronunciation": "l'enfant",
+      "options": ["Toser", "El niño", "La belleza", "El amigo"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le chat",
+      "translation": "El gato",
+      "pronunciation": "le chat",
+      "options": ["Los intereses", "Un teléfono", "El gato", "Un gobierno"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Le docteur",
+      "translation": "El doctor",
+      "pronunciation": "le docteur",
+      "options": ["La mujer", "Ventana", "El doctor", "Eso es un computador."],
+      "correctAnswer": 3
+    },
+    {
+      "word": "La petite fille",
+      "translation": "La niña",
+      "pronunciation": "la petite fille",
+      "options": ["Un gobierno", "La niña", "Comer", "No"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "La chatte",
+      "translation": "La gata",
+      "pronunciation": "la chatte",
+      "options": ["Ningunas bolsas", "Caminar", "La gata", "Las amigas"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "La région",
+      "translation": "La región",
+      "pronunciation": "la région",
+      "options": ["El cabello", "Vivir", "La región", "La diferencia"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "L'expression",
+      "translation": "La expresión",
+      "pronunciation": "l'expression",
+      "options": [
+        "Ninguna casa",
+        "La expresión",
+        "Una aspiradora",
+        "Un teléfono"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le train",
+      "translation": "El tren",
+      "pronunciation": "le train",
+      "options": ["Comer", "Beber", "Las bolsas", "El tren"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les trains",
+      "translation": "Los trenes",
+      "pronunciation": "les trains",
+      "options": [
+        "Jane no está en casa ahora. Está en el trabajo.",
+        "Hay = ahí está",
+        "Los trenes",
+        "La gata"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "L'ami",
+      "translation": "El amigo",
+      "pronunciation": "l'ami",
+      "options": ["Ningunas casas", "El amigo", "Las bolsas", "Quedarse"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les amis",
+      "translation": "Los amigos",
+      "pronunciation": "les amis",
+      "options": ["Los amigos", "Olvidar", "Volar", "Aprender"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Le sac à dos",
+      "translation": "La mochila",
+      "pronunciation": "le sac à dos",
+      "options": ["Entender", "Saltar", "La mochila", "El pecho"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Les sacs à dos",
+      "translation": "Las mochilas",
+      "pronunciation": "les sacs à dos",
+      "options": [
+        "Hay = ahí está",
+        "Las mochilas",
+        "Son las nueve. Estás tarde otra vez.",
+        "Mike tiene miedo de los perros."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "La voiture",
+      "translation": "El coche",
+      "pronunciation": "la voiture",
+      "options": ["Ninguna bolsa", "El coche", "Hay = ahí está", "El cuello"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Les voitures",
+      "translation": "Los coches",
+      "pronunciation": "les voitures",
+      "options": ["Un intercomunicador", "Un teléfono", "Amar", "Los coches"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "L'amie",
+      "translation": "La amiga",
+      "pronunciation": "l'amie",
+      "options": ["Una bolsa", "El coche", "La sociedad", "La amiga"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Les amies",
+      "translation": "Las amigas",
+      "pronunciation": "les amies",
+      "options": [
+        "\"Aquí está tu llave\" \"Gracias\".",
+        "Las amigas",
+        "Gustar",
+        "Olvidar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Parler",
+      "translation": "Hablar",
+      "pronunciation": "parler",
+      "options": [
+        "Las narices",
+        "Hablar",
+        "Mike tiene miedo de los perros.",
+        "Las mujeres"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Aimer",
+      "translation": "Amar",
+      "pronunciation": "aimer",
+      "options": ["Una casa", "Llamar", "Escribir", "Amar"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Étudier",
+      "translation": "Estudiar",
+      "pronunciation": "étudier",
+      "options": ["Las narices", "Soy/Estoy", "Comprar", "Estudiar"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Aimer",
+      "translation": "Gustar",
+      "pronunciation": "aimer",
+      "options": [
+        "Tus llaves están en la mesa.",
+        "Gustar",
+        "Jane no está en casa ahora. Está en el trabajo.",
+        "Las narices"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Danser",
+      "translation": "Bailar",
+      "pronunciation": "danser",
+      "options": ["Una decisión", "Bailar", "El gato", "Periodista"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Appeler",
+      "translation": "Llamar",
+      "pronunciation": "appeler",
+      "options": ["Llamar", "Los computadores", "La sociedad", "El hombre"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Voler",
+      "translation": "Volar",
+      "pronunciation": "voler",
+      "options": [
+        "\"Aquí está tu llave\" \"Gracias\".",
+        "La pierna",
+        "Fingir",
+        "Volar"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Rester",
+      "translation": "Quedarse",
+      "pronunciation": "rester",
+      "options": ["Un videograbador", "Quedarse", "Llamar", "Una decisión"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Voyager",
+      "translation": "Viajar",
+      "pronunciation": "voyager",
+      "options": ["Viajar", "La gata", "Toser", "Una decisión"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Sauter",
+      "translation": "Saltar",
+      "pronunciation": "sauter",
+      "options": [
+        "Kate y yo somos buenos amigos.",
+        "Saltar",
+        "Un disquete",
+        "Ningunas casas"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Travailler",
+      "translation": "Trabajar",
+      "pronunciation": "travailler",
+      "options": ["Un computador", "Trabajar", "Las mujeres", "Un disquete"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Acheter",
+      "translation": "Comprar",
+      "pronunciation": "acheter",
+      "options": [
+        "La expresión",
+        "La realidad",
+        "El interés (tasa)",
+        "Comprar"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Pleurer",
+      "translation": "Llorar",
+      "pronunciation": "pleurer",
+      "options": ["El periódico", "Escribir", "Las mujeres", "Llorar"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Nager",
+      "translation": "Nadar",
+      "pronunciation": "nager",
+      "options": ["Un computador", "Beber", "Aprender", "Nadar"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Marcher",
+      "translation": "Caminar",
+      "pronunciation": "marcher",
+      "options": [
+        "Caminar",
+        "Somos/Están",
+        "Periodista",
+        "Ningunos computadores"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Vivre",
+      "translation": "Vivir",
+      "pronunciation": "vivre",
+      "options": ["Un cuchillo", "Vivir", "El conocimiento", "Una bolsa"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Manger",
+      "translation": "Comer",
+      "pronunciation": "manger",
+      "options": [
+        "Ningunas bolsas",
+        "Comer",
+        "Mike tiene miedo de los perros.",
+        "Trabajar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Boire",
+      "translation": "Beber",
+      "pronunciation": "boire",
+      "options": [
+        "Un videograbador",
+        "Mi hermano es muy alto. Es policía.",
+        "Beber",
+        "Quedarse"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Vendre",
+      "translation": "Vender",
+      "pronunciation": "vendre",
+      "options": [
+        "A John no le interesa la política. Le interesa la música.",
+        "Gustar",
+        "Vender",
+        "¡Mira! Ahí está Chris."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Courir",
+      "translation": "Correr",
+      "pronunciation": "courir",
+      "options": ["Correr", "Ocurrir", "Una televisión", "El vientre"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Recevoir",
+      "translation": "Recibir",
+      "pronunciation": "recevoir",
+      "options": ["Una decisión", "Recibir", "Quedarse", "La expresión"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Se produire",
+      "translation": "Ocurrir",
+      "pronunciation": "se produire",
+      "options": [
+        "Aquí está = aquí está",
+        "El computador",
+        "Esa gente no es inglesa. Son japoneses.",
+        "Ocurrir"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Écrire",
+      "translation": "Escribir",
+      "pronunciation": "écrire",
+      "options": ["Adquirir", "Escribir", "Una televisión", "La rodilla"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Maintenir",
+      "translation": "Mantener",
+      "pronunciation": "maintenir",
+      "options": ["Fingir", "La sociedad", "Mantener", "La casa"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Apprendre",
+      "translation": "Aprender",
+      "pronunciation": "apprendre",
+      "options": ["Soy/Estoy", "Olvidar", "Escribir", "Aprender"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Vivre",
+      "translation": "Vivir",
+      "pronunciation": "vivre",
+      "options": ["Una solución", "Vivir", "Llorar", "Las narices"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Devoir",
+      "translation": "Deber",
+      "pronunciation": "devoir",
+      "options": [
+        "Deber",
+        "Tus llaves están en la mesa.",
+        "Volar",
+        "Un gobierno"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Oublier",
+      "translation": "Olvidar",
+      "pronunciation": "oublier",
+      "options": ["Los trabajos", "El vientre", "Olvidar", "Deber"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Comprendre",
+      "translation": "Entender",
+      "pronunciation": "comprendre",
+      "options": [
+        "Entender",
+        "El pecho",
+        "Hay = ahí está",
+        "Son las nueve. Estás tarde otra vez."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Partir",
+      "translation": "Partir",
+      "pronunciation": "partir",
+      "options": ["Volar", "El cabello", "Partir", "La belleza"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Corriger",
+      "translation": "Corregir",
+      "pronunciation": "corriger",
+      "options": ["Poseer", "Corregir", "El periódico", "Ninguna casa"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Intervenir",
+      "translation": "Intervenir",
+      "pronunciation": "intervenir",
+      "options": ["El gato", "La belleza", "El cuello", "Intervenir"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Accomplir",
+      "translation": "Cumplir",
+      "pronunciation": "accomplir",
+      "options": ["Los computadores", "Cumplir", "Ninguna casa", "Comer"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Tomber",
+      "translation": "Caer",
+      "pronunciation": "tomber",
+      "options": ["Caer", "La mujer", "Cumplir", "Estudiar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Tousser",
+      "translation": "Toser",
+      "pronunciation": "tousser",
+      "options": [
+        "Mike tiene miedo de los perros.",
+        "Toser",
+        "Llamar",
+        "Adquirir"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Diviser",
+      "translation": "Dividir",
+      "pronunciation": "diviser",
+      "options": ["Dividir", "Ninguna bolsa", "La casa", "Estudiar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Feindre",
+      "translation": "Fingir",
+      "pronunciation": "feindre",
+      "options": [
+        "Fingir",
+        "Correr",
+        "Una aspiradora",
+        "Mike tiene miedo de los perros."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Acquérir",
+      "translation": "Adquirir",
+      "pronunciation": "acquérir",
+      "options": [
+        "Somos/Están",
+        "Estoy cansado, pero no tengo hambre.",
+        "Los coches",
+        "Adquirir"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Mentir",
+      "translation": "Mentir",
+      "pronunciation": "mentir",
+      "options": [
+        "Una casa",
+        "Los hombres",
+        "Tengo 31 años. Mi hermana tiene 27.",
+        "Mentir"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Posséder",
+      "translation": "Poseer",
+      "pronunciation": "posséder",
+      "options": [
+        "Los cabellos",
+        "Los periódicos",
+        "Un intercomunicador",
+        "Poseer"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Vêtir",
+      "translation": "Vestir",
+      "pronunciation": "vêtir",
+      "options": ["Viajar", "Comer", "Vestir", "Ninguna casa"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Permettre",
+      "translation": "Permitir",
+      "pronunciation": "permettre",
+      "options": [
+        "\"Aquí está tu llave\" \"Gracias\".",
+        "Los amigos",
+        "Permitir",
+        "Eso es un computador."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Suis/Suis",
+      "translation": "Soy/Estoy",
+      "pronunciation": "suis/suis",
+      "options": ["Las bolsas", "Soy/Estoy", "Olvidar", "El tren"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Est/Est",
+      "translation": "Es/Está",
+      "pronunciation": "est/est",
+      "options": ["Doctor", "Un gobierno", "Los computadores", "Es/Está"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Sommes/Sont",
+      "translation": "Somos/Están",
+      "pronunciation": "sommes/sont",
+      "options": ["El tren", "Volar", "Somos/Están", "Llorar"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Pas",
+      "translation": "No",
+      "pronunciation": "pas",
+      "options": ["Las mujeres", "¡Mira! Ahí está Chris.", "No", "Ocurrir"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Froid",
+      "translation": "Frío",
+      "pronunciation": "froid",
+      "options": [
+        "Llorar",
+        "Una casa",
+        "Son las nueve. Estás tarde otra vez.",
+        "Frío"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Policier",
+      "translation": "Policía",
+      "pronunciation": "policier",
+      "options": ["Frío", "Policía", "Un cuchillo", "La nariz"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Docteur",
+      "translation": "Doctor",
+      "pronunciation": "docteur",
+      "options": ["Doctor", "El cuello", "Ningún computador", "Correr"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Journaliste",
+      "translation": "Periodista",
+      "pronunciation": "journaliste",
+      "options": [
+        "Estoy cansado, pero no tengo hambre.",
+        "Caer",
+        "Periodista",
+        "Los trabajos"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Clé",
+      "translation": "Llave",
+      "pronunciation": "clé",
+      "options": [
+        "\"Aquí está tu llave\" \"Gracias\".",
+        "El dedo (del pie)",
+        "Llave",
+        "Las narices"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Fenêtre",
+      "translation": "Ventana",
+      "pronunciation": "fenêtre",
+      "options": ["El libro", "Ventana", "Los hombres", "La mujer"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "J'ai froid. Peux-tu fermer la fenêtre, s'il te plaît ?",
+      "translation": "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+      "pronunciation": "j'ai froid. peux-tu fermer la fenêtre, s'il te plaît ?",
+      "options": [
+        "Dividir",
+        "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+        "Esa gente no es inglesa. Son japoneses.",
+        "Mike tiene miedo de los perros."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "J'ai 31 ans. Ma soeur a 27 ans.",
+      "translation": "Tengo 31 años. Mi hermana tiene 27.",
+      "pronunciation": "j'ai 31 ans. ma soeur a 27 ans.",
+      "options": [
+        "Dividir",
+        "Esa gente no es inglesa. Son japoneses.",
+        "Beber",
+        "Tengo 31 años. Mi hermana tiene 27."
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Mon frère est très grand. Il est policier.",
+      "translation": "Mi hermano es muy alto. Es policía.",
+      "pronunciation": "mon frère est très grand. il est policier.",
+      "options": [
+        "Mi hermano es muy alto. Es policía.",
+        "Poseer",
+        "\"Aquí está tu llave\" \"Gracias\".",
+        "Amar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Mike a peur des chiens.",
+      "translation": "Mike tiene miedo de los perros.",
+      "pronunciation": "mike a peur des chiens.",
+      "options": [
+        "Mike tiene miedo de los perros.",
+        "Estudiar",
+        "El vientre",
+        "Beber"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Il est neuf heures. Tu es encore en retard.",
+      "translation": "Son las nueve. Estás tarde otra vez.",
+      "pronunciation": "il est neuf heures. tu es encore en retard.",
+      "options": [
+        "Los periódicos",
+        "Son las nueve. Estás tarde otra vez.",
+        "Eso es un computador.",
+        "El niño"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Kate et moi sommes de bons amis.",
+      "translation": "Kate y yo somos buenos amigos.",
+      "pronunciation": "kate et moi sommes de bons amis.",
+      "options": [
+        "Ningunos computadores",
+        "Kate y yo somos buenos amigos.",
+        "Un intercomunicador",
+        "Los cabellos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Tes clés sont sur la table.",
+      "translation": "Tus llaves están en la mesa.",
+      "pronunciation": "tes clés sont sur la table.",
+      "options": [
+        "El conocimiento",
+        "Una oficina",
+        "Tus llaves están en la mesa.",
+        "Una cámara de video"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Je suis fatigué, mais je n'ai pas faim.",
+      "translation": "Estoy cansado, pero no tengo hambre.",
+      "pronunciation": "je suis fatigué, mais je n'ai pas faim.",
+      "options": [
+        "Amar",
+        "Estoy cansado, pero no tengo hambre.",
+        "Olvidar",
+        "Una televisión"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "John ne s'intéresse pas à la politique. Il s'intéresse à la musique.",
+      "translation": "A John no le interesa la política. Le interesa la música.",
+      "pronunciation": "john ne s'intéresse pas à la politique. il s'intéresse à la musique.",
+      "options": [
+        "A John no le interesa la política. Le interesa la música.",
+        "Las amigas",
+        "Los trabajos",
+        "Aprender"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Jane n'est pas à la maison en ce moment. Elle est au travail.",
+      "translation": "Jane no está en casa ahora. Está en el trabajo.",
+      "pronunciation": "jane n'est pas à la maison en ce moment. elle est au travail.",
+      "options": [
+        "Ninguna bolsa",
+        "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+        "Jane no está en casa ahora. Está en el trabajo.",
+        "Gracias. Eso es muy amable de tu parte."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Ces gens ne sont pas anglais. Ils sont japonais.",
+      "translation": "Esa gente no es inglesa. Son japoneses.",
+      "pronunciation": "ces gens ne sont pas anglais. ils sont japonais.",
+      "options": [
+        "Saltar",
+        "Mi hermano es muy alto. Es policía.",
+        "El interés (tasa)",
+        "Esa gente no es inglesa. Son japoneses."
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Il fait ensoleillé aujourd'hui, mais il ne fait pas chaud.",
+      "translation": "Hoy hace sol, pero no hace calor.",
+      "pronunciation": "il fait ensoleillé aujourd'hui, mais il ne fait pas chaud.",
+      "options": [
+        "Hoy hace sol, pero no hace calor.",
+        "Kate y yo somos buenos amigos.",
+        "Un gobierno",
+        "Las casas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "C'est = c'est",
+      "translation": "Eso es = eso es",
+      "pronunciation": "c'est = c'est",
+      "options": [
+        "Eso es = eso es",
+        "Caer",
+        "Comer",
+        "Mike tiene miedo de los perros."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Il y a = là est",
+      "translation": "Hay = ahí está",
+      "pronunciation": "il y a = là est",
+      "options": ["Hay = ahí está", "Los trabajos", "Cumplir", "La casa"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Voici = voici",
+      "translation": "Aquí está = aquí está",
+      "pronunciation": "voici = voici",
+      "options": ["Vender", "Aquí está = aquí está", "Llave", "Ninguna bolsa"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Merci. C'est très gentil de ta part.",
+      "translation": "Gracias. Eso es muy amable de tu parte.",
+      "pronunciation": "merci. c'est très gentil de ta part.",
+      "options": [
+        "Gracias. Eso es muy amable de tu parte.",
+        "Mentir",
+        "Toser",
+        "Ocurrir"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Regarde ! Là-bas, c'est Chris.",
+      "translation": "¡Mira! Ahí está Chris.",
+      "pronunciation": "regarde ! là-bas, c'est chris.",
+      "options": [
+        "El pecho",
+        "Un videograbador",
+        "¡Mira! Ahí está Chris.",
+        "Tus llaves están en la mesa."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "\"Voici ta clé\" \"Merci\".",
+      "translation": "\"Aquí está tu llave\" \"Gracias\".",
+      "pronunciation": "\"voici ta clé\" \"merci\".",
+      "options": [
+        "\"Aquí está tu llave\" \"Gracias\".",
+        "Tengo 31 años. Mi hermana tiene 27.",
+        "El cuello",
+        "Hablar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "La tête",
+      "translation": "La cabeza",
+      "pronunciation": "la tête",
+      "options": ["Un pastel", "La cabeza", "Correr", "Bailar"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le cou",
+      "translation": "El cuello",
+      "pronunciation": "le cou",
+      "options": ["La diferencia", "Viajar", "El cuello", "Un disquete"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "La poitrine",
+      "translation": "El pecho",
+      "pronunciation": "la poitrine",
+      "options": ["Adquirir", "El pecho", "El periódico", "Somos/Están"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Le ventre",
+      "translation": "El vientre",
+      "pronunciation": "le ventre",
+      "options": [
+        "Mi hermano es muy alto. Es policía.",
+        "Un teléfono",
+        "El vientre",
+        "Vestir"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}

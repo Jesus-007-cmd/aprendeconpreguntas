@@ -1,0 +1,786 @@
+{
+  "responseLanguage": "pt-BR",
+  "questionLanguage": "es-ES",
+  "questions": [
+    {
+      "word": "Vivir",
+      "translation": "morar",
+      "pronunciation": "morar",
+      "options": ["morar", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo vivo",
+      "translation": "eu moro",
+      "pronunciation": "eu moro",
+      "options": ["n\u00f3s estamos", "eu sou", "eu moro", "eles vendem"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "T\u00fa vives",
+      "translation": "tu moras",
+      "pronunciation": "tu moras",
+      "options": ["n\u00f3s estamos", "eles vendem", "tu moras", "eu sou"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Usted vive",
+      "translation": "voc\u00ea mora",
+      "pronunciation": "voc\u00ea mora",
+      "options": [
+        "n\u00f3s estamos",
+        "voc\u00ea mora",
+        "eu sou",
+        "eles vendem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u00c9l/Ella vive",
+      "translation": "ele/ela mora",
+      "pronunciation": "ele/ela mora",
+      "options": ["eles vendem", "eu sou", "n\u00f3s estamos", "ele/ela mora"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Nosotros vivimos",
+      "translation": "n\u00f3s moramos",
+      "pronunciation": "n\u00f3s moramos",
+      "options": [
+        "n\u00f3s estamos",
+        "eu sou",
+        "n\u00f3s moramos",
+        "eles vendem"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Ustedes viven",
+      "translation": "voc\u00eas moram",
+      "pronunciation": "voc\u00eas moram",
+      "options": [
+        "voc\u00eas moram",
+        "n\u00f3s estamos",
+        "eles vendem",
+        "eu sou"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Ellos/Ellas viven",
+      "translation": "eles/elas moram",
+      "pronunciation": "eles/elas moram",
+      "options": [
+        "eu sou",
+        "eles/elas moram",
+        "n\u00f3s estamos",
+        "eles vendem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ser",
+      "translation": "ser",
+      "pronunciation": "ser",
+      "options": ["ser", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo soy",
+      "translation": "eu sou",
+      "pronunciation": "eu sou",
+      "options": ["eu sou", "eles vendem", "n\u00f3s estamos", "eu sou"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "T\u00fa eres",
+      "translation": "tu \u00e9s",
+      "pronunciation": "tu \u00e9s",
+      "options": ["tu \u00e9s", "eu sou", "n\u00f3s estamos", "eles vendem"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Usted es",
+      "translation": "voc\u00ea \u00e9",
+      "pronunciation": "voc\u00ea \u00e9",
+      "options": [
+        "eles vendem",
+        "voc\u00ea \u00e9",
+        "n\u00f3s estamos",
+        "eu sou"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u00c9l/Ella es",
+      "translation": "ele/ela \u00e9",
+      "pronunciation": "ele/ela \u00e9",
+      "options": [
+        "ele/ela \u00e9",
+        "eles vendem",
+        "n\u00f3s estamos",
+        "eu sou"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Nosotros somos",
+      "translation": "n\u00f3s somos",
+      "pronunciation": "n\u00f3s somos",
+      "options": [
+        "eles vendem",
+        "eu sou",
+        "n\u00f3s estamos",
+        "n\u00f3s somos"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Ustedes son",
+      "translation": "voc\u00eas s\u00e3o",
+      "pronunciation": "voc\u00eas s\u00e3o",
+      "options": [
+        "eu sou",
+        "n\u00f3s estamos",
+        "eles vendem",
+        "voc\u00eas s\u00e3o"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Ellos/Ellas son",
+      "translation": "eles/elas s\u00e3o",
+      "pronunciation": "eles/elas s\u00e3o",
+      "options": [
+        "eu sou",
+        "eles/elas s\u00e3o",
+        "eles vendem",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Estar",
+      "translation": "estar",
+      "pronunciation": "estar",
+      "options": ["estar", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo estoy",
+      "translation": "eu estou",
+      "pronunciation": "eu estou",
+      "options": ["n\u00f3s estamos", "eu estou", "eu sou", "eles vendem"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "T\u00fa est\u00e1s",
+      "translation": "tu est\u00e1s",
+      "pronunciation": "tu est\u00e1s",
+      "options": ["eu sou", "tu est\u00e1s", "eles vendem", "n\u00f3s estamos"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Usted est\u00e1",
+      "translation": "voc\u00ea est\u00e1",
+      "pronunciation": "voc\u00ea est\u00e1",
+      "options": [
+        "eu sou",
+        "eles vendem",
+        "voc\u00ea est\u00e1",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "\u00c9l/Ella est\u00e1",
+      "translation": "ele/ela est\u00e1",
+      "pronunciation": "ele/ela est\u00e1",
+      "options": [
+        "n\u00f3s estamos",
+        "ele/ela est\u00e1",
+        "eles vendem",
+        "eu sou"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Nosotros estamos",
+      "translation": "n\u00f3s estamos",
+      "pronunciation": "n\u00f3s estamos",
+      "options": [
+        "n\u00f3s estamos",
+        "eu sou",
+        "eles vendem",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Ustedes est\u00e1n",
+      "translation": "voc\u00eas est\u00e3o",
+      "pronunciation": "voc\u00eas est\u00e3o",
+      "options": [
+        "voc\u00eas est\u00e3o",
+        "n\u00f3s estamos",
+        "eles vendem",
+        "eu sou"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Ellos/Ellas est\u00e1n",
+      "translation": "eles/elas est\u00e3o",
+      "pronunciation": "eles/elas est\u00e3o",
+      "options": [
+        "eu sou",
+        "eles vendem",
+        "n\u00f3s estamos",
+        "eles/elas est\u00e3o"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Vender",
+      "translation": "vender",
+      "pronunciation": "vender",
+      "options": ["vender", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo vendo",
+      "translation": "eu vendo",
+      "pronunciation": "eu vendo",
+      "options": ["eles vendem", "eu sou", "eu vendo", "n\u00f3s estamos"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "T\u00fa vendes",
+      "translation": "tu vendes",
+      "pronunciation": "tu vendes",
+      "options": ["tu vendes", "eu sou", "eles vendem", "n\u00f3s estamos"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Usted vende",
+      "translation": "voc\u00ea vende",
+      "pronunciation": "voc\u00ea vende",
+      "options": [
+        "eles vendem",
+        "n\u00f3s estamos",
+        "voc\u00ea vende",
+        "eu sou"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "\u00c9l/Ella vende",
+      "translation": "ele/ela vende",
+      "pronunciation": "ele/ela vende",
+      "options": ["eles vendem", "n\u00f3s estamos", "eu sou", "ele/ela vende"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Nosotros vendemos",
+      "translation": "n\u00f3s vendemos",
+      "pronunciation": "n\u00f3s vendemos",
+      "options": [
+        "eles vendem",
+        "n\u00f3s vendemos",
+        "eu sou",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ustedes venden",
+      "translation": "voc\u00eas vendem",
+      "pronunciation": "voc\u00eas vendem",
+      "options": [
+        "voc\u00eas vendem",
+        "eu sou",
+        "eles vendem",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Ellos/Ellas venden",
+      "translation": "eles/elas vendem",
+      "pronunciation": "eles/elas vendem",
+      "options": [
+        "n\u00f3s estamos",
+        "eles vendem",
+        "eles/elas vendem",
+        "eu sou"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Abrir",
+      "translation": "abrir",
+      "pronunciation": "abrir",
+      "options": ["abrir", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo abro",
+      "translation": "eu abro",
+      "pronunciation": "eu abro",
+      "options": ["n\u00f3s estamos", "eu abro", "eles vendem", "eu sou"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "T\u00fa abres",
+      "translation": "tu abres",
+      "pronunciation": "tu abres",
+      "options": ["tu abres", "eles vendem", "eu sou", "n\u00f3s estamos"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Usted abre",
+      "translation": "voc\u00ea abre",
+      "pronunciation": "voc\u00ea abre",
+      "options": [
+        "eu sou",
+        "n\u00f3s estamos",
+        "voc\u00ea abre",
+        "eles vendem"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "\u00c9l/Ella abre",
+      "translation": "ele/ela abre",
+      "pronunciation": "ele/ela abre",
+      "options": ["eu sou", "ele/ela abre", "eles vendem", "n\u00f3s estamos"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Nosotros abrimos",
+      "translation": "n\u00f3s abrimos",
+      "pronunciation": "n\u00f3s abrimos",
+      "options": [
+        "eu sou",
+        "n\u00f3s estamos",
+        "n\u00f3s abrimos",
+        "eles vendem"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Ustedes abrem",
+      "translation": "voc\u00eas abrem",
+      "pronunciation": "voc\u00eas abrem",
+      "options": [
+        "eu sou",
+        "voc\u00eas abrem",
+        "n\u00f3s estamos",
+        "eles vendem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ellos/Ellas abrem",
+      "translation": "eles/elas abrem",
+      "pronunciation": "eles/elas abrem",
+      "options": [
+        "eles/elas abrem",
+        "eu sou",
+        "n\u00f3s estamos",
+        "eles vendem"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Hablar",
+      "translation": "falar",
+      "pronunciation": "falar",
+      "options": ["falar", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo hablo",
+      "translation": "eu falo",
+      "pronunciation": "eu falo",
+      "options": ["eu falo", "n\u00f3s estamos", "eles vendem", "eu sou"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "T\u00fa hablas",
+      "translation": "tu falas",
+      "pronunciation": "tu falas",
+      "options": ["eles vendem", "tu falas", "eu sou", "n\u00f3s estamos"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Usted habla",
+      "translation": "voc\u00ea fala",
+      "pronunciation": "voc\u00ea fala",
+      "options": [
+        "voc\u00ea fala",
+        "eles vendem",
+        "n\u00f3s estamos",
+        "eu sou"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "\u00c9l/Ella habla",
+      "translation": "ele/ela fala",
+      "pronunciation": "ele/ela fala",
+      "options": ["eu sou", "eles vendem", "ele/ela fala", "n\u00f3s estamos"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Nosotros hablamos",
+      "translation": "n\u00f3s falamos",
+      "pronunciation": "n\u00f3s falamos",
+      "options": [
+        "n\u00f3s estamos",
+        "eu sou",
+        "n\u00f3s falamos",
+        "eles vendem"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Ustedes hablan",
+      "translation": "voc\u00eas falam",
+      "pronunciation": "voc\u00eas falam",
+      "options": [
+        "eu sou",
+        "eles vendem",
+        "voc\u00eas falam",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Ellos/Ellas hablan",
+      "translation": "eles/elas falam",
+      "pronunciation": "eles/elas falam",
+      "options": [
+        "eles vendem",
+        "eu sou",
+        "n\u00f3s estamos",
+        "eles/elas falam"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Asistir",
+      "translation": "assistir",
+      "pronunciation": "assistir",
+      "options": ["assistir", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo asisto",
+      "translation": "eu assisto",
+      "pronunciation": "eu assisto",
+      "options": ["eu assisto", "n\u00f3s estamos", "eles vendem", "eu sou"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "T\u00fa asistes",
+      "translation": "tu assistes",
+      "pronunciation": "tu assistes",
+      "options": ["n\u00f3s estamos", "eu sou", "tu assistes", "eles vendem"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Usted asiste",
+      "translation": "voc\u00ea assiste",
+      "pronunciation": "voc\u00ea assiste",
+      "options": [
+        "eles vendem",
+        "n\u00f3s estamos",
+        "eu sou",
+        "voc\u00ea assiste"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "\u00c9l/Ella asiste",
+      "translation": "ele/ela assiste",
+      "pronunciation": "ele/ela assiste",
+      "options": [
+        "n\u00f3s estamos",
+        "ele/ela assiste",
+        "eles vendem",
+        "eu sou"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Nosotros asistimos",
+      "translation": "n\u00f3s assistimos",
+      "pronunciation": "n\u00f3s assistimos",
+      "options": [
+        "eu sou",
+        "n\u00f3s estamos",
+        "eles vendem",
+        "n\u00f3s assistimos"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Ustedes asisten",
+      "translation": "voc\u00eas assistem",
+      "pronunciation": "voc\u00eas assistem",
+      "options": [
+        "eles vendem",
+        "voc\u00eas assistem",
+        "n\u00f3s estamos",
+        "eu sou"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ellos/Ellas asisten",
+      "translation": "eles/elas assistem",
+      "pronunciation": "eles/elas assistem",
+      "options": [
+        "n\u00f3s estamos",
+        "eles vendem",
+        "eles/elas assistem",
+        "eu sou"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Comer",
+      "translation": "comer",
+      "pronunciation": "comer",
+      "options": ["comer", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo como",
+      "translation": "eu como",
+      "pronunciation": "eu como",
+      "options": ["eles vendem", "eu como", "n\u00f3s estamos", "eu sou"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "T\u00fa comes",
+      "translation": "tu comes",
+      "pronunciation": "tu comes",
+      "options": ["tu comes", "n\u00f3s estamos", "eu sou", "eles vendem"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Usted come",
+      "translation": "voc\u00ea come",
+      "pronunciation": "voc\u00ea come",
+      "options": [
+        "eu sou",
+        "eles vendem",
+        "n\u00f3s estamos",
+        "voc\u00ea come"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "\u00c9l/Ella come",
+      "translation": "ele/ela come",
+      "pronunciation": "ele/ela come",
+      "options": ["eu sou", "n\u00f3s estamos", "eles vendem", "ele/ela come"],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Nosotros comemos",
+      "translation": "n\u00f3s comemos",
+      "pronunciation": "n\u00f3s comemos",
+      "options": [
+        "eu sou",
+        "n\u00f3s comemos",
+        "n\u00f3s estamos",
+        "eles vendem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ustedes comen",
+      "translation": "voc\u00eas comem",
+      "pronunciation": "voc\u00eas comem",
+      "options": [
+        "eles vendem",
+        "voc\u00eas comem",
+        "n\u00f3s estamos",
+        "eu sou"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Ellos/Ellas comen",
+      "translation": "eles/elas comem",
+      "pronunciation": "eles/elas comem",
+      "options": [
+        "n\u00f3s estamos",
+        "eles vendem",
+        "eles/elas comem",
+        "eu sou"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Dormir",
+      "translation": "dormir",
+      "pronunciation": "dormir",
+      "options": ["dormir", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo duermo",
+      "translation": "eu durmo",
+      "pronunciation": "eu durmo",
+      "options": ["eu sou", "eles vendem", "eu durmo", "n\u00f3s estamos"],
+      "correctAnswer": 3
+    },
+    {
+      "word": "T\u00fa duermes",
+      "translation": "tu dormes",
+      "pronunciation": "tu dormes",
+      "options": ["tu dormes", "eu sou", "n\u00f3s estamos", "eles vendem"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Usted duerme",
+      "translation": "voc\u00ea dorme",
+      "pronunciation": "voc\u00ea dorme",
+      "options": [
+        "n\u00f3s estamos",
+        "eu sou",
+        "eles vendem",
+        "voc\u00ea dorme"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "\u00c9l/Ella duerme",
+      "translation": "ele/ela dorme",
+      "pronunciation": "ele/ela dorme",
+      "options": ["ele/ela dorme", "eu sou", "eles vendem", "n\u00f3s estamos"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Nosotros dormimos",
+      "translation": "n\u00f3s dormimos",
+      "pronunciation": "n\u00f3s dormimos",
+      "options": [
+        "eu sou",
+        "n\u00f3s estamos",
+        "eles vendem",
+        "n\u00f3s dormimos"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Ustedes duermen",
+      "translation": "voc\u00eas dormem",
+      "pronunciation": "voc\u00eas dormem",
+      "options": [
+        "n\u00f3s estamos",
+        "eles vendem",
+        "voc\u00eas dormem",
+        "eu sou"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "word": "Ellos/Ellas duermen",
+      "translation": "eles/elas dormem",
+      "pronunciation": "eles/elas dormem",
+      "options": [
+        "eu sou",
+        "eles/elas dormem",
+        "n\u00f3s estamos",
+        "eles vendem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Escribir",
+      "translation": "escrever",
+      "pronunciation": "escrever",
+      "options": ["escrever", "ser", "estar", "falar"],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Yo escribo",
+      "translation": "eu escrevo",
+      "pronunciation": "eu escrevo",
+      "options": ["eles vendem", "eu escrevo", "n\u00f3s estamos", "eu sou"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "T\u00fa escribes",
+      "translation": "tu escreves",
+      "pronunciation": "tu escreves",
+      "options": ["n\u00f3s estamos", "tu escreves", "eles vendem", "eu sou"],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Usted escribe",
+      "translation": "voc\u00ea escreve",
+      "pronunciation": "voc\u00ea escreve",
+      "options": [
+        "n\u00f3s estamos",
+        "voc\u00ea escreve",
+        "eu sou",
+        "eles vendem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "\u00c9l/Ella escribe",
+      "translation": "ele/ela escreve",
+      "pronunciation": "ele/ela escreve",
+      "options": [
+        "eu sou",
+        "ele/ela escreve",
+        "eles vendem",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "word": "Nosotros escribimos",
+      "translation": "n\u00f3s escrevemos",
+      "pronunciation": "n\u00f3s escrevemos",
+      "options": [
+        "n\u00f3s escrevemos",
+        "eles vendem",
+        "eu sou",
+        "n\u00f3s estamos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "word": "Ustedes escriben",
+      "translation": "voc\u00eas escrevem",
+      "pronunciation": "voc\u00eas escrevem",
+      "options": [
+        "eles vendem",
+        "eu sou",
+        "n\u00f3s estamos",
+        "voc\u00eas escrevem"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "word": "Ellos/Ellas escriben",
+      "translation": "eles/elas escrevem",
+      "pronunciation": "eles/elas escrevem",
+      "options": [
+        "eles/elas escrevem",
+        "eu sou",
+        "n\u00f3s estamos",
+        "eles vendem"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

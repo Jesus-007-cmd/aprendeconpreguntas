@@ -12,6 +12,9 @@ const Menu = ({ onSelectOption }) => {
       <div className="menu-item" onClick={() => onSelectOption('quiz')}>
         Cuestionario
       </div>
+      <div className="menu-item" onClick={() => onSelectOption('CombineCSVFiles')}>
+        Herramientas
+      </div>
       <div className="menu-item" onClick={handleDropdownToggle}>
         Pronunciación {isDropdownOpen ? '▲' : '▼'}
       </div>
@@ -39,7 +42,16 @@ const Menu = ({ onSelectOption }) => {
             Quiz All Languages
           </div>
           <div className="dropdown-item" onClick={() => onSelectOption('WordDisplayAllLanguagesComponent')}>
-            Quiz All Languages
+            Word Display All Languages
+          </div>
+          <div className="dropdown-item" onClick={() => onSelectOption('SpacedRepetition')}>
+          Spaced Repetition
+          </div>
+          <div className="dropdown-item" onClick={() => onSelectOption('QuizAppAllLanguages')}>
+          Quiz Audio
+          </div>
+          <div className="dropdown-item" onClick={() => onSelectOption('QuizAppAllLanguages2')}>
+          Quiz Audio 190
           </div>
           
         </div>

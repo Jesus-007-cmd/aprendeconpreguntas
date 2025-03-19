@@ -1,0 +1,583 @@
+{
+    "responseLanguage": "ja-JP",
+    "questionLanguage": "es-US",
+    "questions": [
+      {
+        "word": "La casa",
+        "translation": "いえ",
+        "pronunciation": "ie",
+        "options": [
+          "おとこ (otoko)",
+          "ドア (doa)",
+          "いえ (ie)",
+          "こども (kodomo)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "El hombre",
+        "translation": "おとこ",
+        "pronunciation": "otoko",
+        "options": [
+          "いえ (ie)",
+          "おとこ (otoko)",
+          "おんな (onna)",
+          "いす (isu)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El huevo",
+        "translation": "たまご",
+        "pronunciation": "tamago",
+        "options": [
+          "かぎ (kagi)",
+          "ベッド (beddo)",
+          "たまご (tamago)",
+          "かばん (kaban)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Un pastel",
+        "translation": "ケーキ",
+        "pronunciation": "keeki",
+        "options": [
+          "ベッド (beddo)",
+          "ケーキ (keeki)",
+          "かばん (kaban)",
+          "くるま (kuruma)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Una mantequilla",
+        "translation": "バター",
+        "pronunciation": "bataa",
+        "options": [
+          "かばん (kaban)",
+          "バター (bataa)",
+          "ベッド (beddo)",
+          "たまご (tamago)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El auto",
+        "translation": "くるま",
+        "pronunciation": "kuruma",
+        "options": [
+          "くるま (kuruma)",
+          "おとこ (otoko)",
+          "おんな (onna)",
+          "こども (kodomo)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La llave",
+        "translation": "かぎ",
+        "pronunciation": "kagi",
+        "options": [
+          "かぎ (kagi)",
+          "おとこ (otoko)",
+          "いえ (ie)",
+          "おんな (onna)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La puerta",
+        "translation": "ドア",
+        "pronunciation": "doa",
+        "options": [
+          "いえ (ie)",
+          "いす (isu)",
+          "ドア (doa)",
+          "ベッド (beddo)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "La clase",
+        "translation": "クラス",
+        "pronunciation": "kurasu",
+        "options": [
+          "ベッド (beddo)",
+          "クラス (kurasu)",
+          "おんな (onna)",
+          "たまご (tamago)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "El niño/la niña",
+        "translation": "こども",
+        "pronunciation": "kodomo",
+        "options": [
+          "こども (kodomo)",
+          "いえ (ie)",
+          "おとこ (otoko)",
+          "ベッド (beddo)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La lámpara",
+        "translation": "ランプ",
+        "pronunciation": "ranpu",
+        "options": [
+          "ランプ (ranpu)",
+          "かぎ (kagi)",
+          "ベッド (beddo)",
+          "くるま (kuruma)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La toalla",
+        "translation": "タオル",
+        "pronunciation": "taoru",
+        "options": [
+          "おとこ (otoko)",
+          "タオル (taoru)",
+          "いえ (ie)",
+          "かばん (kaban)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La cama",
+        "translation": "ベッド",
+        "pronunciation": "beddo",
+        "options": [
+          "いえ (ie)",
+          "ベッド (beddo)",
+          "ランプ (ranpu)",
+          "いす (isu)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La alfombra",
+        "translation": "じゅうたん",
+        "pronunciation": "juutan",
+        "options": [
+          "かばん (kaban)",
+          "じゅうたん (juutan)",
+          "くるま (kuruma)",
+          "おとこ (otoko)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La maleta",
+        "translation": "スーツケース",
+        "pronunciation": "suutsukeesu",
+        "options": [
+          "いす (isu)",
+          "スーツケース (suutsukeesu)",
+          "いえ (ie)",
+          "たまご (tamago)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "La bolsa",
+        "translation": "かばん",
+        "pronunciation": "kaban",
+        "options": [
+          "かばん (kaban)",
+          "くるま (kuruma)",
+          "じゅうたん (juutan)",
+          "いえ (ie)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Un hombre",
+        "translation": "おとこ",
+        "pronunciation": "otoko",
+        "options": [
+          "おとこ (otoko)",
+          "おんな (onna)",
+          "いす (isu)",
+          "ケーキ (keeki)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Una mujer",
+        "translation": "おんな",
+        "pronunciation": "onna",
+        "options": [
+          "おんな (onna)",
+          "おとこ (otoko)",
+          "こども (kodomo)",
+          "ケーキ (keeki)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "La silla",
+        "translation": "いす",
+        "pronunciation": "isu",
+        "options": [
+          "いえ (ie)",
+          "いす (isu)",
+          "かばん (kaban)",
+          "じゅうたん (juutan)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Yo tengo",
+        "translation": "わたしはもっている",
+        "pronunciation": "watashi wa motteiru",
+        "options": [
+          "わたしはもっている (watashi wa motteiru)",
+          "きみはもっている (kimi wa motteiru)",
+          "かれはもっている (kare wa motteiru)",
+          "われわれはもっている (wareware wa motteiru)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Tú tienes",
+        "translation": "きみはもっている",
+        "pronunciation": "kimi wa motteiru",
+        "options": [
+          "わたしはもっている (watashi wa motteiru)",
+          "きみはもっている (kimi wa motteiru)",
+          "かれはもっている (kare wa motteiru)",
+          "われわれはもっている (wareware wa motteiru)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Él tiene",
+        "translation": "かれはもっている",
+        "pronunciation": "kare wa motteiru",
+        "options": [
+          "わたしはもっている (watashi wa motteiru)",
+          "きみはもっている (kimi wa motteiru)",
+          "かれはもっている (kare wa motteiru)",
+          "われわれはもっている (wareware wa motteiru)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Nosotros tenemos",
+        "translation": "われわれはもっている",
+        "pronunciation": "wareware wa motteiru",
+        "options": [
+          "わたしはもっている (watashi wa motteiru)",
+          "きみはもっている (kimi wa motteiru)",
+          "かれはもっている (kare wa motteiru)",
+          "われわれはもっている (wareware wa motteiru)"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Vosotros tenéis",
+        "translation": "あなたたちはもっている",
+        "pronunciation": "anata-tachi wa motteiru",
+        "options": [
+          "あなたたちはもっている (anata-tachi wa motteiru)",
+          "かれらはもっている (karera wa motteiru)",
+          "われわれはです (wareware wa desu)",
+          "わたしはです (watashi wa desu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ellos tienen",
+        "translation": "かれらはもっている",
+        "pronunciation": "karera wa motteiru",
+        "options": [
+          "かれらはもっている (karera wa motteiru)",
+          "われわれはもっている (wareware wa motteiru)",
+          "きみはです (kimi wa desu)",
+          "かれはです (kare wa desu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Hoy es domingo",
+        "translation": "今日は日曜日です",
+        "pronunciation": "kyou wa nichiyoubi desu",
+        "options": [
+          "今日は日曜日です (kyou wa nichiyoubi desu)",
+          "昨日は月曜日です (kinou wa getsuyoubi desu)",
+          "明日は金曜日です (ashita wa kinyoubi desu)",
+          "あさっては土曜日です (asatte wa doyoubi desu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Yo soy",
+        "translation": "わたしはです",
+        "pronunciation": "watashi wa desu",
+        "options": [
+          "わたしはです (watashi wa desu)",
+          "きみはです (kimi wa desu)",
+          "かれはです (kare wa desu)",
+          "われわれはです (wareware wa desu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Tú eres",
+        "translation": "きみはです",
+        "pronunciation": "kimi wa desu",
+        "options": [
+          "わたしはです (watashi wa desu)",
+          "きみはです (kimi wa desu)",
+          "かれはです (kare wa desu)",
+          "われわれはです (wareware wa desu)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Él es",
+        "translation": "かれはです",
+        "pronunciation": "kare wa desu",
+        "options": [
+          "わたしはです (watashi wa desu)",
+          "きみはです (kimi wa desu)",
+          "かれはです (kare wa desu)",
+          "われわれはです (wareware wa desu)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "word": "Nosotros somos",
+        "translation": "われわれはです",
+        "pronunciation": "wareware wa desu",
+        "options": [
+          "わたしはです (watashi wa desu)",
+          "きみはです (kimi wa desu)",
+          "かれはです (kare wa desu)",
+          "われわれはです (wareware wa desu)"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Vosotros sois",
+        "translation": "あなたたちはです",
+        "pronunciation": "anata-tachi wa desu",
+        "options": [
+          "あなたたちはです (anata-tachi wa desu)",
+          "かれらはです (karera wa desu)",
+          "かれはです (kare wa desu)",
+          "われわれはです (wareware wa desu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ellos son",
+        "translation": "かれらはです",
+        "pronunciation": "karera wa desu",
+        "options": [
+          "わたしはです (watashi wa desu)",
+          "きみはです (kimi wa desu)",
+          "かれはです (kare wa desu)",
+          "かれらはです (karera wa desu)"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "word": "Setenta y tres",
+        "translation": "ななじゅうさん",
+        "pronunciation": "nanajuu-san",
+        "options": [
+          "ななじゅうさん (nanajuu-san)",
+          "ななじゅうよん (nanajuu-yon)",
+          "ななじゅうご (nanajuu-go)",
+          "ななじゅうろく (nanajuu-roku)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ochenta",
+        "translation": "はちじゅう",
+        "pronunciation": "hachijuu",
+        "options": [
+          "はちじゅう (hachijuu)",
+          "ななじゅう (nanajuu)",
+          "ろくじゅう (rokujuu)",
+          "ごじゅう (gojuu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cincuenta y cuatro",
+        "translation": "ごじゅうよん",
+        "pronunciation": "gojuu-yon",
+        "options": [
+          "ごじゅうさん (gojuu-san)",
+          "ごじゅうよん (gojuu-yon)",
+          "ごじゅうご (gojuu-go)",
+          "ごじゅうろく (gojuu-roku)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Veinte",
+        "translation": "にじゅう",
+        "pronunciation": "nijuu",
+        "options": [
+          "にじゅう (nijuu)",
+          "さんじゅう (sanjuu)",
+          "よんじゅう (yonjuu)",
+          "ごじゅう (gojuu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Setenta y ocho",
+        "translation": "ななじゅうはち",
+        "pronunciation": "nanajuu-hachi",
+        "options": [
+          "ななじゅうはち (nanajuu-hachi)",
+          "ななじゅう (nanajuu)",
+          "ななじゅうご (nanajuu-go)",
+          "ななじゅうよん (nanajuu-yon)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Once",
+        "translation": "じゅういち",
+        "pronunciation": "juu-ichi",
+        "options": [
+          "じゅういち (juu-ichi)",
+          "じゅうに (juu-ni)",
+          "じゅうさん (juu-san)",
+          "じゅうよん (juu-yon)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cincuenta",
+        "translation": "ごじゅう",
+        "pronunciation": "gojuu",
+        "options": [
+          "ごじゅう (gojuu)",
+          "ろくじゅう (rokujuu)",
+          "よんじゅう (yonjuu)",
+          "ななじゅう (nanajuu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Diecisiete",
+        "translation": "じゅうしち",
+        "pronunciation": "juu-shichi",
+        "options": [
+          "じゅうろく (juu-roku)",
+          "じゅうしち (juu-shichi)",
+          "じゅうはち (juu-hachi)",
+          "じゅうきゅう (juu-kyuu)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "word": "Veintiocho",
+        "translation": "にじゅうはち",
+        "pronunciation": "nijuu-hachi",
+        "options": [
+          "にじゅうはち (nijuu-hachi)",
+          "にじゅうきゅう (nijuu-kyuu)",
+          "にじゅうろく (nijuu-roku)",
+          "じゅうしち (juu-shichi)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Cien",
+        "translation": "ひゃく",
+        "pronunciation": "hyaku",
+        "options": [
+          "ひゃく (hyaku)",
+          "にひゃく (nihyaku)",
+          "さんびゃく (sanbyaku)",
+          "いっぴゃく (ippyaku)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Doscientos uno",
+        "translation": "にひゃくいち",
+        "pronunciation": "nihyaku-ichi",
+        "options": [
+          "にひゃくいち (nihyaku-ichi)",
+          "さんびゃくいち (sanbyaku-ichi)",
+          "いっぴゃくいち (ippyaku-ichi)",
+          "ごひゃくいち (gohyaku-ichi)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Trescientos veinticuatro",
+        "translation": "さんびゃくにじゅうよん",
+        "pronunciation": "sanbyaku nijuu-yon",
+        "options": [
+          "さんびゃくにじゅうよん (sanbyaku nijuu-yon)",
+          "にひゃくにじゅうよん (nihyaku nijuu-yon)",
+          "ごひゃくにじゅうよん (gohyaku nijuu-yon)",
+          "ろっぴゃくにじゅうよん (roppyaku nijuu-yon)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Ciento veintidós",
+        "translation": "ひゃくにじゅうに",
+        "pronunciation": "hyaku-nijuu-ni",
+        "options": [
+          "ひゃくにじゅうに (hyaku-nijuu-ni)",
+          "にひゃくにじゅうに (nihyaku-nijuu-ni)",
+          "さんびゃくにじゅうに (sanbyaku-nijuu-ni)",
+          "よんひゃくにじゅうに (yonhyaku-nijuu-ni)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Quinientos cuarenta",
+        "translation": "ごひゃくよんじゅう",
+        "pronunciation": "gohyaku yonjuu",
+        "options": [
+          "ごひゃくよんじゅう (gohyaku yonjuu)",
+          "ろっぴゃくよんじゅう (roppyaku yonjuu)",
+          "よんひゃくよんじゅう (yonhyaku yonjuu)",
+          "さんびゃくよんじゅう (sanbyaku yonjuu)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Seiscientos noventa y siete",
+        "translation": "ろっぴゃくきゅうじゅうしち",
+        "pronunciation": "roppyaku kyuujuu-shichi",
+        "options": [
+          "ろっぴゃくきゅうじゅうしち (roppyaku kyuujuu-shichi)",
+          "ごひゃくきゅうじゅうしち (gohyaku kyuujuu-shichi)",
+          "よんひゃくきゅうじゅうしち (yonhyaku kyuujuu-shichi)",
+          "にひゃくきゅうじゅうしち (nihyaku kyuujuu-shichi)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "word": "Mil",
+        "translation": "いっせん",
+        "pronunciation": "issen",
+        "options": [
+          "いっせん (issen)",
+          "にせん (nisen)",
+          "さんぜん (sanzen)",
+          "ごせん (gosen)"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
+  

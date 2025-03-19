@@ -1,0 +1,2286 @@
+{
+    "questionLanguage": "de-DE",
+    "responseLanguage": "es-US",
+    "questions": [
+        {
+            "word": "Der Computer",
+            "translation": "El computador",
+            "pronunciation": "der computer",
+            "options": [
+                "Olvidar",
+                "El computador",
+                "Permitir",
+                "La mochila"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Haus",
+            "translation": "La casa",
+            "pronunciation": "das haus",
+            "options": [
+                "La casa",
+                "Ocurrir",
+                "El doctor",
+                "La pierna"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Tasche",
+            "translation": "La bolsa",
+            "pronunciation": "die tasche",
+            "options": [
+                "Un medicamento",
+                "Tus llaves están en la mesa.",
+                "Permitir",
+                "La bolsa"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Ein Computer",
+            "translation": "Un computador",
+            "pronunciation": "ein computer",
+            "options": [
+                "Ninguna casa",
+                "Un computador",
+                "Ningunas bolsas",
+                "El coche"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ein Haus",
+            "translation": "Una casa",
+            "pronunciation": "ein haus",
+            "options": [
+                "Una cámara de video",
+                "Aquí está = aquí está",
+                "Mi hermano es muy alto. Es policía.",
+                "Una casa"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Eine Tasche",
+            "translation": "Una bolsa",
+            "pronunciation": "eine tasche",
+            "options": [
+                "La mochila",
+                "Mentir",
+                "El pecho",
+                "Una bolsa"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Kein Computer",
+            "translation": "Ningún computador",
+            "pronunciation": "kein computer",
+            "options": [
+                "Ningún computador",
+                "Es/Está",
+                "Esa gente no es inglesa. Son japoneses.",
+                "Ninguna casa"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Kein Haus",
+            "translation": "Ninguna casa",
+            "pronunciation": "kein haus",
+            "options": [
+                "Ninguna casa",
+                "Un cuchillo",
+                "La cabeza",
+                "No"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Keine Tasche",
+            "translation": "Ninguna bolsa",
+            "pronunciation": "keine tasche",
+            "options": [
+                "Policía",
+                "Ningún computador",
+                "Ninguna bolsa",
+                "Las rodillas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Das ist ein Computer.",
+            "translation": "Eso es un computador.",
+            "pronunciation": "das ist ein computer.",
+            "options": [
+                "Eso es un computador.",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+                "Las mujeres",
+                "Policía"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Das ist kein Computer, das ist ein Monitor.",
+            "translation": "Eso no es un computador, es un monitor.",
+            "pronunciation": "das ist kein computer, das ist ein monitor.",
+            "options": [
+                "Mentir",
+                "Intervenir",
+                "Correr",
+                "Eso no es un computador, es un monitor."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Computer",
+            "translation": "Los computadores",
+            "pronunciation": "die computer",
+            "options": [
+                "Los computadores",
+                "Las mochilas",
+                "Un computador",
+                "Una bolsa"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Häuser",
+            "translation": "Las casas",
+            "pronunciation": "die häuser",
+            "options": [
+                "Una bolsa",
+                "Las casas",
+                "Las bolsas",
+                "Frío"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Taschen",
+            "translation": "Las bolsas",
+            "pronunciation": "die taschen",
+            "options": [
+                "Las bolsas",
+                "El interés (tasa)",
+                "Llamar",
+                "La gata"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Keine Computer",
+            "translation": "Ningunos computadores",
+            "pronunciation": "keine computer",
+            "options": [
+                "Un disquete",
+                "Ningunos computadores",
+                "Los castillos",
+                "Un pastel"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Keine Häuser",
+            "translation": "Ningunas casas",
+            "pronunciation": "keine häuser",
+            "options": [
+                "Ningunas casas",
+                "Un intercomunicador",
+                "Olvidar",
+                "Toser"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Keine Taschen",
+            "translation": "Ningunas bolsas",
+            "pronunciation": "keine taschen",
+            "options": [
+                "Las casas",
+                "Mantener",
+                "La pierna",
+                "Ningunas bolsas"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Das Buch",
+            "translation": "El libro",
+            "pronunciation": "das buch",
+            "options": [
+                "Una solución",
+                "El gato",
+                "El libro",
+                "Los coches"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Frau",
+            "translation": "La mujer",
+            "pronunciation": "die frau",
+            "options": [
+                "Una televisión",
+                "La mujer",
+                "Las narices",
+                "Trabajar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Auto",
+            "translation": "El coche",
+            "pronunciation": "das auto",
+            "options": [
+                "Un queso",
+                "El coche",
+                "El pecho",
+                "Mi hermano es muy alto. Es policía."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ein Kuchen",
+            "translation": "Un pastel",
+            "pronunciation": "ein kuchen",
+            "options": [
+                "Un pastel",
+                "La bolsa",
+                "Gracias. Eso es muy amable de tu parte.",
+                "Dividir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Der Mann",
+            "translation": "El hombre",
+            "pronunciation": "der mann",
+            "options": [
+                "El trabajo",
+                "No",
+                "El hombre",
+                "A John no le interesa la política. Le interesa la música."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Männer",
+            "translation": "Los hombres",
+            "pronunciation": "die männer",
+            "options": [
+                "Ocurrir",
+                "Los hombres",
+                "Mantener",
+                "La pierna"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Frauen",
+            "translation": "Las mujeres",
+            "pronunciation": "die frauen",
+            "options": [
+                "Poseer",
+                "Tengo 31 años. Mi hermana tiene 27.",
+                "Las mujeres",
+                "Eso no es un computador, es un monitor."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Das Auto",
+            "translation": "El coche",
+            "pronunciation": "das auto",
+            "options": [
+                "El pecho",
+                "La amiga",
+                "El coche",
+                "Permitir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Autos",
+            "translation": "Los coches",
+            "pronunciation": "die autos",
+            "options": [
+                "El gato",
+                "El dedo (del pie)",
+                "Los coches",
+                "Mi hermano es muy alto. Es policía."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Der Teppich",
+            "translation": "La alfombra",
+            "pronunciation": "der teppich",
+            "options": [
+                "La realidad",
+                "Comer",
+                "La alfombra",
+                "Quedarse"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Teppiche",
+            "translation": "Las alfombras",
+            "pronunciation": "die teppiche",
+            "options": [
+                "Las casas",
+                "El doctor",
+                "La niña",
+                "Las alfombras"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Das Schloss",
+            "translation": "El castillo",
+            "pronunciation": "das schloss",
+            "options": [
+                "El castillo",
+                "Beber",
+                "Hablar",
+                "Doctor"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Schlösser",
+            "translation": "Los castillos",
+            "pronunciation": "die schlösser",
+            "options": [
+                "Los castillos",
+                "La realidad",
+                "Un computador",
+                "Trabajar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Das Haar",
+            "translation": "El cabello",
+            "pronunciation": "das haar",
+            "options": [
+                "No",
+                "Eso es = eso es",
+                "El cabello",
+                "Un pastel"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Haare",
+            "translation": "Los cabellos",
+            "pronunciation": "die haare",
+            "options": [
+                "Un queso",
+                "Doctor",
+                "Los cabellos",
+                "Son las nueve. Estás tarde otra vez."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Zeitung",
+            "translation": "El periódico",
+            "pronunciation": "die zeitung",
+            "options": [
+                "Las mujeres",
+                "Un cuchillo",
+                "La realidad",
+                "El periódico"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Zeitungen",
+            "translation": "Los periódicos",
+            "pronunciation": "die zeitungen",
+            "options": [
+                "Aprender",
+                "Los periódicos",
+                "Un intercomunicador",
+                "Una televisión"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Arbeit",
+            "translation": "El trabajo",
+            "pronunciation": "die arbeit",
+            "options": [
+                "Somos/Están",
+                "El trabajo",
+                "El amigo",
+                "Las mujeres"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Arbeiten",
+            "translation": "Los trabajos",
+            "pronunciation": "die arbeiten",
+            "options": [
+                "Una solución",
+                "Los trabajos",
+                "Una oficina",
+                "Los hombres"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Knie",
+            "translation": "La rodilla",
+            "pronunciation": "das knie",
+            "options": [
+                "Los computadores",
+                "Los trenes",
+                "La rodilla",
+                "Un cuchillo"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Knie",
+            "translation": "Las rodillas",
+            "pronunciation": "die knie",
+            "options": [
+                "\"Aquí está tu llave\" \"Gracias\".",
+                "Poseer",
+                "Las rodillas",
+                "Un computador"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Ein Fahrrad",
+            "translation": "Una bicicleta",
+            "pronunciation": "ein fahrrad",
+            "options": [
+                "Las mujeres",
+                "Una bicicleta",
+                "La amiga",
+                "Llave"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Eine Diskette",
+            "translation": "Un disquete",
+            "pronunciation": "eine diskette",
+            "options": [
+                "Fingir",
+                "Un disquete",
+                "Corregir",
+                "La nariz"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Wissen",
+            "translation": "El conocimiento",
+            "pronunciation": "das wissen",
+            "options": [
+                "Una oficina",
+                "El conocimiento",
+                "Comer",
+                "La bolsa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Der Unterschied",
+            "translation": "La diferencia",
+            "pronunciation": "der unterschied",
+            "options": [
+                "La diferencia",
+                "La sociedad",
+                "El tren",
+                "El doctor"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Der Zinssatz",
+            "translation": "El interés (tasa)",
+            "pronunciation": "der zinssatz",
+            "options": [
+                "Bailar",
+                "El interés (tasa)",
+                "Dividir",
+                "Los amigos"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Zinssätze",
+            "translation": "Los intereses",
+            "pronunciation": "die zinssätze",
+            "options": [
+                "La belleza",
+                "Los intereses",
+                "Ninguna bolsa",
+                "Partir"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Nase",
+            "translation": "La nariz",
+            "pronunciation": "die nase",
+            "options": [
+                "La nariz",
+                "La alfombra",
+                "Un disquete",
+                "Hablar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Nasen",
+            "translation": "Las narices",
+            "pronunciation": "die nasen",
+            "options": [
+                "El conocimiento",
+                "Las narices",
+                "Aprender",
+                "Las amigas"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Schloss",
+            "translation": "El castillo",
+            "pronunciation": "das schloss",
+            "options": [
+                "Una aspiradora",
+                "El castillo",
+                "Caminar",
+                "Mike tiene miedo de los perros."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Schlösser",
+            "translation": "Los castillos",
+            "pronunciation": "die schlösser",
+            "options": [
+                "Una televisión",
+                "Estudiar",
+                "Los castillos",
+                "Soy/Estoy"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Das Haar",
+            "translation": "El cabello",
+            "pronunciation": "das haar",
+            "options": [
+                "Doctor",
+                "El cabello",
+                "Una decisión",
+                "Un gobierno"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Haare",
+            "translation": "Los cabellos",
+            "pronunciation": "die haare",
+            "options": [
+                "Los cabellos",
+                "Ningunas bolsas",
+                "Caer",
+                "Llave"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Zeitung",
+            "translation": "El periódico",
+            "pronunciation": "die zeitung",
+            "options": [
+                "El periódico",
+                "Llave",
+                "Llamar",
+                "Una decisión"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Zeitungen",
+            "translation": "Los periódicos",
+            "pronunciation": "die zeitungen",
+            "options": [
+                "Estudiar",
+                "La mujer",
+                "Los periódicos",
+                "Los computadores"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Arbeit",
+            "translation": "El trabajo",
+            "pronunciation": "die arbeit",
+            "options": [
+                "El trabajo",
+                "Estudiar",
+                "Las mochilas",
+                "Comprar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Arbeiten",
+            "translation": "Los trabajos",
+            "pronunciation": "die arbeiten",
+            "options": [
+                "Los periódicos",
+                "Las mochilas",
+                "Toser",
+                "Los trabajos"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Eine Regierung",
+            "translation": "Un gobierno",
+            "pronunciation": "eine regierung",
+            "options": [
+                "Deber",
+                "Una bolsa",
+                "Los trenes",
+                "Un gobierno"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Ein Medikament",
+            "translation": "Un medicamento",
+            "pronunciation": "ein medikament",
+            "options": [
+                "La realidad",
+                "Amar",
+                "Un medicamento",
+                "El gato"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Ein Telefon",
+            "translation": "Un teléfono",
+            "pronunciation": "ein telefon",
+            "options": [
+                "Un teléfono",
+                "Vestir",
+                "Los cabellos",
+                "La nariz"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Eine Gegensprechanlage",
+            "translation": "Un intercomunicador",
+            "pronunciation": "eine gegensprechanlage",
+            "options": [
+                "El castillo",
+                "Un intercomunicador",
+                "Frío",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ein Videorekorder",
+            "translation": "Un videograbador",
+            "pronunciation": "ein videorekorder",
+            "options": [
+                "Un videograbador",
+                "Es/Está",
+                "Llamar",
+                "Adquirir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Eine Videokamera",
+            "translation": "Una cámara de video",
+            "pronunciation": "eine videokamera",
+            "options": [
+                "Entender",
+                "Ocurrir",
+                "Una cámara de video",
+                "Los intereses"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Ein Büro",
+            "translation": "Una oficina",
+            "pronunciation": "ein büro",
+            "options": [
+                "Una oficina",
+                "Aquí está = aquí está",
+                "La región",
+                "Ninguna casa"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Ein Messer",
+            "translation": "Un cuchillo",
+            "pronunciation": "ein messer",
+            "options": [
+                "Gracias. Eso es muy amable de tu parte.",
+                "Un cuchillo",
+                "Kate y yo somos buenos amigos.",
+                "Hablar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ein Staubsauger",
+            "translation": "Una aspiradora",
+            "pronunciation": "ein staubsauger",
+            "options": [
+                "Una aspiradora",
+                "Eso no es un computador, es un monitor.",
+                "La belleza",
+                "Los trenes"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Ein Käse",
+            "translation": "Un queso",
+            "pronunciation": "ein käse",
+            "options": [
+                "Una oficina",
+                "Un queso",
+                "Eso es un computador.",
+                "Llorar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Eine Lösung",
+            "translation": "Una solución",
+            "pronunciation": "eine lösung",
+            "options": [
+                "Recibir",
+                "Mantener",
+                "Toser",
+                "Una solución"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Eine Entscheidung",
+            "translation": "Una decisión",
+            "pronunciation": "eine entscheidung",
+            "options": [
+                "Una decisión",
+                "La gata",
+                "Ocurrir",
+                "Los trenes"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Ein Fernseher",
+            "translation": "Una televisión",
+            "pronunciation": "ein fernseher",
+            "options": [
+                "Entender",
+                "Eso es = eso es",
+                "Una televisión",
+                "Un cuchillo"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Realität",
+            "translation": "La realidad",
+            "pronunciation": "die realität",
+            "options": [
+                "Caer",
+                "Los trenes",
+                "Un teléfono",
+                "La realidad"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Gesellschaft",
+            "translation": "La sociedad",
+            "pronunciation": "die gesellschaft",
+            "options": [
+                "A John no le interesa la política. Le interesa la música.",
+                "La sociedad",
+                "Cumplir",
+                "Las mochilas"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Schönheit",
+            "translation": "La belleza",
+            "pronunciation": "die schönheit",
+            "options": [
+                "Viajar",
+                "Las alfombras",
+                "La belleza",
+                "Los castillos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Der Zinssatz",
+            "translation": "El interés (tasa)",
+            "pronunciation": "der zinssatz",
+            "options": [
+                "Nadar",
+                "La diferencia",
+                "El interés (tasa)",
+                "Un videograbador"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Zinssätze",
+            "translation": "Los intereses",
+            "pronunciation": "die zinssätze",
+            "options": [
+                "Tengo 31 años. Mi hermana tiene 27.",
+                "Soy/Estoy",
+                "Doctor",
+                "Los intereses"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Nase",
+            "translation": "La nariz",
+            "pronunciation": "die nase",
+            "options": [
+                "Corregir",
+                "Gracias. Eso es muy amable de tu parte.",
+                "Frío",
+                "La nariz"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Nasen",
+            "translation": "Las narices",
+            "pronunciation": "die nasen",
+            "options": [
+                "La niña",
+                "Un cuchillo",
+                "El coche",
+                "Las narices"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Der Mann",
+            "translation": "El hombre",
+            "pronunciation": "der mann",
+            "options": [
+                "El hombre",
+                "Eso no es un computador, es un monitor.",
+                "Ninguna casa",
+                "La gata"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Männer",
+            "translation": "Los hombres",
+            "pronunciation": "die männer",
+            "options": [
+                "Eso no es un computador, es un monitor.",
+                "La nariz",
+                "Los hombres",
+                "Una casa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Frau",
+            "translation": "La mujer",
+            "pronunciation": "die frau",
+            "options": [
+                "Los trabajos",
+                "Un computador",
+                "La mujer",
+                "Cumplir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Frauen",
+            "translation": "Las mujeres",
+            "pronunciation": "die frauen",
+            "options": [
+                "Las mujeres",
+                "Tengo 31 años. Mi hermana tiene 27.",
+                "Ventana",
+                "Somos/Están"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Das Auto",
+            "translation": "El coche",
+            "pronunciation": "das auto",
+            "options": [
+                "Vivir",
+                "El conocimiento",
+                "Los periódicos",
+                "El coche"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Autos",
+            "translation": "Los coches",
+            "pronunciation": "die autos",
+            "options": [
+                "Los coches",
+                "El pie",
+                "Jane no está en casa ahora. Está en el trabajo.",
+                "Una decisión"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Der Teppich",
+            "translation": "La alfombra",
+            "pronunciation": "der teppich",
+            "options": [
+                "La expresión",
+                "La alfombra",
+                "La pierna",
+                "El castillo"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Teppiche",
+            "translation": "Las alfombras",
+            "pronunciation": "die teppiche",
+            "options": [
+                "Eso no es un computador, es un monitor.",
+                "Las alfombras",
+                "Los trabajos",
+                "La realidad"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Schloss",
+            "translation": "El castillo",
+            "pronunciation": "das schloss",
+            "options": [
+                "La nariz",
+                "La amiga",
+                "Partir",
+                "El castillo"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Schlösser",
+            "translation": "Los castillos",
+            "pronunciation": "die schlösser",
+            "options": [
+                "Mantener",
+                "Los castillos",
+                "Vivir",
+                "Soy/Estoy"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Haar",
+            "translation": "El cabello",
+            "pronunciation": "das haar",
+            "options": [
+                "Doctor",
+                "La diferencia",
+                "El cabello",
+                "Ningunas bolsas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Haare",
+            "translation": "Los cabellos",
+            "pronunciation": "die haare",
+            "options": [
+                "Hay = ahí está",
+                "Los cabellos",
+                "Viajar",
+                "Los trabajos"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Die Zeitung",
+            "translation": "El periódico",
+            "pronunciation": "die zeitung",
+            "options": [
+                "El periódico",
+                "Un queso",
+                "El niño",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Zeitungen",
+            "translation": "Los periódicos",
+            "pronunciation": "die zeitungen",
+            "options": [
+                "Vestir",
+                "Mike tiene miedo de los perros.",
+                "Los periódicos",
+                "Los computadores"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Arbeit",
+            "translation": "El trabajo",
+            "pronunciation": "die arbeit",
+            "options": [
+                "El trabajo",
+                "Periodista",
+                "Viajar",
+                "Los trabajos"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Arbeiten",
+            "translation": "Los trabajos",
+            "pronunciation": "die arbeiten",
+            "options": [
+                "Mi hermano es muy alto. Es policía.",
+                "La expresión",
+                "El pie",
+                "Los trabajos"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Das Knie",
+            "translation": "La rodilla",
+            "pronunciation": "das knie",
+            "options": [
+                "Estudiar",
+                "Vestir",
+                "La rodilla",
+                "El computador"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Knie",
+            "translation": "Las rodillas",
+            "pronunciation": "die knie",
+            "options": [
+                "Las rodillas",
+                "Partir",
+                "La belleza",
+                "Entender"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Ein Fahrrad",
+            "translation": "Una bicicleta",
+            "pronunciation": "ein fahrrad",
+            "options": [
+                "Una solución",
+                "Partir",
+                "Una bicicleta",
+                "Las narices"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Eine Diskette",
+            "translation": "Un disquete",
+            "pronunciation": "eine diskette",
+            "options": [
+                "Ningún computador",
+                "Las casas",
+                "La pierna",
+                "Un disquete"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Das Wissen",
+            "translation": "El conocimiento",
+            "pronunciation": "das wissen",
+            "options": [
+                "El hombre",
+                "Los computadores",
+                "El conocimiento",
+                "Los cabellos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Der Unterschied",
+            "translation": "La diferencia",
+            "pronunciation": "der unterschied",
+            "options": [
+                "El computador",
+                "Gracias. Eso es muy amable de tu parte.",
+                "La diferencia",
+                "Las bolsas"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Ein Videorekorder",
+            "translation": "Un videograbador",
+            "pronunciation": "ein videorekorder",
+            "options": [
+                "Olvidar",
+                "Un videograbador",
+                "Una casa",
+                "Las casas"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Eine Videokamera",
+            "translation": "Una cámara de video",
+            "pronunciation": "eine videokamera",
+            "options": [
+                "Ninguna bolsa",
+                "Una cámara de video",
+                "La pierna",
+                "El gato"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ein Staubsauger",
+            "translation": "Una aspiradora",
+            "pronunciation": "ein staubsauger",
+            "options": [
+                "Las bolsas",
+                "Una aspiradora",
+                "El dedo (del pie)",
+                "Jane no está en casa ahora. Está en el trabajo."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das Kind",
+            "translation": "El niño",
+            "pronunciation": "das kind",
+            "options": [
+                "El coche",
+                "\"Aquí está tu llave\" \"Gracias\".",
+                "Somos/Están",
+                "El niño"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Katze",
+            "translation": "El gato",
+            "pronunciation": "die katze",
+            "options": [
+                "Hay = ahí está",
+                "El gato",
+                "El conocimiento",
+                "Comer"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Der Arzt",
+            "translation": "El doctor",
+            "pronunciation": "der arzt",
+            "options": [
+                "El doctor",
+                "Las amigas",
+                "El cuello",
+                "El cabello"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Das Mädchen",
+            "translation": "La niña",
+            "pronunciation": "das mädchen",
+            "options": [
+                "Ningún computador",
+                "Doctor",
+                "La niña",
+                "La expresión"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Katze",
+            "translation": "La gata",
+            "pronunciation": "die katze",
+            "options": [
+                "El libro",
+                "Gustar",
+                "Ningunas bolsas",
+                "La gata"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Region",
+            "translation": "La región",
+            "pronunciation": "die region",
+            "options": [
+                "La región",
+                "Policía",
+                "Una casa",
+                "El interés (tasa)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Der Ausdruck",
+            "translation": "La expresión",
+            "pronunciation": "der ausdruck",
+            "options": [
+                "La expresión",
+                "Comprar",
+                "La pierna",
+                "Correr"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Der Zug",
+            "translation": "El tren",
+            "pronunciation": "der zug",
+            "options": [
+                "Las alfombras",
+                "Hablar",
+                "El tren",
+                "La mujer"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Züge",
+            "translation": "Los trenes",
+            "pronunciation": "die züge",
+            "options": [
+                "Los coches",
+                "Esa gente no es inglesa. Son japoneses.",
+                "Los trenes",
+                "La casa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Der Freund",
+            "translation": "El amigo",
+            "pronunciation": "der freund",
+            "options": [
+                "El amigo",
+                "Una bolsa",
+                "Dividir",
+                "Ningunos computadores"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Freunde",
+            "translation": "Los amigos",
+            "pronunciation": "die freunde",
+            "options": [
+                "La alfombra",
+                "Quedarse",
+                "Los amigos",
+                "Soy/Estoy"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Der Rucksack",
+            "translation": "La mochila",
+            "pronunciation": "der rucksack",
+            "options": [
+                "La mochila",
+                "Permitir",
+                "Las rodillas",
+                "El periódico"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Die Rucksäcke",
+            "translation": "Las mochilas",
+            "pronunciation": "die rucksäcke",
+            "options": [
+                "El periódico",
+                "El vientre",
+                "La belleza",
+                "Las mochilas"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Das Auto",
+            "translation": "El coche",
+            "pronunciation": "das auto",
+            "options": [
+                "Intervenir",
+                "Recibir",
+                "Ningún computador",
+                "El coche"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Autos",
+            "translation": "Los coches",
+            "pronunciation": "die autos",
+            "options": [
+                "A John no le interesa la política. Le interesa la música.",
+                "El hombre",
+                "El computador",
+                "Los coches"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Freundin",
+            "translation": "La amiga",
+            "pronunciation": "die freundin",
+            "options": [
+                "Mike tiene miedo de los perros.",
+                "Una bolsa",
+                "Aquí está = aquí está",
+                "La amiga"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Die Freundinnen",
+            "translation": "Las amigas",
+            "pronunciation": "die freundinnen",
+            "options": [
+                "A John no le interesa la política. Le interesa la música.",
+                "Una decisión",
+                "La sociedad",
+                "Las amigas"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Sprechen",
+            "translation": "Hablar",
+            "pronunciation": "sprechen",
+            "options": [
+                "Hablar",
+                "Mentir",
+                "No",
+                "Ocurrir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Lieben",
+            "translation": "Amar",
+            "pronunciation": "lieben",
+            "options": [
+                "Amar",
+                "Aprender",
+                "Un computador",
+                "El vientre"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Lernen",
+            "translation": "Estudiar",
+            "pronunciation": "lernen",
+            "options": [
+                "Estudiar",
+                "Kate y yo somos buenos amigos.",
+                "La casa",
+                "Aquí está = aquí está"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Mögen",
+            "translation": "Gustar",
+            "pronunciation": "mögen",
+            "options": [
+                "Vender",
+                "Ningunas casas",
+                "El vientre",
+                "Gustar"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Tanzen",
+            "translation": "Bailar",
+            "pronunciation": "tanzen",
+            "options": [
+                "La diferencia",
+                "Bailar",
+                "El conocimiento",
+                "Un medicamento"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Rufen",
+            "translation": "Llamar",
+            "pronunciation": "rufen",
+            "options": [
+                "¡Mira! Ahí está Chris.",
+                "Amar",
+                "Llamar",
+                "Adquirir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Fliegen",
+            "translation": "Volar",
+            "pronunciation": "fliegen",
+            "options": [
+                "Volar",
+                "La amiga",
+                "El hombre",
+                "Gracias. Eso es muy amable de tu parte."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Bleiben",
+            "translation": "Quedarse",
+            "pronunciation": "bleiben",
+            "options": [
+                "Las bolsas",
+                "Quedarse",
+                "Ningunas bolsas",
+                "Es/Está"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Reisen",
+            "translation": "Viajar",
+            "pronunciation": "reisen",
+            "options": [
+                "El pie",
+                "Fingir",
+                "Correr",
+                "Viajar"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Springen",
+            "translation": "Saltar",
+            "pronunciation": "springen",
+            "options": [
+                "La mochila",
+                "Escribir",
+                "El pie",
+                "Saltar"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Arbeiten",
+            "translation": "Trabajar",
+            "pronunciation": "arbeiten",
+            "options": [
+                "El coche",
+                "Gustar",
+                "Trabajar",
+                "Amar"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Kaufen",
+            "translation": "Comprar",
+            "pronunciation": "kaufen",
+            "options": [
+                "Comprar",
+                "Correr",
+                "Saltar",
+                "La mujer"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Weinen",
+            "translation": "Llorar",
+            "pronunciation": "weinen",
+            "options": [
+                "Son las nueve. Estás tarde otra vez.",
+                "Somos/Están",
+                "Llorar",
+                "Viajar"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Schwimmen",
+            "translation": "Nadar",
+            "pronunciation": "schwimmen",
+            "options": [
+                "Correr",
+                "El doctor",
+                "Caminar",
+                "Nadar"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Laufen",
+            "translation": "Caminar",
+            "pronunciation": "laufen",
+            "options": [
+                "El gato",
+                "Tengo 31 años. Mi hermana tiene 27.",
+                "Caminar",
+                "Los periódicos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Wohnen",
+            "translation": "Vivir",
+            "pronunciation": "wohnen",
+            "options": [
+                "Vivir",
+                "La diferencia",
+                "Recibir",
+                "El vientre"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Essen",
+            "translation": "Comer",
+            "pronunciation": "essen",
+            "options": [
+                "Las amigas",
+                "Un medicamento",
+                "Comer",
+                "Una bicicleta"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Trinken",
+            "translation": "Beber",
+            "pronunciation": "trinken",
+            "options": [
+                "Kate y yo somos buenos amigos.",
+                "Beber",
+                "Son las nueve. Estás tarde otra vez.",
+                "Frío"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Verkaufen",
+            "translation": "Vender",
+            "pronunciation": "verkaufen",
+            "options": [
+                "La pierna",
+                "Las bolsas",
+                "El castillo",
+                "Vender"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Rennen",
+            "translation": "Correr",
+            "pronunciation": "rennen",
+            "options": [
+                "Somos/Están",
+                "Fingir",
+                "La gata",
+                "Correr"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Erhalten",
+            "translation": "Recibir",
+            "pronunciation": "erhalten",
+            "options": [
+                "La expresión",
+                "Hablar",
+                "Recibir",
+                "Fingir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "geschehen",
+            "translation": "Ocurrir",
+            "pronunciation": "geschehen",
+            "options": [
+                "La amiga",
+                "Ocurrir",
+                "Una decisión",
+                "La casa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "schreiben",
+            "translation": "Escribir",
+            "pronunciation": "schreiben",
+            "options": [
+                "Ningunas casas",
+                "Beber",
+                "Las alfombras",
+                "Escribir"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "behalten",
+            "translation": "Mantener",
+            "pronunciation": "behalten",
+            "options": [
+                "Una solución",
+                "Kate y yo somos buenos amigos.",
+                "Mantener",
+                "Eso es un computador."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "lernen",
+            "translation": "Aprender",
+            "pronunciation": "lernen",
+            "options": [
+                "La nariz",
+                "La bolsa",
+                "Poseer",
+                "Aprender"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "leben",
+            "translation": "Vivir",
+            "pronunciation": "leben",
+            "options": [
+                "Una casa",
+                "La cabeza",
+                "Vivir",
+                "Mike tiene miedo de los perros."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "müssen",
+            "translation": "Deber",
+            "pronunciation": "müssen",
+            "options": [
+                "Los trenes",
+                "Deber",
+                "La casa",
+                "Las alfombras"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "vergessen",
+            "translation": "Olvidar",
+            "pronunciation": "vergessen",
+            "options": [
+                "Olvidar",
+                "Eso es un computador.",
+                "Llave",
+                "Hoy hace sol, pero no hace calor."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "verstehen",
+            "translation": "Entender",
+            "pronunciation": "verstehen",
+            "options": [
+                "Una bicicleta",
+                "El conocimiento",
+                "Entender",
+                "Vestir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "verlassen",
+            "translation": "Partir",
+            "pronunciation": "verlassen",
+            "options": [
+                "Un teléfono",
+                "Partir",
+                "Una aspiradora",
+                "Un intercomunicador"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "korrigieren",
+            "translation": "Corregir",
+            "pronunciation": "korrigieren",
+            "options": [
+                "La región",
+                "Corregir",
+                "El tren",
+                "Saltar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "eingreifen",
+            "translation": "Intervenir",
+            "pronunciation": "eingreifen",
+            "options": [
+                "Intervenir",
+                "Ningunas casas",
+                "Aquí está = aquí está",
+                "Fingir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "erfüllen",
+            "translation": "Cumplir",
+            "pronunciation": "erfüllen",
+            "options": [
+                "Los castillos",
+                "Cumplir",
+                "Mike tiene miedo de los perros.",
+                "Ningún computador"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "fallen",
+            "translation": "Caer",
+            "pronunciation": "fallen",
+            "options": [
+                "Beber",
+                "Vestir",
+                "Caer",
+                "Hay = ahí está"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "husten",
+            "translation": "Toser",
+            "pronunciation": "husten",
+            "options": [
+                "Corregir",
+                "Aquí está = aquí está",
+                "Ninguna casa",
+                "Toser"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "teilen",
+            "translation": "Dividir",
+            "pronunciation": "teilen",
+            "options": [
+                "Dividir",
+                "Gracias. Eso es muy amable de tu parte.",
+                "Saltar",
+                "Mantener"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "vortäuschen",
+            "translation": "Fingir",
+            "pronunciation": "vortäuschen",
+            "options": [
+                "Vestir",
+                "Las casas",
+                "Fingir",
+                "La expresión"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "erwerben",
+            "translation": "Adquirir",
+            "pronunciation": "erwerben",
+            "options": [
+                "La expresión",
+                "Adquirir",
+                "Vestir",
+                "Un disquete"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "lügen",
+            "translation": "Mentir",
+            "pronunciation": "lügen",
+            "options": [
+                "Mentir",
+                "Recibir",
+                "Eso es = eso es",
+                "Policía"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "besitzen",
+            "translation": "Poseer",
+            "pronunciation": "besitzen",
+            "options": [
+                "Aprender",
+                "Ningunos computadores",
+                "Poseer",
+                "Beber"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "anziehen",
+            "translation": "Vestir",
+            "pronunciation": "anziehen",
+            "options": [
+                "Una oficina",
+                "Llamar",
+                "Doctor",
+                "Vestir"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "erlauben",
+            "translation": "Permitir",
+            "pronunciation": "erlauben",
+            "options": [
+                "Permitir",
+                "Un queso",
+                "Las mochilas",
+                "Escribir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "ich bin",
+            "translation": "Soy/Estoy",
+            "pronunciation": "ich bin",
+            "options": [
+                "Poseer",
+                "Adquirir",
+                "Soy/Estoy",
+                "Cumplir"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "ist",
+            "translation": "Es/Está",
+            "pronunciation": "ist",
+            "options": [
+                "El gato",
+                "Un cuchillo",
+                "El computador",
+                "Es/Está"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "sind",
+            "translation": "Somos/Están",
+            "pronunciation": "sind",
+            "options": [
+                "Una televisión",
+                "Ventana",
+                "Somos/Están",
+                "Los trabajos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "nicht",
+            "translation": "No",
+            "pronunciation": "nicht",
+            "options": [
+                "Correr",
+                "Frío",
+                "No",
+                "Una decisión"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "kalt",
+            "translation": "Frío",
+            "pronunciation": "kalt",
+            "options": [
+                "Jane no está en casa ahora. Está en el trabajo.",
+                "Frío",
+                "La bolsa",
+                "La mujer"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Polizist",
+            "translation": "Policía",
+            "pronunciation": "polizist",
+            "options": [
+                "Tus llaves están en la mesa.",
+                "Ningunos computadores",
+                "Policía",
+                "El trabajo"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Arzt",
+            "translation": "Doctor",
+            "pronunciation": "arzt",
+            "options": [
+                "Una bolsa",
+                "El libro",
+                "Una solución",
+                "Doctor"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Journalist",
+            "translation": "Periodista",
+            "pronunciation": "journalist",
+            "options": [
+                "La rodilla",
+                "La mujer",
+                "Recibir",
+                "Periodista"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Schlüssel",
+            "translation": "Llave",
+            "pronunciation": "schlüssel",
+            "options": [
+                "El niño",
+                "La rodilla",
+                "Llave",
+                "Eso no es un computador, es un monitor."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Fenster",
+            "translation": "Ventana",
+            "pronunciation": "fenster",
+            "options": [
+                "Quedarse",
+                "Una televisión",
+                "Ventana",
+                "Una bolsa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Mir ist kalt. Kannst du das Fenster schließen, bitte?",
+            "translation": "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+            "pronunciation": "mir ist kalt. kannst du das fenster schließen, bitte?",
+            "options": [
+                "Un teléfono",
+                "Tengo frío. ¿Puedes cerrar la ventana, por favor?",
+                "El hombre",
+                "Eso no es un computador, es un monitor."
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Ich bin 31 Jahre alt. Meine Schwester ist 27.",
+            "translation": "Tengo 31 años. Mi hermana tiene 27.",
+            "pronunciation": "ich bin 31 jahre alt. meine schwester ist 27.",
+            "options": [
+                "Tengo 31 años. Mi hermana tiene 27.",
+                "Kate y yo somos buenos amigos.",
+                "Una bolsa",
+                "Periodista"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Mein Bruder ist sehr groß. Er ist Polizist.",
+            "translation": "Mi hermano es muy alto. Es policía.",
+            "pronunciation": "mein bruder ist sehr groß. er ist polizist.",
+            "options": [
+                "Mi hermano es muy alto. Es policía.",
+                "El doctor",
+                "Somos/Están",
+                "Hoy hace sol, pero no hace calor."
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Mike hat Angst vor Hunden.",
+            "translation": "Mike tiene miedo de los perros.",
+            "pronunciation": "mike hat angst vor hunden.",
+            "options": [
+                "Vestir",
+                "Mike tiene miedo de los perros.",
+                "Volar",
+                "Una decisión"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Es ist neun Uhr. Du bist wieder zu spät.",
+            "translation": "Son las nueve. Estás tarde otra vez.",
+            "pronunciation": "es ist neun uhr. du bist wieder zu spät.",
+            "options": [
+                "Son las nueve. Estás tarde otra vez.",
+                "Hoy hace sol, pero no hace calor.",
+                "Cumplir",
+                "La bolsa"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Kate und ich sind gute Freunde.",
+            "translation": "Kate y yo somos buenos amigos.",
+            "pronunciation": "kate und ich sind gute freunde.",
+            "options": [
+                "Estudiar",
+                "Llave",
+                "Ninguna casa",
+                "Kate y yo somos buenos amigos."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Deine Schlüssel liegen auf dem Tisch.",
+            "translation": "Tus llaves están en la mesa.",
+            "pronunciation": "deine schlüssel liegen auf dem tisch.",
+            "options": [
+                "Tus llaves están en la mesa.",
+                "Entender",
+                "Quedarse",
+                "Corregir"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Ich bin müde, aber ich habe keinen Hunger.",
+            "translation": "Estoy cansado, pero no tengo hambre.",
+            "pronunciation": "ich bin müde, aber ich habe keinen hunger.",
+            "options": [
+                "Las alfombras",
+                "Comprar",
+                "Estoy cansado, pero no tengo hambre.",
+                "Los trenes"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "John interessiert sich nicht für Politik. Er interessiert sich für Musik.",
+            "translation": "A John no le interesa la política. Le interesa la música.",
+            "pronunciation": "john interessiert sich nicht für politik. er interessiert sich für musik.",
+            "options": [
+                "Corregir",
+                "Una cámara de video",
+                "El doctor",
+                "A John no le interesa la política. Le interesa la música."
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Jane ist im Moment nicht zu Hause. Sie ist bei der Arbeit.",
+            "translation": "Jane no está en casa ahora. Está en el trabajo.",
+            "pronunciation": "jane ist im moment nicht zu hause. sie ist bei der arbeit.",
+            "options": [
+                "Jane no está en casa ahora. Está en el trabajo.",
+                "La expresión",
+                "Ningunos computadores",
+                "El vientre"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Diese Leute sind nicht Engländer. Sie sind Japaner.",
+            "translation": "Esa gente no es inglesa. Son japoneses.",
+            "pronunciation": "diese leute sind nicht engländer. sie sind japaner.",
+            "options": [
+                "¡Mira! Ahí está Chris.",
+                "La sociedad",
+                "Esa gente no es inglesa. Son japoneses.",
+                "Doctor"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Es ist heute sonnig, aber es ist nicht warm.",
+            "translation": "Hoy hace sol, pero no hace calor.",
+            "pronunciation": "es ist heute sonnig, aber es ist nicht warm.",
+            "options": [
+                "Periodista",
+                "Hoy hace sol, pero no hace calor.",
+                "Gustar",
+                "Partir"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Das ist = das ist",
+            "translation": "Eso es = eso es",
+            "pronunciation": "das ist = das ist",
+            "options": [
+                "Eso es = eso es",
+                "Son las nueve. Estás tarde otra vez.",
+                "Comer",
+                "Los castillos"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "Es gibt = da ist",
+            "translation": "Hay = ahí está",
+            "pronunciation": "es gibt = da ist",
+            "options": [
+                "Los hombres",
+                "La belleza",
+                "Hay = ahí está",
+                "Los castillos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Hier ist = hier ist",
+            "translation": "Aquí está = aquí está",
+            "pronunciation": "hier ist = hier ist",
+            "options": [
+                "Bailar",
+                "Aquí está = aquí está",
+                "Un gobierno",
+                "Volar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "word": "Danke. Das ist sehr nett von dir.",
+            "translation": "Gracias. Eso es muy amable de tu parte.",
+            "pronunciation": "danke. das ist sehr nett von dir.",
+            "options": [
+                "El doctor",
+                "Ningún computador",
+                "Gracias. Eso es muy amable de tu parte.",
+                "Los trabajos"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Schau! Da ist Chris.",
+            "translation": "¡Mira! Ahí está Chris.",
+            "pronunciation": "schau! da ist chris.",
+            "options": [
+                "¡Mira! Ahí está Chris.",
+                "Las bolsas",
+                "Dividir",
+                "Viajar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "word": "„Hier ist dein Schlüssel“ „Danke“.",
+            "translation": "\"Aquí está tu llave\" \"Gracias\".",
+            "pronunciation": "„hier ist dein schlüssel“ „danke“.",
+            "options": [
+                "Olvidar",
+                "El vientre",
+                "\"Aquí está tu llave\" \"Gracias\".",
+                "Mi hermano es muy alto. Es policía."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Der Kopf",
+            "translation": "La cabeza",
+            "pronunciation": "der kopf",
+            "options": [
+                "El vientre",
+                "Los intereses",
+                "La cabeza",
+                "El periódico"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Der Hals",
+            "translation": "El cuello",
+            "pronunciation": "der hals",
+            "options": [
+                "La bolsa",
+                "La cabeza",
+                "El cuello",
+                "El periódico"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "word": "Die Brust",
+            "translation": "El pecho",
+            "pronunciation": "die brust",
+            "options": [
+                "Ningún computador",
+                "Caer",
+                "La diferencia",
+                "El pecho"
+            ],
+            "correctAnswer": 4
+        },
+        {
+            "word": "Der Bauch",
+            "translation": "El vientre",
+            "pronunciation": "der bauch",
+            "options": [
+                "Mentir",
+                "No",
+                "El vientre",
+                "Eso es un computador."
+            ],
+            "correctAnswer": 3
+        }
+    ]
+}

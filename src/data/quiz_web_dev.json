@@ -1,0 +1,274 @@
+[
+    {
+        "Question Text": "¿Qué es el diseño web responsivo?",
+        "Option 1": "Es la técnica de crear sitios que se ajustan automáticamente a diversas resoluciones y dispositivos.",
+        "Option 2": "Es un método que requiere definir manualmente cada tamaño de pantalla en el código.",
+        "Option 3": "Es un enfoque que solo permite ajustar fuentes y colores según el dispositivo.",
+        "Correct Answer": "Es un enfoque que ajusta automáticamente el diseño de una página a diferentes tamaños de pantalla y dispositivos."
+    },
+    {
+        "Question Text": "¿Cuál es la diferencia clave entre diseño web adaptativo y responsivo?",
+        "Option 1": "El diseño responsivo usa layouts fijos para distintos dispositivos, mientras que el adaptativo emplea un único layout flexible.",
+        "Option 2": "El diseño responsivo solo se adapta a tamaños de pantalla predefinidos sin cambios dinámicos.",
+        "Option 3": "Ambos diseños requieren definir manualmente cada resolución en el código para que se adapten correctamente.",
+        "Correct Answer": "El diseño adaptativo usa layouts fijos, mientras que el responsivo emplea un único layout flexible."
+    },
+    
+    {
+        "Question Text": "¿Qué es la maquetación responsive en desarrollo web?",
+        "Option 1": "Es la técnica de organizar el contenido de una página solo para computadoras de escritorio.",
+        "Option 2": "Es un método para hacer que los sitios web se vean idénticos en todos los dispositivos sin cambios.",
+        "Option 3": "Es un enfoque que solo funciona con resoluciones fijas y no cambia según el dispositivo.",
+        "Correct Answer": "Es la técnica de crear sitios que se ajustan automáticamente a diversas resoluciones y dispositivos."
+    },
+    {
+        "Question Text": "¿Para qué se utiliza comúnmente Bootstrap?",
+        "Option 1": "Es una herramienta utilizada para mejorar la seguridad de aplicaciones web.",
+        "Option 2": "Se usa principalmente para optimizar bases de datos en entornos web.",
+        "Option 3": "Es un framework para crear aplicaciones móviles nativas en Android y iOS.",
+        "Correct Answer": "Es una tecnología comúnmente utilizada para implementar maquetación responsive."
+    },
+    {
+        "Question Text": "¿Qué es Bootstrap en desarrollo web?",
+        "Option 1": "Es un conjunto de herramientas de JavaScript para mejorar la interactividad de una página web.",
+        "Option 2": "Es un sistema de plantillas que permite crear sitios sin necesidad de escribir código CSS.",
+        "Option 3": "Es una librería de HTML que proporciona estilos avanzados para componentes de interfaz.",
+        "Correct Answer": "Es un framework de CSS que simplifica la creación de sitios responsivos con componentes y rejillas predefinidas."
+    },
+    
+    {
+        "Question Text": "¿Cuál es un beneficio de Bootstrap en sitios web responsivos?",
+        "Option 1": "Proporciona una base de datos integrada para almacenar estilos y componentes de usuario.",
+        "Option 2": "Automáticamente convierte cualquier sitio web en una aplicación móvil sin necesidad de cambios en el código.",
+        "Option 3": "Permite diseñar interfaces personalizadas sin necesidad de usar HTML ni CSS.",
+        "Correct Answer": "Ofrece componentes predefinidos que aceleran el desarrollo."
+    },
+    {
+        "Question Text": "¿Por qué es importante entender los tipos de datos en JavaScript?",
+        "Option 1": "Porque permite gestionar los estilos de una página web de forma dinámica.",
+        "Option 2": "Porque define la estructura de los archivos en un proyecto de desarrollo web.",
+        "Option 3": "Porque determina el rendimiento del código en diferentes navegadores.",
+        "Correct Answer": "Porque determina cómo se manejarán los valores en el código."
+    },
+    {
+        "Question Text": "¿Cuál es la razón principal para aprender let, var y const en JavaScript?",
+        "Option 1": "Para mejorar el rendimiento de las páginas web en navegadores modernos.",
+        "Option 2": "Para definir estructuras de datos en bases de datos relacionales.",
+        "Option 3": "Para optimizar la carga de los archivos CSS en un sitio web.",
+        "Correct Answer": "Para asegurar una correcta declaración y gestión de variables en distintos contextos."
+    },
+    {
+        "Question Text": "¿Cuál es la principal diferencia entre let y var en JavaScript?",
+        "Option 1": "let permite definir funciones, mientras que var solo permite definir variables.",
+        "Option 2": "var tiene un ámbito de bloque, mientras que let tiene un ámbito global.",
+        "Option 3": "Ambas se comportan igual, la única diferencia es el nombre de la palabra clave.",
+        "Correct Answer": "let tiene un ámbito de bloque, mientras que var tiene un ámbito de función."
+    },
+    {
+        "Question Text": "¿Por qué se recomienda usar let en lugar de var en JavaScript?",
+        "Option 1": "Porque let permite re-declarar variables dentro del mismo ámbito sin problemas.",
+        "Option 2": "Porque let optimiza el rendimiento del código y lo hace más rápido.",
+        "Option 3": "Porque let permite acceder a la variable antes de ser declarada sin errores.",
+        "Correct Answer": "Porque let evita problemas de alcance al respetar el ámbito de bloque."
+    },
+    
+       
+        {
+            "Question Text": "¿Qué sucede si intentas acceder a una variable declarada con let antes de inicializarla?",
+            "Option 1": "Se devuelve undefined sin errores.",
+            "Option 2": "El código se ejecuta normalmente, pero la variable tiene un valor nulo.",
+            "Option 3": "Se genera un error porque let no se inicializa hasta que la ejecución alcanza su línea de declaración.",
+            "Correct Answer": "Se genera un error porque let no se inicializa hasta que la ejecución alcanza su línea de declaración."
+        },
+        {
+            "Question Text": "¿Cómo maneja var el hoisting en JavaScript?",
+            "Option 1": "Se eleva con su valor asignado, permitiendo su uso antes de la declaración.",
+            "Option 2": "No es elevado y causa un error si se usa antes de la declaración.",
+            "Option 3": "Se eleva con valor undefined, pero no puede usarse antes de la inicialización sin errores.",
+            "Correct Answer": "Se eleva con valor undefined, pero no puede usarse antes de la inicialización sin errores."
+        },
+        {
+            "Question Text": "¿Cuál de las siguientes afirmaciones sobre var es incorrecta?",
+            "Option 1": "var tiene ámbito de bloque, por lo que solo existe dentro de llaves {}.",
+            "Option 2": "var permite redeclarar una variable en el mismo ámbito sin error.",
+            "Option 3": "var puede ser accedida antes de su declaración, pero su valor será undefined.",
+            "Correct Answer": "var tiene ámbito de bloque, por lo que solo existe dentro de llaves {}."
+        },
+        {
+            "Question Text": "¿Cuál es una posible consecuencia de usar var en lugar de let?",
+            "Option 1": "Se optimiza el rendimiento del código, haciéndolo más rápido.",
+            "Option 2": "Puede causar errores de lógica debido a que ignora el ámbito de bloque.",
+            "Option 3": "Se evita la inicialización de variables, reduciendo el consumo de memoria.",
+            "Correct Answer": "Puede causar errores de lógica debido a que ignora el ámbito de bloque."
+        },
+    
+        
+            {
+                "Question Text": "¿Cómo se clasifica JavaScript como lenguaje de programación?",
+                "Option 1": "Es un lenguaje de programación compilado.",
+                "Option 2": "Es un lenguaje de bajo nivel utilizado para manipular hardware.",
+                "Option 3": "Es un lenguaje exclusivamente orientado a bases de datos.",
+                "Correct Answer": "JavaScript es un lenguaje de programación interpretado."
+            },
+            {
+                "Question Text": "¿Cuál es una de las funciones principales de JavaScript en una página web?",
+                "Option 1": "Permitir la comunicación directa con servidores de bases de datos sin restricciones.",
+                "Option 2": "Controlar únicamente la estructura y presentación de una página web.",
+                "Option 3": "Restringir la ejecución de contenido dinámico en los navegadores.",
+                "Correct Answer": "Añadir interactividad y dinamismo al contenido."
+            },
+            {
+                "Question Text": "¿Qué son las media queries en diseño web responsivo?",
+                "Option 1": "Son funciones de JavaScript para modificar el DOM dinámicamente.",
+                "Option 2": "Son reglas que permiten cambiar el color y la fuente del texto en una página web.",
+                "Option 3": "Son estructuras de código que solo se ejecutan en navegadores móviles.",
+                "Correct Answer": "Son reglas que aplican estilos CSS específicos según el tamaño de la pantalla o dispositivo."
+            },
+        
+            {
+                "Question Text": "¿Qué significa el enfoque 'Mobile First' en diseño web?",
+                "Option 1": "Es un método que optimiza imágenes y videos para reducir el peso de la web en dispositivos móviles.",
+                "Option 2": "Es un modelo de diseño donde se crean primero las versiones de escritorio y luego se adaptan a móviles.",
+                "Option 3": "Es una estrategia en la que el código CSS solo se ejecuta en teléfonos y no en computadoras.",
+                "Correct Answer": "Implica diseñar primero para dispositivos móviles y luego adaptar a pantallas más grandes."
+            },
+            {
+                "Question Text": "¿Qué es un breakpoint en diseño responsivo?",
+                "Option 1": "Es un límite máximo de píxeles en el que un sitio web deja de ser responsivo.",
+                "Option 2": "Es una etiqueta HTML que permite definir distintos tamaños de fuente para cada dispositivo.",
+                "Option 3": "Es una configuración que impide que un sitio web se redimensione en dispositivos móviles.",
+                "Correct Answer": "Es un punto donde el layout se ajusta para adaptarse a un tamaño de pantalla específico."
+            },
+            
+                {
+                    "Question Text": "¿Cuál es un beneficio clave del diseño web responsivo?",
+                    "Option 1": "Permite que las páginas web se vean idénticas en todos los dispositivos sin cambios.",
+                    "Option 2": "Hace que los sitios web carguen más rápido eliminando elementos innecesarios en móviles.",
+                    "Option 3": "Ajusta automáticamente el contenido para que solo sea visible en pantallas grandes.",
+                    "Correct Answer": "Facilita la navegación y mejora la experiencia del usuario en dispositivos móviles y tabletas."
+                },
+                {
+                    "Question Text": "¿Para qué se utiliza JavaScript en el desarrollo web?",
+                    "Option 1": "Para diseñar la estructura y presentación de una página web sin necesidad de CSS.",
+                    "Option 2": "Para mejorar la seguridad en servidores mediante cifrado de datos.",
+                    "Option 3": "Para hacer que una página web sea estática y sin interacciones del usuario.",
+                    "Correct Answer": "Para agregar interactividad y comportamiento dinámico a las páginas web."
+                },
+                {
+                    "Question Text": "¿Cuál es la principal función de una función en JavaScript?",
+                    "Option 1": "Almacenar grandes volúmenes de datos en el navegador.",
+                    "Option 2": "Modificar la estructura de una página web sin necesidad de HTML.",
+                    "Option 3": "Ejecutar código de forma automática sin necesidad de ser llamada.",
+                    "Correct Answer": "Encapsular un bloque de código que realiza una tarea específica y puede ser reutilizado."
+                },
+            
+                {
+                    "Question Text": "¿Qué describe el concepto de asincronía en programación?",
+                    "Option 1": "Es una técnica que solo se aplica en sistemas operativos para ejecutar múltiples procesos a la vez.",
+                    "Option 2": "Se refiere a la ejecución de código en segundo plano sin afectar el rendimiento de la aplicación.",
+                    "Option 3": "Es un modelo en el que las operaciones deben completarse en orden antes de continuar con la siguiente tarea.",
+                    "Correct Answer": "La ejecución de tareas en paralelo, permitiendo que el código continúe ejecutándose mientras otras operaciones se completan."
+                },
+                
+                    {
+                        "Question Text": "¿Cuál es un ejemplo típico de una operación manejada de manera asíncrona en JavaScript?",
+                        "Option 1": "La ejecución de una función matemática dentro de un bucle.",
+                        "Option 2": "El cambio de estilos CSS en tiempo real en una página web.",
+                        "Option 3": "El procesamiento de una variable local dentro de una función.",
+                        "Correct Answer": "Una solicitud HTTP a un servidor."
+                    },
+                    {
+                        "Question Text": "¿Cuál de los siguientes es un tipo de operador en JavaScript?",
+                        "Option 1": "El operador de concatenación que une múltiples archivos JavaScript en uno solo.",
+                        "Option 2": "El operador de compresión que reduce el tamaño del código en memoria.",
+                        "Option 3": "El operador de transformación que convierte datos a diferentes formatos automáticamente.",
+                        "Correct Answer": "El operador de asignación."
+                    },
+                    [
+                        {
+                            "Question Text": "¿Cuál es la función principal de los operadores aritméticos en JavaScript?",
+                            "Option 1": "Definir la estructura y el contenido de una página web.",
+                            "Option 2": "Modificar la apariencia de los elementos HTML en el navegador.",
+                            "Option 3": "Permitir la manipulación del DOM sin necesidad de eventos.",
+                            "Correct Answer": "Realizar operaciones matemáticas básicas."
+                        },
+                        {
+                            "Question Text": "¿Qué representa el Document Object Model (DOM) en JavaScript?",
+                            "Option 1": "Es un modelo que permite la ejecución de código en servidores web.",
+                            "Option 2": "Es un sistema de bases de datos integrado en los navegadores.",
+                            "Option 3": "Es una función de JavaScript que genera contenido aleatorio en una página web.",
+                            "Correct Answer": "Representa la estructura de un documento HTML o XML como un árbol de nodos que puede ser manipulado dinámicamente."
+                        },
+                        {
+                            "Question Text": "¿Por qué es importante manejar eventos en el navegador con JavaScript?",
+                            "Option 1": "Porque permite ejecutar código en segundo plano sin afectar la página web.",
+                            "Option 2": "Porque ayuda a mejorar la seguridad de una aplicación evitando accesos no autorizados.",
+                            "Option 3": "Porque permite modificar la velocidad de carga de los recursos en la web.",
+                            "Correct Answer": "Porque permite a los desarrolladores responder a las interacciones del usuario, como clics o entradas de teclado, para mejorar la interactividad del sitio web."
+                        },
+                        {
+                            "Question Text": "¿Qué permite hacer JavaScript en el navegador?",
+                            "Option 1": "Ejecutar comandos directamente en el sistema operativo del usuario.",
+                            "Option 2": "Modificar únicamente la apariencia visual de la página web sin afectar su estructura.",
+                            "Option 3": "Gestionar bases de datos locales de manera predeterminada sin necesidad de un servidor.",
+                            "Correct Answer": "Permite modificar dinámicamente el contenido y la estructura de una página web."
+                        },
+                        
+                        {
+                            "Question Text": "¿Cuál es una de las principales interacciones de JavaScript con el DOM?",
+                            "Option 1": "Modificar la estructura de una base de datos en un servidor.",
+                            "Option 2": "Ejecutar funciones de manera asíncrona para mejorar la velocidad del navegador.",
+                            "Option 3": "Optimizar la compresión de archivos CSS y HTML en la web.",
+                            "Correct Answer": "Modificar el contenido de un elemento HTML."
+                        },
+                        {
+                            "Question Text": "¿Cuál es uno de los beneficios de utilizar funciones en JavaScript?",
+                            "Option 1": "Permitir que el código se ejecute sin necesidad de ser llamado explícitamente.",
+                            "Option 2": "Reducir el consumo de memoria al eliminar variables automáticamente.",
+                            "Option 3": "Aumentar la seguridad del código al restringir el acceso a ciertos módulos.",
+                            "Correct Answer": "Facilita la reutilización de código y mejora la organización del programa."
+                        },
+                        {
+                            "Question Text": "¿Qué permiten hacer los condicionales en JavaScript?",
+                            "Option 1": "Automatizar la ejecución de código sin ninguna condición previa.",
+                            "Option 2": "Modificar el diseño de una página web sin necesidad de CSS.",
+                            "Option 3": "Ejecutar código de manera secuencial sin posibilidad de interrupción.",
+                            "Correct Answer": "Ejecutar diferentes bloques de código basándose en una condición."
+                        },
+                        {
+                            "Question Text": "¿Cuál es la función principal de los ciclos de repetición en JavaScript?",
+                            "Option 1": "Organizar archivos de código en diferentes directorios.",
+                            "Option 2": "Ejecutar código en orden inverso al que fue escrito.",
+                            "Option 3": "Realizar operaciones matemáticas avanzadas en el navegador.",
+                            "Correct Answer": "Repetir un bloque de código varias veces mientras se cumpla una condición."
+                        },
+                        {
+                            "Question Text": "¿Qué es un objeto en JavaScript?",
+                            "Option 1": "Un elemento del DOM que representa un archivo externo en la web.",
+                            "Option 2": "Un tipo de variable que solo almacena valores numéricos.",
+                            "Option 3": "Un componente de CSS que define el diseño de una página web.",
+                            "Correct Answer": "Un tipo de dato que almacena múltiples valores en pares clave-valor."
+                        },
+                            {
+                                "Question Text": "¿Qué pueden almacenar los objetos en JavaScript?",
+                                "Option 1": "Únicamente números y cadenas de texto.",
+                                "Option 2": "Solo referencias a funciones, sin datos primitivos.",
+                                "Option 3": "Exclusivamente valores booleanos y arreglos.",
+                                "Correct Answer": "Cualquier tipo de dato, incluidos otros objetos y funciones."
+                            },
+                            {
+                                "Question Text": "¿Cuál es una estructura de datos común en JavaScript?",
+                                "Option 1": "El archivo JSON, que almacena datos de manera estructurada.",
+                                "Option 2": "El operador ternario, que permite evaluar condiciones en una sola línea.",
+                                "Option 3": "El modelo de eventos, que gestiona interacciones del usuario en la web.",
+                                "Correct Answer": "El Array."
+                            },
+                            {
+                                "Question Text": "¿Qué permite hacer un array en JavaScript?",
+                                "Option 1": "Ejecutar funciones de manera simultánea en distintos hilos de ejecución.",
+                                "Option 2": "Definir estructuras condicionales de manera más eficiente.",
+                                "Option 3": "Guardar una única variable en diferentes formatos de datos.",
+                                "Correct Answer": "Permite guardar una colección de valores en una sola variable."
+                            }
+                          
+]
