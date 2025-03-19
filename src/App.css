@@ -1,33 +1,19 @@
 /* App.css */
-
-/* Ajustes generales */
 .App {
   text-align: center;
-  background-image: url('./images/futuristic-background.png'); /* Asegura que la ruta es correcta */
+  background-image: url('./images/futuristic-background.png'); /* Coloca la ruta correcta del fondo */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: white;
-  padding: 20px;
 }
 
-/* Contenedor para centrar las preguntas */
-.content-container {
-  width: 90%;
-  max-width: 600px; /* Evita que las preguntas sean muy anchas */
-  margin-top: 20px;
-  padding: 15px;
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
-}
-
-/* Estilos del menú */
 .menu {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 2rem;
   padding: 20px;
@@ -36,94 +22,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilos de cada opción del menú */
 .menu-item {
   padding: 10px 20px;
   font-size: 1.5rem;
   color: #00ffff; /* Color futurista */
   cursor: pointer;
   transition: color 0.3s ease;
-  text-align: center;
 }
 
 .menu-item:hover {
   color: #00ff00; /* Efecto hover */
 }
 
-/* Ajustar botones de respuestas */
-.answer-button {
-  width: 100%;
-  max-width: 400px;
-  margin: 10px auto;
-  padding: 10px;
-  font-size: 1rem;
-  background-color: blue;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  display: block;
-}
-
-/* Botón de regreso */
-.back-button {
-  background: transparent;
-  border: none;
-  font-size: 36px;
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  color: #fff;
-  font-weight: bold;
-}
-
-/* Tooltip para el botón de regreso */
-.tooltip-text {
-  visibility: hidden;
-  background-color: #3399ff;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
-  width: 120px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Hacer más compacto en móviles */
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-    gap: 1rem;
-    width: 90%;
-    padding: 15px;
-  }
-
-  .menu-item {
-    font-size: 1.2rem;
-    padding: 8px 15px;
-  }
-
-  .content-container {
-    width: 95%;
-    padding: 10px;
-  }
-
-  .answer-button {
-    font-size: 0.9rem;
-    padding: 8px;
-    max-width: 90%;
-  }
-
-  .back-button {
-    font-size: 28px;
-  }
+h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #00ffff; /* Color futurista */
 }
