@@ -311,7 +311,13 @@ function QuizApp() {
                 )}
                 
                 {showCorrect && <div className="correct">¡Bien hecho!</div>}
-                <p></p> {selectedAnswer && <small>Repasa regunta anterior: <p>{questions[currentQuestionIndex-1]["Question Text"]} : {selectedAnswer}</p></small>}
+                <p></p> 
+                {currentQuestionIndex > 0 && selectedAnswer && (
+  <small>
+    Repasa pregunta anterior: <p>{questions[currentQuestionIndex - 1]["Question Text"]} : {selectedAnswer}</p>
+  </small>
+)}
+
               </div>
               
             )}
