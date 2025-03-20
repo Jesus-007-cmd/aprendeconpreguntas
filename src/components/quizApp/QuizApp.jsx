@@ -283,7 +283,7 @@ function QuizApp() {
             {questions.length > 0 && currentQuestionIndex < questions.length && (
               <div className="question-container">
                 {questions[currentQuestionIndex]["Question Text"]} <p></p>
-                {selectedAnswer && <p>{questions[currentQuestionIndex-1]["Question Text"]} : {selectedAnswer}</p>}
+               
                 {showOnlyCorrect ? (
                   <p>{questions[currentQuestionIndex]["Correct Answer"]}</p>
                 ) : (
@@ -309,8 +309,11 @@ function QuizApp() {
                   
                   
                 )}
+                
                 {showCorrect && <div className="correct">¡Bien hecho!</div>}
+                <p></p><small>Repasa regunta anterior: <p></p> {selectedAnswer && <p>{questions[currentQuestionIndex-1]["Question Text"]} : {selectedAnswer}</p>}</small>
               </div>
+              
             )}
           </div>
         ) : (
