@@ -311,7 +311,27 @@ function QuizApp() {
                 )}
                 
                 {showCorrect && <div className="correct">¡Bien hecho!</div>}
-                <p></p><small>Repasa regunta anterior: <p></p> {selectedAnswer && <p>{questions[currentQuestionIndex-1]["Question Text"]} : {selectedAnswer}</p>}</small>
+                {questions.length > 0 && questions[currentQuestionIndex] ? (
+  <>
+    <p>{questions[currentQuestionIndex]["Question Text"]}</p>
+    
+    {questions[currentQuestionIndex]?.options?.map(option => (
+      <button
+        key={uuidv4()}
+        onClick={() => handleAnswerSelect(option)}
+        className={`quiz-button ${selectedAnswer === option ? "selected" : ""}`}
+      >
+        {option}
+      </button>
+    ))}
+
+    {/* Muestra la opción seleccionada solo si hay una respuesta */}
+    {selectedAnswer && <p>Opción seleccionada: {selectedAnswer}</p>}
+  </>
+) : (
+  <p>Cargando pregunta...</p>
+)}
+
               </div>
               
             )}
