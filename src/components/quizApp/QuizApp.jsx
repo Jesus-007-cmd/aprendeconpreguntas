@@ -291,11 +291,22 @@ function QuizApp() {
                     <button
                       key={uuidv4()}
                       onClick={() => handleAnswerSelect(option)}
-                      className={`quiz-button ${selectedAnswer === option ? "selected" : ""}`}
+                      className={selectedAnswer === option ? "selected" : ""}
+                      style={{
+                        backgroundColor: selectedAnswer === option ? "#ff6600" : "#0056b3",
+                        color: selectedAnswer === option ? "#fff" : "#fff",
+                        fontSize: "2vh",
+                        padding: "10px",
+                        margin: "5px",
+                        borderRadius: "8px",
+                        width: "90%",
+                        maxWidth: "300px",
+                      }}
                     >
                       {option}
                     </button>
                   ))
+                  
                   
                 )}
                 {showCorrect && <div className="correct">¡Bien hecho!</div>}

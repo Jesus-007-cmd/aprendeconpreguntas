@@ -1,98 +1,94 @@
+/* Estilos globales */
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-}
-
-body {
+  overflow-x: hidden; /* Evitar scroll lateral */
   background-color: #121212;
   color: #ffffff;
   font-family: 'Arial', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-/* Mejorar la estructura del contenedor principal */
+/* Contenedor principal del quiz */
 .quiz-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%; /* Ocupar todo el ancho */
+  width: 100%;
   max-width: 600px; /* Limitar el ancho máximo */
-  margin: auto; /* Centrar el contenido */
-  padding: 20px; /* Añadir espaciado interno */
+  margin: auto;
+  padding: 20px;
   box-sizing: border-box;
 }
 
-/* Ajustar el contenedor de preguntas */
+/* Contenedor de las preguntas */
 .question-container {
-  width: 90%; /* Ajustar ancho */
-  max-width: 500px; /* No permitir que sea más ancho de lo necesario */
+  background-color: #0d0a0a;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 2.5vh;
   text-align: center;
+  width: 90%; /* Ajustamos el ancho */
+  max-width: 500px; /* Evitamos que sea más grande de lo necesario */
+  word-wrap: break-word; /* Evitar desbordes de texto */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  border: 1px solid #333;
 }
 
-
-
-.fullscreen-question {
-  width: 100%; /* Ocupar todo el ancho */
-  height: 100%; /* Ocupar todo el alto */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Botones de opciones */
 button {
-  width: 90%; /* Para que se ajusten sin ocupar todo el ancho */
-  max-width: 300px; /* Evitar que sean demasiado grandes */
-  font-size: 2vh; /* Reducir el tamaño del texto */
-}
-
-/* Corregir el menú de selección de categorías */
-.category-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-}
-
-
-
-/* Ajustar botones de respuestas */
-.answer-button {
-  width: 90%; /* Evitar que ocupen todo el ancho */
-  max-width: 300px; /* No más anchos de 300px */
-  margin: 10px auto; /* Añadir margen entre botones */
-  padding: 8px 12px; /* Reducir padding */
-  font-size: 0.9rem; /* Reducir tamaño del texto */
-  background-color: blue;
+  width: 90%;
+  max-width: 300px;
+  font-size: 2vh;
+  padding: 10px;
+  margin: 5px;
+  background-color: #0056b3;
   color: white;
   border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  display: block;
-  word-wrap: break-word; /* Evitar desbordamiento de texto */
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 4px 6px rgba(0, 123, 255, 0.2);
 }
-
 
 button:hover {
   background-color: #004494;
   transform: scale(1.05);
 }
 
-.correct {
-  background-color: rgba(0, 255, 0, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
-  font-size: 3rem;
-  text-align: center;
+/* Opciones seleccionadas */
+.selected {
+  background-color: #ff6600 !important;
+  color: #fff;
 }
 
+/* Indicador de respuesta correcta */
+.correct {
+  background-color: rgba(0, 255, 0, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Contenedor del resultado */
+.result-container {
+  text-align: center;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  border: 1px solid #444;
+}
+
+/* Animación de los botones */
 .glow-on-hover {
   width: auto;
   height: auto;
@@ -133,40 +129,55 @@ button:hover {
   top: 0;
   border-radius: 10px;
 }
-.quiz-button {
-  width: auto; /* Deja que el botón se adapte al contenido */
-  max-width: 300px; /* No permitir que sean más grandes que 300px */
-}
 
+/* Animación del brillo */
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
 
+/* Botón de salir pantalla completa */
+.exit-fullscreen-btn {
+  background-color: #ff3333;
+  color: white;
+  font-size: 1.8vh;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 90%;
+  max-width: 250px;
+}
 
-/* Ajustar para pantallas pequeñas */
+.exit-fullscreen-btn:hover {
+  background-color: #cc0000;
+}
+
+/* Icono de engranaje */
+.settings-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Ajustes para móviles */
 @media (max-width: 600px) {
   .quiz-container {
-    width: 100%; /* Asegurar que ocupe todo el ancho */
-    max-width: 100%; /* No dejar margen vacío */
+    width: 100%;
     padding: 10px;
   }
 
   .question-container {
-    width: 95%; /* Reducir un poco más el ancho */
-  }
-
-  .category-buttons {
-    width: 100%;
+    font-size: 2vh;
+    width: 95%;
   }
 
   button {
-    font-size: 1.8vh; /* Reducir el tamaño de los botones en móviles */
-  }
-  .answer-button {
-    font-size: 0.85rem; /* Reducir tamaño del texto */
-    padding: 6px 10px; /* Menos padding */
-    max-width: 250px; /* Evitar que sean demasiado anchos */
+    font-size: 1.8vh;
   }
 }
