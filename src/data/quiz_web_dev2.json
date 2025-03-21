@@ -1,0 +1,944 @@
+[
+    {
+        "Question Text": "¿En qué se basa el sistema de maquetación en Bootstrap?",
+        "Option 1": "Celdas dentro de contenedores.",
+        "Option 2": "Celdas dentro de filas.",
+        "Option 3": "Columnas dentro de contenedores.",
+        "Correct Answer": "Filas y columnas dentro de contenedores.",
+        "Explanation": "Bootstrap utiliza un sistema de rejilla basado en filas y columnas dentro de contenedores. Esto permite organizar el contenido de manera flexible y responsiva para distintos tamaños de pantalla."
+    },
+    {
+        "Question Text": "¿A qué se le conoce como un break point?",
+        "Option 1": "Al ancho mínimo que puede tener la pantalla hasta que el contenedor se ajuste a la totalidad del ancho de pantalla.",
+        "Option 2": "Al promedio que puede tener la pantalla hasta que el contenedor se ajuste a la totalidad del ancho de pantalla.",
+        "Option 3": "Al ancho de pantalla.",
+        "Correct Answer": "Al ancho máximo que puede tener la pantalla hasta que el contenedor se ajuste a la totalidad del ancho de pantalla.",
+        "Explanation": "Un 'breakpoint' en diseño web es el ancho máximo en el que un diseño cambia de estructura para adaptarse mejor a diferentes tamaños de pantalla. Se usa en CSS Media Queries para hacer que el diseño sea responsivo."
+    },
+    {
+        "Question Text": "¿Qué podemos hacer con Flexbox?",
+        "Option 1": "Ordenar y girar los elementos en la web de manera sencilla.",
+        "Option 2": "Instalar y configurar elementos en la web de manera sencilla.",
+        "Option 3": "Girar y alinear elementos en la web de forma sencilla.",
+        "Correct Answer": "Alinear y ajustar los elementos en la web de forma sencilla.",
+        "Explanation": "Flexbox es un modelo de diseño en CSS que permite alinear y distribuir elementos dentro de un contenedor de forma eficiente, incluso cuando sus tamaños son dinámicos o desconocidos."
+    },
+    
+    {
+        "Question Text": "¿Cuál es la principal ventaja de usar Bootstrap en el desarrollo web?",
+        "Option 1": "Requiere escribir más código CSS personalizado.",
+        "Option 2": "Solo funciona en navegadores específicos.",
+        "Option 3": "No permite personalización de estilos.",
+        "Correct Answer": "Facilita la creación de sitios responsivos y ofrece una amplia variedad de componentes listos para usar.",
+        "Explanation": "Bootstrap es un framework CSS que permite desarrollar sitios responsivos rápidamente, utilizando un sistema de rejilla flexible y una serie de componentes prediseñados que facilitan la maquetación y el diseño."
+    },
+    {
+        "Question Text": "¿Qué significa que Bootstrap sea mobile-first?",
+        "Option 1": "Que está diseñado solo para dispositivos móviles.",
+        "Option 2": "Que requiere configuraciones específicas para funcionar en dispositivos móviles.",
+        "Option 3": "Que no soporta resoluciones grandes como las de escritorio.",
+        "Correct Answer": "Que su diseño y funcionalidad están optimizados primero para móviles y luego se escalan a pantallas más grandes.",
+        "Explanation": "El enfoque 'mobile-first' de Bootstrap significa que el diseño comienza priorizando la experiencia en dispositivos móviles y luego se expande para adaptarse a pantallas más grandes con media queries y reglas de CSS."
+    },
+    {
+        "Question Text": "¿Qué componente de Bootstrap permite mostrar mensajes de alerta al usuario?",
+        "Option 1": "Navbar.",
+        "Option 2": "Grid system.",
+        "Option 3": "Jumbotron.",
+        "Correct Answer": "Alert.",
+        "Explanation": "El componente 'Alert' en Bootstrap permite mostrar mensajes de advertencia, éxito, error o información al usuario con estilos predefinidos y opciones de personalización."
+    },
+    
+    {
+        "Question Text": "La diferencia más evidente entre var y let es:",
+        "Option 1": "Ninguna, las dos hacen lo mismo.",
+        "Option 2": "La manera en la que se escriben.",
+        "Option 3": "Que una puede mutar y la otra no.",
+        "Correct Answer": "Su scope.",
+        "Explanation": "La principal diferencia entre `var` y `let` en JavaScript es su alcance (scope). `var` tiene un alcance de función, mientras que `let` tiene un alcance de bloque, lo que lo hace más seguro para evitar problemas de redeclaración."
+    },
+    {
+        "Question Text": "Se le conoce como contenedor de información, la cual puede ser manipulada o eliminada en el tiempo, a:",
+        "Option 1": "Un valor.",
+        "Option 2": "Un const.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Una variable.",
+        "Explanation": "Una variable es un contenedor de información que puede cambiar con el tiempo. En JavaScript, las variables se pueden declarar con `var`, `let` o `const`, pero solo `let` y `var` permiten modificar su contenido después de ser declaradas."
+    },
+    {
+        "Question Text": "Boolean, undefined, null, number y string son:",
+        "Option 1": "Tipos de datos.",
+        "Option 2": "Palabras escritas en inglés.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "La A y la B juntas.",
+        "Explanation": "Estos son tipos de datos en JavaScript, y más específicamente, tipos de datos primitivos. JavaScript los usa para representar diferentes tipos de valores en la memoria."
+    },
+    {
+        "Question Text": "¿Qué es un operador?",
+        "Option 1": "Una herramienta para escribir notas.",
+        "Option 2": "Unas letras raras.",
+        "Option 3": "Una persona que maneja una máquina.",
+        "Correct Answer": "Símbolos que nos indican cómo manipular una variable.",
+        "Explanation": "Un operador en programación es un símbolo que indica cómo se debe manipular una variable o realizar una operación. Ejemplos comunes en JavaScript incluyen `+`, `-`, `*`, `/`, `=`."
+    },
+    {
+        "Question Text": "No es un tipo de operador:",
+        "Option 1": "Operadores de asignación.",
+        "Option 2": "Operadores lógicos.",
+        "Option 3": "Operadores binarios de comparación.",
+        "Correct Answer": "Operadores de unificación.",
+        "Explanation": "En JavaScript, existen operadores de asignación, comparación, aritméticos, lógicos, bit a bit y de cadena, pero no hay un operador de unificación como tipo específico."
+    },
+    {
+        "Question Text": "Los operadores de asignación son usados para:",
+        "Option 1": "Nada.",
+        "Option 2": "Interrumpir una operación.",
+        "Option 3": "La C y la D son correctas.",
+        "Correct Answer": "Asignar valores a una variable.",
+        "Explanation": "Los operadores de asignación (`=`, `+=`, `-=`, `*=`, etc.) permiten asignar valores a una variable en JavaScript. Por ejemplo, `x = 10` asigna el valor `10` a `x`."
+    },
+    {
+        "Question Text": "Si a = ‘valorA’ y b = ‘valorB’, entonces a !== b es igual a:",
+        "Option 1": "False.",
+        "Option 2": "O.",
+        "Option 3": "Valor B.",
+        "Correct Answer": "True.",
+        "Explanation": "En JavaScript, el operador `==` compara valores sin tener en cuenta el tipo de dato. Si `a` y `b` son cadenas diferentes ('valorA' y 'valorB'), la comparación `a == b` devolverá `false`, no `true`. Por lo que la respuesta correcta debería ser `False.` y no `True.`."
+    },
+    {
+        "Question Text": "Si a = null y b = undefined, entonces a === b es igual a:",
+        "Option 1": "O.",
+        "Option 2": "Null.",
+        "Option 3": "True.",
+        "Correct Answer": "False.",
+        "Explanation": "El operador `===` compara tanto el valor como el tipo de dato. En este caso, `null` y `undefined` tienen valores similares, pero son de tipos diferentes, por lo que `null === undefined` devuelve `false`."
+    },
+    {
+        "Question Text": "Si myVar = 5, el resultado de myVar > 10 es igual a:",
+        "Option 1": "Undefined.",
+        "Option 2": "O.",
+        "Option 3": "True.",
+        "Correct Answer": "False.",
+        "Explanation": "La expresión `myVar > 10` evalúa si `5` es mayor que `10`, lo cual es `false`. En este tipo de comparaciones, el resultado siempre será un valor booleano `true` o `false`."
+    },
+    {
+        "Question Text": "Si myVar = ‘Hola jose’, el typeof myVar será:",
+        "Option 1": "Undefined.",
+        "Option 2": "Number.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "String.",
+        "Explanation": "El operador `typeof` en JavaScript devuelve el tipo de dato de una variable. En este caso, `typeof 'Hola jose'` devuelve `'string'` porque es una cadena de texto."
+    },
+    {
+        "Question Text": "Si a = true y b = false, entonces a || b es:",
+        "Option 1": "False.",
+        "Option 2": "O.",
+        "Option 3": "Undefined.",
+        "Correct Answer": "True.",
+        "Explanation": "El operador `||` (OR lógico) evalúa dos valores y devuelve `true` si al menos uno de ellos es `true`. Como `a = true` y `b = false`, la expresión `a || b` devuelve `true`."
+    },
+    {
+        "Question Text": "Si myVar = 5; ¿la operación ternaria en ‘myVar === 3 ? true : false’ devolverá:",
+        "Option 1": "Undefined.",
+        "Option 2": "O.",
+        "Option 3": "True.",
+        "Correct Answer": "False.",
+        "Explanation": "La operación ternaria evalúa `myVar === 3`. Como `myVar` es `5`, la comparación `5 === 3` es `false`, por lo que la expresión ternaria devuelve `false`."
+    },
+    {
+        "Question Text": "Una función es:",
+        "Option 1": "Algo que hacemos.",
+        "Option 2": "Algo que vemos en el teatro.",
+        "Option 3": "Un montón de código escrito sin orden.",
+        "Correct Answer": "Un pequeño segmento de código encapsulado.",
+        "Explanation": "En JavaScript, una función es un bloque de código reutilizable diseñado para realizar una tarea específica. Se encapsula dentro de un bloque y puede ser ejecutado cuando se necesite."
+    },
+    {
+        "Question Text": "Una función anónima es:",
+        "Option 1": "Una función que tiene muchos nombres.",
+        "Option 2": "Un conjunto de instrucciones sin sentido.",
+        "Option 3": "Una función que no se ejecuta nunca.",
+        "Correct Answer": "Una función que no tiene nombre.",
+        "Explanation": "Las funciones anónimas en JavaScript son aquellas que no tienen un identificador. Suelen usarse en expresiones de función y en callbacks."
+    },
+    {
+        "Question Text": "La palabra reservada function le indica a JavaScript que:",
+        "Option 1": "Culmina una sentencia.",
+        "Option 2": "Documente un bloque de código.",
+        "Option 3": "No haga nada.",
+        "Correct Answer": "Vamos a definir una función.",
+        "Explanation": "En JavaScript, la palabra reservada `function` se utiliza para declarar una función. Permite definir un bloque de código ejecutable cuando sea llamado."
+    },
+    {
+        "Question Text": "¿Cuál es el valor por defecto que tiene un parámetro?",
+        "Option 1": "Null.",
+        "Option 2": "0.",
+        "Option 3": "''.",
+        "Correct Answer": "Undefined.",
+        "Explanation": "En JavaScript, si una función se llama sin proporcionar todos los argumentos esperados, los parámetros que no reciben un valor quedan como `undefined` por defecto."
+    },
+    {
+        "Question Text": "A una función podemos pasarle como parámetros:",
+        "Option 1": "Números.",
+        "Option 2": "Cadenas de caracteres.",
+        "Option 3": "Objetos.",
+        "Correct Answer": "Todas las anteriores.",
+        "Explanation": "En JavaScript, las funciones pueden recibir cualquier tipo de dato como argumento, incluyendo números, cadenas, objetos, arreglos e incluso otras funciones."
+    },
+    {
+        "Question Text": "Si una función es anónima, ¿qué nombre toma la pila de llamadas?",
+        "Option 1": "Ninguno.",
+        "Option 2": "El nombre de quien la invoca.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "El nombre de la variable.",
+        "Explanation": "Cuando una función anónima se asigna a una variable, la pila de llamadas utiliza el nombre de la variable para identificar la función en caso de errores o depuración."
+    },
+    {
+        "Question Text": "Una función tiene acceso a las variables dentro del ámbito:",
+        "Option 1": "Del programa.",
+        "Option 2": "De la línea.",
+        "Option 3": "De ninguno.",
+        "Correct Answer": "Del que está definida.",
+        "Explanation": "En JavaScript, el ámbito de una variable dentro de una función está determinado por el lugar donde fue declarada. Una función solo tiene acceso a las variables definidas dentro de su propio ámbito y en los ámbitos superiores."
+    },
+    {
+        "Question Text": "Una función ante dos variables que se llamen iguales y que estén definidas en distintos ámbitos ¿qué valor tomará?",
+        "Option 1": "El valor del nivel superior.",
+        "Option 2": "El valor del nivel inferior.",
+        "Option 3": "Ninguno.",
+        "Correct Answer": "El valor de su nivel.",
+        "Explanation": "Cuando existen dos variables con el mismo nombre en diferentes niveles de ámbito, la función tomará la variable que esté definida en su propio nivel, priorizándola sobre las variables de niveles superiores."
+    },
+    {
+        "Question Text": "La siguiente línea de código '() => 'test' ' representa:",
+        "Option 1": "El valor de una cadena de caracteres.",
+        "Option 2": "Una arrow function que devuelve un número.",
+        "Option 3": "Una arrow function que se llama test.",
+        "Correct Answer": "Una arrow function que retorna la cadena de caracteres 'test'.",
+        "Explanation": "La sintaxis '() => 'test'' representa una función de flecha (arrow function) en JavaScript que no recibe parámetros y devuelve directamente la cadena 'test'."
+    },
+    {
+        "Question Text": "¿Qué funciones pueden ser ejecutadas al momento?",
+        "Option 1": "Las no definidas.",
+        "Option 2": "Las binarias.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Las definidas.",
+        "Explanation": "Solo las funciones previamente definidas pueden ejecutarse inmediatamente. En JavaScript, las funciones pueden llamarse de inmediato si están correctamente declaradas."
+    },
+    {
+        "Question Text": "Para ejecutar una función en el momento se debe hacer lo siguiente:",
+        "Option 1": "Poner solo un cierre de paréntesis al final de la función.",
+        "Option 2": "Poner parámetros a la función.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Poner entre paréntesis toda la función y seguidamente un cierre de paréntesis.",
+        "Explanation": "Las IIFE (Immediately Invoked Function Expressions) en JavaScript se ejecutan automáticamente cuando se definen al encerrar la función dentro de paréntesis y agregando un paréntesis de ejecución al final."
+    },
+    {
+        "Question Text": "La siguiente es una ejecución al momento:",
+        "Option 1": "(() => console.log('Este es un ejemplo')).",
+        "Option 2": "() => console.log('Este es un ejemplo')().",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "(() => console.log('Este es un ejemplo'))().",
+        "Explanation": "Las funciones autoejecutables (IIFE) requieren que la función completa esté dentro de paréntesis y se invoquen inmediatamente con otro paréntesis final, como en el ejemplo correcto."
+    }
+    ,
+    {
+        "Question Text": "¿Qué es la recursividad?",
+        "Option 1": "Es una función que llama a otras funciones en sus instrucciones.",
+        "Option 2": "Es una función que recurre a otras funciones especiales en sus instrucciones.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Es una función que se llama a sí misma en sus instrucciones.",
+        "Explanation": "La recursividad es una técnica en la que una función se llama a sí misma para resolver problemas de manera iterativa hasta que se cumpla una condición base."
+    },
+    {
+        "Question Text": "La recursividad es útil para:",
+        "Option 1": "Ejecutar bloques de código muy largos.",
+        "Option 2": "Nada.",
+        "Option 3": "Todo.",
+        "Correct Answer": "Hacer búsquedas eficientes.",
+        "Explanation": "La recursividad es útil para problemas como búsqueda en estructuras jerárquicas (como árboles) o la implementación de algoritmos eficientes como la búsqueda binaria."
+    },
+    {
+        "Question Text": "Ejemplos donde se puede ocupar la recursividad:",
+        "Option 1": "Sumar números.",
+        "Option 2": "Potencia de números.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Serie de Fibonacci.",
+        "Explanation": "La serie de Fibonacci es un problema clásico donde la recursividad permite calcular valores basados en la suma de los dos valores anteriores."
+    },
+    {
+        "Question Text": "Si llamas una función y esta tiene parámetros definidos y no le pasas valores:",
+        "Option 1": "La ejecución dará error.",
+        "Option 2": "La ejecución mostrará errores.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "La ejecución tomará valores undefined en esos parámetros.",
+        "Explanation": "En JavaScript, si una función tiene parámetros definidos y se llama sin argumentos, los parámetros tomarán el valor undefined por defecto."
+    },
+    {
+        "Question Text": "A una función que se llama a sí misma se le conoce como:",
+        "Option 1": "Función tradicional.",
+        "Option 2": "Función flecha.",
+        "Option 3": "Nada, no es posible que una función se llame a sí misma.",
+        "Correct Answer": "Función recursiva.",
+        "Explanation": "La recursividad es una técnica en la que una función se llama a sí misma para resolver problemas de manera iterativa hasta que se cumpla una condición base."
+    },
+    {
+        "Question Text": "El parámetro rest:",
+        "Option 1": "Es lo primero que definimos en una función.",
+        "Option 2": "Se usa para indicarle a una función que ejecute una resta.",
+        "Option 3": "Reinicia una función.",
+        "Correct Answer": "Siempre se debe definir último.",
+        "Explanation": "El parámetro rest permite representar un número indefinido de argumentos como un array y siempre debe ser el último parámetro de la función."
+    },
+    {
+        "Question Text": "¿Cuál es el principal uso de los condicionales?",
+        "Option 1": "Complicarnos la vida.",
+        "Option 2": "Aumentar la complejidad del código.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Ayudar en la toma de decisiones dentro de nuestro desarrollo.",
+        "Explanation": "Los condicionales permiten ejecutar diferentes bloques de código según se cumpla o no una condición, facilitando la toma de decisiones en el desarrollo de software."
+    },
+    {
+        "Question Text": "Un ‘if’ siempre va acompañado de un ‘else’ cuando:",
+        "Option 1": "Nunca.",
+        "Option 2": "Siempre.",
+        "Option 3": "Ninguna de las anteriores es correcta.",
+        "Correct Answer": "Cuando es necesario tomar una decisión lógica que puede tener dos posibilidades.",
+        "Explanation": "El uso de 'else' no es obligatorio, pero se utiliza cuando se desea ejecutar un bloque de código alternativo si la condición en 'if' no se cumple."
+    },
+    {
+        "Question Text": "El siguiente fragmento de código ‘else { bloque de código }’ genera:",
+        "Option 1": "Un bloque de código.",
+        "Option 2": "Nada.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Un error.",
+        "Explanation": "En JavaScript, un bloque 'else' solo puede aparecer después de un 'if'. Si se coloca sin un 'if' correspondiente, generará un error de sintaxis."
+    },
+    {
+        "Question Text": "¿De qué forma podemos iterar de manera inversa usando for?",
+        "Option 1": "No se puede.",
+        "Option 2": "Inicializando el valor, iterando con un valor alto y haciéndolo decrecer.",
+        "Option 3": "Inicializando el valor iterando con 0 y haciéndolo crecer.",
+        "Correct Answer": "Inicializando el valor, iterando con un valor alto y haciéndolo decrecer.",
+        "Explanation": "En un bucle for, podemos iterar en orden inverso inicializando la variable con un valor alto y reduciéndola en cada iteración con una condición de parada adecuada."
+    },
+    {
+        "Question Text": "La principal diferencia entre for in y for of es:",
+        "Option 1": "Ambos son ciclos de repetición.",
+        "Option 2": "Que una se lleva ‘in’ y la otra ‘on’.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Con el for in iteramos en propiedades de un JSON y en for of sobre un array.",
+        "Explanation": "El bucle 'for in' recorre las propiedades enumerables de un objeto, mientras que 'for of' recorre los valores de un iterable como un array o un string."
+    },
+    {
+        "Question Text": "La principal diferencia entre while y do while es:",
+        "Option 1": "Ninguna.",
+        "Option 2": "While es más eficiente que do while.",
+        "Option 3": "La b y la c son correctas.",
+        "Correct Answer": "Do while siempre se ejecutará al menos la primera oportunidad.",
+        "Explanation": "La estructura 'do while' ejecuta el bloque de código al menos una vez antes de evaluar la condición, mientras que 'while' evalúa la condición antes de la primera ejecución."
+    },
+    {
+        "Question Text": "¿Qué tipo de ciclo repetitivo permite iterar elementos de un arreglo?",
+        "Option 1": "For in.",
+        "Option 2": "For of.",
+        "Option 3": "For each.",
+        "Correct Answer": "Todos los anteriores.",
+        "Explanation": "En JavaScript, 'for in' recorre las propiedades de un objeto, 'for of' itera sobre los valores de un iterable como un array y 'forEach' ejecuta una función sobre cada elemento de un array."
+    },
+    {
+        "Question Text": "¿Qué permite hacer el ciclo repetitivo for each?",
+        "Option 1": "Permite iterar los valores de las variables de un método.",
+        "Option 2": "Permite iterar sobre las propiedades de un objeto.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Permite iterar sobre un array y especificar qué se quiere hacer para cada elemento.",
+        "Explanation": "'forEach' es un método de los arrays en JavaScript que permite recorrer cada elemento y ejecutar una función sobre él sin necesidad de usar un índice manualmente."
+    },
+    {
+        "Question Text": "¿Qué diferencia hay entre una estructura de tipo switch e Ifs anidados?",
+        "Option 1": "Ninguna.",
+        "Option 2": "Los Ifs anidados son más fáciles de estructurar.",
+        "Option 3": "Switch es mucho más corto.",
+        "Correct Answer": "Switch es más eficiente que los ifs anidados.",
+        "Explanation": "El 'switch' evalúa una expresión y ejecuta el caso correspondiente, mientras que los 'if' anidados requieren evaluar múltiples condiciones una por una, lo que puede ser menos eficiente."
+    },
+    {
+        "Question Text": "¿Qué es un objeto en JavaScript?",
+        "Option 1": "Una cosa.",
+        "Option 2": "Una variable.",
+        "Option 3": "Un tipo de dato primitivo.",
+        "Correct Answer": "Un tipo de dato no primitivo.",
+        "Explanation": "En JavaScript, un objeto es una estructura que almacena datos y funciones como pares clave-valor, lo que lo hace un tipo de dato no primitivo."
+    },
+    {
+        "Question Text": "¿Cómo se llaman los elementos internos de un objeto?",
+        "Option 1": "Variables.",
+        "Option 2": "Constantes.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Propiedades.",
+        "Explanation": "Las propiedades de un objeto en JavaScript son los valores almacenados dentro de él, a los cuales se puede acceder mediante claves (nombres de propiedad)."
+    },
+    {
+        "Question Text": "¿Qué tipo de función no tiene acceso al objeto this?",
+        "Option 1": "Función recursiva.",
+        "Option 2": "Función clásica.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Función arrow.",
+        "Explanation": "Las funciones arrow en JavaScript no tienen su propio contexto 'this', sino que lo heredan del ámbito en el que fueron definidas."
+    },
+    {
+        "Question Text": "Cuando accedemos al valor de una propiedad de un objeto de la siguiente manera: ‘object.property’, hacemos uso de:",
+        "Option 1": "Shenlong.",
+        "Option 2": "Gamabunta.",
+        "Option 3": "Bracket notation.",
+        "Correct Answer": "Dot notation.",
+        "Explanation": "La notación de punto (dot notation) permite acceder a las propiedades de un objeto en JavaScript escribiendo 'objeto.propiedad'. Es la forma más común y sencilla de acceso."
+    },
+    {
+        "Question Text": "¿Cuál es el resultado de la ejecución del siguiente código? const animal = { especie: 'mamífero', printEspecie: () => { console.log(`La especie es ${this.especie}`); }}; const propiedad = 'especie'; console.log(animal[propiedad]);",
+        "Code": "const animal = { especie: 'mamífero', printEspecie: () => { console.log(`La especie es ${this.especie}`); }}; const propiedad = 'especie'; console.log(animal[propiedad]);",
+        "Option 1": "Especie.",
+        "Option 2": "La especie es undefined.",
+        "Option 3": "La especie es mamífero.",
+        "Correct Answer": "Mamífero.",
+        "Explanation": "Al usar 'animal[propiedad]', estamos accediendo dinámicamente a la propiedad 'especie' del objeto 'animal', cuyo valor es 'mamífero'."
+    },
+    {
+        "Question Text": "El objeto this se utiliza para:",
+        "Option 1": "Inicializar valores.",
+        "Option 2": "Cambiar el valor de una propiedad.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Obtener el valor de una propiedad dentro de una clase u objeto.",
+        "Explanation": "En JavaScript, 'this' se refiere al objeto en el que una función está siendo ejecutada, permitiendo acceder a sus propiedades y métodos."
+    },
+    {
+        "Question Text": "¿Cuál es el uso que se le da al objeto this?",
+        "Option 1": "Complicarnos la vida.",
+        "Option 2": "Aumentar la complejidad del código.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Permite hacer referencia al objeto que se está usando en ese momento.",
+        "Explanation": "El objeto 'this' en JavaScript hace referencia al contexto en el que se ejecuta una función, permitiendo acceder a propiedades y métodos del objeto al que pertenece."
+    },
+    {
+        "Question Text": "Cuando se utiliza el objeto this, ¿a qué propiedades se tiene acceso desde él?",
+        "Option 1": "Ninguno.",
+        "Option 2": "Los que hayan sido declarados en el tiempo de ejecución.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Todas.",
+        "Explanation": "El objeto 'this' tiene acceso a todas las propiedades del objeto al que pertenece, siempre que sean accesibles en el contexto de ejecución."
+    },
+    {
+        "Question Text": "¿Qué característica puede definir al objeto this?",
+        "Option 1": "Usuario.",
+        "Option 2": "Cliente.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Propietario.",
+        "Explanation": "El objeto 'this' se asocia con el 'propietario' del contexto en el que se ejecuta una función, lo que le permite acceder a las propiedades y métodos del objeto dueño."
+    },
+    {
+        "Question Text": "¿Cuál es la finalidad de la programación orientada a objetos?",
+        "Option 1": "Representar variables que no son de ningún tipo primitivo.",
+        "Option 2": "Desarrollar bajo un paradigma de programación estructurado.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Poder representar elementos de la realidad dentro del desarrollo de software.",
+        "Explanation": "La programación orientada a objetos permite modelar elementos del mundo real dentro del software, facilitando su representación a través de objetos y clases."
+    },
+    {
+        "Question Text": "Se le conoce como los atributos del <<modelo>> a:",
+        "Option 1": "Abstracción.",
+        "Option 2": "Herencia.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Encapsulación.",
+        "Explanation": "En la programación orientada a objetos, la encapsulación es un principio fundamental que protege los datos dentro de un objeto y restringe su acceso desde fuera de la clase."
+    },
+    {
+        "Question Text": "Se le conoce al proceso desarrollado para simplificar un objeto real:",
+        "Option 1": "Encapsulamiento.",
+        "Option 2": "Herencia.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Abstracción.",
+        "Explanation": "La abstracción permite modelar solo los aspectos esenciales de un objeto del mundo real, omitiendo detalles innecesarios para la implementación."
+    },
+    {
+        "Question Text": "Se conoce como cadena de prototipos a:",
+        "Option 1": "Un conjunto de strings relacionados en orden jerárquico.",
+        "Option 2": "A clases que son prototipadas.",
+        "Option 3": "A instancias de un prototipo.",
+        "Correct Answer": "A objetos que contienen, dentro de alguna de sus propiedades, otro objeto prototipo, que a su vez contiene propiedades heredadas y es posible que dicho objeto contenga otro.",
+        "Explanation": "La cadena de prototipos en JavaScript es el mecanismo mediante el cual los objetos pueden heredar propiedades y métodos de otros objetos a través de la referencia `__proto__` o `Object.getPrototypeOf`."
+    },
+    {
+        "Question Text": "¿Cuál es el primer objeto de herencia que heredan todos los objetos?",
+        "Option 1": "Class.",
+        "Option 2": "La clase definida por el usuario.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Object.",
+        "Explanation": "En JavaScript, `Object` es la raíz de todos los objetos. Cualquier objeto en JavaScript hereda de `Object.prototype` a menos que se cree explícitamente sin prototipo mediante `Object.create(null)`."
+    },
+    {
+        "Question Text": "¿Cuál sería el resultado del siguiente código?\n\n```js\nconsole.log(fordScort.toString());\n\nCar.prototype.toString = function () {\n    return 'Im the override toString() function';\n}\n\nconsole.log(fordScort.toString());\n```",
+        "Option 1": "Un error.",
+        "Option 2": "Nada.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Primero desplegaría '[Object Object]' y después la leyenda 'Im the override toString() function'.",
+        "Explanation": "La primera llamada a `toString()` usa la implementación predeterminada en `Object.prototype`, devolviendo `[Object Object]`. Luego, al redefinir `toString()` en el prototipo de `Car`, la segunda llamada devuelve el nuevo mensaje definido."
+    },
+    {
+        "Question Text": "En JavaScript se establece una relación entre la instancia y su prototipo a través de la propiedad:",
+        "Option 1": "Ninguna.",
+        "Option 2": "__Class__.",
+        "Option 3": "__Object__.",
+        "Correct Answer": "__proto__.",
+        "Explanation": "La propiedad `__proto__` en JavaScript permite acceder al prototipo de un objeto. Aunque no se recomienda su uso directo en código moderno, sigue siendo útil para la inspección de herencias y prototipos."
+    },
+    {
+        "Question Text": "El prototipo de la instancia de un objeto, que se accede a través de `__proto__`, y el prototipo del constructor, hacen referencia a:",
+        "Option 1": "La misma instancia.",
+        "Option 2": "El mismo artículo.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "El mismo objeto.",
+        "Explanation": "En JavaScript, `__proto__` de una instancia apunta al mismo objeto que `constructor.prototype`, estableciendo así la cadena de prototipos."
+    },
+    {
+        "Question Text": "Los métodos y propiedades son definidos en la propiedad `prototype`, que reside en:",
+        "Option 1": "El constructor de la clase.",
+        "Option 2": "El constructor del prototipo.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "El constructor del objeto.",
+        "Explanation": "En JavaScript, la propiedad `prototype` se encuentra en la función constructora y define métodos y propiedades compartidas por todas sus instancias."
+    },
+    {
+        "Question Text": "¿Qué con las clases?",
+        "Option 1": "Estructura de datos.",
+        "Option 2": "Funciones.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Plantillas para la instanciación de objetos.",
+        "Explanation": "Las clases en JavaScript sirven como plantillas para crear objetos, permitiendo definir propiedades y métodos que compartirán sus instancias."
+    },
+    {
+        "Question Text": "¿Cuál es la utilidad de un constructor?",
+        "Option 1": "Crear un objeto.",
+        "Option 2": "Modificar los valores de un objeto ya creado.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Inicializar todas o alguna de las propiedades de una clase.",
+        "Explanation": "El constructor de una clase es un método especial que se ejecuta al instanciar un objeto, permitiendo inicializar sus propiedades con valores específicos."
+    },
+    {
+        "Question Text": "¿Qué pasa si no se define una clase antes de utilizar un constructor?",
+        "Option 1": "Una pausa.",
+        "Option 2": "Nada.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Un error.",
+        "Explanation": "Si intentas usar un constructor sin definir la clase previamente, JavaScript lanzará un error porque no podrá encontrar la referencia a la clase."
+    },
+    {
+        "Question Text": "¿Cómo se puede hacer uso de la herencia?",
+        "Option 1": "Usando la palabra 'inherits'.",
+        "Option 2": "Usando la palabra 'child'.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Usando la palabra 'extends'.",
+        "Explanation": "En JavaScript, la palabra clave 'extends' se usa para indicar que una clase hereda de otra, permitiendo reutilizar propiedades y métodos de la clase padre."
+    },
+    {
+        "Question Text": "¿En qué consiste la herencia?",
+        "Option 1": "En que una clase hija tenga acceso a los atributos de una clase padre.",
+        "Option 2": "En que una clase hija tenga acceso a los métodos de una clase padre.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "En que una clase hija tenga acceso a los atributos y métodos de una clase padre.",
+        "Explanation": "La herencia permite que una clase hija adquiera propiedades y métodos de una clase padre, promoviendo la reutilización del código y la organización jerárquica."
+    },
+    {
+        "Question Text": "¿Cómo puede una clase hija acceder a los miembros de la clase padre?",
+        "Option 1": "Con la palabra reservada 'father'.",
+        "Option 2": "Con la palabra reservada 'top'.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Con la palabra reservada 'super'.",
+        "Explanation": "La palabra clave 'super' se usa en clases derivadas para acceder a los métodos y propiedades de la clase padre, permitiendo invocar su constructor o métodos específicos."
+    },
+    {
+        "Question Text": "¿Qué son los getters y setters?",
+        "Option 1": "Algoritmos especiales que permiten acceder o modificar un valor de una manera determinada.",
+        "Option 2": "Estructuras de datos especiales que permiten acceder o modificar a un valor de una manera determinada.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Funciones especiales que permiten acceder o modificar un valor de una manera determinada.",
+        "Explanation": "Los getters y setters son funciones especiales en JavaScript que permiten obtener y modificar los valores de propiedades dentro de una clase de forma controlada."
+    },
+    {
+        "Question Text": "¿Cómo se establece un getter?",
+        "Option 1": "Declarando, dentro de la clase, un método y colocando la palabra reservada 'get' al final del método.",
+        "Option 2": "Declarando dentro de la clase un método y dentro de este iniciar con la palabra reservada 'get'.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Declarando dentro de la clase un método e iniciando con la palabra reservada 'get'.",
+        "Explanation": "Para definir un getter en JavaScript, se usa la palabra clave 'get' antes del nombre del método dentro de una clase, lo que permite acceder a la propiedad como si fuera un atributo."
+    },
+    {
+        "Question Text": "¿Cómo se ejecuta en una instancia un setter?",
+        "Option 1": "Objeto[setter]=valor.",
+        "Option 2": "Set objeto.setter=valor.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Instancia.setter=valor.",
+        "Explanation": "Para ejecutar un setter en una instancia, se asigna un valor a la propiedad definida como setter, lo que permite modificar su valor de manera controlada."
+    },
+    {
+        "Question Text": "Se denomina «estructura de dato» a:",
+        "Option 1": "El proceso de ejecución de código asíncrono.",
+        "Option 2": "La clase en JS que ayuda a sumar elementos.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "La forma de organizar datos de una manera particular y eficiente.",
+        "Explanation": "Una estructura de datos es una manera específica de organizar y almacenar datos en la memoria para optimizar su uso y acceso."
+    },
+    {
+        "Question Text": "Listas, pilas y colas son:",
+        "Option 1": "Clases.",
+        "Option 2": "Objetos.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Tipos de estructuras de datos.",
+        "Explanation": "Las listas, pilas y colas son estructuras de datos utilizadas para organizar elementos con reglas específicas para inserción y eliminación."
+    },
+    {
+        "Question Text": "La estructura de datos cuyo principio es el fin de esta es:",
+        "Option 1": "Array.",
+        "Option 2": "Lista doblemente enlazada.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Lista circular doblemente enlazada.",
+        "Explanation": "En una lista circular doblemente enlazada, el último nodo apunta al primero y viceversa, permitiendo un recorrido continuo sin un punto de finalización."
+    },
+    {
+        "Question Text": "Propiedad que permite saber el tamaño de un array:",
+        "Option 1": "Size.",
+        "Option 2": "Extension.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Length.",
+        "Explanation": "En JavaScript, la propiedad 'length' permite conocer la cantidad de elementos que contiene un array."
+    },
+    {
+        "Question Text": "Valor que se puede poner dentro de un corchete para un array:",
+        "Option 1": "Número enteros.",
+        "Option 2": "Variables.",
+        "Option 3": "Cadenas.",
+        "Correct Answer": "Todas las anteriores.",
+        "Explanation": "Los índices de un array pueden ser números enteros, variables o incluso cadenas en caso de objetos con estructura similar a un array."
+    },
+    {
+        "Question Text": "La función filter:",
+        "Option 1": "No es utl en absoluto",
+        "Option 2": "Es útil para limpiar u obtener elementos que no sabías que existían.",
+        "Option 3": "Es útil para limpiar cachés de memoria.",
+        "Correct Answer": "Es útil para limpiar u obtener elementos particulares.",
+        "Explanation": "La función 'filter' en JavaScript devuelve un nuevo array con los elementos que cumplen con una condición especificada en una función de callback."
+    },
+    {
+        "Question Text": "El método reduce:",
+        "Option 1": "Es la función reductora de arrays.",
+        "Option 2": "Es la función reductora del tamaño de arrays.",
+        "Option 3": "Es la función que reduce las interacciones a un array.",
+        "Correct Answer": "Es la función reductora de arrays.",
+        "Explanation": "El método 'reduce' en JavaScript permite reducir un array a un único valor aplicando una función acumulativa sobre cada uno de sus elementos."
+    },
+    {
+        "Question Text": "El callback del método reduce cuántos parámetros puede recibir?",
+        "Option 1": "Dos.",
+        "Option 2": "Uno.",
+        "Option 3": "Ninguno.",
+        "Correct Answer": "Cuatro.",
+        "Explanation": "El callback de 'reduce' puede recibir hasta cuatro parámetros: el acumulador, el valor actual, el índice actual y el array completo."
+    },
+    {
+        "Question Text": "¿Qué pasaría si se crean operaciones muy complejas sobre arreglos infinitamente grandes con los métodos map o reduce?",
+        "Option 1": "Nada.",
+        "Option 2": "Se ejecuta sin problemas.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Podría obtener como resultado un memory leak.",
+        "Explanation": "El uso de 'map' o 'reduce' en arreglos muy grandes sin control puede causar problemas de rendimiento e incluso provocar memory leaks al consumir demasiada memoria."
+    },
+    {
+        "Question Text": "¿Cuál es la diferencia entre paralelismo y concurrencia?",
+        "Option 1": "Ninguna, los dos tienen el mismo principio.",
+        "Option 2": "La concurrencia trata varias tareas en un mismo hilo, pero nunca simultáneamente y el paralelismo sí las trata de manera simultánea.",
+        "Option 3": "La concurrencia puede tratar varias tareas al mismo tiempo y el paralelismo también, pero más rápido.",
+        "Correct Answer": "La concurrencia trata varias tareas en un mismo hilo, pero nunca simultáneamente y el paralelismo sí las trata de manera simultánea.",
+        "Explanation": "La concurrencia permite gestionar múltiples tareas dividiendo el tiempo de ejecución en un mismo hilo, mientras que el paralelismo ejecuta varias tareas al mismo tiempo en distintos hilos."
+    },
+    {
+        "Question Text": "JavaScript es:",
+        "Option 1": "Monohilo.",
+        "Option 2": "Multithread.",
+        "Option 3": "Es multihilo y se apoya en la computación en la nube.",
+        "Correct Answer": "Monohilo.",
+        "Explanation": "JavaScript es un lenguaje de programación monohilo, lo que significa que solo ejecuta una operación a la vez en el hilo principal, aunque puede manejar tareas asincrónicas con el event loop."
+    },
+    {
+        "Question Text": "El código asíncrono:",
+        "Option 1": "Bloquea la siguiente instrucción hasta que ha terminado.",
+        "Option 2": "No bloquea la siguiente instrucción, pero debe acabar junto con todo el bloque que se está ejecutando.",
+        "Option 3": "No se sabe por qué es asíncrono.",
+        "Correct Answer": "No bloquea la siguiente instrucción.",
+        "Explanation": "El código asíncrono en JavaScript permite que una operación continúe en segundo plano sin bloquear la ejecución del resto del programa, mejorando la eficiencia del rendimiento."
+    },
+    {
+        "Question Text": "¿Qué procesa la cola o queue en el event loop?",
+        "Option 1": "Frames.",
+        "Option 2": "Objetos.",
+        "Option 3": "Todo lo anterior.",
+        "Correct Answer": "Mensajes.",
+        "Explanation": "El event loop de JavaScript maneja la ejecución de tareas asincrónicas procesando mensajes en la cola de tareas, permitiendo que el código continúe ejecutándose sin bloquearse."
+    },
+    {
+        "Question Text": "¿Qué patrón no maneja la asincronía?",
+        "Option 1": "Callbacks.",
+        "Option 2": "Promesas.",
+        "Option 3": "Observables.",
+        "Correct Answer": "Sync blocks.",
+        "Explanation": "Los bloques de código síncrono (sync blocks) ejecutan tareas de manera secuencial sin esperar operaciones asincrónicas, lo que puede bloquear la ejecución del programa hasta que finalicen."
+    },
+    {
+        "Question Text": "¿Dónde reside la memoria del programa y dónde se almacena de forma dinámica la información?",
+        "Option 1": "Queue.",
+        "Option 2": "Stack.",
+        "Option 3": "Ninguna.",
+        "Correct Answer": "Heap.",
+        "Explanation": "En la memoria heap se almacena la información de manera dinámica, lo que permite que los objetos y estructuras de datos puedan crecer y cambiar de tamaño en tiempo de ejecución."
+    },
+    {
+        "Question Text": "¿Cuándo se produce el pyramid of doom?",
+        "Option 1": "Cuando concatenas una promesa tras otra.",
+        "Option 2": "Cuando tienes varios observables anidados.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Cuando introduces un callback dentro de otro de manera repetida.",
+        "Explanation": "El 'pyramid of doom' ocurre cuando los callbacks están anidados en múltiples niveles, dificultando la legibilidad y el mantenimiento del código. Se soluciona con Promesas o async/await."
+    },
+    {
+        "Question Text": "SetTimeOut:",
+        "Option 1": "Te permite esperar una cantidad de tiempo de manera síncrona.",
+        "Option 2": "Ejecuta su callback durante una cantidad de tiempo de manera asíncrona.",
+        "Option 3": "Ejecuta su callback una vez que ha terminado el tiempo especificado de manera asíncrona.",
+        "Correct Answer": "Te permite esperar una cantidad de tiempo de manera asíncrona.",
+        "Explanation": "La función setTimeout ejecuta una función después de un tiempo específico sin bloquear la ejecución del código, permitiendo operaciones asíncronas."
+    },
+    {
+        "Question Text": "Las excepciones con el async y await se manejan con:",
+        "Option 1": "Con el catch de las promesas.",
+        "Option 2": "Te devuelve un error la función.",
+        "Option 3": "Se manejan de manera interna.",
+        "Correct Answer": "Con try/catch.",
+        "Explanation": "El manejo de errores en funciones async/await se hace con try/catch, lo que permite capturar y manejar errores de manera estructurada y clara."
+    },
+    {
+        "Question Text": "¿Qué es el DOM?",
+        "Option 1": "Las siglas de document object map.",
+        "Option 2": "Documento JSON donde se especifica el fichero HTML.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Es una interfaz de programación para documentos HTML y XML.",
+        "Explanation": "El DOM (Document Object Model) es una interfaz de programación que permite manipular la estructura de un documento HTML o XML como si fuera un objeto en un lenguaje de programación."
+    },
+    {
+        "Question Text": "El nodo document es:",
+        "Option 1": "Un objeto que contiene una lista de nodos.",
+        "Option 2": "El último nodo del DOM.",
+        "Option 3": "Es el primero nodo del DOM donde cuelga el nodo HTML.",
+        "Correct Answer": "El nodo del que cuelgan body y head.",
+        "Explanation": "El nodo document es el punto de entrada al DOM y contiene los elementos principales de la página web, como el head y el body."
+    },
+    {
+        "Question Text": "¿Qué estructura tiene el DOM?",
+        "Option 1": "Una lista.",
+        "Option 2": "Una pila.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Un árbol.",
+        "Explanation": "El DOM tiene una estructura jerárquica en forma de árbol donde cada nodo representa un elemento HTML o XML dentro del documento."
+    },
+    {
+        "Question Text": "Método a través del cual se puede acceder a un nodo de acuerdo con su ID:",
+        "Option 1": "document.myId.",
+        "Option 2": "myId.getProperty().",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "document.getElementById('myId').",
+        "Explanation": "El método document.getElementById('myId') permite acceder a un elemento del DOM utilizando su atributo ID."
+    },
+    {
+        "Question Text": "Método que permite encontrar la primera ocurrencia de un objeto dentro del DOM:",
+        "Option 1": "document.querySelectorAll('.example').",
+        "Option 2": "document.find('example').",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "document.querySelector('.example').",
+        "Explanation": "El método document.querySelector('.example') devuelve el primer elemento dentro del documento que coincida con el selector especificado."
+    },
+    {
+        "Question Text": "Método que permite añadir una clase a un elemento de DOM:",
+        "Option 1": "classList.attach().",
+        "Option 2": "Item.add().",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "classList.add().",
+        "Explanation": "El método classList.add() se utiliza para añadir una o más clases a un elemento dentro del DOM sin sobrescribir las clases existentes."
+    },
+    {
+        "Question Text": "¿Qué es un evento?",
+        "Option 1": "Un evento es la acción de un usuario.",
+        "Option 2": "Un evento es un tipo de formulario.",
+        "Option 3": "Todo lo anterior.",
+        "Correct Answer": "Un evento es una acción o aviso disparado por el navegador cuando ocurre algo específico.",
+        "Explanation": "Un evento en JavaScript es una notificación que indica que ha sucedido algo, como un clic, un cambio en un input o la carga de la página."
+    },
+    {
+        "Question Text": "¿Qué método se usa para registrar un evento?",
+        "Option 1": "addEventAdvice.",
+        "Option 2": "registerEventLister.",
+        "Option 3": "newEvent.",
+        "Correct Answer": "addEventListener.",
+        "Explanation": "El método addEventListener() se usa para asignar eventos a elementos en JavaScript, permitiendo definir múltiples eventos sin sobrescribir otros."
+    },
+    {
+        "Question Text": "¿Cuál es la finalidad de un submit()?",
+        "Option 1": "Limpiar un formulario.",
+        "Option 2": "Modificar un formulario.",
+        "Option 3": "Validar un formulario.",
+        "Correct Answer": "Enviar un formulario al servidor.",
+        "Explanation": "El método submit() se usa para enviar los datos de un formulario a un servidor, activando el evento submit del formulario."
+    },
+    {
+        "Question Text": "Utilizamos la etiqueta HTML <form> para:",
+        "Option 1": "Generar una alerta.",
+        "Option 2": "Agregar una imagen.",
+        "Option 3": "Mostrar una lista.",
+        "Correct Answer": "Crear un formulario.",
+        "Explanation": "La etiqueta <form> en HTML se usa para definir un formulario, permitiendo la entrada de datos mediante distintos elementos como inputs, botones y select."
+    },
+    {
+        "Question Text": "El método .checkValidity():",
+        "Option 1": "Realiza validaciones personalizadas.",
+        "Option 2": "Valida un campo del formulario.",
+        "Option 3": "No valida nada.",
+        "Correct Answer": "Devuelve un valor true o false.",
+        "Explanation": "El método checkValidity() se usa en formularios para verificar si los campos cumplen con las reglas de validación establecidas, devolviendo true o false."
+    },
+    {
+        "Question Text": "¿Qué sucede al hacer un submit inválido en un formulario?",
+        "Option 1": "Nada.",
+        "Option 2": "El formulario desaparece.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "Actúa el método checkValidity(), se dispara la alerta de error y no permite el submit.",
+        "Explanation": "Cuando se intenta enviar un formulario con datos inválidos, el método checkValidity() valida los campos y muestra un mensaje de error si es necesario."
+    },
+    {
+        "Question Text": "Se usa la propiedad .setItem() para:",
+        "Option 1": "Eliminar una propiedad del local storage.",
+        "Option 2": "Eliminar una propiedad del session storage.",
+        "Option 3": "Todo lo anterior.",
+        "Correct Answer": "Crear o modificar un valor en local o session storage.",
+        "Explanation": "El método .setItem() se usa en localStorage o sessionStorage para crear o modificar un valor asociado a una clave específica."
+    },
+    {
+        "Question Text": "Se usa la propiedad .getItem() para:",
+        "Option 1": "Agregar una propiedad del local storage.",
+        "Option 2": "Agregar una propiedad del session storage.",
+        "Option 3": "Todo lo anterior.",
+        "Correct Answer": "Leer un valor en local o session storage.",
+        "Explanation": "El método .getItem() permite recuperar los valores almacenados en localStorage o sessionStorage mediante una clave específica."
+    },
+    {
+        "Question Text": "¿Cuál es la principal diferencia entre local storage y session storage?",
+        "Option 1": "Ninguna.",
+        "Option 2": "En local puedo guardar más información que en session.",
+        "Option 3": "En local storage la información se pierde.",
+        "Correct Answer": "En session storage la información tiene tiempo de caducidad.",
+        "Explanation": "La diferencia principal es que en sessionStorage los datos se eliminan cuando se cierra la pestaña del navegador, mientras que en localStorage los datos persisten."
+    },
+    {
+        "Question Text": "¿Qué permite hacer un método privado de clase?",
+        "Option 1": "No mostrar información de ningún tipo.",
+        "Option 2": "Exponer hacia fuera la información de la clase.",
+        "Option 3": "Ninguna de las anteriores.",
+        "Correct Answer": "No muestra información fuera del ámbito de la clase.",
+        "Explanation": "Los métodos privados en una clase están diseñados para no ser accesibles desde fuera de la clase, lo que garantiza el encapsulamiento y la seguridad de la información."
+    },
+    {
+        "Question Text": "¿Qué hace un getter?",
+        "Option 1": "Permite asignar un valor.",
+        "Option 2": "Permite acceder a un valor y posteriormente asignarle otro.",
+        "Option 3": "Un getter no existe.",
+        "Correct Answer": "Permite acceder a un valor.",
+        "Explanation": "Un getter es un método en programación orientada a objetos que permite acceder a un valor de un atributo privado de una clase sin modificarlo."
+    },
+    {
+        "Question Text": "Promise.any()…:",
+        "Option 1": "Devuelve cualquier promesa.",
+        "Option 2": "Devuelve cualquiera que haya fallado.",
+        "Option 3": "Devuelve la primera que cambie su estado pending.",
+        "Correct Answer": "Devuelve la primera promesa con éxito.",
+        "Explanation": "Promise.any() devuelve la primera promesa que se resuelve correctamente entre un conjunto de promesas, ignorando las que fallan hasta que al menos una tiene éxito."
+    },
+    {
+        "Question Text": "¿Qué versión de EcmaScript supuso una revolución para el lenguaje?",
+        "Option 1": "ES10.",
+        "Option 2": "ES11.",
+        "Option 3": "ES5.",
+        "Correct Answer": "ES6.",
+        "Explanation": "ES6 (EcmaScript 2015) introdujo características clave como `let`, `const`, arrow functions, template literals, destructuring, clases y módulos, revolucionando el desarrollo con JavaScript."
+    },
+    {
+        "Question Text": "Palabras reservadas para el uso de módulos externos:",
+        "Option 1": "Open y close.",
+        "Option 2": "Start y stop.",
+        "Option 3": "Todas las anteriores.",
+        "Correct Answer": "Import y export.",
+        "Explanation": "Las palabras reservadas `import` y `export` permiten manejar módulos en JavaScript, facilitando la organización del código en archivos separados."
+    },
+    {
+        "Question Text": "Palabra reservada que podemos utilizar para que el módulo sepa que, por defecto, va siempre a exportar ese trozo de código:",
+        "Option 1": "Ninguna.",
+        "Option 2": "Always.",
+        "Option 3": "Export.",
+        "Correct Answer": "Default.",
+        "Explanation": "La palabra reservada `default` permite exportar un valor por defecto en un módulo, lo que facilita su importación sin necesidad de usar un nombre específico."
+    }
+    ,
+    {
+        "Question Text": "¿Qué permite el optional chaining?",
+        "Option 1": "Concatenar strings.",
+        "Option 2": "Concatenar números.",
+        "Option 3": "Concatenar arrays.",
+        "Correct Answer": "Ninguna de las anteriores.",
+        "Explanation": "El optional chaining (`?.`) permite acceder a propiedades de objetos anidados sin generar un error si alguna de ellas es `undefined` o `null`."
+    },
+    {
+        "Question Text": "¿Cuántos niveles permite aplanar un array la función map()?",
+        "Option 1": "Uno.",
+        "Option 2": "Cualquiera de la secuencia de Fibonacci.",
+        "Option 3": "Hasta diez.",
+        "Correct Answer": "Tantos como se especifiquen.",
+        "Explanation": "El método `flatMap()` en JavaScript permite aplanar un array hasta la profundidad especificada por el usuario."
+    },
+    {
+        "Question Text": "¿Qué tipo de condición necesita el matchAll para funcionar?",
+        "Option 1": "Booleana.",
+        "Option 2": "Asignación lógica.",
+        "Option 3": "Ninguna porque es un iterable.",
+        "Correct Answer": "Expresión regular.",
+        "Explanation": "El método `matchAll()` de JavaScript devuelve un iterable con todas las coincidencias de una expresión regular en una cadena."
+    },
+        {
+            "Question Text": "¿Qué hace la función trim()?",
+            "Option 1": "Lo mismo que trimEnd().",
+            "Option 2": "Lo mismo que trimStart().",
+            "Option 3": "Quitar los espacios de ambos lados del string.",
+            "Correct Answer": "Quitar los espacios de ambos lados del string.",
+            "Explanation": "La función `trim()` en JavaScript elimina los espacios en blanco del inicio y del final de una cadena."
+        },
+        {
+            "Question Text": "¿Qué hace la función Object.prototype.fromEntries?",
+            "Option 1": "Convertir un objeto en un array de arrays.",
+            "Option 2": "Convertir un array de arrays en un objeto.",
+            "Option 3": "Convertir un objeto en un prototipo.",
+            "Correct Answer": "Convertir un array de arrays en un objeto.",
+            "Explanation": "`Object.fromEntries()` toma un array de pares clave-valor y lo convierte en un objeto en JavaScript."
+        },
+        {
+            "Question Text": "En la versión ES10/2019:",
+            "Option 1": "No pasa nada.",
+            "Option 2": "La versión Try permite un catch opcional.",
+            "Option 3": "Se incorpora la función matchAll.",
+            "Correct Answer": "La versión Try permite un catch opcional.",
+            "Explanation": "ES10 introdujo la posibilidad de utilizar `try/catch` sin necesidad de definir explícitamente un parámetro de error en `catch`."
+        }
+    
+]

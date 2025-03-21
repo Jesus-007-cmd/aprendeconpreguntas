@@ -9,6 +9,8 @@ import telcelQuestions1 from '../../data/preguntastelcel.json';
 import telcelQuestions2 from '../../data/preguntastelcel2.json';
 import lenguajeFrances from '../../data/LenguajeFrances.json';
 import quiz_web_dev from '../../data/quiz_web_dev.json';
+import quiz_web_dev2 from '../../data/quiz_web_dev2.json';
+
 import Bar from './Bar';
 import ActionBar from './ActionBar';
 
@@ -75,6 +77,8 @@ function QuizApp() {
         return lenguajeFrances;
       case 'quiz_web_dev':
           return quiz_web_dev;
+      case 'quiz_web_dev2':
+          return quiz_web_dev2;
       default:
         return [];
     }
@@ -227,6 +231,7 @@ function QuizApp() {
             <button className="glow-on-hover" onClick={() => handleCategorySelect('telcel2')}>Preguntas Telcel 2</button>
             <button className="glow-on-hover" onClick={() => handleCategorySelect('lenguajeFrances')}>Preguntas Frances</button>
             <button className="glow-on-hover" onClick={() => handleCategorySelect('quiz_web_dev')}>Preguntas Desarrollo Web Resposivo</button>
+            <button className="glow-on-hover" onClick={() => handleCategorySelect('quiz_web_dev2')}>Preguntas Desarrollo Web Resposivo2</button>
           </div>
           {/* Resto del contenido del quiz */}
 <Bar incorrectQuestions={incorrectQuestions} />
