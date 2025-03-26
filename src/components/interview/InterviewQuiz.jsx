@@ -1,0 +1,533 @@
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import { v4 as uuidv4 } from "uuid";
+
+import quizData from "./data/react_fundamentals.json";
+import notificationSound from "../audio/correctanswer.mp3";
+export default function InterviewQuiz() {
+  const [questions, setQuestions] = useState([]);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [showCorrect, setShowCorrect] = useState(false);
+  const [score, setScore] = useState(0);
+  const [showResult, setShowResult] = useState(false);
+  const [isJsonSelected, setIsJsonSelected] = useState(false);
+  const [isFullScreen, setIsFullScreen] = useState(false); // Para detectar el estado de pantalla completa
+  const [lastKeyPressTime, setLastKeyPressTime] = useState(0); // Tiempo de la última pulsación de tecla
+  const quizContainerRef = useRef(null);
+  const [responseMode, setResponseMode] = useState(true);
+  const [questionLanguage, setQuestionLanguage] = useState("");
+  const [responseLanguage, setResponseLanguage] = useState("");
+  const [selectedQuestionVoice, setSelectedQuestionVoice] = useState(null); // Guardará la voz para las preguntas
+  const [selectedAnswerVoice, setSelectedAnswerVoice] = useState(null); // Guardará la voz para las respuestas
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [showExplanation, setShowExplanation] = useState(false);
+  const [showSpanishTranslation, setShowSpanishTranslation] = useState(false);
+
+  const handleShowAnswer = () => {
+    setShowAnswer(true);
+  };
+
+  // Función para reproducir el audio de la pregunta
+  const playQuestionAudio = useCallback(
+    (text) => {
+      if (!text || !selectedQuestionVoice) return; // Evitar errores si el texto o la voz no están disponibles
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.voice = selectedQuestionVoice; // Usar la voz global seleccionada para preguntas
+      utterance.lang = questionLanguage; // Usar el idioma de la voz seleccionada
+      window.speechSynthesis.speak(utterance);
+    },
+    [selectedQuestionVoice, questionLanguage] // Dependencia en la voz seleccionada para las preguntas
+  );
+
+  // Función para reproducir el audio de la respuesta
+  const playAnswerAudio = useCallback(
+    (text) => {
+      if (!text || !selectedAnswerVoice) return; // Evitar errores si el texto o la voz no están disponibles
+
+      if (responseLanguage !== "es-US") {
+        // Reproduce primero a velocidad lenta
+        const slowUtterance = new SpeechSynthesisUtterance(text);
+        slowUtterance.voice = selectedAnswerVoice;
+        slowUtterance.lang = questionLanguage;
+        slowUtterance.rate = 0.7; // Velocidad lenta
+        window.speechSynthesis.speak(slowUtterance);
+      } else {
+        // Comportamiento normal para otros idiomas
+
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.voice = selectedAnswerVoice;
+        utterance.lang = questionLanguage;
+        utterance.rate = 1; // Velocidad ajustada
+        window.speechSynthesis.speak(utterance);
+      }
+    },
+    [selectedAnswerVoice, responseLanguage, questionLanguage] // Dependencia en la voz seleccionada para las respuestas
+  );
+
+  // Efecto para cargar las voces disponibles y asegurarnos de que están cargadas antes de seleccionarlas
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length === 0) {
+        console.log("Esperando que se carguen las voces...");
+        return;
+      }
+      console.log("Voces cargadas:", voices);
+    };
+
+    // Cargar voces cuando cambian
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    // Cargar voces al inicio
+    loadVoices();
+  }, []);
+
+  const handleAnswerSelect = useCallback(
+    (selectedOption) => {
+      const currentQuestion = questions[currentQuestionIndex];
+      const correctAnswer =
+        currentQuestion.options[currentQuestion.correctAnswer - 1];
+
+      if (selectedOption === correctAnswer) {
+        setScore(score + 1);
+        setShowCorrect(true);
+        playKeyPressSound();
+        playAnswerAudio(correctAnswer); // Usar la voz seleccionada globalmente para respuestas
+        setTimeout(() => {
+          setShowCorrect(false);
+          if (currentQuestionIndex < questions.length - 1) {
+            setCurrentQuestionIndex(currentQuestionIndex + 1);
+          } else {
+            setShowResult(true);
+          }
+        }, 1000);
+      } else {
+        setSelectedAnswer(selectedOption);
+        playAnswerAudio(selectedOption); // Usar la voz seleccionada globalmente para respuestas
+      }
+    },
+    [questions, currentQuestionIndex, score, playAnswerAudio]
+  );
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      const now = Date.now();
+      if (now - lastKeyPressTime < 300) {
+        return;
+      }
+      setLastKeyPressTime(now);
+
+      const currentQuestion = questions[currentQuestionIndex];
+
+      if (
+        !currentQuestion ||
+        !currentQuestion.options ||
+        currentQuestion.options.length === 0
+      ) {
+        return;
+      }
+
+      // Presionar 'Enter' para repetir la pregunta
+      if (event.key === "Enter" || event.key === "NumpadEnter") {
+        playQuestionAudio(currentQuestion.word); // Reproducir el audio de la pregunta
+        return;
+      }
+      if (event.key === "*") {
+        handleShowAnswer();
+
+        // Obtener la respuesta correcta
+        const correctAnswer =
+          currentQuestion.options[currentQuestion.correctAnswer - 1];
+
+        // Reproducir el audio de la respuesta correcta
+        playAnswerAudio(correctAnswer);
+      }
+      // Aquí agregamos la lógica para presionar el 'menos (-)' del teclado numérico
+      if (event.key === "-") {
+        const correctAnswer =
+          currentQuestion.options[currentQuestion.correctAnswer - 1];
+
+        // Selecciona automáticamente la respuesta correcta
+        handleAnswerSelect(correctAnswer);
+      }
+      // Presionar '0' activa el modo de respuesta
+      if (event.key === "0") {
+        setResponseMode(!responseMode); // Cambiar el modo de respuesta
+        playKeyPressSound(); // Reproducir sonido cuando se presione '0'
+        return;
+      }
+
+      // Si se ha activado el modo de respuesta, permitir seleccionar con '1' a '4'
+      if (responseMode && event.key >= "1" && event.key <= "4") {
+        const answerIndex = parseInt(event.key) - 1;
+        if (answerIndex >= 0 && answerIndex < currentQuestion.options.length) {
+          handleAnswerSelect(currentQuestion.options[answerIndex]);
+        }
+      }
+
+      // Si no se ha activado el modo de respuesta, simplemente reproducir el audio de la opción sin seleccionarla
+      if (!responseMode && event.key >= "1" && event.key <= "4") {
+        const answerIndex = parseInt(event.key) - 1;
+        if (answerIndex >= 0 && answerIndex < currentQuestion.options.length) {
+          playAnswerAudio(currentQuestion.options[answerIndex]); // Reproducir el audio de la respuesta
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [
+    questions,
+    currentQuestionIndex,
+    responseMode,
+    handleAnswerSelect,
+    playQuestionAudio,
+    playAnswerAudio,
+    lastKeyPressTime,
+  ]);
+
+  // Función para reproducir sonido
+  const playKeyPressSound = () => {
+    const audio = new Audio(notificationSound);
+    audio.volume = 0.5; // Volumen al 50%
+    audio.play();
+  };
+
+  // Efecto para leer la pregunta cuando cambia la pregunta actual
+  useEffect(() => {
+    if (questions.length > 0) {
+      playQuestionAudio(questions[currentQuestionIndex]?.word); // Reproducir el audio de la pregunta
+    }
+  }, [currentQuestionIndex, questions, playQuestionAudio]);
+
+  useEffect(() => {
+    const handleFullScreenChange = () => {
+      if (document.fullscreenElement) {
+        setIsFullScreen(true);
+      } else {
+        setIsFullScreen(false);
+      }
+    };
+
+    document.addEventListener("fullscreenchange", handleFullScreenChange);
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullScreenChange);
+    };
+  }, []);
+
+  const shuffleArray = (array) => {
+    return array.sort(() => Math.random() - 0.5);
+  };
+
+  const enterFullScreen = () => {
+    if (quizContainerRef.current.requestFullscreen) {
+      quizContainerRef.current.requestFullscreen();
+    } else if (quizContainerRef.current.webkitRequestFullscreen) {
+      quizContainerRef.current.webkitRequestFullscreen();
+    } else if (quizContainerRef.current.msRequestFullscreen) {
+      quizContainerRef.current.msRequestFullscreen();
+    }
+  };
+
+  // Función que maneja la carga y adaptación del JSON para preguntas técnicas (nuevo formato)
+  const handleJsonSelection = (jsonFile) => {
+    const language = "en-US";
+
+    const adaptedQuestions = jsonFile.Questions.map((question) => {
+      const randomQuestionVariant =
+        question["Question Text"][language][
+          Math.floor(Math.random() * question["Question Text"][language].length)
+        ];
+
+      const options = shuffleArray([...question.Options[language]]);
+      const correctAnswer = question["Correct Answer"][language];
+      const explanation = question["Explanation"][language];
+      const category = question.Category;
+
+      return {
+        word: randomQuestionVariant,
+        options,
+        correctAnswer: options.indexOf(correctAnswer) + 1,
+        explanation,
+        category,
+        // Español
+        word_es: question["Question Text"]["es-MX"]?.[0] ?? "Sin traducción",
+        options_es: question["Options"]["es-MX"] ?? [],
+        explanation_es: question["Explanation"]["es-MX"] ?? [],
+      };
+      
+    });
+
+    setQuestions(adaptedQuestions);
+    setQuestionLanguage(language);
+    setResponseLanguage(language);
+    setIsJsonSelected(true);
+
+    // 🔊 Aquí seleccionamos las voces según el idioma elegido:
+    const voices = window.speechSynthesis.getVoices();
+
+    const questionVoice =
+      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
+      voices.find((v) => v.lang === language);
+
+    const answerVoice =
+      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
+      voices.find((v) => v.lang === language);
+
+    setSelectedQuestionVoice(questionVoice);
+    setSelectedAnswerVoice(answerVoice);
+  };
+  const speakExplanation = (explanationArray) => {
+    if (!explanationArray || !selectedAnswerVoice) return;
+  
+    explanationArray.forEach((item) => {
+      if (item.type === "text" || item.type === "title-h2") {
+        const utterance = new SpeechSynthesisUtterance(item.content);
+        utterance.voice = selectedAnswerVoice;
+        utterance.lang = questionLanguage;
+        utterance.rate = 0.85;
+        window.speechSynthesis.speak(utterance);
+      }
+    });
+  };
+  
+  return (
+    <div
+      ref={quizContainerRef}
+      className="min-h-screen bg-[#121212] text-white px-4 py-6 flex flex-col items-center"
+    >
+      <h1 className="text-2xl font-bold text-center mb-6">
+        {quizData["Quiz Title"]}
+      </h1>
+
+      {!isJsonSelected ? (
+        // Pantalla de selección de JSON
+        <div className="flex flex-col items-center gap-4 mb-10">
+          <h2 className="text-xl font-semibold mb-2">
+            Seleccione el tipo de quiz:
+          </h2>
+          <button
+            onClick={() => handleJsonSelection(quizData)}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+            React Fundamentals (Entrevistas técnicas)
+          </button>
+        </div>
+      ) : !showResult && questions.length > 0 ? (
+        <div className="flex flex-col lg:flex-row justify-between gap-6 w-full max-w-6xl">
+        {/* 🟦 Sección original en inglés */}
+        <div className="bg-[#1e1e1e] p-6 rounded-lg shadow-md w-full lg:w-1/2 text-center">
+          <h2 className="text-xl font-semibold mb-4">
+            {questions[currentQuestionIndex]?.word}
+          </h2>
+
+          <div className="text-sm mb-4">
+            <span className="text-gray-300">Calificación:</span> {score}/
+            {questions.length}
+          </div>
+          
+
+          <div className="flex flex-col items-center gap-3">
+            {questions[currentQuestionIndex]?.options?.map((option, index) => (
+              <button
+                key={uuidv4()}
+                onClick={() => handleAnswerSelect(option)}
+                className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${
+                  selectedAnswer === option
+                    ? "bg-orange-600"
+                    : "bg-blue-600 hover:bg-blue-700"
+                }`}
+              >
+                {index + 1}. {option}
+              </button>
+            ))}
+          </div>
+          <button
+            onClick={() => setShowExplanation(!showExplanation)}
+            className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition duration-300"
+          >
+            {showExplanation ? "Ocultar explicación" : "Explicación"}
+          </button>
+
+          {showExplanation && (
+  <div className="mt-4 p-4 bg-gray-800 border border-gray-600 rounded-lg shadow-md transition duration-300">
+    <h3 className="font-bold text-lg mb-2">Explicación:</h3>
+    <div className="space-y-2 text-left text-gray-200">
+      {questions[currentQuestionIndex]?.explanation?.map((item, index) => {
+        if (item.type === "text") {
+          return <p key={index}>{item.content}</p>;
+        } else if (item.type === "title-h2") {
+          return (
+            <h2 key={index} className="text-xl font-bold text-white">
+              {item.content}
+            </h2>
+          );
+        } else if (item.type === "link") {
+          return (
+            <a
+              key={index}
+              href={item.content}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline"
+            >
+              {item.content}
+            </a>
+          );
+        } else if (item.type === "code") {
+          return (
+            <pre
+              key={index}
+              className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
+            >
+              <code>{item.content}</code>
+            </pre>
+          );
+        }
+        return null;
+      })}
+    </div>
+    <button
+  onClick={() => speakExplanation(questions[currentQuestionIndex]?.explanation)}
+  className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
+>
+  🔊 Leer explicación en voz alta
+</button>
+
+  </div>
+)}
+
+
+          {showCorrect && (
+            <div className="mt-4 text-green-400 font-bold text-xl">
+              ¡Correcto!
+            </div>
+          )}
+
+          {!isFullScreen && (
+            <button
+              onClick={enterFullScreen}
+              className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+            >
+              Entrar en pantalla completa
+            </button>
+          )}
+        </div>
+        
+        {/* 📌 Traducción en español a la derecha */}
+ {showSpanishTranslation && (
+      <div className="bg-[#1a1a1a] p-4 rounded-lg shadow-md w-full max-w-md text-sm border border-gray-700">
+        <h2 className="text-lg font-bold text-white mb-2">Pregunta en Español:</h2>
+        <p className="mb-2 text-gray-300">
+          {questions[currentQuestionIndex]?.word_es ?? "Sin traducción"}
+        </p>
+
+        <h3 className="text-md font-bold text-white mb-2">Opciones:</h3>
+        <ul className="list-disc list-inside text-gray-300 space-y-1">
+          {questions[currentQuestionIndex]?.options_es?.map((opt, idx) => (
+            <li key={idx}>{opt}</li>
+          ))}
+        </ul>
+
+        <h3 className="text-md font-bold text-white mt-4 mb-2">Explicación:</h3>
+        <div className="text-gray-300 space-y-2">
+          {Array.isArray(questions[currentQuestionIndex]?.explanation_es) &&
+            questions[currentQuestionIndex].explanation_es.map((item, idx) => {
+              if (item.type === "text") {
+                return <p key={idx}>{item.content}</p>;
+              } else if (item.type === "title-h2") {
+                return <h4 key={idx} className="text-white font-semibold">{item.content}</h4>;
+              } else if (item.type === "link") {
+                return (
+                  <a
+                    key={idx}
+                    href={item.content}
+                    className="text-blue-400 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {item.content}
+                  </a>
+                );
+              }
+              return null;
+            })}
+        </div>
+      </div>
+      
+    )}
+    </div>
+      ) : (
+        <div className="bg-[#1e1e1e] p-6 rounded-lg shadow-md w-full max-w-2xl text-center">
+          <h1 className="text-2xl font-bold mb-4">Resultado Final</h1>
+          <p className="text-lg">
+            Tu puntaje es {score}/{questions.length}
+          </p>
+        </div>
+      )}
+ 
+      {/* Instrucciones y respuesta */}
+      <div className="mt-10 bg-[#1a1a1a] p-6 rounded-lg shadow-md w-full max-w-2xl text-sm">
+        {showAnswer && (
+          <div className="mb-4 text-green-400">
+            La respuesta correcta es:{" "}
+            <strong>
+              {
+                questions[currentQuestionIndex].options[
+                  questions[currentQuestionIndex].correctAnswer - 1
+                ]
+              }
+            </strong>
+          </div>
+        )}
+
+        <h3 className="text-lg font-bold mb-2 text-center">Instrucciones</h3>
+        <div
+          className={`mb-2 text-center font-medium ${
+            responseMode ? "text-green-400" : "text-yellow-300"
+          }`}
+        >
+          {responseMode
+            ? "Se ha activado el modo de respuesta"
+            : "Presiona 0 para activar el modo de respuesta."}
+        </div>
+
+        <ul className="list-disc list-inside space-y-1 text-gray-300">
+          <li>
+            Presiona <strong>Enter</strong> para repetir la pregunta.
+          </li>
+          <li>
+            Presiona <strong>*</strong> para mostrar la respuesta de la
+            pregunta.
+          </li>
+          <li>
+            Presiona <strong>-</strong> para contestar la pregunta y pasar a la
+            siguiente.
+          </li>
+        </ul>
+
+        <div className="text-center mt-4">
+          <button
+            onClick={() => setShowAnswer(!showAnswer)}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded"
+          >
+            {showAnswer ? "Ocultar respuesta" : "Mostrar respuesta"}
+          </button>
+          <button
+  onClick={() => setShowSpanishTranslation(!showSpanishTranslation)}
+  className="mt-4 bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded transition duration-300"
+>
+  {showSpanishTranslation ? "Ocultar traducción" : "Mostrar traducción en español"}
+</button>
+
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,7 +1,5 @@
-// Bar.js
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-import './Bar.css';
 
 const Bar = ({ incorrectQuestions }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -23,9 +21,13 @@ const Bar = ({ incorrectQuestions }) => {
 
   return (
     <div>
-      <div className="bar">
+      <div className="flex space-x-2 p-4 bg-gray-800 rounded shadow-md">
         {incorrectQuestions.map((question, index) => (
-          <div key={index} className="icon" onClick={() => openModal(question)}>
+          <div
+            key={index}
+            className="cursor-pointer text-xl hover:text-gray-300"
+            onClick={() => openModal(question)}
+          >
             ❓
           </div>
         ))}
@@ -35,14 +37,21 @@ const Bar = ({ incorrectQuestions }) => {
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           contentLabel="Pregunta Incorrecta"
+          className="bg-gray-800 text-white p-6 rounded shadow-lg max-w-lg mx-auto mt-20"
+          overlayClassName="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center"
         >
-          <h2>{selectedQuestion["Question Text"]}</h2>
-          <ul>
+          <h2 className="text-xl font-semibold mb-4">{selectedQuestion["Question Text"]}</h2>
+          <ul className="list-disc list-inside mb-4">
             {selectedQuestion["options"].map((option, index) => (
               <li key={index}>{option}</li>
             ))}
           </ul>
-          <button onClick={closeModal}>Cerrar</button>
+          <button
+            onClick={closeModal}
+            className="bg-red-600 hover:bg-red-700 py-2 px-4 rounded"
+          >
+            Cerrar
+          </button>
         </Modal>
       )}
     </div>
