@@ -5,6 +5,733 @@
         "Category": "Hooks",
         "Question Text": {
           "en-US": [
+            "Why should you use the updater function in useState?",
+            "What does the updater function in useState provide?",
+            "How does the updater function help ensure correct state updates in React?"
+          ],
+          "es-MX": [
+            "¿Por qué deberías usar la función actualizadora en useState?",
+            "¿Qué ofrece la función actualizadora en useState?",
+            "¿Cómo ayuda la función actualizadora a asegurar actualizaciones correctas del estado en React?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "The updater function ensures that the state is updated correctly, even if multiple updates are queued. Its argument can be named anything because it is just a placeholder for the current state value.",
+            "The updater function ensures synchronous state updates in React, guaranteeing immediate changes to the state.",
+            "The updater function is required when using complex state values, as React will not update such values without it."
+          ],
+          "es-MX": [
+            "La función actualizadora asegura que el estado se actualice correctamente, incluso si hay múltiples actualizaciones en la cola. Su argumento puede llamarse de cualquier manera, ya que solo es un marcador para el valor actual del estado.",
+            "La función actualizadora asegura actualizaciones de estado sincrónicas en React, garantizando cambios inmediatos en el estado.",
+            "La función actualizadora es necesaria cuando se usan valores de estado complejos, ya que React no actualizará dichos valores sin ella."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "The updater function ensures that the state is updated correctly, even if multiple updates are queued. Its argument can be named anything because it is just a placeholder for the current state value.",
+          "es-MX": "La función actualizadora asegura que el estado se actualice correctamente, incluso si hay múltiples actualizaciones en la cola. Su argumento puede llamarse de cualquier manera, ya que solo es un marcador para el valor actual del estado."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Why Use the Updater Function in useState?" },
+            {
+              "type": "text",
+              "content": "The updater function ensures that state updates are handled correctly, especially in asynchronous scenarios or when multiple updates are queued. This prevents the use of outdated state values during rapid updates."
+            },
+            { "type": "title-h3", "content": "How It Works" },
+            {
+              "type": "text",
+              "content": "React automatically passes the current state value as an argument to the updater function. You can name this argument anything you like (e.g., 'prev', 'current', or 'oldValue'). This flexibility allows developers to adapt the name based on the code context."
+            },
+            {
+              "type": "code",
+              "content": "// Example: Updater Function Usage\nsetCount((prev) => prev + 1); // 'prev' holds the current state value"
+            },
+            {
+              "type": "text",
+              "content": "The function ensures you always work with the latest state value, avoiding issues where multiple updates might overwrite each other."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Por Qué Usar la Función Actualizadora en useState?" },
+            {
+              "type": "text",
+              "content": "La función actualizadora asegura que las actualizaciones de estado se manejen correctamente, especialmente en escenarios asíncronos o cuando hay múltiples actualizaciones en cola. Esto previene el uso de valores de estado desactualizados durante actualizaciones rápidas."
+            },
+            { "type": "title-h3", "content": "¿Cómo Funciona?" },
+            {
+              "type": "text",
+              "content": "React pasa automáticamente el valor actual del estado como argumento a la función actualizadora. Puedes nombrar este argumento como quieras (por ejemplo, 'prev', 'actual' o 'valorAnterior'). Esta flexibilidad permite a los desarrolladores adaptar el nombre según el contexto del código."
+            },
+            {
+              "type": "code",
+              "content": "// Ejemplo: Uso de la Función Actualizadora\nsetContador((anterior) => anterior + 1); // 'anterior' contiene el valor actual del estado"
+            },
+            {
+              "type": "text",
+              "content": "La función asegura que siempre trabajes con el valor más reciente del estado, evitando problemas donde múltiples actualizaciones puedan sobrescribirse entre sí."
+            }
+          ]
+        }
+      }
+,      
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What is the purpose of useRef, and how is it used in React?",
+            "How does useRef work, and when should you use it?"
+          ],
+          "es-MX": [
+            "¿Cuál es el propósito de useRef y cómo se usa en React?",
+            "¿Cómo funciona useRef y cuándo deberías usarlo?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "useRef is used to create a reference to a DOM element or a mutable value that persists across renders without triggering re-renders.",
+            "useRef is used to manage global state across multiple components without the need for props.",
+            "useRef automatically triggers re-renders when the referenced value is updated, ensuring consistent state updates.",
+            "useRef handles side effects in React, optimizing async operations between components."
+          ],
+          "es-MX": [
+            "useRef se utiliza para crear una referencia a un elemento DOM o a un valor mutable que persiste entre renderizados sin provocar re-renderizados.",
+            "useRef se utiliza para gestionar estados globales entre múltiples componentes sin necesidad de props.",
+            "useRef desencadena automáticamente re-renderizados cuando se actualiza el valor referenciado, asegurando actualizaciones consistentes de estado.",
+            "useRef maneja efectos secundarios en React, optimizando operaciones asíncronas entre componentes."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "useRef is used to create a reference to a DOM element or a mutable value that persists across renders without triggering re-renders.",
+          "es-MX": "useRef se utiliza para crear una referencia a un elemento DOM o a un valor mutable que persiste entre renderizados sin provocar re-renderizados."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "What is useRef?" },
+            {
+              "type": "text",
+              "content": "useRef is a React hook that lets you create a persistent reference to a DOM element or a mutable value. It is often used for accessing DOM elements directly or storing values that don't need to trigger re-renders."
+            },
+            { "type": "title-h3", "content": "Example of useRef" },
+            {
+              "type": "code",
+              "content": "// Using useRef to focus an input field\nimport React, { useRef, useEffect } from 'react';\n\nfunction LoginForm() {\n  const usernameRef = useRef();\n\n  useEffect(() => {\n    usernameRef.current.focus(); // Automatically focus the input field on mount\n  }, []);\n\n  return (\n    <form>\n      <label>Username:</label>\n      <input ref={usernameRef} type=\"text\" placeholder=\"Enter username\" />\n      <button type=\"submit\">Login</button>\n    </form>\n  );\n}\n\nexport default LoginForm;"
+            },
+            {
+              "type": "text",
+              "content": "In this example, useRef is used to focus the username input automatically when the component mounts. It provides direct access to the DOM element without causing re-renders."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Qué es useRef?" },
+            {
+              "type": "text",
+              "content": "useRef es un hook de React que te permite crear una referencia persistente a un elemento DOM o a un valor mutable. A menudo se utiliza para acceder directamente a elementos del DOM o almacenar valores que no necesitan provocar re-renderizados."
+            },
+            { "type": "title-h3", "content": "Ejemplo de useRef" },
+            {
+              "type": "code",
+              "content": "// Usando useRef para enfocar un campo de entrada\nimport React, { useRef, useEffect } from 'react';\n\nfunction FormularioLogin() {\n  const referenciaUsuario = useRef();\n\n  useEffect(() => {\n    referenciaUsuario.current.focus(); // Enfoca automáticamente el input al montar\n  }, []);\n\n  return (\n    <form>\n      <label>Nombre de usuario:</label>\n      <input ref={referenciaUsuario} type=\"text\" placeholder=\"Escribe tu usuario\" />\n      <button type=\"submit\">Iniciar sesión</button>\n    </form>\n  );\n}\n\nexport default FormularioLogin;"
+            },
+            {
+              "type": "text",
+              "content": "En este ejemplo, useRef se utiliza para enfocar automáticamente el campo de usuario cuando el componente se monta. Proporciona acceso directo al elemento DOM sin causar re-renderizados."
+            }
+          ]
+        }
+      },
+      
+      {
+        "Category": "Optimization",
+        "Question Text": {
+          "en-US": [
+            "What is React.memo, and how does it help in performance optimization?",
+            "How does React.memo work in React, and why is it not used often?",
+            "When should you use React.memo to optimize rendering in React components?"
+          ],
+          "es-MX": [
+            "¿Qué es React.memo y cómo ayuda a optimizar el rendimiento?",
+            "¿Cómo funciona React.memo en React y por qué no se usa con frecuencia?",
+            "¿Cuándo deberías usar React.memo para optimizar el renderizado en componentes de React?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "React.memo is a higher-order component that wraps functional components to prevent unnecessary re-renders by using a shallow comparison of props.",
+            "React.memo is a React hook used to manually trigger a component re-render when specific conditions are met, improving the application flow.",
+            "React.memo is a feature in React that automatically handles state updates and synchronization between parent and child components.",
+            "React.memo is a performance tool for managing side effects in React, reducing the complexity of async operations across components."
+          ],
+          "es-MX": [
+            "React.memo es un componente de orden superior que envuelve componentes funcionales para evitar renderizados innecesarios mediante una comparación superficial de props.",
+            "React.memo es un hook de React que se utiliza para desencadenar manualmente un re-renderizado de un componente cuando se cumplen condiciones específicas, mejorando el flujo de la aplicación.",
+            "React.memo es una característica de React que maneja automáticamente actualizaciones de estado y sincronización entre componentes padre e hijo.",
+            "React.memo es una herramienta de rendimiento para gestionar efectos secundarios en React, reduciendo la complejidad de operaciones asíncronas entre componentes."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "React.memo is a higher-order component that wraps functional components to prevent unnecessary re-renders by using a shallow comparison of props.",
+          "es-MX": "React.memo es un componente de orden superior que envuelve componentes funcionales para evitar renderizados innecesarios mediante una comparación superficial de props."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "What is React.memo?" },
+            {
+              "type": "text",
+              "content": "React.memo is a higher-order component (HOC) provided by React. It helps optimize the performance of functional components by preventing unnecessary renders. It works by doing a shallow comparison of the props passed to a component. If the props haven't changed, React.memo prevents the component from re-rendering."
+            },
+            { "type": "divider" },
+            { "type": "title-h3", "content": "How Does React.memo Work?" },
+            {
+              "type": "ul",
+              "items": [
+                "React.memo wraps a functional component and only re-renders it when its props change.",
+                "It performs a shallow comparison of the props to determine if re-rendering is needed.",
+                "For more complex prop structures, you can pass a custom comparison function as the second argument to React.memo."
+              ]
+            },
+            {
+              "type": "title-h3",
+              "content": "Why Is React.memo Not Used Frequently?"
+            },
+            {
+              "type": "text",
+              "content": "Although React.memo can be useful, it is not always the best solution due to the following reasons:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "React.memo incurs a performance cost by performing the comparison of props. For simple components, this cost might outweigh the benefits.",
+                "It only prevents re-renders caused by unchanged props. If a component uses context or internal state, it may still render unnecessarily.",
+                "Maintaining and understanding components wrapped with React.memo can add complexity to the codebase."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "title-h3",
+              "content": "Example of React.memo in Action"
+            },
+            {
+              "type": "code",
+              "content": "// A simple functional component wrapped with React.memo\nimport React from 'react';\n\nconst MyComponent = React.memo(({ text }) => {\n  console.log('Component rendered!');\n  return <div>{text}</div>;\n});\n\nfunction App() {\n  const [count, setCount] = React.useState(0);\n\n  return (\n    <div>\n      <button onClick={() => setCount(count + 1)}>Increase Count</button>\n      <MyComponent text=\"This won't re-render\" />\n    </div>\n  );\n}\n\nexport default App;"
+            },
+            {
+              "type": "text",
+              "content": "In this example, the component MyComponent won't re-render when the count state changes because its props remain unchanged."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Qué es React.memo?" },
+            {
+              "type": "text",
+              "content": "React.memo es un componente de orden superior (HOC) proporcionado por React. Ayuda a optimizar el rendimiento de los componentes funcionales evitando renderizados innecesarios. Funciona realizando una comparación superficial de las props pasadas a un componente. Si las props no han cambiado, React.memo evita que el componente se vuelva a renderizar."
+            },
+            { "type": "divider" },
+            { "type": "title-h3", "content": "¿Cómo Funciona React.memo?" },
+            {
+              "type": "ul",
+              "items": [
+                "React.memo envuelve un componente funcional y solo lo vuelve a renderizar cuando sus props cambian.",
+                "Realiza una comparación superficial de las props para determinar si es necesario volver a renderizar.",
+                "Para estructuras de props más complejas, puedes pasar una función de comparación personalizada como segundo argumento a React.memo."
+              ]
+            },
+            {
+              "type": "title-h3",
+              "content": "¿Por Qué No Se Usa React.memo Con Frecuencia?"
+            },
+            {
+              "type": "text",
+              "content": "Aunque React.memo puede ser útil, no siempre es la mejor solución debido a las siguientes razones:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "React.memo tiene un costo de rendimiento al realizar la comparación de props. Para componentes simples, este costo podría superar los beneficios.",
+                "Solo evita renderizados causados por props que no han cambiado. Si un componente usa contexto o estado interno, aún podría renderizarse innecesariamente.",
+                "El mantenimiento y la comprensión de los componentes envueltos con React.memo pueden añadir complejidad al código."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "title-h3",
+              "content": "Ejemplo de React.memo en Acción"
+            },
+            {
+              "type": "code",
+              "content": "// Un componente funcional simple envuelto con React.memo\nimport React from 'react';\n\nconst MiComponente = React.memo(({ texto }) => {\n  console.log('¡Componente renderizado!');\n  return <div>{texto}</div>;\n});\n\nfunction App() {\n  const [contador, setContador] = React.useState(0);\n\n  return (\n    <div>\n      <button onClick={() => setContador(contador + 1)}>Incrementar Contador</button>\n      <MiComponente texto=\"Esto no se volverá a renderizar\" />\n    </div>\n  );\n}\n\nexport default App;"
+            },
+            {
+              "type": "text",
+              "content": "En este ejemplo, el componente MiComponente no se volverá a renderizar cuando cambie el estado contador porque sus props permanecen sin cambios."
+            }
+          ]
+        }
+      },
+      
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What is the difference between useContext and useRef?",
+            "How do useContext and useRef differ in React?",
+            "When should you use useContext instead of useRef?"
+          ],
+          "es-MX": [
+            "¿Cuál es la diferencia entre useContext y useRef?",
+            "¿Cómo se diferencian useContext y useRef en React?",
+            "¿Cuándo deberías usar useContext en lugar de useRef?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "useContext is designed to provide global data to multiple components without manually passing props, while useRef is used to create persistent references to DOM nodes or mutable values that don't trigger re-renders.",
+            "useContext allows direct interaction with the DOM element of a child component, while useRef is used to manage shared states between multiple components more efficiently.",
+            "useContext is specifically built for handling mutable values without causing re-renders in the application, while useRef is intended for accessing shared data through React context.",
+            "useContext is used for storing static data that doesn’t change during the application lifecycle, while useRef triggers re-renders whenever the value it stores is updated."
+          ],
+          "es-MX": [
+            "useContext está diseñado para proporcionar datos globales a múltiples componentes sin necesidad de pasar props manualmente, mientras que useRef se utiliza para crear referencias persistentes a nodos DOM o valores mutables que no provocan re-renderizados.",
+            "useContext permite la interacción directa con el elemento DOM de un componente hijo, mientras que useRef se utiliza para gestionar estados compartidos entre múltiples componentes de manera más eficiente.",
+            "useContext está específicamente construido para manejar valores mutables sin causar re-renderizados en la aplicación, mientras que useRef está destinado a acceder a datos compartidos mediante el contexto de React.",
+            "useContext se utiliza para almacenar datos estáticos que no cambian durante el ciclo de vida de la aplicación, mientras que useRef provoca re-renderizados cada vez que se actualiza el valor que almacena."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "useContext is designed to provide global data to multiple components without manually passing props, while useRef is used to create persistent references to DOM nodes or mutable values that don't trigger re-renders.",
+          "es-MX": "useContext está diseñado para proporcionar datos globales a múltiples componentes sin necesidad de pasar props manualmente, mientras que useRef se utiliza para crear referencias persistentes a nodos DOM o valores mutables que no provocan re-renderizados."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Differences Between useContext and useRef" },
+            {
+              "type": "text",
+              "content": "While useContext and useRef are both React hooks, they serve entirely different purposes. Here’s a detailed breakdown:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "useContext is specifically designed for sharing global data between components without passing props manually. It avoids prop drilling and is ideal for sharing states like themes, user authentication, or application settings.",
+                "useRef is used to create references for DOM nodes or to store mutable values that persist between renders. It doesn't trigger re-renders when the value changes, making it ideal for performance-critical tasks like timers or accessing DOM elements directly.",
+                "useContext triggers re-renders in all consuming components when the context value changes, while useRef does not affect the rendering behavior of components.",
+                "useContext handles shared data globally across components, whereas useRef works locally within a single component unless explicitly passed around."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "title-h3",
+              "content": "Example of useContext"
+            },
+            {
+              "type": "code",
+              "content": "// Using useContext to share global data\nimport React, { createContext, useContext } from 'react';\n\nconst ThemeContext = createContext();\n\nfunction App() {\n  return (\n    <ThemeContext.Provider value=\"dark\">\n      <ChildComponent />\n    </ThemeContext.Provider>\n  );\n}\n\nfunction ChildComponent() {\n  const theme = useContext(ThemeContext);\n  return <div>Current theme: {theme}</div>;\n}"
+            },
+            {
+              "type": "title-h3",
+              "content": "Example of useRef"
+            },
+            {
+              "type": "code",
+              "content": "// Using useRef to access DOM elements\nimport React, { useRef } from 'react';\n\nfunction InputComponent() {\n  const inputRef = useRef();\n\n  const handleFocus = () => {\n    inputRef.current.focus();\n  };\n\n  return (\n    <div>\n      <input ref={inputRef} type=\"text\" placeholder=\"Type something...\" />\n      <button onClick={handleFocus}>Focus Input</button>\n    </div>\n  );\n}"
+            },
+            {
+              "type": "title-h3",
+              "content": "Simulating Global Data with useRef"
+            },
+            {
+              "type": "text",
+              "content": "While useRef can be used to simulate shared or global data by passing a reference through props, this approach requires manual effort and is not scalable for complex applications. Here's how it can be done:"
+            },
+            {
+              "type": "code",
+              "content": "// Simulating shared data with useRef\nimport React, { useRef } from 'react';\n\nfunction ComponentA({ sharedRef }) {\n  const handleUpdate = () => {\n    sharedRef.current = 'Updated by ComponentA';\n  };\n\n  return <button onClick={handleUpdate}>Update Ref</button>;\n}\n\nfunction ComponentB({ sharedRef }) {\n  return <div>Shared value: {sharedRef.current}</div>;\n}\n\nfunction App() {\n  const sharedRef = useRef('Initial value');\n\n  return (\n    <div>\n      <ComponentA sharedRef={sharedRef} />\n      <ComponentB sharedRef={sharedRef} />\n    </div>\n  );\n}"
+            },
+            {
+              "type": "text",
+              "content": "While this method works, it involves manually passing the reference to every component that needs access. For managing truly global states efficiently, useContext or state management libraries like Redux are better options."
+            },
+            { "type": "link", "content": "https://react.dev/reference/react/useContext" }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Diferencias entre useContext y useRef" },
+            {
+              "type": "text",
+              "content": "Aunque useContext y useRef son hooks de React, tienen propósitos completamente diferentes. Aquí está un desglose detallado:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "useContext está diseñado específicamente para compartir datos globales entre componentes sin pasar props manualmente. Evita el prop drilling y es ideal para compartir estados como temas, autenticación de usuarios o configuraciones de la aplicación.",
+                "useRef se utiliza para crear referencias a nodos DOM o almacenar valores mutables que persisten entre renderizados. No desencadena re-renderizados cuando el valor cambia, lo que lo hace ideal para tareas críticas de rendimiento como temporizadores o acceso directo a elementos DOM.",
+                "useContext provoca re-renderizados en todos los componentes consumidores cuando el valor del contexto cambia, mientras que useRef no afecta el comportamiento de renderizado de los componentes.",
+                "useContext maneja datos compartidos de manera global entre componentes, mientras que useRef funciona localmente dentro de un único componente, a menos que se pase explícitamente."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "title-h3",
+              "content": "Ejemplo de useContext"
+            },
+            {
+              "type": "code",
+              "content": "// Usando useContext para compartir datos globales\nimport React, { createContext, useContext } from 'react';\n\nconst ThemeContext = createContext();\n\nfunction App() {\n  return (\n    <ThemeContext.Provider value=\"oscuro\">\n      <ComponenteHijo />\n    </ThemeContext.Provider>\n  );\n}\n\nfunction ComponenteHijo() {\n  const tema = useContext(ThemeContext);\n  return <div>El tema actual es: {tema}</div>;\n}"
+            },
+            {
+              "type": "title-h3",
+              "content": "Ejemplo de useRef"
+            },
+            {
+              "type": "code",
+              "content": "// Usando useRef para acceder a elementos del DOM\nimport React, { useRef } from 'react';\n\nfunction ComponenteInput() {\n  const inputRef = useRef();\n\n  const enfocarInput = () => {\n    inputRef.current.focus(); // Enfoca directamente el input\n  };\n\n  return (\n    <div>\n      <input ref={inputRef} type=\"text\" placeholder=\"Escribe algo...\" />\n      <button onClick={enfocarInput}>Enfocar Input</button>\n    </div>\n  );\n}\n\nexport default ComponenteInput;"
+            },
+            {
+              "type": "title-h3",
+              "content": "Simulación de datos globales con useRef"
+            },
+            {
+              "type": "text",
+              "content": "Aunque useRef puede usarse para simular datos compartidos o globales pasando referencias a través de props, este enfoque requiere más esfuerzo manual y no es escalable en aplicaciones complejas. Aquí tienes un ejemplo de cómo se puede hacer:"
+            },
+            {
+              "type": "code",
+              "content": "// Simulando datos compartidos con useRef\nimport React, { useRef } from 'react';\n\nfunction ComponenteA({ referenciaCompartida }) {\n  const actualizarValor = () => {\n    referenciaCompartida.current = 'Actualizado por ComponenteA';\n  };\n\n  return <button onClick={actualizarValor}>Actualizar Ref</button>;\n}\n\nfunction ComponenteB({ referenciaCompartida }) {\n  return <div>Valor compartido: {referenciaCompartida.current}</div>;\n}\n\nfunction App() {\n  const referenciaCompartida = useRef('Valor inicial');\n\n  return (\n    <div>\n      <ComponenteA referenciaCompartida={referenciaCompartida} />\n      <ComponenteB referenciaCompartida={referenciaCompartida} />\n    </div>\n  );\n}\n\nexport default App;"
+            },
+           
+            {
+              "type": "text",
+              "content": "Aunque este método funciona, requiere pasar manualmente la referencia a cada componente que necesita acceso. Para gestionar estados realmente globales de manera eficiente, useContext o bibliotecas de manejo de estado como Redux son opciones más recomendadas."
+            },
+            { 
+              "type": "link",
+              "content": "https://es.react.dev/reference/react/useContext"
+            }
+            ]
+          }
+        }, 
+            
+
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What is useImperativeHandle in React?",
+            "What does useImperativeHandle allow you to do?",
+            "How is useImperativeHandle useful in React?"
+          ],
+          "es-MX": [
+            "¿Qué es useImperativeHandle en React?",
+            "¿Qué te permite hacer useImperativeHandle?",
+            "¿Cómo es útil useImperativeHandle en React?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "A React hook that lets you customize the instance value exposed to the parent component when using a ref, allowing the child to expose specific methods or properties for better modular control.",
+            "A React hook that forces a child component to synchronize its state with the parent component whenever there is a change in props, ensuring consistency across the application.",
+            "A method in React that lets components share state efficiently without requiring additional hooks or global state management tools, streamlining development processes.",
+            "A default React feature that automatically tracks and handles side effects between components, reducing the need for manual updates and hooks."
+          ],
+          "es-MX": [
+            "Un hook de React que te permite personalizar el valor de la instancia expuesta al componente padre al usar una ref, permitiendo que el hijo exponga métodos o propiedades específicas para un mejor control modular.",
+            "Un hook de React que fuerza a un componente hijo a sincronizar su estado con el componente padre cada vez que hay un cambio en las props, asegurando consistencia en toda la aplicación.",
+            "Un método en React que permite a los componentes compartir estados de manera eficiente sin necesidad de hooks adicionales o herramientas de gestión de estado global, simplificando los procesos de desarrollo.",
+            "Una característica predeterminada de React que rastrea y maneja automáticamente los efectos secundarios entre los componentes, reduciendo la necesidad de actualizaciones manuales y hooks."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A React hook that lets you customize the instance value exposed to the parent component when using a ref, allowing the child to expose specific methods or properties for better modular control.",
+          "es-MX": "Un hook de React que te permite personalizar el valor de la instancia expuesta al componente padre al usar una ref, permitiendo que el hijo exponga métodos o propiedades específicas para un mejor control modular."
+        },
+       "Explanation": {
+  "en-US": [
+    { "type": "title-h2", "content": "What is useImperativeHandle and how does it work?" },
+    {
+      "type": "text",
+      "content": "useImperativeHandle is a React hook used alongside forwardRef. It lets you customize what is exposed to the parent component when a ref is passed to a child, allowing more controlled interaction between components."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "By default, a ref gives access to the DOM node or React element of the child component. However, useImperativeHandle allows you to define specific methods or properties to expose.",
+        "The child component creates an internal ref (e.g., inputRef) with useRef to interact directly with the DOM node (like an <input> field).",
+        "The parent component creates an external ref (e.g., customInputRef) with useRef and passes it to the child using forwardRef.",
+        "useImperativeHandle acts as a bridge, connecting the internal ref of the child (inputRef) to the external ref of the parent (customInputRef) by exposing only specific methods or properties defined by the child."
+      ]
+    },
+    {
+      "type": "title-h3",
+      "content": "Detailed Flow Between Parent and Child Components"
+    },
+    {
+      "type": "text",
+      "content": "Here's how the connection works step by step:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "1. In the child component, inputRef (created with useRef) is connected directly to the <input> DOM element using ref={inputRef}.",
+        "2. The parent passes its customInputRef to the child through forwardRef.",
+        "3. Inside the child, useImperativeHandle is used to define methods (like focus, clear, logValue) that internally call inputRef to interact with the DOM node.",
+        "4. These methods are exposed to the parent through customInputRef. The parent can call customInputRef.current.focus(), for example, to focus the input field.",
+        "5. This approach encapsulates the internal logic of the child while giving the parent controlled access to only necessary methods."
+      ]
+    },
+    { "type": "divider" },
+    {
+      "type": "code",
+      "content": "// Child Component Example\nimport React, { forwardRef, useImperativeHandle, useRef } from 'react';\n\nconst CustomInput = forwardRef((props, ref) => {\n  const inputRef = useRef(); // Internal ref connected to the DOM node\n\n  useImperativeHandle(ref, () => ({\n    focus: () => inputRef.current.focus(),\n    clear: () => (inputRef.current.value = ''),\n    logValue: () => console.log(inputRef.current.value) // Logs the current value of the input\n  }));\n\n  return <input ref={inputRef} type='text' placeholder='Type something...' />;\n});\n\nexport default CustomInput;"
+    },
+    {
+      "type": "code",
+      "content": "// Parent Component Example\nimport React, { useRef } from 'react';\nimport CustomInput from './CustomInput';\n\nfunction Parent() {\n  const customInputRef = useRef(); // External ref for the parent\n\n  const handleFocus = () => {\n    customInputRef.current.focus(); // Focus the input using the exposed method\n  };\n\n  const handleClear = () => {\n    customInputRef.current.clear(); // Clear the input using the exposed method\n  };\n\n  const handleLog = () => {\n    customInputRef.current.logValue(); // Log the input value using the exposed method\n  };\n\n  return (\n    <div>\n      <CustomInput ref={customInputRef} />\n      <button onClick={handleFocus}>Focus Input</button>\n      <button onClick={handleClear}>Clear Input</button>\n      <button onClick={handleLog}>Log Input Value</button>\n    </div>\n  );\n}\n\nexport default Parent;"
+    },
+    { "type": "divider" },
+    {
+      "type": "title-h3",
+      "content": "Simplified Example for Better Understanding"
+    },
+    {
+      "type": "text",
+      "content": "Think of inputRef as a remote control for the input DOM element inside the child, and customInputRef as an extension of this remote that the parent can use. The child uses useImperativeHandle to decide which 'buttons' (methods like focus, clear, and logValue) to make accessible through customInputRef. The parent can't directly manipulate the input DOM but can use these predefined buttons."
+    },
+    {
+      "type": "text",
+      "content": "For example: When the parent calls customInputRef.current.focus(), it presses the 'focus button' on the remote, which internally uses inputRef to perform the action on the input element."
+    },
+    { "type": "link", "content": "https://react.dev/reference/react/useImperativeHandle" }
+  ],
+  
+        
+  "es-MX": [
+    { "type": "title-h2", "content": "¿Qué es useImperativeHandle y cómo funciona?" },
+    {
+      "type": "text",
+      "content": "useImperativeHandle es un hook de React que se usa junto con forwardRef. Te permite personalizar lo que se expone al componente padre cuando una ref se pasa al hijo, permitiendo una interacción más controlada entre componentes."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Por defecto, una ref da acceso al nodo DOM o elemento React del componente hijo. Sin embargo, useImperativeHandle te permite definir métodos o propiedades específicas para exponer.",
+        "El componente hijo crea una ref interna (por ejemplo, inputRef) con useRef para interactuar directamente con el nodo DOM (como un campo de texto <input>).",
+        "El componente padre crea una ref externa (por ejemplo, customInputRef) con useRef y la pasa al hijo usando forwardRef.",
+        "useImperativeHandle actúa como puente, conectando la ref interna del hijo (inputRef) con la ref externa del padre (customInputRef) al exponer solo los métodos o propiedades que el hijo decida."
+      ]
+    },
+    {
+      "type": "title-h3",
+      "content": "Flujo Detallado Entre Componentes Padre e Hijo"
+    },
+    {
+      "type": "text",
+      "content": "Así funciona la conexión paso a paso:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "1. En el componente hijo, inputRef (creada con useRef) se conecta directamente al nodo DOM del <input> usando ref={inputRef}.",
+        "2. El padre pasa su customInputRef al hijo mediante forwardRef.",
+        "3. Dentro del hijo, useImperativeHandle se usa para definir métodos (como focus, clear, logValue) que internamente llaman a inputRef para interactuar con el nodo DOM.",
+        "4. Estos métodos se exponen al padre a través de customInputRef. Por ejemplo, el padre puede llamar a customInputRef.current.focus() para enfocar el campo de texto.",
+        "5. Este enfoque encapsula la lógica interna del hijo mientras da al padre acceso controlado solo a los métodos necesarios."
+      ]
+    },
+    { "type": "divider" },
+    {
+      "type": "code",
+      "content": "// Ejemplo del Componente Hijo\nimport React, { forwardRef, useImperativeHandle, useRef } from 'react';\n\nconst CustomInput = forwardRef((props, ref) => {\n  const inputRef = useRef(); // Ref interna conectada al nodo DOM\n\n  useImperativeHandle(ref, () => ({\n    focus: () => inputRef.current.focus(),\n    clear: () => (inputRef.current.value = ''),\n    logValue: () => console.log(inputRef.current.value) // Muestra el valor actual del input\n  }));\n\n  return <input ref={inputRef} type='text' placeholder='Escribe algo...' />;\n});\n\nexport default CustomInput;"
+    },
+    {
+      "type": "code",
+      "content": "// Ejemplo del Componente Padre\nimport React, { useRef } from 'react';\nimport CustomInput from './CustomInput';\n\nfunction Parent() {\n  const customInputRef = useRef(); // Ref externa para el padre\n\n  const handleFocus = () => {\n    customInputRef.current.focus(); // Enfoca el input usando el método expuesto\n  };\n\n  const handleClear = () => {\n    customInputRef.current.clear(); // Limpia el input usando el método expuesto\n  };\n\n  const handleLog = () => {\n    customInputRef.current.logValue(); // Muestra el valor del input usando el método expuesto\n  };\n\n  return (\n    <div>\n      <CustomInput ref={customInputRef} />\n      <button onClick={handleFocus}>Enfocar Input</button>\n      <button onClick={handleClear}>Limpiar Input</button>\n      <button onClick={handleLog}>Mostrar Valor del Input</button>\n    </div>\n  );\n}\n\nexport default Parent;"
+    },
+    { "type": "divider" },
+    {
+      "type": "title-h3",
+      "content": "Ejemplo Simplificado para Mejor Entendimiento"
+    },
+    {
+      "type": "text",
+      "content": "Piensa en inputRef como un control remoto para el elemento DOM del input dentro del hijo, y en customInputRef como una extensión de este control que el padre puede usar. El hijo utiliza useImperativeHandle para decidir qué 'botones' (métodos como focus, clear y logValue) hacer accesibles a través de customInputRef. El padre no puede manipular directamente el DOM del input, pero puede usar estos botones predefinidos."
+    },
+    {
+      "type": "text",
+      "content": "Por ejemplo: Cuando el padre llama customInputRef.current.focus(), presiona el 'botón de enfoque' en el control remoto, que internamente utiliza inputRef para realizar la acción en el elemento del input."
+    },
+    { "type": "link", "content": "https://es.react.dev/reference/react/useImperativeHandle" }
+  ]
+
+
+        }
+      },
+      
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What is the purpose of using forwardRef with useRef?",
+            "Why would you combine forwardRef and useRef in React?",
+            "How does forwardRef work with useRef?"
+          ],
+          "es-MX": [
+            "¿Cuál es el propósito de usar forwardRef con useRef?",
+            "¿Por qué combinarías forwardRef y useRef en React?",
+            "¿Cómo funciona forwardRef con useRef?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "To allow a parent component to access a child component's DOM node using a ref.",
+            "To enable bi-directional data flow between parent and child components.",
+            "To prevent a child component from rendering unnecessarily.",
+            "To simplify state management in React applications."
+          ],
+          "es-MX": [
+            "Para permitir que un componente padre acceda al nodo DOM de un componente hijo usando una referencia.",
+            "Para habilitar un flujo de datos bidireccional entre componentes padre e hijo.",
+            "Para evitar que un componente hijo se renderice innecesariamente.",
+            "Para simplificar la gestión de estado en aplicaciones React."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "To allow a parent component to access a child component's DOM node using a ref.",
+          "es-MX": "Para permitir que un componente padre acceda al nodo DOM de un componente hijo usando una referencia."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Using forwardRef with useRef in React" },
+            {
+              "type": "text",
+              "content": "This example demonstrates how to combine forwardRef with useRef in React to pass a reference from a parent component to a child component and interact with its DOM node."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "forwardRef allows a parent to pass a ref to a child component, enabling the parent to access the DOM element of the child.",
+                "useRef creates a persistent reference that doesn't reset across renders.",
+                "By combining them, the parent component can directly manage the child component's DOM node."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "code",
+              "content": "// Child Component\nimport React, { forwardRef } from 'react';\n\nconst FancyButtonWithRef = forwardRef((props, ref) => {\n  return (\n    <button ref={ref}>\n      {props.children} {/* Displays content sent from props.children */}\n    </button>\n  );\n});\n\nexport default FancyButtonWithRef;"
+            },
+            {
+              "type": "code",
+              "content": "// Parent Component\nimport React, { useRef } from 'react';\nimport FancyButtonWithRef from './FancyButtonWithRef';\n\nfunction Parent() {\n  const buttonRef = useRef(); // Create a ref with useRef\n\n  const handleClick = () => {\n    console.log(buttonRef.current); // Logs the DOM node of the button\n    buttonRef.current.focus(); // Example: Focus the button\n  };\n\n  return (\n    <div>\n      <FancyButtonWithRef ref={buttonRef}>\n        Click Me {/* Text passed as props.children */}\n      </FancyButtonWithRef>\n      <button onClick={handleClick}>Log Ref</button>\n    </div>\n  );\n}\n\nexport default Parent;"
+            },
+            { "type": "link", "content": "https://react.dev/reference/react/forwardRef" }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Usando forwardRef con useRef en React" },
+            {
+              "type": "text",
+              "content": "Este ejemplo muestra cómo combinar forwardRef con useRef en React para pasar una referencia desde un componente padre a un componente hijo e interactuar con su nodo DOM."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "forwardRef permite que un componente padre pase una ref a un componente hijo, permitiendo que el padre acceda al elemento DOM del hijo.",
+                "useRef crea una referencia persistente que no se reinicia entre renderizados.",
+                "Al combinarlos, el componente padre puede manejar directamente el nodo DOM del componente hijo."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "code",
+              "content": "// Componente Hijo\nimport React, { forwardRef } from 'react';\n\nconst FancyButtonWithRef = forwardRef((props, ref) => {\n  return (\n    <button ref={ref}>\n      {props.children} {/* Muestra el contenido enviado desde props.children */}\n    </button>\n  );\n});\n\nexport default FancyButtonWithRef;"
+            },
+            {
+              "type": "code",
+              "content": "// Componente Padre\nimport React, { useRef } from 'react';\nimport FancyButtonWithRef from './FancyButtonWithRef';\n\nfunction Parent() {\n  const buttonRef = useRef(); // Crea una referencia con useRef\n\n  const handleClick = () => {\n    console.log(buttonRef.current); // Muestra en consola el nodo DOM del botón\n    buttonRef.current.focus(); // Ejemplo: Enfoca el botón\n  };\n\n  return (\n    <div>\n      <FancyButtonWithRef ref={buttonRef}>\n        Click Me {/* Texto enviado como props.children */}\n      </FancyButtonWithRef>\n      <button onClick={handleClick}>Log Ref</button>\n    </div>\n  );\n}\n\nexport default Parent;"
+            },
+            { "type": "link", "content": "https://es.react.dev/reference/react/forwardRef" }
+          ]
+        }
+      },
+      
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What is the purpose of using forwardRef with useImperativeHandle?",
+            "Why would you combine forwardRef and useImperativeHandle in React?",
+            "When is it appropriate to use forwardRef with useImperativeHandle?"
+          ],
+          "es-MX": [
+            "¿Cuál es el propósito de usar forwardRef con useImperativeHandle?",
+            "¿Por qué combinarías forwardRef y useImperativeHandle en React?",
+            "¿Cuándo es apropiado usar forwardRef con useImperativeHandle?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "To expose specific methods or values from a child component to the parent using a ref.",
+            "To update the state of a component directly from outside without props.",
+            "To allow a component to re-render automatically when a ref changes.",
+            "To enable the child component to access its own props more efficiently."
+          ],
+          "es-MX": [
+            "Para exponer métodos o valores específicos desde un componente hijo hacia el padre usando una referencia.",
+            "Para actualizar el estado de un componente desde fuera sin usar props.",
+            "Para permitir que un componente se vuelva a renderizar automáticamente cuando cambia una referencia.",
+            "Para que el componente hijo acceda a sus propias props de manera más eficiente."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "To expose specific methods or values from a child component to the parent using a ref.",
+          "es-MX": "Para exponer métodos o valores específicos desde un componente hijo hacia el padre usando una referencia."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "forwardRef and useImperativeHandle" },
+            {
+              "type": "text",
+              "content": "In React, forwardRef allows a parent component to pass a ref to a child component. When you need to control what the parent can access, useImperativeHandle lets you define the exposed methods or values."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Use forwardRef to receive the ref in a child component.",
+                "Use useImperativeHandle to customize what the ref exposes.",
+                "Useful for focusing inputs, resetting forms, or exposing internal logic."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "code",
+              "content": "const FancyInput = forwardRef((props, ref) => {\n  const inputRef = useRef();\n\n  useImperativeHandle(ref, () => ({\n    focus: () => inputRef.current.focus(),\n    clear: () => inputRef.current.value = ''\n  }));\n\n  return <input ref={inputRef} />;\n});"
+            },
+            { "type": "link", "content": "https://react.dev/reference/react/useImperativeHandle" }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "forwardRef y useImperativeHandle" },
+            {
+              "type": "text",
+              "content": "En React, forwardRef permite que un componente padre pase una referencia a un componente hijo. Cuando necesitas controlar qué puede acceder el padre, useImperativeHandle te permite definir los métodos o valores expuestos."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Usa forwardRef para recibir la referencia en un componente hijo.",
+                "Usa useImperativeHandle para personalizar lo que la referencia expone.",
+                "Útil para enfocar inputs, reiniciar formularios o exponer lógica interna."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "code",
+              "content": "const EntradaAvanzada = forwardRef((props, ref) => {\n  const inputRef = useRef();\n\n  useImperativeHandle(ref, () => ({\n    enfocar: () => inputRef.current.focus(),\n    limpiar: () => inputRef.current.value = ''\n  }));\n\n  return <input ref={inputRef} />;\n});"
+            },
+            { "type": "link", "content": "https://es.react.dev/reference/react/useImperativeHandle" }
+          ]
+        }
+      },
+      
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
             "What is useEffect?",
             "Can you explain the useEffect hook?",
             "How does the useEffect hook work?"
@@ -217,7 +944,247 @@
             { "type": "link", "content": "https://es.react.dev/learn/state-a-components-memory" }
           ]
         }
+      },
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What does the .current.focus() method do when used with useRef?",
+            "How does .current.focus() behave in React?",
+            "What is the purpose of calling .current.focus() in a functional component?"
+          ],
+          "es-MX": [
+            "¿Qué hace el método .current.focus() cuando se usa con useRef?",
+            "¿Cómo se comporta .current.focus() en React?",
+            "¿Cuál es el propósito de llamar a .current.focus() en un componente funcional?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "It sets focus on a referenced DOM element, like an input field.",
+            "It creates a new state inside the component.",
+            "It triggers a re-render of the component automatically.",
+            "It updates the value of the input field directly."
+          ],
+          "es-MX": [
+            "Establece el enfoque en un elemento del DOM referenciado, como un campo de entrada.",
+            "Crea un nuevo estado dentro del componente.",
+            "Dispara un nuevo renderizado del componente automáticamente.",
+            "Actualiza el valor del campo de entrada directamente."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "It sets focus on a referenced DOM element, like an input field.",
+          "es-MX": "Establece el enfoque en un elemento del DOM referenciado, como un campo de entrada."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "What is .current.focus()?" },
+            {
+              "type": "text",
+              "content": "When using useRef to reference a DOM element, you can call `.current.focus()` to programmatically set the focus on that element."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Commonly used with <input> or <textarea>",
+                "Helps auto-focus on mount or button click",
+                "Works only on focusable elements"
+              ]
+            },
+            { "type": "divider" },
+            { "type": "title-h2", "content": "Example in JSX" },
+            {
+              "type": "code",
+              "content": "import { useRef, useEffect } from 'react';\n\nfunction AutoFocusInput() {\n  const inputRef = useRef(null);\n\n  useEffect(() => {\n    inputRef.current.focus();\n  }, []);\n\n  return <input ref={inputRef} />;\n}"
+            },
+            { "type": "link", "content": "https://react.dev/reference/react/useRef" }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Qué es .current.focus()?" },
+            {
+              "type": "text",
+              "content": "Cuando se usa useRef para referenciar un elemento del DOM, puedes llamar a `.current.focus()` para establecer el enfoque del cursor en ese elemento de forma programada."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Se usa comúnmente con <input> o <textarea>",
+                "Ayuda a enfocar automáticamente al montar o al hacer clic en un botón",
+                "Solo funciona en elementos que pueden recibir foco"
+              ]
+            },
+            { "type": "divider" },
+            { "type": "title-h2", "content": "Ejemplo en JSX" },
+            {
+              "type": "code",
+              "content": "import { useRef, useEffect } from 'react';\n\nfunction EntradaConFoco() {\n  const inputRef = useRef(null);\n\n  useEffect(() => {\n    inputRef.current.focus();\n  }, []);\n\n  return <input ref={inputRef} />;\n}"
+            },
+            { "type": "link", "content": "https://es.react.dev/reference/react/useRef" }
+          ]
+        }
+      },
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What is the difference between useRef and createRef in React?",
+            "How do useRef and createRef differ?",
+            "In what way does useRef behave differently than createRef?"
+          ],
+          "es-MX": [
+            "¿Cuál es la diferencia entre useRef y createRef en React?",
+            "¿En qué se diferencian useRef y createRef?",
+            "¿Cómo se comporta de forma distinta useRef comparado con createRef?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "useRef creates a persistent reference that does not change across renders, while createRef creates a new ref every render.",
+            "createRef is used for side effects, while useRef is used for animations.",
+            "useRef is only available in class components, and createRef is only for hooks.",
+            "There is no difference; both are identical in functionality and behavior."
+          ],
+          "es-MX": [
+            "useRef crea una referencia persistente que no cambia entre renders, mientras que createRef crea una nueva ref en cada render.",
+            "createRef se usa para efectos secundarios y useRef para animaciones.",
+            "useRef solo está disponible en componentes de clase y createRef solo para hooks.",
+            "No hay diferencia; ambos son idénticos en funcionalidad y comportamiento."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "useRef creates a persistent reference that does not change across renders, while createRef creates a new ref every render.",
+          "es-MX": "useRef crea una referencia persistente que no cambia entre renders, mientras que createRef crea una nueva ref en cada render."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "useRef vs createRef" },
+            {
+              "type": "text",
+              "content": "Both useRef and createRef are used to create references to DOM elements or values, but they have distinct behaviors across renders and are suited for different use cases."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "useRef creates a persistent ref object that remains the same across renders, making it ideal for functional components.",
+                "createRef creates a new ref object every time the component re-renders, which is why it's commonly used in class components.",
+                "useRef can also store mutable values without triggering a re-render when updated, while createRef is primarily intended for DOM manipulation."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "code",
+              "content": "// useRef example\nimport { useRef } from 'react';\n\nfunction FunctionalComponent() {\n  const inputRef = useRef(null);\n\n  const focusInput = () => {\n    inputRef.current.focus(); // Access DOM element\n  };\n\n  return (\n    <div>\n      <input ref={inputRef} type=\"text\" placeholder=\"Type something...\" />\n      <button onClick={focusInput}>Focus Input</button>\n    </div>\n  );\n}"
+            },
+            {
+              "type": "code",
+              "content": "// createRef example inside a class component\nimport React, { Component, createRef } from 'react';\n\nclass ClassComponent extends Component {\n  constructor(props) {\n    super(props);\n    this.inputRef = createRef();\n  }\n\n  focusInput = () => {\n    this.inputRef.current.focus(); // Access DOM element\n  };\n\n  render() {\n    return (\n      <div>\n        <input ref={this.inputRef} type=\"text\" placeholder=\"Type something...\" />\n        <button onClick={this.focusInput}>Focus Input</button>\n      </div>\n    );\n  }\n}\n\nexport default ClassComponent;"
+            },
+            { "type": "link", "content": "https://react.dev/reference/react/useRef" }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "useRef vs createRef" },
+            {
+              "type": "text",
+              "content": "Tanto useRef como createRef se utilizan para crear referencias a elementos del DOM o valores, pero tienen comportamientos distintos entre renderizados y están diseñados para diferentes casos de uso."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "useRef crea un objeto de referencia persistente que permanece igual entre renderizados, lo que lo hace ideal para componentes funcionales.",
+                "createRef crea un nuevo objeto de referencia cada vez que el componente se renderiza, por lo que se utiliza comúnmente en componentes de clase.",
+                "useRef también puede almacenar valores mutables sin provocar un re-renderizado cuando se actualizan, mientras que createRef está diseñado principalmente para manipulación del DOM."
+              ]
+            },
+            { "type": "divider" },
+            {
+              "type": "code",
+              "content": "// Ejemplo con useRef\nimport { useRef } from 'react';\n\nfunction ComponenteFuncional() {\n  const inputRef = useRef(null);\n\n  const enfocarInput = () => {\n    inputRef.current.focus(); // Acceso al elemento DOM\n  };\n\n  return (\n    <div>\n      <input ref={inputRef} type=\"text\" placeholder=\"Escribe algo...\" />\n      <button onClick={enfocarInput}>Enfocar Input</button>\n    </div>\n  );\n}\n\nexport default ComponenteFuncional;"
+            },
+            {
+              "type": "code",
+              "content": "// Ejemplo con createRef en un componente de clase\nimport React, { Component, createRef } from 'react';\n\nclass ComponenteDeClase extends Component {\n  constructor(props) {\n    super(props);\n    this.inputRef = createRef();\n  }\n\n  enfocarInput = () => {\n    this.inputRef.current.focus(); // Acceso al elemento DOM\n  };\n\n  render() {\n    return (\n      <div>\n        <input ref={this.inputRef} type=\"text\" placeholder=\"Escribe algo...\" />\n        <button onClick={this.enfocarInput}>Enfocar Input</button>\n      </div>\n    );\n  }\n}\n\nexport default ComponenteDeClase;"
+            },
+            { "type": "link", "content": "https://es.react.dev/reference/react/useRef" }
+          ]
+        }
+        
+      },
+      {
+        "Category": "Hooks",
+        "Question Text": {
+          "en-US": [
+            "What does ref.current contain after the first render?",
+            "After rendering, what value is stored in ref.current?",
+            "What is the content of ref.current once the component has rendered?"
+          ],
+          "es-MX": [
+            "¿Qué contiene ref.current después del primer renderizado?",
+            "¿Qué valor se almacena en ref.current después de renderizar?",
+            "¿Cuál es el contenido de ref.current una vez que el componente ha renderizado?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "It contains the DOM element or value assigned to the ref.",
+            "It stores the initial props passed to the component.",
+            "It holds a random unique ID generated by React.",
+            "It always returns undefined until the component unmounts."
+          ],
+          "es-MX": [
+            "Contiene el elemento del DOM o el valor asignado a la referencia.",
+            "Almacena las props iniciales pasadas al componente.",
+            "Contiene un ID único aleatorio generado por React.",
+            "Siempre devuelve undefined hasta que el componente se desmonta."
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "It contains the DOM element or value assigned to the ref.",
+          "es-MX": "Contiene el elemento del DOM o el valor asignado a la referencia."
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Understanding ref.current" },
+            {
+              "type": "text",
+              "content": "The ref.current property stores the value associated with the reference. When used with a DOM element, it points to the actual node once the component has rendered."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Before render, ref.current is null (if initialized with null).",
+                "After render, it references the DOM node (e.g., an input).",
+                "If used to store a mutable value, it persists between renders."
+              ]
+            },
+            { "type": "divider" },
+            { "type": "code", "content": "const inputRef = useRef(null);\n\nuseEffect(() => {\n  console.log(inputRef.current); // logs the <input> DOM node\n}, []);\n\nreturn <input ref={inputRef} />;" },
+            { "type": "link", "content": "https://react.dev/reference/react/useRef" }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Qué es ref.current?" },
+            {
+              "type": "text",
+              "content": "La propiedad ref.current almacena el valor asociado a la referencia. Cuando se usa con un elemento del DOM, apunta al nodo real una vez que el componente se ha renderizado."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Antes del renderizado, ref.current es null (si se inicializa con null).",
+                "Después del renderizado, referencia el nodo del DOM (por ejemplo, un input).",
+                "Si se usa para almacenar un valor mutable, persiste entre renderizados."
+              ]
+            },
+            { "type": "divider" },
+            { "type": "code", "content": "const inputRef = useRef(null);\n\nuseEffect(() => {\n  console.log(inputRef.current); // muestra el nodo del DOM <input>\n}, []);\n\nreturn <input ref={inputRef} />;" },
+            { "type": "link", "content": "https://es.react.dev/reference/react/useRef" }
+          ]
+        }
       }
+      
+      
+      
+      
       
       
 

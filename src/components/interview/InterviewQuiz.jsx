@@ -389,19 +389,50 @@ export default function InterviewQuiz() {
               <code>{item.content}</code>
             </pre>
           );
+        } else if (item.type === "ul") {
+          return (
+            <ul key={index} className="list-disc list-inside">
+              {item.items.map((li, i) => (
+                <li key={i}>{li}</li>
+              ))}
+            </ul>
+          );
+        } else if (item.type === "ol") {
+          return (
+            <ol key={index} className="list-decimal list-inside">
+              {item.items.map((li, i) => (
+                <li key={i}>{li}</li>
+              ))}
+            </ol>
+          );
+        } else if (item.type === "image") {
+          return (
+            <img
+              key={index}
+              src={item.src}
+              alt={item.alt || "image"}
+              className="rounded-md border border-gray-700 shadow-md max-w-full"
+            />
+          );
+        } else if (item.type === "divider") {
+          return <hr key={index} className="border-gray-600 my-4" />;
         }
+
         return null;
       })}
     </div>
-    <button
-  onClick={() => speakExplanation(questions[currentQuestionIndex]?.explanation)}
-  className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
->
-  🔊 Leer explicación en voz alta
-</button>
 
+    <button
+      onClick={() =>
+        speakExplanation(questions[currentQuestionIndex]?.explanation)
+      }
+      className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
+    >
+      🔊 Leer explicación en voz alta
+    </button>
   </div>
 )}
+
 
 
           {showCorrect && (
