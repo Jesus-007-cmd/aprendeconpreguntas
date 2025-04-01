@@ -2,6 +2,114 @@
     "Quiz Title": "React Fundamentals",
     "Questions": [
       {
+        "Category": "Components",
+        "Question Text": {
+          "en-US": [
+            "Which of the following statements is true regarding the following component?\n\nclass MyComponent extends React.Component {\n  render(){\n    return (This is a component);\n  }\n}"
+          ],
+          "es-MX": [
+            "¿Cuál de las siguientes afirmaciones es verdadera respecto al siguiente componente?\n\nclass MyComponent extends React.Component {\n  render(){\n    return (Esto es un componente);\n  }\n}"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Render should not be a function",
+            "Render method is not required",
+            "The return should be any React element, null or false",
+            "Class should be replaced by className"
+          ],
+          "es-MX": [
+            "Render no debería ser una función",
+            "El método render no es requerido",
+            "El valor de retorno debe ser cualquier elemento React, null o false",
+            "Class debe reemplazarse por className"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "The return should be any React element, null or false",
+          "es-MX": "El valor de retorno debe ser cualquier elemento React, null o false"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "React Component Render Return Types" },
+            {
+              "type": "text",
+              "content": "In a class-based React component, the `render()` method must return a valid React element, `null`, or `false`."
+            },
+            {
+              "type": "text",
+              "content": "Returning plain text like `(This is a component)` without JSX or a proper element will result in an error."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Tipos de Retorno Permitidos en render()" },
+            {
+              "type": "text",
+              "content": "En un componente basado en clase en React, el método `render()` debe devolver un elemento válido de React, `null` o `false`."
+            },
+            {
+              "type": "text",
+              "content": "Retornar texto plano como `(Esto es un componente)` sin JSX o un elemento válido causará un error."
+            }
+          ]
+        }
+      },
+      
+      {
+        "Category": "Fundamentals",
+        "Question Text": {
+          "en-US": [
+            "Which of the following statements is true regarding React.js?"
+          ],
+          "es-MX": [
+            "¿Cuál de las siguientes afirmaciones es verdadera con respecto a React.js?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "React is just another MVC framework",
+            "Every React component is stateless",
+            "Shallow rendering in React allows you to render a single component completely",
+            "TDD is not allowed when writing React components"
+          ],
+          "es-MX": [
+            "React es solo otro framework MVC",
+            "Cada componente de React es sin estado",
+            "El renderizado superficial en React te permite renderizar completamente un solo componente",
+            "TDD no está permitido al escribir componentes de React"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Shallow rendering in React allows you to render a single component completely",
+          "es-MX": "El renderizado superficial en React te permite renderizar completamente un solo componente"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Understanding Shallow Rendering in React" },
+            {
+              "type": "text",
+              "content": "Shallow rendering is a testing method in React that renders a component without deeply rendering its children. It is useful for unit tests to ensure a component’s output without depending on child components."
+            },
+            {
+              "type": "text",
+              "content": "It renders only the component itself, not the child components, which makes tests more predictable and focused."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Comprendiendo el Renderizado Superficial en React" },
+            {
+              "type": "text",
+              "content": "El renderizado superficial es un método de prueba en React que renderiza un componente sin renderizar profundamente sus hijos. Es útil para pruebas unitarias centradas en la salida de un solo componente."
+            },
+            {
+              "type": "text",
+              "content": "Renderiza solo el componente en sí, no sus componentes hijos, lo que hace que las pruebas sean más predecibles y enfocadas."
+            }
+          ]
+        }
+      },
+      
+      {
         "Category": "Hooks",
         "Question Text": {
           "en-US": [

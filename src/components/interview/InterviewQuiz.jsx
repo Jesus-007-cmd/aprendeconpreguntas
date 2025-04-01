@@ -46,11 +46,11 @@ export default function InterviewQuiz() {
       if (!text || !selectedAnswerVoice) return; // Evitar errores si el texto o la voz no están disponibles
 
       if (responseLanguage !== "es-US") {
-        // Reproduce primero a velocidad lenta
+        
         const slowUtterance = new SpeechSynthesisUtterance(text);
         slowUtterance.voice = selectedAnswerVoice;
         slowUtterance.lang = questionLanguage;
-        slowUtterance.rate = 0.7; // Velocidad lenta
+        slowUtterance.rate = 1; // Velocidad normal, si se requiere mas lenta menos de uno poner decimales si se requiere mas rapida mas de 1
         window.speechSynthesis.speak(slowUtterance);
       } else {
         // Comportamiento normal para otros idiomas
@@ -238,12 +238,11 @@ export default function InterviewQuiz() {
   // Función que maneja la carga y adaptación del JSON para preguntas técnicas (nuevo formato)
   const handleJsonSelection = (jsonFile) => {
     const language = "en-US";
-
+    
     const adaptedQuestions = jsonFile.Questions.map((question) => {
+      var rndmQuestion=Math.floor(Math.random() * question["Question Text"][language].length);
       const randomQuestionVariant =
-        question["Question Text"][language][
-          Math.floor(Math.random() * question["Question Text"][language].length)
-        ];
+        question["Question Text"][language][rndmQuestion];
 
       const options = shuffleArray([...question.Options[language]]);
       const correctAnswer = question["Correct Answer"][language];
@@ -257,11 +256,10 @@ export default function InterviewQuiz() {
         explanation,
         category,
         // Español
-        word_es: question["Question Text"]["es-MX"]?.[0] ?? "Sin traducción",
+        word_es: question["Question Text"]["es-MX"]?.[rndmQuestion] ?? "Sin traducción",
         options_es: question["Options"]["es-MX"] ?? [],
         explanation_es: question["Explanation"]["es-MX"] ?? [],
       };
-      
     });
 
     setQuestions(adaptedQuestions);
@@ -285,23 +283,20 @@ export default function InterviewQuiz() {
   };
   const speakExplanation = (explanationArray) => {
     if (!explanationArray || !selectedAnswerVoice) return;
-  
+
     explanationArray.forEach((item) => {
       if (item.type === "text" || item.type === "title-h2") {
         const utterance = new SpeechSynthesisUtterance(item.content);
         utterance.voice = selectedAnswerVoice;
         utterance.lang = questionLanguage;
-        utterance.rate = 0.85;
+        utterance.rate = 1;
         window.speechSynthesis.speak(utterance);
       }
     });
   };
-  
+
   return (
-    <div
-      ref={quizContainerRef}
-      className="min-h-screen bg-[#121212] text-white px-4 py-6 flex flex-col items-center"
-    >
+    <div ref={quizContainerRef} className="min-h-screen bg-[#121212] text-white px-4 py-6 flex flex-col items-center">
       <h1 className="text-2xl font-bold text-center mb-6">
         {quizData["Quiz Title"]}
       </h1>
@@ -320,180 +315,272 @@ export default function InterviewQuiz() {
           </button>
         </div>
       ) : !showResult && questions.length > 0 ? (
-        <div className="flex flex-col lg:flex-row justify-between gap-6 w-full max-w-6xl">
-        {/* 🟦 Sección original en inglés */}
-        <div className="bg-[#1e1e1e] p-6 rounded-lg shadow-md w-full lg:w-1/2 text-center">
-          <h2 className="text-xl font-semibold mb-4">
-            {questions[currentQuestionIndex]?.word}
-          </h2>
+        
+       
+<div className="flex flex-col  justify-between gap-6 w-full max-w-10xl">
+          {/* 🟦 Sección original en inglés */}
+          <div className="grid grid-cols-1 md:grid-cols-7 gap-4 w-full max-w-7xl mx-auto">
 
-          <div className="text-sm mb-4">
-            <span className="text-gray-300">Calificación:</span> {score}/
-            {questions.length}
-          </div>
-          
+          <div
+  className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300  ${
+      !showExplanation && !showSpanishTranslation
+        ? 'md:col-span-7'
+        : showExplanation && !showSpanishTranslation
+        ? 'md:col-span-3'
+        : !showExplanation && showSpanishTranslation
+        ? 'md:col-span-3'
+        : 'md:col-span-2'
+    }`}
+>
 
-          <div className="flex flex-col items-center gap-3">
-            {questions[currentQuestionIndex]?.options?.map((option, index) => (
-              <button
-                key={uuidv4()}
-                onClick={() => handleAnswerSelect(option)}
-                className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${
-                  selectedAnswer === option
-                    ? "bg-orange-600"
-                    : "bg-blue-600 hover:bg-blue-700"
-                }`}
-              >
-                {index + 1}. {option}
-              </button>
-            ))}
-          </div>
-          <button
-            onClick={() => setShowExplanation(!showExplanation)}
-            className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition duration-300"
-          >
-            {showExplanation ? "Ocultar explicación" : "Explicación"}
-          </button>
 
-          {showExplanation && (
-  <div className="mt-4 p-4 bg-gray-800 border border-gray-600 rounded-lg shadow-md transition duration-300">
-    <h3 className="font-bold text-lg mb-2">Explicación:</h3>
-    <div className="space-y-2 text-left text-gray-200">
-      {questions[currentQuestionIndex]?.explanation?.map((item, index) => {
-        if (item.type === "text") {
-          return <p key={index}>{item.content}</p>;
-        } else if (item.type === "title-h2") {
-          return (
-            <h2 key={index} className="text-xl font-bold text-white">
-              {item.content}
+
+               
+            <h2 className="text-xl font-semibold mb-4">
+              {questions[currentQuestionIndex]?.word}
             </h2>
-          );
-        } else if (item.type === "link") {
-          return (
-            <a
-              key={index}
-              href={item.content}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 underline"
-            >
-              {item.content}
-            </a>
-          );
-        } else if (item.type === "code") {
-          return (
-            <pre
-              key={index}
-              className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
-            >
-              <code>{item.content}</code>
-            </pre>
-          );
-        } else if (item.type === "ul") {
-          return (
-            <ul key={index} className="list-disc list-inside">
-              {item.items.map((li, i) => (
-                <li key={i}>{li}</li>
-              ))}
-            </ul>
-          );
-        } else if (item.type === "ol") {
-          return (
-            <ol key={index} className="list-decimal list-inside">
-              {item.items.map((li, i) => (
-                <li key={i}>{li}</li>
-              ))}
-            </ol>
-          );
-        } else if (item.type === "image") {
-          return (
-            <img
-              key={index}
-              src={item.src}
-              alt={item.alt || "image"}
-              className="rounded-md border border-gray-700 shadow-md max-w-full"
-            />
-          );
-        } else if (item.type === "divider") {
-          return <hr key={index} className="border-gray-600 my-4" />;
-        }
 
-        return null;
-      })}
-    </div>
+            <div className="text-sm mb-4">
+              <span className="text-gray-300">Calificación:</span> {score}/
+              {questions.length}
+            </div>
 
-    <button
-      onClick={() =>
-        speakExplanation(questions[currentQuestionIndex]?.explanation)
-      }
-      className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
-    >
-      🔊 Leer explicación en voz alta
-    </button>
-  </div>
-)}
+            <div className="flex flex-col items-center gap-3">
+              {questions[currentQuestionIndex]?.options?.map(
+                (option, index) => (
+                  <button
+                    key={uuidv4()}
+                    onClick={() => handleAnswerSelect(option)}
+                    className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${
+                      selectedAnswer === option
+                        ? "bg-orange-600"
+                        : "bg-blue-600 hover:bg-blue-700"
+                    }`}
+                  >
+                    {index + 1}. {option}
+                  </button>
+                )
+              )}
+            </div>
+            </div>
+            <div className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showExplanation ? 'md:col-span-2' : 'md:col-span-0 hidden'}`}>
 
 
+            {showExplanation && (
+               <div
+               className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${
+                 showSpanishTranslation ? 'md:col-span-2' : 'md:col-span-4'
+               }`}
+             >
+                <h3 className="font-bold text-lg mb-2">Explicación:</h3>
+                <div className="space-y-2 text-left text-gray-200">
+                  {questions[currentQuestionIndex]?.explanation?.map(
+                    (item, index) => {
+                      if (item.type === "text") {
+                        return <p key={index}>{item.content}</p>;
+                      } else if (item.type === "title-h2") {
+                        return (
+                          <h2
+                            key={index}
+                            className="text-xl font-bold text-white"
+                          >
+                            {item.content}
+                          </h2>
+                        );
+                      } else if (item.type === "link") {
+                        return (
+                          <a
+                            key={index}
+                            href={item.content}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 underline"
+                          >
+                            {item.content}
+                          </a>
+                        );
+                      } else if (item.type === "code") {
+                        return (
+                          <pre
+                            key={index}
+                            className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
+                          >
+                            <code>{item.content}</code>
+                          </pre>
+                        );
+                      } else if (item.type === "ul") {
+                        return (
+                          <ul key={index} className="list-disc list-inside">
+                            {item.items.map((li, i) => (
+                              <li key={i}>{li}</li>
+                            ))}
+                          </ul>
+                        );
+                      } else if (item.type === "ol") {
+                        return (
+                          <ol key={index} className="list-decimal list-inside">
+                            {item.items.map((li, i) => (
+                              <li key={i}>{li}</li>
+                            ))}
+                          </ol>
+                        );
+                      } else if (item.type === "image") {
+                        return (
+                          <img
+                            key={index}
+                            src={item.src}
+                            alt={item.alt || "image"}
+                            className="rounded-md border border-gray-700 shadow-md max-w-full"
+                          />
+                        );
+                      } else if (item.type === "divider") {
+                        return (
+                          <hr key={index} className="border-gray-600 my-4" />
+                        );
+                      }
 
-          {showCorrect && (
-            <div className="mt-4 text-green-400 font-bold text-xl">
-              ¡Correcto!
+                      return null;
+                    }
+                  )}
+                </div>
+
+                <button
+                  onClick={() =>
+                    speakExplanation(
+                      questions[currentQuestionIndex]?.explanation
+                    )
+                  }
+                  className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
+                >
+                  🔊 Leer explicación en voz alta
+                </button>
+              </div>
+            )}
+          
+            {showCorrect && (
+              <div className="mt-4 text-green-400 font-bold text-xl">
+                ¡Correcto!
+              </div>
+            )}
+
+            {!isFullScreen && (
+              <button
+                onClick={enterFullScreen}
+                className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+              >
+                Entrar en pantalla completa
+              </button>
+            )}
+            </div>
+            
+            <div className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showSpanishTranslation ? 'md:col-span-3' : 'md:col-span-0 hidden'}`}>
+
+              {/* 📌 Traducción en español a la derecha */}
+          {showSpanishTranslation && (
+            <div
+            className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${
+              showExplanation ? 'md:col-span-3' : 'md:col-span-4'
+            }`}
+          >
+              <h2 className="text-lg font-bold text-white mb-2">
+                Pregunta en Español:
+              </h2>
+              <p className="mb-2 text-gray-300">
+                {questions[currentQuestionIndex]?.word_es ?? "Sin traducción"}
+              </p>
+
+              <h3 className="text-md font-bold text-white mb-2">Opciones:</h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-1">
+                {questions[currentQuestionIndex]?.options_es?.map(
+                  (opt, idx) => (
+                    <li key={idx}>{opt}</li>
+                  )
+                )}
+              </ul>
+
+              <h3 className="text-md font-bold text-white mt-4 mb-2">
+                Explicación:
+              </h3>
+              <div className="text-gray-300 space-y-2">
+                {Array.isArray(
+                  questions[currentQuestionIndex]?.explanation_es
+                ) &&
+                  questions[currentQuestionIndex].explanation_es.map(
+                    (item, index) => {
+                      if (item.type === "text") {
+                        return <p key={index}>{item.content}</p>;
+                      } else if (item.type === "title-h2") {
+                        return (
+                          <h2
+                            key={index}
+                            className="text-xl font-bold text-white"
+                          >
+                            {item.content}
+                          </h2>
+                        );
+                      } else if (item.type === "link") {
+                        return (
+                          <a
+                            key={index}
+                            href={item.content}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 underline"
+                          >
+                            {item.content}
+                          </a>
+                        );
+                      } else if (item.type === "code") {
+                        return (
+                          <pre
+                            key={index}
+                            className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
+                          >
+                            <code>{item.content}</code>
+                          </pre>
+                        );
+                      } else if (item.type === "ul") {
+                        return (
+                          <ul key={index} className="list-disc list-inside">
+                            {item.items.map((li, i) => (
+                              <li key={i}>{li}</li>
+                            ))}
+                          </ul>
+                        );
+                      } else if (item.type === "ol") {
+                        return (
+                          <ol key={index} className="list-decimal list-inside">
+                            {item.items.map((li, i) => (
+                              <li key={i}>{li}</li>
+                            ))}
+                          </ol>
+                        );
+                      } else if (item.type === "image") {
+                        return (
+                          <img
+                            key={index}
+                            src={item.src}
+                            alt={item.alt || "image"}
+                            className="rounded-md border border-gray-700 shadow-md max-w-full"
+                          />
+                        );
+                      } else if (item.type === "divider") {
+                        return (
+                          <hr key={index} className="border-gray-600 my-4" />
+                        );
+                      }
+
+                      return null;
+                    }
+                  )}
+              </div>
             </div>
           )}
+          </div>
+          </div>
 
-          {!isFullScreen && (
-            <button
-              onClick={enterFullScreen}
-              className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
-            >
-              Entrar en pantalla completa
-            </button>
-          )}
-        </div>
         
-        {/* 📌 Traducción en español a la derecha */}
- {showSpanishTranslation && (
-      <div className="bg-[#1a1a1a] p-4 rounded-lg shadow-md w-full max-w-md text-sm border border-gray-700">
-        <h2 className="text-lg font-bold text-white mb-2">Pregunta en Español:</h2>
-        <p className="mb-2 text-gray-300">
-          {questions[currentQuestionIndex]?.word_es ?? "Sin traducción"}
-        </p>
-
-        <h3 className="text-md font-bold text-white mb-2">Opciones:</h3>
-        <ul className="list-disc list-inside text-gray-300 space-y-1">
-          {questions[currentQuestionIndex]?.options_es?.map((opt, idx) => (
-            <li key={idx}>{opt}</li>
-          ))}
-        </ul>
-
-        <h3 className="text-md font-bold text-white mt-4 mb-2">Explicación:</h3>
-        <div className="text-gray-300 space-y-2">
-          {Array.isArray(questions[currentQuestionIndex]?.explanation_es) &&
-            questions[currentQuestionIndex].explanation_es.map((item, idx) => {
-              if (item.type === "text") {
-                return <p key={idx}>{item.content}</p>;
-              } else if (item.type === "title-h2") {
-                return <h4 key={idx} className="text-white font-semibold">{item.content}</h4>;
-              } else if (item.type === "link") {
-                return (
-                  <a
-                    key={idx}
-                    href={item.content}
-                    className="text-blue-400 underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {item.content}
-                  </a>
-                );
-              }
-              return null;
-            })}
         </div>
-      </div>
-      
-    )}
-    </div>
       ) : (
         <div className="bg-[#1e1e1e] p-6 rounded-lg shadow-md w-full max-w-2xl text-center">
           <h1 className="text-2xl font-bold mb-4">Resultado Final</h1>
@@ -502,7 +589,7 @@ export default function InterviewQuiz() {
           </p>
         </div>
       )}
- 
+
       {/* Instrucciones y respuesta */}
       <div className="mt-10 bg-[#1a1a1a] p-6 rounded-lg shadow-md w-full max-w-2xl text-sm">
         {showAnswer && (
@@ -525,7 +612,7 @@ export default function InterviewQuiz() {
           }`}
         >
           {responseMode
-            ? "Se ha activado el modo de respuesta"
+            ? "Presione 0 para desactivar modo de respuesta"
             : "Presiona 0 para activar el modo de respuesta."}
         </div>
 
@@ -544,6 +631,12 @@ export default function InterviewQuiz() {
         </ul>
 
         <div className="text-center mt-4">
+        <button
+              onClick={() => setShowExplanation(!showExplanation)}
+              className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition duration-300"
+            >
+              {showExplanation ? "Ocultar explicación" : "Explicación"}
+            </button>
           <button
             onClick={() => setShowAnswer(!showAnswer)}
             className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded"
@@ -551,12 +644,13 @@ export default function InterviewQuiz() {
             {showAnswer ? "Ocultar respuesta" : "Mostrar respuesta"}
           </button>
           <button
-  onClick={() => setShowSpanishTranslation(!showSpanishTranslation)}
-  className="mt-4 bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded transition duration-300"
->
-  {showSpanishTranslation ? "Ocultar traducción" : "Mostrar traducción en español"}
-</button>
-
+            onClick={() => setShowSpanishTranslation(!showSpanishTranslation)}
+            className="mt-4 bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded transition duration-300"
+          >
+            {showSpanishTranslation
+              ? "Ocultar traducción"
+              : "Mostrar traducción en español"}
+          </button>
         </div>
       </div>
     </div>
