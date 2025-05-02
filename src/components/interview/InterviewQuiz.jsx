@@ -23,6 +23,9 @@ export default function InterviewQuiz() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [showSpanishTranslation, setShowSpanishTranslation] = useState(false);
 
+  const [selectedLanguage, setSelectedLanguage] = useState(null);
+  const [readQuestionsAloud, setReadQuestionsAloud] = useState(true);
+
   const handleShowAnswer = () => {
     setShowAnswer(true);
   };
@@ -43,7 +46,7 @@ export default function InterviewQuiz() {
   // Función para reproducir el audio de la respuesta
   const playAnswerAudio = useCallback(
     (text) => {
-      if (!text || !selectedAnswerVoice) return; // Evitar errores si el texto o la voz no están disponibles
+      if (!text || !selectedAnswerVoice || !readQuestionsAloud) return; // Evitar errores si el texto o la voz no están disponibles
 
       if (responseLanguage !== "es-US") {
         
@@ -62,7 +65,7 @@ export default function InterviewQuiz() {
         window.speechSynthesis.speak(utterance);
       }
     },
-    [selectedAnswerVoice, responseLanguage, questionLanguage] // Dependencia en la voz seleccionada para las respuestas
+    [selectedAnswerVoice, responseLanguage, questionLanguage, readQuestionsAloud] // Dependencia en la voz seleccionada para las respuestas
   );
 
   // Efecto para cargar las voces disponibles y asegurarnos de que están cargadas antes de seleccionarlas
@@ -131,7 +134,7 @@ export default function InterviewQuiz() {
       }
 
       // Presionar 'Enter' para repetir la pregunta
-      if (event.key === "Enter" || event.key === "NumpadEnter") {
+      if (event.key === "Enter" || event.key === "NumpadEnter" ) {
         playQuestionAudio(currentQuestion.word); // Reproducir el audio de la pregunta
         return;
       }
@@ -201,10 +204,10 @@ export default function InterviewQuiz() {
 
   // Efecto para leer la pregunta cuando cambia la pregunta actual
   useEffect(() => {
-    if (questions.length > 0) {
+    if (questions.length > 0 && readQuestionsAloud) {
       playQuestionAudio(questions[currentQuestionIndex]?.word); // Reproducir el audio de la pregunta
     }
-  }, [currentQuestionIndex, questions, playQuestionAudio]);
+  }, [currentQuestionIndex, questions, playQuestionAudio, readQuestionsAloud]);
 
   useEffect(() => {
     const handleFullScreenChange = () => {
@@ -237,7 +240,7 @@ export default function InterviewQuiz() {
 
   // Función que maneja la carga y adaptación del JSON para preguntas técnicas (nuevo formato)
   const handleJsonSelection = (jsonFile) => {
-    const language = "en-US";
+    const language = selectedLanguage; 
     
     const adaptedQuestions = jsonFile.Questions.map((question) => {
       var rndmQuestion=Math.floor(Math.random() * question["Question Text"][language].length);
@@ -271,12 +274,11 @@ export default function InterviewQuiz() {
     const voices = window.speechSynthesis.getVoices();
 
     const questionVoice =
-      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
-      voices.find((v) => v.lang === language);
-
-    const answerVoice =
-      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
-      voices.find((v) => v.lang === language);
+    voices.find((v) => v.lang === language && v.name.includes("Google")) ||
+    voices.find((v) => v.lang === language);
+  const answerVoice =
+    voices.find((v) => v.lang === language && v.name.includes("Google")) ||
+    voices.find((v) => v.lang === language);
 
     setSelectedQuestionVoice(questionVoice);
     setSelectedAnswerVoice(answerVoice);
@@ -296,12 +298,32 @@ export default function InterviewQuiz() {
   };
 
   return (
+    
     <div ref={quizContainerRef} className="min-h-screen bg-[#121212] text-white px-4 py-6 flex flex-col items-center">
+
+
+
+
       <h1 className="text-2xl font-bold text-center mb-6">
         {quizData["Quiz Title"]}
       </h1>
-
-      {!isJsonSelected ? (
+      {!selectedLanguage ? (
+<div className="flex flex-col items-center gap-4 mb-10">
+  <h2 className="text-xl font-semibold mb-2">Seleccione el idioma del quiz:</h2>
+  <button
+    onClick={() => setSelectedLanguage("en-US")}
+    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+  >
+    Inglés
+  </button>
+  <button
+    onClick={() => setSelectedLanguage("es-MX")}
+    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+  >
+    Español
+  </button>
+</div>
+      ) :!isJsonSelected ? (
         // Pantalla de selección de JSON
         <div className="flex flex-col items-center gap-4 mb-10">
           <h2 className="text-xl font-semibold mb-2">
@@ -631,6 +653,14 @@ export default function InterviewQuiz() {
         </ul>
 
         <div className="text-center mt-4">
+        <button
+  onClick={() => setReadQuestionsAloud(!readQuestionsAloud)}
+  className={`mt-4 px-4 py-2 rounded ${
+    readQuestionsAloud ? "bg-green-600 hover:bg-green-700" : "bg-red-600 hover:bg-red-700"
+  }`}
+>
+  {readQuestionsAloud ? "🔊 Leer preguntas activado" : "🔇 Leer preguntas desactivado"}
+</button>
         <button
               onClick={() => setShowExplanation(!showExplanation)}
               className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition duration-300"
