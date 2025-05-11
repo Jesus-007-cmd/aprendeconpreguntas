@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 import quizData from "./data/react_fundamentals.json";
+import quizDatappsmovs from "./data/aplicaciones_moviles_clases.json";
 import notificationSound from "../audio/correctanswer.mp3";
 export default function InterviewQuiz() {
   const [questions, setQuestions] = useState([]);
@@ -305,7 +306,7 @@ export default function InterviewQuiz() {
 
 
       <h1 className="text-2xl font-bold text-center mb-6">
-        {quizData["Quiz Title"]}
+        
       </h1>
       {!selectedLanguage ? (
 <div className="flex flex-col items-center gap-4 mb-10">
@@ -333,7 +334,13 @@ export default function InterviewQuiz() {
             onClick={() => handleJsonSelection(quizData)}
             className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
           >
-            React Fundamentals (Entrevistas técnicas)
+           {quizData["Quiz Title"]}
+          </button>
+          <button
+            onClick={() => handleJsonSelection(quizDatappsmovs)}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+           {quizDatappsmovs["Quiz Title"]}
           </button>
         </div>
       ) : !showResult && questions.length > 0 ? (

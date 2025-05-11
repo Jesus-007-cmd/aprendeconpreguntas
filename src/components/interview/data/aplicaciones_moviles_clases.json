@@ -1,0 +1,1503 @@
+{
+    "Quiz Title": "Mobile App Development",
+    "Questions": [
+      {
+        "Category": "Mobile Development",
+        "Question Text": {
+          "en-US": [
+            "What are cross-platform mobile applications?",
+            "What does it mean for an app to be cross-platform?",
+            "How are cross-platform mobile apps different from native ones?"
+          ],
+          "es-MX": [
+            "¿Qué son las aplicaciones móviles multiplataforma?",
+            "¿Qué significa que una app sea multiplataforma?",
+            "¿En qué se diferencian las apps multiplataforma de las nativas?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Applications that only work on Android",
+            "Applications that only work on iOS",
+            "Applications that can run on multiple operating systems using a single codebase",
+            "Applications that require native development for each platform"
+          ],
+          "es-MX": [
+            "Aplicaciones que solo funcionan en Android",
+            "Aplicaciones que solo funcionan en iOS",
+            "Aplicaciones que pueden ejecutarse en varios sistemas operativos usando una sola base de código",
+            "Aplicaciones que requieren desarrollo nativo para cada plataforma"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Applications that can run on multiple operating systems using a single codebase",
+          "es-MX": "Aplicaciones que pueden ejecutarse en varios sistemas operativos usando una sola base de código"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "What Are Cross-Platform Apps?"
+            },
+            {
+              "type": "text",
+              "content": "Cross-platform applications are developed using frameworks that allow a single codebase to be deployed on both Android and iOS, reducing time and effort."
+            },
+            {
+              "type": "text",
+              "content": "These apps increase efficiency by avoiding the need to build separate native apps for each platform."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "¿Qué Son las Aplicaciones Multiplataforma?"
+            },
+            {
+              "type": "text",
+              "content": "Las aplicaciones multiplataforma se desarrollan usando frameworks que permiten usar una sola base de código para Android y iOS, reduciendo tiempo y esfuerzo."
+            },
+            {
+              "type": "text",
+              "content": "Este tipo de apps aumentan la eficiencia al evitar la necesidad de crear aplicaciones nativas por separado para cada plataforma."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Development",
+        "Question Text": {
+          "en-US": [
+            "What are frameworks in mobile application development?",
+            "Why are frameworks useful in creating mobile apps?",
+            "What role do frameworks play when building apps?"
+          ],
+          "es-MX": [
+            "¿Qué son los frameworks en el desarrollo de aplicaciones móviles?",
+            "¿Por qué son útiles los frameworks para crear aplicaciones móviles?",
+            "¿Qué función tienen los frameworks al construir una app?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Pre-written code libraries that simplify development tasks",
+            "Physical tools used to test mobile devices",
+            "Exclusive software for designing user interfaces",
+            "Operating systems for mobile devices"
+          ],
+          "es-MX": [
+            "Bibliotecas de código preescrito que simplifican tareas de desarrollo",
+            "Herramientas físicas usadas para probar dispositivos móviles",
+            "Software exclusivo para diseñar interfaces de usuario",
+            "Sistemas operativos para dispositivos móviles"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Pre-written code libraries that simplify development tasks",
+          "es-MX": "Bibliotecas de código preescrito que simplifican tareas de desarrollo"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "What Is a Framework?"
+            },
+            {
+              "type": "text",
+              "content": "A framework provides reusable code and structure that developers can use to build mobile applications faster and more efficiently."
+            },
+            {
+              "type": "text",
+              "content": "It typically includes libraries, tools, and best practices to handle common tasks like UI rendering, routing, and data management."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "¿Qué Es un Framework?"
+            },
+            {
+              "type": "text",
+              "content": "Un framework ofrece código reutilizable y una estructura que permite a los desarrolladores crear aplicaciones móviles de forma más rápida y eficiente."
+            },
+            {
+              "type": "text",
+              "content": "Normalmente incluye bibliotecas, herramientas y buenas prácticas para manejar tareas comunes como el diseño de interfaces, rutas y manejo de datos."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Development",
+        "Question Text": {
+          "en-US": [
+            "Which programs are used to create cross-platform mobile applications?",
+            "Which frameworks or tools are used to develop cross-platform mobile applications?"
+          ],
+          "es-MX": [
+            "¿Qué programas se utilizan para crear aplicaciones móviles multiplataforma?",
+            "¿Qué frameworks o herramientas se usan para desarrollar aplicaciones móviles multiplataforma?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "React Native, Flutter, Ionic",
+            "Microsoft Word, Excel, PowerPoint",
+            "Adobe Photoshop, Illustrator, XD",
+            "Windows, macOS, Linux"
+          ],
+          "es-MX": [
+            "React Native, Flutter, Ionic",
+            "Microsoft Word, Excel, PowerPoint",
+            "Adobe Photoshop, Illustrator, XD",
+            "Windows, macOS, Linux"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "React Native, Flutter, Ionic",
+          "es-MX": "React Native, Flutter, Ionic"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Tools for Cross-Platform Mobile Development" },
+            {
+              "type": "text",
+              "content": "Popular frameworks like React Native, Flutter, and Ionic allow developers to build apps that work on both iOS and Android using a shared codebase."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Herramientas para Desarrollo Multiplataforma" },
+            {
+              "type": "text",
+              "content": "Frameworks populares como React Native, Flutter e Ionic permiten a los desarrolladores crear aplicaciones que funcionan tanto en iOS como en Android usando una base de código compartida."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Development",
+        "Question Text": {
+          "en-US": [
+            "Which programs are used to create cross-platform mobile applications?",
+            "Which frameworks or tools are used to develop cross-platform mobile applications?",
+            "Which technologies are used to build cross-platform mobile applications?"
+          ],
+          "es-MX": [
+            "¿Qué programas se utilizan para crear aplicaciones móviles multiplataforma?",
+            "¿Qué frameworks o herramientas se usan para desarrollar aplicaciones móviles multiplataforma?",
+            "¿Qué tecnologías se utilizan para construir aplicaciones móviles multiplataforma?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "React Native, Flutter, Ionic",
+            "Microsoft Word, Excel, PowerPoint",
+            "Adobe Photoshop, Illustrator, XD",
+            "Windows, macOS, Linux"
+          ],
+          "es-MX": [
+            "React Native, Flutter, Ionic",
+            "Microsoft Word, Excel, PowerPoint",
+            "Adobe Photoshop, Illustrator, XD",
+            "Windows, macOS, Linux"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "React Native, Flutter, Ionic",
+          "es-MX": "React Native, Flutter, Ionic"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Tools and Technologies for Cross-Platform Development" },
+            {
+              "type": "text",
+              "content": "Frameworks like React Native, Flutter, and Ionic are popular choices for creating cross-platform mobile apps, allowing developers to use a shared codebase for iOS and Android."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Herramientas y Tecnologías para Desarrollo Multiplataforma" },
+            {
+              "type": "text",
+              "content": "Frameworks como React Native, Flutter e Ionic son opciones populares para crear aplicaciones móviles multiplataforma, permitiendo a los desarrolladores usar una base de código compartida para iOS y Android."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Development",
+        "Question Text": {
+          "en-US": [
+            "What does 'cross' mean in 'cross-platform'?"
+          ],
+          "es-MX": [
+            "¿Qué significa 'cross' en 'cross-platform'?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Cross means crossing physical devices with cables",
+            "Cross means the ability to work across or between different systems or platforms",
+            "Cross refers to adding animations to applications",
+            "Cross refers to making applications exclusively for one platform"
+          ],
+          "es-MX": [
+            "Cross significa cruzar dispositivos físicos con cables",
+            "Cross significa la capacidad de funcionar entre diferentes sistemas o plataformas",
+            "Cross se refiere a agregar animaciones a las aplicaciones",
+            "Cross se refiere a hacer aplicaciones exclusivamente para una plataforma"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Cross means the ability to work across or between different systems or platforms",
+          "es-MX": "Cross significa la capacidad de funcionar entre diferentes sistemas o plataformas"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Meaning of 'Cross' in Cross-Platform" },
+            {
+              "type": "text",
+              "content": "'Cross' in 'cross-platform' refers to the idea of crossing over or working across multiple platforms, like iOS and Android, using the same codebase or tools."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Significado de 'Cross' en Multiplataforma" },
+            {
+              "type": "text",
+              "content": "'Cross' en 'cross-platform' se refiere a la idea de cruzar o funcionar entre múltiples plataformas, como iOS y Android, usando la misma base de código o herramientas."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Development",
+        "Question Text": {
+          "en-US": [
+            "Does a native bridge exist in cross-platform mobile development?"
+          ],
+          "es-MX": [
+            "¿Existe un puente nativo (native bridge) en el desarrollo móvil multiplataforma?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "No, cross-platform apps never interact with native components",
+            "Yes, frameworks like React Native use a native bridge to communicate between JavaScript and native modules",
+            "No, cross-platform apps only work in the browser",
+            "Yes, but only for iOS and not for Android"
+          ],
+          "es-MX": [
+            "No, las aplicaciones multiplataforma nunca interactúan con componentes nativos",
+            "Sí, frameworks como React Native usan un puente nativo para comunicarse entre JavaScript y módulos nativos",
+            "No, las aplicaciones multiplataforma solo funcionan en el navegador",
+            "Sí, pero solo para iOS y no para Android"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Yes, frameworks like React Native use a native bridge to communicate between JavaScript and native modules",
+          "es-MX": "Sí, frameworks como React Native usan un puente nativo para comunicarse entre JavaScript y módulos nativos"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "What is a Native Bridge?" },
+            {
+              "type": "text",
+              "content": "A native bridge allows cross-platform frameworks like React Native to connect JavaScript code with native device functionalities, enabling features like camera, GPS, or native UI components."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Qué es un Puente Nativo?" },
+            {
+              "type": "text",
+              "content": "Un puente nativo permite que frameworks multiplataforma como React Native conecten el código JavaScript con funcionalidades nativas del dispositivo, habilitando características como cámara, GPS o componentes nativos de la interfaz."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Security",
+        "Question Text": {
+          "en-US": [
+            "What is data encryption in mobile applications?"
+          ],
+          "es-MX": [
+            "¿Qué es el cifrado de datos en aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "A method to compress app files for faster download",
+            "A process of converting data into a secure format to prevent unauthorized access",
+            "A technique to increase the brightness of mobile screens",
+            "A way to automatically translate app content into multiple languages"
+          ],
+          "es-MX": [
+            "Un método para comprimir archivos de la aplicación para una descarga más rápida",
+            "Un proceso de convertir datos en un formato seguro para evitar accesos no autorizados",
+            "Una técnica para aumentar el brillo de las pantallas móviles",
+            "Una forma de traducir automáticamente el contenido de la aplicación a varios idiomas"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A process of converting data into a secure format to prevent unauthorized access",
+          "es-MX": "Un proceso de convertir datos en un formato seguro para evitar accesos no autorizados"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Definition of Data Encryption" },
+            {
+              "type": "text",
+              "content": "Data encryption is a security measure that transforms readable data into an unreadable format, ensuring that only authorized parties can access or decrypt it."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Definición de Cifrado de Datos" },
+            {
+              "type": "text",
+              "content": "El cifrado de datos es una medida de seguridad que transforma datos legibles en un formato ilegible, garantizando que solo las partes autorizadas puedan acceder o descifrarlos."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Security",
+        "Question Text": {
+          "en-US": [
+            "What is secure authentication in mobile applications?"
+          ],
+          "es-MX": [
+            "¿Qué es la autenticación segura en aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Allowing any user to log in without credentials",
+            "Using robust methods like passwords, biometrics, or multi-factor authentication to verify user identity",
+            "Automatically logging in users without any checks",
+            "Letting users bypass login screens for convenience"
+          ],
+          "es-MX": [
+            "Permitir que cualquier usuario inicie sesión sin credenciales",
+            "Usar métodos robustos como contraseñas, biometría o autenticación multifactor para verificar la identidad del usuario",
+            "Iniciar sesión automáticamente a los usuarios sin ninguna verificación",
+            "Permitir que los usuarios omitan las pantallas de inicio de sesión por conveniencia"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Using robust methods like passwords, biometrics, or multi-factor authentication to verify user identity",
+          "es-MX": "Usar métodos robustos como contraseñas, biometría o autenticación multifactor para verificar la identidad del usuario"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Definition of Secure Authentication" },
+            {
+              "type": "text",
+              "content": "Secure authentication ensures that only authorized users can access an application by using reliable methods such as strong passwords, biometric scans, or multi-factor verification."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Definición de Autenticación Segura" },
+            {
+              "type": "text",
+              "content": "La autenticación segura garantiza que solo los usuarios autorizados puedan acceder a una aplicación usando métodos confiables como contraseñas fuertes, escaneos biométricos o verificación multifactor."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Development",
+        "Question Text": {
+          "en-US": [
+            "Why is it important to follow app store policies when developing mobile applications?"
+          ],
+          "es-MX": [
+            "¿Por qué es importante seguir las políticas de las tiendas de aplicaciones al desarrollar aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "To ensure the app is accepted, avoid rejections, and maintain trust with users",
+            "To bypass the need for user permissions",
+            "To make the app work only on Android devices",
+            "To increase app download size for better performance"
+          ],
+          "es-MX": [
+            "Para asegurar que la aplicación sea aceptada, evitar rechazos y mantener la confianza de los usuarios",
+            "Para evitar la necesidad de permisos del usuario",
+            "Para hacer que la aplicación funcione solo en dispositivos Android",
+            "Para aumentar el tamaño de descarga de la aplicación para un mejor rendimiento"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "To ensure the app is accepted, avoid rejections, and maintain trust with users",
+          "es-MX": "Para asegurar que la aplicación sea aceptada, evitar rechazos y mantener la confianza de los usuarios"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Importance of Following App Store Policies" },
+            {
+              "type": "text",
+              "content": "App stores like Google Play and Apple App Store have strict guidelines to protect users and ensure quality. Following these policies helps developers avoid rejections and builds user trust."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Importancia de Seguir las Políticas de las Tiendas" },
+            {
+              "type": "text",
+              "content": "Las tiendas como Google Play y Apple App Store tienen lineamientos estrictos para proteger a los usuarios y garantizar calidad. Seguir estas políticas ayuda a los desarrolladores a evitar rechazos y genera confianza con los usuarios."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Enterprise Mobile",
+        "Question Text": {
+          "en-US": [
+            "What are internal corporate (enterprise) mobile applications?"
+          ],
+          "es-MX": [
+            "¿Qué son las aplicaciones móviles internas corporativas (enterprise)?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Public apps available on app stores for any user",
+            "Games developed exclusively for employees",
+            "Applications developed for internal use within a company, often distributed privately",
+            "Apps designed only for external customers"
+          ],
+          "es-MX": [
+            "Aplicaciones públicas disponibles en las tiendas de aplicaciones para cualquier usuario",
+            "Juegos desarrollados exclusivamente para empleados",
+            "Aplicaciones desarrolladas para uso interno dentro de una empresa, a menudo distribuidas de forma privada",
+            "Aplicaciones diseñadas solo para clientes externos"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Applications developed for internal use within a company, often distributed privately",
+          "es-MX": "Aplicaciones desarrolladas para uso interno dentro de una empresa, a menudo distribuidas de forma privada"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Definition of Internal Corporate Applications" },
+            {
+              "type": "text",
+              "content": "Enterprise mobile apps are built specifically for a company's internal operations, providing tools and functionalities for employees, and are typically not published on public app stores."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Definición de Aplicaciones Corporativas Internas" },
+            {
+              "type": "text",
+              "content": "Las aplicaciones móviles corporativas están diseñadas específicamente para las operaciones internas de una empresa, ofreciendo herramientas y funcionalidades para los empleados, y normalmente no se publican en tiendas de aplicaciones públicas."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Applications",
+        "Question Text": {
+          "en-US": [
+            "What are the main characteristics of banking or e-commerce mobile applications?"
+          ],
+          "es-MX": [
+            "¿Cuáles son las principales características de las aplicaciones móviles bancarias o de comercio electrónico?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "They prioritize security, handle sensitive transactions, and provide real-time user interactions",
+            "They only work offline and never require internet access",
+            "They are simple games with minimal data handling",
+            "They only provide product catalogs without transactions"
+          ],
+          "es-MX": [
+            "Priorizan la seguridad, manejan transacciones sensibles y ofrecen interacciones en tiempo real",
+            "Solo funcionan sin conexión y nunca requieren acceso a internet",
+            "Son juegos simples con manejo mínimo de datos",
+            "Solo ofrecen catálogos de productos sin transacciones"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "They prioritize security, handle sensitive transactions, and provide real-time user interactions",
+          "es-MX": "Priorizan la seguridad, manejan transacciones sensibles y ofrecen interacciones en tiempo real"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Key Features of Banking and E-commerce Apps" },
+            {
+              "type": "text",
+              "content": "Banking and e-commerce apps focus on strong security measures, encryption, and user authentication to handle financial transactions, ensuring real-time operations and data integrity."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Características Clave de Apps Bancarias y de E-commerce" },
+            {
+              "type": "text",
+              "content": "Las aplicaciones bancarias y de comercio electrónico se enfocan en medidas de seguridad sólidas, cifrado y autenticación de usuarios para manejar transacciones financieras, garantizando operaciones en tiempo real e integridad de los datos."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Applications",
+        "Question Text": {
+          "en-US": [
+            "What are the main functions of social media and messaging mobile applications?"
+          ],
+          "es-MX": [
+            "¿Cuáles son las funciones principales de las aplicaciones móviles de redes sociales y mensajería?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Facilitate user communication, content sharing, and social interaction in real time",
+            "Provide banking transactions and investment tracking",
+            "Offer only offline gaming experiences",
+            "Serve solely as platforms for online shopping"
+          ],
+          "es-MX": [
+            "Facilitan la comunicación entre usuarios, el intercambio de contenido y la interacción social en tiempo real",
+            "Proveen transacciones bancarias y seguimiento de inversiones",
+            "Ofrecen solo experiencias de juego sin conexión",
+            "Sirven únicamente como plataformas para compras en línea"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Facilitate user communication, content sharing, and social interaction in real time",
+          "es-MX": "Facilitan la comunicación entre usuarios, el intercambio de contenido y la interacción social en tiempo real"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Functions of Social Media and Messaging Apps" },
+            {
+              "type": "text",
+              "content": "Social media and messaging apps enable users to communicate instantly, share photos, videos, and messages, and engage with communities and friends in real time."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Funciones de Apps de Redes Sociales y Mensajería" },
+            {
+              "type": "text",
+              "content": "Las aplicaciones de redes sociales y mensajería permiten a los usuarios comunicarse instantáneamente, compartir fotos, videos y mensajes, y participar con comunidades y amigos en tiempo real."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mobile Devices",
+        "Question Text": {
+          "en-US": [
+            "What does 'heterogeneous devices' mean in the context of mobile development?"
+          ],
+          "es-MX": [
+            "¿Qué significa 'dispositivos heterogéneos' en el contexto del desarrollo móvil?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Devices that are identical in hardware and software",
+            "A variety of devices with different hardware, operating systems, and screen sizes",
+            "Devices that only support wired connections",
+            "Devices designed exclusively for gaming"
+          ],
+          "es-MX": [
+            "Dispositivos que son idénticos en hardware y software",
+            "Una variedad de dispositivos con diferentes hardware, sistemas operativos y tamaños de pantalla",
+            "Dispositivos que solo admiten conexiones por cable",
+            "Dispositivos diseñados exclusivamente para juegos"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A variety of devices with different hardware, operating systems, and screen sizes",
+          "es-MX": "Una variedad de dispositivos con diferentes hardware, sistemas operativos y tamaños de pantalla"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Definition of Heterogeneous Devices" },
+            {
+              "type": "text",
+              "content": "Heterogeneous devices refer to the wide range of mobile devices that differ in terms of hardware capabilities, operating systems, screen resolutions, and input methods, which developers must consider when creating apps."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Definición de Dispositivos Heterogéneos" },
+            {
+              "type": "text",
+              "content": "Los dispositivos heterogéneos se refieren a la amplia variedad de dispositivos móviles que difieren en capacidades de hardware, sistemas operativos, resoluciones de pantalla y métodos de entrada, aspectos que los desarrolladores deben considerar al crear aplicaciones."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Agile Development",
+        "Question Text": {
+          "en-US": [
+            "What is the purpose of optimizing agile development processes in mobile application projects?"
+          ],
+          "es-MX": [
+            "¿Cuál es el propósito de optimizar los procesos de desarrollo ágil en proyectos de aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "To speed up delivery, improve collaboration, and adapt quickly to changes",
+            "To avoid any team meetings and work in isolation",
+            "To increase the number of manual tasks and reduce automation",
+            "To focus only on the final product without considering user feedback"
+          ],
+          "es-MX": [
+            "Acelerar la entrega, mejorar la colaboración y adaptarse rápidamente a los cambios",
+            "Evitar cualquier reunión del equipo y trabajar de forma aislada",
+            "Aumentar la cantidad de tareas manuales y reducir la automatización",
+            "Enfocarse solo en el producto final sin considerar la retroalimentación del usuario"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "To speed up delivery, improve collaboration, and adapt quickly to changes",
+          "es-MX": "Acelerar la entrega, mejorar la colaboración y adaptarse rápidamente a los cambios"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Benefits of Optimizing Agile Processes" },
+            {
+              "type": "text",
+              "content": "Optimizing agile development helps teams deliver mobile applications faster, collaborate effectively, and respond to evolving requirements, ensuring continuous improvement and higher product quality."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Beneficios de Optimizar Procesos Ágiles" },
+            {
+              "type": "text",
+              "content": "Optimizar el desarrollo ágil ayuda a los equipos a entregar aplicaciones móviles más rápido, colaborar de manera efectiva y responder a requisitos cambiantes, asegurando una mejora continua y mayor calidad del producto."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Project Planning",
+        "Question Text": {
+          "en-US": [
+            "What does evaluating technical feasibility involve in mobile application projects?"
+          ],
+          "es-MX": [
+            "¿Qué implica el hecho de evaluar la viabilidad técnica en proyectos de aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Analyzing whether the required features can be implemented with current technologies and resources",
+            "Skipping the analysis phase to save time",
+            "Focusing only on marketing strategies without considering technical details",
+            "Developing the application before understanding any technical constraints"
+          ],
+          "es-MX": [
+            "Analizar si las funciones requeridas pueden implementarse con las tecnologías y recursos actuales",
+            "Saltar la fase de análisis para ahorrar tiempo",
+            "Enfocarse solo en estrategias de marketing sin considerar los detalles técnicos",
+            "Desarrollar la aplicación antes de entender cualquier limitación técnica"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Analyzing whether the required features can be implemented with current technologies and resources",
+          "es-MX": "Analizar si las funciones requeridas pueden implementarse con las tecnologías y recursos actuales"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "What is Technical Feasibility?" },
+            {
+              "type": "text",
+              "content": "Evaluating technical feasibility means assessing if the project's requirements can realistically be met with available technologies, tools, skills, and infrastructure before development begins."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Qué es la Viabilidad Técnica?" },
+            {
+              "type": "text",
+              "content": "Evaluar la viabilidad técnica significa analizar si los requisitos del proyecto pueden cumplirse de manera realista con las tecnologías, herramientas, habilidades e infraestructura disponibles antes de iniciar el desarrollo."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Software Architecture",
+        "Question Text": {
+          "en-US": [
+            "What is software architecture in the context of mobile application development?"
+          ],
+          "es-MX": [
+            "¿Qué es la arquitectura del software en el contexto del desarrollo de aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "The structured design and organization of a software system’s components and their interactions",
+            "A graphic design technique for creating app icons",
+            "The physical arrangement of mobile devices in a network",
+            "The process of marketing an app on social media"
+          ],
+          "es-MX": [
+            "El diseño estructurado y la organización de los componentes de un sistema de software y sus interacciones",
+            "Una técnica de diseño gráfico para crear iconos de aplicaciones",
+            "La disposición física de los dispositivos móviles en una red",
+            "El proceso de marketing de una aplicación en redes sociales"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "The structured design and organization of a software system’s components and their interactions",
+          "es-MX": "El diseño estructurado y la organización de los componentes de un sistema de software y sus interacciones"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Definition of Software Architecture" },
+            {
+              "type": "text",
+              "content": "Software architecture refers to the high-level design and structure of a software system, defining how components interact and ensuring scalability, maintainability, and performance."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Definición de Arquitectura del Software" },
+            {
+              "type": "text",
+              "content": "La arquitectura del software se refiere al diseño y la estructura de alto nivel de un sistema de software, definiendo cómo interactúan los componentes y asegurando escalabilidad, mantenibilidad y rendimiento."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Software Architecture",
+        "Question Text": {
+          "en-US": [
+            "What are microservices in the context of mobile application development?"
+          ],
+          "es-MX": [
+            "¿Qué son los microservicios en el contexto del desarrollo de aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "A software architecture style where an application is divided into small, independent services that communicate with each other",
+            "A design pattern to create micro-sized icons for mobile apps",
+            "A way to store mobile applications on microSD cards",
+            "A method to compress apps into smaller file sizes"
+          ],
+          "es-MX": [
+            "Un estilo de arquitectura de software donde una aplicación se divide en pequeños servicios independientes que se comunican entre sí",
+            "Un patrón de diseño para crear iconos de tamaño micro para aplicaciones móviles",
+            "Una forma de almacenar aplicaciones móviles en tarjetas microSD",
+            "Un método para comprimir aplicaciones en tamaños de archivo más pequeños"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A software architecture style where an application is divided into small, independent services that communicate with each other",
+          "es-MX": "Un estilo de arquitectura de software donde una aplicación se divide en pequeños servicios independientes que se comunican entre sí"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "Definition of Microservices" },
+            {
+              "type": "text",
+              "content": "Microservices break down applications into modular, independent units that handle specific tasks, making systems easier to scale, update, and maintain."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "Definición de Microservicios" },
+            {
+              "type": "text",
+              "content": "Los microservicios dividen las aplicaciones en unidades modulares e independientes que manejan tareas específicas, lo que hace que los sistemas sean más fáciles de escalar, actualizar y mantener."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Backend Services",
+        "Question Text": {
+          "en-US": [
+            "What does BaaS (Backend as a Service) provide in mobile application development?"
+          ],
+          "es-MX": [
+            "¿Qué proporciona BaaS (Backend as a Service) en el desarrollo de aplicaciones móviles?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Ready-to-use backend services like authentication, databases, and cloud storage, so developers don’t need to build them from scratch",
+            "A front-end design tool for mobile app interfaces",
+            "A hardware platform for testing mobile devices",
+            "An offline-only system to avoid internet dependencies"
+          ],
+          "es-MX": [
+            "Servicios backend listos para usar como autenticación, bases de datos y almacenamiento en la nube, para que los desarrolladores no tengan que construirlos desde cero",
+            "Una herramienta de diseño frontend para interfaces de aplicaciones móviles",
+            "Una plataforma de hardware para probar dispositivos móviles",
+            "Un sistema solo offline para evitar dependencias de internet"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Ready-to-use backend services like authentication, databases, and cloud storage, so developers don’t need to build them from scratch",
+          "es-MX": "Servicios backend listos para usar como autenticación, bases de datos y almacenamiento en la nube, para que los desarrolladores no tengan que construirlos desde cero"
+        },
+        "Explanation": {
+          "en-US": [
+            { "type": "title-h2", "content": "What is BaaS?" },
+            {
+              "type": "text",
+              "content": "BaaS platforms provide pre-built backend functionalities such as user authentication, real-time databases, push notifications, and cloud storage, allowing developers to focus on front-end development."
+            }
+          ],
+          "es-MX": [
+            { "type": "title-h2", "content": "¿Qué es BaaS?" },
+            {
+              "type": "text",
+              "content": "Las plataformas BaaS ofrecen funcionalidades backend preconstruidas como autenticación de usuarios, bases de datos en tiempo real, notificaciones push y almacenamiento en la nube, permitiendo a los desarrolladores enfocarse en el desarrollo frontend."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Cross-Platform Concepts",
+        "Question Text": {
+          "en-US": [
+            "What does the phrase 'Write once, run anywhere' mean in software development?",
+            "How does 'Write once, run anywhere' apply to cross-platform development?",
+            "What is the benefit of the 'Write once, run anywhere' principle?"
+          ],
+          "es-MX": [
+            "¿Qué significa la frase 'Write once, run anywhere' en el desarrollo de software?",
+            "¿Cómo se aplica 'Write once, run anywhere' al desarrollo multiplataforma?",
+            "¿Cuál es el beneficio del principio 'Write once, run anywhere'?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Writing code that only runs on one specific operating system",
+            "Writing the same application from scratch for each platform",
+            "Writing code once and having it work on multiple platforms without major changes",
+            "Writing user guides in multiple languages for different platforms"
+          ],
+          "es-MX": [
+            "Escribir código que solo funciona en un sistema operativo específico",
+            "Escribir la misma aplicación desde cero para cada plataforma",
+            "Escribir el código una vez y hacer que funcione en múltiples plataformas sin grandes cambios",
+            "Escribir manuales de usuario en varios idiomas para diferentes plataformas"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Writing code once and having it work on multiple platforms without major changes",
+          "es-MX": "Escribir el código una vez y hacer que funcione en múltiples plataformas sin grandes cambios"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "What Does 'Write Once, Run Anywhere' Mean?"
+            },
+            {
+              "type": "text",
+              "content": "This principle means that developers can create an application or component one time and deploy it across multiple platforms with minimal or no changes."
+            },
+            {
+              "type": "text",
+              "content": "It improves efficiency and reduces duplication in cross-platform development by allowing code reuse across operating systems like Android and iOS."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "¿Qué Significa 'Write Once, Run Anywhere'?"
+            },
+            {
+              "type": "text",
+              "content": "Este principio significa que los desarrolladores pueden crear una aplicación o componente una sola vez y ejecutarlo en múltiples plataformas con pocos o ningún cambio."
+            },
+            {
+              "type": "text",
+              "content": "Mejora la eficiencia y reduce la duplicación en el desarrollo multiplataforma al permitir reutilizar el código entre sistemas como Android e iOS."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Project Planning",
+        "Question Text": {
+          "en-US": [
+            "What is a Minimum Viable Product (MVP) in mobile app development?",
+            "Why is an MVP important in mobile projects?",
+            "How does an MVP benefit the development process?"
+          ],
+          "es-MX": [
+            "¿Qué es un Producto Mínimo Viable (MVP) en el desarrollo de aplicaciones móviles?",
+            "¿Por qué es importante un MVP en los proyectos móviles?",
+            "¿Cómo beneficia un MVP al proceso de desarrollo?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "An unfinished product that is never released to users",
+            "A prototype built only for internal use with no real features",
+            "A basic version of the app with just enough features to test with real users and gather feedback",
+            "The final polished version of the app launched to the public"
+          ],
+          "es-MX": [
+            "Un producto sin terminar que nunca se lanza a los usuarios",
+            "Un prototipo creado solo para uso interno sin funciones reales",
+            "Una versión básica de la app con las funciones suficientes para probar con usuarios reales y obtener retroalimentación",
+            "La versión final y pulida de la app lanzada al público"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A basic version of the app with just enough features to test with real users and gather feedback",
+          "es-MX": "Una versión básica de la app con las funciones suficientes para probar con usuarios reales y obtener retroalimentación"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "What Is an MVP?"
+            },
+            {
+              "type": "text",
+              "content": "A Minimum Viable Product is a simplified version of an application that includes only the core features necessary to deliver value and receive user feedback early."
+            },
+            {
+              "type": "text",
+              "content": "Launching an MVP helps teams validate ideas, reduce development time, and make informed decisions before investing in full-scale development."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "¿Qué Es un Producto Mínimo Viable?"
+            },
+            {
+              "type": "text",
+              "content": "Un Producto Mínimo Viable es una versión simplificada de una aplicación que incluye solo las funciones esenciales para entregar valor y obtener retroalimentación temprana de los usuarios."
+            },
+            {
+              "type": "text",
+              "content": "Lanzar un MVP ayuda a validar ideas, reducir el tiempo de desarrollo y tomar decisiones informadas antes de invertir en el desarrollo completo."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "User Experience",
+        "Question Text": {
+          "en-US": [
+            "What is user-centered design (UCD) in mobile application development?",
+            "Why is user-centered design important when creating mobile apps?",
+            "How does user-centered design influence the development process?"
+          ],
+          "es-MX": [
+            "¿Qué es el diseño centrado en el usuario (UCD) en el desarrollo de aplicaciones móviles?",
+            "¿Por qué es importante el diseño centrado en el usuario al crear aplicaciones móviles?",
+            "¿Cómo influye el diseño centrado en el usuario en el proceso de desarrollo?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "A design approach that focuses on user needs, behaviors, and feedback to guide the app’s development",
+            "A technique to center all screen elements in the layout",
+            "A method for automating app testing using user scripts",
+            "A way to block users from customizing app settings"
+          ],
+          "es-MX": [
+            "Un enfoque de diseño que se centra en las necesidades, comportamientos y retroalimentación del usuario para guiar el desarrollo de la app",
+            "Una técnica para centrar todos los elementos de la pantalla en el diseño",
+            "Un método para automatizar pruebas de apps usando scripts de usuario",
+            "Una forma de bloquear que los usuarios personalicen los ajustes de la app"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A design approach that focuses on user needs, behaviors, and feedback to guide the app’s development",
+          "es-MX": "Un enfoque de diseño que se centra en las necesidades, comportamientos y retroalimentación del usuario para guiar el desarrollo de la app"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "What Is User-Centered Design?"
+            },
+            {
+              "type": "text",
+              "content": "User-centered design (UCD) is a methodology that places real users at the center of the design process, ensuring the app meets their goals, preferences, and expectations."
+            },
+            {
+              "type": "text",
+              "content": "It involves constant user testing and iteration to improve usability and overall experience."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "¿Qué Es el Diseño Centrado en el Usuario?"
+            },
+            {
+              "type": "text",
+              "content": "El diseño centrado en el usuario (UCD) es una metodología que pone a los usuarios reales en el centro del proceso de diseño, asegurando que la app cumpla con sus objetivos, preferencias y expectativas."
+            },
+            {
+              "type": "text",
+              "content": "Implica pruebas e iteraciones constantes con usuarios para mejorar la usabilidad y la experiencia general."
+            }
+          ]
+        }
+      },
+      {
+  "Category": "Testing",
+  "Question Text": {
+    "en-US": [
+      "What are cross-platform automated tests in mobile development?",
+      "Why are cross-platform automated tests important in app development?",
+      "How do automated tests help when building apps for multiple platforms?"
+    ],
+    "es-MX": [
+      "¿Qué son las pruebas automatizadas multiplataforma en el desarrollo móvil?",
+      "¿Por qué son importantes las pruebas automatizadas multiplataforma en el desarrollo de apps?",
+      "¿Cómo ayudan las pruebas automatizadas al crear apps para múltiples plataformas?"
+    ]
+  },
+  "Options": {
+    "en-US": [
+      "They allow you to test your app on different platforms using a single test script",
+      "They are tests that can only be executed manually on Android",
+      "They are exclusive to backend systems and not used in mobile apps",
+      "They refer to manual tests done by users after app release"
+    ],
+    "es-MX": [
+      "Permiten probar tu app en diferentes plataformas usando un solo script de prueba",
+      "Son pruebas que solo pueden ejecutarse manualmente en Android",
+      "Son exclusivas para sistemas backend y no se usan en apps móviles",
+      "Se refieren a pruebas manuales hechas por usuarios después del lanzamiento de la app"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "They allow you to test your app on different platforms using a single test script",
+    "es-MX": "Permiten probar tu app en diferentes plataformas usando un solo script de prueba"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "title-h2",
+        "content": "What Are Cross-Platform Automated Tests?"
+      },
+      {
+        "type": "text",
+        "content": "These tests are designed to verify that the application behaves correctly across different platforms (e.g., Android and iOS) using the same automated scripts."
+      },
+      {
+        "type": "text",
+        "content": "They save time, increase test coverage, and help ensure consistent behavior across all platforms."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "title-h2",
+        "content": "¿Qué Son las Pruebas Automatizadas Multiplataforma?"
+      },
+      {
+        "type": "text",
+        "content": "Estas pruebas están diseñadas para verificar que la aplicación se comporte correctamente en diferentes plataformas (por ejemplo, Android e iOS) usando los mismos scripts automatizados."
+      },
+      {
+        "type": "text",
+        "content": "Ahorran tiempo, aumentan la cobertura de pruebas y ayudan a asegurar un comportamiento consistente en todas las plataformas."
+      }
+    ]
+  }
+},
+{
+    "Category": "Testing",
+    "Question Text": {
+      "en-US": [
+        "What are cross-platform automated tests in mobile development?",
+        "Why are cross-platform automated tests important in app development?",
+        "How do automated tests help when building apps for multiple platforms?"
+      ],
+      "es-MX": [
+        "¿Qué son las pruebas automatizadas multiplataforma en el desarrollo móvil?",
+        "¿Por qué son importantes las pruebas automatizadas multiplataforma en el desarrollo de apps?",
+        "¿Cómo ayudan las pruebas automatizadas al crear apps para múltiples plataformas?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "They allow you to test your app on different platforms using a single test script",
+        "They are tests that can only be executed manually on Android",
+        "They are exclusive to backend systems and not used in mobile apps",
+        "They refer to manual tests done by users after app release"
+      ],
+      "es-MX": [
+        "Permiten probar tu app en diferentes plataformas usando un solo script de prueba",
+        "Son pruebas que solo pueden ejecutarse manualmente en Android",
+        "Son exclusivas para sistemas backend y no se usan en apps móviles",
+        "Se refieren a pruebas manuales hechas por usuarios después del lanzamiento de la app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "They allow you to test your app on different platforms using a single test script",
+      "es-MX": "Permiten probar tu app en diferentes plataformas usando un solo script de prueba"
+    },
+    "Explanation": {
+      "en-US": [
+        {
+          "type": "title-h2",
+          "content": "What Are Cross-Platform Automated Tests?"
+        },
+        {
+          "type": "text",
+          "content": "These tests are designed to verify that the application behaves correctly across different platforms (e.g., Android and iOS) using the same automated scripts."
+        },
+        {
+          "type": "text",
+          "content": "They save time, increase test coverage, and help ensure consistent behavior across all platforms."
+        }
+      ],
+      "es-MX": [
+        {
+          "type": "title-h2",
+          "content": "¿Qué Son las Pruebas Automatizadas Multiplataforma?"
+        },
+        {
+          "type": "text",
+          "content": "Estas pruebas están diseñadas para verificar que la aplicación se comporte correctamente en diferentes plataformas (por ejemplo, Android e iOS) usando los mismos scripts automatizados."
+        },
+        {
+          "type": "text",
+          "content": "Ahorran tiempo, aumentan la cobertura de pruebas y ayudan a asegurar un comportamiento consistente en todas las plataformas."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "Frameworks",
+    "Question Text": {
+      "en-US": [
+        "What is React Native in the context of mobile development?",
+        "Why is React Native a popular choice for building mobile apps?",
+        "How does React Native differ from native development?"
+      ],
+      "es-MX": [
+        "¿Qué es React Native en el contexto del desarrollo móvil?",
+        "¿Por qué es React Native una opción popular para crear apps móviles?",
+        "¿En qué se diferencia React Native del desarrollo nativo?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "A JavaScript-based framework that allows building native mobile apps using a single codebase for iOS and Android",
+        "A database used to store user data in mobile applications",
+        "A design tool for creating mobile app interfaces",
+        "A platform that only works for creating web applications"
+      ],
+      "es-MX": [
+        "Un framework basado en JavaScript que permite crear apps móviles nativas usando una sola base de código para iOS y Android",
+        "Una base de datos utilizada para almacenar datos de usuario en aplicaciones móviles",
+        "Una herramienta de diseño para crear interfaces de apps móviles",
+        "Una plataforma que solo funciona para crear aplicaciones web"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "A JavaScript-based framework that allows building native mobile apps using a single codebase for iOS and Android",
+      "es-MX": "Un framework basado en JavaScript que permite crear apps móviles nativas usando una sola base de código para iOS y Android"
+    },
+    "Explanation": {
+      "en-US": [
+        {
+          "type": "title-h2",
+          "content": "What Is React Native?"
+        },
+        {
+          "type": "text",
+          "content": "React Native is a framework developed by Meta that enables developers to build mobile applications using JavaScript and React, while rendering native components on both platforms."
+        },
+        {
+          "type": "text",
+          "content": "It allows for a shared codebase across iOS and Android, speeding up development and reducing duplication."
+        }
+      ],
+      "es-MX": [
+        {
+          "type": "title-h2",
+          "content": "¿Qué Es React Native?"
+        },
+        {
+          "type": "text",
+          "content": "React Native es un framework desarrollado por Meta que permite a los desarrolladores crear aplicaciones móviles usando JavaScript y React, mientras renderiza componentes nativos en ambas plataformas."
+        },
+        {
+          "type": "text",
+          "content": "Permite compartir la base de código entre iOS y Android, acelerando el desarrollo y reduciendo la duplicación de trabajo."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "React Components",
+    "Question Text": {
+      "en-US": [
+        "What are the two main types of components in React?",
+        "How do functional and class components differ in React?",
+        "Which types of components are used in React development?"
+      ],
+      "es-MX": [
+        "¿Cuáles son los dos tipos principales de componentes en React?",
+        "¿En qué se diferencian los componentes funcionales y de clase en React?",
+        "¿Qué tipos de componentes se usan en el desarrollo con React?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Functional and class components",
+        "Button and form components",
+        "API and UI components",
+        "Parent and child components"
+      ],
+      "es-MX": [
+        "Componentes funcionales y de clase",
+        "Componentes de botón y formulario",
+        "Componentes de API e interfaz de usuario",
+        "Componentes padre e hijo"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Functional and class components",
+      "es-MX": "Componentes funcionales y de clase"
+    },
+    "Explanation": {
+      "en-US": [
+        {
+          "type": "title-h2",
+          "content": "Types of Components in React"
+        },
+        {
+          "type": "text",
+          "content": "React supports two main types of components: functional components, which are simpler and based on JavaScript functions, and class components, which use ES6 classes and have access to lifecycle methods."
+        },
+        {
+          "type": "text",
+          "content": "With the introduction of React Hooks, functional components can now handle state and side effects, making them the preferred choice in modern React development."
+        }
+      ],
+      "es-MX": [
+        {
+          "type": "title-h2",
+          "content": "Tipos de Componentes en React"
+        },
+        {
+          "type": "text",
+          "content": "React admite dos tipos principales de componentes: los componentes funcionales, que son más simples y se basan en funciones de JavaScript, y los componentes de clase, que usan clases ES6 y tienen acceso a métodos del ciclo de vida."
+        },
+        {
+          "type": "text",
+          "content": "Con la introducción de los Hooks, los componentes funcionales ahora pueden manejar estado y efectos secundarios, por lo que son la opción preferida en el desarrollo moderno con React."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "React Components",
+    "Question Text": {
+      "en-US": [
+        "How do React components communicate with each other?",
+        "What is the standard way for a parent and child component to share information in React?",
+        "How is data typically passed between components in React?"
+      ],
+      "es-MX": [
+        "¿Cómo se comunican entre sí los componentes en React?",
+        "¿Cuál es la forma estándar para que un componente padre y uno hijo compartan información en React?",
+        "¿Cómo se pasa la información entre componentes en React?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Using props to pass data from parent to child components",
+        "Direct access to the child component’s internal state",
+        "Global variables shared across all components automatically",
+        "Copying the entire app state manually between files"
+      ],
+      "es-MX": [
+        "Usando props para pasar datos del componente padre al hijo",
+        "Accediendo directamente al estado interno del componente hijo",
+        "Variables globales compartidas automáticamente entre todos los componentes",
+        "Copiando manualmente todo el estado de la app entre archivos"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Using props to pass data from parent to child components",
+      "es-MX": "Usando props para pasar datos del componente padre al hijo"
+    },
+    "Explanation": {
+      "en-US": [
+        {
+          "type": "title-h2",
+          "content": "How Components Communicate in React"
+        },
+        {
+          "type": "text",
+          "content": "React components communicate by passing data via props. A parent can send information to a child through props, which the child receives as read-only values."
+        },
+        {
+          "type": "text",
+          "content": "For more complex communication (e.g., child-to-parent or between siblings), developers use callback functions or state management libraries like Context API or Redux."
+        }
+      ],
+      "es-MX": [
+        {
+          "type": "title-h2",
+          "content": "Cómo se Comunican los Componentes en React"
+        },
+        {
+          "type": "text",
+          "content": "Los componentes en React se comunican pasando datos mediante props. Un componente padre puede enviar información a un hijo a través de props, las cuales el hijo recibe como valores de solo lectura."
+        },
+        {
+          "type": "text",
+          "content": "Para comunicaciones más complejas (como del hijo al padre o entre hermanos), se usan funciones callback o bibliotecas de manejo de estado como Context API o Redux."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture & UI",
+    "Question Text": {
+      "en-US": [
+        "How should a mobile application be structured based on a logical hierarchy of views?",
+        "What is meant by a logical hierarchy of views in app development?",
+        "Why is it important to organize views hierarchically in a mobile app?"
+      ],
+      "es-MX": [
+        "¿Cómo debe estructurarse una aplicación móvil basada en una jerarquía lógica de vistas?",
+        "¿Qué significa una jerarquía lógica de vistas en el desarrollo de aplicaciones?",
+        "¿Por qué es importante organizar las vistas jerárquicamente en una app móvil?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "By organizing screens and components from general to specific, based on navigation and app flow",
+        "By placing all screens and components in a single file to simplify access",
+        "By avoiding the use of reusable components to prevent confusion",
+        "By designing only for one platform without considering navigation patterns"
+      ],
+      "es-MX": [
+        "Organizando pantallas y componentes de lo general a lo específico, según la navegación y el flujo de la app",
+        "Colocando todas las pantallas y componentes en un solo archivo para simplificar el acceso",
+        "Evitando el uso de componentes reutilizables para no causar confusión",
+        "Diseñando solo para una plataforma sin considerar patrones de navegación"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "By organizing screens and components from general to specific, based on navigation and app flow",
+      "es-MX": "Organizando pantallas y componentes de lo general a lo específico, según la navegación y el flujo de la app"
+    },
+    "Explanation": {
+      "en-US": [
+        {
+          "type": "title-h2",
+          "content": "Logical Hierarchy of Views in App Development"
+        },
+        {
+          "type": "text",
+          "content": "A well-structured app organizes views (screens and components) in a clear hierarchy, typically starting from general layouts like navigation or tab bars and drilling down into detailed screens and UI elements."
+        },
+        {
+          "type": "text",
+          "content": "This structure improves maintainability, user experience, and code readability."
+        }
+      ],
+      "es-MX": [
+        {
+          "type": "title-h2",
+          "content": "Jerarquía Lógica de Vistas en el Desarrollo de Apps"
+        },
+        {
+          "type": "text",
+          "content": "Una app bien estructurada organiza las vistas (pantallas y componentes) en una jerarquía clara, normalmente comenzando por estructuras generales como la navegación o las pestañas, y profundizando en pantallas y elementos de interfaz más específicos."
+        },
+        {
+          "type": "text",
+          "content": "Esta estructura mejora el mantenimiento, la experiencia del usuario y la legibilidad del código."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "User Experience",
+    "Question Text": {
+      "en-US": [
+        "What are some common techniques to improve user experience in mobile applications?",
+        "How can user experience be enhanced in app design?",
+        "Which practices help make mobile apps more intuitive and accessible?"
+      ],
+      "es-MX": [
+        "¿Cuáles son algunas técnicas comunes para mejorar la experiencia del usuario en aplicaciones móviles?",
+        "¿Cómo se puede mejorar la experiencia del usuario en el diseño de una app?",
+        "¿Qué prácticas ayudan a que las apps móviles sean más intuitivas y accesibles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Using visual feedback, validating form inputs, and applying accessibility principles",
+        "Avoiding error messages to reduce distractions",
+        "Disabling interactions to simplify the interface",
+        "Removing all animations and feedback for faster load time"
+      ],
+      "es-MX": [
+        "Usar retroalimentación visual, validar entradas de formularios y aplicar principios de accesibilidad",
+        "Evitar mensajes de error para reducir distracciones",
+        "Deshabilitar interacciones para simplificar la interfaz",
+        "Eliminar todas las animaciones y retroalimentación para cargar más rápido"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Using visual feedback, validating form inputs, and applying accessibility principles",
+      "es-MX": "Usar retroalimentación visual, validar entradas de formularios y aplicar principios de accesibilidad"
+    },
+    "Explanation": {
+      "en-US": [
+        {
+          "type": "title-h2",
+          "content": "Techniques for Enhancing User Experience"
+        },
+        {
+          "type": "text",
+          "content": "Good user experience design includes visual cues (like button states or loading indicators), proper validation of user inputs to prevent errors, and accessibility features to support users with disabilities."
+        },
+        {
+          "type": "text",
+          "content": "These practices make apps easier to use, more inclusive, and more reliable."
+        }
+      ],
+      "es-MX": [
+        {
+          "type": "title-h2",
+          "content": "Técnicas para Mejorar la Experiencia del Usuario"
+        },
+        {
+          "type": "text",
+          "content": "Un buen diseño centrado en la experiencia del usuario incluye señales visuales (como estados de botones o indicadores de carga), validación adecuada de entradas para evitar errores, y características de accesibilidad para apoyar a usuarios con discapacidades."
+        },
+        {
+          "type": "text",
+          "content": "Estas prácticas hacen que las apps sean más fáciles de usar, más inclusivas y más confiables."
+        }
+      ]
+    }
+  }
+  
+  
+    
+  
+  
+
+      
+      
+      
+                                                                        
+      
+      
+      
+      
+      
+    ]
+  }
+  
