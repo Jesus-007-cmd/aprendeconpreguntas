@@ -1478,11 +1478,3051 @@
         },
         {
           "type": "text",
-          "content": "Estas prácticas hacen que las apps sean más fáciles de usar, más inclusivas y más confiables."
+          "content": "Estas prácticas hacen que las apps sean más fáciles de usar, más inclusivas y más confiables.          -----------minuto 35"
         }
       ]
     }
+  },
+  {
+    "Category": "Performance",
+    "Question Text": {
+      "en-US": [
+        "Why is performance optimization important in mobile apps?",
+        "What is the goal of optimizing performance in mobile development?",
+        "What are some benefits of a well-optimized mobile app?"
+      ],
+      "es-MX": [
+        "¿Por qué es importante la optimización del rendimiento en las aplicaciones móviles?",
+        "¿Cuál es el objetivo de optimizar el rendimiento en el desarrollo móvil?",
+        "¿Cuáles son los beneficios de una app móvil bien optimizada?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To reduce loading times, improve responsiveness, and save battery life",
+        "To make the app larger and include more animations",
+        "To focus only on backend processing",
+        "To increase CPU usage intentionally"
+      ],
+      "es-MX": [
+        "Reducir los tiempos de carga, mejorar la respuesta y ahorrar batería",
+        "Hacer la app más grande e incluir más animaciones",
+        "Enfocarse solo en el procesamiento del backend",
+        "Aumentar el uso del CPU intencionalmente"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To reduce loading times, improve responsiveness, and save battery life",
+      "es-MX": "Reducir los tiempos de carga, mejorar la respuesta y ahorrar batería"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Why Optimize Performance?" },
+        { "type": "text", "content": "Mobile devices have limited resources. Optimizing performance ensures the app runs smoothly, loads quickly, and uses resources efficiently." },
+        { "type": "text", "content": "It improves user satisfaction and device battery life." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Por Qué Optimizar el Rendimiento?" },
+        { "type": "text", "content": "Los dispositivos móviles tienen recursos limitados. Optimizar el rendimiento garantiza que la app funcione sin problemas, cargue rápido y use los recursos eficientemente." },
+        { "type": "text", "content": "Esto mejora la satisfacción del usuario y la duración de la batería." }
+      ]
+    }
+  },
+  {
+    "Category": "Performance",
+    "Question Text": {
+      "en-US": [
+        "What is lazy loading in mobile development?",
+        "How does lazy loading improve performance?",
+        "When should lazy loading be used?"
+      ],
+      "es-MX": [
+        "¿Qué es la carga diferida (lazy loading) en el desarrollo móvil?",
+        "¿Cómo mejora el rendimiento la carga diferida?",
+        "¿Cuándo debe usarse la carga diferida?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Loading only the necessary components or content when they are needed",
+        "Loading all app content at once at startup",
+        "Delaying the launch of the app",
+        "Restarting the app to load components again"
+      ],
+      "es-MX": [
+        "Cargar solo los componentes o contenidos necesarios cuando se requieran",
+        "Cargar todo el contenido de la app al iniciar",
+        "Retrasar el lanzamiento de la app",
+        "Reiniciar la app para volver a cargar los componentes"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Loading only the necessary components or content when they are needed",
+      "es-MX": "Cargar solo los componentes o contenidos necesarios cuando se requieran"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "What Is Lazy Loading?" },
+        { "type": "text", "content": "Lazy loading delays the loading of components or resources until they are actually needed, reducing the initial load time of the app." },
+        { "type": "text", "content": "This technique improves speed and saves memory." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Qué Es la Carga Diferida?" },
+        { "type": "text", "content": "La carga diferida retrasa la carga de componentes o recursos hasta que realmente se necesiten, reduciendo el tiempo de carga inicial de la app." },
+        { "type": "text", "content": "Esta técnica mejora la velocidad y ahorra memoria." }
+      ]
+    }
+  },
+  {
+    "Category": "Performance",
+    "Question Text": {
+      "en-US": [
+        "Why is it important to minimize resource usage in mobile applications?",
+        "How does reducing CPU and memory usage improve the app experience?",
+        "What happens when an app uses excessive system resources?"
+      ],
+      "es-MX": [
+        "¿Por qué es importante minimizar el uso de recursos en las aplicaciones móviles?",
+        "¿Cómo mejora la experiencia del usuario al reducir el uso de CPU y memoria?",
+        "¿Qué sucede cuando una app utiliza demasiados recursos del sistema?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To prevent slowdowns, overheating, and excessive battery consumption",
+        "To allow the app to crash more often and restart automatically",
+        "To increase file size and download time",
+        "To ensure the app always runs in the background"
+      ],
+      "es-MX": [
+        "Para evitar lentitud, sobrecalentamiento y consumo excesivo de batería",
+        "Para permitir que la app se bloquee más seguido y se reinicie automáticamente",
+        "Para aumentar el tamaño del archivo y el tiempo de descarga",
+        "Para asegurar que la app siempre se ejecute en segundo plano"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To prevent slowdowns, overheating, and excessive battery consumption",
+      "es-MX": "Para evitar lentitud, sobrecalentamiento y consumo excesivo de batería"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Minimizing Resource Usage" },
+        { "type": "text", "content": "Efficient apps reduce CPU, RAM, and network usage, leading to better performance and longer battery life on mobile devices." },
+        { "type": "text", "content": "Heavy apps may cause overheating, lag, and rapid battery drain." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Minimización del Uso de Recursos" },
+        { "type": "text", "content": "Las apps eficientes reducen el uso del CPU, RAM y red, mejorando el rendimiento y prolongando la batería del dispositivo móvil." },
+        { "type": "text", "content": "Las apps pesadas pueden causar sobrecalentamiento, lentitud y descarga rápida de la batería." }
+      ]
+    }
+  },
+  {
+    "Category": "Performance",
+    "Question Text": {
+      "en-US": [
+        "How can developers reduce the initial loading time of a mobile app?",
+        "Why is reducing app startup time important for user retention?",
+        "What technique helps apps load faster on first launch?"
+      ],
+      "es-MX": [
+        "¿Cómo pueden los desarrolladores reducir el tiempo de carga inicial de una app móvil?",
+        "¿Por qué es importante reducir el tiempo de inicio para retener usuarios?",
+        "¿Qué técnica ayuda a que las apps carguen más rápido en el primer inicio?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Using code splitting, splash screens, and lazy loading of heavy modules",
+        "Loading all features and screens immediately at launch",
+        "Increasing the size of the app bundle",
+        "Adding high-resolution videos on startup"
+      ],
+      "es-MX": [
+        "Usar división de código, pantallas de inicio y carga diferida de módulos pesados",
+        "Cargar todas las funciones y pantallas inmediatamente al iniciar",
+        "Aumentar el tamaño del paquete de la app",
+        "Agregar videos en alta resolución al inicio"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Using code splitting, splash screens, and lazy loading of heavy modules",
+      "es-MX": "Usar división de código, pantallas de inicio y carga diferida de módulos pesados"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Reducing App Load Time" },
+        { "type": "text", "content": "Initial load time can be reduced by loading only essential code, deferring heavier content, and providing splash screens to improve perceived speed." },
+        { "type": "text", "content": "Quick loading improves user experience and retention." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Reducción del Tiempo de Carga de la App" },
+        { "type": "text", "content": "El tiempo de carga inicial se puede reducir cargando solo el código esencial, aplazando el contenido pesado y usando pantallas de inicio para mejorar la percepción de velocidad." },
+        { "type": "text", "content": "Una carga rápida mejora la experiencia del usuario y su permanencia en la app." }
+      ]
+    }
+  },
+  {
+    "Category": "Performance",
+    "Question Text": {
+      "en-US": [
+        "What is local storage used for in mobile applications?",
+        "How does local storage improve app performance?",
+        "Why should apps store data locally?"
+      ],
+      "es-MX": [
+        "¿Para qué se utiliza el almacenamiento local en las aplicaciones móviles?",
+        "¿Cómo mejora el almacenamiento local el rendimiento de la app?",
+        "¿Por qué deberían las apps almacenar datos localmente?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To store data on the device for offline access and faster loading",
+        "To share user data with all other apps automatically",
+        "To replace the need for backend services",
+        "To upload all data to the cloud constantly"
+      ],
+      "es-MX": [
+        "Para almacenar datos en el dispositivo y permitir acceso sin conexión y carga más rápida",
+        "Para compartir los datos del usuario con todas las demás apps automáticamente",
+        "Para reemplazar la necesidad de servicios backend",
+        "Para subir todos los datos a la nube constantemente"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To store data on the device for offline access and faster loading",
+      "es-MX": "Para almacenar datos en el dispositivo y permitir acceso sin conexión y carga más rápida"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Benefits of Local Storage" },
+        { "type": "text", "content": "Local storage allows the app to access and display data without requiring a network connection, reducing delays and improving user experience." },
+        { "type": "text", "content": "It’s useful for offline modes, caching, and quick access to frequently used information." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Beneficios del Almacenamiento Local" },
+        { "type": "text", "content": "El almacenamiento local permite que la app acceda y muestre datos sin necesidad de conexión, reduciendo demoras y mejorando la experiencia del usuario." },
+        { "type": "text", "content": "Es útil para modos sin conexión, almacenamiento en caché y acceso rápido a información frecuente." }
+      ]
+    }
+  },
+  {
+    "Category": "App Categories",
+    "Question Text": {
+      "en-US": [
+        "What type of mobile application is WhatsApp?",
+        "Which category does Telegram belong to?",
+        "What kind of app is used mainly for real-time communication between users?"
+      ],
+      "es-MX": [
+        "¿Qué tipo de aplicación móvil es WhatsApp?",
+        "¿A qué categoría pertenece Telegram?",
+        "¿Qué tipo de app se usa principalmente para comunicación en tiempo real entre usuarios?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Communication",
+        "Health",
+        "Banking",
+        "Education"
+      ],
+      "es-MX": [
+        "Comunicación",
+        "Salud",
+        "Banca",
+        "Educación"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Communication",
+      "es-MX": "Comunicación"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Apps for Communication" },
+        { "type": "text", "content": "Apps like WhatsApp, Telegram, and Zoom are designed to enable users to send messages, make calls, or hold meetings in real time." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Apps de Comunicación" },
+        { "type": "text", "content": "Apps como WhatsApp, Telegram y Zoom están diseñadas para permitir a los usuarios enviar mensajes, hacer llamadas o realizar reuniones en tiempo real." }
+      ]
+    }
+  },
+  {
+    "Category": "App Categories",
+    "Question Text": {
+      "en-US": [
+        "What is the main function of Duolingo?",
+        "Which category does Duolingo belong to?",
+        "What type of app helps users learn new languages?"
+      ],
+      "es-MX": [
+        "¿Cuál es la función principal de Duolingo?",
+        "¿A qué categoría pertenece Duolingo?",
+        "¿Qué tipo de app ayuda a los usuarios a aprender nuevos idiomas?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Education",
+        "Entertainment",
+        "Health",
+        "Productivity"
+      ],
+      "es-MX": [
+        "Educación",
+        "Entretenimiento",
+        "Salud",
+        "Productividad"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Education",
+      "es-MX": "Educación"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Educational Apps" },
+        { "type": "text", "content": "Duolingo is an educational app focused on language learning. It offers lessons in multiple languages through gamified exercises." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Apps Educativas" },
+        { "type": "text", "content": "Duolingo es una app educativa centrada en el aprendizaje de idiomas. Ofrece lecciones en varios idiomas a través de ejercicios gamificados." }
+      ]
+    }
+  },
+  {
+    "Category": "App Categories",
+    "Question Text": {
+      "en-US": [
+        "Which category includes apps like TikTok, Netflix, and Spotify?",
+        "What type of apps are used mainly for watching videos or listening to music?",
+        "What kind of mobile applications provide entertainment content?"
+      ],
+      "es-MX": [
+        "¿Qué categoría incluye apps como TikTok, Netflix y Spotify?",
+        "¿Qué tipo de apps se usan principalmente para ver videos o escuchar música?",
+        "¿Qué tipo de aplicaciones móviles ofrecen contenido de entretenimiento?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Entertainment",
+        "Finance",
+        "Productivity",
+        "Utilities"
+      ],
+      "es-MX": [
+        "Entretenimiento",
+        "Finanzas",
+        "Productividad",
+        "Utilidades"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Entertainment",
+      "es-MX": "Entretenimiento"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Entertainment Apps" },
+        { "type": "text", "content": "Apps like TikTok, Netflix, and Spotify belong to the entertainment category, providing video, audio, or streaming content to users." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Apps de Entretenimiento" },
+        { "type": "text", "content": "Apps como TikTok, Netflix y Spotify pertenecen a la categoría de entretenimiento, ofreciendo contenido de video, audio o streaming a los usuarios." }
+      ]
+    }
+  },
+  {
+    "Category": "App Categories",
+    "Question Text": {
+      "en-US": [
+        "What type of apps are Headspace or MyFitnessPal?",
+        "Which category includes apps that support mental and physical health?",
+        "What is the main purpose of wellness and health tracking apps?"
+      ],
+      "es-MX": [
+        "¿Qué tipo de apps son Headspace o MyFitnessPal?",
+        "¿Qué categoría incluye apps que apoyan la salud física y mental?",
+        "¿Cuál es el propósito principal de las apps de bienestar y seguimiento médico?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Health and Wellness",
+        "Communication",
+        "Education",
+        "Finance"
+      ],
+      "es-MX": [
+        "Salud y Bienestar",
+        "Comunicación",
+        "Educación",
+        "Finanzas"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Health and Wellness",
+      "es-MX": "Salud y Bienestar"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Health & Wellness Apps" },
+        { "type": "text", "content": "Apps like Headspace or MyFitnessPal help users manage mental health, physical activity, and overall well-being through guided programs and tracking." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Apps de Salud y Bienestar" },
+        { "type": "text", "content": "Apps como Headspace o MyFitnessPal ayudan a los usuarios a gestionar la salud mental, la actividad física y el bienestar general mediante programas guiados y seguimiento." }
+      ]
+    }
+  },
+  {
+    "Category": "App Categories",
+    "Question Text": {
+      "en-US": [
+        "What type of apps are BBVA México, Mercado Pago, or PayPal?",
+        "Which apps allow users to make financial transactions, payments, or check their balance?",
+        "What category do mobile banking and e-commerce apps belong to?"
+      ],
+      "es-MX": [
+        "¿Qué tipo de apps son BBVA México, Mercado Pago o PayPal?",
+        "¿Qué apps permiten a los usuarios hacer transacciones, pagos o consultar su saldo?",
+        "¿A qué categoría pertenecen las apps de banca móvil y comercio electrónico?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Banking and E-commerce",
+        "Entertainment",
+        "Health",
+        "Communication"
+      ],
+      "es-MX": [
+        "Banca y Comercio Electrónico",
+        "Entretenimiento",
+        "Salud",
+        "Comunicación"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Banking and E-commerce",
+      "es-MX": "Banca y Comercio Electrónico"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Banking and E-commerce Apps" },
+        { "type": "text", "content": "These apps let users manage their finances, make purchases, send money, and perform transactions securely." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Apps de Banca y Comercio Electrónico" },
+        { "type": "text", "content": "Estas apps permiten a los usuarios gestionar sus finanzas, hacer compras, enviar dinero y realizar transacciones de forma segura." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Basics",
+    "Question Text": {
+      "en-US": [
+        "What is a mobile application?",
+        "How would you define a mobile app?",
+        "What does the term 'mobile application' refer to?"
+      ],
+      "es-MX": [
+        "¿Qué es una aplicación móvil?",
+        "¿Cómo se define una app móvil?",
+        "¿A qué se refiere el término 'aplicación móvil'?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "A software program designed to run on mobile devices such as smartphones or tablets",
+        "A physical tool used for mobile photography",
+        "A file format used for storing videos on mobile phones",
+        "A SIM card used for browsing the internet"
+      ],
+      "es-MX": [
+        "Un programa de software diseñado para ejecutarse en dispositivos móviles como teléfonos inteligentes o tabletas",
+        "Una herramienta física usada para fotografía móvil",
+        "Un formato de archivo usado para guardar videos en celulares",
+        "Una tarjeta SIM usada para navegar por internet"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "A software program designed to run on mobile devices such as smartphones or tablets",
+      "es-MX": "Un programa de software diseñado para ejecutarse en dispositivos móviles como teléfonos inteligentes o tabletas"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Definition of Mobile App" },
+        { "type": "text", "content": "Mobile applications are software programs created to operate on portable devices like phones or tablets, offering specific functionality to users." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Definición de App Móvil" },
+        { "type": "text", "content": "Las aplicaciones móviles son programas de software diseñados para operar en dispositivos portátiles como teléfonos o tabletas, ofreciendo funciones específicas al usuario." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Types",
+    "Question Text": {
+      "en-US": [
+        "What is the difference between native and hybrid mobile applications?",
+        "How do native apps differ from hybrid apps?",
+        "Which feature distinguishes hybrid apps from native ones?"
+      ],
+      "es-MX": [
+        "¿Cuál es la diferencia entre una app nativa y una híbrida?",
+        "¿En qué se diferencian las apps híbridas de las nativas?",
+        "¿Qué característica distingue a una app híbrida de una nativa?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Native apps are built for a specific platform using its language, while hybrid apps use web technologies and run on multiple platforms",
+        "Native apps require internet, hybrid apps do not",
+        "Hybrid apps only work on iOS devices",
+        "Native apps are less optimized than hybrid ones"
+      ],
+      "es-MX": [
+        "Las apps nativas están hechas para una plataforma específica usando su lenguaje, mientras que las híbridas usan tecnologías web y funcionan en varias plataformas",
+        "Las apps nativas requieren internet, las híbridas no",
+        "Las apps híbridas solo funcionan en dispositivos iOS",
+        "Las apps nativas están menos optimizadas que las híbridas"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Native apps are built for a specific platform using its language, while hybrid apps use web technologies and run on multiple platforms",
+      "es-MX": "Las apps nativas están hechas para una plataforma específica usando su lenguaje, mientras que las híbridas usan tecnologías web y funcionan en varias plataformas"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Native vs Hybrid Apps" },
+        { "type": "text", "content": "Native apps are developed in platform-specific languages (like Swift for iOS, Kotlin for Android), while hybrid apps use web tech (HTML, CSS, JS) and are wrapped in native containers." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Apps Nativas vs Híbridas" },
+        { "type": "text", "content": "Las apps nativas se desarrollan en lenguajes específicos de cada plataforma (como Swift o Kotlin), mientras que las híbridas usan tecnologías web y se ejecutan en contenedores nativos." }
+      ]
+    }
+  },
+  {
+    "Category": "Distribution",
+    "Question Text": {
+      "en-US": [
+        "What is an app store in the context of mobile development?",
+        "Where are mobile applications typically published and downloaded from?",
+        "What role does an app store play in the mobile app ecosystem?"
+      ],
+      "es-MX": [
+        "¿Qué es una tienda de aplicaciones en el contexto del desarrollo móvil?",
+        "¿Desde dónde se publican y descargan normalmente las aplicaciones móviles?",
+        "¿Qué función cumple una tienda de apps en el ecosistema móvil?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "A platform where users can download and install mobile applications",
+        "A physical location to buy mobile devices",
+        "A tool to design mobile UI",
+        "A type of code repository for developers only"
+      ],
+      "es-MX": [
+        "Una plataforma donde los usuarios pueden descargar e instalar aplicaciones móviles",
+        "Un lugar físico donde se compran dispositivos móviles",
+        "Una herramienta para diseñar interfaces móviles",
+        "Un tipo de repositorio de código solo para desarrolladores"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "A platform where users can download and install mobile applications",
+      "es-MX": "Una plataforma donde los usuarios pueden descargar e instalar aplicaciones móviles"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "What Is an App Store?" },
+        { "type": "text", "content": "An app store, such as Google Play or the Apple App Store, is a digital distribution service that hosts mobile applications for users to install on their devices." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Qué Es una Tienda de Aplicaciones?" },
+        { "type": "text", "content": "Una tienda de aplicaciones, como Google Play o App Store, es una plataforma de distribución digital donde los usuarios pueden instalar apps en sus dispositivos." }
+      ]
+    }
+  },
+  {
+    "Category": "App Types",
+    "Question Text": {
+      "en-US": [
+        "What is a benefit of using Progressive Web Apps (PWA)?",
+        "Why might a developer choose a PWA instead of a native app?",
+        "What is an advantage of a PWA for mobile users?"
+      ],
+      "es-MX": [
+        "¿Cuál es una ventaja de usar aplicaciones web progresivas (PWA)?",
+        "¿Por qué un desarrollador podría elegir una PWA en lugar de una app nativa?",
+        "¿Qué ventaja ofrece una PWA para los usuarios móviles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "They can work offline and be installed from the browser",
+        "They require a native SDK to function",
+        "They are exclusive to iOS and not available on Android",
+        "They cannot be added to the home screen"
+      ],
+      "es-MX": [
+        "Pueden funcionar sin conexión y se instalan desde el navegador",
+        "Requieren un SDK nativo para funcionar",
+        "Son exclusivas de iOS y no están disponibles en Android",
+        "No se pueden agregar a la pantalla de inicio"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "They can work offline and be installed from the browser",
+      "es-MX": "Pueden funcionar sin conexión y se instalan desde el navegador"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Advantages of PWAs" },
+        { "type": "text", "content": "PWAs are web apps that provide native-like experiences. They can be added to the home screen, work offline, and don’t require app store distribution." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Ventajas de las PWAs" },
+        { "type": "text", "content": "Las PWAs son aplicaciones web que ofrecen experiencias similares a las nativas. Se pueden instalar desde el navegador, funcionar sin conexión y no dependen de tiendas de apps." }
+      ]
+    }
+  },
+  {
+    "Category": "Backend",
+    "Question Text": {
+      "en-US": [
+        "What is the purpose of the backend in a mobile application?",
+        "Why do most mobile apps use backend services?",
+        "What does the backend of an app usually handle?"
+      ],
+      "es-MX": [
+        "¿Cuál es el propósito del backend en una aplicación móvil?",
+        "¿Por qué la mayoría de las apps móviles usan servicios backend?",
+        "¿Qué funciones maneja normalmente el backend de una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Managing data, user authentication, and business logic behind the scenes",
+        "Displaying buttons and menus in the interface",
+        "Controlling the phone's hardware directly",
+        "Installing the app on the user's device"
+      ],
+      "es-MX": [
+        "Gestionar datos, autenticación de usuarios y lógica de negocio en segundo plano",
+        "Mostrar botones y menús en la interfaz",
+        "Controlar directamente el hardware del teléfono",
+        "Instalar la app en el dispositivo del usuario"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Managing data, user authentication, and business logic behind the scenes",
+      "es-MX": "Gestionar datos, autenticación de usuarios y lógica de negocio en segundo plano"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "What the Backend Does" },
+        { "type": "text", "content": "The backend manages user accounts, stores and processes data, handles requests, and performs operations not visible to the user." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Qué Hace el Backend" },
+        { "type": "text", "content": "El backend gestiona cuentas de usuario, almacena y procesa datos, maneja solicitudes y realiza operaciones que no se ven en la interfaz." }
+      ]
+    }
+  },
+  {
+    "Category": "APIs",
+    "Question Text": {
+      "en-US": [
+        "What is an API in mobile application development?",
+        "How do APIs help mobile apps communicate with other systems?",
+        "Why are APIs important in app development?"
+      ],
+      "es-MX": [
+        "¿Qué es una API en el desarrollo de aplicaciones móviles?",
+        "¿Cómo ayudan las APIs a que una app se comunique con otros sistemas?",
+        "¿Por qué son importantes las APIs en el desarrollo de apps?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "A set of rules that allows apps to interact with external services or data",
+        "A tool to design animations in the user interface",
+        "A security system for encrypting files",
+        "A program used only for debugging"
+      ],
+      "es-MX": [
+        "Un conjunto de reglas que permite a las apps interactuar con servicios o datos externos",
+        "Una herramienta para diseñar animaciones en la interfaz de usuario",
+        "Un sistema de seguridad para cifrar archivos",
+        "Un programa usado solo para depurar errores"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "A set of rules that allows apps to interact with external services or data",
+      "es-MX": "Un conjunto de reglas que permite a las apps interactuar con servicios o datos externos"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "What Is an API?" },
+        { "type": "text", "content": "An API (Application Programming Interface) allows an app to send and receive data from other systems, like servers or third-party services, using predefined protocols." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Qué Es una API?" },
+        { "type": "text", "content": "Una API (Interfaz de Programación de Aplicaciones) permite que una app envíe y reciba datos de otros sistemas, como servidores o servicios externos, usando protocolos predefinidos." }
+      ]
+    }
+  },
+  {
+    "Category": "Security",
+    "Question Text": {
+      "en-US": [
+        "What is authentication in mobile apps?",
+        "Why is user authentication important in an application?",
+        "What does authentication verify in a mobile app?"
+      ],
+      "es-MX": [
+        "¿Qué es la autenticación en las aplicaciones móviles?",
+        "¿Por qué es importante la autenticación de usuarios en una app?",
+        "¿Qué verifica la autenticación en una aplicación móvil?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It verifies the identity of the user trying to access the app",
+        "It stores all user data without verification",
+        "It controls the app design and layout",
+        "It installs updates in the background"
+      ],
+      "es-MX": [
+        "Verifica la identidad del usuario que intenta acceder a la app",
+        "Almacena todos los datos del usuario sin verificación",
+        "Controla el diseño y la estructura de la app",
+        "Instala actualizaciones en segundo plano"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It verifies the identity of the user trying to access the app",
+      "es-MX": "Verifica la identidad del usuario que intenta acceder a la app"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Authentication in Apps" },
+        { "type": "text", "content": "Authentication ensures that only authorized users can access an app or specific features, often using credentials like email, password, or biometrics." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Autenticación en Apps" },
+        { "type": "text", "content": "La autenticación asegura que solo usuarios autorizados puedan acceder a una app o ciertas funciones, normalmente mediante correo, contraseña o biometría." }
+      ]
+    }
+  },
+  {
+    "Category": "Data Storage",
+    "Question Text": {
+      "en-US": [
+        "What is the role of a database in a mobile application?",
+        "Why do mobile apps use databases?"
+       
+      ],
+      "es-MX": [
+        "¿Qué función cumple una base de datos en una aplicación móvil?",
+        "¿Por qué las apps móviles usan bases de datos?"
+        
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To store and manage structured data that the app needs to function",
+        "To render graphics on the screen",
+        "To monitor battery usage",
+        "To connect the device to Wi-Fi networks"
+      ],
+      "es-MX": [
+        "Para almacenar y gestionar datos estructurados que la app necesita para funcionar",
+        "Para renderizar gráficos en la pantalla",
+        "Para monitorear el uso de la batería",
+        "Para conectar el dispositivo a redes Wi-Fi"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To store and manage structured data that the app needs to function",
+      "es-MX": "Para almacenar y gestionar datos estructurados que la app necesita para funcionar"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Databases in Mobile Apps" },
+        { "type": "text", "content": "Mobile apps use databases to store user data, preferences, or offline content. Examples include SQLite and Firebase Realtime Database." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Bases de Datos en Apps Móviles" },
+        { "type": "text", "content": "Las apps móviles utilizan bases de datos para almacenar datos de usuario, preferencias o contenido offline. Ejemplos incluyen SQLite y Firebase Realtime Database." }
+      ]
+    }
+  },
+  {
+    "Category": "Cloud Services",
+    "Question Text": {
+      "en-US": [
+        "What are cloud services in mobile development?",
+        "How do cloud platforms help mobile apps?",
+        "Why do developers use services like Firebase or AWS?"
+      ],
+      "es-MX": [
+        "¿Qué son los servicios en la nube en el desarrollo móvil?",
+        "¿Cómo ayudan las plataformas en la nube a las aplicaciones móviles?",
+        "¿Por qué los desarrolladores usan servicios como Firebase o AWS?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "They offer scalable storage, backend functions, and tools like authentication or notifications",
+        "They provide design templates for the app UI",
+        "They are only used for desktop software",
+        "They are required only during local development"
+      ],
+      "es-MX": [
+        "Ofrecen almacenamiento escalable, funciones backend y herramientas como autenticación o notificaciones",
+        "Proveen plantillas de diseño para la interfaz de la app",
+        "Solo se usan para software de escritorio",
+        "Solo se requieren durante el desarrollo local"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "They offer scalable storage, backend functions, and tools like authentication or notifications",
+      "es-MX": "Ofrecen almacenamiento escalable, funciones backend y herramientas como autenticación o notificaciones"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Cloud Services in Mobile Apps" },
+        { "type": "text", "content": "Cloud platforms like Firebase, AWS, and Azure let mobile apps use backend services without managing physical servers, allowing developers to scale easily." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Servicios en la Nube en Apps Móviles" },
+        { "type": "text", "content": "Plataformas como Firebase, AWS y Azure permiten a las apps móviles usar servicios backend sin manejar servidores físicos, facilitando la escalabilidad." }
+      ]
+    }
+  },
+  {
+    "Category": "Security",
+    "Question Text": {
+      "en-US": [
+        "What is session or token management in mobile apps?",
+        "Why are tokens used after user authentication?",
+        "What is the role of tokens in maintaining secure access?"
+      ],
+      "es-MX": [
+        "¿Qué es el manejo de sesiones o tokens en apps móviles?",
+        "¿Por qué se usan tokens después de la autenticación?",
+        "¿Qué función tienen los tokens para mantener el acceso seguro?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "They allow apps to maintain user sessions securely without asking for credentials repeatedly",
+        "They are used to animate transitions between screens",
+        "They speed up the installation of mobile apps",
+        "They disable app functions after login"
+      ],
+      "es-MX": [
+        "Permiten que las apps mantengan sesiones de usuario seguras sin pedir credenciales repetidamente",
+        "Se usan para animar transiciones entre pantallas",
+        "Aceleran la instalación de apps móviles",
+        "Desactivan funciones de la app después del inicio de sesión"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "They allow apps to maintain user sessions securely without asking for credentials repeatedly",
+      "es-MX": "Permiten que las apps mantengan sesiones de usuario seguras sin pedir credenciales repetidamente"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "What Are Tokens?" },
+        { "type": "text", "content": "After a user logs in, apps use tokens (like JWT) to validate identity and authorize requests without requiring repeated logins." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Qué Son los Tokens?" },
+        { "type": "text", "content": "Después de iniciar sesión, las apps usan tokens (como JWT) para validar la identidad y autorizar solicitudes sin pedir que el usuario inicie sesión de nuevo." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Features",
+    "Question Text": {
+      "en-US": [
+        "What are push notifications in mobile apps?",
+        "How do push notifications help mobile apps communicate with users?",
+        "Why do apps use push notifications?"
+      ],
+      "es-MX": [
+        "¿Qué son las notificaciones push en las apps móviles?",
+        "¿Cómo ayudan las notificaciones push a que las apps se comuniquen con los usuarios?",
+        "¿Por qué usan notificaciones push las aplicaciones móviles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Messages sent from the server to a user's device even when the app is closed",
+        "Pop-ups that only appear inside the app when it's running",
+        "Manual SMS messages sent by the app developer",
+        "System-level alerts that apps can't control"
+      ],
+      "es-MX": [
+        "Mensajes enviados desde el servidor al dispositivo del usuario, incluso cuando la app está cerrada",
+        "Ventanas emergentes que solo aparecen dentro de la app en ejecución",
+        "Mensajes SMS enviados manualmente por el desarrollador",
+        "Alertas del sistema que las apps no pueden controlar"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Messages sent from the server to a user's device even when the app is closed",
+      "es-MX": "Mensajes enviados desde el servidor al dispositivo del usuario, incluso cuando la app está cerrada"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Push Notifications" },
+        { "type": "text", "content": "Push notifications let apps send real-time messages to users to alert them of updates, messages, or promotions—even if the app is not active." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Notificaciones Push" },
+        { "type": "text", "content": "Las notificaciones push permiten que las apps envíen mensajes en tiempo real para avisar de actualizaciones, mensajes o promociones, incluso cuando la app está cerrada." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Maintenance",
+    "Question Text": {
+      "en-US": [
+        "What are OTA (Over-The-Air) updates?",
+        "How do OTA updates help in mobile app development?",
+        "What is an advantage of using OTA updates in apps?"
+      ],
+      "es-MX": [
+        "¿Qué son las actualizaciones OTA (Over-The-Air)?",
+        "¿Cómo ayudan las actualizaciones OTA en el desarrollo de apps móviles?",
+        "¿Qué ventaja tienen las actualizaciones OTA en las apps?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "They allow apps to be updated remotely without requiring a full reinstall",
+        "They are security alerts sent via SMS",
+        "They only apply to operating system updates",
+        "They are updates made through USB cable connection"
+      ],
+      "es-MX": [
+        "Permiten actualizar las apps de forma remota sin reinstalarlas completamente",
+        "Son alertas de seguridad enviadas por SMS",
+        "Solo aplican a actualizaciones del sistema operativo",
+        "Son actualizaciones que se hacen por cable USB"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "They allow apps to be updated remotely without requiring a full reinstall",
+      "es-MX": "Permiten actualizar las apps de forma remota sin reinstalarlas completamente"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "OTA Updates" },
+        { "type": "text", "content": "OTA updates allow developers to deliver bug fixes, new features, or content updates without requiring the user to download the app again from the store." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Actualizaciones OTA" },
+        { "type": "text", "content": "Las actualizaciones OTA permiten enviar correcciones de errores, nuevas funciones o contenido sin que el usuario tenga que reinstalar la app desde la tienda." }
+      ]
+    }
+  },
+  {
+    "Category": "Device Features",
+    "Question Text": {
+      "en-US": [
+        "What is the purpose of geolocation in mobile apps?",
+        "How does geolocation benefit mobile applications?",
+        "Why do some apps request access to your location?"
+      ],
+      "es-MX": [
+        "¿Para qué sirve la geolocalización en una app móvil?",
+        "¿Cómo beneficia la geolocalización a las aplicaciones móviles?",
+        "¿Por qué algunas apps solicitan acceso a tu ubicación?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To provide services based on the user's physical location",
+        "To access the phone’s memory",
+        "To control app permissions remotely",
+        "To block user input during use"
+      ],
+      "es-MX": [
+        "Para ofrecer servicios basados en la ubicación física del usuario",
+        "Para acceder a la memoria del teléfono",
+        "Para controlar permisos de la app remotamente",
+        "Para bloquear la entrada del usuario durante el uso"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To provide services based on the user's physical location",
+      "es-MX": "Para ofrecer servicios basados en la ubicación física del usuario"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Geolocation in Apps" },
+        { "type": "text", "content": "Geolocation allows apps to offer location-based services like maps, delivery tracking, or nearby store suggestions." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Geolocalización en Apps" },
+        { "type": "text", "content": "La geolocalización permite que las apps ofrezcan servicios basados en ubicación como mapas, rastreo de entregas o sugerencias de tiendas cercanas." }
+      ]
+    }
+  },
+  {
+    "Category": "Device Features",
+    "Question Text": {
+      "en-US": [
+        "Which sensors can be used by mobile applications?",
+        "What kind of sensors can apps access in a smartphone?",
+        "Which device features are commonly used in apps for interaction or data?"
+      ],
+      "es-MX": [
+        "¿Qué sensores del dispositivo pueden usar las aplicaciones móviles?",
+        "¿A qué tipo de sensores puede acceder una app en un smartphone?",
+        "¿Qué funciones del dispositivo suelen usar las apps para interactuar o recolectar datos?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Accelerometer, gyroscope, proximity sensor, and GPS",
+        "CD drive, USB printer, and desktop GPU",
+        "Smartwatch pairing, external battery pack, and HDMI port",
+        "File compression tools, Java compiler, and BIOS setup"
+      ],
+      "es-MX": [
+        "Acelerómetro, giroscopio, sensor de proximidad y GPS",
+        "Unidad de CD, impresora USB y GPU de escritorio",
+        "Vinculación con smartwatch, batería externa y puerto HDMI",
+        "Herramientas de compresión, compilador Java y configuración del BIOS"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Accelerometer, gyroscope, proximity sensor, and GPS",
+      "es-MX": "Acelerómetro, giroscopio, sensor de proximidad y GPS"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Sensors Used by Mobile Apps" },
+        { "type": "text", "content": "Apps can use built-in device sensors to detect motion, orientation, proximity, or location. This data enhances interactivity, fitness tracking, or security features." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Sensores Usados por las Apps" },
+        { "type": "text", "content": "Las apps pueden usar sensores integrados para detectar movimiento, orientación, proximidad o ubicación. Esto mejora la interactividad, el seguimiento de salud o la seguridad." }
+      ]
+    }
+  },
+  {
+    "Category": "Device Permissions",
+    "Question Text": {
+      "en-US": [
+        "What does camera access allow a mobile app to do?",
+        "Why might an app request permission to use the device's camera?",
+        "Which feature is enabled by granting camera access to an app?"
+      ],
+      "es-MX": [
+        "¿Qué permite hacer el acceso a la cámara desde una app?",
+        "¿Por qué una app podría pedir permiso para usar la cámara del dispositivo?",
+        "¿Qué función se habilita al otorgar acceso a la cámara a una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Take photos or videos, scan QR codes, or enable video calls",
+        "Control volume and brightness settings",
+        "Read local contacts automatically",
+        "Install updates from unknown sources"
+      ],
+      "es-MX": [
+        "Tomar fotos o videos, escanear códigos QR o habilitar videollamadas",
+        "Controlar el volumen y brillo de la pantalla",
+        "Leer contactos locales automáticamente",
+        "Instalar actualizaciones desde fuentes desconocidas"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Take photos or videos, scan QR codes, or enable video calls",
+      "es-MX": "Tomar fotos o videos, escanear códigos QR o habilitar videollamadas"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Camera Access in Apps" },
+        { "type": "text", "content": "Granting camera access lets the app use the device's camera to take pictures, record video, or use visual input for features like QR scanning or real-time communication." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Acceso a la Cámara en Apps" },
+        { "type": "text", "content": "Al otorgar acceso a la cámara, la app puede tomar fotos, grabar videos o usar la entrada visual para funciones como escaneo de códigos QR o videollamadas." }
+      ]
+    }
+  },
+  {
+    "Category": "Testing",
+    "Question Text": {
+      "en-US": [
+        "What is testing in mobile app development?",
+        "Why is testing important before releasing a mobile app?",
+        "What is the purpose of testing a mobile application?"
+      ],
+      "es-MX": [
+        "¿Qué es el testing en el desarrollo de aplicaciones móviles?",
+        "¿Por qué es importante realizar pruebas antes de lanzar una app?",
+        "¿Cuál es el propósito de probar una aplicación móvil?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To detect and fix errors before the app reaches users",
+        "To improve internet speed during installation",
+        "To reduce the file size of the app icon",
+        "To allow only administrators to use the app"
+      ],
+      "es-MX": [
+        "Detectar y corregir errores antes de que la app llegue a los usuarios",
+        "Mejorar la velocidad de internet durante la instalación",
+        "Reducir el tamaño del archivo del ícono de la app",
+        "Permitir que solo los administradores usen la app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To detect and fix errors before the app reaches users",
+      "es-MX": "Detectar y corregir errores antes de que la app llegue a los usuarios"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Why Testing Matters" },
+        { "type": "text", "content": "Testing helps ensure the app works correctly, provides a good user experience, and avoids bugs that could cause crashes or data loss." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Importancia del Testing" },
+        { "type": "text", "content": "Las pruebas ayudan a asegurar que la app funcione bien, ofrezca una buena experiencia de usuario y evite errores que puedan causar fallos o pérdida de datos." }
+      ]
+    }
+  },
+  {
+    "Category": "Accessibility",
+    "Question Text": {
+      "en-US": [
+        "What is accessibility in mobile app development?",
+        "Why is accessibility important in apps?",
+        "How do accessibility features help mobile users?"
+      ],
+      "es-MX": [
+        "¿Qué es la accesibilidad en el desarrollo de apps móviles?",
+        "¿Por qué es importante la accesibilidad en una app?",
+        "¿Cómo ayudan las funciones de accesibilidad a los usuarios móviles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It ensures apps can be used by people with disabilities through features like screen readers or contrast modes",
+        "It blocks unauthorized access to the app",
+        "It compresses images for faster loading",
+        "It changes the app language automatically"
+      ],
+      "es-MX": [
+        "Asegura que las apps puedan ser usadas por personas con discapacidad mediante funciones como lectores de pantalla o modos de contraste",
+        "Bloquea el acceso no autorizado a la app",
+        "Comprime imágenes para una carga más rápida",
+        "Cambia automáticamente el idioma de la app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It ensures apps can be used by people with disabilities through features like screen readers or contrast modes",
+      "es-MX": "Asegura que las apps puedan ser usadas por personas con discapacidad mediante funciones como lectores de pantalla o modos de contraste"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Accessibility in Mobile Apps" },
+        { "type": "text", "content": "Accessibility makes apps usable for people with visual, auditory, or motor impairments by supporting assistive technologies and interface adjustments." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Accesibilidad en Apps Móviles" },
+        { "type": "text", "content": "La accesibilidad permite que las apps sean utilizables por personas con discapacidades visuales, auditivas o motoras, mediante tecnologías de asistencia o ajustes en la interfaz." }
+      ]
+    }
+  },
+  {
+    "Category": "App Stores",
+    "Question Text": {
+      "en-US": [
+        "What is required to publish an app to the App Store or Google Play?",
+        "What do developers need to do before launching their app publicly?",
+        "Which step is part of the mobile app publishing process?"
+      ],
+      "es-MX": [
+        "¿Qué se necesita para publicar una app en App Store o Google Play?",
+        "¿Qué deben hacer los desarrolladores antes de lanzar su app al público?",
+        "¿Qué paso forma parte del proceso de publicación de una app móvil?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Create a developer account, follow store policies, and submit the app for review",
+        "Buy a SIM card and restart the app",
+        "Send the app as an email attachment",
+        "Wait for users to manually upload the app to the store"
+      ],
+      "es-MX": [
+        "Crear una cuenta de desarrollador, seguir las políticas de la tienda y enviar la app para revisión",
+        "Comprar un chip y reiniciar la app",
+        "Enviar la app como archivo adjunto por correo",
+        "Esperar a que los usuarios suban la app manualmente a la tienda"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Create a developer account, follow store policies, and submit the app for review",
+      "es-MX": "Crear una cuenta de desarrollador, seguir las políticas de la tienda y enviar la app para revisión"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Publishing to App Stores" },
+        { "type": "text", "content": "To publish an app, developers must register as developers, comply with platform guidelines, and upload the app for review and distribution." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Publicar en Tiendas de Apps" },
+        { "type": "text", "content": "Para publicar una app, los desarrolladores deben registrarse como tales, cumplir con las políticas de la plataforma y enviar la app para revisión y distribución." }
+      ]
+    }
+  },
+  {
+    "Category": "App Stores",
+    "Question Text": {
+      "en-US": [
+        "What is the review process when publishing an app?",
+        "Why do app stores review submitted apps?",
+        "What does the app review process verify?"
+      ],
+      "es-MX": [
+        "¿Qué es el proceso de revisión al publicar una app?",
+        "¿Por qué las tiendas revisan las apps enviadas?",
+        "¿Qué verifica el proceso de revisión de una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To check if the app follows policies, works correctly, and is safe for users",
+        "To rewrite the app’s code automatically",
+        "To translate the app into other languages",
+        "To increase the file size of the app"
+      ],
+      "es-MX": [
+        "Verificar que la app cumpla las políticas, funcione correctamente y sea segura para los usuarios",
+        "Reescribir el código de la app automáticamente",
+        "Traducir la app a otros idiomas",
+        "Aumentar el tamaño del archivo de la app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To check if the app follows policies, works correctly, and is safe for users",
+      "es-MX": "Verificar que la app cumpla las políticas, funcione correctamente y sea segura para los usuarios"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "App Store Review Process" },
+        { "type": "text", "content": "The review ensures that apps do not contain harmful content, respect privacy, and meet technical and policy standards before being published." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Proceso de Revisión en Tiendas" },
+        { "type": "text", "content": "La revisión asegura que las apps no contengan contenido dañino, respeten la privacidad y cumplan con los estándares técnicos y de políticas antes de ser publicadas." }
+      ]
+    }
+  },
+  {
+    "Category": "Maintenance",
+    "Question Text": {
+      "en-US": [
+        "What is versioning and maintenance in mobile apps?",
+        "Why is it important to maintain an app after it's published?",
+        "What does app versioning help track?"
+      ],
+      "es-MX": [
+        "¿Qué es el versionamiento y mantenimiento de una app?",
+        "¿Por qué es importante mantener una app después de publicarla?",
+        "¿Para qué sirve el versionamiento en las aplicaciones?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It allows developers to fix bugs, add features, and track changes across releases",
+        "It deletes old versions of the app permanently",
+        "It reduces internet usage when downloading",
+        "It stores user passwords for backup"
+      ],
+      "es-MX": [
+        "Permite a los desarrolladores corregir errores, agregar funciones y llevar control de cambios entre versiones",
+        "Elimina versiones antiguas de la app permanentemente",
+        "Reduce el uso de internet al descargar",
+        "Guarda contraseñas de usuario como respaldo"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It allows developers to fix bugs, add features, and track changes across releases",
+      "es-MX": "Permite a los desarrolladores corregir errores, agregar funciones y llevar control de cambios entre versiones"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Versioning and Maintenance" },
+        { "type": "text", "content": "Keeping apps updated is essential to fix issues, meet new device standards, improve performance, and enhance functionality." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Versionamiento y Mantenimiento" },
+        { "type": "text", "content": "Actualizar las apps es esencial para corregir problemas, adaptarse a nuevos dispositivos, mejorar el rendimiento y ampliar funcionalidades." }
+      ]
+    }
+  },
+  {
+    "Category": "Cloud Services",
+    "Question Text": {
+      "en-US": [
+        "What is Firebase used for in mobile development?",
+        "Why do developers integrate Firebase into mobile apps?",
+        "What kind of services does Firebase offer?"
+      ],
+      "es-MX": [
+        "¿Para qué se usa Firebase en el desarrollo móvil?",
+        "¿Por qué los desarrolladores integran Firebase en las apps?",
+        "¿Qué tipo de servicios ofrece Firebase?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Backend services like authentication, database, analytics and notifications",
+        "A tool to design UI interfaces only",
+        "A compiler to convert code into iOS apps",
+        "A plugin that adds ads to your app"
+      ],
+      "es-MX": [
+        "Servicios backend como autenticación, base de datos, analíticas y notificaciones",
+        "Una herramienta solo para diseñar interfaces de usuario",
+        "Un compilador para convertir código en apps iOS",
+        "Un plugin que agrega anuncios a tu app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Backend services like authentication, database, analytics and notifications",
+      "es-MX": "Servicios backend como autenticación, base de datos, analíticas y notificaciones"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "What Is Firebase?" },
+        { "type": "text", "content": "Firebase is a platform by Google that offers cloud services like Firestore database, user authentication, push notifications, and real-time analytics for mobile and web apps." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Qué Es Firebase?" },
+        { "type": "text", "content": "Firebase es una plataforma de Google que ofrece servicios en la nube como base de datos Firestore, autenticación de usuarios, notificaciones push y análisis en tiempo real para apps móviles y web." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture",
+    "Question Text": {
+      "en-US": [
+        "What is layered architecture in mobile app development?",
+        "Why is a layered architecture used in apps?",
+        "What does a multi-layered architecture help separate?"
+      ],
+      "es-MX": [
+        "¿Qué es la arquitectura por capas en el desarrollo de apps móviles?",
+        "¿Por qué se utiliza una arquitectura por capas en las aplicaciones?",
+        "¿Qué ayuda a separar una arquitectura por capas?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "The user interface, business logic, and data management into separate layers",
+        "The app into different folders only",
+        "All backend services from the frontend without connection",
+        "App files from being copied by users"
+      ],
+      "es-MX": [
+        "La interfaz de usuario, la lógica de negocio y el manejo de datos en capas separadas",
+        "La app en diferentes carpetas solamente",
+        "Todos los servicios backend del frontend sin conexión",
+        "Los archivos de la app para que no sean copiados por los usuarios"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "The user interface, business logic, and data management into separate layers",
+      "es-MX": "La interfaz de usuario, la lógica de negocio y el manejo de datos en capas separadas"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Layered Architecture" },
+        { "type": "text", "content": "Layered architecture helps organize code by separating responsibilities: UI in the presentation layer, logic in the business layer, and storage in the data layer." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Arquitectura por Capas" },
+        { "type": "text", "content": "La arquitectura por capas organiza el código separando responsabilidades: interfaz en la capa de presentación, lógica en la de negocio y almacenamiento en la capa de datos." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture",
+    "Question Text": {
+      "en-US": [
+        "What is the Model-View-Controller (MVC) pattern in mobile development?",
+        "How does the MVC pattern separate responsibilities in an app?",
+        "Why is the MVC design pattern useful?"
+      ],
+      "es-MX": [
+        "¿Qué es el patrón de diseño Modelo-Vista-Controlador (MVC) en desarrollo móvil?",
+        "¿Cómo separa el patrón MVC las responsabilidades en una app?",
+        "¿Por qué es útil el patrón de diseño MVC?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It divides the app into Model (data), View (UI), and Controller (logic)",
+        "It connects the app to external APIs directly",
+        "It stores files in the cloud automatically",
+        "It compresses the app to reduce size"
+      ],
+      "es-MX": [
+        "Divide la app en Modelo (datos), Vista (interfaz) y Controlador (lógica)",
+        "Conecta la app a APIs externas directamente",
+        "Almacena archivos en la nube automáticamente",
+        "Comprime la app para reducir su tamaño"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It divides the app into Model (data), View (UI), and Controller (logic)",
+      "es-MX": "Divide la app en Modelo (datos), Vista (interfaz) y Controlador (lógica)"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "MVC Pattern" },
+        { "type": "text", "content": "The Model-View-Controller pattern helps keep code organized by separating how data is handled, how it's displayed, and how users interact with it." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Patrón MVC" },
+        { "type": "text", "content": "El patrón Modelo-Vista-Controlador ayuda a mantener el código organizado separando cómo se manejan los datos, cómo se muestran y cómo interactúa el usuario." }
+      ]
+    }
+  },
+  {
+    "Category": "Business Logic",
+    "Question Text": {
+      "en-US": [
+        "What are business rules in mobile applications?",
+        "Where are business rules implemented in a layered architecture?",
+        "Why are business rules important in app logic?"
+      ],
+      "es-MX": [
+        "¿Qué son las reglas de negocio en una app móvil?",
+        "¿En qué parte de la arquitectura se implementan las reglas de negocio?",
+        "¿Por qué son importantes las reglas de negocio en la lógica de una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "They define how the app processes information according to company or system rules",
+        "They store layout and visual preferences",
+        "They decide where to host the app online",
+        "They define animation transitions"
+      ],
+      "es-MX": [
+        "Definen cómo la app procesa la información según reglas de la empresa o del sistema",
+        "Almacenan preferencias visuales y de diseño",
+        "Deciden dónde alojar la app en línea",
+        "Definen transiciones de animación"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "They define how the app processes information according to company or system rules",
+      "es-MX": "Definen cómo la app procesa la información según reglas de la empresa o del sistema"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Business Rules in Apps" },
+        { "type": "text", "content": "Business rules are implemented in the business layer and dictate how data is validated, calculated, or restricted based on organizational logic." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Reglas de Negocio en Apps" },
+        { "type": "text", "content": "Las reglas de negocio se implementan en la capa de negocio y determinan cómo se valida, calcula o restringe la información según la lógica de la organización." }
+      ]
+    }
+  },
+  {
+    "Category": "Data Handling",
+    "Question Text": {
+      "en-US": [
+        "What is data synchronization in mobile applications?",
+        "Why is syncing data important in mobile apps?",
+        "When is synchronization used in apps?"
+      ],
+      "es-MX": [
+        "¿Qué es la sincronización de la información en apps móviles?",
+        "¿Por qué es importante sincronizar datos en una app móvil?",
+        "¿Cuándo se utiliza la sincronización en las aplicaciones?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To ensure data is consistent across devices or between local and cloud storage",
+        "To turn off notifications automatically",
+        "To reset app settings to default",
+        "To block internet access for background tasks"
+      ],
+      "es-MX": [
+        "Para asegurar que los datos sean consistentes entre dispositivos o entre almacenamiento local y en la nube",
+        "Para desactivar notificaciones automáticamente",
+        "Para restablecer la configuración de la app",
+        "Para bloquear el acceso a internet de tareas en segundo plano"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To ensure data is consistent across devices or between local and cloud storage",
+      "es-MX": "Para asegurar que los datos sean consistentes entre dispositivos o entre almacenamiento local y en la nube"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "What Is Data Sync?" },
+        { "type": "text", "content": "Data synchronization allows updates made offline or on another device to match with the server or cloud version, keeping user data consistent and reliable." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Qué Es la Sincronización de Datos?" },
+        { "type": "text", "content": "La sincronización de datos permite que los cambios realizados sin conexión o en otro dispositivo se actualicen y coincidan con la versión del servidor o la nube." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Client Layer",
+    "Question Text": {
+      "en-US": [
+        "Which devices or interfaces are part of the client layer in a layered architecture?",
+        "What does the client layer typically include?",
+        "What components belong to the outermost layer of a mobile architecture?"
+      ],
+      "es-MX": [
+        "¿Qué dispositivos o interfaces forman parte de la capa cliente en una arquitectura por capas?",
+        "¿Qué suele incluir la capa cliente?",
+        "¿Qué componentes pertenecen a la capa más externa de una arquitectura móvil?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Browser, Tablet, Web service",
+        "Database, Messaging, Integration API",
+        "Presentation logic, Business model",
+        "Authentication service, Caching system"
+      ],
+      "es-MX": [
+        "Navegador, Tableta, Servicio web",
+        "Base de datos, Mensajería, API de integración",
+        "Lógica de presentación, Modelo de negocio",
+        "Servicio de autenticación, Sistema de caché"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Browser, Tablet, Web service",
+      "es-MX": "Navegador, Tableta, Servicio web"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Client Layer" },
+        { "type": "text", "content": "The client layer includes user-facing interfaces such as web browsers, tablets, and services that initiate interactions with the app." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Capa Cliente" },
+        { "type": "text", "content": "La capa cliente incluye las interfaces visibles para el usuario como navegadores, tabletas y servicios que inician la interacción con la app." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Presentation Layer",
+    "Question Text": {
+      "en-US": [
+        "What does the presentation layer handle in a mobile architecture?",
+        "Which responsibilities belong to the presentation layer?",
+        "Where is session state and UI logic typically managed?"
+      ],
+      "es-MX": [
+        "¿Qué gestiona la capa de presentación en una arquitectura móvil?",
+        "¿Qué responsabilidades tiene la capa de presentación?",
+        "¿Dónde se maneja normalmente el estado de sesión y la lógica de la interfaz?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Presentation logic and session state management",
+        "Data integration and access control",
+        "Business rules and backend APIs",
+        "Only layout design and static images"
+      ],
+      "es-MX": [
+        "Lógica de presentación y gestión del estado de sesión",
+        "Integración de datos y control de acceso",
+        "Reglas de negocio y APIs de backend",
+        "Solo diseño visual y elementos estáticos"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Presentation logic and session state management",
+      "es-MX": "Lógica de presentación y gestión del estado de sesión"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Presentation Layer" },
+        { "type": "text", "content": "This layer handles how data is presented to users, manages UI components, and tracks session-related behavior." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Capa de Presentación" },
+        { "type": "text", "content": "Esta capa maneja cómo se presenta la información al usuario, gestiona los componentes de la interfaz y mantiene el comportamiento de la sesión." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Business Layer",
+    "Question Text": {
+      "en-US": [
+        "What is the primary role of the business layer?",
+        "Which logic is implemented in the business layer?",
+        "What does the business layer manage in a layered architecture?"
+      ],
+      "es-MX": [
+        "¿Cuál es la función principal de la capa de negocio?",
+        "¿Qué lógica se implementa en la capa de negocio?",
+        "¿Qué maneja la capa de negocio en una arquitectura por capas?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Application logic processing and business rules",
+        "User interface layouts and themes",
+        "Server storage and network bandwidth",
+        "Database indexing and optimization"
+      ],
+      "es-MX": [
+        "Procesamiento de la lógica de aplicación y reglas de negocio",
+        "Diseños de interfaz de usuario y temas visuales",
+        "Almacenamiento del servidor y ancho de banda de red",
+        "Indexación y optimización de base de datos"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Application logic processing and business rules",
+      "es-MX": "Procesamiento de la lógica de aplicación y reglas de negocio"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Business Layer Role" },
+        { "type": "text", "content": "The business layer manages the core logic of the application, including the decision-making processes and rules that reflect the organization’s operations." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Función de la Capa de Negocio" },
+        { "type": "text", "content": "La capa de negocio maneja la lógica central de la app, incluyendo los procesos de decisión y reglas que representan las operaciones del negocio." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Integration Layer",
+    "Question Text": {
+      "en-US": [
+        "What is the function of the integration layer in a layered architecture?",
+        "Which tasks are handled by the integration layer?",
+        "Why is the integration layer important in mobile apps?"
+      ],
+      "es-MX": [
+        "¿Cuál es la función de la capa de integración en una arquitectura por capas?",
+        "¿Qué tareas maneja la capa de integración?",
+        "¿Por qué es importante la capa de integración en las apps móviles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Data access, messaging, and service integration",
+        "Screen navigation and button design",
+        "Color palette configuration",
+        "App distribution and installation"
+      ],
+      "es-MX": [
+        "Acceso a datos, mensajería e integración de servicios",
+        "Navegación de pantallas y diseño de botones",
+        "Configuración de paleta de colores",
+        "Distribución e instalación de la app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Data access, messaging, and service integration",
+      "es-MX": "Acceso a datos, mensajería e integración de servicios"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Integration Layer" },
+        { "type": "text", "content": "This layer connects the app with external systems, enabling data exchange, service orchestration, and messaging." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Capa de Integración" },
+        { "type": "text", "content": "Esta capa conecta la app con sistemas externos, permitiendo el intercambio de datos, la integración de servicios y la mensajería." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Data Layer",
+    "Question Text": {
+      "en-US": [
+        "What is the role of the data layer in a mobile app architecture?",
+        "Which responsibilities belong to the data layer?",
+        "Where is data stored and retrieved in an app architecture?"
+      ],
+      "es-MX": [
+        "¿Cuál es el papel de la capa de datos en la arquitectura de una app?",
+        "¿Qué responsabilidades tiene la capa de datos?",
+        "¿Dónde se almacena y recupera la información en la arquitectura de una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Database access and delivery system",
+        "Session state and animation logic",
+        "Bluetooth communication and printing",
+        "Push notifications and authentication"
+      ],
+      "es-MX": [
+        "Acceso a base de datos y sistema de entrega",
+        "Estado de sesión y lógica de animaciones",
+        "Comunicación por Bluetooth e impresión",
+        "Notificaciones push y autenticación"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Database access and delivery system",
+      "es-MX": "Acceso a base de datos y sistema de entrega"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Data Layer Role" },
+        { "type": "text", "content": "The data layer is responsible for retrieving, storing, and delivering data using databases and services that interact with backend infrastructure." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Función de la Capa de Datos" },
+        { "type": "text", "content": "La capa de datos se encarga de recuperar, almacenar y entregar información mediante bases de datos y servicios que interactúan con la infraestructura del backend." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Monolithic",
+    "Question Text": {
+      "en-US": [
+        "What is monolithic architecture in mobile or web applications?",
+        "How is functionality structured in a monolithic system?",
+        "What characterizes a monolithic application?"
+      ],
+      "es-MX": [
+        "¿Qué es la arquitectura monolítica en aplicaciones móviles o web?",
+        "¿Cómo está estructurada la funcionalidad en un sistema monolítico?",
+        "¿Qué caracteriza a una aplicación monolítica?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "All components like UI, business logic, and data access are part of a single application",
+        "Each module runs as a separate independent service",
+        "It is used only for desktop applications",
+        "It allows dynamic updates without restarting the app"
+      ],
+      "es-MX": [
+        "Todos los componentes como la interfaz, lógica de negocio y acceso a datos forman parte de una sola aplicación",
+        "Cada módulo se ejecuta como un servicio independiente",
+        "Solo se utiliza para aplicaciones de escritorio",
+        "Permite actualizaciones dinámicas sin reiniciar la app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "All components like UI, business logic, and data access are part of a single application",
+      "es-MX": "Todos los componentes como la interfaz, lógica de negocio y acceso a datos forman parte de una sola aplicación"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Monolithic Architecture" },
+        { "type": "text", "content": "In monolithic applications, the user interface, business logic, and data access layers are tightly coupled and deployed as a single unit." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Arquitectura Monolítica" },
+        { "type": "text", "content": "En las aplicaciones monolíticas, la interfaz de usuario, la lógica de negocio y el acceso a datos están estrechamente integrados y se despliegan como una sola unidad." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Monolithic",
+    "Question Text": {
+      "en-US": [
+        "What is a common drawback of monolithic architectures?",
+        "What challenge arises when updating monolithic applications?",
+        "Why can monolithic systems become difficult to maintain?"
+      ],
+      "es-MX": [
+        "¿Cuál es una desventaja común de las arquitecturas monolíticas?",
+        "¿Qué problema surge al actualizar aplicaciones monolíticas?",
+        "¿Por qué los sistemas monolíticos pueden ser difíciles de mantener?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Any change requires rebuilding and redeploying the entire application",
+        "They use more battery on mobile devices",
+        "They do not support touchscreen input",
+        "They cannot connect to a database"
+      ],
+      "es-MX": [
+        "Cualquier cambio requiere reconstruir y volver a desplegar toda la aplicación",
+        "Usan más batería en dispositivos móviles",
+        "No soportan entrada táctil",
+        "No pueden conectarse a una base de datos"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Any change requires rebuilding and redeploying the entire application",
+      "es-MX": "Cualquier cambio requiere reconstruir y volver a desplegar toda la aplicación"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Drawbacks of Monolithic Architecture" },
+        { "type": "text", "content": "Because all parts of the system are tightly coupled, a small change in one module can require full recompilation and deployment of the app." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Desventajas de la Arquitectura Monolítica" },
+        { "type": "text", "content": "Como todas las partes del sistema están estrechamente acopladas, un pequeño cambio en un módulo puede requerir recompilar y desplegar toda la aplicación." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Monolithic",
+    "Question Text": {
+      "en-US": [
+        "Which components are typically integrated into a monolithic application?",
+        "What modules are part of a monolithic structure?",
+        "Which of the following layers are combined in a monolithic app?"
+      ],
+      "es-MX": [
+        "¿Qué componentes están integrados normalmente en una aplicación monolítica?",
+        "¿Qué módulos forman parte de una estructura monolítica?",
+        "¿Qué capas se combinan en una app monolítica?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "User interface, business logic, and data access layer",
+        "External APIs and microservices only",
+        "Third-party SDKs and animations",
+        "Only UI components with no logic"
+      ],
+      "es-MX": [
+        "Interfaz de usuario, lógica de negocio y capa de acceso a datos",
+        "Solo APIs externas y microservicios",
+        "SDKs de terceros y animaciones",
+        "Solo componentes de interfaz sin lógica"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "User interface, business logic, and data access layer",
+      "es-MX": "Interfaz de usuario, lógica de negocio y capa de acceso a datos"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Monolithic Components" },
+        { "type": "text", "content": "A monolithic app contains all core parts: the UI, business logic, and data management layers, compiled together in one deployable unit." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Componentes en Apps Monolíticas" },
+        { "type": "text", "content": "Una app monolítica incluye todas las partes centrales: la interfaz de usuario, la lógica de negocio y el manejo de datos, todo en una sola unidad desplegable." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Microservices",
+    "Question Text": {
+      "en-US": [
+        "What is microservice architecture in application design?",
+        "How does microservice architecture structure an application?",
+        "What characterizes a microservices-based application?"
+      ],
+      "es-MX": [
+        "¿Qué es la arquitectura de microservicios en el diseño de aplicaciones?",
+        "¿Cómo estructura una aplicación la arquitectura de microservicios?",
+        "¿Qué caracteriza a una aplicación basada en microservicios?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It breaks down the app into independent modules that can be deployed and scaled separately",
+        "It combines all services in one block that must be updated together",
+        "It uses only front-end logic for deployment",
+        "It is limited to mobile games and entertainment apps"
+      ],
+      "es-MX": [
+        "Divide la aplicación en módulos independientes que se pueden desplegar y escalar por separado",
+        "Combina todos los servicios en un solo bloque que se debe actualizar al mismo tiempo",
+        "Usa solo lógica de frontend para el despliegue",
+        "Está limitada a juegos móviles y apps de entretenimiento"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It breaks down the app into independent modules that can be deployed and scaled separately",
+      "es-MX": "Divide la aplicación en módulos independientes que se pueden desplegar y escalar por separado"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Microservice Architecture" },
+        { "type": "text", "content": "Microservices divide the application into small, self-contained services that communicate via APIs and allow independent deployment, scalability, and updates." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Arquitectura de Microservicios" },
+        { "type": "text", "content": "Los microservicios dividen la aplicación en pequeños servicios independientes que se comunican por APIs y permiten despliegue, escalabilidad y actualizaciones separadas." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Microservices",
+    "Question Text": {
+      "en-US": [
+        "What is one key advantage of microservices compared to monolithic architecture?",
+        "How are microservices more flexible than monolithic systems?",
+        "Why might a company prefer microservices?"
+      ],
+      "es-MX": [
+        "¿Cuál es una ventaja clave de los microservicios frente a la arquitectura monolítica?",
+        "¿Cómo son más flexibles los microservicios que los sistemas monolíticos?",
+        "¿Por qué una empresa podría preferir usar microservicios?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Each service can be updated, deployed, and scaled independently",
+        "They require less memory even in complex systems",
+        "They only work with local databases",
+        "They reduce internet usage significantly"
+      ],
+      "es-MX": [
+        "Cada servicio puede actualizarse, desplegarse y escalarse de forma independiente",
+        "Requieren menos memoria incluso en sistemas complejos",
+        "Solo funcionan con bases de datos locales",
+        "Reducen significativamente el uso de internet"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Each service can be updated, deployed, and scaled independently",
+      "es-MX": "Cada servicio puede actualizarse, desplegarse y escalarse de forma independiente"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Advantages of Microservices" },
+        { "type": "text", "content": "Microservices allow developers to work on parts of the system independently, which speeds up development and improves fault isolation." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Ventajas de los Microservicios" },
+        { "type": "text", "content": "Los microservicios permiten trabajar de forma independiente en partes del sistema, lo que acelera el desarrollo y mejora el aislamiento de errores." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Microservices",
+    "Question Text": {
+      "en-US": [
+        "Where can microservices be deployed according to the architecture diagram?",
+        "What environments are supported by microservices?",
+        "Where do microservices run in modern application setups?"
+      ],
+      "es-MX": [
+        "¿Dónde se pueden ejecutar los microservicios según el diagrama de arquitectura?",
+        "¿Qué entornos soportan microservicios?",
+        "¿Dónde se ejecutan los microservicios en configuraciones modernas?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "On bare metal, virtual machines, containers, and public cloud",
+        "Only inside mobile apps",
+        "Exclusively in desktop software",
+        "Only on microcontroller-based devices"
+      ],
+      "es-MX": [
+        "En servidores físicos, máquinas virtuales, contenedores y nube pública",
+        "Solo dentro de apps móviles",
+        "Exclusivamente en software de escritorio",
+        "Solo en dispositivos con microcontroladores"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "On bare metal, virtual machines, containers, and public cloud",
+      "es-MX": "En servidores físicos, máquinas virtuales, contenedores y nube pública"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Microservice Deployment Environments" },
+        { "type": "text", "content": "Microservices offer deployment flexibility and can run in multiple environments like physical servers, VMs, containers (like Docker), or cloud platforms (AWS, Azure, etc.)." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Entornos de Ejecución de Microservicios" },
+        { "type": "text", "content": "Los microservicios ofrecen flexibilidad de despliegue y pueden ejecutarse en servidores físicos, máquinas virtuales, contenedores (como Docker) o plataformas en la nube (AWS, Azure, etc.)." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture - Comparison",
+    "Question Text": {
+      "en-US": [
+        "What is a key difference between monolithic and microservices architectures?",
+        "How do monolithic and microservice apps differ in structure?",
+        "Which of the following contrasts monoliths and microservices correctly?"
+      ],
+      "es-MX": [
+        "¿Cuál es una diferencia clave entre arquitectura monolítica y microservicios?",
+        "¿En qué se diferencian las apps monolíticas de las basadas en microservicios?",
+        "¿Cuál de las siguientes opciones contrasta correctamente monolitos y microservicios?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Monoliths group all components together, microservices separate them into individual services",
+        "Monoliths only use frontend logic, microservices use backend only",
+        "Monoliths are used for games, microservices are used for utilities",
+        "Monoliths are cloud-based, microservices cannot use the cloud"
+      ],
+      "es-MX": [
+        "Los monolitos agrupan todos los componentes, los microservicios los separan en servicios individuales",
+        "Los monolitos solo usan lógica de interfaz, los microservicios solo lógica de servidor",
+        "Los monolitos se usan para juegos, los microservicios para utilidades",
+        "Los monolitos son basados en la nube, los microservicios no pueden usar la nube"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Monoliths group all components together, microservices separate them into individual services",
+      "es-MX": "Los monolitos agrupan todos los componentes, los microservicios los separan en servicios individuales"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Monolithic vs Microservices" },
+        { "type": "text", "content": "Monolithic apps bundle UI, business logic, and data access into a single system. Microservices split them into autonomous services that can be developed and scaled independently." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Monolítica vs Microservicios" },
+        { "type": "text", "content": "Las apps monolíticas agrupan la interfaz, lógica de negocio y datos en un solo sistema. Los microservicios los dividen en servicios autónomos que se desarrollan y escalan por separado." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does flexibility mean in mobile application architecture?",
+        "Why is flexibility important in mobile app design?",
+        "What is the role of flexibility in an app’s structure?"
+      ],
+      "es-MX": [
+        "¿Qué significa la flexibilidad en la arquitectura de aplicaciones móviles?",
+        "¿Por qué es importante la flexibilidad en el diseño de apps móviles?",
+        "¿Qué papel tiene la flexibilidad en la estructura de una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "The ability to adapt to new requirements or changes in features easily",
+        "The capacity to store large files in the device memory",
+        "The use of external frameworks only",
+        "The optimization of database queries"
+      ],
+      "es-MX": [
+        "La capacidad de adaptarse fácilmente a nuevos requerimientos o cambios en las funcionalidades",
+        "La capacidad de almacenar archivos grandes en la memoria del dispositivo",
+        "El uso exclusivo de frameworks externos",
+        "La optimización de consultas a la base de datos"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "The ability to adapt to new requirements or changes in features easily",
+      "es-MX": "La capacidad de adaptarse fácilmente a nuevos requerimientos o cambios en las funcionalidades"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Flexibility in Architecture" },
+        { "type": "text", "content": "A flexible architecture allows quick adjustments to requirements, reducing effort and cost when adding or changing features." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Flexibilidad en la Arquitectura" },
+        { "type": "text", "content": "Una arquitectura flexible permite hacer ajustes rápidamente a los requerimientos, reduciendo esfuerzo y costo al agregar o modificar funcionalidades." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does maintainability refer to in mobile applications?",
+        "How is maintainability achieved in an app's architecture?",
+        "Why is maintainability important for mobile systems?"
+      ],
+      "es-MX": [
+        "¿A qué se refiere la mantenibilidad en las aplicaciones móviles?",
+        "¿Cómo se logra la mantenibilidad en la arquitectura de una app?",
+        "¿Por qué es importante la mantenibilidad en los sistemas móviles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "The ease with which the app can be updated, debugged, or enhanced over time",
+        "The ability to work offline without updates",
+        "The use of animations in UI",
+        "The encryption of login forms"
+      ],
+      "es-MX": [
+        "La facilidad con la que la app puede actualizarse, corregirse o mejorarse con el tiempo",
+        "La capacidad de trabajar sin conexión sin necesidad de actualizaciones",
+        "El uso de animaciones en la interfaz",
+        "El cifrado de formularios de inicio de sesión"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "The ease with which the app can be updated, debugged, or enhanced over time",
+      "es-MX": "La facilidad con la que la app puede actualizarse, corregirse o mejorarse con el tiempo"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Maintainability in Apps" },
+        { "type": "text", "content": "Maintainability ensures the app’s code is clean, modular, and easy to modify, making long-term support and updates more manageable." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Mantenibilidad en Apps" },
+        { "type": "text", "content": "La mantenibilidad asegura que el código sea limpio, modular y fácil de modificar, lo que facilita el soporte y actualizaciones a largo plazo." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What is the purpose of security in mobile application architecture?",
+        "Why is security important when designing mobile apps?",
+        "What does app security aim to protect?"
+      ],
+      "es-MX": [
+        "¿Cuál es el propósito de la seguridad en la arquitectura de una aplicación móvil?",
+        "¿Por qué es importante la seguridad al diseñar apps móviles?",
+        "¿Qué busca proteger la seguridad en una aplicación?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "To protect data, users, and system integrity from threats and unauthorized access",
+        "To improve the visual appearance of the app",
+        "To reduce internet data usage",
+        "To allow offline functionality"
+      ],
+      "es-MX": [
+        "Proteger los datos, usuarios e integridad del sistema contra amenazas y accesos no autorizados",
+        "Mejorar la apariencia visual de la app",
+        "Reducir el uso de datos de internet",
+        "Permitir la funcionalidad sin conexión"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "To protect data, users, and system integrity from threats and unauthorized access",
+      "es-MX": "Proteger los datos, usuarios e integridad del sistema contra amenazas y accesos no autorizados"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Security in Architecture" },
+        { "type": "text", "content": "Security measures such as encryption, authentication, and access control help ensure that user and system data are protected." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Seguridad en la Arquitectura" },
+        { "type": "text", "content": "Las medidas de seguridad como el cifrado, autenticación y control de acceso ayudan a proteger los datos del sistema y los usuarios." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does the performance principle focus on in mobile apps?",
+        "Why is performance important in app architecture?",
+        "How does performance affect user experience?"
+      ],
+      "es-MX": [
+        "¿En qué se enfoca el principio de rendimiento en las apps móviles?",
+        "¿Por qué es importante el rendimiento en la arquitectura de una app?",
+        "¿Cómo afecta el rendimiento a la experiencia del usuario?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Ensuring the app runs efficiently, quickly, and with minimal resource usage",
+        "Allowing the app to be installed faster only",
+        "Focusing only on animations and design",
+        "Reducing the number of API integrations"
+      ],
+      "es-MX": [
+        "Asegurar que la app funcione de manera eficiente, rápida y con bajo consumo de recursos",
+        "Permitir que la app se instale más rápido únicamente",
+        "Enfocarse solo en las animaciones y el diseño",
+        "Reducir la cantidad de integraciones API"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Ensuring the app runs efficiently, quickly, and with minimal resource usage",
+      "es-MX": "Asegurar que la app funcione de manera eficiente, rápida y con bajo consumo de recursos"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Performance Principle" },
+        { "type": "text", "content": "High performance ensures that the app responds quickly, uses minimal memory or battery, and improves user satisfaction." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Principio de Rendimiento" },
+        { "type": "text", "content": "Un buen rendimiento asegura que la app responda rápido, use poca memoria o batería, y mejore la satisfacción del usuario." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does sustainability mean in mobile application architecture?",
+        "Why is sustainability important in app development?",
+        "How does sustainability apply to mobile systems?"
+      ],
+      "es-MX": [
+        "¿Qué significa la sostenibilidad en la arquitectura de aplicaciones móviles?",
+        "¿Por qué es importante la sostenibilidad en el desarrollo de apps?",
+        "¿Cómo se aplica la sostenibilidad en los sistemas móviles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Ensuring the app can be maintained and evolved over time without becoming obsolete",
+        "Saving battery by disabling services",
+        "Reducing app size as much as possible",
+        "Avoiding server usage at all costs"
+      ],
+      "es-MX": [
+        "Asegurar que la app pueda mantenerse y evolucionar con el tiempo sin quedar obsoleta",
+        "Ahorrar batería desactivando servicios",
+        "Reducir el tamaño de la app al máximo",
+        "Evitar el uso de servidores a toda costa"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Ensuring the app can be maintained and evolved over time without becoming obsolete",
+      "es-MX": "Asegurar que la app pueda mantenerse y evolucionar con el tiempo sin quedar obsoleta"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Sustainability" },
+        { "type": "text", "content": "A sustainable architecture supports updates and scalability, allowing the app to remain useful and relevant for years." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Sostenibilidad" },
+        { "type": "text", "content": "Una arquitectura sostenible permite actualizaciones y escalabilidad, haciendo que la app siga siendo útil y vigente con el paso del tiempo." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does extensibility mean in application architecture?",
+        "How does extensibility help developers?",
+        "Why is extensibility important in system design?"
+      ],
+      "es-MX": [
+        "¿Qué es la extensibilidad en la arquitectura de una app?",
+        "¿Cómo ayuda la extensibilidad a los desarrolladores?",
+        "¿Por qué es importante la extensibilidad en el diseño del sistema?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "The ability to add new features or components without major changes",
+        "The ability to reuse animations in the UI",
+        "The ability to export user data only",
+        "The ability to minimize the app window"
+      ],
+      "es-MX": [
+        "La capacidad de agregar nuevas funciones o componentes sin cambios mayores",
+        "La posibilidad de reutilizar animaciones en la interfaz",
+        "La posibilidad de exportar datos del usuario solamente",
+        "La capacidad de minimizar la ventana de la app"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "The ability to add new features or components without major changes",
+      "es-MX": "La capacidad de agregar nuevas funciones o componentes sin cambios mayores"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Extensibility" },
+        { "type": "text", "content": "Extensible systems allow developers to enhance apps without rewriting existing logic or breaking compatibility." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Extensibilidad" },
+        { "type": "text", "content": "Los sistemas extensibles permiten agregar funcionalidades sin tener que reescribir lógica existente ni romper la compatibilidad." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does testability allow in mobile apps?",
+        "Why is testability important during development?",
+        "How does testability improve app quality?"
+      ],
+      "es-MX": [
+        "¿Qué permite la testabilidad en una aplicación?",
+        "¿Por qué es importante la testabilidad durante el desarrollo?",
+        "¿Cómo mejora la testabilidad la calidad de una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It allows the app to be easily tested to detect and fix errors efficiently",
+        "It allows users to write reviews in the app store",
+        "It forces the app to restart after each action",
+        "It helps minimize file sizes in Android"
+      ],
+      "es-MX": [
+        "Permite que la app se pueda probar fácilmente para detectar y corregir errores eficientemente",
+        "Permite que los usuarios escriban reseñas en la tienda",
+        "Obliga a la app a reiniciarse tras cada acción",
+        "Ayuda a reducir el tamaño de los archivos en Android"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It allows the app to be easily tested to detect and fix errors efficiently",
+      "es-MX": "Permite que la app se pueda probar fácilmente para detectar y corregir errores eficientemente"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Testability" },
+        { "type": "text", "content": "High testability means you can write automated tests, find bugs quickly, and improve reliability through continuous integration." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Testabilidad" },
+        { "type": "text", "content": "Una alta testabilidad permite crear pruebas automatizadas, detectar errores con rapidez y mejorar la confiabilidad del sistema con integración continua." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does it mean for a mobile app to be intuitive?",
+        "Why is intuitiveness a desired quality in app design?",
+        "What is the benefit of having an intuitive UI?"
+      ],
+      "es-MX": [
+        "¿Qué implica que una app móvil sea intuitiva?",
+        "¿Por qué es deseable que el diseño de una app sea intuitivo?",
+        "¿Qué beneficio tiene contar con una interfaz intuitiva?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "The user can navigate and use the app easily without needing instructions",
+        "The app requires developer approval to open",
+        "The user must complete a tutorial every time",
+        "The app hides all features by default"
+      ],
+      "es-MX": [
+        "El usuario puede navegar y usar la app fácilmente sin necesitar instrucciones",
+        "La app requiere aprobación del desarrollador para abrirse",
+        "El usuario debe completar un tutorial cada vez",
+        "La app oculta todas las funciones por defecto"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "The user can navigate and use the app easily without needing instructions",
+      "es-MX": "El usuario puede navegar y usar la app fácilmente sin necesitar instrucciones"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Intuitiveness" },
+        { "type": "text", "content": "An intuitive app is easy to understand, requires little guidance, and provides a seamless user experience." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Intuitividad" },
+        { "type": "text", "content": "Una app intuitiva es fácil de entender, requiere poca guía y ofrece una experiencia fluida al usuario." }
+      ]
+    }
+  },
+  {
+    "Category": "Architecture Principles",
+    "Question Text": {
+      "en-US": [
+        "What does portability mean in mobile applications?",
+        "Why is portability important in cross-platform development?",
+        "How does portability affect app reach?"
+      ],
+      "es-MX": [
+        "¿Qué significa portabilidad en el contexto de una app móvil?",
+        "¿Por qué es importante la portabilidad en el desarrollo multiplataforma?",
+        "¿Cómo afecta la portabilidad al alcance de una app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "The app can run on multiple platforms with minimal changes",
+        "The app requires installation through USB only",
+        "The app supports only Android versions",
+        "The app removes user data on every device"
+      ],
+      "es-MX": [
+        "La app puede ejecutarse en múltiples plataformas con cambios mínimos",
+        "La app requiere instalación solo por USB",
+        "La app solo es compatible con versiones de Android",
+        "La app borra los datos del usuario en cada dispositivo"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "The app can run on multiple platforms with minimal changes",
+      "es-MX": "La app puede ejecutarse en múltiples plataformas con cambios mínimos"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Portability" },
+        { "type": "text", "content": "Portable apps are designed to run across devices and operating systems with minimal effort, increasing adoption and flexibility." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Portabilidad" },
+        { "type": "text", "content": "Las apps portables están diseñadas para funcionar en distintos dispositivos y sistemas operativos con poco esfuerzo, aumentando su adopción y flexibilidad." }
+      ]
+    }
+  },
+  {
+    "Category": "Design Factors",
+    "Question Text": {
+      "en-US": [
+        "Why is device type important when designing a mobile app architecture?",
+        "What should developers consider about the device type in app design?",
+        "How does device type influence mobile app development?"
+      ],
+      "es-MX": [
+        "¿Por qué es importante considerar el tipo de dispositivo al diseñar una app móvil?",
+        "¿Qué deben considerar los desarrolladores sobre el tipo de dispositivo?",
+        "¿Cómo influye el tipo de dispositivo en el desarrollo de apps?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Because screen size, performance, and OS affect the app behavior",
+        "Because it tells how many developers are needed",
+        "Because it defines the app's logo style",
+        "Because it controls app reviews on the store"
+      ],
+      "es-MX": [
+        "Porque el tamaño de pantalla, el rendimiento y el sistema operativo afectan el comportamiento de la app",
+        "Porque indica cuántos desarrolladores se necesitan",
+        "Porque define el estilo del logo de la app",
+        "Porque controla las reseñas de la app en la tienda"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Because screen size, performance, and OS affect the app behavior",
+      "es-MX": "Porque el tamaño de pantalla, el rendimiento y el sistema operativo afectan el comportamiento de la app"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Device Type Consideration" },
+        { "type": "text", "content": "Different devices (phones, tablets, watches) have varying screen sizes, hardware capabilities, and operating systems, which influence layout, functionality, and performance." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Consideración del Tipo de Dispositivo" },
+        { "type": "text", "content": "Diferentes dispositivos (teléfonos, tabletas, relojes) tienen distintas pantallas, capacidades de hardware y sistemas operativos, lo cual influye en el diseño, funcionalidad y rendimiento." }
+      ]
+    }
+  },
+  {
+    "Category": "Design Factors",
+    "Question Text": {
+      "en-US": [
+        "Why is bandwidth an important factor in mobile app architecture?",
+        "What role does bandwidth play in app design?",
+        "How should apps behave in low-bandwidth environments?"
+      ],
+      "es-MX": [
+        "¿Por qué el ancho de banda es un factor importante en la arquitectura de una app móvil?",
+        "¿Qué papel juega el ancho de banda en el diseño de una app?",
+        "¿Cómo deben comportarse las apps en entornos con poco ancho de banda?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Because the app must perform well even with limited or slow internet",
+        "Because it improves screen resolution",
+        "Because it helps reduce the number of buttons",
+        "Because it prevents the need for user logins"
+      ],
+      "es-MX": [
+        "Porque la app debe funcionar bien incluso con internet limitado o lento",
+        "Porque mejora la resolución de la pantalla",
+        "Porque ayuda a reducir el número de botones",
+        "Porque evita la necesidad de inicio de sesión"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Because the app must perform well even with limited or slow internet",
+      "es-MX": "Porque la app debe funcionar bien incluso con internet limitado o lento"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Bandwidth Awareness" },
+        { "type": "text", "content": "Designing for various network conditions ensures the app is usable with slow or unstable connections by optimizing assets, caching, or allowing offline modes." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Conciencia del Ancho de Banda" },
+        { "type": "text", "content": "Diseñar para diferentes condiciones de red asegura que la app sea funcional con conexiones lentas o inestables, optimizando recursos, usando caché o modos offline." }
+      ]
+    }
+  },
+  {
+    "Category": "Design Factors",
+    "Question Text": {
+      "en-US": [
+        "Why is the development framework important when building a mobile app?",
+        "What impact does the framework have on app architecture?",
+        "How does the chosen framework affect the app’s capabilities?"
+      ],
+      "es-MX": [
+        "¿Por qué es importante el framework de desarrollo al crear una app móvil?",
+        "¿Qué impacto tiene el framework en la arquitectura de la app?",
+        "¿Cómo afecta el framework elegido a las capacidades de la app?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It determines how fast, scalable, and maintainable the app will be",
+        "It decides the brand colors used",
+        "It blocks access to native features",
+        "It replaces the need for testing"
+      ],
+      "es-MX": [
+        "Determina qué tan rápida, escalable y mantenible será la app",
+        "Define los colores de marca usados",
+        "Bloquea el acceso a funciones nativas",
+        "Sustituye la necesidad de pruebas"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It determines how fast, scalable, and maintainable the app will be",
+      "es-MX": "Determina qué tan rápida, escalable y mantenible será la app"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Development Framework Importance" },
+        { "type": "text", "content": "Choosing the right framework (like React Native, Flutter, etc.) affects performance, code reuse, integration with native features, and team productivity." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Importancia del Framework de Desarrollo" },
+        { "type": "text", "content": "Elegir el framework adecuado (como React Native, Flutter, etc.) afecta el rendimiento, la reutilización de código, la integración con funciones nativas y la productividad del equipo." }
+      ]
+    }
+  },
+  {
+    "Category": "Design Factors",
+    "Question Text": {
+      "en-US": [
+        "Why is navigation method a key factor in mobile app design?",
+        "How should app navigation be structured?",
+        "What makes a navigation system user-friendly?"
+      ],
+      "es-MX": [
+        "¿Por qué el método de navegación es un factor clave en el diseño de una app móvil?",
+        "¿Cómo debe estructurarse la navegación de la app?",
+        "¿Qué hace que un sistema de navegación sea fácil de usar?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It should be intuitive, fast, and adapted to the platform's conventions",
+        "It must show all app features in a single screen",
+        "It should be hidden unless the user rotates the screen",
+        "It depends only on the color of the buttons"
+      ],
+      "es-MX": [
+        "Debe ser intuitiva, rápida y adaptarse a las convenciones de la plataforma",
+        "Debe mostrar todas las funciones de la app en una sola pantalla",
+        "Debe estar oculta a menos que el usuario gire la pantalla",
+        "Depende solo del color de los botones"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It should be intuitive, fast, and adapted to the platform's conventions",
+      "es-MX": "Debe ser intuitiva, rápida y adaptarse a las convenciones de la plataforma"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Navigation Design" },
+        { "type": "text", "content": "Good navigation adapts to user expectations and platform guidelines (e.g., tabs on iOS, drawers on Android), improving usability." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Diseño de Navegación" },
+        { "type": "text", "content": "Una buena navegación se adapta a las expectativas del usuario y a las guías de la plataforma (por ejemplo, pestañas en iOS, menús en Android), mejorando la usabilidad." }
+      ]
+    }
+  },
+  {
+    "Category": "Design Factors",
+    "Question Text": {
+      "en-US": [
+        "What is the difference between real-time updates and push notifications in mobile apps?",
+        "When should real-time updates be used instead of push notifications?",
+        "Why is it important to choose the correct update method?"
+      ],
+      "es-MX": [
+        "¿Cuál es la diferencia entre actualizaciones en tiempo real y notificaciones push en apps móviles?",
+        "¿Cuándo deben usarse actualizaciones en tiempo real en lugar de notificaciones push?",
+        "¿Por qué es importante elegir el método correcto de actualización?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Real-time updates are instant and live in the app; push notifications are alerts outside the app",
+        "Push notifications load data directly inside the app",
+        "Real-time updates are only for news apps",
+        "Both mean the same in modern systems"
+      ],
+      "es-MX": [
+        "Las actualizaciones en tiempo real son inmediatas dentro de la app; las push son alertas externas",
+        "Las notificaciones push cargan datos directamente dentro de la app",
+        "Las actualizaciones en tiempo real solo son para apps de noticias",
+        "Ambas significan lo mismo en los sistemas modernos"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Real-time updates are instant and live in the app; push notifications are alerts outside the app",
+      "es-MX": "Las actualizaciones en tiempo real son inmediatas dentro de la app; las push son alertas externas"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Real-Time vs Push" },
+        { "type": "text", "content": "Real-time updates keep app content in sync (like chat apps), while push notifications inform the user even when the app is closed." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Tiempo Real vs Notificaciones Push" },
+        { "type": "text", "content": "Las actualizaciones en tiempo real mantienen el contenido sincronizado dentro de la app (como en chats), mientras que las push informan al usuario aunque la app esté cerrada." }
+      ]
+    }
+  },
+  {
+    "Category": "Design Factors",
+    "Question Text": {
+      "en-US": [
+        "Why are network fluctuations important to consider when designing mobile apps?",
+        "What impact do unstable networks have on mobile apps?",
+        "How should mobile apps behave when network connectivity is inconsistent?"
+      ],
+      "es-MX": [
+        "¿Por qué es importante considerar las fluctuaciones de red al diseñar apps móviles?",
+        "¿Qué impacto tienen las redes inestables en las apps móviles?",
+        "¿Cómo deben comportarse las apps móviles cuando la conectividad es inestable?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Because the app should handle offline states or reconnect gracefully",
+        "Because it determines the UI theme",
+        "Because it selects the default font size",
+        "Because it disables animations by default"
+      ],
+      "es-MX": [
+        "Porque la app debe manejar estados sin conexión o reconectar de forma adecuada",
+        "Porque determina el tema visual de la interfaz",
+        "Porque selecciona el tamaño de letra predeterminado",
+        "Porque desactiva las animaciones por defecto"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Because the app should handle offline states or reconnect gracefully",
+      "es-MX": "Porque la app debe manejar estados sin conexión o reconectar de forma adecuada"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Handling Network Fluctuations" },
+        { "type": "text", "content": "Good mobile architecture includes fallback mechanisms, retry strategies, or offline modes to ensure functionality when the network is weak or unavailable." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Manejo de Fluctuaciones de Red" },
+        { "type": "text", "content": "Una buena arquitectura móvil incluye mecanismos de respaldo, estrategias de reintento o modos offline para mantener la funcionalidad cuando la red es débil o no está disponible." }
+      ]
+    }
+  },
+  {
+    "Category": "Design Factors",
+    "Question Text": {
+      "en-US": [
+        "Why is the user interface a critical factor in mobile app architecture?",
+        "How does UI design influence mobile app success?",
+        "What role does UI play in the overall app experience?"
+      ],
+      "es-MX": [
+        "¿Por qué la interfaz de usuario es un factor crítico en la arquitectura de apps móviles?",
+        "¿Cómo influye el diseño de la interfaz en el éxito de la app?",
+        "¿Qué papel tiene la UI en la experiencia general del usuario?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Because a well-designed UI improves usability, retention, and user satisfaction",
+        "Because it reduces the cost of database queries",
+        "Because it makes the app use less RAM",
+        "Because it prevents OS updates"
+      ],
+      "es-MX": [
+        "Porque una UI bien diseñada mejora la usabilidad, retención y satisfacción del usuario",
+        "Porque reduce el costo de consultas a la base de datos",
+        "Porque hace que la app consuma menos RAM",
+        "Porque evita que el sistema operativo se actualice"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Because a well-designed UI improves usability, retention, and user satisfaction",
+      "es-MX": "Porque una UI bien diseñada mejora la usabilidad, retención y satisfacción del usuario"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "User Interface Role" },
+        { "type": "text", "content": "UI is the bridge between the user and app functionality. A clear, responsive, and attractive interface increases engagement and reduces frustration." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Papel de la Interfaz de Usuario" },
+        { "type": "text", "content": "La interfaz de usuario es el puente entre el usuario y la funcionalidad. Una UI clara, responsiva y atractiva mejora el uso, la retención y la satisfacción general." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Development - Kotlin",
+    "Question Text": {
+      "en-US": [
+        "What is Kotlin primarily used for in mobile development?",
+        "Which platform uses Kotlin as a main development language?",
+        "Kotlin is mainly used to build apps for which operating system?"
+      ],
+      "es-MX": [
+        "¿Para qué plataforma se usa principalmente Kotlin en desarrollo móvil?",
+        "¿Qué sistema operativo utiliza Kotlin como lenguaje principal de desarrollo?",
+        "¿Kotlin se utiliza principalmente para crear apps para qué sistema?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Android",
+        "iOS",
+        "Windows Phone",
+        "Blackberry OS"
+      ],
+      "es-MX": [
+        "Android",
+        "iOS",
+        "Windows Phone",
+        "Blackberry OS"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Android",
+      "es-MX": "Android"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Kotlin for Android" },
+        { "type": "text", "content": "Kotlin is the preferred programming language for developing Android apps, officially supported by Google." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Kotlin para Android" },
+        { "type": "text", "content": "Kotlin es el lenguaje de programación preferido para desarrollar apps Android, y está oficialmente soportado por Google." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Development - Kotlin",
+    "Question Text": {
+      "en-US": [
+        "Which feature is a benefit of using Kotlin?",
+        "Why do many Android developers prefer Kotlin?",
+        "What advantage does Kotlin offer over Java?"
+      ],
+      "es-MX": [
+        "¿Qué característica es una ventaja de usar Kotlin?",
+        "¿Por qué muchos desarrolladores Android prefieren Kotlin?",
+        "¿Qué ventaja ofrece Kotlin sobre Java?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Null safety and concise syntax",
+        "Runs only on Apple devices",
+        "No support for OOP",
+        "Requires no compiler"
+      ],
+      "es-MX": [
+        "Seguridad contra valores nulos y sintaxis concisa",
+        "Solo funciona en dispositivos Apple",
+        "No soporta programación orientada a objetos",
+        "No requiere compilador"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Null safety and concise syntax",
+      "es-MX": "Seguridad contra valores nulos y sintaxis concisa"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Kotlin Features" },
+        { "type": "text", "content": "Kotlin helps prevent null pointer errors and allows writing cleaner, more expressive code with less boilerplate than Java." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Características de Kotlin" },
+        { "type": "text", "content": "Kotlin ayuda a prevenir errores por valores nulos y permite escribir código más limpio y expresivo con menos repetición que Java." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Development - Swift",
+    "Question Text": {
+      "en-US": [
+        "What mobile platform is Swift designed for?",
+        "Which system uses Swift as its primary development language?",
+        "Where is Swift most commonly used?"
+      ],
+      "es-MX": [
+        "¿Para qué plataforma móvil está diseñado Swift?",
+        "¿Qué sistema utiliza Swift como lenguaje principal de desarrollo?",
+        "¿Dónde se usa más comúnmente Swift?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "iOS",
+        "Android",
+        "Linux",
+        "Windows"
+      ],
+      "es-MX": [
+        "iOS",
+        "Android",
+        "Linux",
+        "Windows"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "iOS",
+      "es-MX": "iOS"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Swift for iOS" },
+        { "type": "text", "content": "Swift is Apple’s official programming language for developing applications for iOS, iPadOS, macOS, and watchOS." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Swift para iOS" },
+        { "type": "text", "content": "Swift es el lenguaje de programación oficial de Apple para desarrollar aplicaciones en iOS, iPadOS, macOS y watchOS." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Development - Comparison",
+    "Question Text": {
+      "en-US": [
+        "What is a key difference between Kotlin and Swift?",
+        "How do Kotlin and Swift differ in platform support?",
+        "What distinguishes Kotlin from Swift?"
+      ],
+      "es-MX": [
+        "¿Cuál es una diferencia clave entre Kotlin y Swift?",
+        "¿En qué difieren Kotlin y Swift en cuanto a plataforma?",
+        "¿Qué distingue a Kotlin de Swift?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Kotlin is used for Android, while Swift is for iOS",
+        "Swift is based on Java, Kotlin is not",
+        "Kotlin does not support classes",
+        "Swift can only be used on Windows"
+      ],
+      "es-MX": [
+        "Kotlin se usa para Android, mientras que Swift es para iOS",
+        "Swift está basado en Java, Kotlin no",
+        "Kotlin no soporta clases",
+        "Swift solo se puede usar en Windows"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Kotlin is used for Android, while Swift is for iOS",
+      "es-MX": "Kotlin se usa para Android, mientras que Swift es para iOS"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Kotlin vs Swift" },
+        { "type": "text", "content": "Kotlin is used to build Android applications, while Swift is the primary language for developing iOS applications." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Kotlin vs Swift" },
+        { "type": "text", "content": "Kotlin se utiliza para desarrollar aplicaciones Android, mientras que Swift es el lenguaje principal para crear aplicaciones iOS." }
+      ]
+    }
+  },
+  {
+    "Category": "Mobile Technology - Beacons",
+    "Question Text": {
+      "en-US": [
+        "What are Beacons in mobile application development?",
+        "What is the purpose of using Beacons in mobile apps?",
+        "How do Beacons function in mobile environments?"
+      ],
+      "es-MX": [
+        "¿Qué son los Beacons en el desarrollo de aplicaciones móviles?",
+        "¿Para qué sirven los Beacons en una app móvil?",
+        "¿Cómo funcionan los Beacons en entornos móviles?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Bluetooth devices that transmit signals to nearby smartphones to trigger location-based actions",
+        "Wi-Fi routers that limit internet access",
+        "GPS devices that track user movement in real time",
+        "Cloud services that store user data remotely"
+      ],
+      "es-MX": [
+        "Dispositivos Bluetooth que envían señales a smartphones cercanos para activar acciones según la ubicación",
+        "Ruteadores Wi-Fi que limitan el acceso a internet",
+        "Dispositivos GPS que rastrean el movimiento del usuario en tiempo real",
+        "Servicios en la nube que almacenan datos del usuario de forma remota"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Bluetooth devices that transmit signals to nearby smartphones to trigger location-based actions",
+      "es-MX": "Dispositivos Bluetooth que envían señales a smartphones cercanos para activar acciones según la ubicación"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Understanding Beacons" },
+        { "type": "text", "content": "Beacons are small Bluetooth Low Energy (BLE) devices that send signals to smartphones within range, commonly used for indoor navigation, marketing, or triggering in-app actions." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "¿Qué Son los Beacons?" },
+        { "type": "text", "content": "Los Beacons son pequeños dispositivos Bluetooth de bajo consumo que envían señales a teléfonos cercanos, usados para navegación en interiores, marketing o activar acciones dentro de una app." }
+      ]
+    }
+  },
+  {
+    "Category": "Security - Encryption",
+    "Question Text": {
+      "en-US": [
+        "What does encryption in transit via HTTPS mean?",
+        "Why is HTTPS important in mobile app communication?",
+        "How does encryption in transit protect data?"
+      ],
+      "es-MX": [
+        "¿Qué significa el cifrado en tránsito mediante HTTPS?",
+        "¿Por qué es importante HTTPS en la comunicación de una app móvil?",
+        "¿Cómo protege el cifrado en tránsito la información?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "It protects data as it travels between the app and the server",
+        "It encrypts data stored in the device's memory",
+        "It ensures faster internet speed",
+        "It hides the app icon from unauthorized users"
+      ],
+      "es-MX": [
+        "Protege los datos mientras viajan entre la app y el servidor",
+        "Cifra los datos almacenados en la memoria del dispositivo",
+        "Asegura mayor velocidad de internet",
+        "Oculta el ícono de la app para usuarios no autorizados"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "It protects data as it travels between the app and the server",
+      "es-MX": "Protege los datos mientras viajan entre la app y el servidor"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "HTTPS and Encryption in Transit" },
+        { "type": "text", "content": "Encryption in transit using HTTPS ensures that sensitive data like login credentials or personal info cannot be intercepted while being transmitted over the internet." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "HTTPS y Cifrado en Tránsito" },
+        { "type": "text", "content": "El cifrado en tránsito mediante HTTPS garantiza que los datos sensibles como credenciales o información personal no puedan ser interceptados mientras se transmiten por internet." }
+      ]
+    }
   }
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
   
   
     
