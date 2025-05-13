@@ -1,0 +1,92 @@
+{
+    "Quiz Title": "Frases con 'grab me'",
+    "Questions": [
+      {
+        "Category": "Phrasal Verbs",
+        "Question Text": {
+          "en-US": [
+            "What does 'Can you grab me some water while you're up?' mean?"
+          ],
+          "es-MX": [
+            "¿Qué significa 'Can you grab me some water while you're up?'?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Can you hit me with some water?",
+            "Can you throw water at me?",
+            "Can you bring me some water?",
+            "Can you remind me to drink water?"
+          ],
+          "es-MX": [
+            "¿Puedes golpearme con agua?",
+            "¿Puedes lanzarme agua?",
+            "¿Puedes traerme un poco de agua?",
+            "¿Puedes recordarme que tome agua?"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Can you bring me some water?",
+          "es-MX": "¿Puedes traerme un poco de agua?"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "The expression 'grab me' in this context means to bring something for someone."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "La expresión 'grab me' en este contexto significa traer algo para alguien."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Phrasal Verbs",
+        "Question Text": {
+          "en-US": [
+            "Would you mind grabbing me a pen from the desk?"
+          ],
+          "es-MX": [
+            "¿Te molestaría traerme una pluma del escritorio?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Would you steal a pen from the desk?",
+            "Would you put a pen on the desk?",
+            "Would you mind bringing me a pen?",
+            "Would you throw away a pen?"
+          ],
+          "es-MX": [
+            "¿Robarías una pluma del escritorio?",
+            "¿Pondrías una pluma en el escritorio?",
+            "¿Te molestaría traerme una pluma?",
+            "¿Tirarías una pluma?"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Would you mind bringing me a pen?",
+          "es-MX": "¿Te molestaría traerme una pluma?"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "'Grabbing me a pen' means 'bringing me a pen' in this context."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "'Grabbing me a pen' significa 'traerme una pluma' en este contexto."
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

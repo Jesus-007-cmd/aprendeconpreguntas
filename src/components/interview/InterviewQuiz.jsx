@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 
 import quizData from "./data/react_fundamentals.json";
 import quizDatappsmovs from "./data/aplicaciones_moviles_clases.json";
+import quizLearingEnglish from "./data/phrasesToLearn.json";
 import notificationSound from "../audio/correctanswer.mp3";
 export default function InterviewQuiz() {
   const [questions, setQuestions] = useState([]);
@@ -342,6 +343,13 @@ export default function InterviewQuiz() {
           >
            {quizDatappsmovs["Quiz Title"]}
           </button>
+          <button
+            onClick={() => handleJsonSelection(quizLearingEnglish)}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+           {quizLearingEnglish["Quiz Title"]}
+          </button>
+          
         </div>
       ) : !showResult && questions.length > 0 ? (
         
