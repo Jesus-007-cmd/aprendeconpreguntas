@@ -16,6 +16,14 @@ const Menu = ({ onSelectOption }) => {
             Cuestionario
           </button>
         </li>
+        <li>
+          <button
+            className="text-white hover:text-yellow-400 transition duration-300"
+            onClick={() => onSelectOption("LearningEnglishWithQuestions")}
+          >
+            Learning English with Phrases
+          </button>
+        </li>
 
         <li>
           <button

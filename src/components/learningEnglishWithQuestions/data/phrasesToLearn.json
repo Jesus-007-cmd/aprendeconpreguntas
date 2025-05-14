@@ -1,0 +1,763 @@
+{
+  "Quiz Title": "Frases en Ingles'",
+  "Questions": [
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["What does 'Did you call them back?' mean?"],
+        "es-MX": ["¿Qué significa 'Volviste a llamarlos?'"]
+      },
+      "Options": {
+        "en-US": [
+          "Did you call to the back of them?",
+          "Did you call them back?",
+          "Did you yell at them?",
+          "Did you go near them?"
+        ],
+        "es-MX": [
+          "¿Llamaste para atrás a ellos?",
+          "¿Volviste a llamarlos?",
+          "¿Los gritaste?",
+          "¿Te acercaste a ellos?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you call them back?",
+        "es-MX": "¿Volviste a llamarlos?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'call back' means to return a phone call or respond by phone later."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El phrasal verb 'call back' significa devolver una llamada o responder por teléfono más tarde."
+          }
+        ]
+      },
+      "Tags": ["call back", "phone", "phrasal verbs", "A2"]
+    },
+
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["What does 'I'm heading out now' mean?"],
+        "es-MX": ["¿Como digo en Ingles 'Ya me voy'"]
+      },
+      "Options": {
+        "en-US": [
+          "I'm moving my head now",
+          "I'm coming inside now",
+          "I'm heading out now",
+          "I'm jumping up and down"
+        ],
+        "es-MX": [
+          "Estoy moviendo mi cabeza ahora",
+          "Ya entré al lugar",
+          "Ya me voy",
+          "Estoy saltando arriba y abajo"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'm heading out now",
+        "es-MX": "Ya me voy"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'head out' means to leave a place or go somewhere, often to start a journey."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El phrasal verb 'head out' significa salir de un lugar o irse a algún lado, a menudo para comenzar un recorrido o actividad."
+          }
+        ]
+      },
+      "Tags": ["head out", "phrasal verb", "leaving", "A2"]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["What does 'Did you turn off the lights before leaving?' mean?"],
+        "es-MX": ["¿Cómo digo en inglés '¿Apagaste las luces antes de salir?'"]
+      },
+      "Options": {
+        "en-US": [
+          "Did you light up the room before leaving?",
+          "Did you ignore the lights before leaving?",
+          "Did you turn off the lights before leaving?",
+          "Did you turn on the lights and leave?"
+        ],
+        "es-MX": [
+          "¿Encendiste la luz antes de irte?",
+          "¿Ignoraste las luces antes de irte?",
+          "¿Apagaste las luces antes de salir?",
+          "¿Encendiste las luces y te fuiste?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you turn off the lights before leaving?",
+        "es-MX": "¿Apagaste las luces antes de salir?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'turn off' means to deactivate or stop a device or light from operating."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El phrasal verb 'turn off' significa desactivar o apagar un aparato o una luz."
+          }
+        ]
+      },
+      "Tags": ["turn off", "phrasal verb", "lights", "A2"]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["What does 'Let's grab something to eat' mean?"],
+        "es-MX": ["¿Cómo digo en inglés 'Vamos a comer algo rápido'?"]
+      },
+      "Options": {
+        "en-US": [
+          "Let's steal some food quickly",
+          "Let's grab something to eat",
+          "Let's go eat very slow",
+          "Let's watch something to eat"
+        ],
+        "es-MX": [
+          "Vamos a robar comida rápido",
+          "Vamos a comer algo rápido",
+          "Vamos a comer muy despacio",
+          "Vamos a ver algo para comer"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let's grab something to eat",
+        "es-MX": "Vamos a comer algo rápido"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "In informal English, 'grab something to eat' means to go get food quickly, often without planning a formal meal."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "En inglés informal, 'grab something to eat' significa ir a comer algo rápido, normalmente sin planear una comida formal."
+          }
+        ]
+      },
+      "Tags": ["grab", "phrasal verb", "food", "A2"]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["What does 'I'll handle it later' mean?"],
+        "es-MX": ["¿Cómo digo en inglés 'Me encargo de eso más tarde'?"]
+      },
+      "Options": {
+        "en-US": [
+          "I'll ignore it forever",
+          "I'll handle it later",
+          "I'll destroy it quickly",
+          "I'll finish it now"
+        ],
+        "es-MX": [
+          "Lo ignoraré para siempre",
+          "Me encargo de eso más tarde",
+          "Lo destruiré rápidamente",
+          "Lo termino ahora"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll handle it later",
+        "es-MX": "Me encargo de eso más tarde"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The verb 'handle' means to take care of or manage something. 'I'll handle it later' means you'll do it at another time."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El verbo 'handle' significa encargarse o hacerse cargo de algo. 'Me encargo de eso más tarde' indica que lo harás después."
+          }
+        ]
+      },
+      "Tags": ["handle", "expressions", "responsibility", "A2"]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Regreso en unos minutos' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en inglés 'Regreso en unos minutos'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll disappear for hours",
+          "I'll be back in a few minutes",
+          "I'll leave forever",
+          "I'll sleep here"
+        ],
+        "es-MX": [
+          "Desaparezco por horas",
+          "Regreso en unos minutos",
+          "Me voy para siempre",
+          "Duermo aquí"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll be back in a few minutes",
+        "es-MX": "Regreso en unos minutos"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'I'll be back in a few minutes' means that someone will return soon, typically after a short time."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Regreso en unos minutos' indica que alguien volverá pronto, generalmente después de poco tiempo."
+          }
+        ]
+      },
+      "Tags": ["be back", "expressions", "time", "A2"]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["How do you say 'Recógelo mañana' in English?"],
+        "es-MX": ["¿Cómo digo en inglés 'Recógelo mañana'?"]
+      },
+      "Options": {
+        "en-US": [
+          "Pick it up tomorrow",
+          "Drop it tomorrow",
+          "Pick it off tomorrow",
+          "Throw it up tomorrow"
+        ],
+        "es-MX": [
+          "Recógelo mañana",
+          "Déjalo caer mañana",
+          "Levántalo con cuidado mañana",
+          "Lánzalo mañana"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Pick it up tomorrow",
+        "es-MX": "Recógelo mañana"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'pick up' means to collect or retrieve something. 'Pick it up tomorrow' means to go and get it the next day."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El phrasal verb 'pick up' significa recoger o ir por algo. 'Recógelo mañana' indica que lo recogerás al día siguiente."
+          }
+        ]
+      },
+      "Tags": ["pick up", "phrasal verb", "collection", "A2"]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["How do you say 'Recógelo mañana' in English?"],
+        "es-MX": ["¿Cómo digo en español 'Pick it up tomorrow'?"]
+      },
+      "Options": {
+        "en-US": [
+          "Pick it up tomorrow",
+          "Drop it tomorrow",
+          "Pick it off tomorrow",
+          "Throw it up tomorrow"
+        ],
+        "es-MX": [
+          "Recógelo mañana",
+          "Déjalo caer mañana",
+          "Levántalo con cuidado mañana",
+          "Lánzalo mañana"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Pick it up tomorrow",
+        "es-MX": "Recógelo mañana"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'pick up' means to collect or retrieve something. 'Pick it up tomorrow' means to go and get it the next day."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El phrasal verb 'pick up' significa recoger o ir por algo. 'Recógelo mañana' indica que lo recogerás al día siguiente."
+          }
+        ]
+      },
+      "Tags": ["pick up", "phrasal verb", "collection", "A2"]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": ["How do you say 'No te preocupes por eso' in English?"],
+        "es-MX": ["¿Cómo digo en español 'Don't worry about it'?"]
+      },
+      "Options": {
+        "en-US": [
+          "Don't worry about it",
+          "Don't think about it",
+          "Don't care about it",
+          "Don't talk about it"
+        ],
+        "es-MX": [
+          "No te preocupes por eso",
+          "No lo pienses",
+          "No te importa",
+          "No hables de eso"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Don't worry about it",
+        "es-MX": "No te preocupes por eso"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Don't worry about it' is a common way to tell someone not to stress or be concerned about something."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Don't worry about it' es una forma común de decirle a alguien que no se estrese ni se preocupe por algo."
+          }
+        ]
+      },
+      "Tags": ["don't worry", "expressions", "A2"]
+    },{
+  "Category": "Phrasal Verbs",
+  "Level": "B1",
+  "Question Text": {
+    "en-US": ["How do you say '¿Ya sacaste la carne para descongelar?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Did you already take the meat out to defrost?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Did you already take the meat out to defrost?",
+      "Did you already eat the meat?",
+      "Did you already put the meat in the freezer?",
+      "Did you already cook the meat?"
+    ],
+    "es-MX": [
+      "¿Ya sacaste la carne para descongelar?",
+      "¿Ya te comiste la carne?",
+      "¿Ya metiste la carne al congelador?",
+      "¿Ya cocinaste la carne?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Did you already take the meat out to defrost?",
+    "es-MX": "¿Ya sacaste la carne para descongelar?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "'Take out' means to remove something from a place. In this case, it means to remove the meat from the freezer so it can thaw."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "'Take out' significa sacar algo de un lugar. En este caso, se refiere a sacar la carne del congelador para que se descongele."
+      }
+    ]
+  },
+  "Tags": ["take out", "defrost", "phrasal verb", "B1"]
+},
+{
+  "Category": "Phrasal Verbs",
+  "Level": "B1",
+  "Question Text": {
+    "en-US": ["How do you say '¿Ya sacaste la carne para descongelar?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Did you already take the meat out to defrost?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Did you already take the meat out to defrost?",
+      "Did you already eat the meat?",
+      "Did you already put the meat in the freezer?",
+      "Did you already cook the meat?"
+    ],
+    "es-MX": [
+      "¿Ya sacaste la carne para descongelar?",
+      "¿Ya te comiste la carne?",
+      "¿Ya metiste la carne al congelador?",
+      "¿Ya cocinaste la carne?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Did you already take the meat out to defrost?",
+    "es-MX": "¿Ya sacaste la carne para descongelar?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "'Take out' means to remove something from a place. In this case, it means to remove the meat from the freezer so it can thaw."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "'Take out' significa sacar algo de un lugar. En este caso, se refiere a sacar la carne del congelador para que se descongele."
+      }
+    ]
+  },
+  "Tags": ["take out", "defrost", "phrasal verb", "B1"]
+},
+{
+  "Category": "Phrasal Verbs",
+  "Level": "B1",
+  "Question Text": {
+    "en-US": ["How do you say 'Paso después del trabajo' in English?"],
+    "es-MX": ["¿Cómo digo en español 'I'll swing by after work'?"]
+  },
+  "Options": {
+    "en-US": [
+      "I'll swing by after work",
+      "I'll dance after work",
+      "I'll run away after work",
+      "I'll sleep after work"
+    ],
+    "es-MX": [
+      "Paso después del trabajo",
+      "Bailo después del trabajo",
+      "Huyo después del trabajo",
+      "Duermo después del trabajo"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "I'll swing by after work",
+    "es-MX": "Paso después del trabajo"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The phrasal verb 'swing by' means to visit a place quickly or briefly. 'I'll swing by after work' means you'll stop by someone's place after finishing your job."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El phrasal verb 'swing by' significa pasar brevemente por un lugar. 'Paso después del trabajo' indica que harás una visita rápida al salir del trabajo."
+      }
+    ]
+  },
+  "Tags": ["swing by", "visit", "phrasal verb", "B1"]
+},
+{
+  "Category": "Phrasal Verbs",
+  "Level": "B1",
+  "Question Text": {
+    "en-US": ["How do you say '¿Puedes verificar la hora por mí?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Can you double check the time for me?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Can you double check the time for me?",
+      "Can you change the time for me?",
+      "Can you ask the time for me?",
+      "Can you stop the time for me?"
+    ],
+    "es-MX": [
+      "¿Puedes verificar la hora por mí?",
+      "¿Puedes cambiar la hora por mí?",
+      "¿Puedes preguntar la hora por mí?",
+      "¿Puedes detener el tiempo por mí?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Can you double check the time for me?",
+    "es-MX": "¿Puedes verificar la hora por mí?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "'Double check' is a phrasal verb meaning to verify or confirm something again to be sure it's correct."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "'Double check' es un phrasal verb que significa verificar o confirmar algo de nuevo para asegurarse de que sea correcto."
+      }
+    ]
+  },
+  "Tags": ["double check", "verify", "phrasal verb", "B1"]
+},
+{
+  "Category": "Phrasal Verbs",
+  "Level": "A2",
+  "Question Text": {
+    "en-US": ["How do you say '¿Vas a salir pronto?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Are you heading out soon?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Are you heading out soon?",
+      "Are you giving up soon?",
+      "Are you sitting down soon?",
+      "Are you backing up soon?"
+    ],
+    "es-MX": [
+      "¿Vas a salir pronto?",
+      "¿Te vas a rendir pronto?",
+      "¿Te vas a sentar pronto?",
+      "¿Vas a retroceder pronto?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Are you heading out soon?",
+    "es-MX": "¿Vas a salir pronto?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "'Heading out' means to leave or go out, usually to go somewhere. 'Are you heading out soon?' is asking if the person is about to leave."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "'Heading out' significa salir o irse, usualmente para dirigirse a algún lugar. '¿Vas a salir pronto?' pregunta si la persona está por irse."
+      }
+    ]
+  },
+  "Tags": ["heading out", "phrasal verb", "leaving", "A2"]
+},
+{
+  "Category": "Useful Expressions",
+  "Level": "B1",
+  "Question Text": {
+    "en-US": ["How do you say '¿Nos vamos a ver en el mismo lugar?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Are we meeting at the same spot?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Are we meeting at the same spot?",
+      "Are we fighting in the same place?",
+      "Are we working in the same position?",
+      "Are we eating at the same table?"
+    ],
+    "es-MX": [
+      "¿Nos vamos a ver en el mismo lugar?",
+      "¿Vamos a pelear en el mismo lugar?",
+      "¿Vamos a trabajar en el mismo puesto?",
+      "¿Vamos a comer en la misma mesa?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Are we meeting at the same spot?",
+    "es-MX": "¿Nos vamos a ver en el mismo lugar?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The phrase 'meet at the same spot' means to reunite in the same location as before."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La frase 'vernos en el mismo lugar' indica reunirse en el mismo sitio que la vez anterior."
+      }
+    ]
+  },
+  "Tags": ["meeting", "spot", "location", "B1"]
+},
+{
+  "Category": "Phrasal Verbs",
+  "Level": "B1",
+  "Question Text": {
+    "en-US": ["How do you say '¿Encontraste lo que buscabas?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Did you find what you were looking for?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Did you find what you were looking for?",
+      "Did you lose what you were buying?",
+      "Did you forget what you wanted?",
+      "Did you change what you saw?"
+    ],
+    "es-MX": [
+      "¿Encontraste lo que buscabas?",
+      "¿Perdiste lo que estabas comprando?",
+      "¿Olvidaste lo que querías?",
+      "¿Encontraste lo que tú estabas mirando para?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Did you find what you were looking for?",
+    "es-MX": "¿Encontraste lo que buscabas?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "'Find what you were looking for' refers to successfully locating or obtaining what you wanted or needed."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "'Encontrar lo que buscabas' se refiere a haber localizado o conseguido lo que querías o necesitabas."
+      }
+    ]
+  },
+  "Tags": ["find", "looking for", "phrasal verb", "B1"]
+},
+{
+  "Category": "Phrasal Verbs",
+  "Level": "A2",
+  "Question Text": {
+    "en-US": ["How do you say '¿Puedes revisar la cerradura de la puerta?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Can you check the door lock?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Can you check the door lock?",
+      "Can you open the car trunk?",
+      "Can you close the window fast?",
+      "Can you fix the lamp?"
+    ],
+    "es-MX": [
+      "¿Puedes revisar la cerradura de la puerta?",
+      "¿Puedes abrir la cajuela del coche?",
+      "¿Puedes cerrar la ventana rápido?",
+      "¿Puedes checar el bloqueo de la puerta?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Can you check the door lock?",
+    "es-MX": "¿Puedes revisar la cerradura de la puerta?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "'Check the door lock' means to inspect or make sure that the lock on the door is secure."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "'Revisar la cerradura de la puerta' significa inspeccionar o asegurarse de que la cerradura esté bien cerrada o funcione correctamente."
+      }
+    ]
+  },
+  "Tags": ["check", "door lock", "phrasal verb", "A2"]
+},
+{
+  "Category": "Phrasal Verbs",
+  "Level": "A2",
+  "Question Text": {
+    "en-US": ["How do you say '¿Quieres que agarre tu abrigo?' in English?"],
+    "es-MX": ["¿Cómo digo en español 'Do you want me to grab your coat?'?"]
+  },
+  "Options": {
+    "en-US": [
+      "Do you want me to grab your coat?",
+      "Do you want me to iron your shoes?",
+      "Do you want me to throw your jacket?",
+      "Do you want me to clean your bag?"
+    ],
+    "es-MX": [
+      "¿Quieres que agarre tu abrigo?",
+      "¿Quieres que planche tus zapatos?",
+      "¿Quieres que lance tu chaqueta?",
+      "¿Quieres que limpie tu bolsa?"
+    ]
+  },
+  "Correct Answer": {
+    "en-US": "Do you want me to grab your coat?",
+    "es-MX": "¿Quieres que agarre tu abrigo?"
+  },
+  "Explanation": {
+    "en-US": [
+      {
+        "type": "text",
+        "content": "'Grab your coat' in this context means to pick up or get someone's coat for them, often as a favor or gesture."
+      }
+    ],
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "'Agarra tu abrigo' en este contexto significa tomar o alcanzar el abrigo de alguien, usualmente como un favor o cortesía."
+      }
+    ]
+  },
+  "Tags": ["grab", "coat", "phrasal verb", "A2"]
+}
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+  ]
+}
