@@ -1,0 +1,715 @@
+{
+    "Quiz Title": "Frameworks Front-end",
+    "Questions": [{
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What is a framework?"],
+          "es-MX": ["¿Qué es un framework?"]
+        },
+        "Options": {
+          "en-US": [
+            "A web server",
+            "An environment with properties and functionalities that streamline development",
+            "A programming language",
+            "A text editor"
+          ],
+          "es-MX": [
+            "Un servidor web",
+            "Un entorno de trabajo con propiedades y funcionalidades que agilizan el desarrollo",
+            "Un lenguaje de programación",
+            "Un editor de texto"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "An environment with properties and functionalities that streamline development",
+          "es-MX": "Un entorno de trabajo con propiedades y funcionalidades que agilizan el desarrollo"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "A framework provides a structured environment with tools and features that make development faster and more reliable."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Un framework ofrece un entorno estructurado con herramientas y características que agilizan y mejoran la fiabilidad del desarrollo."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["Which benefit of a framework environment is mentioned?"],
+          "es-MX": ["¿Cuál beneficio del entorno de un framework se menciona?"]
+        },
+        "Options": {
+          "en-US": [
+            "It automates server configuration",
+            "It removes the need for documentation",
+            "It reduces mistakes in development",
+            "It increases development errors"
+          ],
+          "es-MX": [
+            "Automatiza la configuración del servidor",
+            "Elimina la necesidad de documentación",
+            "Disminuye los desaciertos",
+            "Aumenta los desaciertos"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "It reduces mistakes in development",
+          "es-MX": "Disminuye los desaciertos"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "One of the slide’s bullet points says frameworks help ‘reduce mistakes’ during development."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Uno de los puntos señala que los frameworks ‘disminuyen desaciertos’ en el desarrollo."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What does a framework provide to the programmer’s work environment?"],
+          "es-MX": ["¿Qué proporciona un framework al ambiente de trabajo del programador?"]
+        },
+        "Options": {
+          "en-US": [
+            "A testing framework",
+            "A random code generator",
+            "A better environment to carry out their work activities",
+            "A worse work environment"
+          ],
+          "es-MX": [
+            "Un framework de pruebas",
+            "Un generador de código aleatorio",
+            "Un mejor ambiente para llevar a cabo su actividad laboral",
+            "Un peor ambiente de trabajo"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A better environment to carry out their work activities",
+          "es-MX": "Un mejor ambiente para llevar a cabo su actividad laboral"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "The slide indicates frameworks ‘provide a better environment for programmers to carry out their work activities.’"
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "La diapositiva indica que los frameworks ‘proporcionan un mejor ambiente al programador para llevar a cabo su actividad laboral.’"
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What does it mean that a framework is a guide to building code?"],
+          "es-MX": ["¿Qué significa que un framework es una guía para construir código?"]
+        },
+        "Options": {
+          "en-US": [
+            "It prevents any code reuse",
+            "It only provides documentation",
+            "It writes the entire application automatically",
+            "It reduces the time and difficulties for the programming team"
+          ],
+          "es-MX": [
+            "Impide la reutilización de código",
+            "Solo provee documentación",
+            "Escribe toda la aplicación automáticamente",
+            "Disminuye el tiempo y las dificultades al equipo de programadores"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "It reduces the time and difficulties for the programming team",
+          "es-MX": "Disminuye el tiempo y las dificultades al equipo de programadores"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "According to the slide, as a guide a framework ‘reduces the time and difficulties’ for the development team."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Según la diapositiva, como guía un framework ‘disminuye el tiempo y las dificultades’ al equipo de desarrollo."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["How does a framework become a full application?"],
+          "es-MX": ["¿Cómo pasa un framework a ser una aplicación completa?"]
+        },
+        "Options": {
+          "en-US": [
+            "When it’s fully documented",
+            "By running it on a server",
+            "By adding the necessary code, it becomes a large application that can incorporate other functions",
+            "By installing it via npm"
+          ],
+          "es-MX": [
+            "Cuando está completamente documentado",
+            "Ejecutándolo en un servidor",
+            "Agregando el código necesario, pasa a ser una gran aplicación a la que podemos incorporar otras funciones",
+            "Instalándolo vía npm"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "By adding the necessary code, it becomes a large application that can incorporate other functions",
+          "es-MX": "Agregando el código necesario, pasa a ser una gran aplicación a la que podemos incorporar otras funciones"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "The slide explains that by adding the necessary code, the framework evolves into a complete and extensible application."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "La diapositiva explica que al añadir el código necesario, el framework evoluciona en una aplicación completa y extensible."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What is a library in software development?"],
+          "es-MX": ["¿Qué es una librería en desarrollo de software?"]
+        },
+        "Options": {
+          "en-US": [
+            "An integrated operation environment",
+            "A tool used for a special use",
+            "A programming language",
+            "A type of database"
+          ],
+          "es-MX": [
+            "Un entorno de operación integrada",
+            "Una herramienta que se utiliza para un uso en especial",
+            "Un lenguaje de programación",
+            "Un tipo de base de datos"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "A tool used for a special use",
+          "es-MX": "Una herramienta que se utiliza para un uso en especial"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "A library is a tool used for a specific purpose in software development."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Una librería es una herramienta que se utiliza para un uso en especial."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What do frameworks offer regarding operation?"],
+          "es-MX": ["¿Qué ofrecen los frameworks en cuanto a operativa?"]
+        },
+        "Options": {
+          "en-US": [
+            "They require separate libraries for each function",
+            "They block free use of libraries",
+            "They offer an integrated operation without using external resources",
+            "They use external resources automatically"
+          ],
+          "es-MX": [
+            "Requieren librerías separadas para cada función",
+            "Bloquean el uso libre de librerías",
+            "Ofrecen una operativa integrada, sin hacer uso de recursos externos",
+            "Utilizan recursos externos automáticamente"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "They offer an integrated operation without using external resources",
+          "es-MX": "Ofrecen una operativa integrada, sin hacer uso de recursos externos"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Frameworks provide an integrated workflow without relying on external resources."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Los frameworks ofrecen una operativa integrada, sin hacer uso de recursos externos."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What is allowed when working with libraries?"],
+          "es-MX": ["¿Qué se permite al trabajar con librerías?"]
+        },
+        "Options": {
+          "en-US": [
+            "Using any library freely",
+            "Libraries cannot be combined",
+            "They are integrated into frameworks",
+            "They require a control mechanism"
+          ],
+          "es-MX": [
+            "Uso libre de cualquier librería",
+            "No se pueden combinar librerías",
+            "Están integradas en frameworks",
+            "Requieren un mecanismo de control"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Using any library freely",
+          "es-MX": "Uso libre de cualquier librería"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Working with libraries allows free use of any library as needed."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Al trabajar con librerías, se permite uso libre de cualquier librería."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["How do frameworks handle function compatibility?"],
+          "es-MX": ["¿Cómo manejan los frameworks la compatibilidad de funciones?"]
+        },
+        "Options": {
+          "en-US": [
+            "They block use of third-party resources",
+            "They include functions that are securely compatible",
+            "They require manual merging of functions",
+            "They provide no compatibility control"
+          ],
+          "es-MX": [
+            "Bloquean el uso de recursos de terceros",
+            "Cuentan con funciones que son compatibles de manera segura",
+            "Requieren fusión manual de funciones",
+            "No ofrecen control de compatibilidad"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "They include functions that are securely compatible",
+          "es-MX": "Cuentan con funciones que son compatibles de manera segura"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Frameworks provide built-in functions that are guaranteed to be compatible safely."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Los frameworks cuentan con funciones que son compatibles de manera segura."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What do libraries need to determine compatibility between themselves?"],
+          "es-MX": ["¿Qué precisan las librerías para determinar compatibilidad entre sí?"]
+        },
+        "Options": {
+          "en-US": [
+            "Automatic integration",
+            "Control to determine compatibility",
+            "No compatibility checks needed",
+            "Built-in safe functions"
+          ],
+          "es-MX": [
+            "Integración automática",
+            "Un control para determinar si son compatibles unas con otras",
+            "No son necesarias comprobaciones de compatibilidad",
+            "Funciones seguras integradas"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Control to determine compatibility",
+          "es-MX": "Un control para determinar si son compatibles unas con otras"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Libraries require a mechanism or control to check whether they are compatible with each other."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Las librerías precisan de un control para determinar si son compatibles unas con otras."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What do frameworks provide when developing projects?"],
+          "es-MX": ["¿Qué proporcionan los frameworks al desarrollar proyectos?"]
+        },
+        "Options": {
+          "en-US": [
+            "Dynamic library management",
+            "Format and structure for the project",
+            "Automatic code generation for all modules",
+            "Server configuration only"
+          ],
+          "es-MX": [
+            "Gestión dinámica de librerías",
+            "El formato y la estructura del proyecto",
+            "Generación automática de código para todos los módulos",
+            "Solo configuración de servidor"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Format and structure for the project",
+          "es-MX": "El formato y la estructura del proyecto"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "When using frameworks, they set the format and structure upon which each project is built."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Cuando se usan frameworks, estos dan el formato y la estructura sobre la cual se lleva a cabo cada proyecto."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "General",
+        "Question Text": {
+          "en-US": ["What is allowed when using libraries in projects?"],
+          "es-MX": ["¿Qué se permite al usar librerías en proyectos?"]
+        },
+        "Options": {
+          "en-US": [
+            "No additional libraries allowed",
+            "Use different libraries as required",
+            "Frameworks integrated operation",
+            "Libraries operate automatically"
+          ],
+          "es-MX": [
+            "No se permiten librerías adicionales",
+            "Uso de distintas librerías según se requiera",
+            "Operativa integrada de frameworks",
+            "Las librerías operan automáticamente"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Use different libraries as required",
+          "es-MX": "Uso de distintas librerías según se requiera"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "text",
+              "content": "If libraries are used, different libraries can be utilized as needed."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Si se hace uso de librerías, se permite utilizar distintas librerías según se requiera."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de Frameworks",
+        "Question Text": {
+          "en-US": [
+            "What is a Java framework and what is it used for?",
+            "Which of the following describes a Java framework?",
+            "What kind of functionality do Java frameworks provide?"
+          ],
+          "es-MX": [
+            "¿Qué es un framework Java y para qué se utiliza?",
+            "¿Cuál de las siguientes describe un framework Java?",
+            "¿Qué tipo de funcionalidades proporcionan los frameworks Java?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Frameworks that only manage content for websites",
+            "Tools for developing and structuring multimedia content",
+            "Development platforms and libraries to facilitate Java application building",
+            "Libraries specifically dedicated to mobile development only"
+          ],
+          "es-MX": [
+            "Frameworks que solo gestionan contenido para sitios web",
+            "Herramientas para desarrollar y estructurar contenido multimedia",
+            "Plataformas de desarrollo y bibliotecas que facilitan la creación de aplicaciones Java",
+            "Bibliotecas exclusivamente dedicadas al desarrollo móvil"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Development platforms and libraries to facilitate Java application building",
+          "es-MX": "Plataformas de desarrollo y bibliotecas que facilitan la creación de aplicaciones Java"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "Java Frameworks Overview"
+            },
+            {
+              "type": "text",
+              "content": "Java frameworks are comprehensive sets of libraries, tools, and guidelines designed specifically to simplify the development process of Java applications. They help developers manage common tasks such as database access, session handling, security, and user interface rendering."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Spring Framework: widely used for web and enterprise applications, provides dependency injection, MVC, security, and transaction management.",
+                "Jakarta EE (formerly Java EE): offers standard specifications and APIs for building robust, scalable enterprise applications.",
+                "Hibernate: an Object-Relational Mapping (ORM) framework that facilitates interactions between Java applications and databases."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "These frameworks significantly enhance productivity by handling complex technical details, allowing developers to focus more on business logic rather than infrastructure."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "Descripción general de los frameworks Java"
+            },
+            {
+              "type": "text",
+              "content": "Los frameworks Java son conjuntos amplios de bibliotecas, herramientas y lineamientos diseñados específicamente para simplificar el proceso de desarrollo de aplicaciones en Java. Ayudan a los desarrolladores a gestionar tareas comunes como acceso a bases de datos, manejo de sesiones, seguridad y presentación de la interfaz de usuario."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Spring Framework: ampliamente utilizado en aplicaciones web y empresariales, proporciona inyección de dependencias, MVC, seguridad y gestión de transacciones.",
+                "Jakarta EE (antes conocido como Java EE): ofrece especificaciones estándar y APIs para construir aplicaciones empresariales robustas y escalables.",
+                "Hibernate: un framework de mapeo objeto-relacional (ORM) que facilita las interacciones entre aplicaciones Java y bases de datos."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Estos frameworks incrementan notablemente la productividad al encargarse de detalles técnicos complejos, permitiendo a los desarrolladores centrarse más en la lógica del negocio en lugar de la infraestructura."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de Frameworks",
+        "Question Text": {
+          "en-US": [
+            "What is a multimedia framework and what is its main use?",
+            "Which description best fits a multimedia framework?",
+            "What functionalities do multimedia frameworks typically provide?"
+          ],
+          "es-MX": [
+            "¿Qué es un framework multimedia y cuál es su uso principal?",
+            "¿Qué descripción se ajusta mejor a un framework multimedia?",
+            "¿Qué funcionalidades proporcionan típicamente los frameworks multimedia?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Frameworks exclusively focused on web page styling",
+            "Tools specifically designed to manage and deliver digital media content like audio and video",
+            "Libraries designed solely for data persistence and management",
+            "Frameworks dedicated only to network security tasks"
+          ],
+          "es-MX": [
+            "Frameworks enfocados exclusivamente en el estilo de páginas web",
+            "Herramientas específicamente diseñadas para gestionar y entregar contenido digital multimedia como audio y video",
+            "Bibliotecas diseñadas únicamente para persistencia y gestión de datos",
+            "Frameworks dedicados únicamente a tareas de seguridad de redes"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Tools specifically designed to manage and deliver digital media content like audio and video",
+          "es-MX": "Herramientas específicamente diseñadas para gestionar y entregar contenido digital multimedia como audio y video"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "Multimedia Frameworks Overview"
+            },
+            {
+              "type": "text",
+              "content": "Multimedia frameworks provide developers with standardized tools and APIs to manage, process, and render various digital media types, including audio, video, images, and streaming media."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "FFmpeg: a powerful multimedia framework used to encode, decode, transcode, and stream multimedia content.",
+                "GStreamer: an open-source multimedia framework capable of handling multiple formats and protocols for streaming and playback.",
+                "DirectShow (Windows): a framework from Microsoft for rendering and capturing multimedia content on Windows platforms."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "These frameworks simplify handling media formats and protocols, allowing applications to provide seamless multimedia experiences across different platforms and devices."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "Descripción general de los frameworks multimedia"
+            },
+            {
+              "type": "text",
+              "content": "Los frameworks multimedia proporcionan a los desarrolladores herramientas y APIs estandarizadas para gestionar, procesar y renderizar distintos tipos de medios digitales, incluyendo audio, video, imágenes y medios en streaming."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "FFmpeg: un potente framework multimedia usado para codificar, decodificar, transcodificar y transmitir contenido multimedia.",
+                "GStreamer: un framework multimedia de código abierto capaz de manejar múltiples formatos y protocolos para transmisión y reproducción.",
+                "DirectShow (Windows): framework desarrollado por Microsoft para capturar y reproducir contenido multimedia en plataformas Windows."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Estos frameworks simplifican el manejo de formatos y protocolos de medios, permitiendo que las aplicaciones ofrezcan experiencias multimedia fluidas en diferentes plataformas y dispositivos."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de Frameworks",
+        "Question Text": {
+          "en-US": [
+            "What is a Content Management Framework (CMF) used for?",
+            "Which description accurately defines a Content Management Framework?",
+            "What type of functionalities are provided by Content Management Frameworks?"
+          ],
+          "es-MX": [
+            "¿Para qué se utiliza un Framework de Gestión de Contenido (CMF)?",
+            "¿Qué descripción define con precisión un Framework de Gestión de Contenido?",
+            "¿Qué tipo de funcionalidades proporcionan los Frameworks de Gestión de Contenido?"
+          ]
+        },
+        "Options": {
+          "en-US": [
+            "Frameworks specifically dedicated to multimedia processing",
+            "Tools that facilitate developing, organizing, and managing digital content",
+            "Libraries used exclusively for Java application development",
+            "Frameworks specialized solely in web and mobile application UI"
+          ],
+          "es-MX": [
+            "Frameworks específicamente dedicados al procesamiento multimedia",
+            "Herramientas que facilitan el desarrollo, organización y gestión de contenido digital",
+            "Bibliotecas usadas exclusivamente para desarrollo de aplicaciones Java",
+            "Frameworks especializados únicamente en interfaces de aplicaciones web y móviles"
+          ]
+        },
+        "Correct Answer": {
+          "en-US": "Tools that facilitate developing, organizing, and managing digital content",
+          "es-MX": "Herramientas que facilitan el desarrollo, organización y gestión de contenido digital"
+        },
+        "Explanation": {
+          "en-US": [
+            {
+              "type": "title-h2",
+              "content": "Content Management Frameworks (CMF) Overview"
+            },
+            {
+              "type": "text",
+              "content": "Content Management Frameworks (CMF) are development frameworks designed to facilitate the creation, organization, and management of digital content such as articles, blogs, images, videos, and user-generated content."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Drupal: a powerful CMF and CMS known for flexibility, modularity, and robust community support, enabling custom content types and sophisticated workflows.",
+                "TYPO3: an enterprise-grade open-source CMF ideal for complex websites with advanced content management needs, featuring multilingual support and content scheduling.",
+                "MODX: a flexible CMF and CMS offering extensive customization for developers, emphasizing ease of use, security, and scalability."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "These frameworks allow developers to create sophisticated content-based systems with modular architecture, extensive customization capabilities, and effective content lifecycle management without starting from scratch."
+            }
+          ],
+          "es-MX": [
+            {
+              "type": "title-h2",
+              "content": "Descripción general de los Frameworks de Gestión de Contenido (CMF)"
+            },
+            {
+              "type": "text",
+              "content": "Los Frameworks de Gestión de Contenido (CMF) son entornos de desarrollo diseñados para facilitar la creación, organización y gestión de contenido digital como artículos, blogs, imágenes, videos y contenido generado por usuarios."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Drupal: potente CMF y CMS conocido por su flexibilidad, modularidad y robusto soporte comunitario, permitiendo tipos de contenido personalizados y flujos de trabajo sofisticados.",
+                "TYPO3: un CMF empresarial de código abierto ideal para sitios web complejos con necesidades avanzadas de gestión de contenido, ofreciendo soporte multilingüe y programación de contenido.",
+                "MODX: un CMF y CMS flexible que ofrece amplia personalización para desarrolladores, destacando por facilidad de uso, seguridad y escalabilidad."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Estos frameworks permiten a los desarrolladores crear sistemas sofisticados basados en contenido con arquitectura modular, amplias capacidades de personalización y gestión efectiva del ciclo de vida del contenido sin tener que empezar desde cero."
+            }
+          ]
+        }
+      }
+      
+      
+      
+      
+      
+    ]
+  }
+  
