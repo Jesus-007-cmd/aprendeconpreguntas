@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import QuizApp from './components/quizApp/QuizApp';
 import CombineCSVFiles from './components/CombineCSVFiles';
 import InterviewQuiz from './components/interview/InterviewQuiz';
+import InterviewQuiz3D from './components/interview/InterviewQuiz3D';
 import LearningEnglishWithQuestions from './components/learningEnglishWithQuestions/LearningEnglishWithQuestions';
 
 // Importa los demás componentes según los vayas necesitando.
@@ -24,6 +25,7 @@ function App() {
         {selectedOption === 'quiz' && <QuizApp />}
         {selectedOption === 'CombineCSVFiles' && <CombineCSVFiles />}
         {selectedOption === 'interviewQuiz' && <InterviewQuiz />}
+        {selectedOption === 'interviewQuiz3D' && <InterviewQuiz3D />}
         {selectedOption === 'LearningEnglishWithQuestions' && <LearningEnglishWithQuestions />}
 
         {/* añade claramente otros componentes según tu lógica */}

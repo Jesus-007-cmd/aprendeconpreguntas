@@ -5,54 +5,64 @@ const Menu = ({ onSelectOption }) => {
 
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
+  const handleSelect = (option) => {
+    onSelectOption(option);
+    setIsDropdownOpen(false);
+  };
+
   return (
-    <nav className="bg-gray-800 p-4 shadow-lg">
-      <ul className="flex space-x-4 justify-center items-center">
+    <nav className="bg-gray-900 text-white px-4 py-3 shadow-md w-full z-50">
+      <ul className="flex flex-wrap justify-center gap-4 items-center">
         <li>
           <button
-            className="text-white hover:text-yellow-400 transition duration-300"
-            onClick={() => onSelectOption("quiz")}
+            onClick={() => handleSelect("quiz")}
+            className="hover:text-yellow-400 transition duration-300"
           >
             Cuestionario
           </button>
         </li>
         <li>
           <button
-            className="text-white hover:text-yellow-400 transition duration-300"
-            onClick={() => onSelectOption("LearningEnglishWithQuestions")}
+            onClick={() => handleSelect("LearningEnglishWithQuestions")}
+            className="hover:text-yellow-400 transition duration-300"
           >
             Learning English with Phrases
           </button>
         </li>
-
         <li>
           <button
-            className="text-white hover:text-yellow-400 transition duration-300"
-            onClick={() => onSelectOption("CombineCSVFiles")}
+            onClick={() => handleSelect("CombineCSVFiles")}
+            className="hover:text-yellow-400 transition duration-300"
           >
             Herramientas
           </button>
         </li>
         <li>
-          <div
-            className="menu-item"
-            onClick={() => onSelectOption("interviewQuiz")}
+          <button
+            onClick={() => handleSelect("interviewQuiz")}
+            className="hover:text-yellow-400 transition duration-300"
           >
             Cuestionario V2 (Entrevistas)
-          </div>
+          </button>
         </li>
-
+        <li>
+          <button
+            onClick={() => handleSelect("interviewQuiz3D")}
+            className="hover:text-yellow-400 transition duration-300"
+          >
+            Quiz 3D Carrusel
+          </button>
+        </li>
         <li className="relative">
           <button
-            className="text-white hover:text-yellow-400 transition duration-300 flex items-center"
             onClick={toggleDropdown}
+            className="hover:text-yellow-400 transition duration-300 flex items-center"
           >
             Pronunciación
             <span className="ml-1">{isDropdownOpen ? "▲" : "▼"}</span>
           </button>
-
           {isDropdownOpen && (
-            <ul className="absolute top-full left-0 bg-gray-700 text-white shadow-xl rounded-lg overflow-hidden mt-2 z-10 w-56">
+            <ul className="absolute top-full left-1/2 transform -translate-x-1/2 bg-gray-800 text-white rounded-md shadow-lg mt-2 z-50 min-w-[200px] w-max text-center">
               {[
                 { label: "Alemán", option: "german" },
                 { label: "Francés", option: "french" },
@@ -71,11 +81,8 @@ const Menu = ({ onSelectOption }) => {
               ].map((item) => (
                 <li key={item.option}>
                   <button
-                    className="block w-full text-left px-4 py-2 hover:bg-gray-600 transition duration-200"
-                    onClick={() => {
-                      onSelectOption(item.option);
-                      setIsDropdownOpen(false); // cierra dropdown después de elegir opción
-                    }}
+                    onClick={() => handleSelect(item.option)}
+                    className="w-full px-4 py-2 hover:bg-gray-600 transition duration-200"
                   >
                     {item.label}
                   </button>

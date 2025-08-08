@@ -1,0 +1,1012 @@
+{
+  "Quiz Title": "Microtest de Desarrollo Web con marcos de trabajo",
+  "Questions": [
+    {
+      "Category": "Características clave",
+      "Question Text": {
+        "es-MX": ["¿Cuál es una característica clave de un framework en el desarrollo de software?"],
+        "en-US": ["What is a key feature of a software development framework?"]
+      },
+      "Options": {
+        "es-MX": [
+          "Proporciona un entorno de trabajo con propiedades y funcionalidades que agilizan el desarrollo y mejoran el ambiente del programador.",
+          "Permite el uso libre de cualquier librería sin una estructura establecida.",
+          "Ejecuta código específico sin ofrecer ninguna guía o regla para el desarrollo del proyecto.",
+          "Sustituye la necesidad de estructurar el proyecto proporcionando únicamente funciones específicas."
+        ],
+        "en-US": [
+          "It provides a working environment with features and functionalities that speed up development and improve the developer experience.",
+          "It allows the free use of any library without an established structure.",
+          "It executes specific code without offering any guidance or rules for project development.",
+          "It replaces the need to structure the project by only offering specific functions."
+        ]
+      },
+      "Correct Answer": {
+        "es-MX": "Proporciona un entorno de trabajo con propiedades y funcionalidades que agilizan el desarrollo y mejoran el ambiente del programador.",
+        "en-US": "It provides a working environment with features and functionalities that speed up development and improve the developer experience."
+      },
+      "Explanation": {
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Los frameworks facilitan el desarrollo proporcionando herramientas, estructuras y reglas que reducen errores comunes y mejoran la productividad."
+          }
+        ],
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Frameworks ease development by providing tools, structures, and rules that reduce common mistakes and increase productivity."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Escalabilidad",
+      "Question Text": {
+        "es-MX": ["¿Por qué es recomendable utilizar un framework para proyectos a gran escala?"],
+        "en-US": ["Why is it recommended to use a framework for large-scale projects?"]
+      },
+      "Options": {
+        "es-MX": [
+          "Porque ofrece una estructura organizada y reglas establecidas que ayudan a gestionar la complejidad del proyecto.",
+          "Porque permite el uso de cualquier librería sin preocuparse por la compatibilidad.",
+          "Porque no proporciona ninguna guía estructural, lo que permite un desarrollo desorganizado.",
+          "Porque es específico para un tipo de proyecto y no se adapta a otros usos."
+        ],
+        "en-US": [
+          "Because it offers an organized structure and established rules that help manage project complexity.",
+          "Because it allows the use of any library without worrying about compatibility.",
+          "Because it provides no structural guidance, enabling disorganized development.",
+          "Because it is specific to one project type and cannot be adapted to others."
+        ]
+      },
+      "Correct Answer": {
+        "es-MX": "Porque ofrece una estructura organizada y reglas establecidas que ayudan a gestionar la complejidad del proyecto.",
+        "en-US": "Because it offers an organized structure and established rules that help manage project complexity."
+      },
+      "Explanation": {
+        "es-MX": [
+          {
+            "type": "ul",
+            "items": [
+              "Los frameworks promueven orden y coherencia en equipos grandes.",
+              "Ayudan a aplicar buenas prácticas desde el inicio del proyecto.",
+              "Facilitan el mantenimiento y escalabilidad del software."
+            ]
+          }
+        ],
+        "en-US": [
+          {
+            "type": "ul",
+            "items": [
+              "Frameworks promote order and consistency in large teams.",
+              "They help enforce best practices from the start.",
+              "They facilitate software maintenance and scalability."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Comparaciones",
+      "Question Text": {
+        "es-MX": ["¿Cuál es una de las diferencias entre un framework y una librería?"],
+        "en-US": ["What is one of the differences between a framework and a library?"]
+      },
+      "Options": {
+        "es-MX": [
+          "Un framework ofrece una estructura y un formato organizados para el desarrollo del proyecto, mientras que una librería proporciona funciones específicas que se usan según se necesite.",
+          "Un framework permite el uso libre de cualquier librería sin restricciones, mientras que una librería requiere una operativa integrada.",
+          "Un framework es universal y se aplica a todos los tipos de proyectos, mientras que una librería es específica para un tipo de proyecto.",
+          "Un framework solo se utiliza para aplicaciones de audio y video, mientras que una librería se usa en cualquier tipo de aplicación."
+        ],
+        "en-US": [
+          "A framework offers a structured and organized format for project development, while a library provides specific functions used as needed.",
+          "A framework allows unrestricted use of any library, while a library requires integrated operation.",
+          "A framework is universal and applies to all types of projects, while a library is specific to one type of project.",
+          "A framework is only used for audio and video applications, while a library can be used for any application."
+        ]
+      },
+      "Correct Answer": {
+        "es-MX": "Un framework ofrece una estructura y un formato organizados para el desarrollo del proyecto, mientras que una librería proporciona funciones específicas que se usan según se necesite.",
+        "en-US": "A framework offers a structured and organized format for project development, while a library provides specific functions used as needed."
+      },
+      "Explanation": {
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El framework controla el flujo del programa y llama al código del desarrollador, mientras que en una librería, el desarrollador decide cuándo y cómo usar sus funciones."
+          }
+        ],
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The framework controls the flow and calls the developer's code, while with a library, the developer decides when and how to use its functions."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Roles en desarrollo",
+      "Question Text": {
+        "es-MX": ["¿Cuál es la principal responsabilidad del desarrollador front-end?"],
+        "en-US": ["What is the main responsibility of a front-end developer?"]
+      },
+      "Options": {
+        "es-MX": [
+          "Construir los componentes visuales en una página web.",
+          "Administrar bases de datos y asegurar la seguridad de la información.",
+          "Coordinar y organizar el trabajo del equipo de desarrollo.",
+          "Redactar y editar contenidos para la página web."
+        ],
+        "en-US": [
+          "Build the visual components of a webpage.",
+          "Manage databases and ensure data security.",
+          "Coordinate and organize the development team’s work.",
+          "Write and edit content for the website."
+        ]
+      },
+      "Correct Answer": {
+        "es-MX": "Construir los componentes visuales en una página web.",
+        "en-US": "Build the visual components of a webpage."
+      },
+      "Explanation": {
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El desarrollador front-end se centra en la parte visible de la página web que interactúa directamente con el usuario, utilizando tecnologías como HTML, CSS y JavaScript."
+          }
+        ],
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The front-end developer focuses on the visible part of the webpage that users interact with, using technologies like HTML, CSS, and JavaScript."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Perfiles profesionales",
+      "Question Text": {
+        "es-MX": ["¿Qué perfil se encarga de garantizar que la información almacenada en una base de datos sea rápida, útil y segura?"],
+        "en-US": ["Which role is responsible for ensuring that stored data in a database is fast, useful, and secure?"]
+      },
+      "Options": {
+        "es-MX": [
+          "Diseñador gráfico.",
+          "Administrador de bases de datos.",
+          "Especialista en usabilidad y experiencia de usuario (diseñador UX).",
+          "Experto en marketing digital."
+        ],
+        "en-US": [
+          "Graphic designer.",
+          "Database administrator.",
+          "Usability and user experience specialist (UX designer).",
+          "Digital marketing expert."
+        ]
+      },
+      "Correct Answer": {
+        "es-MX": "Administrador de bases de datos.",
+        "en-US": "Database administrator."
+      },
+      "Explanation": {
+        "es-MX": [
+          {
+            "type": "ul",
+            "items": [
+              "El administrador de bases de datos (DBA) garantiza la integridad, seguridad y rendimiento de las bases de datos.",
+              "Optimiza consultas para agilizar el acceso a la información.",
+              "Controla accesos y realiza respaldos de seguridad."
+            ]
+          }
+        ],
+        "en-US": [
+          {
+            "type": "ul",
+            "items": [
+              "The database administrator (DBA) ensures database integrity, security, and performance.",
+              "They optimize queries for faster data access.",
+              "They manage user access and perform backups."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Diferencias de rol",
+      "Question Text": {
+        "es-MX": ["¿Qué diferencia principal existe entre el desarrollo front-end y el back-end?"],
+        "en-US": ["What is the main difference between front-end and back-end development?"]
+      },
+      "Options": {
+        "es-MX": [
+          "El front-end se ocupa de la lógica del servidor, mientras que el back-end se encarga de los aspectos visuales de la página.",
+          "El front-end trabaja en la estructura interna de la página, mientras que el back-end se encarga de diseñar el aspecto visual.",
+          "El front-end se encarga de la parte visible de la página web, mientras que el back-end maneja la lógica y el funcionamiento detrás de escena.",
+          "El front-end y el back-end son términos sinónimos que se refieren a la misma parte del desarrollo web."
+        ],
+        "en-US": [
+          "Front-end handles server logic, while back-end deals with the visual aspects of the page.",
+          "Front-end works on the internal structure, while back-end designs the visual appearance.",
+          "Front-end handles the visible part of the webpage, while back-end manages the logic and behind-the-scenes functionality.",
+          "Front-end and back-end are synonymous terms referring to the same part of web development."
+        ]
+      },
+      "Correct Answer": {
+        "es-MX": "El front-end se encarga de la parte visible de la página web, mientras que el back-end maneja la lógica y el funcionamiento detrás de escena.",
+        "en-US": "Front-end handles the visible part of the webpage, while back-end manages the logic and behind-the-scenes functionality."
+      },
+      "Explanation": {
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El front-end es la interfaz de usuario (UI), mientras que el back-end procesa la lógica, conecta con bases de datos y gestiona funcionalidades del sistema."
+          }
+        ],
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Front-end is the user interface (UI), while back-end handles logic, database connections, and system functionalities."
+          }
+        ]
+      }
+    }
+    ,
+      {
+        "Category": "Lenguajes web",
+        "Question Text": {
+          "es-MX": ["¿Cuál es la principal función de HTML en el desarrollo web?"],
+          "en-US": ["What is the main function of HTML in web development?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Describir la estructura semántica de los contenidos digitales mediante etiquetas.",
+            "Aplicar estilos visuales a los elementos de una página web.",
+            "Crear interacciones dinámicas en la página web.",
+            "Definir el diseño y apariencia de los componentes en la web."
+          ],
+          "en-US": [
+            "Describe the semantic structure of digital content using tags.",
+            "Apply visual styles to webpage elements.",
+            "Create dynamic interactions on the webpage.",
+            "Define the design and appearance of web components."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Describir la estructura semántica de los contenidos digitales mediante etiquetas.",
+          "en-US": "Describe the semantic structure of digital content using tags."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "HTML (HyperText Markup Language) es el lenguaje que define la estructura básica y el contenido de una página web mediante etiquetas."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "HTML (HyperText Markup Language) is the language that defines the basic structure and content of a web page using tags."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Estilos y estructura",
+        "Question Text": {
+          "es-MX": ["¿Qué característica distingue a CSS del HTML en el desarrollo web?"],
+          "en-US": ["What feature distinguishes CSS from HTML in web development?"]
+        },
+        "Options": {
+          "es-MX": [
+            "CSS se utiliza para definir la estructura básica de una página web.",
+            "CSS permite separar el contenido de la apariencia, lo que facilita el mantenimiento del sitio.",
+            "CSS se encarga de la creación de scripts para la interactividad.",
+            "CSS trabaja exclusivamente con el lado servidor de la web."
+          ],
+          "en-US": [
+            "CSS is used to define the basic structure of a web page.",
+            "CSS allows separation of content from presentation, making site maintenance easier.",
+            "CSS is responsible for creating scripts for interactivity.",
+            "CSS works exclusively on the server-side of the web."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "CSS permite separar el contenido de la apariencia, lo que facilita el mantenimiento del sitio.",
+          "en-US": "CSS allows separation of content from presentation, making site maintenance easier."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "CSS se enfoca en los estilos visuales como colores, tamaños y disposición.",
+                "HTML se centra en la estructura del contenido.",
+                "Separar contenido y apariencia mejora la organización y facilita el trabajo en equipo."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "CSS focuses on visual styles such as colors, sizes, and layout.",
+                "HTML is focused on the content structure.",
+                "Separating content and style improves organization and teamwork."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Estandarización",
+        "Question Text": {
+          "es-MX": ["¿Qué es ECMAScript y por qué es importante para JavaScript?"],
+          "en-US": ["What is ECMAScript and why is it important for JavaScript?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Un lenguaje de marcado utilizado para definir el diseño de páginas web.",
+            "Una especificación que define cómo debe funcionar y comportarse JavaScript en diferentes navegadores.",
+            "Un framework de CSS para diseñar páginas web rápidamente.",
+            "Una librería externa que facilita la implementación de funciones avanzadas en JavaScript."
+          ],
+          "en-US": [
+            "A markup language used to define the layout of web pages.",
+            "A specification that defines how JavaScript should work and behave across different browsers.",
+            "A CSS framework to quickly design web pages.",
+            "An external library that helps implement advanced JavaScript functions."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Una especificación que define cómo debe funcionar y comportarse JavaScript en diferentes navegadores.",
+          "en-US": "A specification that defines how JavaScript should work and behave across different browsers."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "ECMAScript es el estándar que define las reglas y funcionalidades que debe seguir JavaScript para asegurar compatibilidad entre navegadores y entornos."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "ECMAScript is the standard that defines the rules and features JavaScript must follow to ensure compatibility across browsers and environments."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Ventajas de los frameworks",
+        "Question Text": {
+          "es-MX": ["¿Qué ventaja principal proporciona el uso de un framework en el desarrollo de software?"],
+          "en-US": ["What is a main advantage of using a framework in software development?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Aumenta el costo del proyecto debido a la compra de licencias.",
+            "Permite un desarrollo más rápido mediante la reutilización de código y utilidades preexistentes.",
+            "Requiere de que todo el equipo use el mismo sistema operativo.",
+            "Obliga a los desarrolladores a escribir todo el código desde cero."
+          ],
+          "en-US": [
+            "Increases project cost due to licensing fees.",
+            "Enables faster development through code reuse and preexisting utilities.",
+            "Requires the entire team to use the same operating system.",
+            "Forces developers to write all code from scratch."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Permite un desarrollo más rápido mediante la reutilización de código y utilidades preexistentes.",
+          "en-US": "Enables faster development through code reuse and preexisting utilities."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Un framework ofrece componentes ya probados que aceleran el desarrollo y reducen la necesidad de codificar desde cero."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "A framework provides prebuilt components that speed up development and reduce the need to code everything from scratch."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Errores y sintaxis",
+        "Question Text": {
+          "es-MX": ["¿Cómo ayudan los frameworks a reducir los errores en la programación?"],
+          "en-US": ["How do frameworks help reduce programming errors?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Disminuyen la probabilidad de errores de sintaxis al usar utilidades y estructuras predefinidas.",
+            "Aseguran que todos los errores se detecten automáticamente en tiempo de ejecución.",
+            "Requieren la eliminación manual de errores en cada línea de código.",
+            "Ofrecen herramientas para realizar análisis de código en tiempo real sin posibilidad de errores."
+          ],
+          "en-US": [
+            "They reduce the likelihood of syntax errors by using predefined utilities and structures.",
+            "They ensure all errors are automatically detected at runtime.",
+            "They require manual error removal in every line of code.",
+            "They provide tools for real-time code analysis with zero possibility of errors."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Disminuyen la probabilidad de errores de sintaxis al usar utilidades y estructuras predefinidas.",
+          "en-US": "They reduce the likelihood of syntax errors by using predefined utilities and structures."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "Los frameworks imponen reglas que reducen errores comunes.",
+                "Utilizan estructuras repetibles que ayudan a evitar fallos.",
+                "Facilitan una codificación más ordenada y coherente."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "Frameworks enforce rules that reduce common errors.",
+                "They use repeatable structures to avoid mistakes.",
+                "They help developers write more organized and consistent code."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Trabajo en equipo",
+        "Question Text": {
+          "es-MX": ["¿Qué impacto tiene un framework en la colaboración dentro de un equipo de desarrollo?"],
+          "en-US": ["What impact does a framework have on collaboration within a development team?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Facilita el trabajo colaborativo al permitir el uso y compartición de estructuras y código preexistente.",
+            "Reduce la necesidad de comunicación entre los miembros del equipo.",
+            "Asegura que cada miembro del equipo trabaje en un componente completamente independiente.",
+            "Elimina la necesidad de coordinación al automatizar el proceso de desarrollo."
+          ],
+          "en-US": [
+            "It facilitates collaboration by allowing the use and sharing of preexisting structures and code.",
+            "It reduces the need for communication between team members.",
+            "It ensures that each team member works on a completely independent component.",
+            "It eliminates the need for coordination by automating the development process."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Facilita el trabajo colaborativo al permitir el uso y compartición de estructuras y código preexistente.",
+          "en-US": "It facilitates collaboration by allowing the use and sharing of preexisting structures and code."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Los frameworks fomentan estándares comunes, lo que permite que múltiples desarrolladores trabajen en conjunto sin generar conflictos de código."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Frameworks encourage common standards, allowing multiple developers to work together without causing code conflicts."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "React - Fundamentos",
+        "Question Text": {
+          "es-MX": ["¿Cuál es el objetivo principal de React?"],
+          "en-US": ["What is the main purpose of React?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Desarrollar interfaces de usuario y encargarse de la vista.",
+            "Crear bases de datos para aplicaciones móviles.",
+            "Generar gráficos y visualizaciones de datos.",
+            "Administrar sistemas operativos de servidor"
+          ],
+          "en-US": [
+            "Develop user interfaces and handle the view layer.",
+            "Create databases for mobile applications.",
+            "Generate charts and data visualizations.",
+            "Manage server operating systems"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Desarrollar interfaces de usuario y encargarse de la vista.",
+          "en-US": "Develop user interfaces and handle the view layer."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "React es una biblioteca enfocada en construir interfaces de usuario, especialmente la capa de vista en aplicaciones de una sola página."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "React is a library focused on building user interfaces, particularly the view layer in single-page applications."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "React - Actualización eficiente",
+        "Question Text": {
+          "es-MX": ["¿Qué característica de React permite que solo se actualicen los elementos modificados de un proyecto?"],
+          "en-US": ["Which React feature allows only modified elements of a project to be updated?"]
+        },
+        "Options": {
+          "es-MX": [
+            "La capacidad de actualizar solo los elementos modificados sin afectar el resto del proyecto.",
+            "La integración directa con bases de datos.",
+            "La posibilidad de realizar cambios en el servidor sin afectar al cliente.",
+            "La automatización completa del proceso de despliegue."
+          ],
+          "en-US": [
+            "The ability to update only the modified elements without affecting the rest of the project.",
+            "Direct integration with databases.",
+            "The ability to make server changes without affecting the client.",
+            "Full automation of the deployment process."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "La capacidad de actualizar solo los elementos modificados sin afectar el resto del proyecto.",
+          "en-US": "The ability to update only the modified elements without affecting the rest of the project."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "React utiliza un Virtual DOM que compara versiones anteriores y actuales del estado para actualizar únicamente los elementos cambiados, mejorando el rendimiento."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "React uses a Virtual DOM that compares previous and current state versions to update only the changed elements, improving performance."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "React - Buenas prácticas",
+        "Question Text": {
+          "es-MX": ["¿Qué conviene hacer con los nombres de los componentes en React según las buenas prácticas?"],
+          "en-US": ["What is recommended for naming components in React according to best practices?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Nombrar los componentes con nombres generales para facilitar su reutilización.",
+            "Nombrar los componentes según la función que realizan y utilizar mayúsculas al inicio del nombre.",
+            "Usar nombres cortos y abreviados para facilitar la escritura del código.",
+            "Nombrar los componentes con números para evitar conflictos de nombres."
+          ],
+          "en-US": [
+            "Use generic names for components to improve reusability.",
+            "Name components based on their function and start with capital letters.",
+            "Use short and abbreviated names to make code easier to write.",
+            "Name components with numbers to avoid name conflicts."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Nombrar los componentes según la función que realizan y utilizar mayúsculas al inicio del nombre.",
+          "en-US": "Name components based on their function and start with capital letters."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "React recomienda usar PascalCase para los nombres de componentes.",
+                "El nombre debe reflejar claramente su propósito.",
+                "Esto mejora la legibilidad y el mantenimiento del código."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "React recommends using PascalCase for component names.",
+                "The name should clearly reflect its purpose.",
+                "This improves code readability and maintenance."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Vue.js - Fundamentos",
+        "Question Text": {
+          "es-MX": ["¿Cuál es una de las principales características de Vue JS?"],
+          "en-US": ["What is one of the main features of Vue JS?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Trabaja según el método model view-view model (MVVM) para simplificar el desarrollo de interfaces.",
+            "Utiliza un enfoque de programación imperativo para el desarrollo de interfaces.",
+            "Se basa únicamente en JavaScript para la creación de componentes.",
+            "Requiere el uso exclusivo de CSS para el diseño de las páginas web."
+          ],
+          "en-US": [
+            "It works based on the model view-view model (MVVM) pattern to simplify interface development.",
+            "It uses an imperative programming approach for interface development.",
+            "It relies solely on JavaScript to build components.",
+            "It requires the exclusive use of CSS for page design."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Trabaja según el método model view-view model (MVVM) para simplificar el desarrollo de interfaces.",
+          "en-US": "It works based on the model view-view model (MVVM) pattern to simplify interface development."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Vue JS sigue el patrón MVVM, lo que permite una clara separación entre la lógica de datos (modelo) y la interfaz de usuario (vista), facilitando el desarrollo y mantenimiento."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Vue JS follows the MVVM pattern, enabling a clear separation between data logic (model) and the user interface (view), which helps in development and maintenance."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Vue.js - Componentes",
+        "Question Text": {
+          "es-MX": ["¿Qué tipo de archivo es recomendado para crear componentes en Vue si el caso de uso justifica una configuración de compilación?"],
+          "en-US": ["Which file type is recommended to create Vue components when a build setup is justified?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Archivos con extensión `.html`.",
+            "Archivos con extensión `.js`.",
+            "Archivos con extensión `.vue`.",
+            "Archivos con extensión `.css`."
+          ],
+          "en-US": [
+            "Files with a `.html` extension.",
+            "Files with a `.js` extension.",
+            "Files with a `.vue` extension.",
+            "Files with a `.css` extension."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Archivos con extensión `.vue`.",
+          "en-US": "Files with a `.vue` extension."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Los archivos `.vue` permiten encapsular HTML, CSS y JavaScript en un solo archivo, lo que mejora la organización y reutilización del código en proyectos Vue con compilación."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "`.vue` files allow encapsulating HTML, CSS, and JavaScript in a single file, improving organization and reusability in Vue projects with build setups."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Vue.js - APIs",
+        "Question Text": {
+          "es-MX": ["¿Qué diferencia hay entre la API de opciones y la API de composición en Vue?"],
+          "en-US": ["What is the difference between the Options API and the Composition API in Vue?"]
+        },
+        "Options": {
+          "es-MX": [
+            "La API de opciones usa un objeto de opciones para definir la lógica del componente, mientras que la API de composición usa funciones importadas.",
+            "La API de composición utiliza únicamente métodos de objetos, mientras que la API de opciones utiliza clases.",
+            "La API de opciones permite el uso de templates, mientras que la API de composición se limita a scripts.",
+            "La API de composición es exclusiva para componentes estáticos, mientras que la API de opciones es para componentes dinámicos."
+          ],
+          "en-US": [
+            "The Options API uses an options object to define component logic, while the Composition API uses imported functions.",
+            "The Composition API only uses object methods, while the Options API uses classes.",
+            "The Options API allows the use of templates, while the Composition API is limited to scripts.",
+            "The Composition API is exclusive to static components, while the Options API is for dynamic components."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "La API de opciones usa un objeto de opciones para definir la lógica del componente, mientras que la API de composición usa funciones importadas.",
+          "en-US": "The Options API uses an options object to define component logic, while the Composition API uses imported functions."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "La API de opciones organiza el código por opciones como data, methods y computed.",
+                "La API de composición organiza el código por lógica funcional usando funciones como `ref` y `reactive`.",
+                "Ambas APIs son válidas y pueden combinarse en Vue 3."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "The Options API organizes code using options like data, methods, and computed.",
+                "The Composition API organizes code by logic using functions like `ref` and `reactive`.",
+                "Both APIs are valid and can be combined in Vue 3."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Ember.js - Características",
+        "Question Text": {
+          "es-MX": ["¿Cuál es una característica destacada de Ember.js?"],
+          "en-US": ["What is a key feature of Ember.js?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Tiene una baja curva de aprendizaje.",
+            "Utiliza una arquitectura estricta.",
+            "No es compatible con versiones nuevas.",
+            "Se ejecuta rápidamente."
+          ],
+          "en-US": [
+            "It has a low learning curve.",
+            "It uses a strict architecture.",
+            "It is not compatible with newer versions.",
+            "It runs very fast."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Utiliza una arquitectura estricta.",
+          "en-US": "It uses a strict architecture."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Ember.js promueve convenciones estrictas que ayudan a mantener la coherencia en proyectos grandes, aunque puede ser menos flexible que otros frameworks."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Ember.js promotes strict conventions that help maintain consistency in large projects, although it may be less flexible than other frameworks."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Mithril.js - Beneficios",
+        "Question Text": {
+          "es-MX": ["¿Cuál es un beneficio importante de Mithril.js?"],
+          "en-US": ["What is an important benefit of Mithril.js?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Se integra fácilmente con el código de otros frameworks.",
+            "Tiene una estructura poco flexible.",
+            "Requiere mucho tiempo para aprender.",
+            "No es adecuado para aplicaciones SPA."
+          ],
+          "en-US": [
+            "It integrates easily with code from other frameworks.",
+            "It has an inflexible structure.",
+            "It requires a long time to learn.",
+            "It is not suitable for SPA applications."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Se integra fácilmente con el código de otros frameworks.",
+          "en-US": "It integrates easily with code from other frameworks."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "Mithril.js es liviano y modular.",
+                "Puede integrarse fácilmente en proyectos existentes.",
+                "Es ideal para aplicaciones SPA gracias a su enrutador integrado y rendimiento eficiente."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "Mithril.js is lightweight and modular.",
+                "It can easily be integrated into existing projects.",
+                "It is ideal for SPA applications due to its built-in router and efficient performance."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Bulma - Diseño web",
+        "Question Text": {
+          "es-MX": ["¿Qué ventaja ofrece Bulma en el diseño web?"],
+          "en-US": ["What advantage does Bulma offer in web design?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Es un framework exclusivo para aplicaciones móviles.",
+            "Favorece el diseño web responsive.",
+            "Requiere JavaScript para funcionar.",
+            "No permite importar archivos SASS por separado."
+          ],
+          "en-US": [
+            "It is a framework exclusively for mobile applications.",
+            "It supports responsive web design.",
+            "It requires JavaScript to work.",
+            "It does not allow importing SASS files separately."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Favorece el diseño web responsive.",
+          "en-US": "It supports responsive web design."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Bulma está basado en Flexbox y proporciona un sistema de columnas responsivo, lo que facilita la creación de interfaces adaptables a distintos dispositivos."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Bulma is based on Flexbox and provides a responsive column system, making it easy to create interfaces that adapt to different devices."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Angular - TypeScript",
+        "Question Text": {
+          "es-MX": ["¿Cuál es el propósito principal del uso de TypeScript en el desarrollo con Angular?"],
+          "en-US": ["What is the main purpose of using TypeScript in Angular development?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Crear aplicaciones con JavaScript sin necesidad de compilación.",
+            "Garantizar una alta estabilidad en el código mediante un tipado fuerte y validaciones sintácticas durante la compilación.",
+            "Reemplazar por completo a JavaScript en el desarrollo de aplicaciones.",
+            "Utilizar exclusivamente para la creación de interfaces gráficas."
+          ],
+          "en-US": [
+            "Create applications with JavaScript without compilation.",
+            "Ensure high code stability through strong typing and syntax validation at compile time.",
+            "Completely replace JavaScript in application development.",
+            "Use it exclusively for creating graphical interfaces."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Garantizar una alta estabilidad en el código mediante un tipado fuerte y validaciones sintácticas durante la compilación.",
+          "en-US": "Ensure high code stability through strong typing and syntax validation at compile time."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Angular utiliza TypeScript para ofrecer una mejor experiencia de desarrollo, permitiendo detectar errores antes de ejecutar el código y mejorar el mantenimiento."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Angular uses TypeScript to improve the development experience, allowing errors to be caught before execution and making the codebase easier to maintain."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Angular - Directivas",
+        "Question Text": {
+          "es-MX": ["¿Qué característica describe mejor a las directivas en Angular?"],
+          "en-US": ["What feature best describes directives in Angular?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Permiten definir nuevas variables en el entorno de Angular.",
+            "Son utilizadas para vincular los datos de la aplicación a los atributos de los elementos HTML y modificar su comportamiento.",
+            "Se utilizan para compilar el código JavaScript en TypeScript.",
+            "Son responsables de la creación de componentes modulares en Angular."
+          ],
+          "en-US": [
+            "They allow defining new variables in the Angular environment.",
+            "They are used to bind application data to HTML element attributes and modify behavior.",
+            "They are used to compile JavaScript code into TypeScript.",
+            "They are responsible for creating modular components in Angular."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Son utilizadas para vincular los datos de la aplicación a los atributos de los elementos HTML y modificar su comportamiento.",
+          "en-US": "They are used to bind application data to HTML element attributes and modify behavior."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Las directivas en Angular permiten extender el comportamiento del HTML mediante la manipulación de atributos o estructura del DOM según el estado de la aplicación."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Angular directives extend HTML behavior by manipulating attributes or DOM structure based on application state."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "TypeScript - Tipado",
+        "Question Text": {
+          "es-MX": ["¿Cómo se declara una variable en TypeScript para asegurar un tipo específico?"],
+          "en-US": ["How do you declare a variable in TypeScript to ensure a specific type?"]
+        },
+        "Options": {
+          "es-MX": [
+            "var miVariable = 42.",
+            "let miVariable: any.",
+            "var miVariable: boolean.",
+            "const miVariable = \"texto\"."
+          ],
+          "en-US": [
+            "var myVariable = 42.",
+            "let myVariable: any.",
+            "var myVariable: boolean.",
+            "const myVariable = \"text\"."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "var miVariable: boolean.",
+          "en-US": "var myVariable: boolean."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "En TypeScript, se puede especificar el tipo con `:`.",
+                "Esto permite al compilador validar que se respeten los tipos asignados.",
+                "Ayuda a evitar errores al momento de compilar y escribir código más predecible."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "In TypeScript, you can specify the type using `:`.",
+                "This allows the compiler to ensure type consistency.",
+                "It helps avoid runtime errors and promotes predictable code."
+              ]
+            }
+          ]
+        }
+      }
+      
+      
+      
+      
+      
+        
+  ]
+}

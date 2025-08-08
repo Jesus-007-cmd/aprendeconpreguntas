@@ -5,6 +5,7 @@ import quizData from "./data/react_fundamentals.json";
 import quizDatappsmovs from "./data/aplicaciones_moviles_clases.json";
 import quizLearingEnglish from "./data/phrasesToLearn.json";
 import desarrolloWebFrameworksQuiz from "./data/desarrollo-web-frameworks-quiz.json";
+import desarrolloWebMarcosDeTrabajo from "./data/microtest-desarrollo-web-marcos-de-trabajo.json";
 
 import notificationSound from "../audio/correctanswer.mp3";
 export default function InterviewQuiz() {
@@ -53,7 +54,7 @@ export default function InterviewQuiz() {
       if (!text || !selectedAnswerVoice || !readQuestionsAloud) return; // Evitar errores si el texto o la voz no están disponibles
 
       if (responseLanguage !== "es-US") {
-        
+
         const slowUtterance = new SpeechSynthesisUtterance(text);
         slowUtterance.voice = selectedAnswerVoice;
         slowUtterance.lang = questionLanguage;
@@ -138,7 +139,7 @@ export default function InterviewQuiz() {
       }
 
       // Presionar 'Enter' para repetir la pregunta
-      if (event.key === "Enter" || event.key === "NumpadEnter" ) {
+      if (event.key === "Enter" || event.key === "NumpadEnter") {
         playQuestionAudio(currentQuestion.word); // Reproducir el audio de la pregunta
         return;
       }
@@ -244,10 +245,10 @@ export default function InterviewQuiz() {
 
   // Función que maneja la carga y adaptación del JSON para preguntas técnicas (nuevo formato)
   const handleJsonSelection = (jsonFile) => {
-    const language = selectedLanguage; 
-    
+    const language = selectedLanguage;
+
     const adaptedQuestions = jsonFile.Questions.map((question) => {
-      var rndmQuestion=Math.floor(Math.random() * question["Question Text"][language].length);
+      var rndmQuestion = Math.floor(Math.random() * question["Question Text"][language].length);
       const randomQuestionVariant =
         question["Question Text"][language][rndmQuestion];
 
@@ -278,11 +279,11 @@ export default function InterviewQuiz() {
     const voices = window.speechSynthesis.getVoices();
 
     const questionVoice =
-    voices.find((v) => v.lang === language && v.name.includes("Google")) ||
-    voices.find((v) => v.lang === language);
-  const answerVoice =
-    voices.find((v) => v.lang === language && v.name.includes("Google")) ||
-    voices.find((v) => v.lang === language);
+      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
+      voices.find((v) => v.lang === language);
+    const answerVoice =
+      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
+      voices.find((v) => v.lang === language);
 
     setSelectedQuestionVoice(questionVoice);
     setSelectedAnswerVoice(answerVoice);
@@ -302,32 +303,32 @@ export default function InterviewQuiz() {
   };
 
   return (
-    
+
     <div ref={quizContainerRef} className="min-h-screen bg-[#121212] text-white px-4 py-6 flex flex-col items-center">
 
 
 
 
       <h1 className="text-2xl font-bold text-center mb-6">
-        
+
       </h1>
       {!selectedLanguage ? (
-<div className="flex flex-col items-center gap-4 mb-10">
-  <h2 className="text-xl font-semibold mb-2">Seleccione el idioma del quiz:</h2>
-  <button
-    onClick={() => setSelectedLanguage("en-US")}
-    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-  >
-    Inglés
-  </button>
-  <button
-    onClick={() => setSelectedLanguage("es-MX")}
-    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-  >
-    Español
-  </button>
-</div>
-      ) :!isJsonSelected ? (
+        <div className="flex flex-col items-center gap-4 mb-10">
+          <h2 className="text-xl font-semibold mb-2">Seleccione el idioma del quiz:</h2>
+          <button
+            onClick={() => setSelectedLanguage("en-US")}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+            Inglés
+          </button>
+          <button
+            onClick={() => setSelectedLanguage("es-MX")}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+            Español
+          </button>
+        </div>
+      ) : !isJsonSelected ? (
         // Pantalla de selección de JSON
         <div className="flex flex-col items-center gap-4 mb-10">
           <h2 className="text-xl font-semibold mb-2">
@@ -337,294 +338,297 @@ export default function InterviewQuiz() {
             onClick={() => handleJsonSelection(quizData)}
             className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
           >
-           {quizData["Quiz Title"]}
+            {quizData["Quiz Title"]}
           </button>
           <button
             onClick={() => handleJsonSelection(quizDatappsmovs)}
             className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
           >
-           {quizDatappsmovs["Quiz Title"]}
+            {quizDatappsmovs["Quiz Title"]}
           </button>
           <button
             onClick={() => handleJsonSelection(quizLearingEnglish)}
             className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
           >
-           {quizLearingEnglish["Quiz Title"]}
+            {quizLearingEnglish["Quiz Title"]}
           </button>
           <button
             onClick={() => handleJsonSelection(desarrolloWebFrameworksQuiz)}
             className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
           >
-           {desarrolloWebFrameworksQuiz["Quiz Title"]}
+            {desarrolloWebFrameworksQuiz["Quiz Title"]}
           </button>
-          
+          <button
+            onClick={() => handleJsonSelection(desarrolloWebMarcosDeTrabajo)}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+            {desarrolloWebMarcosDeTrabajo["Quiz Title"]}
+          </button>
+
+
         </div>
       ) : !showResult && questions.length > 0 ? (
-        
-       
-<div className="flex flex-col  justify-between gap-6 w-full max-w-10xl">
+
+
+        <div className="flex flex-col  justify-between gap-6 w-full max-w-10xl">
           {/* 🟦 Sección original en inglés */}
           <div className="grid grid-cols-1 md:grid-cols-7 gap-4 w-full max-w-7xl mx-auto">
 
-          <div
-  className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300  ${
-      !showExplanation && !showSpanishTranslation
-        ? 'md:col-span-7'
-        : showExplanation && !showSpanishTranslation
-        ? 'md:col-span-3'
-        : !showExplanation && showSpanishTranslation
-        ? 'md:col-span-3'
-        : 'md:col-span-2'
-    }`}
->
+            <div
+              className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300  ${!showExplanation && !showSpanishTranslation
+                  ? 'md:col-span-7'
+                  : showExplanation && !showSpanishTranslation
+                    ? 'md:col-span-3'
+                    : !showExplanation && showSpanishTranslation
+                      ? 'md:col-span-3'
+                      : 'md:col-span-2'
+                }`}
+            >
 
 
 
-               
-            <h2 className="text-xl font-semibold mb-4">
-              {questions[currentQuestionIndex]?.word}
-            </h2>
 
-            <div className="text-sm mb-4">
-              <span className="text-gray-300">Calificación:</span> {score}/
-              {questions.length}
-            </div>
+              <h2 className="text-xl font-semibold mb-4">
+                {questions[currentQuestionIndex]?.word}
+              </h2>
 
-            <div className="flex flex-col items-center gap-3">
-              {questions[currentQuestionIndex]?.options?.map(
-                (option, index) => (
-                  <button
-                    key={uuidv4()}
-                    onClick={() => handleAnswerSelect(option)}
-                    className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${
-                      selectedAnswer === option
-                        ? "bg-orange-600"
-                        : "bg-blue-600 hover:bg-blue-700"
-                    }`}
-                  >
-                    {index + 1}. {option}
-                  </button>
-                )
-              )}
-            </div>
+              <div className="text-sm mb-4">
+                <span className="text-gray-300">Calificación:</span> {score}/
+                {questions.length}
+              </div>
+
+              <div className="flex flex-col items-center gap-3">
+                {questions[currentQuestionIndex]?.options?.map(
+                  (option, index) => (
+                    <button
+                      key={uuidv4()}
+                      onClick={() => handleAnswerSelect(option)}
+                      className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${selectedAnswer === option
+                          ? "bg-orange-600"
+                          : "bg-blue-600 hover:bg-blue-700"
+                        }`}
+                    >
+                      {index + 1}. {option}
+                    </button>
+                  )
+                )}
+              </div>
             </div>
             <div className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showExplanation ? 'md:col-span-2' : 'md:col-span-0 hidden'}`}>
 
 
-            {showExplanation && (
-               <div
-               className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${
-                 showSpanishTranslation ? 'md:col-span-2' : 'md:col-span-4'
-               }`}
-             >
-                <h3 className="font-bold text-lg mb-2">Explicación:</h3>
-                <div className="space-y-2 text-left text-gray-200">
-                  {questions[currentQuestionIndex]?.explanation?.map(
-                    (item, index) => {
-                      if (item.type === "text") {
-                        return <p key={index}>{item.content}</p>;
-                      } else if (item.type === "title-h2") {
-                        return (
-                          <h2
-                            key={index}
-                            className="text-xl font-bold text-white"
-                          >
-                            {item.content}
-                          </h2>
-                        );
-                      } else if (item.type === "link") {
-                        return (
-                          <a
-                            key={index}
-                            href={item.content}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-400 underline"
-                          >
-                            {item.content}
-                          </a>
-                        );
-                      } else if (item.type === "code") {
-                        return (
-                          <pre
-                            key={index}
-                            className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
-                          >
-                            <code>{item.content}</code>
-                          </pre>
-                        );
-                      } else if (item.type === "ul") {
-                        return (
-                          <ul key={index} className="list-disc list-inside">
-                            {item.items.map((li, i) => (
-                              <li key={i}>{li}</li>
-                            ))}
-                          </ul>
-                        );
-                      } else if (item.type === "ol") {
-                        return (
-                          <ol key={index} className="list-decimal list-inside">
-                            {item.items.map((li, i) => (
-                              <li key={i}>{li}</li>
-                            ))}
-                          </ol>
-                        );
-                      } else if (item.type === "image") {
-                        return (
-                          <img
-                            key={index}
-                            src={item.src}
-                            alt={item.alt || "image"}
-                            className="rounded-md border border-gray-700 shadow-md max-w-full"
-                          />
-                        );
-                      } else if (item.type === "divider") {
-                        return (
-                          <hr key={index} className="border-gray-600 my-4" />
-                        );
-                      }
-
-                      return null;
-                    }
-                  )}
-                </div>
-
-                <button
-                  onClick={() =>
-                    speakExplanation(
-                      questions[currentQuestionIndex]?.explanation
-                    )
-                  }
-                  className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
+              {showExplanation && (
+                <div
+                  className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showSpanishTranslation ? 'md:col-span-2' : 'md:col-span-4'
+                    }`}
                 >
-                  🔊 Leer explicación en voz alta
-                </button>
-              </div>
-            )}
-          
-            {showCorrect && (
-              <div className="mt-4 text-green-400 font-bold text-xl">
-                ¡Correcto!
-              </div>
-            )}
+                  <h3 className="font-bold text-lg mb-2">Explicación:</h3>
+                  <div className="space-y-2 text-left text-gray-200">
+                    {questions[currentQuestionIndex]?.explanation?.map(
+                      (item, index) => {
+                        if (item.type === "text") {
+                          return <p key={index}>{item.content}</p>;
+                        } else if (item.type === "title-h2") {
+                          return (
+                            <h2
+                              key={index}
+                              className="text-xl font-bold text-white"
+                            >
+                              {item.content}
+                            </h2>
+                          );
+                        } else if (item.type === "link") {
+                          return (
+                            <a
+                              key={index}
+                              href={item.content}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-blue-400 underline"
+                            >
+                              {item.content}
+                            </a>
+                          );
+                        } else if (item.type === "code") {
+                          return (
+                            <pre
+                              key={index}
+                              className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
+                            >
+                              <code>{item.content}</code>
+                            </pre>
+                          );
+                        } else if (item.type === "ul") {
+                          return (
+                            <ul key={index} className="list-disc list-inside">
+                              {item.items.map((li, i) => (
+                                <li key={i}>{li}</li>
+                              ))}
+                            </ul>
+                          );
+                        } else if (item.type === "ol") {
+                          return (
+                            <ol key={index} className="list-decimal list-inside">
+                              {item.items.map((li, i) => (
+                                <li key={i}>{li}</li>
+                              ))}
+                            </ol>
+                          );
+                        } else if (item.type === "image") {
+                          return (
+                            <img
+                              key={index}
+                              src={item.src}
+                              alt={item.alt || "image"}
+                              className="rounded-md border border-gray-700 shadow-md max-w-full"
+                            />
+                          );
+                        } else if (item.type === "divider") {
+                          return (
+                            <hr key={index} className="border-gray-600 my-4" />
+                          );
+                        }
 
-            {!isFullScreen && (
-              <button
-                onClick={enterFullScreen}
-                className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
-              >
-                Entrar en pantalla completa
-              </button>
-            )}
+                        return null;
+                      }
+                    )}
+                  </div>
+
+                  <button
+                    onClick={() =>
+                      speakExplanation(
+                        questions[currentQuestionIndex]?.explanation
+                      )
+                    }
+                    className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
+                  >
+                    🔊 Leer explicación en voz alta
+                  </button>
+                </div>
+              )}
+
+              {showCorrect && (
+                <div className="mt-4 text-green-400 font-bold text-xl">
+                  ¡Correcto!
+                </div>
+              )}
+
+              {!isFullScreen && (
+                <button
+                  onClick={enterFullScreen}
+                  className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+                >
+                  Entrar en pantalla completa
+                </button>
+              )}
             </div>
-            
+
             <div className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showSpanishTranslation ? 'md:col-span-3' : 'md:col-span-0 hidden'}`}>
 
               {/* 📌 Traducción en español a la derecha */}
-          {showSpanishTranslation && (
-            <div
-            className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${
-              showExplanation ? 'md:col-span-3' : 'md:col-span-4'
-            }`}
-          >
-              <h2 className="text-lg font-bold text-white mb-2">
-                Pregunta en Español:
-              </h2>
-              <p className="mb-2 text-gray-300">
-                {questions[currentQuestionIndex]?.word_es ?? "Sin traducción"}
-              </p>
+              {showSpanishTranslation && (
+                <div
+                  className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showExplanation ? 'md:col-span-3' : 'md:col-span-4'
+                    }`}
+                >
+                  <h2 className="text-lg font-bold text-white mb-2">
+                    Pregunta en Español:
+                  </h2>
+                  <p className="mb-2 text-gray-300">
+                    {questions[currentQuestionIndex]?.word_es ?? "Sin traducción"}
+                  </p>
 
-              <h3 className="text-md font-bold text-white mb-2">Opciones:</h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-1">
-                {questions[currentQuestionIndex]?.options_es?.map(
-                  (opt, idx) => (
-                    <li key={idx}>{opt}</li>
-                  )
-                )}
-              </ul>
+                  <h3 className="text-md font-bold text-white mb-2">Opciones:</h3>
+                  <ul className="list-disc list-inside text-gray-300 space-y-1">
+                    {questions[currentQuestionIndex]?.options_es?.map(
+                      (opt, idx) => (
+                        <li key={idx}>{opt}</li>
+                      )
+                    )}
+                  </ul>
 
-              <h3 className="text-md font-bold text-white mt-4 mb-2">
-                Explicación:
-              </h3>
-              <div className="text-gray-300 space-y-2">
-                {Array.isArray(
-                  questions[currentQuestionIndex]?.explanation_es
-                ) &&
-                  questions[currentQuestionIndex].explanation_es.map(
-                    (item, index) => {
-                      if (item.type === "text") {
-                        return <p key={index}>{item.content}</p>;
-                      } else if (item.type === "title-h2") {
-                        return (
-                          <h2
-                            key={index}
-                            className="text-xl font-bold text-white"
-                          >
-                            {item.content}
-                          </h2>
-                        );
-                      } else if (item.type === "link") {
-                        return (
-                          <a
-                            key={index}
-                            href={item.content}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-400 underline"
-                          >
-                            {item.content}
-                          </a>
-                        );
-                      } else if (item.type === "code") {
-                        return (
-                          <pre
-                            key={index}
-                            className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
-                          >
-                            <code>{item.content}</code>
-                          </pre>
-                        );
-                      } else if (item.type === "ul") {
-                        return (
-                          <ul key={index} className="list-disc list-inside">
-                            {item.items.map((li, i) => (
-                              <li key={i}>{li}</li>
-                            ))}
-                          </ul>
-                        );
-                      } else if (item.type === "ol") {
-                        return (
-                          <ol key={index} className="list-decimal list-inside">
-                            {item.items.map((li, i) => (
-                              <li key={i}>{li}</li>
-                            ))}
-                          </ol>
-                        );
-                      } else if (item.type === "image") {
-                        return (
-                          <img
-                            key={index}
-                            src={item.src}
-                            alt={item.alt || "image"}
-                            className="rounded-md border border-gray-700 shadow-md max-w-full"
-                          />
-                        );
-                      } else if (item.type === "divider") {
-                        return (
-                          <hr key={index} className="border-gray-600 my-4" />
-                        );
-                      }
+                  <h3 className="text-md font-bold text-white mt-4 mb-2">
+                    Explicación:
+                  </h3>
+                  <div className="text-gray-300 space-y-2">
+                    {Array.isArray(
+                      questions[currentQuestionIndex]?.explanation_es
+                    ) &&
+                      questions[currentQuestionIndex].explanation_es.map(
+                        (item, index) => {
+                          if (item.type === "text") {
+                            return <p key={index}>{item.content}</p>;
+                          } else if (item.type === "title-h2") {
+                            return (
+                              <h2
+                                key={index}
+                                className="text-xl font-bold text-white"
+                              >
+                                {item.content}
+                              </h2>
+                            );
+                          } else if (item.type === "link") {
+                            return (
+                              <a
+                                key={index}
+                                href={item.content}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-400 underline"
+                              >
+                                {item.content}
+                              </a>
+                            );
+                          } else if (item.type === "code") {
+                            return (
+                              <pre
+                                key={index}
+                                className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
+                              >
+                                <code>{item.content}</code>
+                              </pre>
+                            );
+                          } else if (item.type === "ul") {
+                            return (
+                              <ul key={index} className="list-disc list-inside">
+                                {item.items.map((li, i) => (
+                                  <li key={i}>{li}</li>
+                                ))}
+                              </ul>
+                            );
+                          } else if (item.type === "ol") {
+                            return (
+                              <ol key={index} className="list-decimal list-inside">
+                                {item.items.map((li, i) => (
+                                  <li key={i}>{li}</li>
+                                ))}
+                              </ol>
+                            );
+                          } else if (item.type === "image") {
+                            return (
+                              <img
+                                key={index}
+                                src={item.src}
+                                alt={item.alt || "image"}
+                                className="rounded-md border border-gray-700 shadow-md max-w-full"
+                              />
+                            );
+                          } else if (item.type === "divider") {
+                            return (
+                              <hr key={index} className="border-gray-600 my-4" />
+                            );
+                          }
 
-                      return null;
-                    }
-                  )}
-              </div>
+                          return null;
+                        }
+                      )}
+                  </div>
+                </div>
+              )}
             </div>
-          )}
-          </div>
           </div>
 
-        
+
         </div>
       ) : (
         <div className="bg-[#1e1e1e] p-6 rounded-lg shadow-md w-full max-w-2xl text-center">
@@ -643,7 +647,7 @@ export default function InterviewQuiz() {
             <strong>
               {
                 questions[currentQuestionIndex].options[
-                  questions[currentQuestionIndex].correctAnswer - 1
+                questions[currentQuestionIndex].correctAnswer - 1
                 ]
               }
             </strong>
@@ -652,9 +656,8 @@ export default function InterviewQuiz() {
 
         <h3 className="text-lg font-bold mb-2 text-center">Instrucciones</h3>
         <div
-          className={`mb-2 text-center font-medium ${
-            responseMode ? "text-green-400" : "text-yellow-300"
-          }`}
+          className={`mb-2 text-center font-medium ${responseMode ? "text-green-400" : "text-yellow-300"
+            }`}
         >
           {responseMode
             ? "Presione 0 para desactivar modo de respuesta"
@@ -676,20 +679,19 @@ export default function InterviewQuiz() {
         </ul>
 
         <div className="text-center mt-4">
-        <button
-  onClick={() => setReadQuestionsAloud(!readQuestionsAloud)}
-  className={`mt-4 px-4 py-2 rounded ${
-    readQuestionsAloud ? "bg-green-600 hover:bg-green-700" : "bg-red-600 hover:bg-red-700"
-  }`}
->
-  {readQuestionsAloud ? "🔊 Leer preguntas activado" : "🔇 Leer preguntas desactivado"}
-</button>
-        <button
-              onClick={() => setShowExplanation(!showExplanation)}
-              className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition duration-300"
-            >
-              {showExplanation ? "Ocultar explicación" : "Explicación"}
-            </button>
+          <button
+            onClick={() => setReadQuestionsAloud(!readQuestionsAloud)}
+            className={`mt-4 px-4 py-2 rounded ${readQuestionsAloud ? "bg-green-600 hover:bg-green-700" : "bg-red-600 hover:bg-red-700"
+              }`}
+          >
+            {readQuestionsAloud ? "🔊 Leer preguntas activado" : "🔇 Leer preguntas desactivado"}
+          </button>
+          <button
+            onClick={() => setShowExplanation(!showExplanation)}
+            className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition duration-300"
+          >
+            {showExplanation ? "Ocultar explicación" : "Explicación"}
+          </button>
           <button
             onClick={() => setShowAnswer(!showAnswer)}
             className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded"
@@ -706,6 +708,39 @@ export default function InterviewQuiz() {
           </button>
         </div>
       </div>
+      <div className="mt-6 bg-[#1a1a1a] p-4 rounded w-full max-w-md text-center">
+  <h3 className="text-white font-semibold mb-2">Ir a una pregunta específica</h3>
+  <form
+    onSubmit={(e) => {
+      e.preventDefault();
+      const value = e.target.pregunta.value;
+      const index = parseInt(value);
+      if (!isNaN(index) && index >= 1 && index <= questions.length) {
+        setCurrentQuestionIndex(index - 1);
+        setSelectedAnswer(null);
+        setShowAnswer(false);
+        setShowCorrect(false);
+        playQuestionAudio(questions[index - 1]?.word); // 🔊 leer pregunta al cambiar
+      }
+    }}
+  >
+    <input
+      type="number"
+      name="pregunta"
+      min="1"
+      max={questions.length}
+      className="w-full mb-2 px-3 py-2 rounded text-black"
+      placeholder={`Número entre 1 y ${questions.length}`}
+    />
+    <button
+      type="submit"
+      className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+    >
+      Ir a la pregunta
+    </button>
+  </form>
+</div>
+
     </div>
   );
 }

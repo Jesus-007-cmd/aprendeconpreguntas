@@ -1,0 +1,243 @@
+{
+    "Category": "Ember.js - Arquitectura",
+    "Question Text": {
+      "es-MX": ["¿Qué destaca de la arquitectura de Ember.js en comparación con otros frameworks?"],
+      "en-US": ["What stands out about Ember.js's architecture compared to other frameworks?"]
+    },
+    "Options": {
+      "es-MX": [
+        "Es completamente libre de convenciones.",
+        "Se basa en una arquitectura estricta con convenciones establecidas.",
+        "Permite usar cualquier tipo de estructura sin importar el contexto.",
+        "No tiene una arquitectura definida."
+      ],
+      "en-US": [
+        "It is completely convention-free.",
+        "It is based on a strict architecture with established conventions.",
+        "It allows any kind of structure regardless of context.",
+        "It has no defined architecture."
+      ]
+    },
+    "Correct Answer": {
+      "es-MX": "Se basa en una arquitectura estricta con convenciones establecidas.",
+      "en-US": "It is based on a strict architecture with established conventions."
+    },
+    "Explanation": {
+      "es-MX": [
+        {
+          "type": "text",
+          "content": "Ember.js promueve una forma estructurada de desarrollar aplicaciones, lo cual mejora la escalabilidad y mantenimiento."
+        }
+      ],
+      "en-US": [
+        {
+          "type": "text",
+          "content": "Ember.js promotes a structured way of building applications, which improves scalability and maintainability."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "Mithril.js - Integración",
+    "Question Text": {
+      "es-MX": ["¿Por qué se considera Mithril.js fácil de integrar con otros frameworks?"],
+      "en-US": ["Why is Mithril.js considered easy to integrate with other frameworks?"]
+    },
+    "Options": {
+      "es-MX": [
+        "Porque se basa en plantillas HTML puras.",
+        "Porque no requiere ninguna configuración de compilación.",
+        "Porque tiene un tamaño pequeño y no impone dependencias fuertes.",
+        "Porque reemplaza completamente al framework existente."
+      ],
+      "en-US": [
+        "Because it uses pure HTML templates.",
+        "Because it requires no build configuration.",
+        "Because it has a small size and doesn’t enforce strong dependencies.",
+        "Because it completely replaces the existing framework."
+      ]
+    },
+    "Correct Answer": {
+      "es-MX": "Porque tiene un tamaño pequeño y no impone dependencias fuertes.",
+      "en-US": "Because it has a small size and doesn’t enforce strong dependencies."
+    },
+    "Explanation": {
+      "es-MX": [
+        {
+          "type": "ul",
+          "items": [
+            "Mithril.js es modular y ligero.",
+            "Puede coexistir con otras bibliotecas sin conflictos.",
+            "Esto lo hace ideal para proyectos híbridos o migraciones progresivas."
+          ]
+        }
+      ],
+      "en-US": [
+        {
+          "type": "ul",
+          "items": [
+            "Mithril.js is modular and lightweight.",
+            "It can coexist with other libraries without conflicts.",
+            "This makes it ideal for hybrid projects or gradual migrations."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Category": "Bulma - Flexibilidad",
+    "Question Text": {
+      "es-MX": ["¿Cómo contribuye Bulma al diseño responsivo en el desarrollo web?"],
+      "en-US": ["How does Bulma contribute to responsive design in web development?"]
+    },
+    "Options": {
+      "es-MX": [
+        "Proporciona un sistema de grillas basado en Flexbox que se adapta a diferentes tamaños de pantalla.",
+        "Requiere escribir estilos personalizados para cada resolución.",
+        "Usa media queries externas por defecto.",
+        "Limita el diseño responsivo a componentes móviles."
+      ],
+      "en-US": [
+        "It provides a grid system based on Flexbox that adapts to different screen sizes.",
+        "It requires writing custom styles for each resolution.",
+        "It uses external media queries by default.",
+        "It limits responsive design to mobile components only."
+      ]
+    },
+    "Correct Answer": {
+      "es-MX": "Proporciona un sistema de grillas basado en Flexbox que se adapta a diferentes tamaños de pantalla.",
+      "en-US": "It provides a grid system based on Flexbox that adapts to different screen sizes."
+    },
+    "Explanation": {
+      "es-MX": [
+        {
+          "type": "text",
+          "content": "Bulma facilita el diseño responsivo al basarse en Flexbox y ofrecer clases utilitarias listas para usarse en diferentes dispositivos."
+        }
+      ],
+      "en-US": [
+        {
+          "type": "text",
+          "content": "Bulma makes responsive design easier by using Flexbox and providing ready-to-use utility classes for various devices."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "Ember.js - Comunidad",
+    "Question Text": {
+      "es-MX": ["¿Qué característica de la comunidad de Ember.js beneficia a los desarrolladores?"],
+      "en-US": ["What feature of the Ember.js community benefits developers?"]
+    },
+    "Options": {
+      "es-MX": [
+        "Tiene una documentación mínima para fomentar el aprendizaje autónomo.",
+        "La comunidad no da soporte a versiones anteriores.",
+        "Existe una convención fuerte con buena documentación y herramientas de desarrollo integradas.",
+        "Se enfoca solo en usuarios expertos y no en principiantes."
+      ],
+      "en-US": [
+        "It has minimal documentation to encourage self-learning.",
+        "The community does not support older versions.",
+        "There is strong convention with good documentation and integrated dev tools.",
+        "It focuses only on expert users and not beginners."
+      ]
+    },
+    "Correct Answer": {
+      "es-MX": "Existe una convención fuerte con buena documentación y herramientas de desarrollo integradas.",
+      "en-US": "There is strong convention with good documentation and integrated dev tools."
+    },
+    "Explanation": {
+      "es-MX": [
+        {
+          "type": "text",
+          "content": "La comunidad de Ember es conocida por mantener estándares sólidos, buena documentación y herramientas como Ember CLI para mejorar la experiencia de desarrollo."
+        }
+      ],
+      "en-US": [
+        {
+          "type": "text",
+          "content": "The Ember community is known for maintaining strong standards, good documentation, and tools like Ember CLI that enhance the developer experience."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "Mithril.js - Aplicaciones SPA",
+    "Question Text": {
+      "es-MX": ["¿Por qué Mithril.js es adecuado para aplicaciones de una sola página (SPA)?"],
+      "en-US": ["Why is Mithril.js suitable for single-page applications (SPA)?"]
+    },
+    "Options": {
+      "es-MX": [
+        "Porque su tamaño grande permite múltiples funcionalidades integradas.",
+        "Porque no usa enrutador y depende de JavaScript externo.",
+        "Porque incluye un enrutador ligero y es eficiente en renderizado.",
+        "Porque obliga a usar múltiples archivos por componente."
+      ],
+      "en-US": [
+        "Because its large size includes many built-in features.",
+        "Because it doesn’t use a router and depends on external JavaScript.",
+        "Because it includes a lightweight router and is efficient at rendering.",
+        "Because it requires multiple files per component."
+      ]
+    },
+    "Correct Answer": {
+      "es-MX": "Porque incluye un enrutador ligero y es eficiente en renderizado.",
+      "en-US": "Because it includes a lightweight router and is efficient at rendering."
+    },
+    "Explanation": {
+      "es-MX": [
+        {
+          "type": "text",
+          "content": "Mithril.js es ideal para SPAs porque tiene un enrutador incorporado y es muy rápido gracias a su renderizado virtual eficiente."
+        }
+      ],
+      "en-US": [
+        {
+          "type": "text",
+          "content": "Mithril.js is great for SPAs due to its built-in router and fast virtual rendering."
+        }
+      ]
+    }
+  },
+  {
+    "Category": "Bulma - Dependencias",
+    "Question Text": {
+      "es-MX": ["¿Qué característica distingue a Bulma de otros frameworks como Bootstrap?"],
+      "en-US": ["What distinguishes Bulma from other frameworks like Bootstrap?"]
+    },
+    "Options": {
+      "es-MX": [
+        "Bulma requiere jQuery para su funcionamiento.",
+        "Bulma no utiliza JavaScript, solo CSS puro.",
+        "Bulma depende exclusivamente de SASS con funciones JS.",
+        "Bulma incluye una base de datos integrada."
+      ],
+      "en-US": [
+        "Bulma requires jQuery to function.",
+        "Bulma uses no JavaScript, only pure CSS.",
+        "Bulma relies solely on SASS with JavaScript functions.",
+        "Bulma includes an integrated database."
+      ]
+    },
+    "Correct Answer": {
+      "es-MX": "Bulma no utiliza JavaScript, solo CSS puro.",
+      "en-US": "Bulma uses no JavaScript, only pure CSS."
+    },
+    "Explanation": {
+      "es-MX": [
+        {
+          "type": "text",
+          "content": "Bulma se enfoca exclusivamente en estilos visuales, por lo que no depende de ningún JavaScript para su funcionamiento, a diferencia de Bootstrap."
+        }
+      ],
+      "en-US": [
+        {
+          "type": "text",
+          "content": "Bulma focuses solely on visual styling and doesn't rely on any JavaScript to function, unlike Bootstrap."
+        }
+      ]
+    }
+  }
+  

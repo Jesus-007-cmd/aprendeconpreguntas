@@ -5,8 +5,12 @@
       "Category": "Phrasal Verbs",
       "Level": "A2",
       "Question Text": {
-        "en-US": ["What does 'Did you call them back?' mean?"],
-        "es-MX": ["¿Qué significa 'Volviste a llamarlos?'"]
+        "en-US": [
+          "What does 'Did you call them back?' mean?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'Volviste a llamarlos?'"
+        ]
       },
       "Options": {
         "en-US": [
@@ -40,15 +44,23 @@
           }
         ]
       },
-      "Tags": ["call back", "phone", "phrasal verbs", "A2"]
+      "Tags": [
+        "call back",
+        "phone",
+        "phrasal verbs",
+        "A2"
+      ]
     },
-
     {
       "Category": "Phrasal Verbs",
       "Level": "A2",
       "Question Text": {
-        "en-US": ["What does 'I'm heading out now' mean?"],
-        "es-MX": ["¿Como digo en Ingles 'Ya me voy'"]
+        "en-US": [
+          "What does 'I'm heading out now' mean?"
+        ],
+        "es-MX": [
+          "¿Como digo en Ingles 'Ya me voy'"
+        ]
       },
       "Options": {
         "en-US": [
@@ -82,14 +94,23 @@
           }
         ]
       },
-      "Tags": ["head out", "phrasal verb", "leaving", "A2"]
+      "Tags": [
+        "head out",
+        "phrasal verb",
+        "leaving",
+        "A2"
+      ]
     },
     {
       "Category": "Phrasal Verbs",
       "Level": "A2",
       "Question Text": {
-        "en-US": ["What does 'Did you turn off the lights before leaving?' mean?"],
-        "es-MX": ["¿Cómo digo en inglés '¿Apagaste las luces antes de salir?'"]
+        "en-US": [
+          "What does 'Did you turn off the lights before leaving?' mean?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en inglés '¿Apagaste las luces antes de salir?'"
+        ]
       },
       "Options": {
         "en-US": [
@@ -123,14 +144,23 @@
           }
         ]
       },
-      "Tags": ["turn off", "phrasal verb", "lights", "A2"]
+      "Tags": [
+        "turn off",
+        "phrasal verb",
+        "lights",
+        "A2"
+      ]
     },
     {
       "Category": "Phrasal Verbs",
       "Level": "A2",
       "Question Text": {
-        "en-US": ["What does 'Let's grab something to eat' mean?"],
-        "es-MX": ["¿Cómo digo en inglés 'Vamos a comer algo rápido'?"]
+        "en-US": [
+          "What does 'Let's grab something to eat' mean?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en inglés 'Vamos a comer algo rápido'?"
+        ]
       },
       "Options": {
         "en-US": [
@@ -164,14 +194,23 @@
           }
         ]
       },
-      "Tags": ["grab", "phrasal verb", "food", "A2"]
+      "Tags": [
+        "grab",
+        "phrasal verb",
+        "food",
+        "A2"
+      ]
     },
     {
       "Category": "Useful Expressions",
       "Level": "A2",
       "Question Text": {
-        "en-US": ["What does 'I'll handle it later' mean?"],
-        "es-MX": ["¿Cómo digo en inglés 'Me encargo de eso más tarde'?"]
+        "en-US": [
+          "What does 'I'll handle it later' mean?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en inglés 'Me encargo de eso más tarde'?"
+        ]
       },
       "Options": {
         "en-US": [
@@ -205,14 +244,19 @@
           }
         ]
       },
-      "Tags": ["handle", "expressions", "responsibility", "A2"]
+      "Tags": [
+        "handle",
+        "expressions",
+        "responsibility",
+        "A2"
+      ]
     },
     {
       "Category": "Useful Expressions",
       "Level": "A2",
       "Question Text": {
         "en-US": [
-          "How do you say 'Regreso en unos minutos' in English?"
+          "How do you say 'I'll be back in a few minutes' in English?"
         ],
         "es-MX": [
           "¿Cómo digo en inglés 'Regreso en unos minutos'?"
@@ -250,14 +294,23 @@
           }
         ]
       },
-      "Tags": ["be back", "expressions", "time", "A2"]
+      "Tags": [
+        "be back",
+        "expressions",
+        "time",
+        "A2"
+      ]
     },
     {
       "Category": "Phrasal Verbs",
       "Level": "A2",
       "Question Text": {
-        "en-US": ["How do you say 'Recógelo mañana' in English?"],
-        "es-MX": ["¿Cómo digo en inglés 'Recógelo mañana'?"]
+        "en-US": [
+          "How do you say 'Pick it up tomorrow' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en inglés 'Recógelo mañana'?"
+        ]
       },
       "Options": {
         "en-US": [
@@ -291,55 +344,23 @@
           }
         ]
       },
-      "Tags": ["pick up", "phrasal verb", "collection", "A2"]
-    },
-    {
-      "Category": "Phrasal Verbs",
-      "Level": "A2",
-      "Question Text": {
-        "en-US": ["How do you say 'Recógelo mañana' in English?"],
-        "es-MX": ["¿Cómo digo en español 'Pick it up tomorrow'?"]
-      },
-      "Options": {
-        "en-US": [
-          "Pick it up tomorrow",
-          "Drop it tomorrow",
-          "Pick it off tomorrow",
-          "Throw it up tomorrow"
-        ],
-        "es-MX": [
-          "Recógelo mañana",
-          "Déjalo caer mañana",
-          "Levántalo con cuidado mañana",
-          "Lánzalo mañana"
-        ]
-      },
-      "Correct Answer": {
-        "en-US": "Pick it up tomorrow",
-        "es-MX": "Recógelo mañana"
-      },
-      "Explanation": {
-        "en-US": [
-          {
-            "type": "text",
-            "content": "The phrasal verb 'pick up' means to collect or retrieve something. 'Pick it up tomorrow' means to go and get it the next day."
-          }
-        ],
-        "es-MX": [
-          {
-            "type": "text",
-            "content": "El phrasal verb 'pick up' significa recoger o ir por algo. 'Recógelo mañana' indica que lo recogerás al día siguiente."
-          }
-        ]
-      },
-      "Tags": ["pick up", "phrasal verb", "collection", "A2"]
+      "Tags": [
+        "pick up",
+        "phrasal verb",
+        "collection",
+        "A2"
+      ]
     },
     {
       "Category": "Useful Expressions",
       "Level": "A2",
       "Question Text": {
-        "en-US": ["How do you say 'No te preocupes por eso' in English?"],
-        "es-MX": ["¿Cómo digo en español 'Don't worry about it'?"]
+        "en-US": [
+          "How do you say 'Don't worry about it' in Spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en Ingles 'No te preocupes por eso'?"
+        ]
       },
       "Options": {
         "en-US": [
@@ -373,1056 +394,4266 @@
           }
         ]
       },
-      "Tags": ["don't worry", "expressions", "A2"]
-    },{
-  "Category": "Phrasal Verbs",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say '¿Ya sacaste la carne para descongelar?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Did you already take the meat out to defrost?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Did you already take the meat out to defrost?",
-      "Did you already eat the meat?",
-      "Did you already put the meat in the freezer?",
-      "Did you already cook the meat?"
-    ],
-    "es-MX": [
-      "¿Ya sacaste la carne para descongelar?",
-      "¿Ya te comiste la carne?",
-      "¿Ya metiste la carne al congelador?",
-      "¿Ya cocinaste la carne?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Did you already take the meat out to defrost?",
-    "es-MX": "¿Ya sacaste la carne para descongelar?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Take out' means to remove something from a place. In this case, it means to remove the meat from the freezer so it can thaw."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Take out' significa sacar algo de un lugar. En este caso, se refiere a sacar la carne del congelador para que se descongele."
-      }
-    ]
-  },
-  "Tags": ["take out", "defrost", "phrasal verb", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say '¿Ya sacaste la carne para descongelar?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Did you already take the meat out to defrost?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Did you already take the meat out to defrost?",
-      "Did you already eat the meat?",
-      "Did you already put the meat in the freezer?",
-      "Did you already cook the meat?"
-    ],
-    "es-MX": [
-      "¿Ya sacaste la carne para descongelar?",
-      "¿Ya te comiste la carne?",
-      "¿Ya metiste la carne al congelador?",
-      "¿Ya cocinaste la carne?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Did you already take the meat out to defrost?",
-    "es-MX": "¿Ya sacaste la carne para descongelar?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Take out' means to remove something from a place. In this case, it means to remove the meat from the freezer so it can thaw."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Take out' significa sacar algo de un lugar. En este caso, se refiere a sacar la carne del congelador para que se descongele."
-      }
-    ]
-  },
-  "Tags": ["take out", "defrost", "phrasal verb", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say 'Paso después del trabajo' in English?"],
-    "es-MX": ["¿Cómo digo en español 'I'll swing by after work'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'll swing by after work",
-      "I'll dance after work",
-      "I'll run away after work",
-      "I'll sleep after work"
-    ],
-    "es-MX": [
-      "Paso después del trabajo",
-      "Bailo después del trabajo",
-      "Huyo después del trabajo",
-      "Duermo después del trabajo"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'll swing by after work",
-    "es-MX": "Paso después del trabajo"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "The phrasal verb 'swing by' means to visit a place quickly or briefly. 'I'll swing by after work' means you'll stop by someone's place after finishing your job."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "El phrasal verb 'swing by' significa pasar brevemente por un lugar. 'Paso después del trabajo' indica que harás una visita rápida al salir del trabajo."
-      }
-    ]
-  },
-  "Tags": ["swing by", "visit", "phrasal verb", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say '¿Puedes verificar la hora por mí?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Can you double check the time for me?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Can you double check the time for me?",
-      "Can you change the time for me?",
-      "Can you ask the time for me?",
-      "Can you stop the time for me?"
-    ],
-    "es-MX": [
-      "¿Puedes verificar la hora por mí?",
-      "¿Puedes cambiar la hora por mí?",
-      "¿Puedes preguntar la hora por mí?",
-      "¿Puedes detener el tiempo por mí?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Can you double check the time for me?",
-    "es-MX": "¿Puedes verificar la hora por mí?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Double check' is a phrasal verb meaning to verify or confirm something again to be sure it's correct."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Double check' es un phrasal verb que significa verificar o confirmar algo de nuevo para asegurarse de que sea correcto."
-      }
-    ]
-  },
-  "Tags": ["double check", "verify", "phrasal verb", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say '¿Vas a salir pronto?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Are you heading out soon?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Are you heading out soon?",
-      "Are you giving up soon?",
-      "Are you sitting down soon?",
-      "Are you backing up soon?"
-    ],
-    "es-MX": [
-      "¿Vas a salir pronto?",
-      "¿Te vas a rendir pronto?",
-      "¿Te vas a sentar pronto?",
-      "¿Vas a retroceder pronto?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Are you heading out soon?",
-    "es-MX": "¿Vas a salir pronto?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Heading out' means to leave or go out, usually to go somewhere. 'Are you heading out soon?' is asking if the person is about to leave."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Heading out' significa salir o irse, usualmente para dirigirse a algún lugar. '¿Vas a salir pronto?' pregunta si la persona está por irse."
-      }
-    ]
-  },
-  "Tags": ["heading out", "phrasal verb", "leaving", "A2"]
-},
-{
-  "Category": "Useful Expressions",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say '¿Nos vamos a ver en el mismo lugar?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Are we meeting at the same spot?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Are we meeting at the same spot?",
-      "Are we fighting in the same place?",
-      "Are we working in the same position?",
-      "Are we eating at the same table?"
-    ],
-    "es-MX": [
-      "¿Nos vamos a ver en el mismo lugar?",
-      "¿Vamos a pelear en el mismo lugar?",
-      "¿Vamos a trabajar en el mismo puesto?",
-      "¿Vamos a comer en la misma mesa?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Are we meeting at the same spot?",
-    "es-MX": "¿Nos vamos a ver en el mismo lugar?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "The phrase 'meet at the same spot' means to reunite in the same location as before."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "La frase 'vernos en el mismo lugar' indica reunirse en el mismo sitio que la vez anterior."
-      }
-    ]
-  },
-  "Tags": ["meeting", "spot", "location", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say '¿Encontraste lo que buscabas?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Did you find what you were looking for?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Did you find what you were looking for?",
-      "Did you lose what you were buying?",
-      "Did you forget what you wanted?",
-      "Did you change what you saw?"
-    ],
-    "es-MX": [
-      "¿Encontraste lo que buscabas?",
-      "¿Perdiste lo que estabas comprando?",
-      "¿Olvidaste lo que querías?",
-      "¿Encontraste lo que tú estabas mirando para?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Did you find what you were looking for?",
-    "es-MX": "¿Encontraste lo que buscabas?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Find what you were looking for' refers to successfully locating or obtaining what you wanted or needed."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Encontrar lo que buscabas' se refiere a haber localizado o conseguido lo que querías o necesitabas."
-      }
-    ]
-  },
-  "Tags": ["find", "looking for", "phrasal verb", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say '¿Puedes revisar la cerradura de la puerta?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Can you check the door lock?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Can you check the door lock?",
-      "Can you open the car trunk?",
-      "Can you close the window fast?",
-      "Can you fix the lamp?"
-    ],
-    "es-MX": [
-      "¿Puedes revisar la cerradura de la puerta?",
-      "¿Puedes abrir la cajuela del coche?",
-      "¿Puedes cerrar la ventana rápido?",
-      "¿Puedes checar el bloqueo de la puerta?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Can you check the door lock?",
-    "es-MX": "¿Puedes revisar la cerradura de la puerta?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Check the door lock' means to inspect or make sure that the lock on the door is secure."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Revisar la cerradura de la puerta' significa inspeccionar o asegurarse de que la cerradura esté bien cerrada o funcione correctamente."
-      }
-    ]
-  },
-  "Tags": ["check", "door lock", "phrasal verb", "A2"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say '¿Quieres que agarre tu abrigo?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Do you want me to grab your coat?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Do you want me to grab your coat?",
-      "Do you want me to iron your shoes?",
-      "Do you want me to throw your jacket?",
-      "Do you want me to clean your bag?"
-    ],
-    "es-MX": [
-      "¿Quieres que agarre tu abrigo?",
-      "¿Quieres que planche tus zapatos?",
-      "¿Quieres que lance tu chaqueta?",
-      "¿Quieres que limpie tu bolsa?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Do you want me to grab your coat?",
-    "es-MX": "¿Quieres que agarre tu abrigo?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Grab your coat' in this context means to pick up or get someone's coat for them, often as a favor or gesture."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Agarra tu abrigo' en este contexto significa tomar o alcanzar el abrigo de alguien, usualmente como un favor o cortesía."
-      }
-    ]
-  },
-  "Tags": ["grab", "coat", "phrasal verb", "A2"]
-},
-{
-  "Category": "Informal Expressions",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say 'Solo estoy relajado ahora mismo' in English?"],
-    "es-MX": ["¿Cómo digo en español 'I'm just chilling right now'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'm just chilling right now",
-      "I'm only freezing at the moment",
-      "I'm just boiling right now",
-      "I'm only shouting right now"
-    ],
-    "es-MX": [
-      "Solo estoy relajado ahora mismo",
-      "Solo estoy congelándome ahora",
-      "Solo estoy hirviendo ahora",
-      "Solo estoy chillando ahora"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'm just chilling right now",
-    "es-MX": "Solo estoy relajado ahora mismo"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Chilling' is an informal way to say you're relaxing or not doing much at the moment."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Chilling' es una forma informal de decir que estás relajado o sin hacer mucho en ese momento."
-      }
-    ]
-  },
-  "Tags": ["chilling", "informal", "relax", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say 'Déjame agarrar mi chamarra, hace frío afuera' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Let me grab my jacket, it's cold outside'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Let me grab my jacket, it's cold outside",
-      "Let me cook my jacket, it's hot inside",
-      "Let me open my jacket, it's sunny inside",
-      "Let me drop my jacket, it's loud outside"
-    ],
-    "es-MX": [
-      "Déjame agarrar mi chamarra, hace frío afuera",
-      "Déjame cocinar mi chamarra, hace calor adentro",
-      "Déjame abrir mi chamarra, hace sol adentro",
-      "Déjame soltar mi chamarra, está ruidoso afuera"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Let me grab my jacket, it's cold outside",
-    "es-MX": "Déjame agarrar mi chaqueta, hace frío afuera"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Grab my jacket' means to quickly take your jacket before going outside. It's a common expression when it's cold."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Agarrar mi chaqueta' se refiere a tomarla rápido antes de salir. Es una expresión común cuando hace frío."
-      }
-    ]
-  },
-  "Tags": ["grab", "jacket", "cold", "A2"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say '¿Limpiaste la cocina?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Did you clean up the kitchen?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Did you clean up the kitchen?",
-      "Did you cook up the kitchen?",
-      "Did you build up the kitchen?",
-      "Did you mess up the kitchen?"
-    ],
-    "es-MX": [
-      "¿Limpiaste la cocina?",
-      "¿Cocinaste la cocina?",
-      "¿Construiste la cocina?",
-      "¿Desordenaste la cocina?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Did you clean up the kitchen?",
-    "es-MX": "¿Limpiaste la cocina?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Clean up' is a phrasal verb that means to tidy or clean a place, especially after it has been used or is messy."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Clean up' es un phrasal verb que significa limpiar o recoger un lugar, especialmente cuando está sucio o desordenado."
-      }
-    ]
-  },
-  "Tags": ["clean up", "kitchen", "phrasal verb", "A2"]
-},
-{
-  "Category": "Useful Expressions",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say 'Te escribo cuando llegue' in English?"],
-    "es-MX": ["¿Cómo digo en español 'I'll text you when I get there'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'll text you when I get there",
-      "I'll scream to you when I go home",
-      "I'll call you before I disappear",
-      "I'll drive you when I see light"
-    ],
-    "es-MX": [
-      "Te escribo cuando llegue",
-      "Te texteo cuando me dé luz",
-      "Te llamo antes de desaparecer",
-      "Te grito cuando vaya a casa"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'll text you when I get there",
-    "es-MX": "Te escribo cuando llegue"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'I'll text you when I get there' means you'll send a message to someone once you arrive at your destination."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Te escribo cuando llegue' significa que enviarás un mensaje a alguien una vez que hayas llegado al lugar."
-      }
-    ]
-  },
-  "Tags": ["text", "communication", "arrival", "A2"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say 'Lo resolveré después' in English?"],
-    "es-MX": ["¿Cómo digo en español 'I'll figure it out later'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'll figure it out later",
-      "I'll take it outside later",
-      "I'll forget it loudly later",
-      "I'll walk it out tomorrow"
-    ],
-    "es-MX": [
-      "Lo resolveré después",
-      "Lo sacaré afuera después",
-      "Lo olvidaré en voz alta después",
-      "Lo caminaré mañana"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'll figure it out later",
-    "es-MX": "Lo resolveré después"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Figure out' is a phrasal verb that means to understand or solve something. In this case, it means the person will solve or understand it later."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Figure out' es un phrasal verb que significa entender o resolver algo. En este caso, indica que la persona lo resolverá más tarde."
-      }
-    ]
-  },
-  "Tags": ["figure out", "phrasal verb", "solve", "B1"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say '¿Puedes agarrar el correo cuando entres?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Can you grab the mail on your way in?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Can you grab the mail on your way in?",
-      "Can you throw the mail while walking out?",
-      "Can you delete the mail with your hands?",
-      "Can you jump the mail when you enter?"
-    ],
-    "es-MX": [
-      "¿Puedes agarrar el correo cuando entres?",
-      "¿Puedes lanzar el correo mientras sales?",
-      "¿Puedes borrar el correo con las manos?",
-      "¿Puedes saltar el correo cuando entres?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Can you grab the mail on your way in?",
-    "es-MX": "¿Puedes agarrar el correo cuando entres?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Grab the mail on your way in' means to collect the mail as you're entering a place, typically a house or apartment."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Agarrar el correo cuando entres' significa recoger el correo al entrar a algún lugar, normalmente una casa o departamento."
-      }
-    ]
-  },
-  "Tags": ["grab", "mail", "phrasal verb", "A2"]
-},
-{
-  "Category": "Informal Expressions",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How do you say 'Me siento un poco raro hoy' in English?"],
-    "es-MX": ["¿Cómo digo en español 'I'm feeling a little off today'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'm feeling a little off today",
-      "I'm turning myself off today",
-      "I'm switching my mood today",
-      "I'm flipping my schedule today"
-    ],
-    "es-MX": [
-      "Me siento un poco raro hoy",
-      "Me estoy apagando hoy",
-      "Estoy cambiando mi humor hoy",
-      "Estoy volteando mi horario hoy"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'm feeling a little off today",
-    "es-MX": "Me siento un poco raro hoy"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Feeling a little off' is an informal way to say you're not feeling like your usual self, either physically or emotionally."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Sentirse un poco raro' es una forma informal de decir que no te sientes como normalmente, ya sea física o emocionalmente."
-      }
-    ]
-  },
-  "Tags": ["feeling off", "expression", "informal", "B1"]
-},
-{
-  "Category": "Useful Expressions",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say 'Estaré allí en un ratito' in English?"],
-    "es-MX": ["¿Cómo digo en español 'I'll be there in a little bit'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'll be there in a little bit",
-      "I'll fly there in a huge boat",
-      "I'll disappear in the morning light",
-      "I'll scream there in a tiny second"
-    ],
-    "es-MX": [
-      "Estaré allí en un ratito",
-      "Volaré allí en un barco enorme",
-      "Desapareceré con la luz de la mañana",
-      "Gritaré allí en un segundito"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'll be there in a little bit",
-    "es-MX": "Estaré allí en un ratito"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'I'll be there in a little bit' is a casual way to say you'll arrive soon, but not immediately."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Estaré allí en un ratito' es una forma informal de decir que llegarás pronto, pero no de inmediato."
-      }
-    ]
-  },
-  "Tags": ["time", "arrival", "casual", "A2"]
-},
-{
-  "Category": "Useful Expressions",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say '¿Puedes sostener esto un segundo?' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Can you hold this for a second?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Can you hold this for a second?",
-      "Can you throw this in a minute?",
-      "Can you sing this for a second?",
-      "Can you break this for a while?"
-    ],
-    "es-MX": [
-      "¿Puedes sostener esto un segundo?",
-      "¿Puedes lanzar esto en un minuto?",
-      "¿Puedes cantar esto un segundo?",
-      "¿Puedes romper esto un rato?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Can you hold this for a second?",
-    "es-MX": "¿Puedes sostener esto un segundo?"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Hold this for a second' means to briefly take or keep something in your hands while someone else does something."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Sostener esto un segundo' significa tomar o mantener algo brevemente en las manos mientras otra persona hace algo."
-      }
-    ]
-  },
-  "Tags": ["hold", "expression", "A2"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say 'Espera un segundo' in English?"],
-    "es-MX": ["¿Cómo digo en español 'Hang on a second'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Hang on a second",
-      "Jump on a second",
-      "Fly around a second",
-      "Throw up a minute"
-    ],
-    "es-MX": [
-      "Espera un segundo",
-      "Súbete a un segundo",
-      "Vuela alrededor un segundo",
-      "Vómitalo un minuto"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Hang on a second",
-    "es-MX": "Espera un segundo"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Hang on a second' is an informal way to tell someone to wait briefly."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Hang on a second' es una forma informal de pedirle a alguien que espere un momento."
-      }
-    ]
-  },
-  "Tags": ["hang on", "wait", "phrasal verb", "A2"]
-},
-{
-  "Category": "Phrasal Verbs",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say 'Lo agarro para ti de regreso' in English?"],
-    "es-MX": ["¿Cómo digo en español 'I'll grab it for you on the way back'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'll grab it for you on the way back",
-      "I'll lose it for you on the return",
-      "I'll push it for you when I go up",
-      "I'll forget it for you on the other road"
-    ],
-    "es-MX": [
-      "Lo agarro para ti de regreso",
-      "Lo pierdo para ti en el retorno",
-      "Lo empujo para ti cuando suba",
-      "Lo olvido para ti en el otro camino"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'll grab it for you on the way back",
-    "es-MX": "Lo agarro para ti de regreso"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'I'll grab it for you on the way back' means you will pick something up for someone when you're returning from somewhere."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Lo agarro para ti de regreso' significa que recogerás algo para alguien cuando vayas de vuelta de algún lugar."
-      }
-    ]
-  },
-  "Tags": ["grab", "way back", "phrasal verb", "A2"]
-},
-{
-  "Category": "Useful Expressions",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How would you say 'Avísame cuando estés listo para irte' in English?"],
-    "es-MX": ["¿Cuál es la forma correcta de decir 'Let me know when you're ready to leave' en español?"]
-  },
-  "Options": {
-    "en-US": [
-      "Let me know when you're ready to leave",
-      "Let me go when you're ready to sleep",
-      "Tell me when you forget to leave",
-      "Let me know when you’re done cooking"
-    ],
-    "es-MX": [
-      "Avísame cuando estés listo para irte",
-      "Déjame ir cuando tengas sueño",
-      "Dime cuando olvides irte",
-      "Avísame cuando termines de cocinar"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Let me know when you're ready to leave",
-    "es-MX": "Avísame cuando estés listo para irte"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "This phrase is used to ask someone to inform you when they are ready to go or leave a place."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "Esta frase se usa para pedirle a alguien que te avise cuando esté listo para irse o salir de algún lugar."
-      }
-    ]
-  },
-  "Tags": ["let me know", "ready", "leave", "A2"]
-},
-{
-  "Category": "Useful Expressions",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["Which sentence means 'Avísame cuando sea que estés listo para salir'?"],
-    "es-MX": ["¿Cómo traduzco correctamente 'Let me know whenever you're ready to go'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Let me know whenever you're ready to go",
-      "Tell me always before sleeping",
-      "Let me sing whenever you're sad",
-      "Call me whenever you're hungry"
-    ],
-    "es-MX": [
-      "Avísame cuando sea que estés listo para salir",
-      "Cántame cuando estés triste",
-      "Llámame cuando tengas hambre",
-      "Dime siempre antes de dormir"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Let me know whenever you're ready to go",
-    "es-MX": "Avísame cuando sea que estés listo para salir"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Whenever' implies flexibility — any time the person is ready, they should inform you. It’s informal and polite."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Whenever' implica flexibilidad — cualquier momento en que la persona esté lista, debe avisarte. Es informal y educado."
-      }
-    ]
-  },
-  "Tags": ["whenever", "let me know", "ready", "B1"]
-},
-{
-  "Category": "Idiomatic Expressions",
-  "Level": "B1",
-  "Question Text": {
-    "en-US": ["How would you express 'Vamos a dejarlo por hoy' in English?"],
-    "es-MX": ["¿Qué significa en español la expresión 'Let's call it a day'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Let's call it a day",
-      "Let's name the calendar",
-      "Let's shout the hour",
-      "Let's cancel the week"
-    ],
-    "es-MX": [
-      "Vamos a dejarlo por hoy",
-      "Vamos a llamar al calendario",
-      "Vamos a gritar la hora",
-      "Vamos a cancelar la semana"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Let's call it a day",
-    "es-MX": "Vamos a dejarlo por hoy"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'Let's call it a day' is an idiomatic expression used when deciding to stop working or finish an activity for the day."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Let's call it a day' es una expresión idiomática que se usa para decir que se ha terminado el trabajo o una actividad por hoy."
-      }
-    ]
-  },
-  "Tags": ["idioms", "call it a day", "finish", "B1"]
-},
-{
-  "Category": "Everyday Questions",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["What's the correct way to ask if the dog has eaten?"],
-    "es-MX": ["¿Cómo se dice en español 'Did you feed the dog yet?'?"]
-  },
-  "Options": {
-    "en-US": [
-      "Did you feed the dog yet?",
-      "Did you paint the dog today?",
-      "Did you walk the couch earlier?",
-      "Did you cook the dog dinner?"
-    ],
-    "es-MX": [
-      "¿Ya le diste de comer al perro? ",
-      "¿Ya pintaste al perro?",
-      "¿Ya caminaste el sillón?",
-      "¿Ya cocinaste la cena del perro?"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "Did you feed the dog yet?",
-    "es-MX": "¿¿Ya le diste de comer al perro? "
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "This question is commonly used to ask if someone has already given food to the dog."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "Esta pregunta se usa comúnmente para saber si alguien ya le dio de comer al perro."
-      }
-    ]
-  },
-  "Tags": ["feed", "dog", "daily routine", "A2"]
-},
-{
-  "Category": "Useful Expressions",
-  "Level": "A2",
-  "Question Text": {
-    "en-US": ["How do you say 'Te veo afuera, en la entrada' in English?"],
-    "es-MX": ["¿Qué significa en español 'I'll meet you out front'?"]
-  },
-  "Options": {
-    "en-US": [
-      "I'll meet you out front",
-      "I'll draw you on the ceiling",
-      "I'll bring you into the backyard",
-      "I'll chase you into the hallway"
-    ],
-    "es-MX": [
-      "Te veo afuera, en la entrada",
-      "Te dibujo en el techo",
-      "Te llevo al patio trasero",
-      "Te persigo en el pasillo"
-    ]
-  },
-  "Correct Answer": {
-    "en-US": "I'll meet you out front",
-    "es-MX": "Te veo afuera, en la entrada"
-  },
-  "Explanation": {
-    "en-US": [
-      {
-        "type": "text",
-        "content": "'I'll meet you out front' means the person will wait for or see you at the main entrance or outside the front of a place."
-      }
-    ],
-    "es-MX": [
-      {
-        "type": "text",
-        "content": "'Te veo afuera, en la entrada' indica que la persona te encontrará frente a un lugar, generalmente en la puerta principal o la entrada del edificio."
-      }
-    ]
-  },
-  "Tags": ["meet", "out front", "location", "A2"]
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      "Tags": [
+        "don't worry",
+        "expressions",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Did you already take the meat out to defrost?'in Spanish?"
+        ],
+        "es-MX": [
+          "Como dices '¿Ya sacaste la carne para descongelar?' en English?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you already take the meat out to defrost?",
+          "Did you already eat the meat?",
+          "Did you already put the meat in the freezer?",
+          "Did you already cook the meat?"
+        ],
+        "es-MX": [
+          "¿Ya sacaste la carne para descongelar?",
+          "¿Ya te comiste la carne?",
+          "¿Ya metiste la carne al congelador?",
+          "¿Ya cocinaste la carne?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you already take the meat out to defrost?",
+        "es-MX": "¿Ya sacaste la carne para descongelar?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Take out' means to remove something from a place. In this case, it means to remove the meat from the freezer so it can thaw."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Take out' significa sacar algo de un lugar. En este caso, se refiere a sacar la carne del congelador para que se descongele."
+          }
+        ]
+      },
+      "Tags": [
+        "take out",
+        "defrost",
+        "phrasal verb",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'I'll swing by after work' in Español?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en Ingles 'Paso después del trabajo'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll swing by after work",
+          "I'll dance after work",
+          "I'll run away after work",
+          "I'll sleep after work"
+        ],
+        "es-MX": [
+          "Paso después del trabajo",
+          "Bailo después del trabajo",
+          "Huyo después del trabajo",
+          "Duermo después del trabajo"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll swing by after work",
+        "es-MX": "Paso después del trabajo"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'swing by' means to visit a place quickly or briefly. 'I'll swing by after work' means you'll stop by someone's place after finishing your job."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El phrasal verb 'swing by' significa pasar brevemente por un lugar. 'Paso después del trabajo' indica que harás una visita rápida al salir del trabajo."
+          }
+        ]
+      },
+      "Tags": [
+        "swing by",
+        "visit",
+        "phrasal verb",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Can you double check the time for me?' in Spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles '¿Puedes verificar la hora por mí?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can you double check the time for me?",
+          "Can you change the time for me?",
+          "Can you ask the time for me?",
+          "Can you stop the time for me?"
+        ],
+        "es-MX": [
+          "¿Puedes verificar la hora por mí?",
+          "¿Puedes cambiar la hora por mí?",
+          "¿Puedes preguntar la hora por mí?",
+          "¿Puedes detener el tiempo por mí?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can you double check the time for me?",
+        "es-MX": "¿Puedes verificar la hora por mí?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Double check' is a phrasal verb meaning to verify or confirm something again to be sure it's correct."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Double check' es un phrasal verb que significa verificar o confirmar algo de nuevo para asegurarse de que sea correcto."
+          }
+        ]
+      },
+      "Tags": [
+        "double check",
+        "verify",
+        "phrasal verb",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Are you heading out soon?' in Spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en Ingles '¿Vas a salir pronto?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Are you heading out soon?",
+          "Are you giving up soon?",
+          "Are you sitting down soon?",
+          "Are you backing up soon?"
+        ],
+        "es-MX": [
+          "¿Vas a salir pronto?",
+          "¿Te vas a rendir pronto?",
+          "¿Te vas a sentar pronto?",
+          "¿Vas a retroceder pronto?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Are you heading out soon?",
+        "es-MX": "¿Vas a salir pronto?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Heading out' means to leave or go out, usually to go somewhere. 'Are you heading out soon?' is asking if the person is about to leave."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Heading out' significa salir o irse, usualmente para dirigirse a algún lugar. '¿Vas a salir pronto?' pregunta si la persona está por irse."
+          }
+        ]
+      },
+      "Tags": [
+        "heading out",
+        "phrasal verb",
+        "leaving",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Are we meeting at the same spot?' in Spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles '¿Nos vamos a ver en el mismo lugar?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Are we meeting at the same spot?",
+          "Are we fighting in the same place?",
+          "Are we working in the same position?",
+          "Are we eating at the same table?"
+        ],
+        "es-MX": [
+          "¿Nos vamos a ver en el mismo lugar?",
+          "¿Vamos a pelear en el mismo lugar?",
+          "¿Vamos a trabajar en el mismo puesto?",
+          "¿Vamos a comer en la misma mesa?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Are we meeting at the same spot?",
+        "es-MX": "¿Nos vamos a ver en el mismo lugar?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrase 'meet at the same spot' means to reunite in the same location as before."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La frase 'vernos en el mismo lugar' indica reunirse en el mismo sitio que la vez anterior."
+          }
+        ]
+      },
+      "Tags": [
+        "meeting",
+        "spot",
+        "location",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Did you find what you were looking for?' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en español '¿Encontraste lo que buscabas?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you find what you were looking for?",
+          "Did you lose what you were buying?",
+          "Did you forget what you wanted?",
+          "Did you change what you saw?"
+        ],
+        "es-MX": [
+          "¿Encontraste lo que buscabas?",
+          "¿Perdiste lo que estabas comprando?",
+          "¿Olvidaste lo que querías?",
+          "¿Encontraste lo que tú estabas mirando para?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you find what you were looking for?",
+        "es-MX": "¿Encontraste lo que buscabas?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Find what you were looking for' refers to successfully locating or obtaining what you wanted or needed."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Encontrar lo que buscabas' se refiere a haber localizado o conseguido lo que querías o necesitabas."
+          }
+        ]
+      },
+      "Tags": [
+        "find",
+        "looking for",
+        "phrasal verb",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Can you check the door lock?' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en español '¿Puedes revisaar la cerradura de la puerta?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can you check the door lock?",
+          "Can you open the car trunk?",
+          "Can you close the window fast?",
+          "Can you fix the lamp?"
+        ],
+        "es-MX": [
+          "¿Puedes revisar la cerradura de la puerta?",
+          "¿Puedes abrir la cajuela del coche?",
+          "¿Puedes cerrar la ventana rápido?",
+          "¿Puedes checar el bloqueo de la puerta?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can you check the door lock?",
+        "es-MX": "¿Puedes revisar la cerradura de la puerta?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Check the door lock' means to inspect or make sure that the lock on the door is secure."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Revisar la cerradura de la puerta' significa inspeccionar o asegurarse de que la cerradura esté bien cerrada o funcione correctamente."
+          }
+        ]
+      },
+      "Tags": [
+        "check",
+        "door lock",
+        "phrasal verb",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Do you want me to grab your coat?' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en español '¿Quieres que agarre tu abrigo'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Do you want me to grab your coat?",
+          "Do you want me to iron your shoes?",
+          "Do you want me to throw your jacket?",
+          "Do you want me to clean your bag?"
+        ],
+        "es-MX": [
+          "¿Quieres que agarre tu abrigo?",
+          "¿Quieres que planche tus zapatos?",
+          "¿Quieres que lance tu chaqueta?",
+          "¿Quieres que limpie tu bolsa?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Do you want me to grab your coat?",
+        "es-MX": "¿Quieres que agarre tu abrigo?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Grab your coat' in this context means to pick up or get someone's coat for them, often as a favor or gesture."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Agarra tu abrigo' en este contexto significa tomar o alcanzar el abrigo de alguien, usualmente como un favor o cortesía."
+          }
+        ]
+      },
+      "Tags": [
+        "grab",
+        "coat",
+        "phrasal verb",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Informal Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'I'm just chilling right now' in Spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en español 'Solo estoy relajado ahora mismo'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'm just chilling right now",
+          "I'm only freezing at the moment",
+          "I'm just boiling right now",
+          "I'm only shouting right now"
+        ],
+        "es-MX": [
+          "Solo estoy relajado ahora mismo",
+          "Solo estoy congelándome ahora",
+          "Solo estoy hirviendo ahora",
+          "Solo estoy chillando ahora"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'm just chilling right now",
+        "es-MX": "Solo estoy relajado ahora mismo"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Chilling' is an informal way to say you're relaxing or not doing much at the moment."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Chilling' es una forma informal de decir que estás relajado o sin hacer mucho en ese momento."
+          }
+        ]
+      },
+      "Tags": [
+        "chilling",
+        "informal",
+        "relax",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Let me grab my jacket, it's cold outside' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en Ingles 'Dejame agarrar mi chamarra, hace frio afuera'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Let me grab my jacket, it's cold outside",
+          "Let me cook my jacket, it's hot inside",
+          "Let me open my jacket, it's sunny inside",
+          "Let me drop my jacket, it's loud outside"
+        ],
+        "es-MX": [
+          "Déjame agarrar mi chamarra, hace frío afuera",
+          "Déjame cocinar mi chamarra, hace calor adentro",
+          "Déjame abrir mi chamarra, hace sol adentro",
+          "Déjame soltar mi chamarra, está ruidoso afuera"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let me grab my jacket, it's cold outside",
+        "es-MX": "Déjame agarrar mi chaqueta, hace frío afuera"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Grab my jacket' means to quickly take your jacket before going outside. It's a common expression when it's cold."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Agarrar mi chaqueta' se refiere a tomarla rápido antes de salir. Es una expresión común cuando hace frío."
+          }
+        ]
+      },
+      "Tags": [
+        "grab",
+        "jacket",
+        "cold",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Did you clean up the kitchen?' in Spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en Ingles '¿Limpiaste la cocina?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you clean up the kitchen?",
+          "Did you cook up the kitchen?",
+          "Did you build up the kitchen?",
+          "Did you mess up the kitchen?"
+        ],
+        "es-MX": [
+          "¿Limpiaste la cocina?",
+          "¿Cocinaste la cocina?",
+          "¿Construiste la cocina?",
+          "¿Desordenaste la cocina?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you clean up the kitchen?",
+        "es-MX": "¿Limpiaste la cocina?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Clean up' is a phrasal verb that means to tidy or clean a place, especially after it has been used or is messy."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Clean up' es un phrasal verb que significa limpiar o recoger un lugar, especialmente cuando está sucio o desordenado."
+          }
+        ]
+      },
+      "Tags": [
+        "clean up",
+        "kitchen",
+        "phrasal verb",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'I'll text you when I get there' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en Ingles 'Te escribo cuando llegue'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll text you when I get there",
+          "I'll scream to you when I go home",
+          "I'll call you before I disappear",
+          "I'll drive you when I see light"
+        ],
+        "es-MX": [
+          "Te escribo cuando llegue",
+          "Te texteo cuando me dé luz",
+          "Te llamo antes de desaparecer",
+          "Te grito cuando vaya a casa"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll text you when I get there",
+        "es-MX": "Te escribo cuando llegue"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'I'll text you when I get there' means you'll send a message to someone once you arrive at your destination."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Te escribo cuando llegue' significa que enviarás un mensaje a alguien una vez que hayas llegado al lugar."
+          }
+        ]
+      },
+      "Tags": [
+        "text",
+        "communication",
+        "arrival",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'I'll figure it out later' in Español?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles 'Lo resolveé después'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll figure it out later",
+          "I'll take it outside later",
+          "I'll forget it loudly later",
+          "I'll walk it out tomorrow"
+        ],
+        "es-MX": [
+          "Lo resolveré después",
+          "Lo sacaré afuera después",
+          "Lo olvidaré en voz alta después",
+          "Lo caminaré mañana"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll figure it out later",
+        "es-MX": "Lo resolveré después"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Figure out' is a phrasal verb that means to understand or solve something. In this case, it means the person will solve or understand it later."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Figure out' es un phrasal verb que significa entender o resolver algo. En este caso, indica que la persona lo resolverá más tarde."
+          }
+        ]
+      },
+      "Tags": [
+        "figure out",
+        "phrasal verb",
+        "solve",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Can you grab the mail on your way in?' in Español?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles '¿Puedes agarrar el correo cuando entres?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can you grab the mail on your way in?",
+          "Can you throw the mail while walking out?",
+          "Can you delete the mail with your hands?",
+          "Can you jump the mail when you enter?"
+        ],
+        "es-MX": [
+          "¿Puedes agarrar el correo cuando entres?",
+          "¿Puedes lanzar el correo mientras sales?",
+          "¿Puedes borrar el correo con las manos?",
+          "¿Puedes saltar el correo cuando entres?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can you grab the mail on your way in?",
+        "es-MX": "¿Puedes agarrar el correo cuando entres?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Grab the mail on your way in' means to collect the mail as you're entering a place, typically a house or apartment."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Agarrar el correo cuando entres' significa recoger el correo al entrar a algún lugar, normalmente una casa o departamento."
+          }
+        ]
+      },
+      "Tags": [
+        "grab",
+        "mail",
+        "phrasal verb",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Informal Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'I'm feeling a little off today' in Español?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en Ingles 'I'm feeling a little off today'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'm feeling a little off today",
+          "I'm turning myself off today",
+          "I'm switching my mood today",
+          "I'm flipping my schedule today"
+        ],
+        "es-MX": [
+          "Me siento un poco raro hoy",
+          "Me estoy apagando hoy",
+          "Estoy cambiando mi humor hoy",
+          "Estoy volteando mi horario hoy"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'm feeling a little off today",
+        "es-MX": "Me siento un poco raro hoy"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Feeling a little off' is an informal way to say you're not feeling like your usual self, either physically or emotionally."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Sentirse un poco raro' es una forma informal de decir que no te sientes como normalmente, ya sea física o emocionalmente."
+          }
+        ]
+      },
+      "Tags": [
+        "feeling off",
+        "expression",
+        "informal",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'I'll be there in a little bit' en español?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles 'Estaré ahi en un ratito'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll be there in a little bit",
+          "I'll fly there in a huge boat",
+          "I'll disappear in the morning light",
+          "I'll scream there in a tiny second"
+        ],
+        "es-MX": [
+          "Estaré allí en un ratito",
+          "Volaré allí en un barco enorme",
+          "Desapareceré con la luz de la mañana",
+          "Gritaré allí en un segundito"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll be there in a little bit",
+        "es-MX": "Estaré allí en un ratito"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'I'll be there in a little bit' is a casual way to say you'll arrive soon, but not immediately."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Estaré allí en un ratito' es una forma informal de decir que llegarás pronto, pero no de inmediato."
+          }
+        ]
+      },
+      "Tags": [
+        "time",
+        "arrival",
+        "casual",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Can you hold this for a second?' en español?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles '¿Puedes sostener esto por un segundo?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can you hold this for a second?",
+          "Can you throw this in a minute?",
+          "Can you sing this for a second?",
+          "Can you break this for a while?"
+        ],
+        "es-MX": [
+          "¿Puedes sostener esto un segundo?",
+          "¿Puedes lanzar esto en un minuto?",
+          "¿Puedes cantar esto un segundo?",
+          "¿Puedes romper esto un rato?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can you hold this for a second?",
+        "es-MX": "¿Puedes sostener esto un segundo?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Hold this for a second' means to briefly take or keep something in your hands while someone else does something."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Sostener esto un segundo' significa tomar o mantener algo brevemente en las manos mientras otra persona hace algo."
+          }
+        ]
+      },
+      "Tags": [
+        "hold",
+        "expression",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Hang on a second' in spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles 'Espera un segundo'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Hang on a second",
+          "Jump on a second",
+          "Fly around a second",
+          "Throw up a minute"
+        ],
+        "es-MX": [
+          "Espera un segundo",
+          "Súbete a un segundo",
+          "Vuela alrededor un segundo",
+          "Vómitalo un minuto"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Hang on a second",
+        "es-MX": "Espera un segundo"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Hang on a second' is an informal way to tell someone to wait briefly."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Hang on a second' es una forma informal de pedirle a alguien que espere un momento."
+          }
+        ]
+      },
+      "Tags": [
+        "hang on",
+        "wait",
+        "phrasal verb",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'I'll grab it for you on the way back' in Spanish?"
+        ],
+        "es-MX": [
+          "¿Cómo digo en ingles 'Lo agarro para ti de regreso'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll grab it for you on the way back",
+          "I'll lose it for you on the return",
+          "I'll push it for you when I go up",
+          "I'll forget it for you on the other road"
+        ],
+        "es-MX": [
+          "Lo agarro para ti de regreso",
+          "Lo pierdo para ti en el retorno",
+          "Lo empujo para ti cuando suba",
+          "Lo olvido para ti en el otro camino"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll grab it for you on the way back",
+        "es-MX": "Lo agarro para ti de regreso"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'I'll grab it for you on the way back' means you will pick something up for someone when you're returning from somewhere."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Lo agarro para ti de regreso' significa que recogerás algo para alguien cuando vayas de vuelta de algún lugar."
+          }
+        ]
+      },
+      "Tags": [
+        "grab",
+        "way back",
+        "phrasal verb",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How would you say 'Avísame cuando estés listo para irte' in English?"
+        ],
+        "es-MX": [
+          "¿Cuál es la forma correcta de decir 'Let me know when you're ready to leave' en español?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Let me know when you're ready to leave",
+          "Let me go when you're ready to sleep",
+          "Tell me when you forget to leave",
+          "Let me know when you’re done cooking"
+        ],
+        "es-MX": [
+          "Avísame cuando estés listo para irte",
+          "Déjame ir cuando tengas sueño",
+          "Dime cuando olvides irte",
+          "Avísame cuando termines de cocinar"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let me know when you're ready to leave",
+        "es-MX": "Avísame cuando estés listo para irte"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "This phrase is used to ask someone to inform you when they are ready to go or leave a place."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Esta frase se usa para pedirle a alguien que te avise cuando esté listo para irse o salir de algún lugar."
+          }
+        ]
+      },
+      "Tags": [
+        "let me know",
+        "ready",
+        "leave",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "Which sentence means 'Avísame cuando sea que estés listo para salir'?"
+        ],
+        "es-MX": [
+          "¿Cómo traduzco correctamente 'Let me know whenever you're ready to go'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Let me know whenever you're ready to go",
+          "Tell me always before sleeping",
+          "Let me sing whenever you're sad",
+          "Call me whenever you're hungry"
+        ],
+        "es-MX": [
+          "Avísame cuando sea que estés listo para salir",
+          "Cántame cuando estés triste",
+          "Llámame cuando tengas hambre",
+          "Dime siempre antes de dormir"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let me know whenever you're ready to go",
+        "es-MX": "Avísame cuando sea que estés listo para salir"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Whenever' implies flexibility — any time the person is ready, they should inform you. It’s informal and polite."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Whenever' implica flexibilidad — cualquier momento en que la persona esté lista, debe avisarte. Es informal y educado."
+          }
+        ]
+      },
+      "Tags": [
+        "whenever",
+        "let me know",
+        "ready",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Idiomatic Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How would you express 'Vamos a dejarlo por hoy' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español la expresión 'Let's call it a day'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Let's call it a day",
+          "Let's name the calendar",
+          "Let's shout the hour",
+          "Let's cancel the week"
+        ],
+        "es-MX": [
+          "Vamos a dejarlo por hoy",
+          "Vamos a llamar al calendario",
+          "Vamos a gritar la hora",
+          "Vamos a cancelar la semana"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let's call it a day",
+        "es-MX": "Vamos a dejarlo por hoy"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Let's call it a day' is an idiomatic expression used when deciding to stop working or finish an activity for the day."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Let's call it a day' es una expresión idiomática que se usa para decir que se ha terminado el trabajo o una actividad por hoy."
+          }
+        ]
+      },
+      "Tags": [
+        "idioms",
+        "call it a day",
+        "finish",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Everyday Questions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What's the correct way to ask if the dog has eaten?"
+        ],
+        "es-MX": [
+          "¿Cómo se dice en español 'Did you feed the dog yet?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you feed the dog yet?",
+          "Did you paint the dog today?",
+          "Did you walk the couch earlier?",
+          "Did you cook the dog dinner?"
+        ],
+        "es-MX": [
+          "¿Ya le diste de comer al perro? ",
+          "¿Ya pintaste al perro?",
+          "¿Ya caminaste el sillón?",
+          "¿Ya cocinaste la cena del perro?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you feed the dog yet?",
+        "es-MX": "¿¿Ya le diste de comer al perro? "
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "This question is commonly used to ask if someone has already given food to the dog."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Esta pregunta se usa comúnmente para saber si alguien ya le dio de comer al perro."
+          }
+        ]
+      },
+      "Tags": [
+        "feed",
+        "dog",
+        "daily routine",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Te veo afuera, en la entrada' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'I'll meet you out front'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll meet you out front",
+          "I'll draw you on the ceiling",
+          "I'll bring you into the backyard",
+          "I'll chase you into the hallway"
+        ],
+        "es-MX": [
+          "Te veo afuera, en la entrada",
+          "Te dibujo en el techo",
+          "Te llevo al patio trasero",
+          "Te persigo en el pasillo"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll meet you out front",
+        "es-MX": "Te veo afuera, en la entrada"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'I'll meet you out front' means the person will wait for or see you at the main entrance or outside the front of a place."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Te veo afuera, en la entrada' indica que la persona te encontrará frente a un lugar, generalmente en la puerta principal o la entrada del edificio."
+          }
+        ]
+      },
+      "Tags": [
+        "meet",
+        "out front",
+        "location",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Health and Insurance",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say '¿Tienes seguro de gastos médicos mayores?' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'Do you have major medical insurance?'"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Do you have major medical insurance?",
+          "Do you have a bigger doctor payment?",
+          "Do you insure your hospital visits?",
+          "Do you have expenses for medicine?"
+        ],
+        "es-MX": [
+          "¿Tienes seguro de gastos médicos mayores?",
+          "¿Tienes un pago mayor al doctor?",
+          "¿Aseguras tus visitas al hospital?",
+          "¿Tienes gastos para medicinas?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Do you have major medical insurance?",
+        "es-MX": "¿Tienes seguro de gastos médicos mayores?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Major medical insurance' is a type of health insurance that covers serious illnesses or large hospital expenses."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El 'seguro de gastos médicos mayores' es un tipo de seguro de salud que cubre enfermedades graves o gastos hospitalarios importantes."
+          }
+        ]
+      },
+      "Tags": [
+        "insurance",
+        "health",
+        "B1",
+        "medical"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "You're returning from somewhere. How would you offer to pick something up for someone?"
+        ],
+        "es-MX": [
+          "Estás regresando de algún lugar. ¿Cómo dirías en inglés que: Ocupas que pase por algo cuando vuelva?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll grab it for you on the way back",
+          "I'll hit it for you from the return",
+          "I'll skip it back your way",
+          "I'll shout it during the ride"
+        ],
+        "es-MX": [
+          "Lo traigo cuando regrese",
+          "Lo golpeo por ti desde la vuelta",
+          "Lo salto de vuelta a tu manera",
+          "Lo grito durante el camino"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll grab it for you on the way back",
+        "es-MX": "Lo traigo cuando regrese"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'I'll grab it for you on the way back' means that you will pick up or bring something for someone while returning from a place."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Lo tomo por ti de regreso' significa que vas a recoger o traer algo para alguien mientras regresas de algún lugar."
+          }
+        ]
+      },
+      "Tags": [
+        "phrasal verbs",
+        "grab",
+        "daily use",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Everyday Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "Which English sentence means: 'Estoy listo cuando tú lo estés'?"
+        ],
+        "es-MX": [
+          "¿Cuál es la traducción correcta de 'I'm ready whenever you are'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'm ready whenever you are",
+          "I'm ready if you become",
+          "I'm prepared when you're tired",
+          "I'm ready with whatever you do"
+        ],
+        "es-MX": [
+          "Estoy listo cuando tú lo estés",
+          "Estoy listo si tú te conviertes",
+          "Estoy preparado cuando estés cansado",
+          "Estoy listo con lo que sea que hagas"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'm ready whenever you are",
+        "es-MX": "Estoy listo cuando tú lo estés"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'I'm ready whenever you are' is a polite and friendly way to say that you are prepared and just waiting for the other person to be ready too."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Estoy listo cuando tú lo estés' es una forma amable y común de decir que ya estás preparado y solo esperas a que la otra persona también lo esté."
+          }
+        ]
+      },
+      "Tags": [
+        "everyday phrases",
+        "readiness",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Everyday Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How would you politely ask someone to inform you when they're ready to leave?"
+        ],
+        "es-MX": [
+          "¿Cómo se dice en inglés 'Hazme saber cuando estés listo para irte'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Let me know when you're ready to leave",
+          "Tell me if you want to stay forever",
+          "Make me leave when you're done",
+          "Let me hear when you're sleeping"
+        ],
+        "es-MX": [
+          "Hazme saber cuando estés listo para irte",
+          "Dime si quieres quedarte para siempre",
+          "Haz que me vaya cuando termines",
+          "Déjame oír cuando estés dormido"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let me know when you're ready to leave",
+        "es-MX": "Hazme saber cuando estés listo para irte"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Let me know when you're ready to leave' is a polite way to ask someone to inform you when they are ready to go."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Hazme saber cuando estés listo para irte' es una forma educada de pedirle a alguien que te avise cuando ya esté listo para irse."
+          }
+        ]
+      },
+      "Tags": [
+        "daily communication",
+        "ready",
+        "leave",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Helpful Phrases",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What would you say to offer help when someone is carrying something heavy?"
+        ],
+        "es-MX": [
+          "¿Cómo se dice en inglés 'Te ayudo a cargar las cosas'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Do you need help carrying that?",
+          "Do you want me to push the wall?",
+          "Are you taking the table for a walk?",
+          "Do you care if I lift the room?"
+        ],
+        "es-MX": [
+          "¿Te ayudo a cargar las cosas?",
+          "¿Quieres que empuje la pared?",
+          "¿Estás paseando la mesa?",
+          "¿Te molesta si levanto el cuarto?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Do you need help carrying that?",
+        "es-MX": "¿Te ayudo a cargar las cosas?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "This phrase is used to offer assistance when someone appears to be carrying something heavy or bulky."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Esta frase se usa para ofrecer ayuda cuando alguien parece estar cargando algo pesado o estorboso."
+          }
+        ]
+      },
+      "Tags": [
+        "help",
+        "daily situations",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Daily Conversations",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "You're talking about a stressful or chaotic week. Which phrase expresses that?"
+        ],
+        "es-MX": [
+          "Estás hablando de una semana agitada. ¿Cuál de las siguientes frases en inglés es la correcta?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "It's been a crazy week",
+          "The week danced with shoes",
+          "It’s been a sleeping calendar",
+          "We had a silent Monday"
+        ],
+        "es-MX": [
+          "Ha sido una semana muy agitada",
+          "La semana bailó con zapatos",
+          "Ha sido un calendario dormido",
+          "Tuvimos un lunes silencioso"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "It's been a crazy week",
+        "es-MX": "Ha sido una semana muy agitada"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'It's been a crazy week' is an informal way of saying the week has been busy, stressful, or full of unexpected events."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Ha sido una semana muy agitada' es una manera informal de decir que la semana ha estado ocupada, estresante o llena de eventos inesperados."
+          }
+        ]
+      },
+      "Tags": [
+        "daily life",
+        "informal",
+        "week",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Shopping & Daily Tasks",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "You're leaving a store and want to make sure someone took the receipt. What would you ask?"
+        ],
+        "es-MX": [
+          "Vas saliendo de una tienda y quieres confirmar si alguien tomó el recibo. ¿Cómo lo dirías en inglés?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you grab the receipt?",
+          "Did you kick the invoice?",
+          "Did you fly the wallet?",
+          "Did you hold the discount?"
+        ],
+        "es-MX": [
+          "¿Agarraste el recibo?",
+          "¿Pateaste la factura?",
+          "¿Volaste la cartera?",
+          "¿Sostuviste el descuento?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you grab the receipt?",
+        "es-MX": "¿Agarraste el recibo?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Did you grab the receipt?' is an informal way to ask if someone took or picked up the purchase receipt, usually after buying something."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'¿Agarraste el recibo?' es una forma informal de preguntar si alguien tomó el comprobante de compra, comúnmente al salir de una tienda."
+          }
+        ]
+      },
+      "Tags": [
+        "shopping",
+        "receipt",
+        "A2",
+        "daily conversation"
+      ]
+    },
+    {
+      "Category": "Household Chores",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "Which sentence would you use to say that you'll remove the garbage later?"
+        ],
+        "es-MX": [
+          "¿Cuál es la manera correcta de decir en inglés que sacarás la basura más tarde?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll take the trash out later",
+          "I'll walk the garbage in circles",
+          "I'll fly the junk to the moon",
+          "I'll cook the trash in the oven"
+        ],
+        "es-MX": [
+          "Sacaré la basura más tarde",
+          "Pasearé la basura en círculos",
+          "Volaré la basura a la luna",
+          "Cocinaré la basura en el horno"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll take the trash out later",
+        "es-MX": "Sacaré la basura más tarde"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Take out' is a phrasal verb that means to remove something from a place, often to throw it away or carry it outside."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "I'll take the trash out later. → I’ll remove the garbage and throw it outside.",
+              "Can you take out the recycling, please?",
+              "She took out her phone to take a picture.",
+              "We’re taking out pizza tonight. (also used for food orders!)"
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Take out' es un verbo frasal que significa sacar o remover algo de un lugar, comúnmente para tirarlo o llevarlo fuera."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Sacaré la basura más tarde. → Voy a sacar la basura y tirarla afuera.",
+              "¿Puedes sacar el reciclaje, por favor?",
+              "Ella sacó su celular para tomar una foto.",
+              "Vamos a pedir pizza para llevar. (también se usa para comida para llevar)"
+            ]
+          }
+        ]
+      },
+      "Tags": [
+        "chores",
+        "phrasal verbs",
+        "take out",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Daily Situations",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "You're ordering food at a restaurant and want to take it with you. What do you say?"
+        ],
+        "es-MX": [
+          "Estás pidiendo comida en un restaurante y quieres llevarla. ¿Qué frase usarías en inglés?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can I get this to go?",
+          "Can I eat this here?",
+          "Can I throw this away?",
+          "Can I make this invisible?"
+        ],
+        "es-MX": [
+          "¿Puedo llevar esto para llevar?",
+          "¿Puedo comer esto aquí?",
+          "¿Puedo tirar esto?",
+          "¿Puedo hacer esto invisible?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can I get this to go?",
+        "es-MX": "¿Puedo llevar esto para llevar?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'To go' is a common phrase used in restaurants to request food for takeout (to take it with you instead of eating there)."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Can I get this to go? → Asking to take the food with you.",
+              "I'd like a coffee to go, please.",
+              "This pizza is to go, not for here."
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'To go' es una expresión común usada en restaurantes para pedir comida para llevar (en lugar de comer en el lugar)."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "¿Puedo llevar esto para llevar? → Pides llevar la comida contigo.",
+              "Quiero un café para llevar, por favor.",
+              "Esta pizza es para llevar, no para comer aquí."
+            ]
+          }
+        ]
+      },
+      "Tags": [
+        "to go",
+        "food",
+        "daily life",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Food & Daily Life",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "You're too tired to cook. What would you say if you plan to order food to bring home?"
+        ],
+        "es-MX": [
+          "Estás cansado para cocinar. ¿Qué frase en inglés usarías si planeas pedir pizza para llevar?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "We'll take out pizza tonight",
+          "We'll build a pizza store",
+          "We'll eat chairs tonight",
+          "We'll carry furniture today"
+        ],
+        "es-MX": [
+          "Vamos a pedir pizza para llevar",
+          "Vamos a construir una pizzería",
+          "Vamos a comer sillas esta noche",
+          "Vamos a cargar muebles hoy"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "We'll take out pizza tonight",
+        "es-MX": "Vamos a pedir pizza para llevar"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Take out' is a phrasal verb meaning to order food from a restaurant to eat elsewhere (usually at home)."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "We'll take out pizza tonight → We’ll order it instead of cooking.",
+              "Do you want Chinese takeout or pizza?",
+              "I don’t feel like cooking, let’s take something out."
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Take out' es un verbo frasal que significa pedir comida en un restaurante para comerla en otro lugar (normalmente en casa)."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Vamos a pedir pizza para llevar → En vez de cocinar, la pedimos.",
+              "¿Quieres comida china para llevar o pizza?",
+              "No tengo ganas de cocinar, vamos a pedir algo para llevar."
+            ]
+          }
+        ]
+      },
+      "Tags": [
+        "take out",
+        "food",
+        "phrasal verbs",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Daily Routines",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "It's late and you're going to sleep. What would you say in English?"
+        ],
+        "es-MX": [
+          "Es tarde y vas a dormir. ¿Cómo dirías en inglés 'Me voy a la cama'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'm heading to bed",
+          "I'm driving the moon",
+          "I'm jumping on the roof",
+          "I'm flying to the window"
+        ],
+        "es-MX": [
+          "Me voy a la cama",
+          "Estoy manejando hacia la luna",
+          "Estoy saltando al techo",
+          "Estoy volando hacia la ventana"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'm heading to bed",
+        "es-MX": "Me voy a la cama"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Head to' is a casual way of saying you're going somewhere. 'I'm heading to bed' means you're going to sleep or preparing for bed."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "I'm heading to bed → I'm going to sleep.",
+              "He's heading to the office.",
+              "We’re heading to the airport early tomorrow."
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Head to' es una forma casual de decir que te diriges a algún lugar. 'I'm heading to bed' significa que vas a dormir o a prepararte para acostarte."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Me voy a la cama → Me voy a dormir.",
+              "Él va a la oficina.",
+              "Vamos al aeropuerto temprano mañana."
+            ]
+          }
+        ]
+      },
+      "Tags": [
+        "daily routine",
+        "head to",
+        "sleep",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Food & Ordering",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "You're at a coffee shop and the cashier asks if you want to stay or take it with you. What does the question sound like in English?"
+        ],
+        "es-MX": [
+          "Estás en una cafetería y el cajero te pregunta si quieres quedarte o llevarlo. ¿Cómo se dice en inglés?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Do you want it for here or to go?",
+          "Do you want it for the floor or the moon?",
+          "Do you love it more or less?",
+          "Do you make it for food or dreams?"
+        ],
+        "es-MX": [
+          "¿Lo quieres para aquí o para llevar?",
+          "¿Lo quieres para el piso o para la luna?",
+          "¿Lo amas más o menos?",
+          "¿Lo haces para comida o para sueños?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Do you want it for here or to go?",
+        "es-MX": "¿Lo quieres para aquí o para llevar?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "This phrase is commonly used by restaurant or coffee shop staff to ask if you want to eat there or take the food away."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "'For here' → To eat at the place.",
+              "'To go' → To take the food with you.",
+              "Example: 'One coffee, to go please.'"
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Esta frase la usan comúnmente los empleados de restaurantes o cafeterías para preguntar si quieres comer ahí o llevarte la comida."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "'Para aquí' → Para comer en el lugar.",
+              "'Para llevar' → Para llevar la comida contigo.",
+              "Ejemplo: 'Un café, para llevar por favor.'"
+            ]
+          }
+        ]
+      },
+      "Tags": [
+        "food",
+        "to go",
+        "for here",
+        "A2",
+        "ordering"
+      ]
+    },
+    {
+      "Category": "Home & Appliances",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "You're worried something is still on in the kitchen. What would you ask about the oven?"
+        ],
+        "es-MX": [
+          "Te preocupa haber dejado algo encendido en la cocina. ¿Cómo preguntarías si apagaron el horno en inglés?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you turn off the oven?",
+          "Did you close the soup?",
+          "Did you bake the chair?",
+          "Did you run the sofa?"
+        ],
+        "es-MX": [
+          "¿Apagaste el horno?",
+          "¿Cerraste la sopa?",
+          "¿Horneaste la silla?",
+          "¿Corriste el sofá?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you turn off the oven?",
+        "es-MX": "¿Apagaste el horno?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Turn off' is a phrasal verb meaning to switch off or deactivate a device or appliance, like a light, oven, or computer."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Did you turn off the oven? → Asking if it was switched off.",
+              "Turn off the lights before you leave.",
+              "I forgot to turn off my computer last night."
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Turn off' es un verbo frasal que significa apagar o desactivar un dispositivo o aparato, como una luz, horno o computadora."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "¿Apagaste el horno? → Preguntas si ya se desconectó o apagó.",
+              "Apaga las luces antes de salir.",
+              "Olvidé apagar la computadora anoche."
+            ]
+          }
+        ]
+      },
+      "Tags": [
+        "turn off",
+        "phrasal verbs",
+        "appliances",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Planning & Responsibility",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "You're postponing a task but you want to take responsibility. What would you say in English?"
+        ],
+        "es-MX": [
+          "Vas a posponer una tarea pero quieres dejar claro que tú te encargarás. ¿Cómo lo dirías en inglés?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'll take care of it tomorrow ",
+          "I'll ignore it until Friday",
+          "I'll sing to it tomorrow",
+          "I'll throw it into space"
+        ],
+        "es-MX": [
+          "Me encargaré de eso mañana",
+          "Lo ignoraré hasta el viernes",
+          "Le cantaré mañana",
+          "Lo lanzaré al espacio"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'll take care of it tomorrow",
+        "es-MX": "Me encargaré de eso mañana"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Take care of' is a phrasal verb that means to handle, manage, or be responsible for something or someone."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "I'll take care of it tomorrow → I’ll handle it the next day.",
+              "Can you take care of the kids tonight?",
+              "He takes care of the bills every month."
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Take care of' es un verbo frasal que significa encargarse, hacerse responsable o cuidar de algo o alguien."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Me encargaré de eso mañana → Lo haré al día siguiente.",
+              "¿Puedes cuidar a los niños esta noche?",
+              "Él se encarga de las cuentas cada mes."
+            ]
+          }
+        ]
+      },
+      "Tags": [
+        "take care of",
+        "responsibility",
+        "B1",
+        "future plans"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say '¿Me recuerdas hablarles mas al rato?' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'Can you remind me to call them later?'"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can you remind me to call them later?",
+          "Can you forget me tomorrow at noon?",
+          "Can you remind me to shout at them now?",
+          "Can you remember to call me yesterday?"
+        ],
+        "es-MX": [
+          "¿Me recuerdas hablarles mañana?",
+          "¿Puedes olvidarme mañana al mediodía?",
+          "¿Puedes recordarme gritarles ahora?",
+          "¿Puedes recordar llamarme ayer?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can you remind me to call them mas al rato?",
+        "es-MX": "¿Me recuerdas hablarles mañana?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Can you remind me to call them later?' is a polite request for someone to help you remember to make a phone call in the future."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'¿Me recuerdas hablarles mañana?' es una forma de pedirle a alguien que te ayude a recordar hacer una llamada más tarde o al día siguiente."
+          }
+        ]
+      },
+      "Tags": [
+        "remind",
+        "call",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Useful Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How would you say 'Ya casi termino aquí' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce 'Almost done here' al español?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Almost done here",
+          "Totally started now",
+          "Halfway broken today",
+          "Completely lost here"
+        ],
+        "es-MX": [
+          "Ya casi termino aquí",
+          "Totalmente empecé ahora",
+          "A medio romper hoy",
+          "Completamente perdido aquí"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Almost done here",
+        "es-MX": "Ya casi termino aquí"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Almost done here' is a casual expression meaning you are close to finishing something at your current location."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Ya casi termino aquí' es una expresión casual que indica que estás por terminar algo en el lugar donde estás."
+          }
+        ]
+      },
+      "Tags": [
+        "almost done",
+        "finishing",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Travel and Planning",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say '¿Ya reservaste los boletos?' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'Did you book the tickets already?'"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you book the tickets already?",
+          "Did you cook the tickets on time?",
+          "Did you throw the tickets away?",
+          "Did you sing about the tickets already?"
+        ],
+        "es-MX": [
+          "¿Ya reservaste los boletos?",
+          "¿Ya cocinaste los boletos a tiempo?",
+          "¿Ya tiraste los boletos?",
+          "¿Ya cantaste sobre los boletos?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you book the tickets already?",
+        "es-MX": "¿Ya reservaste los boletos?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Book the tickets' means to reserve or purchase tickets in advance, often for travel or events."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Reservar los boletos' significa comprarlos o apartarlos con anticipación, usualmente para viajar o asistir a un evento."
+          }
+        ]
+      },
+      "Tags": [
+        "book",
+        "tickets",
+        "travel",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Everyday Instructions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How would you translate 'Solo déjalo en el mostrador' into English?"
+        ],
+        "es-MX": [
+          "¿Qué quiere decir en español 'Just leave it on the counter'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Just leave it on the counter",
+          "Just throw it on the roof",
+          "Just hide it under the floor",
+          "Just break it near the sink"
+        ],
+        "es-MX": [
+          "Solo déjalo en el mostrador",
+          "Solo tíralo en el techo",
+          "Solo escóndelo bajo el piso",
+          "Solo rómpelo junto al lavabo"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Just leave it on the counter",
+        "es-MX": "Solo déjalo en el mostrador"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Just leave it on the counter' is a simple instruction telling someone to place something on a surface like a kitchen or store counter."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Solo déjalo en el mostrador' es una instrucción sencilla para Decirle a alguien que coloque algo sobre una superficie como una barra o mostrador de tienda o cocina."
+          }
+        ]
+      },
+      "Tags": [
+        "leave",
+        "counter",
+        "instructions",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Everyday Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How would you say 'Vamos a caminar' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce 'Let's take a walk' al español?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Let's take a walk",
+          "Let's make a walk",
+          "Let's throw a walk",
+          "Let's run a sandwich"
+        ],
+        "es-MX": [
+          "Vamos a caminar",
+          "Hagamos una caminata",
+          "Lancemos una caminata",
+          "Corramos un sándwich"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let's take a walk",
+        "es-MX": "Vamos a caminar"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Let's take a walk' is a common way to invite someone to go for a walk, usually for relaxation, conversation, or light exercise."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Let's take a walk' es una forma común de invitar a alguien a caminar, ya sea para relajarse, conversar o hacer un poco de ejercicio."
+          }
+        ]
+      },
+      "Tags": [
+        "walk",
+        "invitation",
+        "activity",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Weather Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What’s a natural way to say 'Está bonito afuera' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce correctamente 'It's nice outside' al español?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "It's nice outside",
+          "It's dangerous inside",
+          "It's ugly on the table",
+          "It's wet under the bed"
+        ],
+        "es-MX": [
+          "Está bonito afuera",
+          "Está peligroso adentro",
+          "Está feo en la mesa",
+          "Está mojado bajo la cama"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "It's nice outside",
+        "es-MX": "Está bonito afuera"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'It's nice outside' is a common phrase used to describe pleasant weather or an enjoyable outdoor atmosphere."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Está bonito afuera' es una frase común para describir que hace buen clima o que el ambiente en el exterior es agradable."
+          }
+        ]
+      },
+      "Tags": [
+        "weather",
+        "outside",
+        "nice",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Everyday Actions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What’s a natural way to say 'Déjame ponerme los zapatos' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'Let me grab my shoes'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Let me grab my shoes",
+          "Let me cook my shoes",
+          "Let me throw my shoes away",
+          "Let me paint my shoes"
+        ],
+        "es-MX": [
+          "Déjame ponerme los zapatos",
+          "Déjame cocinar mis zapatos",
+          "Déjame tirar mis zapatos",
+          "Déjame pintar mis zapatos"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Let me grab my shoes",
+        "es-MX": "Déjame ponerme los zapatos"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Let me grab my shoes' is a casual way of saying you'll quickly get or put on your shoes before leaving."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Déjame ponerme los zapatos' es una forma informal de decir que irás por tus zapatos o te los pondrás antes de salir."
+          }
+        ]
+      },
+      "Tags": [
+        "grab",
+        "shoes",
+        "everyday",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Everyday Questions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you ask someone if they left extra money for service?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce 'Did you leave a tip?' al español?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you leave a tip?",
+          "Did you throw a chair?",
+          "Did you write a ticket?",
+          "Did you leave a shoe?"
+        ],
+        "es-MX": [
+          "¿Dejaste una propina?",
+          "¿Lanzaste una silla?",
+          "¿Escribiste un boleto?",
+          "¿Dejaste un zapato?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you leave a tip?",
+        "es-MX": "¿Dejaste una propina?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Leave a tip' means to give extra money as a thank-you for good service, usually at restaurants, cafes, or for delivery."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Dejar una propina' significa dar dinero extra como agradecimiento por un buen servicio, usualmente en restaurantes, cafés o entregas."
+          }
+        ]
+      },
+      "Tags": [
+        "tip",
+        "service",
+        "question",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Idiomatic Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What does the expression 'A penny for your thoughts?' mean?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce y qué significa 'A penny for your thoughts?' en español?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "It's a polite way to ask what someone is thinking about",
+          "It means you're offering money for silence",
+          "It means you're angry and need change",
+          "It refers to buying something very cheap"
+        ],
+        "es-MX": [
+          "Es una forma educada de preguntar en qué está pensando alguien",
+          "Significa que estás ofreciendo dinero por silencio",
+          "Significa que estás enojado y necesitas cambio",
+          "Se refiere a comprar algo muy barato"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "It's a polite way to ask what someone is thinking about",
+        "es-MX": "Es una forma educada de preguntar en qué está pensando alguien"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'A penny for your thoughts?' is an idiom used when you notice someone is quiet or lost in thought, and you want to know what they're thinking."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'¿En qué piensas?' o '¿Qué estás pensando?' es el equivalente a 'A penny for your thoughts?', una frase idiomática que se usa cuando alguien está callado y parece estar reflexionando."
+          }
+        ]
+      },
+      "Tags": [
+        "idiom",
+        "thoughts",
+        "expression",
+        "B1"
+      ]
+    },
+    {
+      "Category": "Common Phrases",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say '¿En qué está pensando alguien?' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'What someone is thinking about'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "What someone is thinking about?",
+          "What someone is walking through",
+          "Where someone is running from",
+          "How someone is dancing alone"
+        ],
+        "es-MX": [
+          "¿En qué está pensando alguien?",
+          "¿Por dónde está caminando alguien?",
+          "¿De dónde está corriendo alguien?",
+          "¿Cómo está bailando alguien solo?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "What someone is thinking about?",
+        "es-MX": "¿En qué está pensando alguien?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'What someone is thinking about' is used to ask or describe the thoughts that are going through a person’s mind."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'¿En qué está pensando alguien?' se usa para preguntar o describir los pensamientos que tiene una persona en un momento dado."
+          }
+        ]
+      },
+      "Tags": [
+        "thoughts",
+        "thinking",
+        "A2"
+      ]
+    },
+    {
+      "Category": "Advanced Expressions",
+      "Level": "B2",
+      "Question Text": {
+        "en-US": [
+          "Which sentence best expresses 'Me cuesta trabajo concentrarme cuando hay ruido' in English?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce 'I find it hard to concentrate when there’s noise' al español?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I find it hard to concentrate when there’s noise",
+          "I lose my memory when there’s silence",
+          "I enjoy working better with explosions",
+          "I sleep better when the lights are off"
+        ],
+        "es-MX": [
+          "Me cuesta trabajo concentrarme cuando hay ruido",
+          "Pierdo la memoria cuando hay silencio",
+          "Disfruto trabajar con explosiones",
+          "Duermo mejor cuando las luces están apagadas"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I find it hard to concentrate when there’s noise",
+        "es-MX": "Me cuesta trabajo concentrarme cuando hay ruido"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrase 'I find it hard to concentrate' is a more advanced structure used to express difficulty focusing on something."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La frase 'Me cuesta trabajo concentrarme' se traduce al inglés como 'I find it hard to concentrate' y se usa para expresar dificultad para enfocarse."
+          }
+        ]
+      },
+      "Tags": [
+        "concentrate",
+        "difficulty",
+        "focus",
+        "B2"
+      ]
+    },
+    {
+      "Category": "Advanced Vocabulary",
+      "Level": "B2",
+      "Question Text": {
+        "en-US": [
+          "Which sentence best translates 'Tenemos una gran variedad de comida para ofrecer'?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'We have a plethora of food to offer'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "We have a plethora of food to offer",
+          "We have a piece of food to throw away",
+          "We eat a plate of plastic often",
+          "We hide a portion of food outside"
+        ],
+        "es-MX": [
+          "Tenemos una gran variedad de comida para ofrecer",
+          "Tenemos un pedazo de comida para tirar",
+          "Comemos un plato de plástico seguido",
+          "Escondemos una porción de comida afuera"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "We have a plethora of food to offer",
+        "es-MX": "Tenemos una gran variedad de comida para ofrecer"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The word 'plethora' is an advanced synonym for 'a large amount' or 'a wide variety'. It’s formal and often used in writing or professional speech."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Plethora' significa una gran cantidad o variedad de algo. Es una palabra formal y se usa mucho en contextos académicos o profesionales."
+          }
+        ]
+      },
+      "Tags": [
+        "plethora",
+        "advanced vocabulary",
+        "B2",
+        "food"
+      ]
+    },
+    {
+      "Category": "Advanced Expressions",
+      "Level": "B2",
+      "Question Text": {
+        "en-US": [
+          "What’s the best way to express 'Intentamos sobrellevar la situación' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'We try to cope with the situation'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "We try to cope with the situation",
+          "We try to cook the situation",
+          "We try to copy the situation",
+          "We try to escape the television"
+        ],
+        "es-MX": [
+          "Intentamos sobrellevar la situación",
+          "Intentamos cocinar la situación",
+          "Intentamos copiar la situación",
+          "Intentamos escapar de la televisión"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "We try to cope with the situation",
+        "es-MX": "Intentamos sobrellevar la situación"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'To cope with' means to deal with or manage something difficult or stressful. It's commonly used when referring to emotional or challenging situations."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Cope with' significa enfrentar o sobrellevar algo difícil o estresante. Es comúnmente usado en situaciones emocionales o complicadas."
+          }
+        ]
+      },
+      "Tags": [
+        "cope with",
+        "situation",
+        "B2",
+        "emotions"
+      ]
+    },
+    {
+      "Category": "Formal Language & Nuance",
+      "Level": "C2",
+      "Question Text": {
+        "en-US": [
+          "Which sentence best expresses 'No podemos subestimar la importancia de esta decisión' in English?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español 'We cannot overstate the significance of this decision'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "We cannot overstate the significance of this decision",
+          "We must undercook the meaning of this situation",
+          "We should ignore how big this decision is",
+          "We can explain the consequences of that dinner"
+        ],
+        "es-MX": [
+          "No podemos subestimar la importancia de esta decisión",
+          "Debemos cocinar poco el significado de esta situación",
+          "Deberíamos ignorar lo grande que es esta decisión",
+          "Podemos explicar las consecuencias de esa cena"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "We cannot overstate the significance of this decision",
+        "es-MX": "No podemos subestimar la importancia de esta decisión"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrase 'We cannot overstate the significance' is a formal and emphatic way to express how extremely important something is. It implies that no matter how much you stress it, it's still not enough."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'No podemos subestimar la importancia' es una forma formal y enfática de decir que algo es extremadamente importante, incluso más de lo que se puede expresar."
+          }
+        ]
+      },
+      "Tags": [
+        "C2",
+        "formal",
+        "overstate",
+        "significance",
+        "emphasis"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "C2",
+      "Question Text": {
+        "en-US": [
+          "What does the expression 'I hauled out' mean in context?"
+        ],
+        "es-MX": [
+          "¿Qué significa en español la expresión 'I hauled out'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I dragged or pulled something out with effort",
+          "I hid something under the bed",
+          "I escaped through a window",
+          "I cleaned everything very fast"
+        ],
+        "es-MX": [
+          "Saqué algo con esfuerzo",
+          "Escondí algo bajo la cama",
+          "Escapé por una ventana",
+          "Limpié todo muy rápido"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I dragged or pulled something out with effort",
+        "es-MX": "Saqué algo con esfuerzo"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'haul out' means to pull or drag something out with force, especially if it is heavy or difficult to move. It is often used in formal or descriptive writing."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Haul out' significa sacar o arrastrar algo con esfuerzo, especialmente si es pesado. Es una expresión común en descripciones detalladas o narraciones formales."
+          }
+        ]
+      },
+      "Tags": [
+        "haul out",
+        "phrasal verb",
+        "C2",
+        "advanced"
+      ]
+    },
+    {
+      "Category": "Descriptive Verbs",
+      "Level": "B2",
+      "Question Text": {
+        "en-US": [
+          "What does the phrase 'I staggered down' imply in a sentence?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce correctamente la frase 'I staggered down'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I walked unsteadily downward",
+          "I ran confidently upstairs",
+          "I jumped down singing",
+          "I disappeared into the forest"
+        ],
+        "es-MX": [
+          "Bajé tambaleándome",
+          "Subí corriendo con confianza",
+          "Bajé cantando de un salto",
+          "Desaparecí en el bosque"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I walked unsteadily downward",
+        "es-MX": "Bajé tambaleándome"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Staggered down' means to move downward with difficulty, often due to injury, dizziness, or weakness. It's commonly used in storytelling to describe physical instability."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Staggered down' significa moverse hacia abajo con dificultad, a menudo por lesión, mareo o debilidad. Se usa frecuentemente en narraciones para describir inestabilidad física."
+          }
+        ]
+      },
+      "Tags": [
+        "staggered",
+        "movement",
+        "instability",
+        "B2"
+      ]
+    },
+    {
+      "Category": "Descriptive Verbs",
+      "Level": "B2",
+      "Question Text": {
+        "en-US": [
+          "What does the phrase 'I staggered down' imply in a sentence?"
+        ],
+        "es-MX": [
+          "¿Cómo se traduce correctamente la frase 'I staggered down'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I walked unsteadily downward",
+          "I ran confidently upstairs",
+          "I jumped down singing",
+          "I disappeared into the forest"
+        ],
+        "es-MX": [
+          "Bajé tambaleándome",
+          "Subí corriendo con confianza",
+          "Bajé cantando de un salto",
+          "Desaparecí en el bosque"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I walked unsteadily downward",
+        "es-MX": "Bajé tambaleándome"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "'Staggered down' means to move downward with difficulty, often due to injury, dizziness, or weakness. It's commonly used in storytelling to describe physical instability."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'Staggered down' significa moverse hacia abajo con dificultad, a menudo por lesión, mareo o debilidad. Se usa frecuentemente en narraciones para describir inestabilidad física."
+          }
+        ]
+      },
+      "Tags": [
+        "staggered",
+        "movement",
+        "instability",
+        "B2"
+      ]
+    },
+    {
+      "Category": "Phrasal Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "How do you say 'Me muero de hambre, vamos a comer' in English?",
+          "What’s a natural way to say you're very hungry and ready to eat?",
+          "Which phrase means you're extremely hungry and want to eat now?"
+        ],
+        "es-MX": [
+          "¿Cómo se dice 'I'm starving, let's eat' en español?",
+          "¿Qué frase expresa que tienes mucha hambre y quieres comer ya?",
+          "¿Cómo traducirías 'I'm starving, let's eat'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'm sleepy, let's go to bed",
+          "I'm starving, let's eat",
+          "I'm freezing, let's stay outside",
+          "I'm fine, let's go swimming"
+        ],
+        "es-MX": [
+          "Tengo sueño, vamos a dormir",
+          "Me muero de hambre, vamos a comer",
+          "Tengo frío, vamos a quedarnos afuera",
+          "Estoy bien, vamos a nadar"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'm starving, let's eat",
+        "es-MX": "Me muero de hambre, vamos a comer"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrase 'I'm starving' is a common and casual way to say you're very hungry. It doesn’t mean actual starvation but expresses urgency to eat."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "'I'm starving' es una forma informal y común de decir que tienes mucha hambre. No significa una hambruna real, sino que quieres comer ya."
+          }
+        ]
+      },
+      "Tags": [
+        "starving",
+        "hunger",
+        "A2",
+        "everyday phrases"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "How do you say '¿Puedes creer el frío que hizo anoche?' in English?",
+          "Which phrase means you’re surprised by how cold it was last night?",
+          "What’s a natural way to express shock about last night’s temperature?"
+        ],
+        "es-MX": [
+          "¿Cómo se dice 'Can you believe how cold it got last night?' en español?",
+          "¿Qué frase expresa sorpresa por el frío que hizo anoche?",
+          "¿Cómo traducirías 'Can you believe how cold it got last night?'?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can you believe how hot it got last night?",
+          "Can you believe how cold it got last night?",
+          "Can you believe how loud it was last night?",
+          "Can you believe how dark it got last night?"
+        ],
+        "es-MX": [
+          "¿Puedes creer el calor que hizo anoche?",
+          "¿Puedes creer el frío que hizo anoche?",
+          "¿Puedes creer lo ruidoso que fue anoche?",
+          "¿Puedes creer lo oscuro que se puso anoche?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can you believe how cold it got last night?",
+        "es-MX": "¿Puedes creer el frío que hizo anoche?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "This phrase expresses surprise or amazement at how low the temperature dropped during the previous night."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Esta frase expresa sorpresa o asombro por lo mucho que bajó la temperatura durante la noche anterior."
+          }
+        ]
+      },
+      "Tags": [
+        "weather",
+        "cold",
+        "B1",
+        "daily expression"
+      ]
+    },
+    {
+      "Category": "Phrasal Verbs",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What does 'I've got to head out soon' mean?",
+          "How do you say 'Tengo que salir pronto' in English?",
+          "Which sentence means you're about to leave soon?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I've got to head out soon'?",
+          "¿Cómo se dice en español 'I've got to head out soon'?",
+          "¿Qué frase expresa que tienes que irte pronto?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I've got to fall asleep soon",
+          "I've got to head out soon",
+          "I've got to call someone now",
+          "I've got to cook something soon"
+        ],
+        "es-MX": [
+          "Tengo que dormir pronto",
+          "Tengo que salir pronto",
+          "Tengo que llamar a alguien",
+          "Tengo que cocinar algo"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I've got to head out soon",
+        "es-MX": "Tengo que salir pronto"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The phrasal verb 'head out' means to leave a place or start going somewhere. 'I've got to head out soon' means the speaker needs to leave shortly."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El phrasal verb 'head out' significa salir de un lugar o empezar a ir hacia algún sitio. 'Tengo que salir pronto' indica que la persona se va en breve."
+          }
+        ]
+      },
+      "Tags": [
+        "head out",
+        "leave",
+        "B1",
+        "phrasal verb"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'I've got to go' mean?",
+          "How do you say 'Me tengo que ir' in English?",
+          "Which phrase means that someone must leave?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I've got to go'?",
+          "¿Cómo se dice en español 'I've got to go'?",
+          "¿Qué frase indica que alguien tiene que irse?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I've got to sleep",
+          "I've got to go",
+          "I've got to eat",
+          "I've got to think"
+        ],
+        "es-MX": [
+          "Tengo que dormir",
+          "Me tengo que ir",
+          "Tengo que comer",
+          "Tengo que pensar"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I've got to go",
+        "es-MX": "Me tengo que ir"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I've got to go'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got to' is a casual way of saying 'I have to', which expresses obligation or necessity."
+          },
+          {
+            "type": "text",
+            "content": "'Go' means to leave or depart from the current place."
+          },
+          {
+            "type": "text",
+            "content": "Together, 'I've got to go' means that the speaker needs to leave soon or right away."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Me tengo que ir'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got to' es una forma informal de decir 'I have to', que indica obligación o necesidad."
+          },
+          {
+            "type": "text",
+            "content": "'Go' significa irse o salir de donde uno está."
+          },
+          {
+            "type": "text",
+            "content": "La frase completa 'I've got to go' se usa para decir que uno necesita retirarse pronto o inmediatamente."
+          }
+        ]
+      },
+      "Tags": [
+        "got to",
+        "go",
+        "A2",
+        "daily expression",
+        "obligation"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'I need to lie down' mean?",
+          "How do you say 'Necesito recostarme' in English?",
+          "Which phrase means that someone wants to rest by lying on a bed or sofa?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I need to lie down'?",
+          "¿Cómo se dice en español 'I need to lie down'?",
+          "¿Qué frase indica que alguien quiere descansar acostándose?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I need to lie down",
+          "I need to get up",
+          "I need to go out",
+          "I need to stand up"
+        ],
+        "es-MX": [
+          "Necesito recostarme",
+          "Necesito levantarme",
+          "Necesito salir",
+          "Necesito ponerme de pie"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I need to lie down",
+        "es-MX": "Necesito recostarme"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I need to lie down'"
+          },
+          {
+            "type": "text",
+            "content": "'Lie down' is a phrasal verb that means to place your body in a horizontal position, usually on a bed or sofa."
+          },
+          {
+            "type": "text",
+            "content": "'I need to' expresses a necessity or desire to do something."
+          },
+          {
+            "type": "text",
+            "content": "So, 'I need to lie down' means that the person feels tired or unwell and wants to rest by lying down."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Necesito recostarme'"
+          },
+          {
+            "type": "text",
+            "content": "'Lie down' es un phrasal verb que significa colocar el cuerpo en posición horizontal, generalmente en una cama o sofá."
+          },
+          {
+            "type": "text",
+            "content": "'I need to' expresa una necesidad o deseo de hacer algo."
+          },
+          {
+            "type": "text",
+            "content": "Por eso, 'I need to lie down' significa que la persona se siente cansada o mal y quiere descansar acostándose."
+          }
+        ]
+      },
+      "Tags": [
+        "lie down",
+        "phrasal verb",
+        "A2",
+        "daily expression",
+        "rest"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What does 'I lay down' mean?",
+          "How do you say 'Yo me recosté' in English?",
+          "Which phrase describes that someone lay down at a specific time in the past?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I lay down'?",
+          "¿Cómo se dice en español 'I lay down'?",
+          "¿Qué frase indica que alguien se recostó en un momento específico del pasado?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I lay down",
+          "I stood up",
+          "I sat down",
+          "I ran away"
+        ],
+        "es-MX": [
+          "Yo me recosté",
+          "Yo me levanté",
+          "Yo me senté",
+          "Yo salí corriendo"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I lay down",
+        "es-MX": "Yo me recosté"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I lay down'"
+          },
+          {
+            "type": "text",
+            "content": "'Lay' is the past tense of the verb 'lie' (to rest in a horizontal position)."
+          },
+          {
+            "type": "text",
+            "content": "The phrase 'I lay down' means the person reclined or rested at a specific point in the past."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Yo me recosté'"
+          },
+          {
+            "type": "text",
+            "content": "'Lay' es el pasado del verbo 'lie', que significa descansar en posición horizontal."
+          },
+          {
+            "type": "text",
+            "content": "La frase 'I lay down' indica que la persona se recostó en un momento específico en el pasado."
+          }
+        ]
+      },
+      "Tags": [
+        "lay down",
+        "past tense",
+        "B1",
+        "phrasal verb",
+        "daily expression"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What does 'I used to lie down' mean?",
+          "How do you say 'Yo solía recostarme' in English?",
+          "Which phrase means that someone regularly lay down in the past?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I used to lie down'?",
+          "¿Cómo se dice en español 'I used to lie down'?",
+          "¿Qué frase indica que alguien se recostaba habitualmente en el pasado?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I used to lie down",
+          "I used to wake up",
+          "I used to walk fast",
+          "I used to cook"
+        ],
+        "es-MX": [
+          "Yo solía recostarme",
+          "Yo solía despertarme",
+          "Yo solía caminar rápido",
+          "Yo solía cocinar"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I used to lie down",
+        "es-MX": "Yo solía recostarme"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I used to lie down'"
+          },
+          {
+            "type": "text",
+            "content": "'Used to' is a structure used to describe habits or repeated actions in the past that no longer happen."
+          },
+          {
+            "type": "text",
+            "content": "'Lie down' means to rest in a horizontal position."
+          },
+          {
+            "type": "text",
+            "content": "So 'I used to lie down' means the person frequently rested by lying down in the past."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Yo solía recostarme'"
+          },
+          {
+            "type": "text",
+            "content": "'Used to' es una estructura que se usa para describir hábitos o acciones repetidas en el pasado que ya no ocurren."
+          },
+          {
+            "type": "text",
+            "content": "'Lie down' significa acostarse o ponerse en posición horizontal para descansar."
+          },
+          {
+            "type": "text",
+            "content": "Entonces 'I used to lie down' quiere decir que la persona se recostaba con frecuencia en el pasado."
+          }
+        ]
+      },
+      "Tags": [
+        "used to",
+        "lie down",
+        "B1",
+        "past habits",
+        "phrasal verb"
+      ]
+    },
+    {
+      "Category": "Idioms",
+      "Level": "B2",
+      "Question Text": {
+        "en-US": [
+          "What does the expression 'the straw that broke the camel's back' mean?",
+          "Which idiom refers to a small final burden that causes a breakdown?",
+          "What phrase describes the last small thing that causes someone to lose patience?"
+        ],
+        "es-MX": [
+          "¿Qué significa la expresión 'the straw that broke the camel's back'?",
+          "¿Qué modismo se refiere a una carga final que provoca una ruptura?",
+          "¿Qué frase describe esa pequeña cosa que hace que alguien pierda la paciencia?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "The straw that broke the camel's back",
+          "To kill two birds with one stone",
+          "Bite off more than you can chew",
+          "Let the cat out of the bag"
+        ],
+        "es-MX": [
+          "La gota que derramó el vaso",
+          "Matar dos pájaros de un tiro",
+          "Morder más de lo que puedes masticar",
+          "Revelar un secreto sin querer"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "The straw that broke the camel's back",
+        "es-MX": "La gota que derramó el vaso"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'the straw that broke the camel's back'"
+          },
+          {
+            "type": "text",
+            "content": "This idiom refers to the last in a series of many problems that causes someone to finally lose patience, get angry, or collapse."
+          },
+          {
+            "type": "text",
+            "content": "It suggests that even a small burden can have a big impact if it's added on top of many others."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'la gota que derramó el vaso'"
+          },
+          {
+            "type": "text",
+            "content": "Este modismo se refiere al último problema o molestia de una larga serie que hace que alguien finalmente pierda la paciencia o se derrumbe."
+          },
+          {
+            "type": "text",
+            "content": "La idea es que incluso algo pequeño puede causar un gran impacto si ya hay una acumulación de problemas previos."
+          }
+        ]
+      },
+      "Tags": [
+        "idiom",
+        "straw",
+        "camel",
+        "B2",
+        "frustration",
+        "final limit"
+      ]
+    },
+    {
+      "Category": "Small Talk – Weather",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What feeling does the question 'Can you believe how cold it got last night?' convey?",
+          "How do you say in English: '¿Puedes creer lo frío que estuvo anoche?'",
+          "Which sentence shows surprise about low temperatures during the previous night?"
+        ],
+        "es-MX": [
+          "¿Qué sensación transmite la pregunta 'Can you believe how cold it got last night?'?",
+          "¿Cómo se dice en español 'Can you believe how cold it got last night?'",
+          "¿Qué frase expresa sorpresa por lo frío que estuvo la noche anterior?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Can you believe how cold it got last night?",
+          "Can you believe how hot it got last night?",
+          "Can you believe how cold it got this morning?",
+          "Can you believe how warm it got last night?"
+        ],
+        "es-MX": [
+          "¿Puedes creer lo frío que estuvo anoche?",
+          "¿Puedes creer lo caliente que estuvo anoche?",
+          "¿Puedes creer lo frío que estuvo esta mañana?",
+          "¿Puedes creer lo templado que estuvo anoche?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Can you believe how cold it got last night?",
+        "es-MX": "¿Puedes creer lo frío que estuvo anoche?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding the expression"
+          },
+          {
+            "type": "text",
+            "content": "The question starts with 'Can you believe…' to express surprise or amazement."
+          },
+          {
+            "type": "text",
+            "content": "'How cold it got' refers to the temperature dropping significantly."
+          },
+          {
+            "type": "text",
+            "content": "Together, the sentence shows astonishment at how low the temperature fell during the previous night."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo la expresión"
+          },
+          {
+            "type": "text",
+            "content": "La pregunta inicia con '¿Puedes creer…' para expresar sorpresa o asombro."
+          },
+          {
+            "type": "text",
+            "content": "'Lo frío que estuvo' indica que la temperatura bajó considerablemente."
+          },
+          {
+            "type": "text",
+            "content": "En conjunto, la frase muestra asombro por lo mucho que descendió la temperatura la noche anterior."
+          }
+        ]
+      },
+      "Tags": [
+        "weather",
+        "surprise",
+        "cold",
+        "B1",
+        "small talk"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'Did you take out the trash?' mean?",
+          "How do you say '¿Sacaste la basura?' in English?",
+          "Which sentence is asking if someone removed the garbage from the house?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'Did you take out the trash?'?",
+          "¿Cómo se dice en español 'Did you take out the trash?'?",
+          "¿Qué frase pregunta si alguien sacó la basura de la casa?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Did you take out the trash?",
+          "Did you take in the groceries?",
+          "Did you clean up the room?",
+          "Did you turn off the lights?"
+        ],
+        "es-MX": [
+          "¿Sacaste la basura?",
+          "¿Metiste las compras?",
+          "¿Limpiaste el cuarto?",
+          "¿Apagaste las luces?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Did you take out the trash?",
+        "es-MX": "¿Sacaste la basura?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'Did you take out the trash?'"
+          },
+          {
+            "type": "text",
+            "content": "'Take out' is a phrasal verb that means to remove something from inside and bring it outside."
+          },
+          {
+            "type": "text",
+            "content": "In this case, 'the trash' refers to the household garbage."
+          },
+          {
+            "type": "text",
+            "content": "So the question is asking whether the person removed the garbage and placed it outside for collection."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo '¿Sacaste la basura?'"
+          },
+          {
+            "type": "text",
+            "content": "'Take out' es un phrasal verb que significa sacar algo del interior para llevarlo afuera."
+          },
+          {
+            "type": "text",
+            "content": "'The trash' se refiere a la basura doméstica."
+          },
+          {
+            "type": "text",
+            "content": "Entonces la pregunta quiere saber si la persona ya sacó la basura al exterior para que se la lleven."
+          }
+        ]
+      },
+      "Tags": [
+        "take out",
+        "trash",
+        "A2",
+        "phrasal verb",
+        "daily chores"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'I've got to head out soon' mean?",
+          "How do you say 'Tengo que salir pronto' in English?",
+          "Which phrase expresses the need to leave a place shortly?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I've got to head out soon'?",
+          "¿Cómo se dice en español 'I've got to head out soon'?",
+          "¿Qué frase expresa que alguien debe irse pronto de un lugar?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I've got to head out soon",
+          "I've got to stay in bed",
+          "I've got to eat now",
+          "I've got to clean the house"
+        ],
+        "es-MX": [
+          "Tengo que salir pronto",
+          "Tengo que quedarme en la cama",
+          "Tengo que comer ahora",
+          "Tengo que limpiar la casa"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I've got to head out soon",
+        "es-MX": "Tengo que salir pronto"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I've got to head out soon'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got to' is a casual form of saying 'I have to', indicating obligation or necessity."
+          },
+          {
+            "type": "text",
+            "content": "'Head out' is a phrasal verb that means to leave a place, especially to go somewhere else."
+          },
+          {
+            "type": "text",
+            "content": "So the sentence means the speaker needs to leave soon."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Tengo que salir pronto'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got to' es una forma informal de decir 'I have to', que expresa obligación o necesidad."
+          },
+          {
+            "type": "text",
+            "content": "'Head out' es un phrasal verb que significa salir de un lugar, generalmente para ir a otro."
+          },
+          {
+            "type": "text",
+            "content": "Entonces la frase indica que la persona necesita irse pronto."
+          }
+        ]
+      },
+      "Tags": [
+        "head out",
+        "A2",
+        "leave",
+        "phrasal verb",
+        "daily expression"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'I've got to go' mean?",
+          "How do you say 'Me tengo que ir' in English?",
+          "Which phrase means that someone must leave?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I've got to go'?",
+          "¿Cómo se dice en español 'I've got to go'?",
+          "¿Qué frase indica que alguien tiene que irse?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I've got to think",
+          "I've got to go",
+          "I've got to sleep",
+          "I've got to eat"
+        ],
+        "es-MX": [
+          "Tengo que pensar",
+          "Me tengo que ir",
+          "Tengo que dormir",
+          "Tengo que comer"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I've got to go",
+        "es-MX": "Me tengo que ir"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I've got to go'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got to' is a casual way of saying 'I have to', which expresses obligation or necessity."
+          },
+          {
+            "type": "text",
+            "content": "'Go' means to leave or depart from the current place."
+          },
+          {
+            "type": "text",
+            "content": "Together, 'I've got to go' means that the speaker needs to leave soon or right away."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Me tengo que ir'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got to' es una forma informal de decir 'I have to', que indica obligación o necesidad."
+          },
+          {
+            "type": "text",
+            "content": "'Go' significa irse o salir de donde uno está."
+          },
+          {
+            "type": "text",
+            "content": "La frase completa 'I've got to go' se usa para decir que uno necesita retirarse pronto o inmediatamente."
+          }
+        ]
+      },
+      "Tags": [
+        "got to",
+        "go",
+        "A2",
+        "daily expression",
+        "obligation"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'I'm on my way' mean?",
+          "How do you say 'Estoy en camino' in English?",
+          "Which phrase tells someone that you are already heading to meet them?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I'm on my way'?",
+          "¿Cómo se dice en español 'I'm on my way'?",
+          "¿Qué frase indica que ya vas rumbo a encontrarte con alguien?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I'm at home",
+          "I'm leaving now",
+          "I'm on my way",
+          "I'm waiting for you"
+        ],
+        "es-MX": [
+          "Estoy en casa",
+          "Estoy saliendo ahora",
+          "Estoy en camino",
+          "Estoy esperándote"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I'm on my way",
+        "es-MX": "Estoy en camino"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I'm on my way'"
+          },
+          {
+            "type": "text",
+            "content": "The phrase means that the speaker is currently traveling toward the destination and will arrive soon."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Estoy en camino'"
+          },
+          {
+            "type": "text",
+            "content": "La frase indica que la persona ya va rumbo al lugar y llegará pronto."
+          }
+        ]
+      },
+      "Tags": [
+        "on my way",
+        "A2",
+        "daily expression",
+        "travel",
+        "arrival"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'I've got everything I need' mean?",
+          "How do you say 'Tengo todo lo que necesito' in English?",
+          "Which phrase expresses that someone has all the necessary things?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'I've got everything I need'?",
+          "¿Cómo se dice en español 'I've got everything I need'?",
+          "¿Qué frase expresa que alguien tiene todo lo necesario?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "I've got everything I need",
+          "I've got nothing to do",
+          "I've got to go soon",
+          "I've got a question"
+        ],
+        "es-MX": [
+          "Tengo todo lo que necesito",
+          "No tengo nada que hacer",
+          "Tengo que irme pronto",
+          "Tengo una pregunta"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "I've got everything I need",
+        "es-MX": "Tengo todo lo que necesito"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'I've got everything I need'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got' is a casual way to say 'I have'."
+          },
+          {
+            "type": "text",
+            "content": "'Everything I need' refers to all the things that are necessary or desired."
+          },
+          {
+            "type": "text",
+            "content": "So, the phrase means the person has all they require at the moment."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Tengo todo lo que necesito'"
+          },
+          {
+            "type": "text",
+            "content": "'I've got' es una forma informal de decir 'I have' (tengo)."
+          },
+          {
+            "type": "text",
+            "content": "'Everything I need' se refiere a todas las cosas que uno necesita o desea."
+          },
+          {
+            "type": "text",
+            "content": "En conjunto, la frase significa que la persona ya cuenta con todo lo necesario."
+          }
+        ]
+      },
+      "Tags": [
+        "got",
+        "everything",
+        "A2",
+        "daily expression",
+        "necessity"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What does 'Are you going to put that away or should I?' mean?",
+          "How do you say '¿Vas a guardar eso o lo guardo yo?' in English?",
+          "Which question politely asks someone to put something in its proper place?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'Are you going to put that away or should I?'?",
+          "¿Cómo se dice en español 'Are you going to put that away or should I?'?",
+          "¿Qué frase se usa para pedirle a alguien que guarde algo en su lugar?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Are you going to put that away or should I?",
+          "Are you going to throw that out or keep it?",
+          "Are you going to fix that or leave it there?",
+          "Are you going to wash that or use it again?"
+        ],
+        "es-MX": [
+          "¿Vas a guardar eso o lo guardo yo?",
+          "¿Vas a tirar eso o lo vas a guardar?",
+          "¿Vas a arreglar eso o lo dejas ahí?",
+          "¿Vas a lavar eso o lo vuelves a usar?"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Are you going to put that away or should I?",
+        "es-MX": "¿Vas a guardar eso o lo guardo yo?"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'put that away'"
+          },
+          {
+            "type": "text",
+            "content": "'Put away' is a phrasal verb meaning to return something to its usual or proper place."
+          },
+          {
+            "type": "text",
+            "content": "This question is often used when someone leaves an item out and it's time to clean or tidy up."
+          },
+          {
+            "type": "text",
+            "content": "The second part, 'or should I?', suggests the speaker is offering to do it if the other person won’t."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'put that away'"
+          },
+          {
+            "type": "text",
+            "content": "'Put away' es un phrasal verb que significa guardar algo en su lugar habitual."
+          },
+          {
+            "type": "text",
+            "content": "Esta pregunta se usa comúnmente cuando alguien deja algo fuera de lugar y es hora de ordenar."
+          },
+          {
+            "type": "text",
+            "content": "La parte '¿o lo guardo yo?' indica que el hablante lo hará si la otra persona no lo hace."
+          }
+        ]
+      },
+      "Tags": [
+        "put away",
+        "phrasal verb",
+        "B1",
+        "daily expression",
+        "cleaning",
+        "tidy up"
+      ]
+    },
+    {
+      "Category": "Idioms",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What does the phrase 'It slipped my mind' mean?",
+          "How do you say 'Se me olvidó' in English?",
+          "Which idiom is used when someone forgets something unintentionally?"
+        ],
+        "es-MX": [
+          "¿Qué significa la frase 'It slipped my mind'?",
+          "¿Cómo se dice en español 'It slipped my mind'?",
+          "¿Qué modismo se usa cuando alguien olvida algo sin querer?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "It slipped my mind",
+          "It crossed my heart",
+          "It caught my eye",
+          "It blew my mind"
+        ],
+        "es-MX": [
+          "Se me olvidó",
+          "Lo juro",
+          "Me llamó la atención",
+          "Me dejó impactado"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "It slipped my mind",
+        "es-MX": "Se me olvidó"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'It slipped my mind'"
+          },
+          {
+            "type": "text",
+            "content": "This idiom means that you accidentally forgot something. It suggests the thought 'slipped' away without you noticing."
+          },
+          {
+            "type": "text",
+            "content": "It’s commonly used to apologize for not remembering something, like an appointment or task."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Se me olvidó'"
+          },
+          {
+            "type": "text",
+            "content": "Este modismo significa que olvidaste algo por accidente. Sugiere que el pensamiento 'se te escapó'."
+          },
+          {
+            "type": "text",
+            "content": "Se usa comúnmente para disculparse por no haber recordado algo como una cita o una tarea."
+          }
+        ]
+      },
+      "Tags": [
+        "slipped my mind",
+        "forget",
+        "idiom",
+        "B1",
+        "memory",
+        "apology"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "A2",
+      "Question Text": {
+        "en-US": [
+          "What does 'It's getting late' mean?",
+          "How do you say 'Se está haciendo tarde' in English?",
+          "Which phrase expresses that time is passing and it's becoming late?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'It's getting late'?",
+          "¿Cómo se dice en español 'It's getting late'?",
+          "¿Qué frase indica que el tiempo avanza y ya es tarde?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "It's still early",
+          "It's getting dark",
+          "It's getting late",
+          "It's too cold"
+        ],
+        "es-MX": [
+          "Todavía es temprano",
+          "Se está oscureciendo",
+          "Se está haciendo tarde",
+          "Hace mucho frío"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "It's getting late",
+        "es-MX": "Se está haciendo tarde"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'It's getting late'"
+          },
+          {
+            "type": "text",
+            "content": "'It's getting late' means that time is passing and it's approaching the end of the day or night."
+          },
+          {
+            "type": "text",
+            "content": "People often say this when they realize it's time to leave, go home, or go to bed."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Se está haciendo tarde'"
+          },
+          {
+            "type": "text",
+            "content": "'It's getting late' significa que el tiempo está avanzando y ya casi termina el día o la noche."
+          },
+          {
+            "type": "text",
+            "content": "La gente suele decir esto cuando se dan cuenta de que es hora de irse, regresar a casa o acostarse."
+          }
+        ]
+      },
+      "Tags": [
+        "time",
+        "A2",
+        "getting late",
+        "daily expression",
+        "routine"
+      ]
+    },
+    {
+      "Category": "Daily Expressions",
+      "Level": "B1",
+      "Question Text": {
+        "en-US": [
+          "What does 'We're running out of time' mean?",
+          "How do you say 'Nos estamos quedando sin tiempo' in English?",
+          "Which phrase expresses that time is almost over?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'We're running out of time'?",
+          "¿Cómo se dice en español 'We're running out of time'?",
+          "¿Qué frase expresa que el tiempo casi se acaba?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "We're running out of time",
+          "We're having a great time",
+          "We're spending too much time",
+          "We're taking our time"
+        ],
+        "es-MX": [
+          "Nos estamos quedando sin tiempo",
+          "La estamos pasando muy bien",
+          "Estamos gastando mucho tiempo",
+          "Nos estamos tomando nuestro tiempo"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "We're running out of time",
+        "es-MX": "Nos estamos quedando sin tiempo"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'We're running out of time'"
+          },
+          {
+            "type": "text",
+            "content": "'Run out of' is a phrasal verb that means to use something until there is none left."
+          },
+          {
+            "type": "text",
+            "content": "In this case, 'time' is the thing that is disappearing."
+          },
+          {
+            "type": "text",
+            "content": "So 'We're running out of time' means there's very little time left to complete something."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Nos estamos quedando sin tiempo'"
+          },
+          {
+            "type": "text",
+            "content": "'Run out of' es un phrasal verb que significa agotar o quedarse sin algo."
+          },
+          {
+            "type": "text",
+            "content": "En este caso, lo que se está acabando es el tiempo."
+          },
+          {
+            "type": "text",
+            "content": "'Nos estamos quedando sin tiempo' indica que queda muy poco tiempo para terminar algo."
+          }
+        ]
+      },
+      "Tags": [
+        "run out of",
+        "time",
+        "B1",
+        "phrasal verb",
+        "urgency",
+        "daily expression"
+      ]
+    },
+    {
+      "Category": "Business Expressions",
+      "Level": "B2",
+      "Question Text": {
+        "en-US": [
+          "What does 'He was never able to get them to pay me an advance' mean?",
+          "How do you say 'nunca pudo lograr que me pagaran un adelanto' in English?",
+          "Which sentence expresses that someone failed to obtain a payment in advance?"
+        ],
+        "es-MX": [
+          "¿Qué significa 'He was never able to get them to pay me an advance'?",
+          "¿Cómo se dice en inglés 'nunca pudo lograr que me pagaran un adelanto'?",
+          "¿Qué frase indica que alguien no logró que le pagaran un adelanto?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "He was never able to get them to pay me an advance",
+          "He always received full payment in advance",
+          "They paid him more than expected",
+          "He managed to get the money early"
+        ],
+        "es-MX": [
+          "Nunca pudo lograr que me pagaran un adelanto",
+          "Siempre recibió el pago completo por adelantado",
+          "Le pagaron más de lo esperado",
+          "Logró conseguir el dinero con anticipación"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "He was never able to get them to pay me an advance",
+        "es-MX": "Nunca pudo lograr que me pagaran un adelanto"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Understanding 'He was never able to get them to pay me an advance'"
+          },
+          {
+            "type": "text",
+            "content": "This sentence means that someone tried, but failed, to convince others to give a payment before the job was done."
+          },
+          {
+            "type": "text",
+            "content": "The phrase 'to get someone to do something' means to persuade or succeed in making someone do it."
+          },
+          {
+            "type": "text",
+            "content": "An 'advance' is a payment made before the work is completed."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Entendiendo 'Nunca pudo lograr que me pagaran un adelanto'"
+          },
+          {
+            "type": "text",
+            "content": "Esta frase significa que alguien intentó, pero no logró, que le pagaran antes de realizar el trabajo."
+          },
+          {
+            "type": "text",
+            "content": "La expresión 'get someone to do something' significa lograr que alguien haga algo, convencerlo."
+          },
+          {
+            "type": "text",
+            "content": "'An advance' se refiere a un pago por adelantado, antes de completar la tarea."
+          }
+        ]
+      },
+      "Tags": [
+        "business",
+        "advance payment",
+        "get someone to",
+        "B2",
+        "negotiation",
+        "daily expression"
+      ]
+    }
+    
+     
     
     
+    
+    
+    
+    
+
+    
+
     
     
     

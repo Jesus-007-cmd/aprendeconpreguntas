@@ -1,0 +1,582 @@
+{
+    "Quiz Title": "Desarrollo Web con marcos de trabajo",
+    "Questions": [
+      {
+        "Category": "Conceptos básicos",
+        "Question Text": {
+          "es-MX": ["¿Qué es un framework?"],
+          "en-US": ["What is a framework?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Un conjunto estructurado de componentes reutilizables y reglas que agilizan el desarrollo de software",
+            "Un sistema operativo que permite ejecutar programas",
+            "Una interfaz gráfica que solo sirve para diseñar interfaces sin lógica",
+            "Un compilador que transforma código fuente en ejecutables"
+          ],
+          "en-US": [
+            "A structured set of reusable components and rules that streamlines software development",
+            "An operating system that allows running programs",
+            "A graphical interface only used to design layouts without logic",
+            "A compiler that transforms source code into executables"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Un conjunto estructurado de componentes reutilizables y reglas que agilizan el desarrollo de software",
+          "en-US": "A structured set of reusable components and rules that streamlines software development"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Un framework no es un lenguaje ni una herramienta aislada, sino una estructura completa que impone convenciones y facilita tareas comunes como el enrutamiento, manejo de datos, etc."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "A framework is not a language or an isolated tool, but a complete structure that enforces conventions and simplifies tasks like routing, data handling, and more."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Conceptos clave",
+        "Question Text": {
+          "es-MX": ["¿Qué es un framework?"],
+          "en-US": ["What is a framework?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Una librería que únicamente permite compilar código sin reglas específicas.",
+            "Un archivo de configuración que organiza los estilos visuales de un sitio web.",
+            "Un lenguaje de bajo nivel diseñado para crear firmware en sistemas embebidos.",
+            "Un conjunto estructurado que agiliza el desarrollo, disminuye desaciertos y propicia un mejor ambiente al programador."
+          ],
+          "en-US": [
+            "A library that only allows code compilation without specific rules.",
+            "A config file that organizes the visual styles of a website.",
+            "A low-level language designed to build firmware for embedded systems.",
+            "A structured set that accelerates development, reduces mistakes, and fosters a better environment for developers."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Un conjunto estructurado que agiliza el desarrollo, disminuye desaciertos y propicia un mejor ambiente al programador.",
+          "en-US": "A structured set that accelerates development, reduces mistakes, and fosters a better environment for developers."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "Agilizan el desarrollo al ofrecer componentes reutilizables.",
+                "Disminuyen desaciertos al seguir patrones probados.",
+                "Propician un mejor ambiente al programador al reducir la complejidad del proyecto."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "Accelerates development by offering reusable components.",
+                "Reduces mistakes by following proven patterns.",
+                "Fosters a better developer environment by lowering project complexity."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Conceptos clave",
+        "Question Text": {
+          "es-MX": ["¿Qué es una librería?"],
+          "en-US": ["What is a library (in programming)?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Un entorno de desarrollo completo que impone arquitectura, flujo y reglas estrictas.",
+            "Un lenguaje de programación diseñado para extender funcionalidades del sistema operativo.",
+            "Una plataforma gráfica que estructura automáticamente el backend de una aplicación.",
+            "Conjunto de funciones reutilizables que se integran al código respetando su API, sin imponer estructura y facilitando tareas comunes."
+          ],
+          "en-US": [
+            "A complete development environment that imposes architecture, flow, and strict rules.",
+            "A programming language designed to extend operating system functionalities.",
+            "A graphical platform that automatically structures the backend of an application.",
+            "A set of reusable functions integrated via APIs without enforcing structure, making development easier."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Conjunto de funciones reutilizables que se integran al código respetando su API, sin imponer estructura y facilitando tareas comunes.",
+          "en-US": "A set of reusable functions integrated via APIs without enforcing structure, making development easier."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "Simplifican funciones y expresiones.",
+                "Pueden usarse desde el código sin modificar la estructura de la aplicación.",
+                "Son fáciles de adaptar y mejoran la rapidez del desarrollo.",
+                "No imponen cómo debe desarrollarse la aplicación."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "Simplify functions and expressions.",
+                "Can be used from your code without modifying application structure.",
+                "Easy to adapt and improve development speed.",
+                "Do not enforce how the app should be built."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de Frameworks",
+        "Question Text": {
+          "es-MX": ["¿Cuál de las siguientes afirmaciones describe un framework relacionado con JavaScript y AJAX?"],
+          "en-US": ["Which of the following statements describes a framework related to JavaScript and AJAX?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Es una librería de Java orientada a bases de datos relacionales.",
+            "Es un entorno compilado que utiliza Java para gestión de hilos.",
+            "Se conoce por facilitar interacciones asincrónicas con el servidor y mejorar la experiencia de usuario en páginas web.",
+            "Es una API de bajo nivel exclusiva para desarrollo de backends en Python."
+          ],
+          "en-US": [
+            "It is a Java library oriented to relational databases.",
+            "It is a compiled environment that uses Java for thread management.",
+            "It is known for facilitating asynchronous interactions with the server and improving the user experience in web pages.",
+            "It is a low-level API exclusive for backend development in Python."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Se conoce por facilitar interacciones asincrónicas con el servidor y mejorar la experiencia de usuario en páginas web.",
+          "en-US": "It is known for facilitating asynchronous interactions with the server and improving the user experience in web pages."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Los frameworks como jQuery o React utilizan JavaScript y AJAX para hacer peticiones asincrónicas al servidor y actualizar dinámicamente la interfaz del usuario sin recargar la página."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Frameworks like jQuery or React use JavaScript and AJAX to perform asynchronous server requests and dynamically update the user interface without reloading the page."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de Frameworks",
+        "Question Text": {
+          "es-MX": ["¿Cuál es una característica típica de un framework multimedia?"],
+          "en-US": ["Which is a typical feature of a multimedia framework?"]
+        },
+        "Options": {
+          "es-MX": [
+            "Provee exclusivamente funciones de criptografía avanzada para blockchain.",
+            "Permite estructurar aplicaciones web basadas en peticiones RESTful.",
+            "Ofrece herramientas para gestionar audio, vídeo, imágenes y contenido audiovisual.",
+            "Administra directamente la base de datos sin necesidad de un ORM."
+          ],
+          "en-US": [
+            "Exclusively provides advanced cryptography functions for blockchain.",
+            "Allows structuring of web applications based on RESTful requests.",
+            "Provides tools to manage audio, video, images, and audiovisual content.",
+            "Directly manages the database without the need for an ORM."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Ofrece herramientas para gestionar audio, vídeo, imágenes y contenido audiovisual.",
+          "en-US": "Provides tools to manage audio, video, images, and audiovisual content."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "ul",
+              "items": [
+                "Los frameworks multimedia están diseñados para facilitar el desarrollo de proyectos de audio, vídeo e imagen.",
+                "Son comunes en aplicaciones de edición, streaming o videoconferencias.",
+                "Permiten integrar formatos y dispositivos multimedia de forma más sencilla."
+              ]
+            }
+          ],
+          "en-US": [
+            {
+              "type": "ul",
+              "items": [
+                "Multimedia frameworks are designed to simplify development of audio, video, and image projects.",
+                "They are common in editing, streaming, or video conferencing applications.",
+                "They allow easier integration of multimedia formats and devices."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de Frameworks",
+        "Question Text": {
+          "es-MX": [
+            "¿Para qué se utiliza un framework de backend?",
+            "¿Cuál es el propósito principal de un framework de backend?",
+            "¿Qué permite hacer un framework de backend en una aplicación?",
+            "¿Cuál es una función típica de un framework de backend?"
+          ],
+          "en-US": [
+            "What is a backend framework used for?",
+            "What is the main purpose of a backend framework?",
+            "What can a backend framework do in an application?",
+            "Which is a typical function of a backend framework?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Proporcionar estilos visuales y animaciones CSS modernas.",
+            "Diseñar logos y elementos gráficos mediante vectores.",
+            "Implementar lógica del servidor, conexión a bases de datos y rutas API.",
+            "Gestionar únicamente interfaces gráficas con JavaScript puro."
+          ],
+          "en-US": [
+            "Provide modern visual styles and CSS animations.",
+            "Design logos and graphic elements using vectors.",
+            "Implement server logic, database connections, and API routes.",
+            "Manage only graphic interfaces with pure JavaScript."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Implementar lógica del servidor, conexión a bases de datos y rutas API.",
+          "en-US": "Implement server logic, database connections, and API routes."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Los frameworks de backend como Express, Django o Laravel ayudan a manejar la lógica del servidor, rutas y base de datos."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Backend frameworks like Express, Django or Laravel help manage server logic, routes, and database integration."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Fundamentos",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es una ventaja de utilizar un framework en desarrollo de software?",
+            "¿Qué beneficio ofrece usar un framework?",
+            "¿Por qué se recomienda usar un framework?",
+            "¿Qué ventaja clave tiene trabajar con un framework?"
+          ],
+          "en-US": [
+            "What is an advantage of using a framework in software development?",
+            "What benefit does a framework offer?",
+            "Why is it recommended to use a framework?",
+            "What key advantage comes with using a framework?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Requiere escribir más líneas de código manualmente.",
+            "Impide el uso de componentes reutilizables.",
+            "Facilita el desarrollo al ofrecer estructura, reglas y herramientas predefinidas.",
+            "Elimina completamente la necesidad de programar."
+          ],
+          "en-US": [
+            "Requires writing more code manually.",
+            "Prevents the use of reusable components.",
+            "Makes development easier by providing structure, rules, and predefined tools.",
+            "Completely removes the need to code."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Facilita el desarrollo al ofrecer estructura, reglas y herramientas predefinidas.",
+          "en-US": "Makes development easier by providing structure, rules, and predefined tools."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Los frameworks estandarizan el proceso de desarrollo, reducen errores y aceleran el tiempo de entrega."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Frameworks standardize development, reduce errors, and accelerate delivery time."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Comparación",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es una diferencia clave entre un framework y una librería?",
+            "¿Qué distingue a un framework de una librería?",
+            "¿Cómo se diferencian los frameworks de las librerías?",
+            "¿Qué hace que un framework no sea lo mismo que una librería?"
+          ],
+          "en-US": [
+            "What is a key difference between a framework and a library?",
+            "What distinguishes a framework from a library?",
+            "How are frameworks different from libraries?",
+            "What makes a framework not the same as a library?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Una librería define la estructura del proyecto, mientras que un framework no.",
+            "Un framework proporciona estructura y control del flujo, mientras que una librería es llamada por el código del usuario.",
+            "Ambos son iguales y se pueden usar indistintamente.",
+            "El framework se usa solo en diseño gráfico, mientras que la librería solo en bases de datos."
+          ],
+          "en-US": [
+            "A library defines the project structure, while a framework does not.",
+            "A framework provides structure and controls the flow, while a library is called by the user's code.",
+            "They are identical and can be used interchangeably.",
+            "Frameworks are used only for graphic design, while libraries are only for databases."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Un framework proporciona estructura y control del flujo, mientras que una librería es llamada por el código del usuario.",
+          "en-US": "A framework provides structure and controls the flow, while a library is called by the user's code."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "La inversión de control es clave: en un framework el flujo lo maneja el framework, mientras que con una librería el control lo tiene el desarrollador."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Inversion of control is key: frameworks control the flow, whereas with libraries, the developer controls when to call them."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de Frameworks",
+        "Question Text": {
+          "es-MX": [
+            "¿Qué función cumple un framework de gestión de contenido?",
+            "¿Para qué sirve un framework de tipo CMS?",
+            "¿Cuál es el objetivo de un framework enfocado en gestión de contenido?",
+            "¿Cómo ayuda un framework al crear un CMS?"
+          ],
+          "en-US": [
+            "What is the purpose of a content management framework?",
+            "How does a CMS-type framework help?",
+            "What does a content-focused framework do?",
+            "What function does a content management framework serve?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Gestionar redes neuronales profundas para sistemas de inteligencia artificial.",
+            "Facilitar el desarrollo de sistemas de administración de contenido como CMS.",
+            "Realizar cálculos matemáticos para análisis estadístico.",
+            "Compilar automáticamente código en lenguaje ensamblador para microcontroladores."
+          ],
+          "en-US": [
+            "Manage deep neural networks for AI systems.",
+            "Facilitate the development of content management systems like CMS.",
+            "Perform mathematical calculations for statistical analysis.",
+            "Automatically compile assembly code for microcontrollers."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Facilitar el desarrollo de sistemas de administración de contenido como CMS.",
+          "en-US": "Facilitate the development of content management systems like CMS."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Este tipo de framework está diseñado para crear y personalizar sistemas como WordPress, Joomla o Drupal, que permiten administrar contenido sin codificar desde cero."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "This type of framework is built to help create and customize systems like WordPress, Joomla, or Drupal, which manage content without coding everything from scratch."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Fundamentos",
+        "Question Text": {
+          "es-MX": [
+            "¿Qué caracteriza a un framework en el desarrollo de software?",
+            "¿Cuál es una propiedad clave de un framework para el desarrollo?",
+            "¿Qué aspecto hace que un framework sea útil al programar?",
+            "¿Qué ofrece un framework que facilita el desarrollo?"
+          ],
+          "en-US": [
+            "What characterizes a framework in software development?",
+            "What is a key feature of a framework for development?",
+            "What makes a framework useful when programming?",
+            "What does a framework offer that helps development?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Permite ejecutar código sin ninguna regla ni estructura definida.",
+            "Proporciona un entorno de trabajo estructurado con funciones que agilizan el desarrollo y mejoran la experiencia del programador.",
+            "Evita el uso de cualquier otro recurso adicional en el proyecto.",
+            "Es exclusivo para ejecutar pruebas unitarias en software financiero."
+          ],
+          "en-US": [
+            "Allows code to run without any defined rules or structure.",
+            "Provides a structured work environment with features that speed up development and enhance the programmer's experience.",
+            "Avoids the use of any other additional resources in the project.",
+            "Is exclusively used for running unit tests in financial software."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Proporciona un entorno de trabajo estructurado con funciones que agilizan el desarrollo y mejoran la experiencia del programador.",
+          "en-US": "Provides a structured work environment with features that speed up development and enhance the programmer's experience."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Un framework establece una estructura clara, guía al desarrollador y reduce el esfuerzo repetitivo, lo que mejora la calidad y experiencia del desarrollo."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "A framework defines a clear structure, guides the developer, and reduces repetitive effort, improving quality and the overall development experience."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Buenas prácticas",
+        "Question Text": {
+          "es-MX": [
+            "¿Por qué se recomienda usar un framework en proyectos grandes?",
+            "¿Cuál es la ventaja de un framework en proyectos a gran escala?",
+            "¿Por qué un framework es útil en proyectos complejos?",
+            "¿Qué aporta un framework cuando se desarrolla un proyecto grande?"
+          ],
+          "en-US": [
+            "Why is a framework recommended for large projects?",
+            "What advantage does a framework offer in large-scale projects?",
+            "Why is a framework helpful in complex projects?",
+            "What does a framework provide for large project development?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Porque permite usar cualquier librería sin importar compatibilidad.",
+            "Porque ofrece una estructura organizada y reglas claras que ayudan a gestionar la complejidad.",
+            "Porque no impone ninguna guía y permite trabajar libremente.",
+            "Porque impide modificar el proyecto después de iniciarlo."
+          ],
+          "en-US": [
+            "Because it allows using any library regardless of compatibility.",
+            "Because it offers an organized structure and clear rules that help manage complexity.",
+            "Because it imposes no guidance and lets you work freely.",
+            "Because it prevents modifying the project after starting."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Porque ofrece una estructura organizada y reglas claras que ayudan a gestionar la complejidad.",
+          "en-US": "Because it offers an organized structure and clear rules that help manage complexity."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "En proyectos grandes, los frameworks ayudan a mantener orden, cohesión y escalabilidad gracias a sus convenciones y estructuras."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "In large projects, frameworks help maintain order, consistency, and scalability due to their conventions and structure."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Comparación",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es una diferencia esencial entre framework y librería?",
+            "¿Qué distingue un framework de una librería?",
+            "¿Cómo se diferencian los frameworks de las librerías?",
+            "¿Qué característica marca la diferencia entre librería y framework?"
+          ],
+          "en-US": [
+            "What is an essential difference between a framework and a library?",
+            "What distinguishes a framework from a library?",
+            "How do frameworks and libraries differ?",
+            "What feature marks the difference between a library and a framework?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Un framework ofrece una estructura y un formato organizados para el desarrollo del proyecto, mientras que una librería proporciona funciones específicas que se usan según se necesite.",
+            "Ambos hacen lo mismo, pero el framework es más moderno.",
+            "Las librerías reemplazan a los frameworks en la mayoría de proyectos.",
+            "El framework no puede usarse sin librerías externas."
+          ],
+          "en-US": [
+            "The framework provides structure and controls the flow of the project; the library is used when called by the programmer.",
+            "Both do the same, but the framework is more modern.",
+            "Libraries replace frameworks in most projects.",
+            "The framework cannot be used without external libraries."
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Un framework ofrece una estructura y un formato organizados para el desarrollo del proyecto, mientras que una librería proporciona funciones específicas que se usan según se necesite.",
+          "en-US": "The framework provides structure and controls the flow of the project; the library is used when called by the programmer."
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "El framework dicta el flujo del programa (inversión de control), mientras que la librería es controlada directamente por el código del programador."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "The framework controls the program flow (inversion of control), while the library is called directly by the programmer's code."
+            }
+          ]
+        }
+      }
+      
+
+      
+      
+      
+      
+      
+
+      
+      
+      
+
+    ]
+  }
+  
