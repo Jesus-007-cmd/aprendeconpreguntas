@@ -6,7 +6,7 @@ import quizDatappsmovs from "./data/aplicaciones_moviles_clases.json";
 import quizLearingEnglish from "./data/phrasesToLearn.json";
 import desarrolloWebFrameworksQuiz from "./data/desarrollo-web-frameworks-quiz.json";
 import desarrolloWebMarcosDeTrabajo from "./data/microtest-desarrollo-web-marcos-de-trabajo.json";
-
+import aplicacionesmovilesmultiplataforma from "./data/microtest-aplicaciones_moviles_multiplataforma.json";
 import notificationSound from "../audio/correctanswer.mp3";
 export default function InterviewQuiz() {
   const [questions, setQuestions] = useState([]);
@@ -364,7 +364,13 @@ export default function InterviewQuiz() {
           >
             {desarrolloWebMarcosDeTrabajo["Quiz Title"]}
           </button>
-
+          <button
+            onClick={() => handleJsonSelection(aplicacionesmovilesmultiplataforma)}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+            {aplicacionesmovilesmultiplataforma["Quiz Title"]}
+          </button>
+         
 
         </div>
       ) : !showResult && questions.length > 0 ? (

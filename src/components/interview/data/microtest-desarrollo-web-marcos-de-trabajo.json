@@ -2816,7 +2816,7 @@
       "Category": "React - Eventos (Autobinding)",
       "Question Text": {
         "es-MX": [
-          "¿Qué describe 'Autobinding' en React según la lámina?"
+          "¿Qué describe 'Autobinding' en React?"
         ],
         "en-US": [
           "According to the slide, what does 'Autobinding' mean in React?"
@@ -2902,7 +2902,7 @@
       "Category": "React - Eventos (Delegación eficiente)",
       "Question Text": {
         "es-MX": [
-          "¿Cómo implementa React la 'delegación eficiente' de eventos según la lámina?"
+          "¿Cómo implementa React la 'delegación eficiente' de eventos?"
         ],
         "en-US": [
           "How does React implement 'efficient event delegation' according to the slide?"
@@ -2945,7 +2945,7 @@
       "Category": "React - Patrones avanzados",
       "Question Text": {
         "es-MX": [
-          "¿Qué permite hacer la Context API en React según la lámina?"
+          "¿Qué permite hacer la Context API en React?"
         ],
         "en-US": [
           "According to the slide, what does the Context API allow you to do in React?"
@@ -2988,7 +2988,7 @@
       "Category": "React - Patrones avanzados",
       "Question Text": {
         "es-MX": [
-          "¿Para qué son útiles los hooks personalizados en React según la lámina?"
+          "¿Para qué son útiles los hooks personalizados en React?"
         ],
         "en-US": [
           "According to the slide, what are custom hooks useful for in React?"
@@ -3031,7 +3031,7 @@
       "Category": "React - Depuración de estado y props",
       "Question Text": {
         "es-MX": [
-          "¿Para qué se utilizan las React DevTools según la lámina?"
+          "¿Para qué se utilizan las React DevTools?"
         ],
         "en-US": [
           "According to the slide, what are React DevTools used for?"
@@ -3074,7 +3074,7 @@
       "Category": "React - Depuración de estado y props",
       "Question Text": {
         "es-MX": [
-          "¿Qué es el logging estratégico en React según la lámina?"
+          "¿Qué es el logging estratégico en React?"
         ],
         "en-US": [
           "According to the slide, what is strategic logging in React?"
@@ -3117,7 +3117,7 @@
       "Category": "React - Depuración de estado y props",
       "Question Text": {
         "es-MX": [
-          "¿Cuál es el objetivo de las herramientas de monitoreo según la lámina?"
+          "¿Cuál es el objetivo de las herramientas de monitoreo?"
         ],
         "en-US": [
           "According to the slide, what is the purpose of monitoring tools?"
@@ -6406,6 +6406,9 @@
         ]
       }
     }
+        
+    
+    
     
     
 

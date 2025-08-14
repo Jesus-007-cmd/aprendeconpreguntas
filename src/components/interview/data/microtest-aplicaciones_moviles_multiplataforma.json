@@ -1,0 +1,4148 @@
+{
+    "Quiz Title": "Aplicaciones móviles multiplataforma",
+    "Questions": [
+      {
+        "Category": "Crecimiento de dispositivos móviles",
+        "Question Text": {
+          "es-MX": [
+            "¿A qué se debe el crecimiento acelerado de los dispositivos móviles?"
+          ],
+          "en-US": [
+            "What is the reason for the accelerated growth of mobile devices?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "A la capacidad de procesamiento y memoria",
+            "A sus características y recursos",
+            "Al amplio conjunto de componentes de entrada y salida integrados",
+            "Todas las anteriores"
+          ],
+          "en-US": [
+            "Processing power and memory",
+            "Their features and resources",
+            "The wide set of integrated input and output components",
+            "All of the above"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Todas las anteriores",
+          "en-US": "All of the above"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "El crecimiento acelerado de los dispositivos móviles se debe a la combinación de su alta capacidad de procesamiento, diversidad de características y recursos, y la integración de múltiples componentes de entrada y salida."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "The accelerated growth of mobile devices is due to the combination of high processing capacity, diverse features and resources, and the integration of multiple input and output components."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Definición de aplicación móvil",
+        "Question Text": {
+          "es-MX": [
+            "¿Qué es una aplicación móvil?"
+          ],
+          "en-US": [
+            "What is a mobile application?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Es una pieza de software que se ejecuta en un sistema operativo",
+            "Es un desarrollo nativo del sistema operativo",
+            "Son los componentes de entrada y salida del dispositivo",
+            "Son las características y recursos del dispositivo"
+          ],
+          "en-US": [
+            "It is a piece of software that runs on an operating system",
+            "It is a native development of the operating system",
+            "They are the input and output components of the device",
+            "They are the device's features and resources"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Es una pieza de software que se ejecuta en un sistema operativo",
+          "en-US": "It is a piece of software that runs on an operating system"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Una aplicación móvil es un programa diseñado para ejecutarse en un dispositivo móvil a través de su sistema operativo."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "A mobile application is a program designed to run on a mobile device through its operating system."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Uso de dispositivos",
+        "Question Text": {
+          "es-MX": [
+            "Según la AIMC, ¿cuál es el dispositivo más utilizado para navegar por Internet?"
+          ],
+          "en-US": [
+            "According to AIMC, what is the most used device to browse the Internet?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Computadora de escritorio",
+            "Computadora portátil",
+            "Teléfono celular",
+            "Tableta"
+          ],
+          "en-US": [
+            "Desktop computer",
+            "Laptop",
+            "Cell phone",
+            "Tablet"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Teléfono celular",
+          "en-US": "Cell phone"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Según estudios de la AIMC, el teléfono celular es el dispositivo más utilizado para acceder a Internet debido a su portabilidad y disponibilidad."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "According to AIMC studies, the cell phone is the most used device to access the Internet due to its portability and availability."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Arquitectura de sistemas móviles",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es la capa que concentra el manejo de recursos del más bajo nivel, como los controladores, drivers y procesador?"
+          ],
+          "en-US": [
+            "Which layer concentrates the management of the lowest-level resources, such as controllers, drivers, and the processor?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Core",
+            "Middleware",
+            "Entorno de ejecución de aplicaciones",
+            "Interfaz de usuario"
+          ],
+          "en-US": [
+            "Core",
+            "Middleware",
+            "Application runtime environment",
+            "User interface"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Core",
+          "en-US": "Core"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "El núcleo o 'core' gestiona los recursos de más bajo nivel en un sistema, como procesadores, controladores y drivers."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "The core manages the lowest-level resources in a system, such as processors, controllers, and drivers."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Arquitectura de sistemas móviles",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es la capa que permite hacer uso de la infraestructura, en ella se encuentran las interfaces para interactuar con los controladores de archivos, cámara, bluetooth, etc.?"
+          ],
+          "en-US": [
+            "Which layer allows the use of the infrastructure, containing the interfaces to interact with file controllers, camera, Bluetooth, etc.?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Core",
+            "Middleware",
+            "Entorno de ejecución de aplicaciones",
+            "Interfaz de usuario"
+          ],
+          "en-US": [
+            "Core",
+            "Middleware",
+            "Application runtime environment",
+            "User interface"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Middleware",
+          "en-US": "Middleware"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "El middleware actúa como intermediario entre el núcleo y las aplicaciones, ofreciendo interfaces para interactuar con distintos controladores y servicios del sistema."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Middleware acts as an intermediary between the core and applications, providing interfaces to interact with various system controllers and services."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Arquitectura de sistemas móviles",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es la capa donde se pueden incluir las aplicaciones, se incluyen librerías y API para poder utilizar los recursos del dispositivo?"
+          ],
+          "en-US": [
+            "Which layer includes applications, libraries, and APIs to be able to use the device's resources?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Core",
+            "Middleware",
+            "Entorno de ejecución de aplicaciones",
+            "Interfaz de usuario"
+          ],
+          "en-US": [
+            "Core",
+            "Middleware",
+            "Application runtime environment",
+            "User interface"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Entorno de ejecución de aplicaciones",
+          "en-US": "Application runtime environment"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "El entorno de ejecución de aplicaciones provee las librerías y APIs necesarias para que las aplicaciones interactúen con el hardware y servicios del dispositivo."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "The application runtime environment provides the necessary libraries and APIs for applications to interact with the device's hardware and services."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de aplicaciones móviles",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es el tipo de aplicación que por medio de plugins y técnicas responsive se ejecuta una aplicación por medio de un acceso directo, casi como si se estuviera ejecutando una aplicación nativa?"
+          ],
+          "en-US": [
+            "Which type of application, through plugins and responsive techniques, runs via a shortcut almost as if it were a native application?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Aplicaciones web",
+            "Aplicaciones PWA",
+            "Aplicaciones híbridas",
+            "Aplicaciones nativas"
+          ],
+          "en-US": [
+            "Web applications",
+            "PWA applications",
+            "Hybrid applications",
+            "Native applications"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Aplicaciones PWA",
+          "en-US": "PWA applications"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Las aplicaciones PWA utilizan tecnologías web avanzadas y pueden instalarse como acceso directo, ofreciendo una experiencia similar a las aplicaciones nativas."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "PWA applications use advanced web technologies and can be installed as shortcuts, providing a native-like experience."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de aplicaciones móviles",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es el tipo de aplicación que se desarrolla sobre el sistema operativo del dispositivo y son dependientes completamente de la plataforma?"
+          ],
+          "en-US": [
+            "Which type of application is developed on the device's operating system and is completely dependent on the platform?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Aplicaciones web",
+            "Aplicaciones PWA",
+            "Aplicaciones híbridas",
+            "Aplicaciones nativas"
+          ],
+          "en-US": [
+            "Web applications",
+            "PWA applications",
+            "Hybrid applications",
+            "Native applications"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Aplicaciones nativas",
+          "en-US": "Native applications"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Las aplicaciones nativas están diseñadas para funcionar exclusivamente en un sistema operativo específico y aprovechar al máximo sus recursos."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Native applications are designed to run exclusively on a specific operating system and take full advantage of its resources."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tipos de aplicaciones móviles",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es el tipo de aplicación que ofrece una codificación común, el cual se traduce al sistema del dispositivo al desplegar?"
+          ],
+          "en-US": [
+            "Which type of application offers common coding, which is translated to the device's system when deployed?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "Aplicaciones web",
+            "Aplicaciones PWA",
+            "Aplicaciones híbridas",
+            "Aplicaciones nativas"
+          ],
+          "en-US": [
+            "Web applications",
+            "PWA applications",
+            "Hybrid applications",
+            "Native applications"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Aplicaciones híbridas",
+          "en-US": "Hybrid applications"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Las aplicaciones híbridas se desarrollan con una base de código común que luego se adapta y traduce para ejecutarse en diferentes sistemas operativos."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Hybrid applications are developed with a common codebase that is then adapted and translated to run on different operating systems."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tecnologías para desarrollo móvil",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es la tecnología que permite desarrollar aplicaciones nativas para plataformas Android y iOS y que, además, es de código abierto?"
+          ],
+          "en-US": [
+            "Which technology allows the development of native applications for Android and iOS platforms and is also open-source?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "React Native",
+            "Flutter",
+            "Ionic",
+            "Xamarin"
+          ],
+          "en-US": [
+            "React Native",
+            "Flutter",
+            "Ionic",
+            "Xamarin"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Xamarin",
+          "en-US": "Xamarin"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Xamarin es una tecnología de código abierto que permite desarrollar aplicaciones nativas para Android e iOS utilizando C# y .NET."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Xamarin is an open-source technology that allows the development of native applications for Android and iOS using C# and .NET."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tecnologías para desarrollo móvil",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es la tecnología para desarrollo de aplicaciones multiplataforma y que cuenta con un nuevo lenguaje llamado Dart?"
+          ],
+          "en-US": [
+            "Which technology is for cross-platform application development and features a new language called Dart?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "React Native",
+            "Flutter",
+            "Ionic",
+            "Xamarin"
+          ],
+          "en-US": [
+            "React Native",
+            "Flutter",
+            "Ionic",
+            "Xamarin"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Flutter",
+          "en-US": "Flutter"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Flutter es un framework de Google para el desarrollo de aplicaciones multiplataforma que utiliza el lenguaje de programación Dart."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Flutter is a Google framework for cross-platform application development that uses the Dart programming language."
+            }
+          ]
+        }
+      },
+      {
+        "Category": "Tecnologías para desarrollo móvil",
+        "Question Text": {
+          "es-MX": [
+            "¿Cuál es la tecnología para desarrollar aplicaciones híbridas y que permite elegir entre Angular, React y Vue.js?"
+          ],
+          "en-US": [
+            "Which technology is used to develop hybrid applications and allows choosing between Angular, React, and Vue.js?"
+          ]
+        },
+        "Options": {
+          "es-MX": [
+            "React Native",
+            "Flutter",
+            "Ionic",
+            "Xamarin"
+          ],
+          "en-US": [
+            "React Native",
+            "Flutter",
+            "Ionic",
+            "Xamarin"
+          ]
+        },
+        "Correct Answer": {
+          "es-MX": "Ionic",
+          "en-US": "Ionic"
+        },
+        "Explanation": {
+          "es-MX": [
+            {
+              "type": "text",
+              "content": "Ionic es un framework para crear aplicaciones híbridas que ofrece compatibilidad con Angular, React y Vue.js."
+            }
+          ],
+          "en-US": [
+            {
+              "type": "text",
+              "content": "Ionic is a framework for building hybrid applications that offers compatibility with Angular, React, and Vue.js."
+            }
+          ]
+        }
+      }  ,
+      {
+  "Category": "Tecnologías y aplicaciones del IoT",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es la tecnología que permite sensoriar y automatizar elementos de la vida cotidiana?"
+    ],
+    "en-US": [
+      "Which technology allows sensing and automating elements of daily life?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "IoT",
+      "React",
+      "Beacons",
+      "Bitcoins"
+    ],
+    "en-US": [
+      "IoT",
+      "React",
+      "Beacons",
+      "Bitcoins"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "IoT",
+    "en-US": "IoT"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El Internet de las Cosas (IoT) permite conectar dispositivos físicos a Internet para recolectar datos, controlarlos y automatizar tareas cotidianas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The Internet of Things (IoT) connects physical devices to the Internet to collect data, control them, and automate daily tasks."
+      }
+    ]
+  }
+},
+{
+  "Category": "Tecnologías y aplicaciones del IoT",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es la tecnología que emite una señal de bluetooth, la aplicación rastrea la señal y notifica al usuario con un mensaje o abriendo la aplicación?"
+    ],
+    "en-US": [
+      "Which technology emits a Bluetooth signal, the application tracks the signal and notifies the user with a message or by opening the application?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "IoT",
+      "React",
+      "Beacons",
+      "Bitcoins"
+    ],
+    "en-US": [
+      "IoT",
+      "React",
+      "Beacons",
+      "Bitcoins"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Beacons",
+    "en-US": "Beacons"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Los beacons son dispositivos que emiten señales de bluetooth de baja energía que pueden ser detectadas por aplicaciones móviles para activar notificaciones o acciones."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Beacons are devices that emit low-energy Bluetooth signals that can be detected by mobile apps to trigger notifications or actions."
+      }
+    ]
+  }
+},
+{
+  "Category": "Tecnologías y aplicaciones del IoT",
+  "Question Text": {
+    "es-MX": [
+      "Dentro de los nichos más utilizados para el IoT ¿cuál es el que permite el control de luces, cortinas, balanzas, etc.?"
+    ],
+    "en-US": [
+      "Within the most common IoT niches, which one allows the control of lights, curtains, scales, etc.?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Wearables",
+      "Smart homes",
+      "Connected cars",
+      "Pagos"
+    ],
+    "en-US": [
+      "Wearables",
+      "Smart homes",
+      "Connected cars",
+      "Payments"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Smart homes",
+    "en-US": "Smart homes"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las casas inteligentes (smart homes) usan IoT para automatizar y controlar dispositivos como luces, persianas, electrodomésticos y otros sistemas del hogar."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Smart homes use IoT to automate and control devices such as lights, blinds, appliances, and other home systems."
+      }
+    ]
+  }
+}     ,{
+  "Category": "Conceptos fundamentales de React",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué concepto fundamental de React se refiere a cada parte de la pantalla con sus características y su comportamiento?"
+    ],
+    "en-US": [
+      "Which fundamental concept of React refers to each part of the screen with its characteristics and behavior?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Props",
+      "Callbacks",
+      "JSX",
+      "Componente"
+    ],
+    "en-US": [
+      "Props",
+      "Callbacks",
+      "JSX",
+      "Component"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Componente",
+    "en-US": "Component"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "En React, un componente representa una parte independiente y reutilizable de la interfaz, con su propia lógica y apariencia."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "In React, a component represents an independent, reusable part of the interface, with its own logic and appearance."
+      }
+    ]
+  }
+},
+{
+  "Category": "Conceptos fundamentales de React",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué concepto fundamental de React permite el paso de parámetros entre componentes?"
+    ],
+    "en-US": [
+      "Which fundamental concept of React allows passing parameters between components?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Props",
+      "Callbacks",
+      "JSX",
+      "Componente"
+    ],
+    "en-US": [
+      "Props",
+      "Callbacks",
+      "JSX",
+      "Component"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Props",
+    "en-US": "Props"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las props en React permiten enviar datos desde un componente padre a un componente hijo de manera inmutable."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Props in React allow sending data from a parent component to a child component in an immutable way."
+      }
+    ]
+  }
+},
+{
+  "Category": "Conceptos fundamentales de React",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué concepto fundamental de React permite tratar a las funciones como variables y ser pasadas como argumentos, asignarse y ejecutarse?"
+    ],
+    "en-US": [
+      "Which fundamental concept of React allows treating functions as variables and passing them as arguments, assigning, and executing them?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Props",
+      "Callbacks",
+      "JSX",
+      "Componente"
+    ],
+    "en-US": [
+      "Props",
+      "Callbacks",
+      "JSX",
+      "Component"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Callbacks",
+    "en-US": "Callbacks"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "En React, los callbacks son funciones pasadas como props que permiten ejecutar lógica en componentes hijos desde componentes padres."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "In React, callbacks are functions passed as props that allow executing logic in child components from parent components."
+      }
+    ]
+  }
+},
+{
+  "Category": "Conceptos avanzados de React",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué es un DOM virtual?"
+    ],
+    "en-US": [
+      "What is a virtual DOM?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Es un renderizado previo que convierte a texto los valores embebidos en las sentencias JSX",
+      "Es un componente que se utiliza para modificar su comportamiento ante la interacción del usuario o el paso del tiempo",
+      "Es un mecanismo de traducción de cada sistema operativo",
+      "Es una capa intermedia entre el DOM y los cambios en los componentes React"
+    ],
+    "en-US": [
+      "It is a pre-render that converts to text the values embedded in JSX statements",
+      "It is a component used to modify its behavior in response to user interaction or the passage of time",
+      "It is a translation mechanism for each operating system",
+      "It is an intermediate layer between the DOM and changes in React components"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Es una capa intermedia entre el DOM y los cambios en los componentes React",
+    "en-US": "It is an intermediate layer between the DOM and changes in React components"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El DOM virtual es una representación ligera del DOM real que React utiliza para optimizar las actualizaciones de la interfaz."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The virtual DOM is a lightweight representation of the real DOM that React uses to optimize interface updates."
+      }
+    ]
+  }
+},
+{
+  "Category": "Conceptos avanzados de React",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es el mecanismo que permite diseñar un componente con múltiples elementos visuales, mediante condiciones de JavaScript y que define cuáles serán visibles en pantalla?"
+    ],
+    "en-US": [
+      "Which mechanism allows designing a component with multiple visual elements, using JavaScript conditions to define which will be visible on screen?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Render condicionado",
+      "DOM virtual",
+      "Bridges",
+      "Mount component"
+    ],
+    "en-US": [
+      "Conditional rendering",
+      "Virtual DOM",
+      "Bridges",
+      "Mount component"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Render condicionado",
+    "en-US": "Conditional rendering"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El renderizado condicional en React permite mostrar u ocultar elementos basándose en condiciones lógicas definidas en el código."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Conditional rendering in React allows showing or hiding elements based on logical conditions defined in the code."
+      }
+    ]
+  }
+},
+{
+  "Category": "Conceptos avanzados de React",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué son los bridges?"
+    ],
+    "en-US": [
+      "What are bridges?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Es un renderizado previo que convierte a texto los valores embebidos en las sentencias JSX",
+      "Es un componente que se utiliza para modificar su comportamiento ante la interacción del usuario o el paso del tiempo",
+      "Es un mecanismo de traducción de cada sistema operativo",
+      "Es una capa intermedia entre el DOM y los cambios en los componentes React"
+    ],
+    "en-US": [
+      "It is a pre-render that converts to text the values embedded in JSX statements",
+      "It is a component used to modify its behavior in response to user interaction or the passage of time",
+      "It is a translation mechanism for each operating system",
+      "It is an intermediate layer between the DOM and changes in React components"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Es un mecanismo de traducción de cada sistema operativo",
+    "en-US": "It is a translation mechanism for each operating system"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "En React Native, los bridges permiten la comunicación entre el código JavaScript y el código nativo de cada sistema operativo."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "In React Native, bridges enable communication between JavaScript code and the native code of each operating system."
+      }
+    ]
+  }
+},
+{
+  "Category": "Historia y evolución de las aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué factor ha sido clave en el impulso del desarrollo de aplicaciones móviles en los últimos años?"
+    ],
+    "en-US": [
+      "What factor has been key in driving mobile application development in recent years?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "La constante demanda de contenido en Internet",
+      "La disminución de la velocidad de las redes móviles",
+      "La reducción de la memoria en dispositivos móviles",
+      "La eliminación de las tiendas de aplicaciones"
+    ],
+    "en-US": [
+      "The constant demand for Internet content",
+      "The decrease in mobile network speeds",
+      "The reduction of memory in mobile devices",
+      "The removal of app stores"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "La constante demanda de contenido en Internet",
+    "en-US": "The constant demand for Internet content"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La evolución de la telefonía celular y de las aplicaciones móviles ha estado marcada por el crecimiento de usuarios que consumen contenido en línea. Esta demanda ha impulsado la innovación en interfaces, conectividad y usabilidad."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Mayor acceso a redes 4G y 5G",
+          "Incremento en el uso de smartphones",
+          "Popularidad de redes sociales y servicios en streaming"
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "code",
+        "content": "const tendencia = 'innovación en interacción y conectividad';\nconsole.log(tendencia);"
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The evolution of mobile telephony and applications has been driven by the growing number of users consuming online content. This demand has fueled innovation in interfaces, connectivity, and usability."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Greater access to 4G and 5G networks",
+          "Increase in smartphone usage",
+          "Popularity of social media and streaming services"
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "code",
+        "content": "const trend = 'innovation in interaction and connectivity';\nconsole.log(trend);"
+      }
+    ]
+  }
+},
+
+{
+  "Category": "Historia y evolución de las aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "Según el contexto de la evolución de la telefonía celular y aplicaciones móviles, ¿qué ha provocado la constante demanda de contenido en Internet?"
+    ],
+    "en-US": [
+      "According to the context of the evolution of mobile telephony and applications, what has the constant demand for Internet content caused?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Innovaciones en la forma en que interactuamos con la tecnología",
+      "Una disminución en la calidad de las aplicaciones móviles",
+      "Una menor inversión en el desarrollo de software",
+      "El reemplazo de las redes móviles por redes cableadas"
+    ],
+    "en-US": [
+      "Innovations in the way we interact with technology",
+      "A decrease in the quality of mobile applications",
+      "Less investment in software development",
+      "The replacement of mobile networks with wired networks"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Innovaciones en la forma en que interactuamos con la tecnología",
+    "en-US": "Innovations in the way we interact with technology"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La creciente demanda de contenido en línea ha impulsado la creación de nuevas herramientas y métodos de interacción, mejorando la experiencia del usuario y ampliando las posibilidades de las aplicaciones móviles."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Interfaz de usuario más intuitiva",
+          "Integración con tecnologías emergentes",
+          "Mejora en la personalización de contenidos"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The growing demand for online content has driven the creation of new tools and interaction methods, enhancing user experience and expanding the possibilities of mobile applications."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "More intuitive user interfaces",
+          "Integration with emerging technologies",
+          "Improved content personalization"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Historia y evolución de las aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué factor ha sido clave en el impulso del desarrollo de aplicaciones móviles en los últimos años?"
+    ],
+    "en-US": [
+      "What factor has been key in driving mobile application development in recent years?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "La constante demanda de contenido en Internet",
+      "La disminución de la velocidad de las redes móviles",
+      "La reducción de la memoria en dispositivos móviles",
+      "La eliminación de las tiendas de aplicaciones"
+    ],
+    "en-US": [
+      "The constant demand for Internet content",
+      "The decrease in mobile network speeds",
+      "The reduction of memory in mobile devices",
+      "The removal of app stores"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "La constante demanda de contenido en Internet",
+    "en-US": "The constant demand for Internet content"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La evolución de la telefonía celular y de las aplicaciones móviles ha estado marcada por el crecimiento de usuarios que consumen contenido en línea. Esta demanda ha impulsado la innovación en interfaces, conectividad y usabilidad."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Mayor acceso a redes 4G y 5G",
+          "Incremento en el uso de smartphones",
+          "Popularidad de redes sociales y servicios en streaming"
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "code",
+        "content": "const tendencia = 'innovación en interacción y conectividad';\nconsole.log(tendencia);"
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The evolution of mobile telephony and applications has been driven by the growing number of users consuming online content. This demand has fueled innovation in interfaces, connectivity, and usability."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Greater access to 4G and 5G networks",
+          "Increase in smartphone usage",
+          "Popularity of social media and streaming services"
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "code",
+        "content": "const trend = 'innovation in interaction and connectivity';\nconsole.log(trend);"
+      }
+    ]
+  }
+},
+{
+  "Category": "Definición de conceptos",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es la definición más precisa de una aplicación móvil?"
+    ],
+    "en-US": [
+      "What is the most accurate definition of a mobile application?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Es un programa diseñado para ejecutarse en un dispositivo móvil, optimizando la experiencia del usuario en estos entornos",
+      "Es un archivo multimedia descargado desde Internet para entretenimiento",
+      "Es un componente de hardware integrado en los dispositivos móviles",
+      "Es un sistema operativo que permite la ejecución de aplicaciones"
+    ],
+    "en-US": [
+      "It is a program designed to run on a mobile device, optimizing the user experience in these environments",
+      "It is a multimedia file downloaded from the Internet for entertainment",
+      "It is a hardware component integrated into mobile devices",
+      "It is an operating system that enables application execution"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Es un programa diseñado para ejecutarse en un dispositivo móvil, optimizando la experiencia del usuario en estos entornos",
+    "en-US": "It is a program designed to run on a mobile device, optimizing the user experience in these environments"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Una aplicación móvil es un software desarrollado específicamente para funcionar en dispositivos móviles como teléfonos inteligentes o tabletas, aprovechando las características de hardware y software para mejorar la experiencia del usuario."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Adaptación a pantallas táctiles",
+          "Optimización para uso en movilidad",
+          "Integración con sensores y funciones nativas"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "A mobile application is software developed specifically to run on mobile devices such as smartphones or tablets, leveraging hardware and software features to enhance the user experience."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Adaptation to touch screens",
+          "Optimization for on-the-go use",
+          "Integration with native sensors and functions"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Características de las aplicaciones web",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es una característica principal de las aplicaciones web?"
+    ],
+    "en-US": [
+      "What is a main feature of web applications?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Son accesibles desde cualquier navegador web sin necesidad de instalación en el dispositivo",
+      "Requieren siempre instalación previa para poder usarse",
+      "Solo funcionan sin conexión a Internet",
+      "Necesitan un sistema operativo específico para ejecutarse"
+    ],
+    "en-US": [
+      "They are accessible from any web browser without needing installation on the device",
+      "They always require prior installation to be used",
+      "They only work without an Internet connection",
+      "They require a specific operating system to run"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Son accesibles desde cualquier navegador web sin necesidad de instalación en el dispositivo",
+    "en-US": "They are accessible from any web browser without needing installation on the device"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones web se ejecutan en un navegador y no necesitan instalarse localmente, lo que facilita el acceso desde distintos dispositivos y sistemas operativos."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Accesibles desde cualquier navegador compatible",
+          "No requieren instalación previa",
+          "Funcionan en múltiples plataformas"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Web applications run in a browser and do not need to be installed locally, making them accessible from different devices and operating systems."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Accessible from any compatible browser",
+          "No prior installation required",
+          "Work across multiple platforms"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Definición de conceptos",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué es una aplicación nativa?"
+    ],
+    "en-US": [
+      "What is a native application?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Es una aplicación desarrollada específicamente para un sistema operativo, optimizando su rendimiento y experiencia de usuario",
+      "Es una aplicación que se ejecuta en cualquier navegador web sin instalación",
+      "Es un programa diseñado para múltiples plataformas con un único código base",
+      "Es una aplicación que no necesita acceso a las funciones nativas del dispositivo"
+    ],
+    "en-US": [
+      "It is an application developed specifically for an operating system, optimizing its performance and user experience",
+      "It is an application that runs on any web browser without installation",
+      "It is a program designed for multiple platforms with a single codebase",
+      "It is an application that does not need access to the device's native functions"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Es una aplicación desarrollada específicamente para un sistema operativo, optimizando su rendimiento y experiencia de usuario",
+    "en-US": "It is an application developed specifically for an operating system, optimizing its performance and user experience"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Una aplicación nativa es desarrollada con las herramientas y lenguajes propios de un sistema operativo (como Swift/Objective-C para iOS o Java/Kotlin para Android), aprovechando al máximo las funciones y características del dispositivo."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Mayor rendimiento al estar optimizada para el sistema",
+          "Acceso completo a las APIs y hardware del dispositivo",
+          "Experiencia de usuario adaptada a las guías de diseño de la plataforma"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "A native application is developed with the tools and languages specific to an operating system (such as Swift/Objective-C for iOS or Java/Kotlin for Android), making full use of the device's functions and features."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Higher performance by being optimized for the system",
+          "Full access to the device's APIs and hardware",
+          "User experience adapted to the platform's design guidelines"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Comparativa y características de tipos de aplicaciones",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es una ventaja clave de las aplicaciones híbridas frente a las aplicaciones nativas?"
+    ],
+    "en-US": [
+      "What is a key advantage of hybrid applications over native applications?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Permiten un desarrollo más rápido y económico",
+      "Funcionan sin acceso a Internet en todos los casos",
+      "Ofrecen el mayor rendimiento posible en cualquier dispositivo",
+      "Son exclusivas para un único sistema operativo"
+    ],
+    "en-US": [
+      "They allow faster and more cost-effective development",
+      "They work without Internet access in all cases",
+      "They offer the highest possible performance on any device",
+      "They are exclusive to a single operating system"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Permiten un desarrollo más rápido y económico",
+    "en-US": "They allow faster and more cost-effective development"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones híbridas, al compartir una sola base de código para múltiples plataformas, reducen significativamente el tiempo y el costo de desarrollo frente a las nativas."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Una base de código para varias plataformas",
+          "Menor tiempo de salida al mercado",
+          "Ahorro de recursos en mantenimiento"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Hybrid applications, by sharing a single codebase for multiple platforms, significantly reduce development time and costs compared to native applications."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "One codebase for multiple platforms",
+          "Faster time-to-market",
+          "Reduced maintenance resources"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Comparativa y características de tipos de aplicaciones",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué factores clave deben considerarse al decidir el tipo de aplicación a desarrollar?"
+    ],
+    "en-US": [
+      "What key factors should be considered when deciding the type of application to develop?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Tiempo de salida al mercado, recursos disponibles y rendimiento esperado",
+      "Diseño gráfico, tipografía y colores de la interfaz",
+      "El número de empleados en el equipo de marketing",
+      "La cantidad de descargas en la primera semana"
+    ],
+    "en-US": [
+      "Time-to-market, available resources, and expected performance",
+      "Graphic design, typography, and interface colors",
+      "The number of employees in the marketing team",
+      "The number of downloads in the first week"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Tiempo de salida al mercado, recursos disponibles y rendimiento esperado",
+    "en-US": "Time-to-market, available resources, and expected performance"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Para elegir entre una aplicación nativa, híbrida o web, es fundamental evaluar el tiempo de desarrollo, los recursos técnicos y económicos disponibles, así como el rendimiento que se espera obtener."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "When choosing between a native, hybrid, or web application, it is essential to assess development time, available technical and financial resources, and the expected performance."
+      }
+    ]
+  }
+},
+{
+  "Category": "Comparativa y características de tipos de aplicaciones",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es una característica que distingue a las aplicaciones híbridas de las nativas?"
+    ],
+    "en-US": [
+      "What is a characteristic that distinguishes hybrid applications from native applications?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Combinan tecnologías web con acceso a funcionalidades nativas",
+      "Funcionan únicamente sin conexión a Internet",
+      "Se desarrollan con lenguajes exclusivos de un sistema operativo",
+      "Requieren instalación obligatoria desde la tienda oficial"
+    ],
+    "en-US": [
+      "They combine web technologies with access to native functionalities",
+      "They only work without Internet connection",
+      "They are developed with languages exclusive to one operating system",
+      "They require mandatory installation from the official store"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Combinan tecnologías web con acceso a funcionalidades nativas",
+    "en-US": "They combine web technologies with access to native functionalities"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones híbridas integran elementos de desarrollo web (HTML, CSS, JavaScript) con el acceso a APIs y recursos nativos del dispositivo, permitiendo compatibilidad entre múltiples plataformas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Hybrid applications integrate web development elements (HTML, CSS, JavaScript) with access to device native APIs and resources, allowing compatibility across multiple platforms."
+      }
+    ]
+  }
+},
+{
+  "Category": "Comparativa y características de tipos de aplicaciones",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es un requisito esencial para que una aplicación web funcione correctamente?"
+    ],
+    "en-US": [
+      "What is an essential requirement for a web application to work properly?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Conexión a Internet",
+      "Instalación previa en el dispositivo",
+      "Actualización semanal obligatoria",
+      "Un sistema operativo específico"
+    ],
+    "en-US": [
+      "Internet connection",
+      "Prior installation on the device",
+      "Mandatory weekly update",
+      "A specific operating system"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Conexión a Internet",
+    "en-US": "Internet connection"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones web se ejecutan en un navegador y dependen de una conexión a Internet para acceder a sus funciones y contenidos."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Web applications run in a browser and rely on an Internet connection to access their functions and content."
+      }
+    ]
+  }
+},
+{
+  "Category": "Comparativa y características de tipos de aplicaciones",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué ventaja ofrecen las aplicaciones híbridas en cuanto al desarrollo y mantenimiento?"
+    ],
+    "en-US": [
+      "What advantage do hybrid applications offer in terms of development and maintenance?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Permiten una experiencia multiplataforma con una sola base de código",
+      "Se adaptan únicamente a un sistema operativo",
+      "Requieren desarrollos separados para cada plataforma",
+      "No pueden acceder a funciones nativas del dispositivo"
+    ],
+    "en-US": [
+      "They allow a cross-platform experience with a single codebase",
+      "They adapt only to one operating system",
+      "They require separate development for each platform",
+      "They cannot access native device functions"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Permiten una experiencia multiplataforma con una sola base de código",
+    "en-US": "They allow a cross-platform experience with a single codebase"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones híbridas reducen costos y tiempos de desarrollo al reutilizar el mismo código para distintas plataformas, facilitando también las actualizaciones y el mantenimiento."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Hybrid applications reduce costs and development time by reusing the same code for different platforms, also making updates and maintenance easier."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y desarrollo de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es un factor crítico que determina el éxito de una aplicación móvil en el mercado?"
+    ],
+    "en-US": [
+      "What is a critical factor that determines the success of a mobile application in the market?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "La experiencia de usuario (UX)",
+      "El tamaño del archivo de instalación",
+      "La cantidad de animaciones en la interfaz",
+      "El número de actualizaciones semanales"
+    ],
+    "en-US": [
+      "User experience (UX)",
+      "The size of the installation file",
+      "The number of animations in the interface",
+      "The number of weekly updates"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "La experiencia de usuario (UX)",
+    "en-US": "User experience (UX)"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La experiencia de usuario influye directamente en la satisfacción, retención y recomendación de la aplicación, siendo clave para su éxito."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "User experience directly impacts satisfaction, retention, and app recommendations, making it a key to success."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y desarrollo de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "Es un elemento clave para determinar el éxito de una aplicación móvil en el mercado. "
+    ],
+    "en-US": [
+      "It is a key element in determining the success of a mobile application in the market"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "La experiencia de usuario (UX)",
+      "El tamaño del archivo de instalación",
+      "La cantidad de animaciones en la interfaz",
+      "El número de actualizaciones semanales"
+    ],
+    "en-US": [
+      "User experience (UX)",
+      "The size of the installation file",
+      "The number of animations in the interface",
+      "The number of weekly updates"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "La experiencia de usuario (UX)",
+    "en-US": "User experience (UX)"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La experiencia de usuario influye directamente en la satisfacción, retención y recomendación de la aplicación, siendo clave para su éxito."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "User experience directly impacts satisfaction, retention, and app recommendations, making it a key to success."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y desarrollo de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué tipo de aplicaciones permite desarrollar React Native?"
+    ],
+    "en-US": [
+      "What type of applications can be developed with React Native?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Aplicaciones nativas para Android e iOS con una sola base de código",
+      "Solo aplicaciones web progresivas (PWA)",
+      "Aplicaciones híbridas sin acceso a funciones nativas",
+      "Aplicaciones exclusivas para un solo sistema operativo"
+    ],
+    "en-US": [
+      "Native applications for Android and iOS with a single codebase",
+      "Only progressive web applications (PWA)",
+      "Hybrid applications without access to native functions",
+      "Applications exclusive to a single operating system"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Aplicaciones nativas para Android e iOS con una sola base de código",
+    "en-US": "Native applications for Android and iOS with a single codebase"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native permite crear aplicaciones nativas usando una única base de código en JavaScript, optimizando tiempos y costos de desarrollo."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native allows creating native apps using a single JavaScript codebase, optimizing development time and costs."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y desarrollo de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué diferencia a React Native de otros frameworks híbridos?"
+    ],
+    "en-US": [
+      "What differentiates React Native from other hybrid frameworks?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Genera aplicaciones con un rendimiento similar a las nativas",
+      "Requiere lenguajes exclusivos como Java o Swift",
+      "No permite acceso a componentes reutilizables",
+      "Solo sirve para prototipos sin optimización"
+    ],
+    "en-US": [
+      "It generates applications with performance similar to native apps",
+      "It requires exclusive languages like Java or Swift",
+      "It does not allow access to reusable components",
+      "It is only used for prototypes without optimization"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Genera aplicaciones con un rendimiento similar a las nativas",
+    "en-US": "It generates applications with performance similar to native apps"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native compila a componentes nativos, lo que permite un rendimiento muy cercano al de una aplicación desarrollada de forma completamente nativa."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native compiles to native components, enabling performance very close to that of a fully native application."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y desarrollo de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Por qué es popular React Native entre los desarrolladores?"
+    ],
+    "en-US": [
+      "Why is React Native popular among developers?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Porque permite reutilizar componentes y optimizar tiempos de desarrollo",
+      "Porque solo se puede usar con un sistema operativo específico",
+      "Porque no requiere conocimientos de JavaScript",
+      "Porque evita el uso de librerías de terceros"
+    ],
+    "en-US": [
+      "Because it allows reusing components and optimizing development time",
+      "Because it can only be used with a specific operating system",
+      "Because it does not require JavaScript knowledge",
+      "Because it avoids the use of third-party libraries"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Porque permite reutilizar componentes y optimizar tiempos de desarrollo",
+    "en-US": "Because it allows reusing components and optimizing development time"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La reutilización de componentes acelera el desarrollo y facilita la creación de aplicaciones eficientes y mantenibles."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Component reuse speeds up development and facilitates the creation of efficient, maintainable applications."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y desarrollo de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es una ventaja clave de React Native en cuanto a código?"
+    ],
+    "en-US": [
+      "What is a key advantage of React Native regarding code?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Permite compartir gran parte del código entre plataformas",
+      "Obliga a escribir código completamente diferente para cada plataforma",
+      "No permite acceso a funciones nativas",
+      "No es compatible con componentes de terceros"
+    ],
+    "en-US": [
+      "It allows sharing most of the code between platforms",
+      "It forces writing completely different code for each platform",
+      "It does not allow access to native functions",
+      "It is not compatible with third-party components"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Permite compartir gran parte del código entre plataformas",
+    "en-US": "It allows sharing most of the code between platforms"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Esta característica reduce los costos y tiempos de desarrollo, ya que el mismo código puede ejecutarse en Android y iOS con mínimas modificaciones."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "This feature reduces development costs and time, as the same code can run on Android and iOS with minimal changes."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y desarrollo de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué elemento utiliza React Native como base para construir interfaces?"
+    ],
+    "en-US": [
+      "What does React Native use as the basis for building interfaces?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Componentes reutilizables",
+      "Archivos HTML tradicionales",
+      "Formularios estáticos",
+      "Solo plantillas predefinidas"
+    ],
+    "en-US": [
+      "Reusable components",
+      "Traditional HTML files",
+      "Static forms",
+      "Only predefined templates"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Componentes reutilizables",
+    "en-US": "Reusable components"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native se basa en componentes reutilizables para construir interfaces dinámicas y eficientes, permitiendo modularidad y facilidad de mantenimiento."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native is based on reusable components to build dynamic and efficient interfaces, enabling modularity and ease of maintenance."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y rendimiento",
+  "Question Text": {
+    "es-MX": [
+      "¿Cómo logra React Native mejorar el rendimiento de las aplicaciones?"
+    ],
+    "en-US": [
+      "How does React Native improve application performance?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Permitiendo acceso directo al hardware mediante APIs nativas",
+      "Usando exclusivamente renderizado HTML",
+      "Reduciendo la calidad gráfica para optimizar velocidad",
+      "Ejecutando todo el código en un navegador web interno"
+    ],
+    "en-US": [
+      "By allowing direct hardware access through native APIs",
+      "By using exclusively HTML rendering",
+      "By reducing graphic quality to optimize speed",
+      "By running all code inside an internal web browser"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Permitiendo acceso directo al hardware mediante APIs nativas",
+    "en-US": "By allowing direct hardware access through native APIs"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native utiliza APIs nativas para comunicarse directamente con el hardware del dispositivo, lo que permite un rendimiento más cercano al de una aplicación completamente nativa."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Acceso a sensores, cámara y GPS sin capas intermedias lentas",
+          "Mejor aprovechamiento de la CPU y GPU",
+          "Reducción de la latencia en interacciones complejas"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native uses native APIs to communicate directly with the device hardware, allowing performance closer to that of a fully native application."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Access to sensors, camera, and GPS without slow intermediate layers",
+          "Better utilization of CPU and GPU",
+          "Reduced latency in complex interactions"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y escalabilidad",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué estrategia utiliza React Native para simplificar el desarrollo y mejorar la escalabilidad de los proyectos?"
+    ],
+    "en-US": [
+      "What strategy does React Native use to simplify development and improve project scalability?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Reutilización de componentes y soporte modular",
+      "Uso de código completamente distinto en cada plataforma",
+      "Eliminación de librerías externas y APIs nativas",
+      "Desarrollo exclusivo para un solo sistema operativo"
+    ],
+    "en-US": [
+      "Component reuse and modular support",
+      "Using completely different code for each platform",
+      "Removing external libraries and native APIs",
+      "Developing exclusively for a single operating system"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Reutilización de componentes y soporte modular",
+    "en-US": "Component reuse and modular support"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native permite reutilizar componentes de interfaz y lógica en múltiples partes de la aplicación, lo que combinado con un diseño modular facilita el mantenimiento y escalabilidad."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Menor duplicación de código",
+          "Facilita la incorporación de nuevas funciones",
+          "Optimiza el trabajo en equipo en proyectos grandes"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native allows reusing interface and logic components across multiple parts of the app, and when combined with modular design, it makes maintenance and scalability easier."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Less code duplication",
+          "Easier integration of new features",
+          "Optimized teamwork in large projects"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y diseño de interfaces",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué tipo de interfaces se pueden desarrollar con React Native?"
+    ],
+    "en-US": [
+      "What type of interfaces can be developed with React Native?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Interfaces dinámicas y optimizadas para Android e iOS",
+      "Interfaces web estáticas sin interacción",
+      "Interfaz única para un solo sistema operativo",
+      "Interfaces sin personalización de diseño"
+    ],
+    "en-US": [
+      "Dynamic and optimized interfaces for Android and iOS",
+      "Static web interfaces without interaction",
+      "Single interface for one operating system",
+      "Interfaces without design customization"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Interfaces dinámicas y optimizadas para Android e iOS",
+    "en-US": "Dynamic and optimized interfaces for Android and iOS"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native permite construir interfaces interactivas y adaptables que aprovechan el rendimiento nativo en Android e iOS."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Compatibilidad con gestos y animaciones fluidas",
+          "Ajuste automático al diseño y resolución de cada plataforma",
+          "Posibilidad de reutilizar componentes entre ambas plataformas"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native enables building interactive and adaptable interfaces that leverage native performance on Android and iOS."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Compatibility with smooth gestures and animations",
+          "Automatic adjustment to each platform’s layout and resolution",
+          "Ability to reuse components across both platforms"
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "Category": "React Native y desarrollo multiplataforma",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué característica de React Native simplifica el desarrollo para múltiples dispositivos?"
+    ],
+    "en-US": [
+      "Which React Native feature simplifies development for multiple devices?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Soporte multiplataforma con una sola base de código",
+      "Ejecución exclusiva en un solo sistema operativo",
+      "Requiere código completamente distinto para cada plataforma",
+      "No permite reutilización de componentes"
+    ],
+    "en-US": [
+      "Cross-platform support with a single codebase",
+      "Exclusive execution on a single operating system",
+      "Requires completely different code for each platform",
+      "Does not allow component reuse"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Soporte multiplataforma con una sola base de código",
+    "en-US": "Cross-platform support with a single codebase"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native permite desarrollar aplicaciones para Android e iOS usando la misma base de código, reduciendo costos y tiempo de desarrollo."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native allows developing Android and iOS applications using the same codebase, reducing costs and development time."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y rendimiento",
+  "Question Text": {
+    "es-MX": [
+      "¿Cómo mejora React Native el rendimiento de las aplicaciones?"
+    ],
+    "en-US": [
+      "How does React Native improve application performance?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Permite acceso directo al hardware mediante APIs nativas",
+      "Evita el uso de componentes nativos",
+      "Usa exclusivamente renderizado en HTML",
+      "Solo funciona sin conexión a Internet"
+    ],
+    "en-US": [
+      "Allows direct hardware access through native APIs",
+      "Avoids the use of native components",
+      "Uses exclusively HTML rendering",
+      "Only works without an Internet connection"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Permite acceso directo al hardware mediante APIs nativas",
+    "en-US": "Allows direct hardware access through native APIs"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El uso de APIs nativas en React Native permite aprovechar las capacidades del hardware del dispositivo, mejorando velocidad y eficiencia."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Using native APIs in React Native allows leveraging device hardware capabilities, improving speed and efficiency."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y escalabilidad",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué estrategia usa React Native para mejorar la escalabilidad de los proyectos?"
+    ],
+    "en-US": [
+      "What strategy does React Native use to improve project scalability?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Reutilización de componentes y soporte modular",
+      "Uso exclusivo de código no reutilizable",
+      "Eliminación de librerías de terceros",
+      "Limitación del número de componentes por aplicación"
+    ],
+    "en-US": [
+      "Component reuse and modular support",
+      "Exclusive use of non-reusable code",
+      "Removal of third-party libraries",
+      "Limiting the number of components per app"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Reutilización de componentes y soporte modular",
+    "en-US": "Component reuse and modular support"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La reutilización de componentes junto con un diseño modular permite que las aplicaciones sean más fáciles de mantener y escalar."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Component reuse along with modular design makes applications easier to maintain and scale."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native y diseño de interfaces",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué tipo de interfaces permite desarrollar React Native?"
+    ],
+    "en-US": [
+      "What type of interfaces can React Native develop?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Interfaces dinámicas y optimizadas para Android e iOS",
+      "Solo interfaces web estáticas",
+      "Interfaz única para un solo sistema operativo",
+      "Interfaces sin interacción con el usuario"
+    ],
+    "en-US": [
+      "Dynamic and optimized interfaces for Android and iOS",
+      "Only static web interfaces",
+      "A single interface for one operating system",
+      "Interfaces without user interaction"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Interfaces dinámicas y optimizadas para Android e iOS",
+    "en-US": "Dynamic and optimized interfaces for Android and iOS"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native permite crear interfaces responsivas y fluidas que se adaptan a cada plataforma manteniendo un alto rendimiento."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native allows creating responsive and smooth interfaces adapted to each platform while maintaining high performance."
+      }
+    ]
+  }
+},
+{
+  "Category": "Frameworks para desarrollo móvil",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuáles son algunos de los frameworks más utilizados para el desarrollo de aplicaciones móviles?"
+    ],
+    "en-US": [
+      "What are some of the most used frameworks for mobile application development?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "React Native, Flutter e Ionic",
+      "Angular, Vue y Laravel",
+      "Bootstrap y Tailwind CSS",
+      "Django y Flask"
+    ],
+    "en-US": [
+      "React Native, Flutter, and Ionic",
+      "Angular, Vue, and Laravel",
+      "Bootstrap and Tailwind CSS",
+      "Django and Flask"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "React Native, Flutter e Ionic",
+    "en-US": "React Native, Flutter, and Ionic"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Estos frameworks destacan por su capacidad de crear aplicaciones multiplataforma con buen rendimiento y experiencia de usuario."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "These frameworks stand out for their ability to create cross-platform applications with good performance and user experience."
+      }
+    ]
+  }
+},
+{
+  "Category": "Flutter y sus ventajas",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es una ventaja clave de Flutter frente a otros frameworks?"
+    ],
+    "en-US": [
+      "What is a key advantage of Flutter over other frameworks?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Alta velocidad de desarrollo gracias a su compilación nativa",
+      "Es exclusivo para aplicaciones web",
+      "No permite personalización de interfaces",
+      "Solo se puede usar en Android"
+    ],
+    "en-US": [
+      "High development speed thanks to its native compilation",
+      "It is exclusive to web applications",
+      "It does not allow interface customization",
+      "It can only be used on Android"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Alta velocidad de desarrollo gracias a su compilación nativa",
+    "en-US": "High development speed thanks to its native compilation"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "La compilación nativa de Flutter reduce el tiempo de desarrollo y permite obtener un rendimiento cercano al de las aplicaciones nativas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Flutter's native compilation reduces development time and delivers performance close to native applications."
+      }
+    ]
+  }
+},
+{
+  "Category": "Aplicaciones híbridas",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es la definición correcta de una aplicación híbrida?"
+    ],
+    "en-US": [
+      "What is the correct definition of a hybrid application?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Permite una experiencia multiplataforma con una base de código única",
+      "Solo funciona en navegadores web",
+      "Es exclusiva para un sistema operativo específico",
+      "No puede acceder a funciones nativas"
+    ],
+    "en-US": [
+      "Allows a cross-platform experience with a single codebase",
+      "Only works in web browsers",
+      "Is exclusive to a specific operating system",
+      "Cannot access native functions"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Permite una experiencia multiplataforma con una base de código única",
+    "en-US": "Allows a cross-platform experience with a single codebase"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones híbridas combinan tecnologías web y acceso a funciones nativas para ejecutarse en múltiples plataformas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Hybrid applications combine web technologies and access to native functions to run on multiple platforms."
+      }
+    ]
+  }
+},
+{
+  "Category": "JSX en React Native",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es la ventaja de usar JSX en React Native?"
+    ],
+    "en-US": [
+      "What is the advantage of using JSX in React Native?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Facilita la escritura de elementos de interfaz de usuario de manera estructurada y eficiente",
+      "Evita el uso de JavaScript",
+      "Permite ejecutar código sin compilar",
+      "Genera automáticamente todas las interfaces sin programación"
+    ],
+    "en-US": [
+      "It makes writing user interface elements more structured and efficient",
+      "It avoids the use of JavaScript",
+      "It allows executing code without compiling",
+      "It automatically generates all interfaces without programming"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Facilita la escritura de elementos de interfaz de usuario de manera estructurada y eficiente",
+    "en-US": "It makes writing user interface elements more structured and efficient"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "JSX es una extensión de JavaScript que combina lógica y estructura de interfaz, haciendo el desarrollo más claro y organizado."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "JSX is a JavaScript extension that combines logic and interface structure, making development clearer and more organized."
+      }
+    ]
+  }
+},
+{
+  "Category": "Middleware en aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué función cumple el middleware en una aplicación móvil?"
+    ],
+    "en-US": [
+      "What function does middleware serve in a mobile application?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Actúa como un puente que conecta la lógica de negocio con las aplicaciones",
+      "Es la capa de hardware que controla el procesador",
+      "Es el núcleo del sistema operativo",
+      "Es el encargado de la conexión a Internet"
+    ],
+    "en-US": [
+      "It acts as a bridge that connects business logic with applications",
+      "It is the hardware layer that controls the processor",
+      "It is the core of the operating system",
+      "It is responsible for Internet connection"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Actúa como un puente que conecta la lógica de negocio con las aplicaciones",
+    "en-US": "It acts as a bridge that connects business logic with applications"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El middleware facilita la comunicación entre diferentes componentes de una aplicación, integrando funciones y servicios."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Middleware facilitates communication between different components of an application, integrating functions and services."
+      }
+    ]
+  }
+},
+{
+  "Category": "Arquitectura de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es la diferencia principal entre el middleware y el núcleo en una aplicación móvil?"
+    ],
+    "en-US": [
+      "What is the main difference between middleware and the core in a mobile application?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "El middleware actúa como puente entre la lógica de negocio y las aplicaciones, mientras que el núcleo contiene la lógica de negocio principal",
+      "El middleware almacena toda la base de datos, mientras que el núcleo gestiona solo la interfaz de usuario",
+      "El middleware es la parte visual, mientras que el núcleo es la conexión a internet",
+      "El middleware y el núcleo cumplen exactamente la misma función en la arquitectura"
+    ],
+    "en-US": [
+      "Middleware acts as a bridge between business logic and applications, while the core contains the main business logic",
+      "Middleware stores the entire database, while the core only manages the user interface",
+      "Middleware is the visual part, while the core is the internet connection",
+      "Middleware and the core serve exactly the same function in the architecture"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "El middleware actúa como puente entre la lógica de negocio y las aplicaciones, mientras que el núcleo contiene la lógica de negocio principal",
+    "en-US": "Middleware acts as a bridge between business logic and applications, while the core contains the main business logic"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "En la arquitectura de aplicaciones móviles, el núcleo es el responsable de ejecutar la lógica principal del negocio, mientras que el middleware sirve como capa intermedia para conectar esa lógica con la interfaz de usuario, bases de datos o servicios externos."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "El núcleo procesa las reglas y operaciones clave del negocio",
+          "El middleware facilita la comunicación entre módulos y sistemas",
+          "Separar ambas capas mejora la organización y escalabilidad"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "In mobile application architecture, the core is responsible for executing the main business logic, while middleware serves as an intermediate layer to connect that logic with the user interface, databases, or external services."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "The core processes the key business rules and operations",
+          "Middleware facilitates communication between modules and systems",
+          "Separating both layers improves organization and scalability"
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "Category": "Ionic y desarrollo híbrido",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué tipo de aplicaciones permite desarrollar Ionic?"
+    ],
+    "en-US": [
+      "What type of applications can Ionic develop?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Aplicaciones híbridas y web compatibles con múltiples plataformas",
+      "Solo aplicaciones nativas para Android",
+      "Aplicaciones que funcionan exclusivamente sin conexión",
+      "Únicamente prototipos de interfaz"
+    ],
+    "en-US": [
+      "Hybrid and web applications compatible with multiple platforms",
+      "Only native applications for Android",
+      "Applications that work exclusively offline",
+      "Only interface prototypes"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Aplicaciones híbridas y web compatibles con múltiples plataformas",
+    "en-US": "Hybrid and web applications compatible with multiple platforms"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic es un framework que permite desarrollar aplicaciones híbridas y web, asegurando compatibilidad entre distintos dispositivos y sistemas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is a framework that enables the development of hybrid and web applications, ensuring compatibility across different devices and systems."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic y Capacitor",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué es Capacitor en el contexto de Ionic?"
+    ],
+    "en-US": [
+      "What is Capacitor in the context of Ionic?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Un conector que transforma aplicaciones web en móviles nativas y da acceso a funcionalidades avanzadas del sistema operativo",
+      "Un editor de código para desarrollar aplicaciones en Ionic",
+      "Una librería para manejar exclusivamente estilos y temas en aplicaciones móviles",
+      "Un motor de base de datos integrado para almacenar información localmente"
+    ],
+    "en-US": [
+      "A connector that transforms web applications into native mobile apps and provides access to advanced operating system features",
+      "A code editor for developing applications in Ionic",
+      "A library to handle exclusively styles and themes in mobile applications",
+      "An integrated database engine for storing information locally"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Un conector que transforma aplicaciones web en móviles nativas y da acceso a funcionalidades avanzadas del sistema operativo",
+    "en-US": "A connector that transforms web applications into native mobile apps and provides access to advanced operating system features"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Capacitor es una herramienta creada por el equipo de Ionic que actúa como un puente entre aplicaciones web y las plataformas móviles nativas, permitiendo usar APIs nativas y acceder a funciones del sistema como cámara, GPS, notificaciones y almacenamiento."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Permite empaquetar aplicaciones web como nativas",
+          "Ofrece acceso directo a funciones avanzadas del dispositivo",
+          "Compatible con Android, iOS y aplicaciones web progresivas (PWA)"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Capacitor is a tool created by the Ionic team that acts as a bridge between web applications and native mobile platforms, enabling the use of native APIs and access to system features like camera, GPS, notifications, and storage."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Allows packaging web apps as native apps",
+          "Provides direct access to advanced device features",
+          "Compatible with Android, iOS, and Progressive Web Apps (PWA)"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic y Capacitor",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es una ventaja clave de Capacitor en Ionic?"
+    ],
+    "en-US": [
+      "What is a key advantage of Capacitor in Ionic?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Facilita la integración de APIs nativas, permitiendo mayor control sobre las funcionalidades del dispositivo",
+      "Reduce la necesidad de escribir código JavaScript o TypeScript",
+      "Convierte automáticamente cualquier aplicación web en una PWA sin configuración",
+      "Permite ejecutar la aplicación sin necesidad de un sistema operativo"
+    ],
+    "en-US": [
+      "It facilitates the integration of native APIs, allowing greater control over device functionalities",
+      "It reduces the need to write JavaScript or TypeScript code",
+      "It automatically converts any web application into a PWA without configuration",
+      "It allows running the application without the need for an operating system"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Facilita la integración de APIs nativas, permitiendo mayor control sobre las funcionalidades del dispositivo",
+    "en-US": "It facilitates the integration of native APIs, allowing greater control over device functionalities"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Capacitor está diseñado para trabajar estrechamente con APIs nativas, lo que le permite aprovechar al máximo las capacidades del dispositivo y combinar tecnologías web con funciones propias de cada plataforma."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Acceso directo a sensores, cámara, GPS y almacenamiento",
+          "Compatibilidad con plugins personalizados para ampliar funcionalidades",
+          "Mejor integración con el ecosistema de Android e iOS"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Capacitor is designed to work closely with native APIs, enabling it to fully leverage device capabilities and combine web technologies with each platform's native features."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Direct access to sensors, camera, GPS, and storage",
+          "Compatibility with custom plugins to extend functionalities",
+          "Better integration with the Android and iOS ecosystems"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic y tecnologías base",
+  "Question Text": {
+    "es-MX": [
+      "¿En qué tecnologías base se fundamenta Ionic para desarrollar sus aplicaciones?"
+    ],
+    "en-US": [
+      "What base technologies does Ionic rely on to develop its applications?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "HTML, CSS y JavaScript",
+      "Python, Django y Flask",
+      "Java, Spring y Hibernate",
+      "C++, Qt y OpenGL"
+    ],
+    "en-US": [
+      "HTML, CSS, and JavaScript",
+      "Python, Django, and Flask",
+      "Java, Spring, and Hibernate",
+      "C++, Qt, and OpenGL"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "HTML, CSS y JavaScript",
+    "en-US": "HTML, CSS, and JavaScript"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic se construye sobre tecnologías web estándar, lo que permite a los desarrolladores crear aplicaciones móviles y web utilizando conocimientos comunes en desarrollo frontend."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "HTML para la estructura del contenido",
+          "CSS para el diseño y estilos",
+          "JavaScript para la lógica y la interactividad"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is built on standard web technologies, allowing developers to create mobile and web applications using common frontend development skills."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "HTML for content structure",
+          "CSS for design and styling",
+          "JavaScript for logic and interactivity"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Ventajas de Ionic",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál es una de las principales ventajas de usar Ionic frente a otros frameworks?"
+    ],
+    "en-US": [
+      "What is one of the main advantages of using Ionic over other frameworks?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Permite desarrollar aplicaciones con tecnologías web estándar, facilitando la adopción por desarrolladores con experiencia en web",
+      "Obliga a aprender un lenguaje de programación exclusivo de Ionic",
+      "Solo permite crear aplicaciones para una plataforma específica",
+      "Evita el uso de librerías externas en cualquier circunstancia"
+    ],
+    "en-US": [
+      "It allows developing applications with standard web technologies, making adoption easier for developers with web experience",
+      "It requires learning a programming language exclusive to Ionic",
+      "It only allows creating applications for one specific platform",
+      "It prevents the use of external libraries under any circumstances"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Permite desarrollar aplicaciones con tecnologías web estándar, facilitando la adopción por desarrolladores con experiencia en web",
+    "en-US": "It allows developing applications with standard web technologies, making adoption easier for developers with web experience"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic se basa en HTML, CSS y JavaScript, tecnologías ampliamente conocidas por los desarrolladores web, lo que reduce la curva de aprendizaje y facilita la transición al desarrollo móvil."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Aprovecha conocimientos previos en desarrollo web",
+          "Permite reutilizar código y componentes",
+          "Es compatible con múltiples plataformas desde una sola base de código"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is based on HTML, CSS, and JavaScript, technologies widely known by web developers, which reduces the learning curve and eases the transition to mobile development."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Leverages existing web development knowledge",
+          "Allows code and component reuse",
+          "Supports multiple platforms from a single codebase"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Funcionalidades de aplicaciones móviles",
+  "Question Text": {
+    "es-MX": [
+      "Las aplicaciones móviles permiten acceder a funciones nativas del dispositivo, como la cámara o el GPS."
+    ],
+    "en-US": [
+      "Mobile applications allow access to native device features, such as the camera or GPS."
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Verdadero",
+      "Falso"
+    ],
+    "en-US": [
+      "True",
+      "False"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones móviles pueden interactuar con las funciones nativas del dispositivo gracias a APIs y permisos específicos, lo que les permite acceder a herramientas como cámara, GPS, micrófono, sensores y almacenamiento."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Permiten capturar fotos y videos usando la cámara",
+          "Pueden obtener la ubicación en tiempo real mediante GPS",
+          "Acceden a sensores como acelerómetro o giroscopio"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Mobile applications can interact with the device's native features through specific APIs and permissions, allowing them to access tools such as the camera, GPS, microphone, sensors, and storage."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "They allow capturing photos and videos using the camera",
+          "They can obtain real-time location via GPS",
+          "They access sensors like the accelerometer or gyroscope"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Frameworks multiplataforma y fundamentos",
+  "Question Text": {
+    "es-MX": [
+      "Los frameworks multiplataforma permiten desarrollar aplicaciones para diferentes sistemas operativos utilizando un solo código base."
+    ],
+    "en-US": [
+      "Cross-platform frameworks allow developing applications for different operating systems using a single codebase."
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Verdadero",
+      "Falso"
+    ],
+    "en-US": [
+      "True",
+      "False"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Los frameworks multiplataforma como React Native, Flutter o Ionic permiten crear aplicaciones que funcionan en varios sistemas operativos partiendo de un único código, reduciendo el tiempo y costo de desarrollo."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Ahorra recursos al no tener que mantener múltiples versiones del mismo proyecto",
+          "Facilita la actualización y mantenimiento",
+          "Permite llegar a más usuarios con menos esfuerzo"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Cross-platform frameworks like React Native, Flutter, or Ionic allow creating applications that run on multiple operating systems from a single codebase, reducing development time and cost."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Saves resources by avoiding the need to maintain multiple versions of the same project",
+          "Facilitates updates and maintenance",
+          "Enables reaching more users with less effort"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Frameworks multiplataforma y fundamentos",
+  "Question Text": {
+    "es-MX": [
+      "Flutter fue desarrollado por Microsoft para facilitar el desarrollo de aplicaciones móviles multiplataforma."
+    ],
+    "en-US": [
+      "Flutter was developed by Microsoft to facilitate cross-platform mobile application development."
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Verdadero",
+      "Falso"
+    ],
+    "en-US": [
+      "True",
+      "False"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Flutter fue desarrollado por Google, no por Microsoft. Es un framework de código abierto que permite crear aplicaciones multiplataforma con alto rendimiento."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Usa el lenguaje Dart",
+          "Permite compilación nativa",
+          "Compatible con Android, iOS, web y escritorio"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Flutter was developed by Google, not Microsoft. It is an open-source framework that enables high-performance cross-platform application development."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Uses the Dart programming language",
+          "Allows native compilation",
+          "Supports Android, iOS, web, and desktop"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Frameworks multiplataforma y fundamentos",
+  "Question Text": {
+    "es-MX": [
+      "El conocimiento de sistemas operativos es fundamental para entender cómo funcionan las aplicaciones móviles."
+    ],
+    "en-US": [
+      "Knowledge of operating systems is essential to understand how mobile applications work."
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Verdadero",
+      "Falso"
+    ],
+    "en-US": [
+      "True",
+      "False"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Conocer el funcionamiento de los sistemas operativos ayuda a optimizar aplicaciones, gestionar permisos y aprovechar al máximo los recursos del dispositivo."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Permite adaptar la app a las particularidades de cada plataforma",
+          "Facilita la resolución de problemas de compatibilidad",
+          "Ayuda a implementar mejores prácticas de seguridad"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Understanding how operating systems work helps optimize applications, manage permissions, and make the most of device resources."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Allows adapting the app to each platform's particularities",
+          "Facilitates troubleshooting compatibility issues",
+          "Helps implement better security practices"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "Tendencias en desarrollo",
+  "Question Text": {
+    "es-MX": [
+      "El desarrollo de aplicaciones móviles está desplazando a las aplicaciones web."
+    ],
+    "en-US": [
+      "Mobile application development is replacing web applications."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El crecimiento de los smartphones y el acceso a tiendas de aplicaciones han hecho que las aplicaciones móviles sean cada vez más populares frente a las aplicaciones web, especialmente por su integración con funciones nativas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The growth of smartphones and access to app stores have made mobile applications increasingly popular compared to web applications, especially due to their integration with native features."
+      }
+    ]
+  }
+},
+{
+  "Category": "Aplicaciones híbridas",
+  "Question Text": {
+    "es-MX": [
+      "Las aplicaciones híbridas nos permiten codificar en un único lenguaje y luego al desplegar compilar al sistema operativo correspondiente."
+    ],
+    "en-US": [
+      "Hybrid applications allow us to code in a single language and then compile to the target operating system when deploying."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las aplicaciones híbridas usan un solo código base que puede compilarse o adaptarse para funcionar en diferentes sistemas operativos, optimizando tiempo y costos."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Hybrid applications use a single codebase that can be compiled or adapted to work on different operating systems, optimizing time and costs."
+      }
+    ]
+  }
+},
+{
+  "Category": "Buenas prácticas en desarrollo móvil",
+  "Question Text": {
+    "es-MX": [
+      "Al desarrollar aplicaciones móviles debemos hacerlo para todos los sistemas operativos disponibles."
+    ],
+    "en-US": [
+      "When developing mobile applications, we must do so for all available operating systems."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "No siempre es necesario desarrollar para todos los sistemas operativos; la decisión depende de la audiencia objetivo, presupuesto y estrategia del producto."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "It is not always necessary to develop for all operating systems; the decision depends on the target audience, budget, and product strategy."
+      }
+    ]
+  }
+},
+{
+  "Category": "Sistemas operativos móviles",
+  "Question Text": {
+    "es-MX": [
+      "El logotipo de iOS es un robot verde."
+    ],
+    "en-US": [
+      "The iOS logo is a green robot."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El robot verde es el logotipo de Android, mientras que iOS utiliza un logotipo en forma de manzana mordida."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The green robot is the logo of Android, while iOS uses a bitten apple as its logo."
+      }
+    ]
+  }
+},
+{
+  "Category": "Rendimiento de aplicaciones",
+  "Question Text": {
+    "es-MX": [
+      "Las aplicaciones híbridas ofrecen mayor rendimiento que las aplicaciones nativas."
+    ],
+    "en-US": [
+      "Hybrid applications offer better performance than native applications."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "En general, las aplicaciones nativas ofrecen mejor rendimiento porque están optimizadas para un sistema operativo específico, mientras que las híbridas pueden tener ligeras limitaciones."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "In general, native applications offer better performance because they are optimized for a specific operating system, while hybrid applications may have slight limitations."
+      }
+    ]
+  }
+},
+{
+  "Category": "Flutter",
+  "Question Text": {
+    "es-MX": [
+      "Flutter utiliza un enfoque basado en widgets para construir interfaces de usuario."
+    ],
+    "en-US": [
+      "Flutter uses a widget-based approach to build user interfaces."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Flutter construye toda la interfaz de usuario mediante widgets, que son bloques reutilizables que definen elementos visuales y su comportamiento."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Flutter builds the entire user interface using widgets, which are reusable blocks that define visual elements and their behavior."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native",
+  "Question Text": {
+    "es-MX": [
+      "React Native permite desarrollar aplicaciones móviles que funcionan exclusivamente en Android."
+    ],
+    "en-US": [
+      "React Native allows developing mobile applications that work exclusively on Android."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native es un framework multiplataforma que permite desarrollar aplicaciones para Android e iOS usando un mismo código base."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native is a cross-platform framework that allows developing applications for both Android and iOS using the same codebase."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native",
+  "Question Text": {
+    "es-MX": [
+      "React Native utiliza JavaScript como lenguaje principal para el desarrollo de aplicaciones."
+    ],
+    "en-US": [
+      "React Native uses JavaScript as the main language for application development."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native utiliza JavaScript junto con JSX para definir interfaces y lógica de negocio en el desarrollo de aplicaciones móviles."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native uses JavaScript along with JSX to define interfaces and business logic in mobile application development."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native",
+  "Question Text": {
+    "es-MX": [
+      "El método render() es obligatorio en todos los componentes de React Native."
+    ],
+    "en-US": [
+      "The render() method is mandatory in all React Native components."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El método render() es obligatorio solo en los componentes de clase. Los componentes funcionales no lo utilizan, ya que retornan JSX directamente."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "The render() method is only mandatory in class components. Functional components do not use it, as they return JSX directly."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - State y Props",
+  "Question Text": {
+    "es-MX": [
+      "El estado (state) de un componente puede modificarse directamente sin utilizar funciones específicas como setState."
+    ],
+    "en-US": [
+      "The state of a component can be modified directly without using specific functions like setState."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "En React Native, el estado debe modificarse mediante funciones como setState (en componentes de clase) o los setters de useState (en funcionales), para garantizar que el cambio se procese correctamente y se renderice la interfaz."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "In React Native, state must be modified through functions like setState (in class components) or useState setters (in functional components) to ensure the change is processed correctly and the UI re-renders."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - Props",
+  "Question Text": {
+    "es-MX": [
+      "Las props se utilizan para pasar datos entre componentes relacionados jerárquicamente."
+    ],
+    "en-US": [
+      "Props are used to pass data between hierarchically related components."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las props son un mecanismo para pasar datos de un componente padre a un hijo en React y React Native, manteniendo la unidireccionalidad del flujo de datos."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Props are a mechanism for passing data from a parent component to a child in React and React Native, maintaining the unidirectional data flow."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - Ciclo de vida",
+  "Question Text": {
+    "es-MX": [
+      "El ciclo de vida de un componente incluye fases como montaje, actualización y desmontaje."
+    ],
+    "en-US": [
+      "A component's lifecycle includes phases such as mounting, updating, and unmounting."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Los componentes en React Native pasan por un ciclo de vida que incluye el montaje (creación e inserción), la actualización (cuando cambian props o estado) y el desmontaje (cuando se eliminan de la interfaz)."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Components in React Native go through a lifecycle including mounting (creation and insertion), updating (when props or state change), and unmounting (when removed from the UI)."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - State",
+  "Question Text": {
+    "es-MX": [
+      "El estado (state) de un componente es compartido automáticamente con otros componentes de la aplicación."
+    ],
+    "en-US": [
+      "A component's state is automatically shared with other components in the application."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "El estado es privado para cada componente. Para compartir datos se utilizan props o gestores de estado global como Redux o Context API."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "State is private to each component. To share data, you use props or global state managers such as Redux or the Context API."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - Tipos de componentes",
+  "Question Text": {
+    "es-MX": [
+      "Los componentes en React Native pueden ser funcionales o basados en clases."
+    ],
+    "en-US": [
+      "Components in React Native can be functional or class-based."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native soporta componentes funcionales y de clase. Los funcionales son más comunes actualmente por el uso de hooks."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native supports both functional and class components. Functional components are more common today due to the use of hooks."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - Props",
+  "Question Text": {
+    "es-MX": [
+      "Las props son inmutables, lo que significa que no pueden cambiarse después de ser definidas."
+    ],
+    "en-US": [
+      "Props are immutable, meaning they cannot be changed after being defined."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las props no pueden modificarse desde el componente que las recibe. Solo el componente padre que las define puede cambiarlas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Props cannot be modified from the component that receives them. Only the parent component that defines them can change them."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - Ciclo de vida",
+  "Question Text": {
+    "es-MX": [
+      "El método componentWillUnmount se ejecuta antes de que un componente sea eliminado de la pantalla."
+    ],
+    "en-US": [
+      "The componentWillUnmount method runs before a component is removed from the screen."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "componentWillUnmount es un método del ciclo de vida de componentes de clase que se ejecuta antes de eliminar el componente del DOM nativo, útil para limpiar recursos."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "componentWillUnmount is a lifecycle method in class components that runs before removing the component from the native DOM, useful for cleaning up resources."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic",
+  "Question Text": {
+    "es-MX": [
+      "Ionic utiliza tecnologías web como HTML, CSS y JavaScript para el desarrollo de aplicaciones móviles."
+    ],
+    "en-US": [
+      "Ionic uses web technologies like HTML, CSS, and JavaScript for mobile application development."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic se basa en tecnologías web estándar, permitiendo a desarrolladores con experiencia web crear apps móviles sin aprender lenguajes nativos."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is based on standard web technologies, allowing web developers to create mobile apps without learning native languages."
+      }
+    ]
+  }
+},
+{
+  "Category": "Xamarin",
+  "Question Text": {
+    "es-MX": [
+      "Xamarin requiere conocimientos avanzados de JavaScript para desarrollar aplicaciones móviles."
+    ],
+    "en-US": [
+      "Xamarin requires advanced JavaScript knowledge to develop mobile applications."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Xamarin utiliza C# y .NET para el desarrollo de aplicaciones móviles, no JavaScript."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Xamarin uses C# and .NET for mobile application development, not JavaScript."
+      }
+    ]
+  }
+},
+{
+  "Category": "Frameworks multiplataforma",
+  "Question Text": {
+    "es-MX": [
+      "Los frameworks multiplataforma permiten compartir el 100% del código entre plataformas."
+    ],
+    "en-US": [
+      "Cross-platform frameworks allow sharing 100% of the code between platforms."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Aunque los frameworks multiplataforma permiten compartir gran parte del código, a menudo se requieren adaptaciones específicas para cada plataforma."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Although cross-platform frameworks allow sharing most of the code, platform-specific adaptations are often required."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Navegación",
+  "Question Text": {
+    "es-MX": [
+      "La navegación entre páginas, al igual que con React o React Native, debemos hacerlo a través de un Navigation. IONIC cuenta con IonReactRouter que se comporta de forma similar al React Router de React."
+    ],
+    "en-US": [
+      "Navigation between pages, just like in React or React Native, should be done through Navigation. IONIC has IonReactRouter which behaves similarly to React Router in React."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic utiliza IonReactRouter para manejar rutas y navegación, ofreciendo una experiencia similar a React Router, pero adaptada al ecosistema de Ionic."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic uses IonReactRouter to handle routing and navigation, offering a similar experience to React Router but adapted to the Ionic ecosystem."
+      }
+    ]
+  }
+},
+{
+  "Category": "Frameworks híbridos",
+  "Question Text": {
+    "es-MX": [
+      "Los frameworks híbridos como Flutter y React Native limitan el acceso a APIs nativas."
+    ],
+    "en-US": [
+      "Hybrid frameworks like Flutter and React Native limit access to native APIs."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Tanto Flutter como React Native ofrecen acceso a APIs nativas mediante plugins o módulos nativos, lo que permite aprovechar funcionalidades avanzadas del dispositivo."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Both Flutter and React Native provide access to native APIs through plugins or native modules, enabling the use of advanced device features."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Plataformas",
+  "Question Text": {
+    "es-MX": [
+      "IONIC permite desarrollar aplicaciones exclusivamente para dispositivos móviles."
+    ],
+    "en-US": [
+      "IONIC allows developing applications exclusively for mobile devices."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic permite crear aplicaciones móviles y web progresivas (PWA), por lo que no está limitado únicamente a dispositivos móviles."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic allows building mobile applications and progressive web apps (PWA), so it is not limited to mobile devices only."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Capacitor",
+  "Question Text": {
+    "es-MX": [
+      "Capacitor es el núcleo del SDK de IONIC y permite integrar APIs nativas en las aplicaciones."
+    ],
+    "en-US": [
+      "Capacitor is the core of the IONIC SDK and allows integrating native APIs into applications."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Capacitor es la herramienta de Ionic que actúa como puente para integrar funcionalidades nativas en aplicaciones web transformadas en móviles."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Capacitor is Ionic's tool that acts as a bridge to integrate native features into web applications transformed into mobile apps."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic vs React Native",
+  "Question Text": {
+    "es-MX": [
+      "El entorno de desarrollo de IONIC es completamente diferente al de React Native."
+    ],
+    "en-US": [
+      "The development environment of IONIC is completely different from that of React Native."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Aunque hay diferencias en la tecnología base, Ionic y React Native comparten conceptos como componentes, enrutamiento y herramientas de desarrollo modernas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Although there are differences in the underlying technology, Ionic and React Native share concepts such as components, routing, and modern development tools."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Componentes",
+  "Question Text": {
+    "es-MX": [
+      "Los componentes de IONIC están preconfigurados y listos para usar en aplicaciones."
+    ],
+    "en-US": [
+      "IONIC components are preconfigured and ready to use in applications."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic ofrece una amplia biblioteca de componentes listos para usar, optimizados para múltiples plataformas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic provides a wide library of ready-to-use components, optimized for multiple platforms."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Frameworks soportados",
+  "Question Text": {
+    "es-MX": [
+      "IONIC permite elegir entre diferentes frameworks JavaScript, como React, Angular o Vue.js."
+    ],
+    "en-US": [
+      "IONIC allows choosing between different JavaScript frameworks, such as React, Angular, or Vue.js."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic es compatible con varios frameworks de JavaScript, lo que da flexibilidad a los desarrolladores para trabajar con la tecnología que prefieran."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is compatible with various JavaScript frameworks, giving developers flexibility to work with their preferred technology."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Funcionalidades nativas",
+  "Question Text": {
+    "es-MX": [
+      "Las aplicaciones desarrolladas con IONIC no pueden acceder a funciones nativas del dispositivo, como la cámara o el GPS."
+    ],
+    "en-US": [
+      "Applications developed with IONIC cannot access native device features, such as the camera or GPS."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "IONIC, a través de Capacitor o Cordova, permite acceder a funciones nativas como la cámara, el GPS, el almacenamiento local y otros recursos del hardware."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "IONIC, through Capacitor or Cordova, allows access to native features such as the camera, GPS, local storage, and other hardware resources."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Plataformas",
+  "Question Text": {
+    "es-MX": [
+      "IONIC es una plataforma exclusiva para aplicaciones móviles nativas."
+    ],
+    "en-US": [
+      "IONIC is an exclusive platform for native mobile applications."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic no es exclusivo para móviles nativos; permite desarrollar aplicaciones híbridas y PWA que funcionan en navegadores y dispositivos."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is not exclusive to native mobile; it allows developing hybrid and PWA applications that run in browsers and devices."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Capacitor",
+  "Question Text": {
+    "es-MX": [
+      "Capacitor transforma aplicaciones web en móviles nativas al permitir el acceso a funcionalidades del hardware del dispositivo."
+    ],
+    "en-US": [
+      "Capacitor transforms web applications into native mobile apps by enabling access to device hardware features."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Capacitor es el puente de Ionic para acceder a APIs nativas, permitiendo a aplicaciones web empaquetadas comportarse como apps móviles completas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Capacitor is Ionic's bridge to access native APIs, allowing packaged web applications to behave as full mobile apps."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Tecnologías base",
+  "Question Text": {
+    "es-MX": [
+      "IONIC utiliza tecnologías estándar como HTML, CSS y JavaScript para desarrollar aplicaciones."
+    ],
+    "en-US": [
+      "IONIC uses standard technologies such as HTML, CSS, and JavaScript to develop applications."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Verdadero",
+    "en-US": "True"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic se basa en tecnologías web estándar, lo que permite a desarrolladores web crear aplicaciones móviles sin aprender lenguajes nativos."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is based on standard web technologies, allowing web developers to build mobile applications without learning native languages."
+      }
+    ]
+  }
+},
+{
+  "Category": "Ionic - Diseño",
+  "Question Text": {
+    "es-MX": [
+      "IONIC no es compatible con aplicaciones responsivas ni con diseño adaptativo."
+    ],
+    "en-US": [
+      "IONIC is not compatible with responsive applications or adaptive design."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Ionic está diseñado para soportar diseño responsivo y adaptativo, utilizando CSS flexible y componentes que se ajustan a diferentes pantallas."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "Ionic is designed to support responsive and adaptive design, using flexible CSS and components that adapt to different screens."
+      }
+    ]
+  }
+},
+{
+  "Category": "React Native - Plataformas",
+  "Question Text": {
+    "es-MX": [
+      "React Native permite desarrollar aplicaciones móviles que funcionan exclusivamente en Android."
+    ],
+    "en-US": [
+      "React Native allows developing mobile applications that run exclusively on Android."
+    ]
+  },
+  "Options": {
+    "es-MX": ["Verdadero", "Falso"],
+    "en-US": ["True", "False"]
+  },
+  "Correct Answer": {
+    "es-MX": "Falso",
+    "en-US": "False"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "React Native permite desarrollar aplicaciones para Android e iOS con una sola base de código."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "React Native allows developing applications for both Android and iOS from a single codebase."
+      }
+    ]
+  }
+},
+{
+  "Category": "PWA - Conceptos y características",
+  "Question Text": {
+    "es-MX": [
+      "¿Qué significa PWA en el contexto del desarrollo web?"
+    ],
+    "en-US": [
+      "What does PWA stand for in the context of web development?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Progressive Web App",
+      "Programmed Web Access",
+      "Platform Web Application",
+      "Proactive Web Architecture"
+    ],
+    "en-US": [
+      "Progressive Web App",
+      "Programmed Web Access",
+      "Platform Web Application",
+      "Proactive Web Architecture"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Progressive Web App",
+    "en-US": "Progressive Web App"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "PWA significa Progressive Web App, un tipo de aplicación web que combina características de páginas web y aplicaciones móviles."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "PWA stands for Progressive Web App, a type of web application that combines features of websites and mobile apps."
+      }
+    ]
+  }
+},
+{
+  "Category": "PWA - Ventajas",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál de las siguientes es una ventaja clave de una PWA frente a una aplicación web tradicional?"
+    ],
+    "en-US": [
+      "Which of the following is a key advantage of a PWA compared to a traditional web application?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Puede funcionar sin conexión a internet",
+      "Solo funciona en navegadores de escritorio",
+      "No puede instalarse en dispositivos móviles",
+      "Requiere instalación obligatoria desde una tienda de apps"
+    ],
+    "en-US": [
+      "It can work offline",
+      "It only works in desktop browsers",
+      "It cannot be installed on mobile devices",
+      "It requires mandatory installation from an app store"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Puede funcionar sin conexión a internet",
+    "en-US": "It can work offline"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "ul",
+        "items": [
+          "Las PWA usan Service Workers para funcionar sin conexión",
+          "Pueden instalarse directamente desde el navegador",
+          "No dependen de tiendas de aplicaciones"
+        ]
+      }
+    ],
+    "en-US": [
+      {
+        "type": "ul",
+        "items": [
+          "PWAs use Service Workers to work offline",
+          "They can be installed directly from the browser",
+          "They do not depend on app stores"
+        ]
+      }
+    ]
+  }
+},
+{
+  "Category": "PWA - Funcionalidad",
+  "Question Text": {
+    "es-MX": [
+      "¿Cuál de estas funcionalidades es posible implementar en una PWA?"
+    ],
+    "en-US": [
+      "Which of these features can be implemented in a PWA?"
+    ]
+  },
+  "Options": {
+    "es-MX": [
+      "Notificaciones push",
+      "Acceso directo a la memoria RAM del dispositivo",
+      "Modificación del sistema operativo",
+      "Instalación automática sin permiso del usuario"
+    ],
+    "en-US": [
+      "Push notifications",
+      "Direct access to the device's RAM",
+      "Modifying the operating system",
+      "Automatic installation without user consent"
+    ]
+  },
+  "Correct Answer": {
+    "es-MX": "Notificaciones push",
+    "en-US": "Push notifications"
+  },
+  "Explanation": {
+    "es-MX": [
+      {
+        "type": "text",
+        "content": "Las PWA pueden enviar notificaciones push usando APIs del navegador, lo que mejora la interacción con el usuario."
+      }
+    ],
+    "en-US": [
+      {
+        "type": "text",
+        "content": "PWAs can send push notifications using browser APIs, enhancing user engagement."
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+      
+    ]
+  }
+  
