@@ -14,7 +14,7 @@ const Icon = {
       <path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
   ),
-  ChevronDown: (props) => (
+  ChevronDown : (props) => (
     <svg viewBox="0 0 24 24" fill="none" width="1em" height="1em" {...props}>
       <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
@@ -179,7 +179,7 @@ export default function Navbar({ onSelectOption }) {
                 aria-controls="tools-menu"
               >
                 Herramientas
-                <Icon.chevronDown className={`w-4 h-4 transition-transform ${toolsOpen ? "rotate-180" : ""}`} />
+                <Icon.ChevronDown  className={`w-4 h-4 transition-transform ${toolsOpen ? "rotate-180" : ""}`} />
               </button>
 
               <AnimatePresence>
@@ -223,7 +223,7 @@ export default function Navbar({ onSelectOption }) {
                 aria-controls="pronunciacion-menu"
               >
                 Pronunciación
-                <Icon.chevronDown className={`w-4 h-4 transition-transform ${langsOpen ? "rotate-180" : ""}`} />
+                <Icon.ChevronDown   className={`w-4 h-4 transition-transform ${langsOpen ? "rotate-180" : ""}`} />
               </button>
 
               <AnimatePresence>
@@ -354,7 +354,7 @@ function MobileAccordion({ title, items, onPick }) {
         aria-controls={`section-${title}`}
       >
         <span>{title}</span>
-        <Icon.chevronDown className={`w-4 h-4 transition-transform ${open ? "rotate-180" : ""}`} />
+        <Icon.ChevronDown  className={`w-4 h-4 transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
 
       <AnimatePresence initial={false}>
