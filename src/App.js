@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import Menu from './components/Menu';
 
-// Importa claramente los componentes necesarios aquí
 import QuizApp from './components/quizApp/QuizApp';
 import CombineCSVFiles from './components/CombineCSVFiles';
 import InterviewQuiz from './components/interview/InterviewQuiz';
 import InterviewQuiz3D from './components/interview/InterviewQuiz3D';
 import LearningEnglishWithQuestions from './components/learningEnglishWithQuestions/LearningEnglishWithQuestions';
 
-// Importa los demás componentes según los vayas necesitando.
+// 👉 IMPORTA tus herramientas nuevas (ajusta rutas según tu estructura)
+import AnalisisUnivariado from './AnalisisUnivariado/AnalisisUnivariado.jsx';
+// Si tienes el conversor de Excel a JSON en otra carpeta, usa la que corresponda:
+import ExcelToJsonConverter from './components/ExcelToJsonConverter.jsx';
+// // o si lo tienes en /Herramientas:
+// import ExcelToJsonConverter from './components/Herramientas/ExcelToJsonConverter.jsx';
 
 function App() {
   const [selectedOption, setSelectedOption] = useState('');
@@ -28,7 +32,12 @@ function App() {
         {selectedOption === 'interviewQuiz3D' && <InterviewQuiz3D />}
         {selectedOption === 'LearningEnglishWithQuestions' && <LearningEnglishWithQuestions />}
 
-        {/* añade claramente otros componentes según tu lógica */}
+        {/* ✅ NUEVO: opciones del submenú Herramientas */}
+        {selectedOption === 'AnalisisUnivariado' && <AnalisisUnivariado />}
+        {selectedOption === 'ExcelToJsonConverter' && <ExcelToJsonConverter />}
+
+        {/* opcional: pantalla por defecto */}
+        {!selectedOption && <div className="text-white/80">Selecciona una opción del menú.</div>}
       </main>
 
       {selectedOption && (

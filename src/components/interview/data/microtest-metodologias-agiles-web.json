@@ -1,0 +1,2121 @@
+{
+  "Quiz Title": "Metodologías agiles en el proceso de desarrollo web",
+  "Questions": [
+    {
+      "Category": "Clasificación de sitios web",
+      "Question Text": {
+        "en-US": [
+          "What do we call a website whose purpose is to sell products that are listed in an organized way?",
+          "A site designed to display products and complete online purchases is known as what?"
+        ],
+        "es-MX": [
+          "¿Cómo se llama una web cuyo fin es vender productos que se muestran de forma ordenada?",
+          "Un sitio diseñado para mostrar productos y completar compras en línea se conoce como ¿qué?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "E-commerce",
+          "Point of sale (onsite terminal)",
+          "Blogs"
+        ],
+        "es-MX": [
+          "E-commerce",
+          "Punto de venta",
+          "Blogs"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "E-commerce",
+        "es-MX": "E-commerce"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"E-commerce\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "An e-commerce site provides product listings, a shopping cart, checkout, and payment processing so customers can purchase online."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Shows products in structured catalogs",
+              "Includes cart and secure checkout",
+              "Supports online payments and order tracking"
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "content": "\"Point of sale\" refers to in-person payment terminals, and a \"Blog\" focuses on articles, not product sales."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"E-commerce\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Un sitio de e-commerce ofrece catálogos de productos, carrito, proceso de pago y pasarela de cobro para comprar en línea."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Muestra productos en catálogos estructurados",
+              "Incluye carrito y checkout seguro",
+              "Soporta pagos en línea y seguimiento de pedidos"
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "content": "\"Punto de venta\" se refiere a terminales presenciales y un \"Blog\" publica artículos; no están orientados a vender productos en línea."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Clasificación de sitios web",
+      "Question Text": {
+        "en-US": [
+          "A website whose goal is for a user to hire or request the services offered—via email, phone call, or chat window—is called what?",
+          "How do we call a site focused on presenting services so the user can contact and contract them?"
+        ],
+        "es-MX": [
+          "Una web con el fin de que un usuario contrate los servicios que se ofrecen en ella, ya sea por correo, llamada o chat, se llama ¿cómo?",
+          "¿Cómo se denomina un sitio orientado a presentar servicios para que el usuario los contrate?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Service website",
+          "E-commerce",
+          "Blogs"
+        ],
+        "es-MX": [
+          "Web de servicios",
+          "E-commerce",
+          "Blogs"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Service website",
+        "es-MX": "Web de servicios"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Service website\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Service sites describe offerings (e.g., consulting, repairs), show benefits and pricing, and provide conversion paths like forms, chat, or phone."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Oriented to lead generation and booking",
+              "Contact via form, email, chat, or phone",
+              "May include portfolios, testimonials, and FAQs"
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "content": "An \"E-commerce\" focuses on product checkout. A \"Blog\" publishes articles and is not primarily for hiring services."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Web de servicios\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Las webs de servicios describen lo que se ofrece (p. ej., consultoría, reparaciones), muestran beneficios y precios, y facilitan el contacto para contratar."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Orientadas a generar prospectos y reservas",
+              "Contacto por formulario, correo, chat o teléfono",
+              "Suelen incluir portafolio, testimonios y preguntas frecuentes"
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "content": "Un \"E-commerce\" se centra en compras de productos. Un \"Blog\" publica artículos y no está enfocado en contratar servicios."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Clasificación de sitios web",
+      "Question Text": {
+        "en-US": [
+          "Websites that gather information from other sites or products so you can choose among them are called what?",
+          "Sites that aggregate offers from different providers to help users compare are known as what?"
+        ],
+        "es-MX": [
+          "Los sitios web que agrupan información de otras webs o productos para que elijas entre ellos se llaman ¿cómo?",
+          "Sitios que agregan ofertas de distintos proveedores para comparar se conocen como ¿qué?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Service website",
+          "E-commerce",
+          "Comparison sites"
+        ],
+        "es-MX": [
+          "Web de servicios",
+          "E-commerce",
+          "Comparadores"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Comparison sites",
+        "es-MX": "Comparadores"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Comparison sites\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Comparison (aggregator) sites collect and normalize data from multiple sources so users can evaluate options side by side."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Aggregate prices, specs or reviews",
+              "Provide filters and sorting",
+              "Often link out to the seller’s checkout"
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "content": "\"Service website\" focuses on one provider’s services, and \"E-commerce\" sells directly rather than aggregating third-party options."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Comparadores\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Los sitios comparadores (agregadores) reúnen y normalizan información de múltiples fuentes para que el usuario compare opciones lado a lado."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Agregan precios, especificaciones o reseñas",
+              "Ofrecen filtros y ordenamiento",
+              "Con frecuencia enlazan al checkout del vendedor"
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "content": "\"Web de servicios\" se centra en un solo proveedor, y \"E-commerce\" vende directamente en lugar de agregar opciones de terceros."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Clasificación de sitios web",
+      "Question Text": {
+        "en-US": [
+          "What do we call a website mainly focused on publishing articles, opinions, or news entries in chronological order?",
+          "A site dedicated to regularly posting written content such as personal thoughts or news is known as what?"
+        ],
+        "es-MX": [
+          "¿Cómo se llama un sitio web enfocado principalmente en publicar artículos, opiniones o entradas de noticias en orden cronológico?",
+          "Un sitio dedicado a publicar contenido escrito como pensamientos personales o noticias se conoce como ¿qué?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Blogs",
+          "E-commerce",
+          "Comparison sites"
+        ],
+        "es-MX": [
+          "Blogs",
+          "E-commerce",
+          "Comparadores"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Blogs",
+        "es-MX": "Blogs"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Blogs\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Blogs are websites structured around frequent posts, often sorted chronologically, and focus on opinions, updates, or informational articles."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Posts are time-stamped and ordered chronologically",
+              "Content is often personal, educational, or news-related",
+              "Users may leave comments or share posts"
+            ]
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Blogs\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Los blogs son sitios web estructurados en torno a publicaciones frecuentes, a menudo en orden cronológico, y se centran en opiniones, actualizaciones o artículos informativos."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Las entradas tienen fecha y se ordenan cronológicamente",
+              "El contenido suele ser personal, educativo o de noticias",
+              "Los usuarios pueden dejar comentarios o compartir entradas"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Costos estimados de desarrollo",
+      "Question Text": {
+        "en-US": [
+          "The estimated development price in an agency is between €800 and €2000 or more depending on the needs to launch the first version: Which type of website is it?",
+          "If an agency charges between €800 and €2000+ for the first version, what kind of website is it?"
+        ],
+        "es-MX": [
+          "El precio estimado de desarrollo en una agencia está entre 800 a 2000 € o más en función de las necesidades para lanzar la primera versión: ¿De qué tipo de página se trata?",
+          "Si una agencia cobra entre 800 y 2000 € o más para la primera versión, ¿qué tipo de página es?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Service website",
+          "Comparison sites",
+          "E-commerce",
+          "Information website"
+        ],
+        "es-MX": [
+          "Página web de servicios",
+          "Comparadores",
+          "E-commerce",
+          "Página web de información"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Service website",
+        "es-MX": "Página web de servicios"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Service website\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Service websites are usually simpler than complex platforms, so their initial development costs range between €800 and €2000 depending on customization and features."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Página web de servicios\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Las páginas web de servicios suelen ser más sencillas que plataformas complejas, por eso su desarrollo inicial cuesta entre 800 y 2000 € dependiendo de personalización y funciones."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Costos estimados de desarrollo",
+      "Question Text": {
+        "en-US": [
+          "The estimated development price in an agency is between €4000 and €40 000 or more depending on the needs to launch the first version: Which type of website is it?",
+          "If an agency charges between €4000 and €40 000+ for the first version, what kind of website is it?"
+        ],
+        "es-MX": [
+          "El precio estimado de desarrollo en una agencia está entre 4000 a 40 000 € o más en función de las necesidades para lanzar la primera versión: ¿De qué tipo de página se trata?",
+          "Si una agencia cobra entre 4000 y 40 000 € o más para la primera versión, ¿qué tipo de página es?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Service website",
+          "Comparison sites",
+          "E-commerce",
+          "Information website"
+        ],
+        "es-MX": [
+          "Página web de servicios",
+          "Comparadores",
+          "E-commerce",
+          "Página web de información"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Comparison sites",
+        "es-MX": "Comparadores"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Comparison sites\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Comparison websites (aggregators) are complex platforms that require collecting, normalizing, and displaying data from many sources, which increases their development costs considerably."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Comparadores\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Los sitios comparadores (agregadores) son plataformas complejas que deben recolectar, normalizar y mostrar datos de muchas fuentes, lo que eleva considerablemente sus costos de desarrollo."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Costos estimados de desarrollo",
+      "Question Text": {
+        "en-US": [
+          "The estimated development price in an agency is between €500 and €4000 or more depending on the needs to launch the first version: Which type of website is it?",
+          "If an agency charges between €500 and €4000+ for the first version, what kind of website is it?"
+        ],
+        "es-MX": [
+          "El precio estimado de desarrollo en una agencia está entre 500 a 4000 € o más en función de las necesidades para lanzar la primera versión: ¿De qué tipo de página se trata?",
+          "Si una agencia cobra entre 500 y 4000 € o más para la primera versión, ¿qué tipo de página es?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Service website",
+          "Information website",
+          "E-commerce",
+          "Comparison sites"
+        ],
+        "es-MX": [
+          "Página web de servicios",
+          "Página web de información",
+          "E-commerce",
+          "Comparadores"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Information website",
+        "es-MX": "Página web de información"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Information website\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Information websites are relatively simple sites aimed at presenting text and content, so their cost is lower compared to e-commerce or aggregators."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Página web de información\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Las páginas web de información son sitios relativamente sencillos orientados a presentar texto y contenidos, por lo que su costo es menor en comparación con e-commerce o comparadores."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Marketing digital",
+      "Question Text": {
+        "en-US": [
+          "Which strategy is used to position our multimedia product on the first page of Google?",
+          "To appear on the first page of Google organically, what strategy is used?"
+        ],
+        "es-MX": [
+          "Se utiliza para posicionamiento de nuestro producto multimedia en la primera página de Google:",
+          "Para aparecer en la primera página de Google de manera orgánica, ¿qué estrategia se usa?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "SEO",
+          "SEM",
+          "CIO",
+          "SMM"
+        ],
+        "es-MX": [
+          "SEO",
+          "SEM",
+          "CIO",
+          "SMM"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "SEO",
+        "es-MX": "SEO"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"SEO\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "SEO (Search Engine Optimization) refers to techniques for improving visibility in search engines organically, without paying for ads."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"SEO\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "SEO (Optimización para motores de búsqueda) son técnicas para mejorar la visibilidad en buscadores de manera orgánica, sin pagar anuncios."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Gestión de proyectos",
+      "Question Text": {
+        "en-US": [
+          "This term answers the question: How many work hours does it take me to implement each functionality or part of the project?",
+          "Which metric indicates the number of hours needed to implement each functionality of a project?"
+        ],
+        "es-MX": [
+          "Este término responde a la pregunta: ¿cuántas horas de trabajo me lleva implementar cada funcionalidad o parte del proyecto?",
+          "¿Qué métrica indica la cantidad de horas necesarias para implementar cada funcionalidad de un proyecto?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "FxH",
+          "Tr",
+          "FyH",
+          "ETA"
+        ],
+        "es-MX": [
+          "FxH",
+          "Tr",
+          "FyH",
+          "ETA"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "FxH",
+        "es-MX": "FxH"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"FxH\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "FxH stands for 'Function x Hours' and is used to estimate the number of hours required to implement each functionality."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"FxH\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "FxH significa 'Funcionalidad por Horas' y se usa para estimar las horas necesarias para implementar cada funcionalidad."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Metodologías de desarrollo",
+      "Question Text": {
+        "en-US": [
+          "They aim to optimize processes to generate more and more value, shortening delivery times, with more mature teams and accurate estimations of when a project will be finished:",
+          "Which methodology aspires to deliver faster, with iterative processes, more value, and mature teams?"
+        ],
+        "es-MX": [
+          "Aspiran a optimizar los procesos para generar cada vez más y más valor, acortando los tiempos, con equipos más maduros y entregando estimaciones veraces de cuándo un proyecto estará terminado:",
+          "¿Qué metodología busca entregar más rápido, con procesos iterativos, más valor y equipos maduros?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Agile methodologies",
+          "Traditional methodologies",
+          "PMP methodology",
+          "Waterfall model"
+        ],
+        "es-MX": [
+          "Metodologías ágiles",
+          "Metodologías tradicionales",
+          "Metodología PMP",
+          "Modelo en cascada"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Agile methodologies",
+        "es-MX": "Metodologías ágiles"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Agile methodologies\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Agile methodologies are iterative frameworks that prioritize delivering value quickly, adapting to changes, and improving continuously with mature teams."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Metodologías ágiles\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Las metodologías ágiles son marcos iterativos que priorizan entregar valor rápidamente, adaptarse a cambios y mejorar continuamente con equipos maduros."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Metodologías ágiles",
+      "Question Text": {
+        "en-US": [
+          "This term was preferred because it served as a counterpoint to the heavy predictive, rigorous, stubborn processes that relied on exhaustive planning of everything:",
+          "Which concept arose to contrast with predictive and rigid processes requiring exhaustive planning?"
+        ],
+        "es-MX": [
+          "Se prefirió este término por servir como contraposición a los pesados procesos predictivos, rigurosos, tercos y que dependían de una planificación exhaustiva de todo:",
+          "¿Qué concepto surgió como oposición a procesos predictivos y rígidos que exigían planificación exhaustiva?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Agility",
+          "Management",
+          "Rapidity",
+          "Flexibility"
+        ],
+        "es-MX": [
+          "Agilidad",
+          "Gestión",
+          "Rapidez",
+          "Flexibilidad"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Agility",
+        "es-MX": "Agilidad"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Agility\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "The Agile movement arose as an alternative to predictive and rigid methodologies, emphasizing adaptability and incremental delivery."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Agilidad\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "El movimiento Ágil surgió como alternativa a metodologías predictivas y rígidas, poniendo énfasis en la adaptabilidad y la entrega incremental."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Metodologías ágiles",
+      "Question Text": {
+        "en-US": [
+          "It is known as a collection of four values and twelve principles, serving as the foundation for all work methods like Scrum and Kanban:",
+          "Which document defines the four values and twelve principles that support agile frameworks?"
+        ],
+        "es-MX": [
+          "Se le conoce a una colección de cuatro valores y doce principios, a modo de pilares sobre los que se soportan todos los métodos de trabajo como son Scrum y Kanban:",
+          "¿Qué documento define los cuatro valores y doce principios que sustentan los marcos ágiles?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Agile Manifesto",
+          "Agile methodology",
+          "Project methodology",
+          "Scrum guide"
+        ],
+        "es-MX": [
+          "Manifiesto ágil",
+          "Metodología ágil",
+          "Metodología de proyectos",
+          "Guía de Scrum"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Agile Manifesto",
+        "es-MX": "Manifiesto ágil"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Agile Manifesto\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "The Agile Manifesto (2001) established 4 core values and 12 principles that became the basis for agile methodologies such as Scrum and Kanban."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Manifiesto ágil\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "El Manifiesto Ágil (2001) estableció 4 valores fundamentales y 12 principios que se convirtieron en la base de metodologías ágiles como Scrum y Kanban."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Metodologías ágiles",
+      "Question Text": {
+        "en-US": [
+          "In agile methodology, deliveries are made in this way:",
+          "How are deliveries performed in agile methodology?"
+        ],
+        "es-MX": [
+          "En la metodología ágil se realizan entregas de esta manera:",
+          "¿Cómo se hacen las entregas en la metodología ágil?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Every two months",
+          "Every week",
+          "Continuous",
+          "Every semester"
+        ],
+        "es-MX": [
+          "Cada dos meses",
+          "Cada semana",
+          "Continuas",
+          "Cada semestre"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Continuous",
+        "es-MX": "Continuas"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Continuous\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Agile emphasizes continuous and incremental delivery of value to adapt to change quickly and ensure frequent feedback."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Continuas\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Ágil enfatiza la entrega continua e incremental de valor para adaptarse rápidamente a los cambios y garantizar retroalimentación frecuente."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Beneficios de la metodología ágil",
+      "Question Text": {
+        "en-US": [
+          "How is the benefit of agile methodology known, where workers assign their own tasks within a transparent framework in which everyone knows what others are doing?",
+          "In agile, what benefit refers to everyone knowing each other's work through transparency?"
+        ],
+        "es-MX": [
+          "¿Cómo se conoce el beneficio de la metodología ágil, donde los trabajadores se asignan su trabajo en un marco transparente en el que todos saben lo que hacen todos?",
+          "En ágil, ¿qué beneficio se refiere a que todos conozcan el trabajo de los demás mediante transparencia?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Transparency and responsibility",
+          "Decision making",
+          "Risk diversification",
+          "Continuous delivery"
+        ],
+        "es-MX": [
+          "Transparencia y responsabilidad",
+          "Toma de decisiones",
+          "Diversificar riesgos",
+          "Entrega continua"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Transparency and responsibility",
+        "es-MX": "Transparencia y responsabilidad"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Transparency and responsibility\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Agile promotes transparency so all team members know what others are doing, which increases responsibility and collaboration."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Transparencia y responsabilidad\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Ágil promueve la transparencia para que todos los miembros del equipo sepan lo que hacen los demás, aumentando la responsabilidad y la colaboración."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Beneficios de la metodología ágil",
+      "Question Text": {
+        "en-US": [
+          "How is the benefit known where, with a committed and self-managing team, decisions are made in favor of the project outcome, not to satisfy the ego of any boss?",
+          "In agile, which benefit emphasizes decisions driven by project results instead of authority figures?"
+        ],
+        "es-MX": [
+          "¿Cómo se conoce el beneficio donde con un equipo implicado, que se autogestiona, las decisiones se toman a favor del resultado del proyecto, no para satisfacer el ego de ningún jefe?",
+          "En ágil, ¿qué beneficio enfatiza que las decisiones se guíen por los resultados del proyecto y no por figuras de autoridad?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Transparency and responsibility",
+          "Decision making",
+          "Risk diversification",
+          "Flexibility"
+        ],
+        "es-MX": [
+          "Transparencia y responsabilidad",
+          "Toma de decisiones",
+          "Diversificar riesgos",
+          "Flexibilidad"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Decision making",
+        "es-MX": "Toma de decisiones"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Decision making\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Agile empowers self-organized teams to make decisions focused on delivering value, not on satisfying hierarchical authority."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Toma de decisiones\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Ágil da poder a equipos autogestionados para tomar decisiones enfocadas en entregar valor, no en satisfacer la autoridad jerárquica."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Beneficios de la metodología ágil",
+      "Question Text": {
+        "en-US": [
+          "This benefit mentions that, by not delivering the final project all at once, we can see and measure its progress incrementally, which significantly reduces failure risks:",
+          "Which agile benefit reduces risks by delivering value incrementally instead of all at once?"
+        ],
+        "es-MX": [
+          "¿Este beneficio menciona que, al no entregar el proyecto final de golpe, podemos ver y medir su evolución de forma incremental, lo que reduce los riesgos de fracaso de forma significativa?",
+          "¿Qué beneficio ágil reduce los riesgos al entregar valor incrementalmente en lugar de todo al final?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Transparency and responsibility",
+          "Decision making",
+          "Minimize risks",
+          "Fast delivery"
+        ],
+        "es-MX": [
+          "Transparencia y responsabilidad",
+          "Toma de decisiones",
+          "Minimizar los riesgos",
+          "Entrega rápida"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Minimize risks",
+        "es-MX": "Minimizar los riesgos"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Minimize risks\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "Agile reduces risks by delivering incrementally, allowing early feedback, detection of issues, and adaptation before the final release."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Minimizar los riesgos\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "Ágil minimiza los riesgos al entregar de manera incremental, permitiendo retroalimentación temprana, detección de problemas y adaptación antes de la entrega final."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Historia del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "In which year was the Agile Manifesto published by the 17 software development practitioners?",
+          "When was the Agile Manifesto originally written and published?"
+        ],
+        "es-MX": [
+          "¿En qué año fue publicado el Manifiesto Ágil por los 17 desarrolladores de software?",
+          "¿Cuándo se escribió y publicó originalmente el Manifiesto Ágil?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "1999",
+          "2001",
+          "2005",
+          "2008"
+        ],
+        "es-MX": [
+          "1999",
+          "2001",
+          "2005",
+          "2008"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "2001",
+        "es-MX": "2001"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"2001\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "The Agile Manifesto was published in February 2001 when 17 practitioners gathered in Snowbird, Utah. Its publication date is widely recognized as 2001."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"2001\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "El Manifiesto Ágil se publicó en febrero de 2001, cuando 17 profesionales se reunieron en Snowbird, Utah. Es ampliamente reconocido como publicado en 2001."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which of these is one of the four core values outlined in the Agile Manifesto?",
+          "Select one of the four values from the Agile Manifesto."
+        ],
+        "es-MX": [
+          "¿Cuál de estos es uno de los cuatro valores fundamentales del Manifiesto Ágil?",
+          "Selecciona uno de los cuatro valores del Manifiesto Ágil."
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Process over individuals",
+          "Comprehensive documentation over working software",
+          "Customer collaboration over contract negotiation",
+          "Sticking to a plan over responding to change"
+        ],
+        "es-MX": [
+          "Proceso sobre individuos",
+          "Documentación exhaustiva sobre software funcional",
+          "Colaboración con el cliente sobre negociación contractual",
+          "Seguir un plan sobre responder al cambio"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Customer collaboration over contract negotiation",
+        "es-MX": "Colaboración con el cliente sobre negociación contractual"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why this value is correct"
+          },
+          {
+            "type": "text",
+            "content": "The Agile Manifesto emphasizes 'Customer collaboration over contract negotiation' as one of its four core values, valuing collaboration over rigid contractual terms."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué este valor es correcto"
+          },
+          {
+            "type": "text",
+            "content": "El Manifiesto Ágil enfatiza 'Colaboración con el cliente sobre negociación contractual' como uno de sus cuatro valores fundamentales, priorizando la colaboración por encima de los términos contractuales rígidos."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Origen del término \"Ágil\"",
+      "Question Text": {
+        "en-US": [
+          "Which meeting location is famously associated with the coining and drafting of the term “Agile” and the Agile Manifesto?",
+          "Where did the group meet when they coined 'Agile' to describe their new development approach?"
+        ],
+        "es-MX": [
+          "¿Qué lugar de reunión está asociado con la creación del término “Ágil” y la redacción del Manifiesto Ágil?",
+          "¿Dónde se reunió el grupo cuando acuñó el término 'Ágil' para describir su nuevo enfoque de desarrollo?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Snowbird, Utah",
+          "Silicon Valley, California",
+          "Boston, Massachusetts",
+          "Seattle, Washington"
+        ],
+        "es-MX": [
+          "Snowbird, Utah",
+          "Silicon Valley, California",
+          "Boston, Massachusetts",
+          "Seattle, Washington"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Snowbird, Utah",
+        "es-MX": "Snowbird, Utah"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "title-h2",
+            "content": "Why \"Snowbird, Utah\" is correct"
+          },
+          {
+            "type": "text",
+            "content": "The term “Agile” and the Manifesto were coined and drafted during a meeting at Snowbird in Utah in February 2001 by a group of 17 practitioners."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "title-h2",
+            "content": "Por qué \"Snowbird, Utah\" es correcto"
+          },
+          {
+            "type": "text",
+            "content": "El término “Ágil” y el Manifiesto fueron acuñados y redactados durante una reunión en Snowbird, Utah, en febrero de 2001, por un grupo de 17 profesionales."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which of the following is NOT one of the values of the Agile Manifesto?",
+          "Select the option that is not considered a value in the Agile Manifesto."
+        ],
+        "es-MX": [
+          "¿Cuál de los siguientes no es uno de los valores del manifiesto ágil?",
+          "Selecciona la opción que no se considera un valor en el Manifiesto Ágil."
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Hardware tools",
+          "Working software",
+          "Customer collaboration",
+          "Responding to change"
+        ],
+        "es-MX": [
+          "Herramientas de hardware",
+          "El software que funciona",
+          "Colaboración con el cliente",
+          "Responder ante el cambio"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Hardware tools",
+        "es-MX": "Herramientas de hardware"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The Agile Manifesto never mentions hardware tools as a value; its focus is on people, software, collaboration, and adaptability."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Manifiesto Ágil nunca menciona herramientas de hardware como valor; su enfoque está en las personas, el software, la colaboración y la adaptabilidad."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile Manifesto value highlights the importance of people’s knowledge, talent, and interaction?",
+          "Which value stresses individuals and their interactions over processes and tools?"
+        ],
+        "es-MX": [
+          "¿Cuál de los valores del manifiesto ágil indica que lo importante es el conocimiento y el talento de las personas, y las soluciones que plantean?",
+          "¿Qué valor resalta a los individuos y su interacción sobre procesos y herramientas?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Individuals and interactions",
+          "Working software",
+          "Customer collaboration",
+          "Responding to change"
+        ],
+        "es-MX": [
+          "Valoro más a los individuos y su interacción",
+          "Valoro más el software que funciona",
+          "Valoro más la colaboración con el cliente",
+          "Responder ante el cambio"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Individuals and interactions",
+        "es-MX": "Valoro más a los individuos y su interacción"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The first value of the Agile Manifesto states: 'Individuals and interactions over processes and tools.'"
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El primer valor del Manifiesto Ágil dice: 'Valoro más a los individuos y su interacción sobre procesos y herramientas'."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile value mentions that a completed work cycle generates a functionality delivered to the customer and motivates the team for the next iteration?",
+          "Which value emphasizes working software as the primary measure of progress?"
+        ],
+        "es-MX": [
+          "¿Cuál de los valores del manifiesto ágil menciona que un ciclo de trabajo finalizado genera una funcionalidad que se entrega al cliente y estimula al equipo en la creación de la siguiente?",
+          "¿Qué valor enfatiza que el software funcionando es la principal medida de progreso?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Individuals and interactions",
+          "Working software",
+          "Customer collaboration",
+          "Responding to change"
+        ],
+        "es-MX": [
+          "Valoro más a los individuos y su interacción",
+          "Valoro más el software que funciona",
+          "Valoro más la colaboración con el cliente",
+          "Responder ante el cambio"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Working software",
+        "es-MX": "Valoro más el software que funciona"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The Agile Manifesto values 'Working software over comprehensive documentation,' highlighting progress through delivered functionality."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Manifiesto Ágil valora 'El software funcionando sobre documentación exhaustiva', resaltando que el progreso se mide con funcionalidad entregada."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile Manifesto value prioritizes adaptability, emphasizing responding to change over following a fixed plan?",
+          "Which value reflects flexibility when requirements or context change?"
+        ],
+        "es-MX": [
+          "¿Cuál de los valores del manifiesto ágil prioriza la adaptabilidad, enfatizando responder ante el cambio sobre seguir un plan?",
+          "¿Qué valor refleja flexibilidad cuando cambian los requisitos o el contexto?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Individuals and interactions",
+          "Working software",
+          "Customer collaboration",
+          "Responding to change"
+        ],
+        "es-MX": [
+          "Valoro más a los individuos y su interacción",
+          "Valoro más el software que funciona",
+          "Valoro más la colaboración con el cliente",
+          "Responder ante el cambio"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Responding to change",
+        "es-MX": "Responder ante el cambio"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The fourth Agile Manifesto value is 'Responding to change over following a plan,' highlighting adaptability as key to agility."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El cuarto valor del Manifiesto Ágil es 'Responder ante el cambio sobre seguir un plan', resaltando la adaptabilidad como clave de la agilidad."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Historia del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "In which year was the Agile Manifesto created?",
+          "When was the Agile Manifesto written?"
+        ],
+        "es-MX": [
+          "¿En qué año se creó el Manifiesto Ágil?",
+          "¿Cuándo se redactó el Manifiesto Ágil?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "1995",
+          "1999",
+          "2001",
+          "2005"
+        ],
+        "es-MX": [
+          "1995",
+          "1999",
+          "2001",
+          "2005"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "2001",
+        "es-MX": "2001"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The Agile Manifesto was written in February 2001 in Snowbird, Utah."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Manifiesto Ágil se redactó en febrero de 2001 en Snowbird, Utah."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Historia del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Where was the Agile Manifesto written?",
+          "In which location was the Agile Manifesto signed?"
+        ],
+        "es-MX": [
+          "¿Dónde se escribió el Manifiesto Ágil?",
+          "¿En qué lugar se firmó el Manifiesto Ágil?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Silicon Valley",
+          "Snowbird, Utah",
+          "Boston",
+          "Seattle"
+        ],
+        "es-MX": [
+          "Silicon Valley",
+          "Snowbird, Utah",
+          "Boston",
+          "Seattle"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Snowbird, Utah",
+        "es-MX": "Snowbird, Utah"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Seventeen practitioners gathered at The Lodge at Snowbird ski resort in Utah."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Diecisiete expertos se reunieron en The Lodge en Snowbird, Utah."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile value emphasizes people over tools?",
+          "Which value highlights individuals?"
+        ],
+        "es-MX": [
+          "¿Qué valor del Manifiesto Ágil enfatiza a las personas sobre las herramientas?",
+          "¿Cuál resalta a los individuos?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Individuals and interactions",
+          "Processes and tools",
+          "Working software",
+          "Customer contracts"
+        ],
+        "es-MX": [
+          "Individuos e interacciones",
+          "Procesos y herramientas",
+          "Software funcionando",
+          "Contratos con clientes"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Individuals and interactions",
+        "es-MX": "Individuos e interacciones"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The first value of the Agile Manifesto is 'Individuals and interactions over processes and tools.'"
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El primer valor es 'Individuos e interacciones sobre procesos y herramientas.'"
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile value emphasizes functionality over documentation?",
+          "Which value prioritizes working software?"
+        ],
+        "es-MX": [
+          "¿Qué valor ágil enfatiza la funcionalidad sobre la documentación?",
+          "¿Cuál prioriza el software funcionando?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Documentation",
+          "Working software",
+          "Contracts",
+          "Planning"
+        ],
+        "es-MX": [
+          "Documentación",
+          "Software funcionando",
+          "Contratos",
+          "Planificación"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Working software",
+        "es-MX": "Software funcionando"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The second value is 'Working software over comprehensive documentation.'"
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El segundo valor es 'Software funcionando sobre documentación exhaustiva.'"
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which value emphasizes customer collaboration?",
+          "Which Agile value replaces contract negotiation with collaboration?"
+        ],
+        "es-MX": [
+          "¿Qué valor enfatiza la colaboración con el cliente?",
+          "¿Qué valor sustituye la negociación contractual por colaboración?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Strict contracts",
+          "Customer collaboration",
+          "Individuals",
+          "Plans"
+        ],
+        "es-MX": [
+          "Contratos estrictos",
+          "Colaboración con el cliente",
+          "Individuos",
+          "Planes"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Customer collaboration",
+        "es-MX": "Colaboración con el cliente"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The third Agile value is 'Customer collaboration over contract negotiation.'"
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El tercer valor ágil es 'Colaboración con el cliente sobre negociación contractual.'"
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Valores del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile value highlights adaptability?",
+          "Which value is about responding to change?"
+        ],
+        "es-MX": [
+          "¿Qué valor ágil resalta la adaptabilidad?",
+          "¿Qué valor habla de responder ante el cambio?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Following a plan",
+          "Responding to change",
+          "Strict contracts",
+          "Tools"
+        ],
+        "es-MX": [
+          "Seguir un plan",
+          "Responder ante el cambio",
+          "Contratos rígidos",
+          "Herramientas"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Responding to change",
+        "es-MX": "Responder ante el cambio"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The fourth value is 'Responding to change over following a plan.'"
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El cuarto valor es 'Responder ante el cambio sobre seguir un plan.'"
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Principios del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which principle states that satisfying the customer through continuous delivery is the highest priority?",
+          "Which Agile principle emphasizes customer satisfaction?"
+        ],
+        "es-MX": [
+          "¿Qué principio indica que la mayor prioridad es satisfacer al cliente mediante entregas continuas?",
+          "¿Cuál principio ágil enfatiza la satisfacción del cliente?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Early and continuous delivery",
+          "Documentation",
+          "Strict planning",
+          "Risk minimization"
+        ],
+        "es-MX": [
+          "Entrega temprana y continua",
+          "Documentación",
+          "Planificación estricta",
+          "Minimización de riesgos"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Early and continuous delivery",
+        "es-MX": "Entrega temprana y continua"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The first principle of the Agile Manifesto emphasizes customer satisfaction through early and continuous delivery of valuable software."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El primer principio ágil enfatiza la satisfacción del cliente mediante la entrega temprana y continua de software valioso."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Principios del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which principle states that requirements may change even late in development?",
+          "Which Agile principle values adaptability to change?"
+        ],
+        "es-MX": [
+          "¿Qué principio indica que los requisitos pueden cambiar incluso en etapas tardías?",
+          "¿Qué principio valora la adaptabilidad al cambio?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Embrace change",
+          "Avoid change",
+          "Fixed contracts",
+          "Rigid planning"
+        ],
+        "es-MX": [
+          "Aceptar el cambio",
+          "Evitar el cambio",
+          "Contratos fijos",
+          "Planificación rígida"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Embrace change",
+        "es-MX": "Aceptar el cambio"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Agile principles welcome changing requirements, even late in development, to give competitive advantage."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Los principios ágiles aceptan cambios en los requisitos, incluso en etapas tardías, para dar ventaja competitiva."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Principios del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile principle emphasizes frequent delivery of working software?",
+          "Which principle says deliver in weeks, not months?"
+        ],
+        "es-MX": [
+          "¿Qué principio ágil enfatiza la entrega frecuente de software funcionando?",
+          "¿Cuál dice entregar en semanas, no en meses?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Deliver working software frequently",
+          "Document everything",
+          "Delay delivery",
+          "Plan heavily"
+        ],
+        "es-MX": [
+          "Entregar software funcionando frecuentemente",
+          "Documentar todo",
+          "Retrasar la entrega",
+          "Planificar en exceso"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Deliver working software frequently",
+        "es-MX": "Entregar software funcionando frecuentemente"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "One principle is to deliver working software frequently, with a preference to shorter timescales."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Uno de los principios es entregar software funcionando con frecuencia, prefiriendo ciclos cortos."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Principios del Manifiesto Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which principle states that simplicity is essential?",
+          "Which Agile principle focuses on maximizing the work not done?"
+        ],
+        "es-MX": [
+          "¿Qué principio indica que la simplicidad es esencial?",
+          "¿Qué principio ágil se centra en maximizar el trabajo no realizado?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Simplicity",
+          "Complexity",
+          "Documentation",
+          "Rigid processes"
+        ],
+        "es-MX": [
+          "Simplicidad",
+          "Complejidad",
+          "Documentación",
+          "Procesos rígidos"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Simplicity",
+        "es-MX": "Simplicidad"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The principle says: 'Simplicity—the art of maximizing the amount of work not done—is essential.'"
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El principio dice: 'La simplicidad, el arte de maximizar la cantidad de trabajo no realizado, es esencial.'"
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Cultura Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile characteristic highlights creating a pleasant workspace, free of prejudice, where ideas can be expressed comfortably and freely?",
+          "What Agile value emphasizes building a respectful and open environment for everyone?"
+        ],
+        "es-MX": [
+          "Esta característica nos indica que hay que crear, entre todos, un espacio de trabajo agradable, libre de prejuicios y en el que expresar las ideas cómoda y libremente:",
+          "¿Qué valor ágil enfatiza crear un ambiente respetuoso y abierto para todos?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Respect the value of each individual",
+          "Honest and sincere communication",
+          "Transparency"
+        ],
+        "es-MX": [
+          "Respetar el valor de cada individuo",
+          "Comunicación sincera y honesta",
+          "Transparencia"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Respect the value of each individual",
+        "es-MX": "Respetar el valor de cada individuo"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Respecting individuals is a key principle in Agile culture, fostering open collaboration."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Respetar el valor de cada individuo es un principio clave en la cultura ágil, fomentando una colaboración abierta."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Cultura Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile characteristic indicates that face-to-face communication is a fundamental principle of agility?",
+          "Which principle prioritizes direct and honest communication as essential?"
+        ],
+        "es-MX": [
+          "Esta característica nos indica que la comunicación cara a cara es un principio fundamental de la agilidad:",
+          "¿Qué principio prioriza la comunicación directa y honesta como esencial?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Respect the value of each individual",
+          "Honest and sincere communication",
+          "Transparency"
+        ],
+        "es-MX": [
+          "Respetar el valor de cada individuo",
+          "Comunicación sincera y honesta",
+          "Transparencia"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Honest and sincere communication",
+        "es-MX": "Comunicación sincera y honesta"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Face-to-face communication is valued in Agile because it reduces misunderstandings and builds trust."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La comunicación cara a cara es valorada en Ágil porque reduce malentendidos y genera confianza."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Cultura Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile characteristic states that every action, whether a success or a mistake, must be communicated and not punished?",
+          "Which principle emphasizes openness and learning from both errors and successes?"
+        ],
+        "es-MX": [
+          "Esta característica nos indica que cada acción desarrollada, error o acierto ha de ser comunicado y este no ha de ser castigado:",
+          "¿Qué principio enfatiza la apertura y el aprendizaje tanto de los errores como de los aciertos?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Respect the value of each individual",
+          "Honest and sincere communication",
+          "Transparency"
+        ],
+        "es-MX": [
+          "Respetar el valor de cada individuo",
+          "Comunicación sincera y honesta",
+          "Transparencia"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Transparency",
+        "es-MX": "Transparencia"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Transparency is essential in Agile; sharing successes and mistakes enables continuous improvement."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La transparencia es esencial en Ágil; compartir aciertos y errores permite la mejora continua."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum",
+      "Question Text": {
+        "en-US": [
+          "Which Agile methodology is most widely used by companies and organizations that embrace agility as a way of doing business?",
+          "What is the most adopted Agile framework globally?"
+        ],
+        "es-MX": [
+          "Es la metodología ágil más empleada por las empresas y organizaciones que abrazan la agilidad como forma de entender y llevar su negocio:",
+          "¿Cuál es el marco ágil más adoptado en todo el mundo?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Scrum",
+          "Kanban",
+          "XP"
+        ],
+        "es-MX": [
+          "Scrum",
+          "Kanban",
+          "XP"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Scrum",
+        "es-MX": "Scrum"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Scrum is the most popular Agile framework, widely adopted due to its simplicity and focus on delivering value iteratively."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Scrum es el marco ágil más popular, ampliamente adoptado por su sencillez y su enfoque en la entrega iterativa de valor."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum",
+      "Question Text": {
+        "en-US": [
+          "Unlike teams that do not plan, Scrum teams plan when they start a cycle of work, define what they want to achieve, and reflect on how to improve for the next iteration. Which statement is true?",
+          "Scrum teams engage in planning, reviews, and retrospectives, unlike teams that do not plan. Which statement reflects this?"
+        ],
+        "es-MX": [
+          "Equipos que no planifican, al contrario, los equipos que usan Scrum planifican cuando comienzan un ciclo de trabajo, cuándo acaba, qué quieren obtener de él y también reflexionan cómo mejorar para el siguiente:",
+          "Los equipos Scrum realizan planificación, revisiones y retrospectivas, a diferencia de equipos que no planifican. ¿Cuál afirmación es correcta?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Not Scrum",
+          "Not XP",
+          "Not Kanban"
+        ],
+        "es-MX": [
+          "No es Scrum",
+          "No es XP",
+          "No es Kanban"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Not Scrum",
+        "es-MX": "No es Scrum"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Planning, reviews, and retrospectives are core practices of Scrum. A team that does not plan cannot be considered Scrum."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La planificación, las revisiones y las retrospectivas son prácticas centrales en Scrum. Un equipo que no planifica no puede considerarse Scrum."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum",
+      "Question Text": {
+        "en-US": [
+          "Which Scrum practice allows us to apply the four values and twelve principles of the Agile Manifesto through roles, artifacts, and events?",
+          "What Scrum level integrates roles, artifacts, and events to put Agile principles into practice?"
+        ],
+        "es-MX": [
+          "Nos permite poner en práctica los cuatro valores y los doce principios, según reglas a través de sus roles, artefactos y eventos:",
+          "¿Qué nivel de Scrum integra roles, artefactos y eventos para aplicar los principios ágiles?"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Basic Scrum",
+          "Advanced Scrum",
+          "Technical Scrum"
+        ],
+        "es-MX": [
+          "Scrum básico",
+          "Scrum avanzado",
+          "Scrum técnico"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Technical Scrum",
+        "es-MX": "Scrum técnico"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Technical Scrum ensures that Agile values and principles are applied through defined roles, artifacts, and events."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Scrum técnico garantiza que los valores y principios ágiles se apliquen mediante roles, artefactos y eventos definidos."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum Roles",
+      "Question Text": {
+        "en-US": [
+          "Who is responsible for adding tasks to the product backlog and must have a clear vision of the entire product to be developed?"
+        ],
+        "es-MX": [
+          "Es el encargado de agregar tareas a la pila de producto y debe tener una gran visión de todo el producto a realizar, en este caso, de la web:"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Product Owner",
+          "Scrum Master",
+          "Stakeholders"
+        ],
+        "es-MX": [
+          "Product owner",
+          "Scrum master",
+          "Stakeholders"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Product Owner",
+        "es-MX": "Product owner"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The Product Owner manages the product backlog and ensures that the development team is working on the most valuable features."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Product Owner gestiona el backlog de producto y garantiza que el equipo trabaje en las funcionalidades de mayor valor."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum Roles",
+      "Question Text": {
+        "en-US": [
+          "Who acts as a facilitator and mediator, ensuring that Agile values and principles are followed between the development team and the product owner?"
+        ],
+        "es-MX": [
+          "Hace las veces de gestor y mediador y vela porque los valores y principios del manifiesto ágil se cumplan entre el development team y el product owner:"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Product Owner",
+          "Scrum Master",
+          "Stakeholders"
+        ],
+        "es-MX": [
+          "Product owner",
+          "Scrum master",
+          "Stakeholders"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Scrum Master",
+        "es-MX": "Scrum master"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The Scrum Master ensures that Scrum is understood and enacted, coaching the team and mediating between roles."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Scrum Master asegura que Scrum sea entendido y practicado, además de mediar entre roles y fomentar la colaboración."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum Roles",
+      "Question Text": {
+        "en-US": [
+          "Who are the interested parties such as the marketing team, investors, or other figures who have a stake in the project?"
+        ],
+        "es-MX": [
+          "Son los interesados, el equipo de marketing, los inversores y otras figuras que están interesadas en el proyecto que se desarrolla:"
+        ]
+      },
+      "Options": {
+        "en-US": [
+          "Product Owner",
+          "Scrum Master",
+          "Stakeholders"
+        ],
+        "es-MX": [
+          "Product owner",
+          "Scrum master",
+          "Stakeholders"
+        ]
+      },
+      "Correct Answer": {
+        "en-US": "Stakeholders",
+        "es-MX": "Stakeholders"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Stakeholders are all individuals or groups who have an interest in the project outcomes."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Los Stakeholders son todas las personas o grupos que tienen interés en los resultados del proyecto."
+          }
+        ]
+      }
+    }
+  ]
+}

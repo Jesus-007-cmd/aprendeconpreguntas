@@ -7,6 +7,7 @@ import quizLearingEnglish from "./data/phrasesToLearn.json";
 import desarrolloWebFrameworksQuiz from "./data/desarrollo-web-frameworks-quiz.json";
 import desarrolloWebMarcosDeTrabajo from "./data/microtest-desarrollo-web-marcos-de-trabajo.json";
 import aplicacionesmovilesmultiplataforma from "./data/microtest-aplicaciones_moviles_multiplataforma.json";
+import microtestmetodologiasagilesweb from "./data/microtest-metodologias-agiles-web.json";
 import notificationSound from "../audio/correctanswer.mp3";
 export default function InterviewQuiz() {
   const [questions, setQuestions] = useState([]);
@@ -96,29 +97,39 @@ export default function InterviewQuiz() {
   const handleAnswerSelect = useCallback(
     (selectedOption) => {
       const currentQuestion = questions[currentQuestionIndex];
-      const correctAnswer =
-        currentQuestion.options[currentQuestion.correctAnswer - 1];
+      const correctAnswer = currentQuestion.options[currentQuestion.correctAnswer - 1];
 
       if (selectedOption === correctAnswer) {
-        setScore(score + 1);
+        setCorrectCount((c) => c + 1);     // ✅ suma acierto
+        setScore((s) => s + 1);            // si sigues usando 'score' como aciertos
         setShowCorrect(true);
         playKeyPressSound();
-        playAnswerAudio(correctAnswer); // Usar la voz seleccionada globalmente para respuestas
+        playAnswerAudio(correctAnswer);
+
+        // Avanza a la siguiente después de un breve feedback
         setTimeout(() => {
           setShowCorrect(false);
+          setSelectedAnswer(null);         // 🔸 limpia selección antes de avanzar
           if (currentQuestionIndex < questions.length - 1) {
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
+            setCurrentQuestionIndex((i) => i + 1);
           } else {
             setShowResult(true);
           }
         }, 1000);
       } else {
+        // ❌ respuesta incorrecta: marcamos selección y contamos error
         setSelectedAnswer(selectedOption);
-        playAnswerAudio(selectedOption); // Usar la voz seleccionada globalmente para respuestas
+        setIncorrectCount((c) => c + 1);
+        playAnswerAudio(selectedOption);
       }
     },
-    [questions, currentQuestionIndex, score, playAnswerAudio]
+    [questions, currentQuestionIndex, playAnswerAudio]
   );
+
+  useEffect(() => {
+    // al cambiar de pregunta, limpiamos selección para no heredar color
+    setSelectedAnswer(null);
+  }, [currentQuestionIndex]);
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -301,6 +312,21 @@ export default function InterviewQuiz() {
       }
     });
   };
+  // Calcula layout de columnas
+  const layoutCols =
+    showExplanation && showSpanishTranslation
+      ? "md:grid-cols-3"
+      : showExplanation || showSpanishTranslation
+        ? "md:grid-cols-2"
+        : "md:grid-cols-1";
+  const [correctCount, setCorrectCount] = useState(0);
+  const [incorrectCount, setIncorrectCount] = useState(0);
+  const [grade, setGrade] = useState(0); // porcentaje basado en correct/incorrect
+  useEffect(() => {
+    const total = correctCount + incorrectCount;
+    const pct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+    setGrade(pct);
+  }, [correctCount, incorrectCount]);
 
   return (
 
@@ -370,7 +396,12 @@ export default function InterviewQuiz() {
           >
             {aplicacionesmovilesmultiplataforma["Quiz Title"]}
           </button>
-         
+          <button
+            onClick={() => handleJsonSelection(microtestmetodologiasagilesweb)}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
+          >
+            {microtestmetodologiasagilesweb["Quiz Title"]}
+          </button>
 
         </div>
       ) : !showResult && questions.length > 0 ? (
@@ -382,12 +413,12 @@ export default function InterviewQuiz() {
 
             <div
               className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300  ${!showExplanation && !showSpanishTranslation
-                  ? 'md:col-span-7'
-                  : showExplanation && !showSpanishTranslation
+                ? 'md:col-span-7'
+                : showExplanation && !showSpanishTranslation
+                  ? 'md:col-span-3'
+                  : !showExplanation && showSpanishTranslation
                     ? 'md:col-span-3'
-                    : !showExplanation && showSpanishTranslation
-                      ? 'md:col-span-3'
-                      : 'md:col-span-2'
+                    : 'md:col-span-2'
                 }`}
             >
 
@@ -398,10 +429,20 @@ export default function InterviewQuiz() {
                 {questions[currentQuestionIndex]?.word}
               </h2>
 
-              <div className="text-sm mb-4">
-                <span className="text-gray-300">Calificación:</span> {score}/
-                {questions.length}
+              <div className="text-sm mb-4 flex flex-col gap-1">
+                <div>
+                  <span className="text-gray-300">Pregunta:</span>{" "}
+                  {currentQuestionIndex + 1} / {questions.length}
+                </div>
+                <div>
+                  <span className="text-gray-300">Correctas:</span> {correctCount}{" "}
+                  <span className="text-gray-300 ml-4">Incorrectas:</span> {incorrectCount}
+                </div>
+                <div>
+                  <span className="text-gray-300">Calificación:</span> {grade}%
+                </div>
               </div>
+
 
               <div className="flex flex-col items-center gap-3">
                 {questions[currentQuestionIndex]?.options?.map(
@@ -410,8 +451,8 @@ export default function InterviewQuiz() {
                       key={uuidv4()}
                       onClick={() => handleAnswerSelect(option)}
                       className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${selectedAnswer === option
-                          ? "bg-orange-600"
-                          : "bg-blue-600 hover:bg-blue-700"
+                        ? "bg-orange-600"
+                        : "bg-blue-600 hover:bg-blue-700"
                         }`}
                     >
                       {index + 1}. {option}
@@ -715,37 +756,37 @@ export default function InterviewQuiz() {
         </div>
       </div>
       <div className="mt-6 bg-[#1a1a1a] p-4 rounded w-full max-w-md text-center">
-  <h3 className="text-white font-semibold mb-2">Ir a una pregunta específica</h3>
-  <form
-    onSubmit={(e) => {
-      e.preventDefault();
-      const value = e.target.pregunta.value;
-      const index = parseInt(value);
-      if (!isNaN(index) && index >= 1 && index <= questions.length) {
-        setCurrentQuestionIndex(index - 1);
-        setSelectedAnswer(null);
-        setShowAnswer(false);
-        setShowCorrect(false);
-        playQuestionAudio(questions[index - 1]?.word); // 🔊 leer pregunta al cambiar
-      }
-    }}
-  >
-    <input
-      type="number"
-      name="pregunta"
-      min="1"
-      max={questions.length}
-      className="w-full mb-2 px-3 py-2 rounded text-black"
-      placeholder={`Número entre 1 y ${questions.length}`}
-    />
-    <button
-      type="submit"
-      className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
-    >
-      Ir a la pregunta
-    </button>
-  </form>
-</div>
+        <h3 className="text-white font-semibold mb-2">Ir a una pregunta específica</h3>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            const value = e.target.pregunta.value;
+            const index = parseInt(value);
+            if (!isNaN(index) && index >= 1 && index <= questions.length) {
+              setCurrentQuestionIndex(index - 1);
+              setSelectedAnswer(null);
+              setShowAnswer(false);
+              setShowCorrect(false);
+              playQuestionAudio(questions[index - 1]?.word); // 🔊 leer pregunta al cambiar
+            }
+          }}
+        >
+          <input
+            type="number"
+            name="pregunta"
+            min="1"
+            max={questions.length}
+            className="w-full mb-2 px-3 py-2 rounded text-black"
+            placeholder={`Número entre 1 y ${questions.length}`}
+          />
+          <button
+            type="submit"
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+          >
+            Ir a la pregunta
+          </button>
+        </form>
+      </div>
 
     </div>
   );
