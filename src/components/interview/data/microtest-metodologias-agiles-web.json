@@ -2116,6 +2116,317 @@
           }
         ]
       }
-    }
+    },
+    {
+      "Category": "Cultura Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile characteristic highlights creating a pleasant workspace, free of prejudice, where ideas can be expressed comfortably and freely?",
+          "What Agile value emphasizes building a respectful and open environment for everyone?"
+        ],
+        "es-MX": [
+          "Esta característica nos indica que hay que crear, entre todos, un espacio de trabajo agradable, libre de prejuicios y en el que expresar las ideas cómoda y libremente:",
+          "¿Qué valor ágil enfatiza crear un ambiente respetuoso y abierto para todos?"
+        ]
+      },
+      "Options": {
+        "en-US": ["Respect the value of each individual", "Honest and sincere communication", "Transparency"],
+        "es-MX": ["Respetar el valor de cada individuo", "Comunicación sincera y honesta", "Transparencia"]
+      },
+      "Correct Answer": {
+        "en-US": "Respect the value of each individual",
+        "es-MX": "Respetar el valor de cada individuo"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Respecting individuals is a key principle in Agile culture, fostering open collaboration."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Respetar el valor de cada individuo es un principio clave en la cultura ágil, fomentando una colaboración abierta."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Cultura Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile characteristic indicates that face-to-face communication is a fundamental principle of agility?",
+          "Which principle prioritizes direct and honest communication as essential?"
+        ],
+        "es-MX": [
+          "Esta característica nos indica que la comunicación cara a cara es un principio fundamental de la agilidad:",
+          "¿Qué principio prioriza la comunicación directa y honesta como esencial?"
+        ]
+      },
+      "Options": {
+        "en-US": ["Respect the value of each individual", "Honest and sincere communication", "Transparency"],
+        "es-MX": ["Respetar el valor de cada individuo", "Comunicación sincera y honesta", "Transparencia"]
+      },
+      "Correct Answer": {
+        "en-US": "Honest and sincere communication",
+        "es-MX": "Comunicación sincera y honesta"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Face-to-face communication is valued in Agile because it reduces misunderstandings and builds trust."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La comunicación cara a cara es valorada en Ágil porque reduce malentendidos y genera confianza."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Cultura Ágil",
+      "Question Text": {
+        "en-US": [
+          "Which Agile characteristic states that every action, whether a success or a mistake, must be communicated and not punished?",
+          "Which principle emphasizes openness and learning from both errors and successes?"
+        ],
+        "es-MX": [
+          "Esta característica nos indica que cada acción desarrollada, error o acierto ha de ser comunicado y este no ha de ser castigado:",
+          "¿Qué principio enfatiza la apertura y el aprendizaje tanto de los errores como de los aciertos?"
+        ]
+      },
+      "Options": {
+        "en-US": ["Respect the value of each individual", "Honest and sincere communication", "Transparency"],
+        "es-MX": ["Respetar el valor de cada individuo", "Comunicación sincera y honesta", "Transparencia"]
+      },
+      "Correct Answer": {
+        "en-US": "Transparency",
+        "es-MX": "Transparencia"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Transparency is essential in Agile; sharing successes and mistakes enables continuous improvement."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La transparencia es esencial en Ágil; compartir aciertos y errores permite la mejora continua."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum",
+      "Question Text": {
+        "en-US": [
+          "Which Agile methodology is most widely used by companies and organizations that embrace agility as a way of doing business?",
+          "What is the most adopted Agile framework globally?"
+        ],
+        "es-MX": [
+          "Es la metodología ágil más empleada por las empresas y organizaciones que abrazan la agilidad como forma de entender y llevar su negocio:",
+          "¿Cuál es el marco ágil más adoptado en todo el mundo?"
+        ]
+      },
+      "Options": {
+        "en-US": ["Scrum", "Kanban", "XP"],
+        "es-MX": ["Scrum", "Kanban", "XP"]
+      },
+      "Correct Answer": {
+        "en-US": "Scrum",
+        "es-MX": "Scrum"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Scrum is the most popular Agile framework, widely adopted due to its simplicity and focus on delivering value iteratively."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "Scrum es el marco ágil más popular, ampliamente adoptado por su sencillez y su enfoque en la entrega iterativa de valor."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum",
+      "Question Text": {
+        "en-US": [
+          "Unlike teams that do not plan, Scrum teams plan when they start a cycle of work, define what they want to achieve, and reflect on how to improve for the next iteration. Which statement is true?",
+          "Scrum teams engage in planning, reviews, and retrospectives, unlike teams that do not plan. Which statement reflects this?"
+        ],
+        "es-MX": [
+          "Equipos que no planifican, al contrario, los equipos que usan Scrum planifican cuando comienzan un ciclo de trabajo, cuándo acaba, qué quieren obtener de él y también reflexionan cómo mejorar para el siguiente:",
+          "Los equipos Scrum realizan planificación, revisiones y retrospectivas, a diferencia de equipos que no planifican. ¿Cuál afirmación es correcta?"
+        ]
+      },
+      "Options": {
+        "en-US": ["Not Scrum", "Not XP", "Not Kanban"],
+        "es-MX": ["No es Scrum", "No es XP", "No es Kanban"]
+      },
+      "Correct Answer": {
+        "en-US": "Not Scrum",
+        "es-MX": "No es Scrum"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Planning, reviews, and retrospectives are core practices of Scrum. A team that does not plan cannot be considered Scrum."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "La planificación, las revisiones y las retrospectivas son prácticas centrales en Scrum. Un equipo que no planifica no puede considerarse Scrum."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum",
+      "Question Text": {
+        "en-US": [
+          "Which Scrum practice allows us to apply the four values and twelve principles of the Agile Manifesto through roles, artifacts, and events?",
+          "What Scrum level integrates roles, artifacts, and events to put Agile principles into practice?"
+        ],
+        "es-MX": [
+          "Nos permite poner en práctica los cuatro valores y los doce principios, según reglas a través de sus roles, artefactos y eventos:",
+          "¿Qué nivel de Scrum integra roles, artefactos y eventos para aplicar los principios ágiles?"
+        ]
+      },
+      "Options": {
+        "en-US": ["Basic Scrum", "Advanced Scrum", "Technical Scrum"],
+        "es-MX": ["Scrum básico", "Scrum avanzado", "Scrum técnico"]
+      },
+      "Correct Answer": {
+        "en-US": "Technical Scrum",
+        "es-MX": "Scrum técnico"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "Technical Scrum ensures that Agile values and principles are applied through defined roles, artifacts, and events."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Scrum técnico garantiza que los valores y principios ágiles se apliquen mediante roles, artefactos y eventos definidos."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum Roles",
+      "Question Text": {
+        "en-US": [
+          "Who is responsible for adding tasks to the product backlog and must have a clear vision of the entire product to be developed?"
+        ],
+        "es-MX": [
+          "Es el encargado de agregar tareas a la pila de producto y debe tener una gran visión de todo el producto a realizar, en este caso, de la web:"
+        ]
+      },
+      "Options": {
+        "en-US": ["Product Owner", "Scrum Master", "Stakeholders"],
+        "es-MX": ["Product owner", "Scrum master", "Stakeholders"]
+      },
+      "Correct Answer": {
+        "en-US": "Product Owner",
+        "es-MX": "Product owner"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The Product Owner manages the product backlog and ensures that the development team is working on the most valuable features."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Product Owner gestiona el backlog de producto y garantiza que el equipo trabaje en las funcionalidades de mayor valor."
+          }
+        ]
+      }
+    },
+    {
+      "Category": "Scrum Roles",
+      "Question Text": {
+        "en-US": [
+          "Who acts as a facilitator and mediator, ensuring that Agile values and principles are followed between the development team and the product owner?"
+        ],
+        "es-MX": [
+          "Hace las veces de gestor y mediador y vela porque los valores y principios del manifiesto ágil se cumplan entre el development team y el product owner:"
+        ]
+      },
+      "Options": {
+        "en-US": ["Product Owner", "Scrum Master", "Stakeholders"],
+        "es-MX": ["Product owner", "Scrum master", "Stakeholders"]
+      },
+      "Correct Answer": {
+        "en-US": "Scrum Master",
+        "es-MX": "Scrum master"
+      },
+      "Explanation": {
+        "en-US": [
+          {
+            "type": "text",
+            "content": "The Scrum Master ensures that Scrum is understood and enacted, coaching the team and mediating between roles."
+          }
+        ],
+        "es-MX": [
+          {
+            "type": "text",
+            "content": "El Scrum Master asegura que Scrum sea entendido y practicado, además de mediar entre roles y fomentar la colaboración."
+          }
+        ]
+      }
+    }, 
+        
+        {
+          "Category": "Scrum Roles",
+          "Question Text": {
+            "en-US": [
+              "Who are the interested parties such as the marketing team, investors, or other figures who have a stake in the project?"
+            ],
+            "es-MX": [
+              "Son los interesados, el equipo de marketing, los inversores y otras figuras que están interesadas en el proyecto que se desarrolla:"
+            ]
+          },
+          "Options": {
+            "en-US": ["Product Owner", "Scrum Master", "Stakeholders"],
+            "es-MX": ["Product owner", "Scrum master", "Stakeholders"]
+          },
+          "Correct Answer": {
+            "en-US": "Stakeholders",
+            "es-MX": "Stakeholders"
+          },
+          "Explanation": {
+            "en-US": [
+              {
+                "type": "text",
+                "content": "Stakeholders are all individuals or groups who have an interest in the project outcomes."
+              }
+            ],
+            "es-MX": [
+              {
+                "type": "text",
+                "content": "Los Stakeholders son todas las personas o grupos que tienen interés en los resultados del proyecto."
+              }
+            ]
+          }
+        }
+  
   ]
 }
