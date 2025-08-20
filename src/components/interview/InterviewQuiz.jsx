@@ -9,6 +9,7 @@ import desarrolloWebMarcosDeTrabajo from "./data/microtest-desarrollo-web-marcos
 import aplicacionesmovilesmultiplataforma from "./data/microtest-aplicaciones_moviles_multiplataforma.json";
 import microtestmetodologiasagilesweb from "./data/microtest-metodologias-agiles-web.json";
 import notificationSound from "../audio/correctanswer.mp3";
+
 export default function InterviewQuiz() {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -17,80 +18,67 @@ export default function InterviewQuiz() {
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [isJsonSelected, setIsJsonSelected] = useState(false);
-  const [isFullScreen, setIsFullScreen] = useState(false); // Para detectar el estado de pantalla completa
-  const [lastKeyPressTime, setLastKeyPressTime] = useState(0); // Tiempo de la última pulsación de tecla
+  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [lastKeyPressTime, setLastKeyPressTime] = useState(0);
   const quizContainerRef = useRef(null);
   const [responseMode, setResponseMode] = useState(true);
   const [questionLanguage, setQuestionLanguage] = useState("");
   const [responseLanguage, setResponseLanguage] = useState("");
-  const [selectedQuestionVoice, setSelectedQuestionVoice] = useState(null); // Guardará la voz para las preguntas
-  const [selectedAnswerVoice, setSelectedAnswerVoice] = useState(null); // Guardará la voz para las respuestas
+  const [selectedQuestionVoice, setSelectedQuestionVoice] = useState(null);
+  const [selectedAnswerVoice, setSelectedAnswerVoice] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
   const [showSpanishTranslation, setShowSpanishTranslation] = useState(false);
-
   const [selectedLanguage, setSelectedLanguage] = useState(null);
   const [readQuestionsAloud, setReadQuestionsAloud] = useState(true);
 
-  const handleShowAnswer = () => {
-    setShowAnswer(true);
-  };
+  const [correctCount, setCorrectCount] = useState(0);
+  const [incorrectCount, setIncorrectCount] = useState(0);
+  const [grade, setGrade] = useState(0);
 
-  // Función para reproducir el audio de la pregunta
+  useEffect(() => {
+    const total = correctCount + incorrectCount;
+    const pct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+    setGrade(pct);
+  }, [correctCount, incorrectCount]);
+
+  const handleShowAnswer = () => setShowAnswer(true);
+
+  // 🔊 Pregunta
   const playQuestionAudio = useCallback(
     (text) => {
-      if (!text || !selectedQuestionVoice) return; // Evitar errores si el texto o la voz no están disponibles
-
+      if (!text || !selectedQuestionVoice) return;
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.voice = selectedQuestionVoice; // Usar la voz global seleccionada para preguntas
-      utterance.lang = questionLanguage; // Usar el idioma de la voz seleccionada
+      utterance.voice = selectedQuestionVoice;
+      utterance.lang = questionLanguage;
       window.speechSynthesis.speak(utterance);
     },
-    [selectedQuestionVoice, questionLanguage] // Dependencia en la voz seleccionada para las preguntas
+    [selectedQuestionVoice, questionLanguage]
   );
 
-  // Función para reproducir el audio de la respuesta
+  // 🔊 Respuesta
   const playAnswerAudio = useCallback(
     (text) => {
-      if (!text || !selectedAnswerVoice || !readQuestionsAloud) return; // Evitar errores si el texto o la voz no están disponibles
-
-      if (responseLanguage !== "es-US") {
-
-        const slowUtterance = new SpeechSynthesisUtterance(text);
-        slowUtterance.voice = selectedAnswerVoice;
-        slowUtterance.lang = questionLanguage;
-        slowUtterance.rate = 1; // Velocidad normal, si se requiere mas lenta menos de uno poner decimales si se requiere mas rapida mas de 1
-        window.speechSynthesis.speak(slowUtterance);
-      } else {
-        // Comportamiento normal para otros idiomas
-
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.voice = selectedAnswerVoice;
-        utterance.lang = questionLanguage;
-        utterance.rate = 1; // Velocidad ajustada
-        window.speechSynthesis.speak(utterance);
-      }
+      if (!text || !selectedAnswerVoice || !readQuestionsAloud) return;
+      const u = new SpeechSynthesisUtterance(text);
+      u.voice = selectedAnswerVoice;
+      u.lang = questionLanguage;
+      u.rate = 1;
+      window.speechSynthesis.speak(u);
     },
-    [selectedAnswerVoice, responseLanguage, questionLanguage, readQuestionsAloud] // Dependencia en la voz seleccionada para las respuestas
+    [selectedAnswerVoice, questionLanguage, readQuestionsAloud]
   );
 
-  // Efecto para cargar las voces disponibles y asegurarnos de que están cargadas antes de seleccionarlas
+  // Voces disponibles
   useEffect(() => {
     const loadVoices = () => {
       const voices = window.speechSynthesis.getVoices();
-      if (voices.length === 0) {
-        console.log("Esperando que se carguen las voces...");
-        return;
-      }
-      console.log("Voces cargadas:", voices);
+      if (voices.length === 0) return;
+      // console.log("Voces cargadas", voices);
     };
-
-    // Cargar voces cuando cambian
     if (window.speechSynthesis.onvoiceschanged !== undefined) {
       window.speechSynthesis.onvoiceschanged = loadVoices;
     }
-
-    // Cargar voces al inicio
     loadVoices();
   }, []);
 
@@ -100,16 +88,14 @@ export default function InterviewQuiz() {
       const correctAnswer = currentQuestion.options[currentQuestion.correctAnswer - 1];
 
       if (selectedOption === correctAnswer) {
-        setCorrectCount((c) => c + 1);     // ✅ suma acierto
-        setScore((s) => s + 1);            // si sigues usando 'score' como aciertos
+        setCorrectCount((c) => c + 1);
+        setScore((s) => s + 1);
         setShowCorrect(true);
         playKeyPressSound();
         playAnswerAudio(correctAnswer);
-
-        // Avanza a la siguiente después de un breve feedback
         setTimeout(() => {
           setShowCorrect(false);
-          setSelectedAnswer(null);         // 🔸 limpia selección antes de avanzar
+          setSelectedAnswer(null);
           if (currentQuestionIndex < questions.length - 1) {
             setCurrentQuestionIndex((i) => i + 1);
           } else {
@@ -117,7 +103,6 @@ export default function InterviewQuiz() {
           }
         }, 1000);
       } else {
-        // ❌ respuesta incorrecta: marcamos selección y contamos error
         setSelectedAnswer(selectedOption);
         setIncorrectCount((c) => c + 1);
         playAnswerAudio(selectedOption);
@@ -126,668 +111,326 @@ export default function InterviewQuiz() {
     [questions, currentQuestionIndex, playAnswerAudio]
   );
 
-  useEffect(() => {
-    // al cambiar de pregunta, limpiamos selección para no heredar color
-    setSelectedAnswer(null);
-  }, [currentQuestionIndex]);
+  useEffect(() => setSelectedAnswer(null), [currentQuestionIndex]);
 
+  // ⌨️ Atajos de teclado
   useEffect(() => {
     const handleKeyDown = (event) => {
       const now = Date.now();
-      if (now - lastKeyPressTime < 300) {
-        return;
-      }
+      if (now - lastKeyPressTime < 300) return;
       setLastKeyPressTime(now);
 
       const currentQuestion = questions[currentQuestionIndex];
+      if (!currentQuestion || !currentQuestion.options || currentQuestion.options.length === 0) return;
 
-      if (
-        !currentQuestion ||
-        !currentQuestion.options ||
-        currentQuestion.options.length === 0
-      ) {
-        return;
-      }
-
-      // Presionar 'Enter' para repetir la pregunta
       if (event.key === "Enter" || event.key === "NumpadEnter") {
-        playQuestionAudio(currentQuestion.word); // Reproducir el audio de la pregunta
+        playQuestionAudio(currentQuestion.word);
         return;
       }
       if (event.key === "*") {
         handleShowAnswer();
-
-        // Obtener la respuesta correcta
-        const correctAnswer =
-          currentQuestion.options[currentQuestion.correctAnswer - 1];
-
-        // Reproducir el audio de la respuesta correcta
+        const correctAnswer = currentQuestion.options[currentQuestion.correctAnswer - 1];
         playAnswerAudio(correctAnswer);
       }
-      // Aquí agregamos la lógica para presionar el 'menos (-)' del teclado numérico
       if (event.key === "-") {
-        const correctAnswer =
-          currentQuestion.options[currentQuestion.correctAnswer - 1];
-
-        // Selecciona automáticamente la respuesta correcta
+        const correctAnswer = currentQuestion.options[currentQuestion.correctAnswer - 1];
         handleAnswerSelect(correctAnswer);
       }
-      // Presionar '0' activa el modo de respuesta
       if (event.key === "0") {
-        setResponseMode(!responseMode); // Cambiar el modo de respuesta
-        playKeyPressSound(); // Reproducir sonido cuando se presione '0'
+        setResponseMode((m) => !m);
+        playKeyPressSound();
         return;
       }
-
-      // Si se ha activado el modo de respuesta, permitir seleccionar con '1' a '4'
-      if (responseMode && event.key >= "1" && event.key <= "4") {
-        const answerIndex = parseInt(event.key) - 1;
-        if (answerIndex >= 0 && answerIndex < currentQuestion.options.length) {
-          handleAnswerSelect(currentQuestion.options[answerIndex]);
-        }
-      }
-
-      // Si no se ha activado el modo de respuesta, simplemente reproducir el audio de la opción sin seleccionarla
-      if (!responseMode && event.key >= "1" && event.key <= "4") {
-        const answerIndex = parseInt(event.key) - 1;
-        if (answerIndex >= 0 && answerIndex < currentQuestion.options.length) {
-          playAnswerAudio(currentQuestion.options[answerIndex]); // Reproducir el audio de la respuesta
+      if (event.key >= "1" && event.key <= "4") {
+        const idx = parseInt(event.key) - 1;
+        if (idx < 0 || idx >= currentQuestion.options.length) return;
+        if (responseMode) {
+          handleAnswerSelect(currentQuestion.options[idx]);
+        } else {
+          playAnswerAudio(currentQuestion.options[idx]);
         }
       }
     };
 
     window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [questions, currentQuestionIndex, responseMode, handleAnswerSelect, playQuestionAudio, playAnswerAudio, lastKeyPressTime]);
 
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [
-    questions,
-    currentQuestionIndex,
-    responseMode,
-    handleAnswerSelect,
-    playQuestionAudio,
-    playAnswerAudio,
-    lastKeyPressTime,
-  ]);
-
-  // Función para reproducir sonido
   const playKeyPressSound = () => {
     const audio = new Audio(notificationSound);
-    audio.volume = 0.5; // Volumen al 50%
+    audio.volume = 0.5;
     audio.play();
   };
 
-  // Efecto para leer la pregunta cuando cambia la pregunta actual
+  // Leer pregunta al cambiar
   useEffect(() => {
     if (questions.length > 0 && readQuestionsAloud) {
-      playQuestionAudio(questions[currentQuestionIndex]?.word); // Reproducir el audio de la pregunta
+      playQuestionAudio(questions[currentQuestionIndex]?.word);
     }
   }, [currentQuestionIndex, questions, playQuestionAudio, readQuestionsAloud]);
 
+  // Fullscreen
   useEffect(() => {
-    const handleFullScreenChange = () => {
-      if (document.fullscreenElement) {
-        setIsFullScreen(true);
-      } else {
-        setIsFullScreen(false);
-      }
-    };
-
+    const handleFullScreenChange = () => setIsFullScreen(!!document.fullscreenElement);
     document.addEventListener("fullscreenchange", handleFullScreenChange);
-    return () => {
-      document.removeEventListener("fullscreenchange", handleFullScreenChange);
-    };
+    return () => document.removeEventListener("fullscreenchange", handleFullScreenChange);
   }, []);
 
-  const shuffleArray = (array) => {
-    return array.sort(() => Math.random() - 0.5);
-  };
-
   const enterFullScreen = () => {
-    if (quizContainerRef.current.requestFullscreen) {
-      quizContainerRef.current.requestFullscreen();
-    } else if (quizContainerRef.current.webkitRequestFullscreen) {
-      quizContainerRef.current.webkitRequestFullscreen();
-    } else if (quizContainerRef.current.msRequestFullscreen) {
-      quizContainerRef.current.msRequestFullscreen();
-    }
+    if (!quizContainerRef.current) return;
+    const el = quizContainerRef.current;
+    if (el.requestFullscreen) el.requestFullscreen();
+    else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+    else if (el.msRequestFullscreen) el.msRequestFullscreen();
   };
 
-  // Función que maneja la carga y adaptación del JSON para preguntas técnicas (nuevo formato)
+  const shuffleArray = (array) => array.slice().sort(() => Math.random() - 0.5);
+
+  // Carga/adapta JSON
   const handleJsonSelection = (jsonFile) => {
     const language = selectedLanguage;
-
-    const adaptedQuestions = jsonFile.Questions.map((question) => {
-      var rndmQuestion = Math.floor(Math.random() * question["Question Text"][language].length);
-      const randomQuestionVariant =
-        question["Question Text"][language][rndmQuestion];
-
-      const options = shuffleArray([...question.Options[language]]);
-      const correctAnswer = question["Correct Answer"][language];
-      const explanation = question["Explanation"][language];
-      const category = question.Category;
-
+    const adapted = jsonFile.Questions.map((q) => {
+      const rnd = Math.floor(Math.random() * q["Question Text"][language].length);
+      const questionVariant = q["Question Text"][language][rnd];
+      const options = shuffleArray([...q.Options[language]]);
+      const correctAnswer = q["Correct Answer"][language];
+      const explanation = q["Explanation"][language];
+      const category = q.Category;
       return {
-        word: randomQuestionVariant,
+        word: questionVariant,
         options,
         correctAnswer: options.indexOf(correctAnswer) + 1,
         explanation,
         category,
-        // Español
-        word_es: question["Question Text"]["es-MX"]?.[rndmQuestion] ?? "Sin traducción",
-        options_es: question["Options"]["es-MX"] ?? [],
-        explanation_es: question["Explanation"]["es-MX"] ?? [],
+        // Español paralelo
+        word_es: q["Question Text"]["es-MX"]?.[rnd] ?? "Sin traducción",
+        options_es: q["Options"]["es-MX"] ?? [],
+        explanation_es: q["Explanation"]["es-MX"] ?? [],
       };
     });
 
-    setQuestions(adaptedQuestions);
+    setQuestions(adapted);
     setQuestionLanguage(language);
     setResponseLanguage(language);
     setIsJsonSelected(true);
 
-    // 🔊 Aquí seleccionamos las voces según el idioma elegido:
+    // voces
     const voices = window.speechSynthesis.getVoices();
+    const pick = (lang) =>
+      voices.find((v) => v.lang === lang && v.name.includes("Google")) ||
+      voices.find((v) => v.lang === lang) || null;
 
-    const questionVoice =
-      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
-      voices.find((v) => v.lang === language);
-    const answerVoice =
-      voices.find((v) => v.lang === language && v.name.includes("Google")) ||
-      voices.find((v) => v.lang === language);
-
-    setSelectedQuestionVoice(questionVoice);
-    setSelectedAnswerVoice(answerVoice);
+    setSelectedQuestionVoice(pick(language));
+    setSelectedAnswerVoice(pick(language));
   };
-  const speakExplanation = (explanationArray) => {
-    if (!explanationArray || !selectedAnswerVoice) return;
 
-    explanationArray.forEach((item) => {
+  const speakExplanation = (arr) => {
+    if (!arr || !selectedAnswerVoice) return;
+    arr.forEach((item) => {
       if (item.type === "text" || item.type === "title-h2") {
-        const utterance = new SpeechSynthesisUtterance(item.content);
-        utterance.voice = selectedAnswerVoice;
-        utterance.lang = questionLanguage;
-        utterance.rate = 1;
-        window.speechSynthesis.speak(utterance);
+        const u = new SpeechSynthesisUtterance(item.content);
+        u.voice = selectedAnswerVoice;
+        u.lang = questionLanguage;
+        u.rate = 1;
+        window.speechSynthesis.speak(u);
       }
     });
   };
-  // Calcula layout de columnas
-  const layoutCols =
-    showExplanation && showSpanishTranslation
-      ? "md:grid-cols-3"
-      : showExplanation || showSpanishTranslation
-        ? "md:grid-cols-2"
-        : "md:grid-cols-1";
-  const [correctCount, setCorrectCount] = useState(0);
-  const [incorrectCount, setIncorrectCount] = useState(0);
-  const [grade, setGrade] = useState(0); // porcentaje basado en correct/incorrect
-  useEffect(() => {
-    const total = correctCount + incorrectCount;
-    const pct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
-    setGrade(pct);
-  }, [correctCount, incorrectCount]);
+
+  // 🧠 Número de paneles activos y clases de grid
+  const activePanels = 1 + (showExplanation ? 1 : 0) + (showSpanishTranslation ? 1 : 0);
+  const gridColsClass = activePanels === 1
+    ? "md:grid-cols-1"
+    : activePanels === 2
+    ? "md:grid-cols-2"
+    : "md:grid-cols-3"; // 3
 
   return (
-
     <div ref={quizContainerRef} className="min-h-screen bg-[#121212] text-white px-4 py-6 flex flex-col items-center">
-
-
-
-
-      <h1 className="text-2xl font-bold text-center mb-6">
-
-      </h1>
+      {/* Idioma */}
       {!selectedLanguage ? (
         <div className="flex flex-col items-center gap-4 mb-10">
           <h2 className="text-xl font-semibold mb-2">Seleccione el idioma del quiz:</h2>
-          <button
-            onClick={() => setSelectedLanguage("en-US")}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            Inglés
-          </button>
-          <button
-            onClick={() => setSelectedLanguage("es-MX")}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            Español
-          </button>
+          <button onClick={() => setSelectedLanguage("en-US")} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">Inglés</button>
+          <button onClick={() => setSelectedLanguage("es-MX")} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">Español</button>
         </div>
       ) : !isJsonSelected ? (
-        // Pantalla de selección de JSON
+        // Selección de JSON
         <div className="flex flex-col items-center gap-4 mb-10">
-          <h2 className="text-xl font-semibold mb-2">
-            Seleccione el tipo de quiz:
-          </h2>
-          <button
-            onClick={() => handleJsonSelection(quizData)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            {quizData["Quiz Title"]}
-          </button>
-          <button
-            onClick={() => handleJsonSelection(quizDatappsmovs)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            {quizDatappsmovs["Quiz Title"]}
-          </button>
-          <button
-            onClick={() => handleJsonSelection(quizLearingEnglish)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            {quizLearingEnglish["Quiz Title"]}
-          </button>
-          <button
-            onClick={() => handleJsonSelection(desarrolloWebFrameworksQuiz)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            {desarrolloWebFrameworksQuiz["Quiz Title"]}
-          </button>
-          <button
-            onClick={() => handleJsonSelection(desarrolloWebMarcosDeTrabajo)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            {desarrolloWebMarcosDeTrabajo["Quiz Title"]}
-          </button>
-          <button
-            onClick={() => handleJsonSelection(aplicacionesmovilesmultiplataforma)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            {aplicacionesmovilesmultiplataforma["Quiz Title"]}
-          </button>
-          <button
-            onClick={() => handleJsonSelection(microtestmetodologiasagilesweb)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow"
-          >
-            {microtestmetodologiasagilesweb["Quiz Title"]}
-          </button>
-
+          <h2 className="text-xl font-semibold mb-2">Seleccione el tipo de quiz:</h2>
+          <button onClick={() => handleJsonSelection(quizData)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{quizData["Quiz Title"]}</button>
+          <button onClick={() => handleJsonSelection(quizDatappsmovs)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{quizDatappsmovs["Quiz Title"]}</button>
+          <button onClick={() => handleJsonSelection(quizLearingEnglish)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{quizLearingEnglish["Quiz Title"]}</button>
+          <button onClick={() => handleJsonSelection(desarrolloWebFrameworksQuiz)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{desarrolloWebFrameworksQuiz["Quiz Title"]}</button>
+          <button onClick={() => handleJsonSelection(desarrolloWebMarcosDeTrabajo)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{desarrolloWebMarcosDeTrabajo["Quiz Title"]}</button>
+          <button onClick={() => handleJsonSelection(aplicacionesmovilesmultiplataforma)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{aplicacionesmovilesmultiplataforma["Quiz Title"]}</button>
+          <button onClick={() => handleJsonSelection(microtestmetodologiasagilesweb)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{microtestmetodologiasagilesweb["Quiz Title"]}</button>
         </div>
       ) : !showResult && questions.length > 0 ? (
-
-
-        <div className="flex flex-col  justify-between gap-6 w-full max-w-10xl">
-          {/* 🟦 Sección original en inglés */}
-          <div className="grid grid-cols-1 md:grid-cols-7 gap-4 w-full max-w-7xl mx-auto">
-
-            <div
-              className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300  ${!showExplanation && !showSpanishTranslation
-                ? 'md:col-span-7'
-                : showExplanation && !showSpanishTranslation
-                  ? 'md:col-span-3'
-                  : !showExplanation && showSpanishTranslation
-                    ? 'md:col-span-3'
-                    : 'md:col-span-2'
-                }`}
-            >
-
-
-
-
-              <h2 className="text-xl font-semibold mb-4">
-                {questions[currentQuestionIndex]?.word}
-              </h2>
-
+        <>
+          {/* 🔳 GRID en 1/2/3 columnas a ancho máximo */}
+          <div className={`grid grid-cols-1 ${gridColsClass} gap-4 w-full max-w-screen-2xl mx-auto`}>
+            {/* Panel 1: Pregunta + opciones */}
+            <section className="bg-[#1e1e1e] p-4 rounded shadow">
+              <h2 className="text-xl font-semibold mb-4">{questions[currentQuestionIndex]?.word}</h2>
               <div className="text-sm mb-4 flex flex-col gap-1">
                 <div>
-                  <span className="text-gray-300">Pregunta:</span>{" "}
-                  {currentQuestionIndex + 1} / {questions.length}
+                  <span className="text-gray-300">Pregunta:</span> {currentQuestionIndex + 1} / {questions.length}
                 </div>
                 <div>
-                  <span className="text-gray-300">Correctas:</span> {correctCount}{" "}
+                  <span className="text-gray-300">Correctas:</span> {correctCount}
                   <span className="text-gray-300 ml-4">Incorrectas:</span> {incorrectCount}
                 </div>
                 <div>
                   <span className="text-gray-300">Calificación:</span> {grade}%
                 </div>
               </div>
-
-
               <div className="flex flex-col items-center gap-3">
-                {questions[currentQuestionIndex]?.options?.map(
-                  (option, index) => (
-                    <button
-                      key={uuidv4()}
-                      onClick={() => handleAnswerSelect(option)}
-                      className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${selectedAnswer === option
-                        ? "bg-orange-600"
-                        : "bg-blue-600 hover:bg-blue-700"
-                        }`}
-                    >
-                      {index + 1}. {option}
-                    </button>
-                  )
-                )}
-              </div>
-            </div>
-            <div className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showExplanation ? 'md:col-span-2' : 'md:col-span-0 hidden'}`}>
-
-
-              {showExplanation && (
-                <div
-                  className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showSpanishTranslation ? 'md:col-span-2' : 'md:col-span-4'
-                    }`}
-                >
-                  <h3 className="font-bold text-lg mb-2">Explicación:</h3>
-                  <div className="space-y-2 text-left text-gray-200">
-                    {questions[currentQuestionIndex]?.explanation?.map(
-                      (item, index) => {
-                        if (item.type === "text") {
-                          return <p key={index}>{item.content}</p>;
-                        } else if (item.type === "title-h2") {
-                          return (
-                            <h2
-                              key={index}
-                              className="text-xl font-bold text-white"
-                            >
-                              {item.content}
-                            </h2>
-                          );
-                        } else if (item.type === "link") {
-                          return (
-                            <a
-                              key={index}
-                              href={item.content}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-blue-400 underline"
-                            >
-                              {item.content}
-                            </a>
-                          );
-                        } else if (item.type === "code") {
-                          return (
-                            <pre
-                              key={index}
-                              className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
-                            >
-                              <code>{item.content}</code>
-                            </pre>
-                          );
-                        } else if (item.type === "ul") {
-                          return (
-                            <ul key={index} className="list-disc list-inside">
-                              {item.items.map((li, i) => (
-                                <li key={i}>{li}</li>
-                              ))}
-                            </ul>
-                          );
-                        } else if (item.type === "ol") {
-                          return (
-                            <ol key={index} className="list-decimal list-inside">
-                              {item.items.map((li, i) => (
-                                <li key={i}>{li}</li>
-                              ))}
-                            </ol>
-                          );
-                        } else if (item.type === "image") {
-                          return (
-                            <img
-                              key={index}
-                              src={item.src}
-                              alt={item.alt || "image"}
-                              className="rounded-md border border-gray-700 shadow-md max-w-full"
-                            />
-                          );
-                        } else if (item.type === "divider") {
-                          return (
-                            <hr key={index} className="border-gray-600 my-4" />
-                          );
-                        }
-
-                        return null;
-                      }
-                    )}
-                  </div>
-
+                {questions[currentQuestionIndex]?.options?.map((option, index) => (
                   <button
-                    onClick={() =>
-                      speakExplanation(
-                        questions[currentQuestionIndex]?.explanation
-                      )
-                    }
-                    className="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300"
+                    key={`${index}-${uuidv4()}`}
+                    onClick={() => handleAnswerSelect(option)}
+                    className={`w-full max-w-md py-2 px-4 rounded text-white text-lg shadow transition-all ${selectedAnswer === option ? "bg-orange-600" : "bg-blue-600 hover:bg-blue-700"}`}
                   >
-                    🔊 Leer explicación en voz alta
+                    {index + 1}. {option}
                   </button>
+                ))}
+              </div>
+              {showCorrect && <div className="mt-4 text-green-400 font-bold text-xl">¡Correcto!</div>}
+            </section>
+
+            {/* Panel 2: Explicación */}
+            {showExplanation && (
+              <section className="bg-[#1e1e1e] p-4 rounded shadow">
+                <h3 className="font-bold text-lg mb-2">Explicación</h3>
+                <div className="space-y-2 text-left text-gray-200">
+                  {questions[currentQuestionIndex]?.explanation?.map((item, index) => {
+                    if (item.type === "text") return <p key={index}>{item.content}</p>;
+                    if (item.type === "title-h2") return <h2 key={index} className="text-xl font-bold text-white">{item.content}</h2>;
+                    if (item.type === "link") return (
+                      <a key={index} href={item.content} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">{item.content}</a>
+                    );
+                    if (item.type === "code") return (
+                      <pre key={index} className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"><code>{item.content}</code></pre>
+                    );
+                    if (item.type === "ul") return (
+                      <ul key={index} className="list-disc list-inside">{item.items.map((li, i) => <li key={i}>{li}</li>)}</ul>
+                    );
+                    if (item.type === "ol") return (
+                      <ol key={index} className="list-decimal list-inside">{item.items.map((li, i) => <li key={i}>{li}</li>)}</ol>
+                    );
+                    if (item.type === "image") return (
+                      <img key={index} src={item.src} alt={item.alt || "image"} className="rounded-md border border-gray-700 shadow-md max-w-full" />
+                    );
+                    if (item.type === "divider") return <hr key={index} className="border-gray-600 my-4" />;
+                    return null;
+                  })}
                 </div>
-              )}
+                <button onClick={() => speakExplanation(questions[currentQuestionIndex]?.explanation)} className="mt-3 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition">🔊 Leer explicación</button>
+              </section>
+            )}
 
-              {showCorrect && (
-                <div className="mt-4 text-green-400 font-bold text-xl">
-                  ¡Correcto!
+            {/* Panel 3: Español */}
+            {showSpanishTranslation && (
+              <section className="bg-[#1e1e1e] p-4 rounded shadow">
+                <h2 className="text-lg font-bold text-white mb-2">Pregunta en Español</h2>
+                <p className="mb-2 text-gray-300">{questions[currentQuestionIndex]?.word_es ?? "Sin traducción"}</p>
+                <h3 className="text-md font-bold text-white mb-2">Opciones</h3>
+                <ul className="list-disc list-inside text-gray-300 space-y-1">
+                  {questions[currentQuestionIndex]?.options_es?.map((opt, idx) => (
+                    <li key={idx}>{opt}</li>
+                  ))}
+                </ul>
+                <h3 className="text-md font-bold text-white mt-4 mb-2">Explicación</h3>
+                <div className="text-gray-300 space-y-2">
+                  {Array.isArray(questions[currentQuestionIndex]?.explanation_es) &&
+                    questions[currentQuestionIndex].explanation_es.map((item, index) => {
+                      if (item.type === "text") return <p key={index}>{item.content}</p>;
+                      if (item.type === "title-h2") return <h2 key={index} className="text-xl font-bold text-white">{item.content}</h2>;
+                      if (item.type === "link") return (
+                        <a key={index} href={item.content} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">{item.content}</a>
+                      );
+                      if (item.type === "code") return (
+                        <pre key={index} className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"><code>{item.content}</code></pre>
+                      );
+                      if (item.type === "ul") return (
+                        <ul key={index} className="list-disc list-inside">{item.items.map((li, i) => <li key={i}>{li}</li>)}</ul>
+                      );
+                      if (item.type === "ol") return (
+                        <ol key={index} className="list-decimal list-inside">{item.items.map((li, i) => <li key={i}>{li}</li>)}</ol>
+                      );
+                      if (item.type === "image") return (
+                        <img key={index} src={item.src} alt={item.alt || "image"} className="rounded-md border border-gray-700 shadow-md max-w-full" />
+                      );
+                      if (item.type === "divider") return <hr key={index} className="border-gray-600 my-4" />;
+                      return null;
+                    })}
                 </div>
-              )}
-
-              {!isFullScreen && (
-                <button
-                  onClick={enterFullScreen}
-                  className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
-                >
-                  Entrar en pantalla completa
-                </button>
-              )}
-            </div>
-
-            <div className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showSpanishTranslation ? 'md:col-span-3' : 'md:col-span-0 hidden'}`}>
-
-              {/* 📌 Traducción en español a la derecha */}
-              {showSpanishTranslation && (
-                <div
-                  className={`bg-[#1e1e1e] p-4 rounded shadow transition-all duration-300 ${showExplanation ? 'md:col-span-3' : 'md:col-span-4'
-                    }`}
-                >
-                  <h2 className="text-lg font-bold text-white mb-2">
-                    Pregunta en Español:
-                  </h2>
-                  <p className="mb-2 text-gray-300">
-                    {questions[currentQuestionIndex]?.word_es ?? "Sin traducción"}
-                  </p>
-
-                  <h3 className="text-md font-bold text-white mb-2">Opciones:</h3>
-                  <ul className="list-disc list-inside text-gray-300 space-y-1">
-                    {questions[currentQuestionIndex]?.options_es?.map(
-                      (opt, idx) => (
-                        <li key={idx}>{opt}</li>
-                      )
-                    )}
-                  </ul>
-
-                  <h3 className="text-md font-bold text-white mt-4 mb-2">
-                    Explicación:
-                  </h3>
-                  <div className="text-gray-300 space-y-2">
-                    {Array.isArray(
-                      questions[currentQuestionIndex]?.explanation_es
-                    ) &&
-                      questions[currentQuestionIndex].explanation_es.map(
-                        (item, index) => {
-                          if (item.type === "text") {
-                            return <p key={index}>{item.content}</p>;
-                          } else if (item.type === "title-h2") {
-                            return (
-                              <h2
-                                key={index}
-                                className="text-xl font-bold text-white"
-                              >
-                                {item.content}
-                              </h2>
-                            );
-                          } else if (item.type === "link") {
-                            return (
-                              <a
-                                key={index}
-                                href={item.content}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-400 underline"
-                              >
-                                {item.content}
-                              </a>
-                            );
-                          } else if (item.type === "code") {
-                            return (
-                              <pre
-                                key={index}
-                                className="bg-black text-green-400 p-3 rounded overflow-x-auto text-sm"
-                              >
-                                <code>{item.content}</code>
-                              </pre>
-                            );
-                          } else if (item.type === "ul") {
-                            return (
-                              <ul key={index} className="list-disc list-inside">
-                                {item.items.map((li, i) => (
-                                  <li key={i}>{li}</li>
-                                ))}
-                              </ul>
-                            );
-                          } else if (item.type === "ol") {
-                            return (
-                              <ol key={index} className="list-decimal list-inside">
-                                {item.items.map((li, i) => (
-                                  <li key={i}>{li}</li>
-                                ))}
-                              </ol>
-                            );
-                          } else if (item.type === "image") {
-                            return (
-                              <img
-                                key={index}
-                                src={item.src}
-                                alt={item.alt || "image"}
-                                className="rounded-md border border-gray-700 shadow-md max-w-full"
-                              />
-                            );
-                          } else if (item.type === "divider") {
-                            return (
-                              <hr key={index} className="border-gray-600 my-4" />
-                            );
-                          }
-
-                          return null;
-                        }
-                      )}
-                  </div>
-                </div>
-              )}
-            </div>
+              </section>
+            )}
           </div>
 
-
-        </div>
+          {/* Toolbar secundaria (pantalla completa) */}
+          {!isFullScreen && (
+            <div className="w-full max-w-screen-2xl mt-4 flex justify-end">
+              <button onClick={enterFullScreen} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Entrar en pantalla completa</button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="bg-[#1e1e1e] p-6 rounded-lg shadow-md w-full max-w-2xl text-center">
           <h1 className="text-2xl font-bold mb-4">Resultado Final</h1>
-          <p className="text-lg">
-            Tu puntaje es {score}/{questions.length}
-          </p>
+          <p className="text-lg">Tu puntaje es {score}/{questions.length}</p>
         </div>
       )}
 
-      {/* Instrucciones y respuesta */}
+      {/* Instrucciones y controles */}
       <div className="mt-10 bg-[#1a1a1a] p-6 rounded-lg shadow-md w-full max-w-2xl text-sm">
         {showAnswer && (
           <div className="mb-4 text-green-400">
-            La respuesta correcta es:{" "}
-            <strong>
-              {
-                questions[currentQuestionIndex].options[
-                questions[currentQuestionIndex].correctAnswer - 1
-                ]
-              }
-            </strong>
+            La respuesta correcta es: <strong>{questions[currentQuestionIndex]?.options?.[questions[currentQuestionIndex]?.correctAnswer - 1]}</strong>
           </div>
         )}
-
         <h3 className="text-lg font-bold mb-2 text-center">Instrucciones</h3>
-        <div
-          className={`mb-2 text-center font-medium ${responseMode ? "text-green-400" : "text-yellow-300"
-            }`}
-        >
-          {responseMode
-            ? "Presione 0 para desactivar modo de respuesta"
-            : "Presiona 0 para activar el modo de respuesta."}
+        <div className={`mb-2 text-center font-medium ${responseMode ? "text-green-400" : "text-yellow-300"}`}>
+          {responseMode ? "Presione 0 para desactivar modo de respuesta" : "Presiona 0 para activar el modo de respuesta."}
         </div>
-
         <ul className="list-disc list-inside space-y-1 text-gray-300">
-          <li>
-            Presiona <strong>Enter</strong> para repetir la pregunta.
-          </li>
-          <li>
-            Presiona <strong>*</strong> para mostrar la respuesta de la
-            pregunta.
-          </li>
-          <li>
-            Presiona <strong>-</strong> para contestar la pregunta y pasar a la
-            siguiente.
-          </li>
+          <li>Presiona <strong>Enter</strong> para repetir la pregunta.</li>
+          <li>Presiona <strong>*</strong> para mostrar la respuesta de la pregunta.</li>
+          <li>Presiona <strong>-</strong> para contestar la pregunta y pasar a la siguiente.</li>
         </ul>
-
-        <div className="text-center mt-4">
-          <button
-            onClick={() => setReadQuestionsAloud(!readQuestionsAloud)}
-            className={`mt-4 px-4 py-2 rounded ${readQuestionsAloud ? "bg-green-600 hover:bg-green-700" : "bg-red-600 hover:bg-red-700"
-              }`}
-          >
+        <div className="text-center mt-4 flex flex-wrap gap-2 justify-center">
+          <button onClick={() => setReadQuestionsAloud((v) => !v)} className={`px-4 py-2 rounded ${readQuestionsAloud ? "bg-green-600 hover:bg-green-700" : "bg-red-600 hover:bg-red-700"}`}>
             {readQuestionsAloud ? "🔊 Leer preguntas activado" : "🔇 Leer preguntas desactivado"}
           </button>
-          <button
-            onClick={() => setShowExplanation(!showExplanation)}
-            className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition duration-300"
-          >
-            {showExplanation ? "Ocultar explicación" : "Explicación"}
-          </button>
-          <button
-            onClick={() => setShowAnswer(!showAnswer)}
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded"
-          >
-            {showAnswer ? "Ocultar respuesta" : "Mostrar respuesta"}
-          </button>
-          <button
-            onClick={() => setShowSpanishTranslation(!showSpanishTranslation)}
-            className="mt-4 bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded transition duration-300"
-          >
-            {showSpanishTranslation
-              ? "Ocultar traducción"
-              : "Mostrar traducción en español"}
-          </button>
+          <button onClick={() => setShowExplanation((v) => !v)} className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition">{showExplanation ? "Ocultar explicación" : "Explicación"}</button>
+          <button onClick={() => setShowAnswer((v) => !v)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded">{showAnswer ? "Ocultar respuesta" : "Mostrar respuesta"}</button>
+          <button onClick={() => setShowSpanishTranslation((v) => !v)} className="bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded transition">{showSpanishTranslation ? "Ocultar traducción" : "Mostrar traducción en español"}</button>
         </div>
       </div>
+
+      {/* Ir a pregunta específica */}
       <div className="mt-6 bg-[#1a1a1a] p-4 rounded w-full max-w-md text-center">
         <h3 className="text-white font-semibold mb-2">Ir a una pregunta específica</h3>
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            const value = e.target.pregunta.value;
+            const value = e.currentTarget.pregunta.value;
             const index = parseInt(value);
             if (!isNaN(index) && index >= 1 && index <= questions.length) {
               setCurrentQuestionIndex(index - 1);
               setSelectedAnswer(null);
               setShowAnswer(false);
               setShowCorrect(false);
-              playQuestionAudio(questions[index - 1]?.word); // 🔊 leer pregunta al cambiar
+              playQuestionAudio(questions[index - 1]?.word);
             }
           }}
         >
-          <input
-            type="number"
-            name="pregunta"
-            min="1"
-            max={questions.length}
-            className="w-full mb-2 px-3 py-2 rounded text-black"
-            placeholder={`Número entre 1 y ${questions.length}`}
-          />
-          <button
-            type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
-          >
-            Ir a la pregunta
-          </button>
+          <input type="number" name="pregunta" min="1" max={questions.length} className="w-full mb-2 px-3 py-2 rounded text-black" placeholder={`Número entre 1 y ${questions.length}`} />
+          <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Ir a la pregunta</button>
         </form>
       </div>
-
     </div>
   );
 }
