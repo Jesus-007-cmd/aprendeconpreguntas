@@ -33,10 +33,11 @@ export function compute(xs) {
     if(!ok) continue;
     const m = mean(y), s2 = varianceUnbiased(y); if(!(s2>0)) continue;
     const kk = (m*m)/s2, th = s2/m;
-    const err = rmseQuantileFit(xs, (p)=> g + invGammaApprox(kk, th)(p));
+    const q = invGammaApprox(kk, th);
+    const err = rmseQuantileFit(xs, (p)=> g + q(p));
     if (err < rmse_m){ rmse_m = err; g_m = g; k_m = kk; th_m = th; }
   }
-  const momParam = (g_m===g_m) ? `γ=${g_m.toFixed(4)}, k=${k_m.toFixed(4)}, θ=${th_m.toFixed(4)}` : "—";
+  const momParam = Number.isNaN(g_m) ? "—" : `γ=${g_m.toFixed(4)}, k=${k_m.toFixed(4)}, θ=${th_m.toFixed(4)}`;
 
   // --- MLE: γ que minimiza RMSE usando MLE(k,θ) sobre y=x-γ
   let g_l = NaN, k_l = NaN, th_l = NaN, rmse_l = Infinity;
@@ -46,10 +47,11 @@ export function compute(xs) {
     for (let i=0;i<n;i++){ const d=xs[i]-g; if(!(d>0)){ok=false;break;} y.push(d); }
     if(!ok) continue;
     const kk = mleShapeNewton(y); const th = mean(y)/kk;
-    const err = rmseQuantileFit(xs, (p)=> g + invGammaApprox(kk, th)(p));
+    const q = invGammaApprox(kk, th);
+    const err = rmseQuantileFit(xs, (p)=> g + q(p));
     if (err < rmse_l){ rmse_l = err; g_l = g; k_l = kk; th_l = th; }
   }
-  const mleParam = (g_l===g_l) ? `γ=${g_l.toFixed(4)}, k=${k_l.toFixed(4)}, θ=${th_l.toFixed(4)}` : "—";
+  const mleParam = Number.isNaN(g_l) ? "—" : `γ=${g_l.toFixed(4)}, k=${k_l.toFixed(4)}, θ=${th_l.toFixed(4)}`;
 
-  return row(momParam, (g_m===g_m)?rmse_m:NaN, mleParam, (g_l===g_l)?rmse_l:NaN);
+  return row(momParam, Number.isNaN(g_m) ? NaN : rmse_m, mleParam, Number.isNaN(g_l) ? NaN : rmse_l);
 }

@@ -267,7 +267,7 @@ export default function Navbar({ onSelectOption }) {
             onClick={() => setMobileOpen((v) => !v)}
             aria-label={mobileOpen ? "Cerrar menú" : "Abrir menú"}
           >
-            {mobileOpen ? <Icon.close className="w-6 h-6" /> : <Icon.menu className="w-6 h-6" />}
+            {mobileOpen ? <Icon.Close className="w-6 h-6" /> : <Icon.Menu className="w-6 h-6" />}
           </button>
         </div>
       </nav>
@@ -301,7 +301,7 @@ export default function Navbar({ onSelectOption }) {
                   onClick={() => setMobileOpen(false)}
                   aria-label="Cerrar menú"
                 >
-                  <Icon.close className="w-6 h-6" />
+                  <Icon.Close className="w-6 h-6" />
                 </button>
               </div>
 

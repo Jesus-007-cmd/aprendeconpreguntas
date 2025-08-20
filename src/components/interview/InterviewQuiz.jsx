@@ -23,7 +23,7 @@ export default function InterviewQuiz() {
   const quizContainerRef = useRef(null);
   const [responseMode, setResponseMode] = useState(true);
   const [questionLanguage, setQuestionLanguage] = useState("");
-  const [responseLanguage, setResponseLanguage] = useState("");
+  
   const [selectedQuestionVoice, setSelectedQuestionVoice] = useState(null);
   const [selectedAnswerVoice, setSelectedAnswerVoice] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -211,7 +211,7 @@ export default function InterviewQuiz() {
 
     setQuestions(adapted);
     setQuestionLanguage(language);
-    setResponseLanguage(language);
+    setSelectedAnswerVoice(language);
     setIsJsonSelected(true);
 
     // voces

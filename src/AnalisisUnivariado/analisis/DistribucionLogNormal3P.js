@@ -31,7 +31,7 @@ function skewness(y) {
 }
 
 export function compute(xs) {
-  const n = xs.length;
+  const n = xs?.length || 0;
   if (n < 3) return row("—", NaN, "—", NaN);
 
   // Rango para γ: por debajo de min(x), con un margen razonable
@@ -72,8 +72,9 @@ export function compute(xs) {
   }
 
   let rmse_mom = NaN, momParam = "—";
-  if (bestG_m === bestG_m && sd_m > 0) { // chequeo de NaN
-    rmse_mom = rmseQuantileFit(xs, invLogNorm3P(mu_m, sd_m, bestG_m));
+  if (!Number.isNaN(bestG_m) && sd_m > 0) { // chequeo de NaN
+    const qMom = invLogNorm3P(mu_m, sd_m, bestG_m);
+    rmse_mom = rmseQuantileFit(xs, qMom);
     momParam = `γ=${bestG_m.toFixed(4)}, μ=${mu_m.toFixed(4)}, σ=${sd_m.toFixed(4)}`;
   }
 
@@ -87,8 +88,9 @@ export function compute(xs) {
     for (let i = 0; i < n; i++) {
       const d = xs[i] - g;
       if (!(d > 0)) { valid = false; break; }
-      sumLogXg += Math.log(d);
-      y[i] = Math.log(d);
+      const lg = Math.log(d);
+      sumLogXg += lg;
+      y[i] = lg;
     }
     if (!valid) continue;
 
@@ -106,8 +108,9 @@ export function compute(xs) {
   }
 
   let rmse_mle = NaN, mleParam = "—";
-  if (bestG_l === bestG_l && sd_l > 0) {
-    rmse_mle = rmseQuantileFit(xs, invLogNorm3P(mu_l, sd_l, bestG_l));
+  if (!Number.isNaN(bestG_l) && sd_l > 0) {
+    const qMle = invLogNorm3P(mu_l, sd_l, bestG_l);
+    rmse_mle = rmseQuantileFit(xs, qMle);
     mleParam = `γ=${bestG_l.toFixed(4)}, μ=${mu_l.toFixed(4)}, σ=${sd_l.toFixed(4)}`;
   }
 
