@@ -1,5 +1,5 @@
 // src/AnalisisUnivariado/analisis/DistribucionLogPearsonIII.js
-import { mean, varianceUnbiased, varianceMLE, normInv, row, rmseQuantileFit } from "./utils.js";
+import { mean, varianceUnbiased, normInv, row, rmseQuantileFit } from "./utils.js";
 
 // --- Helpers Gamma (como en Gamma2P/Gamma3P) ---
 function digamma(x){ let r=0; while(x<5){r-=1/x; x+=1;} const f=1/(x*x); return r+Math.log(x)-0.5/x-f*(1/12 - f*(1/120 - f*(1/252))); }
