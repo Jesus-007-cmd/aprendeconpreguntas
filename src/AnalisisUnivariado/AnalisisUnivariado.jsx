@@ -3,7 +3,7 @@ import React, { useMemo, useState } from "react";
 import { DISTRO_REGISTRY, computeRowFor } from "./analisis/index.js";
 import DistroTabs from "./components/DistroTabs.jsx";
 import NormalKSTable from "./components/NormalKSTable.jsx"; // <- del paso anterior
-
+import LMomentsPanel from "./components/LMomentsPanel.jsx";
 /** ---------- parser de TXT: línea por línea, ignora cabeceras ---------- **/
 function parseTextToNumbers(text) {
   const norm = text.replace(/,/g, ".");
@@ -44,6 +44,7 @@ export default function AnalisisUnivariado() {
         nombre: d.label,
         mom: { param: r.mom?.param ?? "—", error: r.mom?.error ?? "—" },
         mle: { param: r.mle?.param ?? "—", error: r.mle?.error ?? "—" },
+        
       };
     });
   }, [datos]);
@@ -114,6 +115,7 @@ export default function AnalisisUnivariado() {
   const tabs = [
     { key: "resumen", label: "Resumen", render: () => <ResumenGrid /> },
     { key: "normal", label: "Normal", render: () => <NormalKSTable values={datos} /> },
+    { key: "lmom", label: "L-MOM", render: () => <LMomentsPanel values={datos} /> },
     // placeholders para lo que viene:
     { key: "logn2p", label: "Lognormal 2P", render: () => <div className="text-sm text-gray-400">Próximamente</div> },
     { key: "logn3p", label: "Lognormal 3P", render: () => <div className="text-sm text-gray-400">Próximamente</div> },
