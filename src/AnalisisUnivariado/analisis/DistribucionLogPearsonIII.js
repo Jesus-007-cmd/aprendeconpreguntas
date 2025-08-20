@@ -45,13 +45,22 @@ export function compute(xs) {
   const g1  = skewness(y);           // asimetría de Y
   let momParam = "—", rmse_m = NaN;
 
-  if (Number.isFinite(g1) && g1 > 0 && sY > 0) {
-    const k_m = 4 / (g1 * g1);
-    const th_m = sY / Math.sqrt(k_m);
-    const de_m = muY - k_m * th_m;  // δ (shift en Y)
-
-    rmse_m = rmseQuantileFit(pos, invLP3(de_m, k_m, th_m));
-    momParam = `δ=${de_m.toFixed(4)}, k=${k_m.toFixed(4)}, θ=${th_m.toFixed(4)}`;
+  if (Number.isFinite(g1) && sY > 0) {
+    if (g1 > 0) {
+      // LP3 válido (asimetría positiva en Y)
+      const k_m = 4 / (g1 * g1);
+      const th_m = sY / Math.sqrt(k_m);
+      const de_m = muY - k_m * th_m;  // δ (shift en Y)
+      const qMom = invLP3(de_m, k_m, th_m);
+      rmse_m = rmseQuantileFit(pos, qMom);
+      momParam = `δ=${de_m.toFixed(4)}, k=${k_m.toFixed(4)}, θ=${th_m.toFixed(4)}`;
+    } else {
+      // Fallback: LogNormal 2P por MoM
+      const mu = muY, sigma = sY;
+      const qLN = (p) => Math.exp(mu + sigma * normInv(p));
+      rmse_m = rmseQuantileFit(pos, qLN);
+      momParam = `μ=${mu.toFixed(4)}, σ=${sigma.toFixed(4)} (fallback LN2P)`;
+    }
   }
 
   // ---------- MLE (búsqueda de δ) ----------
