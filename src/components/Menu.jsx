@@ -4,17 +4,17 @@ import { motion, AnimatePresence } from "framer-motion";
 
 // Iconos simples en SVG (sin dependencias). Cámbialos si prefieres react-icons.
 const Icon = {
-  menu: (props) => (
+  Menu: (props) => (
     <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" {...props}>
       <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
   ),
-  close: (props) => (
+  Close: (props) => (
     <svg viewBox="0 0 24 24" fill="none" width="1em" height="1em" {...props}>
       <path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
   ),
-  chevronDown: (props) => (
+  ChevronDown: (props) => (
     <svg viewBox="0 0 24 24" fill="none" width="1em" height="1em" {...props}>
       <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
