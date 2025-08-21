@@ -2,49 +2,81 @@
 import React, { useMemo, useState } from "react";
 import { DISTRO_REGISTRY, computeRowFor } from "./analisis/index.js";
 import DistroTabs from "./components/DistroTabs.jsx";
-import NormalKSTable from "./components/NormalKSTable.jsx";
 import LMomentsPanel from "./components/LMomentsPanel.jsx";
-import { fitNormalLS_AFA } from "./analisis/NormalLeastSquaresAFA.js";
+import NormalLSReporte from "./components/NormalLSReporte.jsx";
 
-/** ---------- parser de TXT: línea por línea, ignora cabeceras ---------- **/
-function parseTextToNumbers(text) {
+
+/** ---------- parser de TXT ---------- **/
+/** --------- parser robusto: TXT con [Año valor] o sólo valores --------- **/
+function parseAFA(text) {
   const norm = text.replace(/,/g, ".");
-  return norm
-    .split(/\r?\n/)
-    .map((l) => l.trim())
-    .filter((l) => l && !/[A-Za-z]/.test(l)) // descarta líneas con letras
-    .flatMap((l) => l.split(/[,\s\t;]+/).filter(Boolean))
-    .filter((tok) => /^[-+]?(\d+(\.\d+)?|\.\d+)$/.test(tok))
-    .map(Number)
-    .filter(Number.isFinite);
+  const years = [];
+  const values = [];
+
+  for (const rawLine of norm.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || /[A-Za-z]/.test(line)) continue;
+
+    const toks = line
+      .split(/[,\s\t;]+/)
+      .filter(Boolean)
+      .filter((t) => /^[-+]?(\d+(\.\d+)?|\.\d+)$/.test(t))
+      .map(Number);
+
+    if (!toks.length) continue;
+
+    // Caso 2+ números por línea: si el primero parece año, toma el segundo como valor
+    if (toks.length >= 2 && toks[0] >= 1800 && toks[0] <= 2100) {
+      years.push(toks[0]);
+      values.push(toks[1]);
+    } else {
+      // Caso 1 número (o varios sin año): toma el último como valor
+      values.push(toks[toks.length - 1]);
+      // rellena año vacío para mantener alineación si hiciera falta
+      years.push(null);
+    }
+  }
+
+  // Si todos los años fueron null, no uses la columna de años
+  const anyYear = years.some((y) => Number.isInteger(y) && y >= 1800 && y <= 2100);
+  return { years: anyYear ? years : [], values };
 }
 
+
 export default function AnalisisUnivariado() {
-  const [datos, setDatos] = useState([]);
+
   const [msg, setMsg] = useState("");
-
-  // Controles para replicar AFA
-  const [pposMethod, setPposMethod] = useState("Gringorten");
-  const [seDf, setSeDf] = useState("n-1"); // n−1 reproduce mejor el SE del AFA
-
+  const [datos, setDatos] = useState([]);     // valores en el orden original (por fila)
+  const [years, setYears] = useState([]);     // años por fila (si existen)
+  
+  
+  // Opciones de visualización/cálculo
+  const [ppos, setPpos]       = useState("Weibull"); // <- antes: "AFA (m/n)"
+const [seDiv, setSeDiv]     = useState("n-2");     // Excel/OLS clásico
+const [orden, setOrden]     = useState("desc");
+const [mostrar, setMostrar] = useState("both");
+  
   const onLoadTxt = async (e) => {
     setMsg("");
     const f = (e.target.files && e.target.files[0]) || null;
     if (!f) return;
     const text = await f.text();
-    const xs = parseTextToNumbers(text);
+    const { years: ys, values: xs } = parseAFA(text);
     if (!xs.length) {
       setMsg("No se detectaron números en el TXT.");
       setDatos([]);
+      setYears([]);
       return;
     }
     setDatos(xs);
+    setYears(ys);
   };
+  
 
   const rows = useMemo(() => {
     if (!datos.length) return [];
-    const base = DISTRO_REGISTRY.map((d) => {
-      const r = computeRowFor(d.key, datos);
+    return DISTRO_REGISTRY.map((d) => {
+      const r = computeRowFor(d.key, datos, { ls: { seDiv, ppos } }) || {};
       return {
         key: d.key,
         nombre: d.label,
@@ -52,113 +84,168 @@ export default function AnalisisUnivariado() {
         mle: { param: r.mle?.param ?? "—", error: r.mle?.error ?? "—" },
       };
     });
+  }, [datos, seDiv, ppos]);
+  
 
-    // localizar exactamente la fila de la Normal (evita confundir con LogNormal)
-    const idx = base.findIndex(
-      (r) => r.key === "normal" || /^Distribución Normal$/i.test(r.nombre)
-    );
-
-    if (idx !== -1) {
-      // inserta encabezado de grupo antes de Normal
-      base.splice(idx, 0, {
-        key: "group_normal",
-        _isHeader: true,
-        title: "Normal — comparativa (MoM/MLE vs AFA)",
-      });
-
-      // calcula la fila AFA (mínimos cuadrados en papel normal)
-      const afa = fitNormalLS_AFA(datos, pposMethod, seDf);
-      if (afa) {
-        const paramTxt = `μ=${afa.mu.toFixed(4)},  σ=${afa.sigma.toFixed(4)}`;
-        const seTxt = afa.se.toFixed(4);
-
-        // Inserta la fila AFA justo después de la fila Normal (desplazada por el header)
-        base.splice(idx + 2, 0, {
-          key: "normal_afa",
-          nombre: "Normal (AFA: mínimos cuadrados)",
-          mom: { param: paramTxt, error: seTxt },
-          // ahora también se muestran a la derecha para comparación visual
-          mle: { param: paramTxt, error: seTxt },
-          _variant: "afa",
-        });
-      }
-    }
-
-    return base;
-  }, [datos, pposMethod, seDf]);
-
-  // ----- componente “Resumen” (tabla) -----
+  // ----- tabla Resumen -----
   const ResumenGrid = () => (
-    <div className="border border-gray-300 rounded-lg overflow-hidden shadow-sm dark:border-gray-700">
-      <table className="w-full border-collapse text-sm">
-        <thead>
-          <tr className="bg-gray-50 dark:bg-gray-800/60">
-            <th
-              className="px-3 py-2 border-b border-gray-300 text-center font-bold w-[320px] dark:border-gray-700 text-gray-800 dark:text-gray-100"
-              rowSpan={2}
-            >
-              Función de Distribución de probabilidad
-            </th>
-            <th
-              className="px-3 py-2 border-b border-gray-300 text-center font-bold dark:border-gray-700 text-gray-800 dark:text-gray-100"
-              colSpan={2}
-            >
-              Momentos
-            </th>
-            <th
-              className="px-3 py-2 border-b border-gray-300 text-center font-bold dark:border-gray-700 text-gray-800 dark:text-gray-100"
-              colSpan={2}
-            >
-              Máxima Verosimilitud
-            </th>
-          </tr>
-          <tr className="bg-gray-50 dark:bg-gray-800/60">
-            <th className="px-3 py-2 border-b border-gray-300 w-[240px] dark:border-gray-700 text-gray-700 dark:text-gray-200">
-              Parámetros
-            </th>
-            <th className="px-3 py-2 border-b border-gray-300 w-[160px] dark:border-gray-700 text-gray-700 dark:text-gray-200">
-              Error estándar
-            </th>
-            <th className="px-3 py-2 border-b border-gray-300 w-[240px] dark:border-gray-700 text-gray-700 dark:text-gray-200">
-              Parámetros
-            </th>
-            <th className="px-3 py-2 border-b border-gray-300 w-[160px] dark:border-gray-700 text-gray-700 dark:text-gray-200">
-              Error estándar
-            </th>
-          </tr>
-        </thead>
+    <>
+      {/* Barra de controles */}
+     {/* Barra de controles */}
+<div className="flex flex-wrap items-center gap-3 mb-3">
+  <label className="font-semibold text-gray-800 dark:text-gray-100">
+    Cargar TXT de datos:&nbsp;
+    <input
+      type="file"
+      accept=".txt"
+      onChange={onLoadTxt}
+      className="block text-sm text-gray-700 dark:text-gray-200 file:mr-4 file:py-1.5 file:px-3 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 dark:file:bg-blue-900/30 dark:file:text-blue-300"
+    />
+  </label>
 
-        <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
-          {rows.map((r, i) => {
-            if (r._isHeader) {
-              return (
-                <tr key={r.key}>
-                  <td
-                    colSpan={5}
-                    className="bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-200 font-semibold px-3 py-2"
-                  >
-                    {r.title}
-                  </td>
-                </tr>
-              );
-            }
+  {datos.length > 0 && (
+    <span className="text-gray-500">
+      Leídos: <b className="text-gray-800 dark:text-gray-200">{datos.length}</b> valores
+    </span>
+  )}
 
-            const rowClass =
-              r._variant === "afa"
-                ? "bg-amber-50 dark:bg-yellow-900/20 border-l-4 border-amber-400"
-                : i % 2
-                ? "bg-white dark:bg-gray-900"
-                : "bg-gray-50 dark:bg-gray-800/40";
+  <div className="ml-auto flex flex-wrap items-center gap-3">
+    {/* Posición */}
+    <label className="text-sm text-gray-700 dark:text-white">Posición:</label>
+    <div className="relative inline-block">
+      <select
+        value={ppos}
+        onChange={(e) => setPpos(e.target.value)}
+        className="text-sm rounded-md px-2 py-1 pr-8
+                   bg-gray-800/20 dark:bg-gray-800
+                   text-gray-800 dark:text-white
+                   border border-gray-300 dark:border-gray-700
+                   appearance-none
+                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
+                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
+      >
+        <option>AFA (m/n)</option>
+        <option>Gringorten</option>
+        <option>Blom</option>
+        <option>Hazen</option>
+        <option>Weibull</option>
+        <option>Cunnane</option>
+      </select>
+      {/* flecha */}
+      <svg
+        className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white"
+        viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+      >
+        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    </div>
 
-            return (
-              <tr key={r.key} className={rowClass}>
+    {/* SE */}
+    <label className="text-sm text-gray-700 dark:text-white">SE:</label>
+    <div className="relative inline-block">
+      <select
+        value={seDiv}
+        onChange={(e) => setSeDiv(e.target.value)}
+        className="text-sm rounded-md px-2 py-1 pr-8
+                   bg-gray-800/20 dark:bg-gray-800
+                   text-gray-800 dark:text-white
+                   border border-gray-300 dark:border-gray-700
+                   appearance-none
+                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
+                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
+      >
+        <option value="n-2">n−2 (OLS)</option>
+        <option value="n-1">n−1</option>
+        <option value="n">n</option>
+      </select>
+      <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    </div>
+
+    {/* Orden */}
+    <label className="text-sm  text-white dark:text-white">Orden:</label>
+    <div className="relative inline-block">
+      <select
+        value={orden}
+        onChange={(e) => setOrden(e.target.value)}
+        className="text-sm rounded-md px-2 py-1 pr-8
+                   bg-gray-800/20 dark:bg-gray-800
+                   text-gray-800 dark:text-white
+                   border border-gray-300 dark:border-gray-700
+                   appearance-none
+                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
+                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
+      >
+        <option value="desc">Descendente (mayor primero)</option>
+        <option value="asc">Ascendente (menor primero)</option>
+      </select>
+      <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-white dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    </div>
+
+    {/* Mostrar */}
+    <label className="text-sm text-gray-700 dark:text-white">Mostrar:</label>
+    <div className="relative inline-block">
+      <select
+        value={mostrar}
+        onChange={(e) => setMostrar(e.target.value)}
+        className="text-sm rounded-md px-2 py-1 pr-8
+                   bg-gray-800/20 dark:bg-gray-800
+                   text-gray-800 dark:text-white
+                   border border-gray-300 dark:border-gray-700
+                   appearance-none
+                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
+                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
+      >
+        <option value="both">F(x) y Tr</option>
+        <option value="fx">Sólo F(x)</option>
+        <option value="tr">Sólo Tr</option>
+      </select>
+      <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+
+      {msg && <div className="text-red-600 mb-2">{msg}</div>}
+
+      <div className="border border-gray-300 rounded-lg overflow-hidden shadow-sm dark:border-gray-700">
+        <table className="w-full border-collapse text-sm">
+          <thead>
+            <tr className="bg-gray-50 dark:bg-gray-800/60">
+              <th
+                className="px-3 py-2 border-b border-gray-300 text-center font-bold w-[320px] dark:border-gray-700 text-gray-800 dark:text-gray-100"
+                rowSpan={2}
+              >
+                Función de Distribución de probabilidad
+              </th>
+              <th className="px-3 py-2 border-b border-gray-300 text-center font-bold dark:border-gray-700 text-gray-800 dark:text-gray-100" colSpan={2}>
+                Momentos
+              </th>
+              <th className="px-3 py-2 border-b border-gray-300 text-center font-bold dark:border-gray-700 text-gray-800 dark:text-gray-100" colSpan={2}>
+                Máxima Verosimilitud
+              </th>
+            </tr>
+            <tr className="bg-gray-50 dark:bg-gray-800/60">
+              <th className="px-3 py-2 border-b border-gray-300 w-[240px] dark:border-gray-700 text-gray-700 dark:text-gray-200">Parámetros</th>
+              <th className="px-3 py-2 border-b border-gray-300 w-[160px] dark:border-gray-700 text-gray-700 dark:text-gray-200">Error estándar</th>
+              <th className="px-3 py-2 border-b border-gray-300 w-[240px] dark:border-gray-700 text-gray-700 dark:text-gray-200">Parámetros</th>
+              <th className="px-3 py-2 border-b border-gray-300 w-[160px] dark:border-gray-700 text-gray-700 dark:text-gray-200">Error estándar</th>
+            </tr>
+          </thead>
+
+          <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+            {rows.map((r, i) => (
+              <tr
+                key={r.key}
+                className={i % 2 ? "bg-white dark:bg-gray-900" : "bg-gray-50 dark:bg-gray-800/40"}
+              >
                 <td className="px-3 py-2 text-gray-800 dark:text-gray-100 border-t border-gray-200 dark:border-gray-700">
                   {r.nombre}
-                  {r._variant === "afa" && (
-                    <span className="ml-2 inline-block text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-900 dark:bg-yellow-800 dark:text-yellow-100">
-                      AFA
-                    </span>
-                  )}
                 </td>
                 <td className="px-3 py-2 font-mono text-gray-900 dark:text-gray-100 border-t border-gray-200 dark:border-gray-700">
                   {r.mom.param}
@@ -173,25 +260,37 @@ export default function AnalisisUnivariado() {
                   {r.mle.error}
                 </td>
               </tr>
-            );
-          })}
-        </tbody>
-      </table>
+            ))}
+          </tbody>
+        </table>
 
-      <p className="mt-2 px-2 text-xs text-gray-600 dark:text-gray-400">
-        <span className="px-1.5 py-0.5 rounded bg-amber-50 dark:bg-yellow-900/20 text-yellow-800 dark:text-yellow-200 mr-1">
-          Normal (AFA)
-        </span>
-        = ajuste por mínimos cuadrados en papel normal; posiciones: {pposMethod}. El “Error estándar” mostrado
-        usa divisor <b>{seDf}</b>.
-      </p>
-    </div>
+        <div className="mt-2 px-2 pb-3 text-xs text-gray-600 dark:text-gray-400">
+        <b>Nota:</b> En la fila <b>Normal</b>, la columna <i>Momentos</i> usa mínimos cuadrados en papel normal
+(posiciones: <i>{ppos}</i>; SE: <i>{seDiv}</i>). La columna de <i>Verosimilitud</i> usa MLE.
+
+        </div>
+      </div>
+    </>
   );
 
   // ----- pestañas -----
   const tabs = [
     { key: "resumen", label: "Resumen", render: () => <ResumenGrid /> },
-    { key: "normal", label: "Normal", render: () => <NormalKSTable values={datos} /> },
+    { key: "reporteNormal", label: "Normal",
+    render: () => (
+      <NormalLSReporte
+        values={datos}
+        rawYears={years}
+        rawValues={datos}   // mismos datos sin ordenar (por fila)
+        seDiv={seDiv}
+        ppos={ppos}
+        order={orden}
+        show={mostrar}
+        fileTag="2036"      // etiqueta para el CSV (ajústala si quieres)
+      />
+    )
+  },
+  
     { key: "lmom", label: "L-MOM", render: () => <LMomentsPanel values={datos} /> },
     { key: "logn2p", label: "Lognormal 2P", render: () => <div className="text-sm text-gray-400">Próximamente</div> },
     { key: "logn3p", label: "Lognormal 3P", render: () => <div className="text-sm text-gray-400">Próximamente</div> },
@@ -207,69 +306,10 @@ export default function AnalisisUnivariado() {
 
   return (
     <div className="font-sans max-w-[1100px] mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-gray-100">
+      <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
         Análisis Univariado — Grid tipo Excel
       </h2>
-
-      <div className="flex flex-wrap items-center gap-3 mb-2">
-        <label className="font-semibold text-gray-800 dark:text-gray-100">
-          Cargar TXT de datos:&nbsp;
-          <input
-            type="file"
-            accept=".txt"
-            onChange={onLoadTxt}
-            className="block text-sm text-gray-700 dark:text-gray-200 file:mr-4 file:py-1.5 file:px-3 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 dark:file:bg-blue-900/30 dark:file:text-blue-300"
-          />
-        </label>
-
-        {datos.length > 0 && (
-          <span className="text-gray-500">
-            Leídos: <b className="text-gray-800 dark:text-gray-200">{datos.length}</b> valores
-          </span>
-        )}
-      </div>
-
-      {/* Controles AFA (solo si hay datos) */}
-      {datos.length > 0 && (
-        <div className="flex flex-wrap items-center gap-3 mb-4 text-xs text-gray-700 dark:text-gray-300">
-          <div className="flex items-center gap-2">
-            <span>Posición:</span>
-            <select
-              value={pposMethod}
-              onChange={(e) => setPposMethod(e.target.value)}
-              className="border rounded px-2 py-1 bg-white dark:bg-gray-900 dark:border-gray-700"
-            >
-              <option>Gringorten</option>
-              <option>Blom</option>
-              <option>Cunnane</option>
-              <option>Hazen</option>
-              <option>Weibull</option>
-            </select>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <span>Error est. ÷</span>
-            <select
-              value={seDf}
-              onChange={(e) => setSeDf(e.target.value)}
-              className="border rounded px-2 py-1 bg-white dark:bg-gray-900 dark:border-gray-700"
-            >
-              <option value="n-1">n−1 (AFA)</option>
-              <option value="n-2">n−2 (OLS 2p)</option>
-              <option value="n">n</option>
-            </select>
-          </div>
-        </div>
-      )}
-
-      {msg && <div className="text-red-600 mb-2">{msg}</div>}
-
       <DistroTabs tabs={tabs} defaultKey="resumen" />
-
-      <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-        * En “Resumen” verás la tabla comparativa. En cada pestaña iremos agregando pruebas específicas
-        (KS, QQ/PP, percentiles, periodos de retorno, etc.).
-      </p>
     </div>
   );
 }
