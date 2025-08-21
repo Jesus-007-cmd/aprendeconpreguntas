@@ -57,3 +57,32 @@ export function fitNormalLS(values, opts = {}) {
   const se = Math.sqrt(sse / Math.max(1, denom));
   return { n, mu, sigma, se };
 }
+
+/** EEA para parámetros dados (μ, σ).
+ *  Útil para emular el Excel que usa μ/σ redondeados en el tablero.
+ *  opts: { seDiv, ppos }
+ */
+export function eeaWithParams(values, opts = {}, mu, sigma) {
+  const xs = (values || []).filter(Number.isFinite).slice().sort((a, b) => a - b);
+  const n = xs.length;
+  if (n < 3 || !Number.isFinite(mu) || !Number.isFinite(sigma)) return NaN;
+
+  const ppos = pposFactory(opts.ppos);
+  const ps   = xs.map((_, i) => ppos(i + 1, n));
+
+  const eps = 1e-12;
+  const zs  = ps.map(p => normInv(Math.min(1 - eps, Math.max(eps, p))));
+
+  const sse = xs.reduce((s, x, i) => {
+    const yhat = mu + sigma * zs[i];
+    const r = x - yhat;
+    return s + r * r;
+  }, 0);
+
+  const rule = (opts.seDiv || "n-2").toLowerCase();
+  let denom = n - 2;
+  if (rule === "n-1") denom = Math.max(1, n - 1);
+  if (rule === "n")   denom = Math.max(1, n);
+
+  return Math.sqrt(sse / Math.max(1, denom));
+}
