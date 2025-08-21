@@ -5,12 +5,14 @@ import DistroTabs from "./components/DistroTabs.jsx";
 import LMomentsPanel from "./components/LMomentsPanel.jsx";
 import NormalLSReporte from "./components/NormalLSReporte.jsx";
 
-
-/** ---------- parser de TXT ---------- **/
-/** --------- parser robusto: TXT con [Año valor] o sólo valores --------- **/
+/** --------- parser robusto ---------
+ * Acepta líneas con: "AÑO VALOR" o sólo "VALOR".
+ * Ignora texto, usa punto/decimal (convierte coma->punto).
+ * Toma el segundo número si la primera columna parece año (1800..2100),
+ * en otro caso toma el último número de la línea.
+ */
 function parseAFA(text) {
   const norm = text.replace(/,/g, ".");
-  const years = [];
   const values = [];
 
   for (const rawLine of norm.split(/\r?\n/)) {
@@ -25,53 +27,37 @@ function parseAFA(text) {
 
     if (!toks.length) continue;
 
-    // Caso 2+ números por línea: si el primero parece año, toma el segundo como valor
     if (toks.length >= 2 && toks[0] >= 1800 && toks[0] <= 2100) {
-      years.push(toks[0]);
-      values.push(toks[1]);
+      values.push(toks[1]); // año, valor
     } else {
-      // Caso 1 número (o varios sin año): toma el último como valor
-      values.push(toks[toks.length - 1]);
-      // rellena año vacío para mantener alineación si hiciera falta
-      years.push(null);
+      values.push(toks[toks.length - 1]); // sólo valor (o varios: toma el último)
     }
   }
-
-  // Si todos los años fueron null, no uses la columna de años
-  const anyYear = years.some((y) => Number.isInteger(y) && y >= 1800 && y <= 2100);
-  return { years: anyYear ? years : [], values };
+  return values;
 }
 
-
 export default function AnalisisUnivariado() {
-
+  const [datos, setDatos] = useState([]);
   const [msg, setMsg] = useState("");
-  const [datos, setDatos] = useState([]);     // valores en el orden original (por fila)
-  const [years, setYears] = useState([]);     // años por fila (si existen)
-  
-  
+
   // Opciones de visualización/cálculo
-  const [ppos, setPpos]       = useState("Weibull"); // <- antes: "AFA (m/n)"
-const [seDiv, setSeDiv]     = useState("n-2");     // Excel/OLS clásico
-const [orden, setOrden]     = useState("desc");
-const [mostrar, setMostrar] = useState("both");
-  
+  const [ppos, setPpos]   = useState("AFA (m/n)"); // No dejamos Weibull por defecto
+  const [seDiv, setSeDiv] = useState("n-2");       // OLS clásico (coincide con tu TXT)
+  const [orden, setOrden] = useState("desc");      // mayor primero
+
   const onLoadTxt = async (e) => {
     setMsg("");
     const f = (e.target.files && e.target.files[0]) || null;
     if (!f) return;
     const text = await f.text();
-    const { years: ys, values: xs } = parseAFA(text);
+    const xs = parseAFA(text);
     if (!xs.length) {
       setMsg("No se detectaron números en el TXT.");
       setDatos([]);
-      setYears([]);
       return;
     }
     setDatos(xs);
-    setYears(ys);
   };
-  
 
   const rows = useMemo(() => {
     if (!datos.length) return [];
@@ -85,131 +71,104 @@ const [mostrar, setMostrar] = useState("both");
       };
     });
   }, [datos, seDiv, ppos]);
-  
 
   // ----- tabla Resumen -----
   const ResumenGrid = () => (
     <>
       {/* Barra de controles */}
-     {/* Barra de controles */}
-<div className="flex flex-wrap items-center gap-3 mb-3">
-  <label className="font-semibold text-gray-800 dark:text-gray-100">
-    Cargar TXT de datos:&nbsp;
-    <input
-      type="file"
-      accept=".txt"
-      onChange={onLoadTxt}
-      className="block text-sm text-gray-700 dark:text-gray-200 file:mr-4 file:py-1.5 file:px-3 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 dark:file:bg-blue-900/30 dark:file:text-blue-300"
-    />
-  </label>
+      <div className="flex flex-wrap items-center gap-3 mb-3">
+        <label className="font-semibold text-gray-800 dark:text-gray-100">
+          Cargar TXT de datos:&nbsp;
+          <input
+            type="file"
+            accept=".txt"
+            onChange={onLoadTxt}
+            className="block text-sm text-gray-700 dark:text-gray-200 file:mr-4 file:py-1.5 file:px-3 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 dark:file:bg-blue-900/30 dark:file:text-blue-300"
+          />
+        </label>
 
-  {datos.length > 0 && (
-    <span className="text-gray-500">
-      Leídos: <b className="text-gray-800 dark:text-gray-200">{datos.length}</b> valores
-    </span>
-  )}
+        {datos.length > 0 && (
+          <span className="text-gray-500">
+            Leídos: <b className="text-gray-800 dark:text-gray-200">{datos.length}</b> valores
+          </span>
+        )}
 
-  <div className="ml-auto flex flex-wrap items-center gap-3">
-    {/* Posición */}
-    <label className="text-sm text-gray-700 dark:text-white">Posición:</label>
-    <div className="relative inline-block">
-      <select
-        value={ppos}
-        onChange={(e) => setPpos(e.target.value)}
-        className="text-sm rounded-md px-2 py-1 pr-8
-                   bg-gray-800/20 dark:bg-gray-800
-                   text-gray-800 dark:text-white
-                   border border-gray-300 dark:border-gray-700
-                   appearance-none
-                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
-                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
-      >
-        <option>AFA (m/n)</option>
-        <option>Gringorten</option>
-        <option>Blom</option>
-        <option>Hazen</option>
-        <option>Weibull</option>
-        <option>Cunnane</option>
-      </select>
-      {/* flecha */}
-      <svg
-        className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white"
-        viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
-      >
-        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    </div>
+        <div className="ml-auto flex flex-wrap items-center gap-3">
+          {/* Posición */}
+          <label className="text-sm text-gray-700 dark:text-white">Posición:</label>
+          <div className="relative inline-block">
+            <select
+              value={ppos}
+              onChange={(e) => setPpos(e.target.value)}
+              className="text-sm rounded-md px-2 py-1 pr-8
+                         bg-gray-800/20 dark:bg-gray-800
+                         text-gray-800 dark:text-white
+                         border border-gray-300 dark:border-gray-700
+                         appearance-none
+                         dark:[&>option]:text-white dark:[&>option]:bg-gray-800
+                         focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
+            >
+              <option>AFA (m/n)</option>
+              <option>Gringorten</option>
+              <option>Blom</option>
+              <option>Hazen</option>
+              <option>Weibull</option>
+              <option>Cunnane</option>
+            </select>
+            <svg
+              className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white"
+              viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+            >
+              <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
 
-    {/* SE */}
-    <label className="text-sm text-gray-700 dark:text-white">SE:</label>
-    <div className="relative inline-block">
-      <select
-        value={seDiv}
-        onChange={(e) => setSeDiv(e.target.value)}
-        className="text-sm rounded-md px-2 py-1 pr-8
-                   bg-gray-800/20 dark:bg-gray-800
-                   text-gray-800 dark:text-white
-                   border border-gray-300 dark:border-gray-700
-                   appearance-none
-                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
-                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
-      >
-        <option value="n-2">n−2 (OLS)</option>
-        <option value="n-1">n−1</option>
-        <option value="n">n</option>
-      </select>
-      <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    </div>
+          {/* SE */}
+          <label className="text-sm text-gray-700 dark:text-white">SE:</label>
+          <div className="relative inline-block">
+            <select
+              value={seDiv}
+              onChange={(e) => setSeDiv(e.target.value)}
+              className="text-sm rounded-md px-2 py-1 pr-8
+                         bg-gray-800/20 dark:bg-gray-800
+                         text-gray-800 dark:text-white
+                         border border-gray-300 dark:border-gray-700
+                         appearance-none
+                         dark:[&>option]:text-white dark:[&>option]:bg-gray-800
+                         focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
+            >
+              <option value="n-2">n−2 (OLS)</option>
+              <option value="n-1">n−1</option>
+              <option value="n">n</option>
+            </select>
+            <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
 
-    {/* Orden */}
-    <label className="text-sm  text-white dark:text-white">Orden:</label>
-    <div className="relative inline-block">
-      <select
-        value={orden}
-        onChange={(e) => setOrden(e.target.value)}
-        className="text-sm rounded-md px-2 py-1 pr-8
-                   bg-gray-800/20 dark:bg-gray-800
-                   text-gray-800 dark:text-white
-                   border border-gray-300 dark:border-gray-700
-                   appearance-none
-                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
-                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
-      >
-        <option value="desc">Descendente (mayor primero)</option>
-        <option value="asc">Ascendente (menor primero)</option>
-      </select>
-      <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-white dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    </div>
-
-    {/* Mostrar */}
-    <label className="text-sm text-gray-700 dark:text-white">Mostrar:</label>
-    <div className="relative inline-block">
-      <select
-        value={mostrar}
-        onChange={(e) => setMostrar(e.target.value)}
-        className="text-sm rounded-md px-2 py-1 pr-8
-                   bg-gray-800/20 dark:bg-gray-800
-                   text-gray-800 dark:text-white
-                   border border-gray-300 dark:border-gray-700
-                   appearance-none
-                   dark:[&>option]:text-white dark:[&>option]:bg-gray-800
-                   focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
-      >
-        <option value="both">F(x) y Tr</option>
-        <option value="fx">Sólo F(x)</option>
-        <option value="tr">Sólo Tr</option>
-      </select>
-      <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-700 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    </div>
-  </div>
-</div>
-
+          {/* Orden */}
+          <label className="text-sm text-white dark:text-white">Orden:</label>
+          <div className="relative inline-block">
+            <select
+              value={orden}
+              onChange={(e) => setOrden(e.target.value)}
+              className="text-sm rounded-md px-2 py-1 pr-8
+                         bg-gray-800/20 dark:bg-gray-800
+                         text-gray-800 dark:text-white
+                         border border-gray-300 dark:border-gray-700
+                         appearance-none
+                         dark:[&>option]:text-white dark:[&>option]:bg-gray-800
+                         focus:outline-none focus:ring-1 focus:ring-blue-500 dark:focus:ring-blue-400"
+            >
+              <option value="desc">Descendente (mayor primero)</option>
+              <option value="asc">Ascendente (menor primero)</option>
+            </select>
+            <svg className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-white dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M5.5 7.5l4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
 
       {msg && <div className="text-red-600 mb-2">{msg}</div>}
 
@@ -265,9 +224,8 @@ const [mostrar, setMostrar] = useState("both");
         </table>
 
         <div className="mt-2 px-2 pb-3 text-xs text-gray-600 dark:text-gray-400">
-        <b>Nota:</b> En la fila <b>Normal</b>, la columna <i>Momentos</i> usa mínimos cuadrados en papel normal
-(posiciones: <i>{ppos}</i>; SE: <i>{seDiv}</i>). La columna de <i>Verosimilitud</i> usa MLE.
-
+          <b>Nota:</b> En la fila <b>Normal</b>, la columna <i>Momentos</i> usa mínimos cuadrados en papel normal
+          (posiciones: <i>{ppos}</i>; SE: <i>{seDiv}</i>). La columna de <i>Verosimilitud</i> usa MLE.
         </div>
       </div>
     </>
@@ -276,21 +234,19 @@ const [mostrar, setMostrar] = useState("both");
   // ----- pestañas -----
   const tabs = [
     { key: "resumen", label: "Resumen", render: () => <ResumenGrid /> },
-    { key: "reporteNormal", label: "Normal",
-    render: () => (
-      <NormalLSReporte
-        values={datos}
-        rawYears={years}
-        rawValues={datos}   // mismos datos sin ordenar (por fila)
-        seDiv={seDiv}
-        ppos={ppos}
-        order={orden}
-        show={mostrar}
-        fileTag="2036"      // etiqueta para el CSV (ajústala si quieres)
-      />
-    )
-  },
-  
+    {
+      key: "reporteNormal",
+      label: "Normal",
+      render: () => (
+        <NormalLSReporte
+          values={datos}
+          seDiv={seDiv}
+          ppos={ppos}
+          order={orden}
+          fileTag="2036"
+        />
+      ),
+    },
     { key: "lmom", label: "L-MOM", render: () => <LMomentsPanel values={datos} /> },
     { key: "logn2p", label: "Lognormal 2P", render: () => <div className="text-sm text-gray-400">Próximamente</div> },
     { key: "logn3p", label: "Lognormal 3P", render: () => <div className="text-sm text-gray-400">Próximamente</div> },
