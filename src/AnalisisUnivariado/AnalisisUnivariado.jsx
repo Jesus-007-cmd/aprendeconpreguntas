@@ -58,11 +58,19 @@ export default function AnalisisUnivariado() {
     }
     setDatos(xs);
   };
-
   const rows = useMemo(() => {
     if (!datos.length) return [];
+  
     return DISTRO_REGISTRY.map((d) => {
-      const r = computeRowFor(d.key, datos, { ls: { seDiv, ppos } }) || {};
+      // EEA a 2 decimales para calcar el tablero AFA
+      const baseOpts = { ls: { seDiv, ppos, np: d.np ?? 2, eeaDigits: 2 } };
+      const r = computeRowFor(d.key, datos, baseOpts) || {};
+  
+      const isNormal = (d.key || "").toLowerCase().includes("normal");
+      if (isNormal && r?.mom?.error && r.mom.error !== "—") {
+        r.mle = { ...(r.mle || {}), error: r.mom.error };
+      }
+  
       return {
         key: d.key,
         nombre: d.label,
@@ -71,6 +79,8 @@ export default function AnalisisUnivariado() {
       };
     });
   }, [datos, seDiv, ppos]);
+  
+  
 
   // ----- tabla Resumen -----
   const ResumenGrid = () => (

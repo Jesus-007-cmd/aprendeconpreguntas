@@ -8,6 +8,7 @@ import desarrolloWebFrameworksQuiz from "./data/desarrollo-web-frameworks-quiz.j
 import desarrolloWebMarcosDeTrabajo from "./data/microtest-desarrollo-web-marcos-de-trabajo.json";
 import aplicacionesmovilesmultiplataforma from "./data/microtest-aplicaciones_moviles_multiplataforma.json";
 import microtestmetodologiasagilesweb from "./data/microtest-metodologias-agiles-web.json";
+import guiametodologiasagilesweb from "./data/guia-metodologias-agiles.json";
 import notificationSound from "../audio/correctanswer.mp3";
 
 export default function InterviewQuiz() {
@@ -265,6 +266,9 @@ export default function InterviewQuiz() {
           <button onClick={() => handleJsonSelection(desarrolloWebMarcosDeTrabajo)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{desarrolloWebMarcosDeTrabajo["Quiz Title"]}</button>
           <button onClick={() => handleJsonSelection(aplicacionesmovilesmultiplataforma)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{aplicacionesmovilesmultiplataforma["Quiz Title"]}</button>
           <button onClick={() => handleJsonSelection(microtestmetodologiasagilesweb)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{microtestmetodologiasagilesweb["Quiz Title"]}</button>
+          <button onClick={() => handleJsonSelection(guiametodologiasagilesweb)} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded shadow">{guiametodologiasagilesweb["Quiz Title"]}</button>
+
+          
         </div>
       ) : !showResult && questions.length > 0 ? (
         <>

@@ -1,27 +1,33 @@
 // src/AnalisisUnivariado/analisis/NormalLeastSquares.js
 import { normInv } from "./utils.js";
 
-// Genera función de posiciones de trazado (r = índice ascendente 1..n)
+/* ---------------- Utilidades ---------------- */
+const rfix = (x, d) => (Number.isFinite(x) ? Number(x.toFixed(d)) : NaN);
+
 function pposFactory(method = "Gringorten") {
   const m = (method || "").toLowerCase().trim();
-
-  // AFA (m/n): p = (r-1)/n   (coincide con F(desc) = 1 - rank/n)
-  if (["afa", "afa (m/n)", "m/n", "mn", "n/m", "nm"].includes(m)) {
-    return (r, n) => (r - 1) / n;
-  }
-
+  if (["afa", "afa (m/n)", "m/n", "mn", "n/m", "nm"].includes(m)) return (r, n) => (r - 1) / n;
   if (m === "weibull")   return (r, n) => r / (n + 1);
   if (m === "hazen")     return (r, n) => (r - 0.5) / n;
   if (m === "blom")      return (r, n) => (r - 0.375) / (n + 0.25);
   if (m === "cunnane")   return (r, n) => (r - 0.4) / (n + 0.2);
-
-  // Gringorten (default)
-  return (r, n) => (r - 0.44) / (n + 0.12);
+  return (r, n) => (r - 0.44) / (n + 0.12); // Gringorten (default)
 }
 
-/** Ajuste por mínimos cuadrados en papel normal.
- *  opts: { seDiv: "n-2"|"n-1"|"n", ppos: "..." }
- */
+// Denominador del EEA según opciones:
+// - seDiv: "n", "n-1", "n-2", o "auto" (por defecto) -> usa n - np
+// - np: número de parámetros de la distribución (si "auto")
+function eeaDenominator(n, opts = {}, npDefault = 2) {
+  const rule = (opts.seDiv || "auto").toLowerCase();
+  if (rule === "n")   return Math.max(1, n);
+  if (rule === "n-1") return Math.max(1, n - 1);
+  if (rule === "n-2") return Math.max(1, n - 2);
+  // "auto" => n - np
+  const np = Number.isFinite(opts.np) ? opts.np : npDefault;
+  return Math.max(1, n - np);
+}
+
+/** Ajuste LS en papel normal (para reportes detallados) */
 export function fitNormalLS(values, opts = {}) {
   const xs = (values || []).filter(Number.isFinite).slice().sort((a, b) => a - b);
   const n = xs.length;
@@ -30,7 +36,6 @@ export function fitNormalLS(values, opts = {}) {
   const ppos = pposFactory(opts.ppos);
   const ps   = xs.map((_, i) => ppos(i + 1, n));
 
-  // Evita p=0 o p=1 para normInv
   const eps = 1e-12;
   const zs  = ps.map(p => normInv(Math.min(1 - eps, Math.max(eps, p))));
 
@@ -49,40 +54,31 @@ export function fitNormalLS(values, opts = {}) {
     return s + r * r;
   }, 0);
 
-  const rule = (opts.seDiv || "n-2").toLowerCase();
-  let denom = n - 2;
-  if (rule === "n-1") denom = Math.max(1, n - 1);
-  if (rule === "n")   denom = Math.max(1, n);
-
-  const se = Math.sqrt(sse / Math.max(1, denom));
+  const denom = eeaDenominator(n, opts, /*npDefault*/ 2);
+  const se = Math.sqrt(sse / denom);
   return { n, mu, sigma, se };
 }
 
-/** EEA para parámetros dados (μ, σ).
- *  Útil para emular el Excel que usa μ/σ redondeados en el tablero.
- *  opts: { seDiv, ppos }
- */
-export function eeaWithParams(values, opts = {}, mu, sigma) {
+/** EEA con μ y σ dados (modo Excel: μ/σ redondeados a 4; x y ŷ a 3) */
+export function eeaWithParams(values, opts = {}, mu, sigma, yDigits = 3) {
   const xs = (values || []).filter(Number.isFinite).slice().sort((a, b) => a - b);
   const n = xs.length;
   if (n < 3 || !Number.isFinite(mu) || !Number.isFinite(sigma)) return NaN;
 
   const ppos = pposFactory(opts.ppos);
   const ps   = xs.map((_, i) => ppos(i + 1, n));
+  const eps  = 1e-12;
+  const zs   = ps.map(p => normInv(Math.min(1 - eps, Math.max(eps, p))));
 
-  const eps = 1e-12;
-  const zs  = ps.map(p => normInv(Math.min(1 - eps, Math.max(eps, p))));
-
-  const sse = xs.reduce((s, x, i) => {
+  let sse = 0;
+  for (let i = 0; i < n; i++) {
     const yhat = mu + sigma * zs[i];
-    const r = x - yhat;
-    return s + r * r;
-  }, 0);
+    const yR   = rfix(yhat, yDigits);  // redondeo por fila como en Excel
+    const xR   = rfix(xs[i], yDigits);
+    const e    = xR - yR;
+    sse += e * e;
+  }
 
-  const rule = (opts.seDiv || "n-2").toLowerCase();
-  let denom = n - 2;
-  if (rule === "n-1") denom = Math.max(1, n - 1);
-  if (rule === "n")   denom = Math.max(1, n);
-
-  return Math.sqrt(sse / Math.max(1, denom));
+  const denom = eeaDenominator(n, opts, /*npDefault*/ 2);
+  return Math.sqrt(sse / denom);
 }

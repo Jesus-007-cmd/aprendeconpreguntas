@@ -1,28 +1,38 @@
 // src/AnalisisUnivariado/analisis/NormalMinimosCuadrados.js
-import { fitNormalLS, eeaWithParams } from "./NormalLeastSquares.js";
+import { eeaWithParams } from "./NormalLeastSquares.js";
 
-// Esta fila llena la columna "Momentos" (LS en papel normal).
-// Para igualar el tablero del Excel, el EEA se calcula con μ y σ
-// redondeados a 4 decimales.
 export function compute(xs, opts = {}) {
-  const r = fitNormalLS(xs, opts?.ls || {}); // usa seDiv/ppos si vienen
-  if (!r) return { mom: { param: "—", error: "—" }, mle: { param: "—", error: "—" } };
+  const arr = (xs || []).filter(Number.isFinite);
+  const n = arr.length;
+  if (n < 3) return { mom: { param: "—", error: "—" }, mle: { param: "—", error: "—" } };
 
-  // μ y σ redondeados como muestra el Excel/resumen
-  const mu4    = Number.isFinite(r.mu)    ? Number(r.mu.toFixed(4))    : NaN;
-  const sigma4 = Number.isFinite(r.sigma) ? Number(r.sigma.toFixed(4)) : NaN;
+  // Media y varianzas
+  const mu = arr.reduce((s, v) => s + v, 0) / n;
+  let s2num = 0; for (const x of arr) { const d = x - mu; s2num += d * d; }
+  const varU = s2num / Math.max(1, n - 1);
+  const varB = s2num / Math.max(1, n);
 
-  // EEA recomputado con los parámetros redondeados
-  const seRound = eeaWithParams(xs, opts?.ls || {}, mu4, sigma4);
+  const sigmaMoM = Math.sqrt(varU);
+  const sigmaMLE = Math.sqrt(varB);
 
-  const param = (Number.isFinite(mu4) && Number.isFinite(sigma4))
-    ? `μ=${mu4.toFixed(4)},  σ=${sigma4.toFixed(4)}`
-    : "—";
+  // Redondeo "tablero" (4 decimales)
+  const mu4 = Number(mu.toFixed(4));
+  const sigma4 = Number(sigmaMoM.toFixed(4));
 
-  const se = Number.isFinite(seRound) ? seRound.toFixed(4) : "—";
+  // EEA estilo Excel con divisor n−np (np=2 para Normal)
+  const lsOpts = { ...(opts?.ls || {}), seDiv: "auto", np: 2 };
+  const se = eeaWithParams(arr, lsOpts, mu4, sigma4, 3);
 
+  // <<< NUEVO: decimales configurables para mostrar EEA >>>
+  const eeaDigits = Number.isFinite(opts?.ls?.eeaDigits) ? opts.ls.eeaDigits : 4;
+  const seStr = Number.isFinite(se) ? se.toFixed(eeaDigits) : "—";
+
+  const momParam = `μ=${mu4.toFixed(4)},  σ=${sigma4.toFixed(4)}`;
+  const mleParam = `μ=${mu4.toFixed(4)},  σ=${Number(sigmaMLE.toFixed(4)).toFixed(4)}`;
+
+  // Mismo EEA en MLE (como AFA)
   return {
-    mom: { param, error: se },   // EEA con μ/σ redondeados (match Excel)
-    mle: { param: "—", error: "—" },
+    mom: { param: momParam, error: seStr },
+    mle: { param: mleParam, error: seStr },
   };
 }
