@@ -16,6 +16,7 @@ import ActionBar from './ActionBar';
 
 function QuizApp() {
   const [questions, setQuestions] = useState([]);
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);

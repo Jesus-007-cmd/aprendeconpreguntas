@@ -1,0 +1,48 @@
+{
+    "Category": "Definition of Cryptography / Definición de Criptografía",
+    "Question Text": {
+      "en-US": [
+        "What does the word 'Cryptography' mean according to its Greek origin?",
+        "From Greek roots, what is the literal meaning of 'Cryptography'?"
+      ],
+      "es-MX": [
+        "¿Qué significa la palabra 'Criptografía' según su origen griego?",
+        "De acuerdo a sus raíces griegas, ¿cuál es el significado literal de 'Criptografía'?"
+      ]
+    },
+    "Options": {
+      "en-US": [
+        "Hidden writing",
+        "Fast calculation",
+        "Secure communication",
+        "Mathematical logic"
+      ],
+      "es-MX": [
+        "Escritura oculta",
+        "Cálculo rápido",
+        "Comunicación segura",
+        "Lógica matemática"
+      ]
+    },
+    "Correct Answer": {
+      "en-US": "Hidden writing",
+      "es-MX": "Escritura oculta"
+    },
+    "Explanation": {
+      "en-US": [
+        { "type": "title-h2", "content": "Why 'Hidden writing' is correct" },
+        { "type": "text", "content": "The word 'Cryptography' comes from the Greek 'kryptós' (hidden) and 'graphé' (writing), so its literal meaning is 'hidden writing'." },
+        { "type": "ul", "items": [ "Kryptós = hidden", "Graphé = writing", "Represents making information unreadable for unauthorized people" ] },
+        { "type": "divider" },
+        { "type": "text", "content": "While cryptography is indeed about secure communication, the literal Greek translation is 'hidden writing'." }
+      ],
+      "es-MX": [
+        { "type": "title-h2", "content": "Por qué 'Escritura oculta' es correcto" },
+        { "type": "text", "content": "La palabra 'Criptografía' proviene del griego 'kryptós' (oculto) y 'graphé' (escritura), por lo que su significado literal es 'escritura oculta'." },
+        { "type": "ul", "items": [ "Kryptós = oculto", "Graphé = escritura", "Representa volver incomprensible la información a no autorizados" ] },
+        { "type": "divider" },
+        { "type": "text", "content": "Aunque la criptografía busca comunicación segura, la traducción literal griega es 'escritura oculta'." }
+      ]
+    }
+  }
+  

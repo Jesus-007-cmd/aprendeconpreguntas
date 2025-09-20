@@ -348,7 +348,186 @@
     "Option 2": "La mejora continua es la última etapa del ciclo de Deming (planear, ejecutar, medir y mejorar)",
     "Option 3": "Ambas respuestas",
     "Correct Answer": "La mejora continua es la última etapa del ciclo de Deming (planear, ejecutar, medir y mejorar) y es la base para que el SGI mejore su desempeño en cualquier ámbito"
-  }
+  },
+  {
+    "Question Text": "635.- ESTE TIPO DE CONSUMO SE DEBITARÁN DEL SALDO DE ENTRETENIMIENTO:",
+    "Option 1": "Servicios de claro",
+    "Option 2": "Servicios de contenidos de terceros",
+    "Option 3": "Marcaciones de voz premium",
+    "Option 4": "Marcaciones SMS premium",
+    "Correct Answer": "Servicios de claro, servicios de contenidos de terceros, marcaciones de voz premium y marcaciones SMS premium"
+  },
+  {
+    "Question Text": "636.- ESTOS CARGOS SE FACTURAN POR MES ADELANTADO DURANTE LA VIGENCIA DE LOS RESPECTIVOS CONTRATOS Y DEBERÁN SER CUBIERTOS POR NUESTROS USUARIOS DE POSPAGO SEGÚN SE DEFINE EN EL CONTRATO CORRESPONDIENTE:",
+    "Option 1": "Cargos Variables",
+    "Option 2": "Cargos Fijos Mensuales",
+    "Option 3": "Cargos por Consumo",
+    "Option 4": "Cargos Eventuales",
+    "Correct Answer": "Cargos Fijos Mensuales"
+  },
+  {
+    "Question Text": "637.- PARA EL FINANCIAMIENTO DE ESTE TIPO DE EQUIPOS SE REQUIERE TC COMO FORMA DE PAGO:",
+    "Option 1": "EQUIPO >= $5,000.00",
+    "Option 2": "EQUIPO >= $8,000.00",
+    "Option 3": "PREMIUM (EQUIPO >= $11,000.00)",
+    "Option 4": "Cualquier monto",
+    "Correct Answer": "PREMIUM (EQUIPO >= $11,000.00)"
+  },
+  {
+    "Question Text": "638.- DEBE ASEGURAR QUE LAS RESPONSABILIDADES Y AUTORIDADES PARA LOS ROLES RELEVANTES AL SGS Y LOS SERVICIOS SEAN ASIGNADOS Y COMUNICADOS DENTRO DE LA ORGANIZACIÓN:",
+    "Option 1": "La alta dirección",
+    "Option 2": "Recursos Humanos",
+    "Option 3": "Jefe de Área",
+    "Option 4": "El Representante Legal",
+    "Correct Answer": "La alta dirección"
+  },
+  {
+    "Question Text": "639.- UNO DE LOS PROCESOS DEL SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN ES:",
+    "Option 1": "Administrar recursos financieros",
+    "Option 2": "Administrar infraestructura",
+    "Option 3": "Administrar recursos humanos",
+    "Option 4": "Administrar proveedores",
+    "Correct Answer": "Administrar recursos humanos"
+  },
+  {
+    "Question Text": "640.- SEGÚN LA NORMA ISO/IEC20000-1 2018 ¿QUÉ ES UN ACUERDO DE NIVEL DE SERVICIO?",
+    "Option 1": "Un contrato de confidencialidad",
+    "Option 2": "Acuerdo documentado entre la organización y el consumidor que identifica servicios y su desempeño acordado",
+    "Option 3": "Un informe de auditoría",
+    "Option 4": "Una lista de procesos de calidad",
+    "Correct Answer": "Acuerdo documentado entre la organización y el consumidor que identifica servicios y su desempeño acordado"
+  },
+  {
+    "Question Text": "641.- ¿DÓNDE SE ENCUENTRA EL NOMBRE DEL ENCARGADO Y DEL REPRESENTANTE DEL SGI?",
+    "Option 1": "Portal de Clientes",
+    "Option 2": "Sistema @-Doc",
+    "Option 3": "Portal de Calidad",
+    "Option 4": "Página Web de la empresa",
+    "Correct Answer": "Portal de Calidad"
+  },
+  {
+    "Question Text": "642.- ¿CUÁL ES LA PRINCIPAL FORMA DE ALMACENAMIENTO DEL CONOCIMIENTO DE LA ORGANIZACIÓN?",
+    "Option 1": "Sistema @-Doc",
+    "Option 2": "Base de datos SQL",
+    "Option 3": "Servidor local",
+    "Option 4": "Nube externa",
+    "Correct Answer": "Sistema @-Doc"
+  },
+  {
+    "Question Text": "643.- UNA VEZ VALIDADA LA INE EN EL PORTAL ¿QUÉ SE DEBE VALIDAR FÍSICAMENTE?",
+    "Option 1": "OCR",
+    "Option 2": "Emisión",
+    "Option 3": "Clave de elector",
+    "Option 4": "Vigencia",
+    "Correct Answer": "OCR, emisión, clave de elector, vigencia"
+  },
+  {
+    "Question Text": "644.- ¿HASTA CUÁNTO PUEDE AUTORIZAR EL JEFE DE CAC EN BONIFICACIONES?",
+    "Option 1": "Hasta 1000",
+    "Option 2": "Hasta 2000",
+    "Option 3": "Hasta 3000",
+    "Option 4": "Hasta 5000",
+    "Correct Answer": "Hasta 5000"
+  },
+  {
+    "Question Text": "645.- MANERA EN QUE UN CLIENTE PUEDE ADQUIRIR UN EQUIPO EN CÓMODOS PAGOS SEMANALES, QUINCENALES O MENSUALES:",
+    "Option 1": "Plan amigo fácil",
+    "Option 2": "Amigo paguitos",
+    "Option 3": "Plan confort",
+    "Option 4": "Pago libre",
+    "Correct Answer": "Amigo paguitos"
+},
+{
+  "Question Text": "635.- ESTE TIPO DE CONSUMO SE DEBITARÁN DEL SALDO DE ENTRETENIMIENTO:",
+  "Option 1": "Servicios de claro",
+  "Option 2": "Servicios de contenidos de terceros",
+  "Option 3": "Marcaciones de voz premium",
+  "Option 4": "Marcaciones SMS premium",
+  "Correct Answer": "Servicios de claro, servicios de contenidos de terceros, marcaciones de voz premium y marcaciones SMS premium"
+},
+{
+  "Question Text": "636.- ESTOS CARGOS SE FACTURAN POR MES ADELANTADO DURANTE LA VIGENCIA DE LOS RESPECTIVOS CONTRATOS Y DEBERÁN SER CUBIERTOS POR NUESTROS USUARIOS DE POSPAGO SEGÚN SE DEFINE EN EL CONTRATO CORRESPONDIENTE:",
+  "Option 1": "Cargos Variables",
+  "Option 2": "Cargos Fijos Mensuales",
+  "Option 3": "Cargos por Consumo",
+  "Option 4": "Cargos Eventuales",
+  "Correct Answer": "Cargos Fijos Mensuales"
+},
+{
+  "Question Text": "637.- PARA EL FINANCIAMIENTO DE ESTE TIPO DE EQUIPOS SE REQUIERE TC COMO FORMA DE PAGO:",
+  "Option 1": "EQUIPO >= $5,000.00",
+  "Option 2": "EQUIPO >= $8,000.00",
+  "Option 3": "PREMIUM (EQUIPO >= $11,000.00)",
+  "Option 4": "Cualquier monto",
+  "Correct Answer": "PREMIUM (EQUIPO >= $11,000.00)"
+},
+{
+  "Question Text": "638.- DEBE ASEGURAR QUE LAS RESPONSABILIDADES Y AUTORIDADES PARA LOS ROLES RELEVANTES AL SGS Y LOS SERVICIOS SEAN ASIGNADOS Y COMUNICADOS DENTRO DE LA ORGANIZACIÓN:",
+  "Option 1": "La alta dirección",
+  "Option 2": "Recursos Humanos",
+  "Option 3": "Jefe de Área",
+  "Option 4": "El Representante Legal",
+  "Correct Answer": "La alta dirección"
+},
+{
+  "Question Text": "639.- UNO DE LOS PROCESOS DEL SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN ES:",
+  "Option 1": "Administrar recursos financieros",
+  "Option 2": "Administrar infraestructura",
+  "Option 3": "Administrar recursos humanos",
+  "Option 4": "Administrar proveedores",
+  "Correct Answer": "Administrar recursos humanos"
+},
+{
+  "Question Text": "640.- SEGÚN LA NORMA ISO/IEC20000-1 2018 ¿QUÉ ES UN ACUERDO DE NIVEL DE SERVICIO?",
+  "Option 1": "Un contrato de confidencialidad",
+  "Option 2": "Acuerdo documentado entre la organización y el consumidor que identifica servicios y su desempeño acordado",
+  "Option 3": "Un informe de auditoría",
+  "Option 4": "Una lista de procesos de calidad",
+  "Correct Answer": "Acuerdo documentado entre la organización y el consumidor que identifica servicios y su desempeño acordado"
+},
+{
+  "Question Text": "641.- ¿DÓNDE SE ENCUENTRA EL NOMBRE DEL ENCARGADO Y DEL REPRESENTANTE DEL SGI?",
+  "Option 1": "Portal de Clientes",
+  "Option 2": "Sistema @-Doc",
+  "Option 3": "Portal de Calidad",
+  "Option 4": "Página Web de la empresa",
+  "Correct Answer": "Portal de Calidad"
+},
+{
+  "Question Text": "642.- ¿CUÁL ES LA PRINCIPAL FORMA DE ALMACENAMIENTO DEL CONOCIMIENTO DE LA ORGANIZACIÓN?",
+  "Option 1": "Sistema @-Doc",
+  "Option 2": "Base de datos SQL",
+  "Option 3": "Servidor local",
+  "Option 4": "Nube externa",
+  "Correct Answer": "Sistema @-Doc"
+},
+{
+  "Question Text": "643.- UNA VEZ VALIDADA LA INE EN EL PORTAL ¿QUÉ SE DEBE VALIDAR FÍSICAMENTE?",
+  "Option 1": "OCR",
+  "Option 2": "Emisión",
+  "Option 3": "Clave de elector",
+  "Option 4": "Vigencia",
+  "Correct Answer": "OCR, emisión, clave de elector, vigencia"
+},
+{
+  "Question Text": "644.- ¿HASTA CUÁNTO PUEDE AUTORIZAR EL JEFE DE CAC EN BONIFICACIONES?",
+  "Option 1": "Hasta 1000",
+  "Option 2": "Hasta 2000",
+  "Option 3": "Hasta 3000",
+  "Option 4": "Hasta 5000",
+  "Correct Answer": "Hasta 5000"
+},
+{
+  "Question Text": "645.- MANERA EN QUE UN CLIENTE PUEDE ADQUIRIR UN EQUIPO EN CÓMODOS PAGOS SEMANALES, QUINCENALES O MENSUALES:",
+  "Option 1": "Plan amigo fácil",
+  "Option 2": "Amigo paguitos",
+  "Option 3": "Plan confort",
+  "Option 4": "Pago libre",
+  "Correct Answer": "Amigo paguitos"
+}
+
+
+
 
 
 
