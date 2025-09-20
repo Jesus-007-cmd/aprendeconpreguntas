@@ -601,7 +601,104 @@
     "Option 2": "$75.00",
     "Option 3": "$150.00",
     "Correct Answer": "$100.00"
-  }
+  },
+  {
+    "Question Text": "600.- ¿CON QUÉ NAVEGADORES ES COMPATIBLE EL INTERFAZ WEB DE ZEEK MI AUTO?",
+    "Option 1": "Google Chrome",
+    "Option 2": "Safari",
+    "Option 3": "Microsoft Edge, Firefox, Mozilla, Opera",
+    "Option 4": "Todos los anteriores",
+    "Correct Answer": "Google Chrome, Safari, Microsoft Edge, Firefox, Mozilla, Opera"
+  },
+  {
+    "Question Text": "601.- SON 2 ETAPAS DEL PROCESO DE GESTIONAR RIESGOS Y OPORTUNIDADES DEL SGI:",
+    "Option 1": "Identificar amenazas y peligros",
+    "Option 2": "Analizar el riesgo",
+    "Option 3": "Monitorear procesos",
+    "Option 4": "Ambas anteriores",
+    "Correct Answer": "Identificar amenazas y peligros / analizar el riesgo"
+  },
+  {
+    "Question Text": "602.- ES UNO DE LOS SERVICIOS PREVENTIVOS DE SEGURIDAD Y SALUD QUE TELCEL HA IMPLEMENTADO EN TODOS LOS CENTROS DE TRABAJO:",
+    "Option 1": "Protección Civil Municipal",
+    "Option 2": "Comisión de Seguridad e Higiene",
+    "Option 3": "Auditorías externas",
+    "Option 4": "Seguro médico privado",
+    "Correct Answer": "Comisión de Seguridad e Higiene"
+  },
+  {
+    "Question Text": "603.- ES EL DOCUMENTO EN EL QUE SE DESCRIBEN LOS PRINCIPALES TIPOS DE EMERGENCIA QUE PODRÍAN PRESENTARSE EN LOS CENTROS DE TRABAJO:",
+    "Option 1": "Plan de preparación y respuesta ante emergencia",
+    "Option 2": "0-00.02.01.01.04-001",
+    "Option 3": "Plan de seguridad general",
+    "Option 4": "Manual de calidad",
+    "Correct Answer": "Plan de preparación y respuesta ante emergencia 0-00.02.01.01.04-001"
+  },
+  {
+    "Question Text": "604.- SON AQUELLOS SUCESOS QUE SURGEN DEL TRABAJO O EN EL TRANSCURSO DEL TRABAJO, EN EL QUE SE HAN PRODUCIDO LESIONES:",
+    "Option 1": "Incidentes laborales",
+    "Option 2": "Accidentes laborales",
+    "Option 3": "Eventos de riesgo",
+    "Option 4": "Simulacros",
+    "Correct Answer": "Incidentes laborales"
+  },
+  {
+    "Question Text": "605.- SON 2 TIPOS DE CAMBIOS QUE IMPACTAN EN EL DESEMPEÑO DE LA SST:",
+    "Option 1": "Personal y condiciones de trabajo",
+    "Option 2": "Instalación y equipos",
+    "Option 3": "Cambios de proveedores",
+    "Option 4": "Ambas anteriores",
+    "Correct Answer": "Personal y condiciones de trabajo, Instalación y equipos"
+  },
+  {
+    "Question Text": "606.- CONOCER Y ATENDER LO DESCRITO EN LOS DOCUMENTOS RELACIONADOS AL PROCESO DE GESTIÓN DE CAMBIOS CON IMPACTO EN EL DESEMPEÑO DE LA SST ES RESPONSABILIDAD DE:",
+    "Option 1": "Alta dirección",
+    "Option 2": "Todas las áreas de Telcel",
+    "Option 3": "Solo recursos humanos",
+    "Option 4": "El área de seguridad",
+    "Correct Answer": "Todas las áreas de Telcel"
+  },
+  {
+    "Question Text": "607.- ¿DÓNDE PUEDES CONSULTAR EL SEGUIMIENTO Y LA MEDICIÓN A LOS OBJETIVOS DEL SGI RELACIONADOS A LAS NORMAS ISO 45K?",
+    "Option 1": "Portal de Calidad",
+    "Option 2": "Intranet corporativa",
+    "Option 3": "Manual del empleado",
+    "Option 4": "Reporte anual",
+    "Correct Answer": "Portal de Calidad"
+  },
+  {
+    "Question Text": "608.- COSTO DE CAMBIO DE ESQUEMA DE COBRO EN PREPAGO LA PRIMERA VEZ:",
+    "Option 1": "Sin costo",
+    "Option 2": "$50.00",
+    "Option 3": "$100.00",
+    "Option 4": "$150.00",
+    "Correct Answer": "Sin costo"
+  },
+  {
+    "Question Text": "609.- ¿CUÁL ES EL COSTO Y QUÉ ES EL SERVICIO CONECTA AMÉRICA?",
+    "Option 1": "Es un servicio que cuesta $1,788 pesos, los cuales podrán ser cobrados en un solo cargo o diferidos a 12 ciclos de facturación con una renta de $149 pesos IVA incluido",
+    "Option 2": "Servicio gratuito para usuarios prepago",
+    "Option 3": "Costo $500 anual",
+    "Option 4": "Es un plan solo para llamadas",
+    "Correct Answer": "Es un servicio que cuesta $1,788 pesos, los cuales podrán ser cobrados en un solo cargo o diferidos a 12 ciclos de facturación con una renta de $149 pesos IVA incluido"
+  },
+  {
+    "Question Text": "610.- ES EL DOCUMENTO EN EL QUE SE ESTABLECEN TÉRMINOS Y CONDICIONES QUE REGULAN LA RELACIÓN ENTRE TÚ (EL CLIENTE) Y TELCEL DURANTE TODO EL TIEMPO QUE DURE LA PRESTACIÓN DE SERVICIOS CONTRATADOS:",
+    "Option 1": "Contrato de Adhesión",
+    "Option 2": "Aviso de Privacidad",
+    "Option 3": "Factura de compra",
+    "Option 4": "Manual de usuario",
+    "Correct Answer": "Contrato de Adhesión"
+  },
+  {
+    "Question Text": "611.- PERMITE CANJEAR TU DISPOSITIVO POR UN BONO, EL CUAL SOLO SE PODRÁ UTILIZAR PARA CUBRIR LA DIFERENCIA DEL PAGO INICIAL DE UN NUEVO SMARTPHONE DE CUALQUIER GAMA DISPONIBLE (SUJETO A DISPONIBILIDAD EN PUNTO DE VENTA):",
+    "Option 1": "Plan Amigo",
+    "Option 2": "Upgrade Telcel",
+    "Option 3": "TRADE IN de Telcel",
+    "Option 4": "Amigo Paguitos",
+    "Correct Answer": "TRADE IN de Telcel"
+}
+
 
 
 

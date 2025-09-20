@@ -5,7 +5,10 @@ function MiniQuiz({ onBackToMain }) {
   const storedIncorrectQuestions =
     JSON.parse(localStorage.getItem('incorrectQuestions')) || [];
 
-  const [questions, setQuestions] = useState(storedIncorrectQuestions);
+  // ❌ Antes: const [questions, setQuestions] = useState(storedIncorrectQuestions);
+  // ✅ Ahora: solo usamos questions
+  const [questions] = useState(storedIncorrectQuestions);
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
@@ -37,6 +40,7 @@ function MiniQuiz({ onBackToMain }) {
     setCurrentQuestionIndex(0);
     setShowResult(false);
     setSelectedAnswer(null);
+    // ✅ Ya no necesitamos llamar a setQuestions
   };
 
   if (questions.length === 0) {
