@@ -1,0 +1,355 @@
+[
+  {
+    "Question Text": "706.- Suscripción Amazon Prime Básico incluye:",
+    "Option 1": "Acceso a contenido en 1 dispositivo",
+    "Option 2": "Acceso a contenido en 3 dispositivos a la vez",
+    "Option 3": "Acceso a contenido en 4 dispositivos a la vez",
+    "Correct Answer": "Acceso a contenido en 2 dispositivos a la vez"
+  },
+  {
+    "Question Text": "707.- ¿Dónde puede consultar el saldo del paquete Sin Límite?",
+    "Option 1": "*133#",
+    "Option 2": "Marcación *321",
+    "Option 3": "MiTelcel",
+    "Correct Answer": "*133#, marcación *321, MiTelcel"
+  },
+  {
+    "Question Text": "708.- Costo del paquete Más Datos Apps 5GB:",
+    "Option 1": "$39.00 IVA incluido",
+    "Option 2": "$49.00 IVA incluido",
+    "Option 3": "$99.00 IVA incluido",
+    "Correct Answer": "$89.00 IVA incluido"
+  },
+  {
+    "Question Text": "709.- Saldo que Telcel abona en forma mensual y que se utiliza para el débito de los minutos indistintos incluidos en el Plan Tarifario Controlado:",
+    "Option 1": "Saldo Libre",
+    "Option 2": "Saldo Combinado",
+    "Option 3": "Saldo Básico",
+    "Correct Answer": "Saldo Mix"
+  },
+  {
+    "Question Text": "710.- Fecha en que inicia la oferta comercial de los planes Telcel Libre:",
+    "Option 1": "1 de Enero de 2025",
+    "Option 2": "28 de Abril de 2025",
+    "Option 3": "15 de Mayo de 2025",
+    "Correct Answer": "27 de Abril de 2025"
+  },
+  {
+    "Question Text": "711.- ¿Dónde se realizan los trámites de los planes Telcel Libre?",
+    "Option 1": "Desde la app MiTelcel",
+    "Option 2": "Desde las plataformas de BES y SISACT Transforma",
+    "Option 3": "En cualquier Centro de Atención a Clientes",
+    "Correct Answer": "Desde las plataformas de BES y SISACT Transforma"
+  },
+  {
+    "Question Text": "712.- Cashback en el Plan Telcel Libre 1:",
+    "Option 1": "$10 IVA incluido",
+    "Option 2": "$12.45 IVA incluido",
+    "Option 3": "$15 IVA incluido",
+    "Correct Answer": "$12.45 IVA incluido"
+  },
+  {
+    "Question Text": "713.- Cashback en el Plan Telcel Libre 5:",
+    "Option 1": "$59.85 IVA incluido",
+    "Option 2": "$89.85 IVA incluido",
+    "Option 3": "$99.85 IVA incluido",
+    "Correct Answer": "$89.85 IVA incluido"
+  },
+  {
+    "Question Text": "714.- ¿Cuántos GB se incluyen en el Plan Telcel Libre 1?",
+    "Option 1": "2 GB",
+    "Option 2": "4 GB",
+    "Option 3": "6 GB",
+    "Correct Answer": "4 GB"
+  },
+  {
+    "Question Text": "715.- ¿Cuántos GB se incluyen en el Plan Telcel Libre 2?",
+    "Option 1": "3 GB",
+    "Option 2": "5 GB",
+    "Option 3": "8 GB",
+    "Correct Answer": "5 GB"
+  },
+  {
+    "Question Text": "716.- ¿Cuántos GB se incluyen en el Plan Internet Libre 4?",
+    "Option 1": "10 GB",
+    "Option 2": "12 GB",
+    "Option 3": "15 GB",
+    "Correct Answer":"12 GB"
+  },
+  {
+    "Question Text": "706.- Suscripción Amazon Prime Básico incluye:",
+    "Option 1": "Acceso a contenido en 1 dispositivo",
+    "Option 2": "Acceso a contenido en 2 dispositivos a la vez",
+    "Option 3": "Acceso a contenido en 4 dispositivos a la vez",
+    "Correct Answer": "Acceso a contenido en 2 dispositivos a la vez"
+  },
+  {
+    "Question Text": "707.- ¿Dónde puede consultar el saldo del paquete Sin Límite?",
+    "Option 1": "*133#",
+    "Option 2": "Marcación *321",
+    "Option 3": "MiTelcel",
+    "Correct Answer": "*133#, marcación *321, MiTelcel"
+  },
+  {
+    "Question Text": "708.- Costo del paquete Más Datos Apps 5GB:",
+    "Option 1": "$39.00 IVA incluido",
+    "Option 2": "$89.00 IVA incluido",
+    "Option 3": "$99.00 IVA incluido",
+    "Correct Answer": "$89.00 IVA incluido"
+  },
+  {
+    "Question Text": "709.- Saldo que Telcel abona en forma mensual y que se utiliza para el débito de los minutos indistintos incluidos en el Plan Tarifario Controlado:",
+    "Option 1": "Saldo Libre",
+    "Option 2": "Saldo Mix",
+    "Option 3": "Saldo Básico",
+    "Correct Answer": "Saldo Mix"
+  },
+  {
+    "Question Text": "710.- Fecha en que inicia la oferta comercial de los planes Telcel Libre:",
+    "Option 1": "1 de Enero de 2025",
+    "Option 2": "27 de Abril de 2025",
+    "Option 3": "15 de Mayo de 2025",
+    "Correct Answer": "27 de Abril de 2025"
+  },
+  {
+    "Question Text": "711.- ¿Dónde se realizan los trámites de los planes Telcel Libre?",
+    "Option 1": "Desde la app MiTelcel",
+    "Option 2": "Desde las plataformas de BES y SISACT Transforma",
+    "Option 3": "En cualquier Centro de Atención a Clientes",
+    "Correct Answer": "Desde las plataformas de BES y SISACT Transforma"
+  },
+  {
+    "Question Text": "712.- Cashback en el Plan Telcel Libre 1:",
+    "Option 1": "$10 IVA incluido",
+    "Option 2": "$12.45 IVA incluido",
+    "Option 3": "$15 IVA incluido",
+    "Correct Answer": "$12.45 IVA incluido"
+  },
+  {
+    "Question Text": "713.- Cashback en el Plan Telcel Libre 5:",
+    "Option 1": "$59.85 IVA incluido",
+    "Option 2": "$89.85 IVA incluido",
+    "Option 3": "$99.85 IVA incluido",
+    "Correct Answer": "$89.85 IVA incluido"
+  },
+  {
+    "Question Text": "714.- ¿Cuántos GB se incluyen en el Plan Telcel Libre 1?",
+    "Option 1": "2 GB",
+    "Option 2": "4 GB",
+    "Option 3": "6 GB",
+    "Correct Answer": "4 GB"
+  },
+  {
+    "Question Text": "715.- ¿Cuántos GB se incluyen en el Plan Telcel Libre 2?",
+    "Option 1": "3 GB",
+    "Option 2": "5 GB",
+    "Option 3": "8 GB",
+    "Correct Answer": "5 GB"
+  },
+  {
+    "Question Text": "716.- ¿Cuántos GB se incluyen en el Plan Internet Libre 4?",
+    "Option 1": "10 GB",
+    "Option 2": "12 GB",
+    "Option 3": "15 GB",
+    "Correct Answer": "12 GB"
+  },
+  {
+    "Question Text": "685.- ¿Quiénes hacen la valoración y tratamiento de riesgos en la región?",
+    "Option 1": "Las gerencias alta dirección con los jefes involucrados y el representante de la gerencia en el comité local",
+    "Option 2": "Solo el área de recursos humanos",
+    "Option 3": "Únicamente el comité sindical",
+    "Correct Answer": "Las gerencias alta dirección con los jefes involucrados y el representante de la gerencia en el comité local"
+  },
+  {
+    "Question Text": "686.- Preparación y respuesta ante emergencias potenciales PR-00.70.00.01.00-001 Comunicación externa:",
+    "Option 1": "Manual de procedimientos",
+    "Option 2": "Contexto de la organización",
+    "Option 3": "Plan anual de seguridad",
+    "Correct Answer": "Contexto de la organización"
+  },
+  {
+    "Question Text": "687.- ¿Quiénes son los representantes del comité de los trabajadores del SGSST?",
+    "Option 1": "Representantes del centro de trabajo",
+    "Option 2": "Integrantes del comité de seguridad local de cada gerencia",
+    "Option 3": "Supervisores de producción",
+    "Correct Answer": "Representantes del centro de trabajo"
+  },
+  {
+    "Question Text": "688.- Son algunas de las políticas de la gestión del tráfico y administración de la red que el proveedor utilizará para la eficiente prestación del servicio, con base a la política de neutralidad de la red:",
+    "Option 1": "Optimización del tráfico",
+    "Option 2": "Administración de las direcciones IP",
+    "Option 3": "Administración de tráfico en casos de congestión",
+    "Correct Answer": "Optimización del tráfico, Administración de las direcciones IP y Administración de tráfico en casos de congestión"
+  },
+  {
+    "Question Text": "689.- ¿Qué representa la Red de Procesos de Radiomóvil Dipsa SA de CV?",
+    "Option 1": "La satisfacción de los clientes a través de los tres principales procesos: estratégico, orientado al cliente y de soporte",
+    "Option 2": "El plan de comunicación interna de la empresa",
+    "Option 3": "El organigrama corporativo",
+    "Correct Answer": "La transformación de las necesidades de los clientes, en la satisfacción de los mismos, a través de los tres principales procesos: estratégico, el orientado al cliente y de soporte"
+  },
+  {
+    "Question Text": "690.- De acuerdo con el código de ética, ¿cómo demuestras el compromiso con el futuro de la empresa?",
+    "Option 1": "Cumpliendo horarios estrictamente",
+    "Option 2": "Comprender y adoptar los principios y valores de nuestra empresa",
+    "Option 3": "Usando uniforme oficial",
+    "Correct Answer": "Comprender y adoptar los principios y valores de nuestra empresa"
+  },
+  {
+    "Question Text": "691.- Son los colores contraste que debe utilizarse en las señales de seguridad e higiene:",
+    "Option 1": "Blanco, Negro, Magenta",
+    "Option 2": "Rojo, Azul, Verde",
+    "Option 3": "Amarillo, Gris, Negro",
+    "Correct Answer": "Blanco, Negro, Magenta"
+  },
+  {
+    "Question Text": "692.- Es la forma geométrica que se utiliza para indicar la descripción de una acción obligatoria:",
+    "Option 1": "Círculo",
+    "Option 2": "Triángulo",
+    "Option 3": "Cuadrado o rectángulo",
+    "Correct Answer": "Círculo"
+  },
+  {
+    "Question Text": "693.- La etiqueta de información principal se coloca en placa o letrero cuando, en referencia a las dimensiones de la tubería, ésta tenga una altura mayor a:",
+    "Option 1": "50%",
+    "Option 2": "70%",
+    "Option 3": "0.7",
+    "Correct Answer": "Mayor al 70% o 0.7"
+  },
+  {
+    "Question Text": "676.- Tipo de acciones que se registran en el sistema de mejora continua:",
+    "Option 1": "Acción preventiva y acción correctiva",
+    "Option 2": "Acción correctiva y acción de mejora",
+    "Option 3": "Acción de emergencia y acción inmediata",
+    "Correct Answer": "Acción correctiva y acción de mejora"
+  },
+  {
+    "Question Text": "677.- ¿Qué debe hacer el personal que identifica la necesidad de resolver un problema a mejorar?",
+    "Option 1": "Debe informarlo a la Alta Dirección para la autorización del registro de la acción",
+    "Option 2": "Debe resolverlo directamente",
+    "Option 3": "Debe reportarlo a recursos humanos",
+    "Correct Answer": "Debe informarlo a la Alta Dirección para la autorización del registro de la acción"
+  },
+  {
+    "Question Text": "678.- Son sustancias cuyas propiedades físicas y químicas les permite apagar el fuego y se clasifican en 3 grupos de acuerdo con la apariencia que tienen al ser expuestos a la atmósfera:",
+    "Option 1": "Agua purificada",
+    "Option 2": "Agentes extintores",
+    "Option 3": "Líquidos combustibles",
+    "Correct Answer": "Agentes extintores"
+  },
+  {
+    "Question Text": "679.- Son algunos agentes extintores:",
+    "Option 1": "Anhidrido carbónico CO2, polvo químico seco",
+    "Option 2": "Arena y agua",
+    "Option 3": "Gas natural y nitrógeno",
+    "Correct Answer": "Anhidrido carbónico CO2, polvo químico seco"
+  },
+  {
+    "Question Text": "680.- ¿Qué se debe hacer antes de un huracán?",
+    "Option 1": "Reparar techos, paredes y proteger ventanas",
+    "Option 2": "Conocer disposiciones de Protección Civil y planes de respuesta",
+    "Option 3": "Tener botiquín, radio, agua, linterna y documentos importantes a la mano",
+    "Correct Answer": "Conocer las disposiciones de Protección Civil, consultar planes de respuesta, reparar techos, paredes, proteger ventanas, tener botiquín, radio, agua, alimentos y documentos importantes"
+  },
+  {
+    "Question Text": "681.- ¿Qué se debe hacer después de un huracán?",
+    "Option 1": "Solicitar apoyo a Protección Civil",
+    "Option 2": "Colaborar con la Comisión de Seguridad e Higiene para solicitar mantenimiento y reparación de daños",
+    "Option 3": "Evacuar el área permanentemente",
+    "Correct Answer": "Colaborar con la Comisión de Seguridad e Higiene del centro de trabajo para solicitar mantenimiento y reparación de los daños"
+  },
+  {
+    "Question Text": "682.- Son los procedimientos relacionados con el proceso PR-00.00.00.00.00-003 Gestionar riesgos y oportunidades del SGI:",
+    "Option 1": "P-00.00.00.00.00-005 Valoración y Tratamiento de Riesgos del SGI",
+    "Option 2": "P-00.00.00.00.00-021 Identificación de Peligros y Evaluación de Riesgos para la SST",
+    "Option 3": "Ambas respuestas",
+    "Correct Answer": "P-00.00.00.00.00-005 Valoración y Tratamiento de Riesgos del SGI y P-00.00.00.00.00-021 Identificación de Peligros y Evaluación de Riesgos para la SST"
+  },
+  {
+    "Question Text": "683.- Factores que se deben conocer para una valoración de riesgo eficaz y un tratamiento adecuado:",
+    "Option 1": "Factores internos",
+    "Option 2": "Factores externos",
+    "Option 3": "Factores internos y externos",
+    "Correct Answer": "Factores internos y externos"
+  },
+  {
+    "Question Text": "684.- ¿En qué documento se encuentran designados los miembros del comité líder especialista del SGSST y dónde se encuentra publicado este documento?",
+    "Option 1": "Anexo A en el Portal de Calidad",
+    "Option 2": "Manual corporativo de procedimientos",
+    "Option 3": "Código de ética de la empresa",
+    "Correct Answer": "Anexo A en el Portal de Calidad (Conceptos generales / Comités de SGI)"
+  },
+  {
+    "Question Text": "666.- Productos no compatibles con el servicio adicional de Smartwatch IoT:",
+    "Option 1": "Contestón (RBT), VPN y Gestión vehicular Telcel (LBS)",
+    "Option 2": "Correo electrónico y SMS",
+    "Option 3": "WhatsApp y redes sociales",
+    "Correct Answer": "Contestón (RBT), VPN y Gestión vehicular Telcel (LBS)"
+  },
+  {
+    "Question Text": "667.- ¿Cómo contribuyo a mantener el conocimiento de la organización?",
+    "Option 1": "Contando con procedimientos que lo preservan",
+    "Option 2": "Alimentando todos los medios de almacenamiento",
+    "Option 3": "Disposición del conocimiento de Telcel",
+    "Correct Answer": "Contando con procedimientos que lo preservan y alimentando todos los medios de almacenamiento y disposición del conocimiento de Telcel"
+  },
+  {
+    "Question Text": "668.- ¿Cómo se activa un Amigo Chip Express?",
+    "Option 1": "Con recarga inicial de $30",
+    "Option 2": "Con recarga de saldo o compra de paquete igual o mayor a $50 y efectuando su primer evento con costo",
+    "Option 3": "Solo solicitando en un Centro de Atención",
+    "Correct Answer": "Primer recarga de saldo o compra de paquete sea igual o mayor a $50.00 y efectúe su primer evento con costo o beneficios incluidos (llamada, SMS o uso de datos)"
+  },
+  {
+    "Question Text": "669.- Duración de la recarga de 50 pesos en paquete Amigo Sin Límite:",
+    "Option 1": "5 días",
+    "Option 2": "7 días",
+    "Option 3": "10 días",
+    "Correct Answer": "7 días"
+  },
+  {
+    "Question Text": "670.- Costo del paquete Más Datos 0.5 GB:",
+    "Option 1": "$39.00",
+    "Option 2": "$49.00",
+    "Option 3": "$59.00",
+    "Correct Answer": "$49.00"
+  },
+  {
+    "Question Text": "671.- En Telcel ¿quién puede identificar la necesidad de resolver o mejorar la situación actual?",
+    "Option 1": "Supervisores",
+    "Option 2": "Gerentes",
+    "Option 3": "Todos",
+    "Correct Answer": "Todos"
+  },
+  {
+    "Question Text": "672.- ¿Cuál es el servicio que incluye solamente cobertura de protección de equipo contra daño accidental o falla?",
+    "Option 1": "Telcel Protección",
+    "Option 2": "Telcel UP Lite",
+    "Option 3": "Telcel Seguro Plus",
+    "Correct Answer": "Telcel UP Lite"
+  },
+  {
+    "Question Text": "673.- ¿Qué no cubre Telcel UP Lite?",
+    "Option 1": "Robo de equipo",
+    "Option 2": "Programa de reparación de pantalla y reemplazo de batería",
+    "Option 3": "Beneficio de Renovación Anticipada",
+    "Correct Answer": "No aplica Robo, ni el programa de reparación de pantalla, reemplazo de batería o el beneficio de Renovación Anticipada"
+  },
+  {
+    "Question Text": "674.- Características del paquete Viajero Cruceros y Ferries de Voz:",
+    "Option 1": "20 minutos, vigencia 15 días. Costo $500.00",
+    "Option 2": "50 minutos, vigencia 30 días. Costo $815.00",
+    "Option 3": "100 minutos, vigencia 60 días. Costo $1,200.00",
+    "Correct Answer": "50 minutos, vigencia 30 días. Costo $815.00"
+  },
+  {
+    "Question Text": "675.- ¿Qué es mejora continua?",
+    "Option 1": "Es la base del ciclo de calidad de Deming",
+    "Option 2": "La mejora continua es la última etapa del ciclo de Deming (planear, ejecutar, medir y mejorar)",
+    "Option 3": "Ambas respuestas",
+    "Correct Answer": "La mejora continua es la última etapa del ciclo de Deming (planear, ejecutar, medir y mejorar) y es la base para que el SGI mejore su desempeño en cualquier ámbito"
+  }
+
+
+
+]
