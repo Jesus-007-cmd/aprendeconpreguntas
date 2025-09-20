@@ -524,7 +524,85 @@
   "Option 3": "Plan confort",
   "Option 4": "Pago libre",
   "Correct Answer": "Amigo paguitos"
-}
+},
+  {
+    "Question Text": "Para adquirir Amigo Paguitos tu cliente necesita:",
+    "Option 1": "Comprobante de domicilio",
+    "Option 2": "Pasaporte vencido",
+    "Option 3": "Número fijo de casa",
+    "Correct Answer": "INE vigente"
+  },
+  {
+    "Question Text": "¿Qué debes de hacer antes de entregar un equipo Paguitos?",
+    "Option 1": "Actualizar software",
+    "Option 2": "Configurar correo",
+    "Option 3": "Activar datos móviles",
+    "Correct Answer": "Enrolamiento de dispositivo"
+  },
+  {
+    "Question Text": "¿Cómo llega el contrato de Paguitos?",
+    "Option 1": "Por mensaje SMS",
+    "Option 2": "En físico",
+    "Option 3": "Por la app de Telcel",
+    "Correct Answer": "Al correo electrónico"
+  },
+  {
+    "Question Text": "Si un equipo Paguitos fue bloqueado por falta de pago adeudo, el dispositivo se habilitará en un lapso de:",
+    "Option 1": "5 min",
+    "Option 2": "30 min",
+    "Option 3": "1 hora",
+    "Correct Answer": "15 min"
+  },
+  {
+    "Question Text": "En Amigo Paguitos, con la funcionalidad 'Trámite a Futuro' ¿por cuánto tiempo podrás pausar la solicitud del cliente?",
+    "Option 1": "24 horas",
+    "Option 2": "48 horas",
+    "Option 3": "96 horas",
+    "Correct Answer": "72 horas"
+  },
+  {
+    "Question Text": "Para autogestionar el desbloqueo de Amigo Paguitos por falta de conexión a la red, ¿debe acceder al micro sitio?",
+    "Option 1": "www.telcel.com",
+    "Option 2": "www.pagos.telcel.com",
+    "Option 3": "www.autogestionpaguitos.com",
+    "Correct Answer": "www.amigopaguitos.com"
+  },
+  {
+    "Question Text": "Marcación a la que se envía SMS para la contratación de Norton Control Parental:",
+    "Option 1": "*2290",
+    "Option 2": "*2000",
+    "Option 3": "*2500",
+    "Correct Answer": "*2390"
+  },
+  {
+    "Question Text": "¿Cuáles son los sistemas de apoyo de SGI?",
+    "Option 1": "Sistema de Gestión de Clientes",
+    "Option 2": "Sistema de Seguridad y Control",
+    "Option 3": "Sistema de Evaluación de Riesgos",
+    "Correct Answer": "Sistema de Mejora Continua, Sistema de Administración de Auditorías y @doc"
+  },
+  {
+    "Question Text": "¿Cuánto tiempo después de activar *CASA se puede hacer uso de él?",
+    "Option 1": "24 horas",
+    "Option 2": "72 horas",
+    "Option 3": "1 semana",
+    "Correct Answer": "48 horas"
+  },
+  {
+    "Question Text": "Menciona algunos de los servicios de emergencia en el hogar de *CASA(*2272):",
+    "Option 1": "Pintura, jardinería y limpieza",
+    "Option 2": "Cerrajería, internet y gas",
+    "Option 3": "Reparación de electrodomésticos",
+    "Correct Answer": "Plomería, vidriería, cerrajería, electricidad y carpintería"
+  },
+  {
+    "Question Text": "Si el módem es cambiado de ubicación, ¿de cuánto es el costo por la re-ubicación?",
+    "Option 1": "$50.00",
+    "Option 2": "$75.00",
+    "Option 3": "$150.00",
+    "Correct Answer": "$100.00"
+  }
+
 
 
 
