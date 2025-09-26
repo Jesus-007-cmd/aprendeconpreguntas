@@ -273,12 +273,7 @@ function QuizApp() {
             </button>
           )}
 
-          {/* Mensaje en móvil fullscreen */}
-          {!showMenu && window.innerWidth < 768 && (
-            <div className="fixed bottom-16 bg-black/70 text-white px-4 py-2 rounded-md text-sm">
-              👉 Desliza hacia atrás o usa el botón para salir de pantalla completa
-            </div>
-          )}
+        
 
           {/* Resultados de búsqueda */}
           {searchResults.length > 0 && (
