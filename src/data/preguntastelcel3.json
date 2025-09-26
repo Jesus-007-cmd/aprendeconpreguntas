@@ -31,10 +31,9 @@
   },
   {
     "Question Text": "604.- SON AQUELLOS SUCESOS QUE SURGEN DEL TRABAJO O EN EL TRANSCURSO DEL TRABAJO, EN EL QUE SE HAN PRODUCIDO LESIONES:",
-    "Option 1": "Incidentes laborales",
-    "Option 2": "Accidentes laborales",
-    "Option 3": "Eventos de riesgo",
-    "Option 4": "Simulacros",
+    "Option 1": "Accidentes laborales",
+    "Option 2": "Eventos de riesgo",
+    "Option 3": "Simulacros",
     "Correct Answer": "Incidentes laborales"
   },
   {
@@ -60,128 +59,114 @@
   },
   {
     "Question Text": "608.- COSTO DE CAMBIO DE ESQUEMA DE COBRO EN PREPAGO LA PRIMERA VEZ:",
-    "Option 2": "$50.00",
-    "Option 3": "$100.00",
-    "Option 4": "$150.00",
+    "Option 1": "$50.00",
+    "Option 2": "$100.00",
+    "Option 3": "$150.00",
     "Correct Answer": "Sin costo"
   },
   {
     "Question Text": "609.- ¿CUÁL ES EL COSTO Y QUÉ ES EL SERVICIO CONECTA AMÉRICA?",
-    "Option 2": "Servicio gratuito para usuarios prepago",
-    "Option 3": "Costo $500 anual",
-    "Option 4": "Es un plan solo para llamadas ilimitadas ",
+    "Option 1": "Servicio gratuito para usuarios prepago",
+    "Option 2": "Costo $500 anual",
+    "Option 3": "Es un plan solo para llamadas ilimitadas ",
     "Correct Answer": "Es un servicio que cuesta $1,788 pesos, los cuales podrán ser cobrados en un solo cargo o diferidos a 12 ciclos de facturación con una renta de $149 pesos IVA incluido"
   },
   {
     "Question Text": "610.- ES EL DOCUMENTO EN EL QUE SE ESTABLECEN TÉRMINOS Y CONDICIONES QUE REGULAN LA RELACIÓN ENTRE TÚ (EL CLIENTE) Y TELCEL DURANTE TODO EL TIEMPO QUE DURE LA PRESTACIÓN DE SERVICIOS CONTRATADOS:",
-    "Option 1": "Contrato de Adhesión",
-    "Option 2": "Aviso de Privacidad",
-    "Option 3": "Factura de compra",
-    "Option 4": "Manual de usuario",
+        "Option 1": "Aviso de Privacidad",
+    "Option 2": "Factura de compra",
+    "Option 3": "Manual de usuario",
     "Correct Answer": "Contrato de Adhesión"
   },
   {
     "Question Text": "611.- PERMITE CANJEAR TU DISPOSITIVO POR UN BONO, EL CUAL SOLO SE PODRÁ UTILIZAR PARA CUBRIR LA DIFERENCIA DEL PAGO INICIAL DE UN NUEVO SMARTPHONE DE CUALQUIER GAMA DISPONIBLE (SUJETO A DISPONIBILIDAD EN PUNTO DE VENTA):",
     "Option 1": "Plan Amigo",
     "Option 2": "Upgrade Telcel",
-    "Option 3": "TRADE IN de Telcel",
-    "Option 4": "Amigo Paguitos",
+    "Option 3": "Amigo Paguitos",
     "Correct Answer": "TRADE IN de Telcel"
   },
   {
     "Question Text": "612.- ¿CUÁNDO Y EN DÓNDE PUEDE UTILIZARSE EL BONO TRADE IN?",
     "Option 1": "En cualquier CAC sin límite de tiempo",
-    "Option 2": "El bono solo puede utilizarse el mismo día y en el mismo CAC en que se realizó el trámite de TRADE IN de Telcel",
-    "Option 3": "En línea con cualquier distribuidor",
-    "Option 4": "Solo en compras en línea",
+    "Option 2": "En línea con cualquier distribuidor",
+    "Option 3": "Solo en compras en línea",
     "Correct Answer": "El bono solo puede utilizarse el mismo día y en el mismo CAC en que se realizó el trámite de TRADE IN de Telcel"
   },
   {
     "Question Text": "613.- SON 3 CARACTERÍSTICAS DE UN CLIENTE VIP:",
     "Option 1": "Ser nuevo cliente, sin historial",
-    "Option 2": "Puede ser prepago o pospago, antigüedad mínima de 1 año, consumo mensual de al menos 2000",
-    "Option 3": "Haber adquirido un plan VIP ",
-    " Option 4": "Comprar equipo de contado",
+    "Option 2": "Haber adquirido un plan VIP ",
+    "Option 3": "Comprar equipo de contado",
     "Correct Answer": "Puede ser prepago o pospago, antigüedad mínima de 1 año, consumo mensual de al menos 2000"
   },
   {
     "Question Text": "614.- EN BES ESTA OPCIÓN ES LA QUE PERMITE QUE EL SERVICIO SEA SUSPENDIDO PARCIALMENTE, SE PUEDE RECIBIR LLAMADAS Y SMS, PERO NO REALIZARLOS:",
     "Option 1": "Bloqueo total",
     "Option 2": "Suspensión forzada",
-    "Option 3": "Bloqueo forzado",
-    "Option 4": "Suspensión completa",
+    "Option 3": "Suspensión completa",
     "Correct Answer": "Bloqueo forzado"
   },
   {
     "Question Text": "615.- ¿QUÉ COSTO TIENE EL MB EN PREPAGO CUANDO EL USUARIO NO TENGA UN PAQUETE DE BENEFICIOS ACTIVOS Y SUS CONSUMOS SE DESCUENTEN DIRECTAMENTE DEL SALDO?",
     "Option 1": "0.50 MB",
-    "Option 2": "0.85 MB",
-    "Option 3": "1.00 MB",
-    "Option 4": "1.25 MB",
+    "Option 2": "1.00 MB",
+    "Option 3": "1.25 MB",
     "Correct Answer": "0.85 MB"
   },
   {
     "Question Text": "616.- PANTALLA DE MOBILE 2000 QUE PERMITE VISUALIZAR TODOS LOS NÚMEROS DE CUENTAS QUE SE PAGAN CON LA MISMA TARJETA DE CRÉDITO:",
-    "Option 1": "ACARD",
-    "Option 2": "CRED",
-    "Option 3": "TC",
-    "Option 4": "PAYM",
+    "Option 1": "CRED",
+    "Option 2": "TC",
+    "Option 3": "PAYM",
     "Correct Answer": "ACARD"
   },
   {
     "Question Text": "617.- ¿DÓNDE PUEDE CONTRATAR EL SERVICIO DE ZEEK MI AUTO?",
     "Option 1": "App Mi Telcel",
     "Option 2": "Distribuidor autorizado",
-    "Option 3": "CAC y DAT",
-    "Option 4": "Solo CAC",
+    "Option 3": "Solo CAC",
     "Correct Answer": "CAC y DAT"
   },
   {
     "Question Text": "618.- ¿A CUÁNTOS VEHÍCULOS LE PUEDO ACTIVAR EL MODO ALARMA EN ZEEK MI AUTO?",
     "Option 1": "Máximo 10 vehículos",
-    "Option 2": "A cada uno de los vehículos vinculados, sin límite, y si tienes 24 vehículos puedes activarlos todos",
-    "Option 3": "Solo al vehículo principal",
-    "Option 4": "Máximo 5 vehículos",
+    "Option 2": "Solo al vehículo principal",
+    "Option 3": "Máximo 5 vehículos",
     "Correct Answer": "A cada uno de los vehículos vinculados, sin límite, y si tienes 24 vehículos puedes activarlos todos"
   },
   {
     "Question Text": "619.- EN ZEEK MI AUTO ¿SE PUEDEN CREAR MÁS USUARIOS CON LA MISMA CUENTA?",
     "Option 1": "No, solo un usuario por cuenta",
-    "Option 2": "Sí, se pueden crear subcuentas para acceso desde distintos dispositivos, pero solo gestionan vehículos asignados",
-    "Option 3": "Sí, pero únicamente el titular puede ver los vehículos",
-    "Option 4": "No, salvo con permiso especial",
+    "Option 2": "Sí, pero únicamente el titular puede ver los vehículos",
+    "Option 3": "No, salvo con permiso especial",
     "Correct Answer": "Sí, se pueden crear subcuentas para acceso desde distintos dispositivos, pero solo gestionan vehículos asignados"
   },
   {
     "Question Text": "620.- ES UNA DE LAS PRINCIPALES FUNCIONES DE LA COMISIÓN DE SEGURIDAD E HIGIENE:",
     "Option 1": "Capacitar en ventas",
-    "Option 2": "Atender las inspecciones en materia de seguridad, higiene y salud en el trabajo por parte de las autoridades competentes",
-    "Option 3": "Revisar inventarios",
-    "Option 4": "Organizar simulacros únicamente",
+    "Option 2": "Revisar inventarios",
+    "Option 3": "Organizar simulacros únicamente",
     "Correct Answer": "Atender las inspecciones en materia de seguridad, higiene y salud en el trabajo por parte de las autoridades competentes"
   },
   {
     "Question Text": "621.- COSTO DEL PAQUETE DE INTERNET 5MB, COBERTURA AÉREA:",
     "Option 1": "$1875.00 Vigencia: 15 días",
-    "Option 2": "$1875.00 Vigencia: 30 días",
-    "Option 3": "$2500.00 Vigencia: 45 días",
-    "Option 4": "$1500.00 Vigencia: 10 días",
+    "Option 2": "$2500.00 Vigencia: 45 días",
+    "Option 3": "$1500.00 Vigencia: 10 días",
     "Correct Answer": "$1875.00 Vigencia: 30 días"
   },
   {
     "Question Text": "622.- ES LA CLASIFICACIÓN DE LOS AGENTES EXTINTORES DE ACUERDO CON LA APARIENCIA QUE TIENEN AL SER EXPUESTOS A LA ATMÓSFERA:",
-    "Option 1": "Sólidos, líquidos, gaseosos y vapor",
-    "Option 2": "Polvo, espuma, agua y gas",
-    "Option 3": "Eléctricos, químicos y naturales",
-    "Option 4": "CO2 y polvo químico seco",
+    "Option 1": "Polvo, espuma, agua y gas",
+    "Option 2": "Eléctricos, químicos y naturales",
+    "Option 3": "CO2 y polvo químico seco",
     "Correct Answer": "Sólidos, líquidos, gaseosos y vapor"
   },
   {
     "Question Text": "623.- SON DOCUMENTOS SOPORTE PARA LA ETAPA PLANEAR EN EL SGSST:",
-    "Option 1": "PR-00.03.01.07.00-001 Gestionar la Comunicación Interna, O-00.00.00.00.006 Contexto de la Organización",
-    "Option 2": "O-00.00.00.00.008 objetivo  de la Organización",
-    "Option 3": "Políticas internas de la empresa",
-    "Option 4": "Pl-00.00.00.00.009 Política de calidad",
+    "Option 1": "O-00.00.00.00.008 objetivo  de la Organización",
+    "Option 2": "Políticas internas de la empresa",
+    "Option 3": "Pl-00.00.00.00.009 Política de calidad",
     "Correct Answer": "PR-00.03.01.07.00-001 Gestionar la Comunicación Interna, O-00.00.00.00.006 Contexto de la Organización"
   },
   {
@@ -192,33 +177,29 @@
   {
     "Question Text": "625.- ¿QUIÉN HACE EL CAMBIO DE UNA CUENTA AR A RE?",
     "Option 1": "Atención a Clientes",
-    "Option 2": "Crédito y cobranza",
-    "Option 3": "Jefe de CAC",
-    "Option 4": "Supervisor de cajas",
+    "Option 2": "Jefe de CAC",
+    "Option 3": "Supervisor de cajas",
     "Correct Answer": "Crédito y cobranza"
   },
   {
     "Question Text": "626.- ¿ES LA DEFINICIÓN DE FUEGO?",
     "Option 1": "Reacción química de baja velocidad que produce calor",
-    "Option 2": "Reacción química de alta velocidad que libera luz y calor al momento de la oxidación",
-    "Option 3": "Un proceso de combustión sin oxígeno",
-    "Option 4": "Una explosión de origen eléctrico",
+    "Option 2": "Un proceso de combustión sin oxígeno",
+    "Option 3": "Una explosión de origen eléctrico",
     "Correct Answer": "Reacción química de alta velocidad que libera luz y calor al momento de la oxidación"
   },
   {
     "Question Text": "627.- ES LA GARANTÍA DE PAGO QUE EL USUARIO OTORGA A TELCEL AL CONTRATAR LOS SERVICIOS EN PLAN TARIFARIO (POSPAGO) Y CUBRE ADEUDOS EN CASO DE MORA POR MÁS DE 2 CICLOS DE FACTURACIÓN:",
     "Option 1": "Depósito",
     "Option 2": "Seguro de pago",
-    "Option 3": "Fianza anual",
-    "Option 4": "Contrato de adhesion ",
+    "Option 3": "Contrato de adhesion ",
     "Correct Answer": "Fianza anual"
   },
   {
     "Question Text": "628.- LOS ACTOS INSEGUROS SON AQUELLOS QUE:",
     "Option 1": "Se realizan de acuerdo a normas de seguridad",
-    "Option 2": "Implican una omisión o violación a un método de trabajo o medida determinado como seguros",
-    "Option 3": "Acciones que se realizan de manera segura",
-    "Option 4": "Se relacionan solo con fallas de equipos",
+    "Option 2": "Acciones que se realizan de manera segura",
+    "Option 3": "Se relacionan solo con fallas de equipos",
     "Correct Answer": "Implican una omisión o violación a un método de trabajo o medida determinado como seguros"
   },
   {
@@ -226,47 +207,41 @@
     "Option 1": "Pago normal",
     "Option 2": "Pago con tarjeta",
     "Option 3": "Pago en futuro",
-    "Option 4": "Pago anticipado",
     "Correct Answer": "Pago anticipado"
   },
   {
     "Question Text": "630.- ¿QUÉ PRECIO TIENE LA SUSCRIPCIÓN SEMANAL DE CLUB BUSSU?",
     "Option 1": "$10 IVA incluido",
     "Option 2": "$20 IVA incluido",
-    "Option 3": "$30 IVA incluido",
-    "Option 4": "$40 IVA incluido",
+    "Option 3": "$40 IVA incluido",
     "Correct Answer": "$30 IVA incluido"
   },
   {
     "Question Text": "631.- COSTO DEL PAQUETE DE INTERNET POR TIEMPO 1 HORA",
     "Option 1": "$5.00",
-    "Option 2": "$10.00",
-    "Option 3": "$15.00",
-    "Option 4": "$20.00",
+    "Option 2": "$15.00",
+    "Option 3": "$20.00",
     "Correct Answer": "$10.00"
   },
   {
     "Question Text": "632.- ES EL OBJETIVO DE LAS SEÑALES DE SEGURIDAD E HIGIENE:",
-    "Option 1": "Prevenir accidentes y ayudar a los trabajadores a realizar sus actividades con mayor seguridad",
-    "Option 2": "Decorar áreas de trabajo",
-    "Option 3": "Cumplir con inspecciones",
-    "Option 4": "Señalar salidas de emergencia únicamente",
+    "Option 1": "Decorar áreas de trabajo",
+    "Option 2": "Cumplir con inspecciones",
+    "Option 3": "Señalar salidas de emergencia únicamente",
     "Correct Answer": "Prevenir accidentes y ayudar a los trabajadores a realizar sus actividades con mayor seguridad"
   },
   {
     "Question Text": "633.- SOPORTES DE INFORMACIÓN E INSTALACIONES:",
     "Option 1": "Un activo intangible",
-    "Option 2": "Un activo tangible",
-    "Option 3": "Un gasto corriente",
-    "Option 4": "Un documento legal",
+    "Option 2": "Un gasto corriente",
+    "Option 3": "Un documento legal",
     "Correct Answer": "Un activo tangible"
   },
   {
     "Question Text": "634.- ¿EN QUÉ PANTALLA DE M2K SE REALIZA EL ALTA DE VOLTE?",
-    "Option 1": "GENER",
-    "Option 2": "SWRQH",
-    "Option 3": "Solo en BES",
-    "Option 4": "Retcs",
+    "Option 1": "SWRQH",
+    "Option 2": "Solo en BES",
+    "Option 3": "Retcs",
     "Correct Answer": "GENER"
   },
   {
@@ -277,41 +252,36 @@
   {
     "Question Text": "636.- ESTOS CARGOS SE FACTURAN POR MES ADELANTADO DURANTE LA VIGENCIA DE LOS RESPECTIVOS CONTRATOS Y DEBERÁN SER CUBIERTOS POR NUESTROS USUARIOS DE POSPAGO SEGÚN SE DEFINE EN EL CONTRATO CORRESPONDIENTE:",
     "Option 1": "Cargos Variables",
-    "Option 2": "Cargos Fijos Mensuales",
-    "Option 3": "Cargos por Consumo",
-    "Option 4": "Cargos Eventuales",
+    "Option 2": "Cargos por Consumo",
+    "Option 3": "Cargos Eventuales",
     "Correct Answer": "Cargos Fijos Mensuales"
   },
   {
     "Question Text": "637.- PARA EL FINANCIAMIENTO DE ESTE TIPO DE EQUIPOS SE REQUIERE TC COMO FORMA DE PAGO:",
     "Option 1": "Equipo Gama baja>= $5,000.00",
     "Option 2": "Equipo Gama media>= $8,000.00",
-    "Option 3": "Premium EQUIPO >= $11,000.00)",
-    "Option 4": "Cualquier monto",
+    "Option 3": "Cualquier monto",
     "Correct Answer": "Premium EQUIPO >= $11,000.00)"
   },
   {
     "Question Text": "638.- DEBE ASEGURAR QUE LAS RESPONSABILIDADES Y AUTORIDADES PARA LOS ROLES RELEVANTES AL SGS Y LOS SERVICIOS SEAN ASIGNADOS Y COMUNICADOS DENTRO DE LA ORGANIZACIÓN:",
-    "Option 1": "La alta dirección",
-    "Option 2": "Recursos Humanos",
-    "Option 3": "Jefe de Área",
-    "Option 4": "El Representante Legal",
+    "Option 1": "Recursos Humanos",
+    "Option 2": "Jefe de Área",
+    "Option 3": "El Representante Legal",
     "Correct Answer": "La alta dirección"
   },
   {
     "Question Text": "639.- UNO DE LOS PROCESOS DEL SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN ES:",
     "Option 1": "Administrar recursos financieros",
     "Option 2": "Administrar infraestructura",
-    "Option 3": "Administrar recursos humanos",
-    "Option 4": "Administrar proveedores",
+    "Option 3": "Administrar proveedores",
     "Correct Answer": "Administrar recursos humanos"
   },
   {
     "Question Text": "640.- SEGÚN LA NORMA ISO/IEC20000-1 2018 ¿QUÉ ES UN ACUERDO DE NIVEL DE SERVICIO?",
     "Option 1": "Un contrato de confidencialidad",
-    "Option 2": "Acuerdo documentado entre la organización y el consumidor que identifica servicios y su desempeño acordado",
-    "Option 3": "Un informe de auditoría",
-    "Option 4": "Una lista de procesos de calidad",
+    "Option 2": "Un informe de auditoría",
+    "Option 3": "Una lista de procesos de calidad",
     "Correct Answer": "Acuerdo documentado entre la organización y el consumidor que identifica servicios y su desempeño acordado"
   },
   {
@@ -324,16 +294,14 @@
   },
   {
     "Question Text": "642.- ¿CUÁL ES LA PRINCIPAL FORMA DE ALMACENAMIENTO DEL CONOCIMIENTO DE LA ORGANIZACIÓN?",
-    "Option 1": "Sistema @-Doc",
-    "Option 2": "Boletines",
-    "Option 3": "Servidor local",
-    "Option 4": "Nube externa",
+    "Option 1": "Boletines",
+    "Option 2": "Servidor local",
+    "Option 3": "Nube externa",
     "Correct Answer": "Sistema @-Doc"
   },
   {
     "Question Text": "643.- UNA VEZ VALIDADA LA INE EN EL PORTAL ¿QUÉ SE DEBE VALIDAR FÍSICAMENTE?",
-    "Option 1": "OCR,, emoción, clave de elector, vigencia",
-
+    "Option 1": "Número de Identifiación, fecha de vencimiento, y CURP",
     "Correct Answer": "OCR, emisión, clave de elector, vigencia"
   },
   {
@@ -341,42 +309,38 @@
     "Option 1": "Hasta 10000",
     "Option 2": "Hasta 2000",
     "Option 3": "Hasta 3000",
-    "Option 4": "Hasta 5000",
     "Correct Answer": "Hasta 5000"
   },
   {
     "Question Text": "645.- MANERA EN QUE UN CLIENTE PUEDE ADQUIRIR UN EQUIPO EN CÓMODOS PAGOS SEMANALES, QUINCENALES O MENSUALES:",
     "Option 1": "Amigo fácil",
-    "Option 2": "Amigo paguitos",
-    "Option 3": "Plan forzoso",
-    "Option 4": "Pago libre",
+    "Option 2": "Plan forzoso",
+    "Option 3": "Pago libre",
     "Correct Answer": "Amigo paguitos"
  },
   {
     "Question Text": "646.- Para adquirir Amigo Paguitos tu cliente necesita:",
     "Option 1": "CURP, número fijo y comprobante de domicilio",
-    "Option 2": "INE vigente, Número celular activo al momento de la solicitud, Correo electrónico",
-    "Option 3": "Pasaporte, tarjeta de crédito y RFC",
+    "Option 2": "Pasaporte, tarjeta de crédito y RFC",
     "Correct Answer": "INE vigente, Número celular activo al momento de la solicitud, Correo electrónico"
   },
   {
     "Question Text": "647.- ¿Qué debes de hacer antes de entregar un equipo Paguitos?",
     "Option 1": "Instalar las aplicaciones básicas",
-    "Option 2": "Enrolamiento de dispositivo",
-    "Option 3": "Configurar la red WiFi",
+    "Option 2": "Configurar la red WiFi",
     "Correct Answer": "Enrolamiento de dispositivo"
   },
   {
     "Question Text": "648.- ¿Cómo llega el contrato de Paguitos?",
     "Option 1": "Por correo físico al domicilio",
     "Option 2": "Se descarga en la app Mi Telcel",
-    "Option 3": "Al correo electrónico",
+    "Option 3": "Se imprime y se entrega al usuario",
     "Correct Answer": "Al correo electrónico"
   },
   {
     "Question Text": "649.- Si un equipo Paguitos fue bloqueado por falta de pago y el usuario cubre este adeudo, el dispositivo se habilitará en un lapso de:",
     "Option 1": "1 hora",
-    "Option 2": "15 min",
+    "Option 2": "30 min",
     "Option 3": "24 horas",
     "Correct Answer": "15 min"
   },
@@ -384,27 +348,26 @@
     "Question Text": "650.- En Amigo Paguitos, con la funcionalidad 'Trámite a Futuro' ¿por cuánto tiempo podrás pausar la solicitud del cliente?",
     "Option 1": "24 horas",
     "Option 2": "48 horas",
-    "Option 3": "72 horas",
+    "Option 3": "12 horas",
     "Correct Answer": "72 horas"
   },
   {
     "Question Text": "651.- Para autogestionar el desbloqueo de Amigo Paguitos por falta de conexión a la red, debe acceder al micro sitio:",
     "Option 1": "www.telcel.com",
-    "Option 2": "www.amigopaguitos.com",
+    "Option 2": "www.amigopawuitos.com",
     "Option 3": "www.mitelcel.com",
     "Correct Answer": "www.amigopaguitos.com"
   },
   {
     "Question Text": "652.- Marcación a la que se envía SMS para la contratación de Norton Control Parental:",
     "Option 1": "*9090",
-    "Option 2": "*2390",
-    "Option 3": "*2020",
-    "Option 4": "*111",
+    "Option 2": "*2020",
+    "Option 3": "*111",
     "Correct Answer": "*2390"
   },
   {
     "Question Text": "653.- ¿Cuáles son los sistemas de apoyo de SGI?",
-    "Option 1": "Sistema de Mejora Continua, Sistema de Administración de Auditorías y @doc",
+    "Option 1": "Sistema de Mejora Continua, Sistema de de tallas y medidas y @doc",
     "Option 2": "Sistema de Facturación y Atención a Clientes",
     "Option 3": "Sistema de Control de Inventarios y Soporte Técnico",
     "Correct Answer": "Sistema de Mejora Continua, Sistema de Administración de Auditorías y @doc"
@@ -412,13 +375,13 @@
   {
     "Question Text": "654.- ¿Cuánto tiempo después de activar *CASA se puede hacer uso de él?",
     "Option 1": "24 Hrs",
-    "Option 2": "48 Hrs",
+    "Option 2": "12 Hrs",
     "Option 3": "72 Hrs",
     "Correct Answer": "48 Hrs"
   },
   {
     "Question Text": "655.- Menciona algunos de los servicios de emergencia en el hogar de *CASA(*2272)",
-    "Option 1": "Plomería, vidriería, cerrajería, electricidad y carpintería",
+    "Option 1": "Carpinteria, Jardineria, cerrajería, electricidad y Decoración de Interiores",
     "Option 2": "Jardinería, fumigación y limpieza",
     "Option 3": "Albañilería, pintura y gas",
     "Correct Answer": "Plomería, vidriería, cerrajería, electricidad y carpintería"
@@ -426,41 +389,39 @@
   {
     "Question Text": "656.- Si el módem es cambiado de ubicación, ¿de cuánto es el costo por la re-ubicación?",
     "Option 1": "$50.00",
-    "Option 2": "$100.00",
-    "Option 3": "$150.00",
-    "Option 4": "Sin costo",
+    "Option 2": "$150.00",
+    "Option 3": "Sin costo",
     "Correct Answer": "$100.00"
   },
 {
   "Question Text": "666.- Productos no compatibles con el servicio adicional de Smartwatch IoT:",
-  "Option 1": "Contestón (RBT), VPN y Gestión vehicular Telcel (LBS)",
+  "Option 1": "Localizacion satelital, VPN y Gestión vehicular Telcel (LBS)",
   "Option 2": "Correo electrónico y SMS",
   "Option 3": "WhatsApp y redes sociales",
   "Correct Answer": "Contestón (RBT), VPN y Gestión vehicular Telcel (LBS)"
 },
 {
   "Question Text": "667.- ¿Cómo contribuyo a mantener el conocimiento de la organización?",
-  "Option 1": "Contando con procedimientos que lo preservan y alimentando todos los medios de almacenamiento y disposición del conocimiento de Telcel",
   "Correct Answer": "Contando con procedimientos que lo preservan y alimentando todos los medios de almacenamiento y disposición del conocimiento de Telcel"
 },
 {
   "Question Text": "668.- ¿Cómo se activa un Amigo Chip Express?",
   "Option 1": "Con recarga inicial de $30",
-  "Option 2": "Con recarga de saldo o compra de paquete igual o mayor a $50 y efectuando su primer evento con costo",
+  "Option 2": "Con recarga de saldo o compra de paquete igual o mayor a $100 y efectuando su primer evento con costo",
   "Option 3": "Solo solicitando en un Centro de Atención",
   "Correct Answer": "Primer recarga de saldo o compra de paquete sea igual o mayor a $50.00 y efectúe su primer evento con costo o beneficios incluidos (llamada, SMS o uso de datos)"
 },
 {
   "Question Text": "669.- Duración de la recarga de 50 pesos en paquete Amigo Sin Límite:",
   "Option 1": "5 días",
-  "Option 2": "7 días",
+  "Option 2": "9 días",
   "Option 3": "10 días",
   "Correct Answer": "7 días"
 },
 {
   "Question Text": "670.- Costo del paquete Más Datos 0.5 GB:",
   "Option 1": "$39.00",
-  "Option 2": "$49.00",
+  "Option 2": "$29.00",
   "Option 3": "$59.00",
   "Correct Answer": "$49.00"
 },
@@ -468,14 +429,13 @@
   "Question Text": "671.- En Telcel ¿quién puede identificar la necesidad de resolver o mejorar la situación actual?",
   "Option 1": "Supervisores",
   "Option 2": "Gerentes",
-  "Option 3": "Todos",
-  "Option 4": "Asesor",
+  "Option 3": "Asesor",
   "Correct Answer": "Todos"
 },
 {
   "Question Text": "672.- ¿Cuál es el servicio que incluye solamente cobertura de protección de equipo contra daño accidental o falla?",
   "Option 1": "Telcel UP",
-  "Option 2": "Telcel UP Lite",
+  "Option 2": "Telcel UP Plus",
   "Option 3": "Smart Telcel",
   "Correct Answer": "Telcel UP Lite"
 },
@@ -489,27 +449,24 @@
 {
   "Question Text": "674.- Características del paquete Viajero Cruceros y Ferries de Voz:",
   "Option 1": "20 minutos, vigencia 15 días. Costo $500.00",
-  "Option 2": "50 minutos, vigencia 30 días. Costo $815.00",
+  "Option 2": "50 minutos, vigencia 30 días. Costo $900.00",
   "Option 3": "100 minutos, vigencia 60 días. Costo $1,200.00",
   "Correct Answer": "50 minutos, vigencia 30 días. Costo $815.00"
 },
 {
   "Question Text": "675.- ¿Qué es mejora continua?",
-  "Option 1": "La mejora continua es la última etapa del ciclo de Deming (planear, ejecutar, medir y mejorar) y es la base para que el SGI mejore su desempeño en cualquier ámbito",
   "Correct Answer": "La mejora continua es la última etapa del ciclo de Deming (planear, ejecutar, medir y mejorar) y es la base para que el SGI mejore su desempeño en cualquier ámbito"
 },
-
-
 {
   "Question Text": "676.- Tipo de acciones que se registran en el sistema de mejora continua:",
   "Option 1": "Acción preventiva y acción correctiva",
-  "Option 2": "Acción correctiva y acción de mejora",
+  "Option 2": "Acción de mejoria y acción de cambios",
   "Option 3": "Acción de emergencia y acción inmediata",
   "Correct Answer": "Acción correctiva y acción de mejora"
 },
 {
   "Question Text": "677.- ¿Qué debe hacer el personal que identifica la necesidad de resolver un problema a mejorar?",
-  "Option 1": "Debe informarlo a la Alta Dirección para la autorización del registro de la acción",
+  "Option 1": "Debe informarlo a la gerencia del CAC para la autorización del registro de la acción",
   "Option 2": "Debe resolverlo directamente",
   "Option 3": "Debe reportarlo a recursos humanos",
   "Correct Answer": "Debe informarlo a la Alta Dirección para la autorización del registro de la acción"
@@ -517,20 +474,19 @@
 {
   "Question Text": "678.- Son sustancias cuyas propiedades físicas y químicas les permite apagar el fuego y se clasifican en 3 grupos de acuerdo con la apariencia que tienen al ser expuestos a la atmósfera:",
   "Option 1": "Agua purificada",
-  "Option 2": "Agentes extintores",
+  "Option 2": "Leche zaragoza",
   "Option 3": "Líquidos combustibles",
   "Correct Answer": "Agentes extintores"
 },
 {
   "Question Text": "679.- Son algunos agentes extintores:",
-  "Option 1": "Anhidrido carbónico CO2, polvo químico seco",
+  "Option 1": "Anhidrido carbónico CO3, polvo químico humedo",
   "Option 2": "Arena y agua",
   "Option 3": "Gas natural y nitrógeno",
   "Correct Answer": "Anhidrido carbónico CO2, polvo químico seco"
 },
 {
   "Question Text": "680.- ¿Qué se debe hacer antes de un huracán?",
-  "Option 1": "Conocer las disposiciones de Protección Civil, consultar planes de respuesta, reparar techos, paredes, proteger ventanas, tener botiquín, radio, agua, alimentos y documentos importantes",
   "Correct Answer": "Conocer las disposiciones de Protección Civil, consultar planes de respuesta, reparar techos, paredes, proteger ventanas, tener botiquín, radio, agua, alimentos y documentos importantes"
 },
 {
@@ -542,7 +498,7 @@
 },
 {
   "Question Text": "682.- Son los procedimientos relacionados con el proceso PR-00.00.00.00.00-003 Gestionar riesgos y oportunidades del SGI:",
-  "Option 1": "P-00.00.00.00.00-005 Valoración y Tratamiento de Riesgos del SGI",
+  "Option 1": "P-00.00.00.00.00-005 Valoración de Riesgos del SGI",
   "Option 2": "P-00.00.00.00.00-021 Identificación de Peligros y Evaluación de Riesgos para la SST",
   "Option 3": "Ambas respuestas",
   "Correct Answer": "P-00.00.00.00.00-005 Valoración y Tratamiento de Riesgos del SGI y P-00.00.00.00.00-021 Identificación de Peligros y Evaluación de Riesgos para la SST"
@@ -551,22 +507,19 @@
   "Question Text": "683.- Factores que se deben conocer para una valoración de riesgo eficaz y un tratamiento adecuado:",
   "Option 1": "Factores internos",
   "Option 2": "Factores externos",
-  "Option 3": "Factores internos y externos",
+  "Option 3": "Factores ocacionales",
   "Correct Answer": "Factores internos y externos"
 },
 {
   "Question Text": "684.- ¿En qué documento se encuentran designados los miembros del comité líder especialista del SGSST y dónde se encuentra publicado este documento?",
-  "Option 1": "Anexo A en el Portal de Calidad",
-  "Option 2": "Manual corporativo de procedimientos",
-  "Option 3": "Código de ética de la empresa",
- "Option 4": "@Doc",
+  "Option 1": "Manual corporativo de procedimientos",
+  "Option 2": "Código de ética de la empresa",
+ "Option 3": "@Doc",
   "Correct Answer": "Anexo A en el Portal de Calidad"
 },
-
-
 {
   "Question Text": "685.- ¿Quiénes hacen la valoración y tratamiento de riesgos en la región?",
-  "Option 1": "Las gerencias alta dirección con los jefes involucrados y el representante de la gerencia en el comité local",
+  "Option 1": "Las gerencitas alta dirección con los jefes de CAC y el representante de la SINDICAL en el comité local",
   "Option 2": "Solo el área de recursos humanos",
   "Option 3": "Únicamente el comité sindical",
   "Correct Answer": "Las gerencias alta dirección con los jefes involucrados y el representante de la gerencia en el comité local"
@@ -574,25 +527,24 @@
 {
   "Question Text": "686.- Preparación y respuesta ante emergencias potenciales PR-00.70.00.01.00-001 Comunicación externa:",
   "Option 1": "Manual de procedimientos",
-  "Option 2": "Contexto de la organización",
+  "Option 2": "Contexto de America Movil",
   "Option 3": "Plan anual de seguridad",
   "Correct Answer": "Contexto de la organización"
 },
 {
   "Question Text": "687.- ¿Quiénes son los representantes del comité de los trabajadores del SGSST?",
-  "Option 1": "Representantes del centro de trabajo",
+  "Option 1": "Representantes del de la alta dirección",
   "Option 2": "Integrantes del comité de seguridad local de cada gerencia",
   "Option 3": "Supervisores de producción",
   "Correct Answer": "Representantes del centro de trabajo"
 },
 {
   "Question Text": "688.- Son algunas de las políticas de la gestión del tráfico y administración de la red que el proveedor utilizará para la eficiente prestación del servicio, con base a la política de neutralidad de la red:",
-  "Option 1": "Optimización del tráfico, Administración de las direcciones IP y Administración de tráfico en casos de congestión",
   "Correct Answer": "Optimización del tráfico, Administración de las direcciones IP y Administración de tráfico en casos de congestión"
 },
 {
   "Question Text": "689.- ¿Qué representa la Red de Procesos de Radiomóvil Dipsa SA de CV?",
-  "Option 1": "La transformación de las necesidades de los clientes, en la satisfacción de los mismos, a través de los tres principales procesos: estratégico, el orientado al cliente y de soporte",
+  "Option 1": "La transformación de las necesidades de asesores, en la satisfacción de los mismos, a través de los tres principales procesos: estratégico, el orientado al asesor y de soporte",
   "Option 2": "El plan de comunicación interna de la empresa",
   "Option 3": "El organigrama corporativo",
   "Correct Answer": "La transformación de las necesidades de los clientes, en la satisfacción de los mismos, a través de los tres principales procesos: estratégico, el orientado al cliente y de soporte"
@@ -600,62 +552,60 @@
 {
   "Question Text": "690.- De acuerdo con el código de ética, ¿cómo demuestras el compromiso con el futuro de la empresa?",
   "Option 1": "Cumpliendo horarios estrictamente",
-  "Option 2": "Comprender y adoptar los principios y valores de nuestra empresa",
+  "Option 2": "Comprender los principios y valores de nuestra empresa",
   "Option 3": "Usando uniforme oficial",
   "Correct Answer": "Comprender y adoptar los principios y valores de nuestra empresa"
 },
 {
   "Question Text": "691.- Son los colores contraste que debe utilizarse en las señales de seguridad e higiene:",
-  "Option 1": "Blanco, Negro, Magenta",
+  "Option 1": "Blanco, Negro, Cafe",
   "Option 2": "Rojo, Azul, Verde",
   "Option 3": "Amarillo, Gris, Negro",
   "Correct Answer": "Blanco, Negro, Magenta"
 },
 {
   "Question Text": "692.- Es la forma geométrica que se utiliza para indicar la descripción de una acción obligatoria:",
-  "Option 1": "Círculo",
-  "Option 2": "Triángulo",
-  "Option 3": "Cuadrado o rectángulo",
- "Option 4": "Círcculo con banda",
+  "Option 1": "Triángulo",
+  "Option 2": "Cuadrado o rectángulo",
+ "Option 3": "Círcculo con banda",
   "Correct Answer": "Círculo"
 },
 {
   "Question Text": "693.- La etiqueta de información principal se coloca en placa o letrero cuando, en referencia a las dimensiones de la tubería, ésta tenga una altura mayor a:",
   "Option 1": "50%",
-  "Option 2": "70%",
+  "Option 2": "80%",
   "Option 3": "0.75",
   " Correct Answer": "Mayor al 70% "
 },
 {
   "Question Text": "694.- Colores de seguridad:",
-  "Option 1": "Rojo, Amarillo, Verde y Azul",
+  "Option 1": "Rojo, Amarillo, Cafe y Azul",
   "Option 2": "Rojo, Blanco, Negro y Naranja",
   "Option 3": "Verde, Gris, Negro y Magenta",
   "Correct Answer": "Rojo, Amarillo, Verde y Azul"
 },
 {
   "Question Text": "695.- ¿Dónde se contrata el servicio Conecta América?",
-  "Option 1": "*111, *500, *2679 en México o al +52 552 581 33 00 desde el extranjero",
   "Correct Answer": "*111, *500, *2679 en México o al +52 552 581 33 00 desde el extranjero"
 },
 {
   "Question Text": "696.- Se encarga de realizar recorridos para la detección de actos inseguros, así como condiciones peligrosas e inseguras que puedan causar un accidente o daño al personal, equipos y/o instalaciones:",
   "Option 1": "Brigada de emergencias",
-  "Option 2": "Comisión de seguridad e higiene",
+  "Option 2": "Comisión de seguridad y mantenimiento",
   "Option 3": "Departamento de recursos humanos",
   "Correct Answer": "Comisión de seguridad e higiene"
 },
 {
   "Question Text": "697.- Es la distancia promedio de visibilidad de una señal de seguridad e higiene:",
   "Option 1": "10M",
-  "Option 2": "15M",
+  "Option 2": "25M",
   "Option 3": "20M",
   "Correct Answer": "15M"
 },
 {
   "Question Text": "698.- La funcionalidad que permitirá a los usuarios del extranjero que visitan México el uso de voz, SMS e Internet nivel nacional y sin frontera (MEX, EU y CAN) activando una eSIM prepago con esquema de cobro Amigo Sin Límite:",
   "Option 1": "SIM Prepago Internacional",
-  "Option 2": "eSIM Turista",
+  "Option 2": "eSIM Internacional",
   "Option 3": "Plan Amigo Roaming",
   "Correct Answer": "eSIM Turista"
 },
@@ -663,12 +613,12 @@
   "Question Text": "699.- ¿Cómo se realiza la activación de eSIM Turista?",
   "Option 1": "En un Centro de Atención a Clientes",
   "Option 2": "Mediante llamada al *111",
-  "Option 3": "A través del portal https://www.telcel.com/travel-to-mexico/before-you-leave",
+  "Option 3": "A través del portal https://www.telcel.com/viaja-a-mexico/antes-de-salir",
   "Correct Answer": "A través del portal https://www.telcel.com/travel-to-mexico/before-you-leave"
 },
 {
   "Question Text": "700.- ¿Cómo se compra la eSIM Turista?",
-  "Option 1": "Por autogestión y con cargo a Tarjeta de Crédito o Débito",
+  "Option 1": "Por autogestión y con cargo a cuenta telcel",
   "Option 2": "En tiendas Telcel",
   "Option 3": "Por llamada telefónica *111",
   "Correct Answer": "Por autogestión y con cargo a Tarjeta de Crédito o Débito"
@@ -676,34 +626,34 @@
 {
   "Question Text": "701.- Oferta disponible que podrán adquirir en la activación de eSIM Turista:",
   "Option 1": "Paquete Amigo Sin Límite 200",
-  "Option 2": "Paquete Amigo Sin Límite 300 o 500",
+  "Option 2": "Paquete Amigo Sin Límite 200 o 300",
   "Option 3": "Paquete Amigo Sin Límite 1000",
   "Correct Answer": "Paquete Amigo Sin Límite 300 o 500"
 },
 {
   "Question Text": "702.- ¿Dónde se consultan los dispositivos compatibles con eSIM Turista?",
   "Option 1": "En MiTelcel",
-  "Option 2": "En telcel.com",
+  "Option 2": "En telcel.com/roaming",
   "Option 3": "En Centros de Atención a Clientes",
   "Correct Answer": "En telcel.com"
 },
 {
   "Question Text": "703.- Deducible Telcel Up Lite:",
   "Option 1": "15%",
-  "Option 2": "20%",
+  "Option 2": "25%",
   "Option 3": "30%",
   "Correct Answer": "20%"
 },
 {
   "Question Text": "704.- Costo de batería por Telcel Up:",
   "Option 1": "$79.00",
-  "Option 2": "$99.00",
+  "Option 2": "$90.00",
   "Option 3": "$120.00",
   "Correct Answer": "$99.00"
 },
 {
   "Question Text": "705.- El color de seguridad amarillo indica:",
-  "Option 1": "Fluidos peligrosos conducidos por tubería",
+  "Option 1": "Fluidos de descarga",
   "Option 2": "Zona restringida",
   "Option 3": "Material inflamable",
   "Correct Answer": "Fluidos peligrosos conducidos por tubería"
@@ -711,13 +661,13 @@
 {
   "Question Text": "706.- Suscripción Amazon Prime Básico incluye:",
   "Option 1": "Acceso a contenido en 1 dispositivo",
-  "Option 2": "Acceso a contenido en 2 dispositivos a la vez",
+  "Option 2": "Acceso a contenido en 3 dispositivos a la vez",
   "Option 3": "Acceso a contenido en 4 dispositivos a la vez",
   "Correct Answer": "Acceso a contenido en 2 dispositivos a la vez"
 },
 {
   "Question Text": "707.- ¿Dónde puede consultar el saldo del paquete Sin Límite?",
-  "Option 1": "*133#",
+  "Option 1": "*133#, *500#",
   "Option 2": "Marcación *321",
   "Option 3": "MiTelcel",
   "Correct Answer": "*133#, marcación *321, MiTelcel"
@@ -725,77 +675,77 @@
 {
   "Question Text": "708.- Costo del paquete Más Datos Apps 5GB:",
   "Option 1": "$39.00 IVA incluido",
-  "Option 2": "$89.00 IVA incluido",
+  "Option 2": "$100.00 IVA incluido",
   "Option 3": "$99.00 IVA incluido",
   "Correct Answer": "$89.00 IVA incluido"
 },
 {
   "Question Text": "709.- Saldo que Telcel abona en forma mensual y que se utiliza para el débito de los minutos indistintos incluidos en el Plan Tarifario Controlado:",
   "Option 1": "Saldo Libre",
-  "Option 2": "Saldo Mix",
+  "Option 2": "Saldo combinado amigo",
   "Option 3": "Saldo Controlado",
   "Correct Answer": "Saldo Mix"
 },
 {
   "Question Text": "710.- Fecha en que inicia la oferta comercial de los planes Telcel Libre:",
   "Option 1": "1 de Enero de 2025",
-  "Option 2": "27 de Abril de 2025",
+  "Option 2": "27 de Noviembre de 2025",
   "Option 3": "15 de Mayo de 2025",
   "Correct Answer": "27 de Abril de 2025"
 },
 {
   "Question Text": "711.- ¿Dónde se realizan los trámites de los planes Telcel Libre?",
   "Option 1": "Desde la app MiTelcel",
-  "Option 2": "Desde las plataformas de BES y SISACT Transforma",
+  "Option 2": "Desde las plataformas de PAC y mobil Transforma",
   "Option 3": "En cualquier Centro de Atención a Clientes",
   "Correct Answer": "Desde las plataformas de BES y SISACT Transforma"
 },
 {
   "Question Text": "712.- Cashback en el Plan Telcel Libre 1:",
   "Option 1": "$15.95 IVA incluido",
-  "Option 2": "$12.45 IVA incluido",
+  "Option 2": "$13.95 IVA incluido",
   "Option 3": "$9.90IVA incluido",
   "Correct Answer": "$12.45 IVA incluido"
 },
 {
   "Question Text": "713.- Cashback en el Plan Telcel Libre 5:",
   "Option 1": "$59.85 IVA incluido",
-  "Option 2": "$89.85 IVA incluido",
+  "Option 2": "$99.85 IVA incluido",
   "Option 3": "$99.85 IVA incluido",
   "Correct Answer": "$89.85 IVA incluido"
 },
 {
   "Question Text": "714.- ¿Cuántos GB se incluyen en el Plan Telcel Libre 1?",
   "Option 1": "2 GB",
-  "Option 2": "4 GB",
+  "Option 2": "3 GB",
   "Option 3": "6 GB",
   "Correct Answer": "4 GB"
 },
 {
   "Question Text": "715.- ¿Cuántos GB se incluyen en el Plan Telcel Libre 2?",
   "Option 1": "3 GB",
-  "Option 2": "5 GB",
+  "Option 2": "4 GB",
   "Option 3": "8 GB",
   "Correct Answer": "5 GB"
 },
 {
   "Question Text": "716.- ¿Cuántos GB se incluyen en el Plan Internet Libre 4?",
   "Option 1": "10 GB",
-  "Option 2": "12 GB",
+  "Option 2": "13 GB",
   "Option 3": "15 GB",
   "Correct Answer": "12 GB"
 },
   {
     "Question Text": "717.- Vigencia de cada Paquete Sin Límite que se otorga en los beneficios al adquirir un paquete prepagado de 1200 o 2400:",
     "Option 1": "15 días",
-    "Option 2": "30 días",
+    "Option 2": "27 días",
     "Option 3": "60 días",
     "Correct Answer": "30 días"
   },
   {
     "Question Text": "718.- ¿Con qué plan es compatible la suscripción de Zeek Mi Auto?",
     "Option 1": "Plan Telcel IoT Libre 500 MB, costo $80.00",
-    "Option 2": "Plan Telcel IoT Libre 1 MB, costo $26.00",
+    "Option 2": "Plan Telcel IoT Libre 2 MB, costo $36.00",
     "Option 3": "Plan Telcel IoT Libre 50 MB, costo $50.00",
     "Correct Answer": "Plan Telcel IoT Libre 1 MB, costo $26.00"
   },
@@ -803,20 +753,20 @@
     "Question Text": "719.- Establece las condiciones de seguridad de los edificios, locales, instalaciones y áreas en los centros de trabajo para su adecuado funcionamiento y conservación con la finalidad de prevenir riesgos a los trabajadores:",
     "Option 1": "NOM-002-STPS-2010",
     "Option 2": "NOM-030-STPS-2009",
-    "Option 3": "NOM-001-STPS-2008",
+    "Option 3": "NOM-001-STPS-2013",
     "Correct Answer": "NOM-001-STPS-2008"
   },
   {
     "Question Text": "720.- SIFACT:",
     "Option 1": "Sistema de Información Financiera de Acciones y Créditos",
-    "Option 2": "Sistema de Información de Fallas para la Atención a Clientes",
+    "Option 2": "Sistema de Información de Facturación para la Atención a Clientes",
     "Option 3": "Sistema Integral de Facturación",
     "Correct Answer": "Sistema de Información de Fallas para la Atención a Clientes"
   },
   {
     "Question Text": "721.- SISAP:",
     "Option 1": "Sistema de Administración de Procesos",
-    "Option 2": "Sistema de Administración de Proyectos",
+    "Option 2": "Sistema de Administración de Planes",
     "Option 3": "Sistema de Apoyo Personalizado",
     "Correct Answer": "Sistema de Administración de Proyectos"
  }
