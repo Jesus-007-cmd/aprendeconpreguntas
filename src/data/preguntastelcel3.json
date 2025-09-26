@@ -24,10 +24,9 @@
   },
   {
     "Question Text": "603.- ES EL DOCUMENTO EN EL QUE SE DESCRIBEN LOS PRINCIPALES TIPOS DE EMERGENCIA QUE PODRÍAN PRESENTARSE EN LOS CENTROS DE TRABAJO:",
-    "Option 1": "Plan de preparación y respuesta ante emergencia 0-00.02.01.01.04-001",
+    "Option 1": "Manual de calidad 0-00.02.01.01.04-001",
     "Option 2": "plan de seguridad 0-00.02.01.01.04-001",
     "Option 3": "Plan de seguridad general 0-00.02.01.01.04-001",
-    "Option 4": "Manual de calidad 0-00.02.01.01.04-001",
     "Correct Answer": "Plan de preparación y respuesta ante emergencia 0-00.02.01.01.04-001"
   },
   {
@@ -40,31 +39,27 @@
   },
   {
     "Question Text": "605.- SON 2 TIPOS DE CAMBIOS QUE IMPACTAN EN EL DESEMPEÑO DE LA SST:",
-    "Option 1": "Personal y condiciones de trabajo, instalaciones y equipos ",
-    "Option 2": "No tener precaución al cruzar la calle",
-    "Option 3": "Cambios de proveedores",
-    "Option 4": "Deterioró de la salud",
+    "Option 1": "No tener precaución al cruzar la calle",
+    "Option 2": "Cambios de proveedores",
+    "Option 3": "Deterioró de la salud",
     "Correct Answer": "Personal y condiciones de trabajo, Instalación y equipos"
   },
   {
     "Question Text": "606.- CONOCER Y ATENDER LO DESCRITO EN LOS DOCUMENTOS RELACIONADOS AL PROCESO DE GESTIÓN DE CAMBIOS CON IMPACTO EN EL DESEMPEÑO DE LA SST ES RESPONSABILIDAD DE:",
     "Option 1": "Alta dirección",
-    "Option 2": "Todas las áreas de Telcel",
-    "Option 3": "Solo recursos humanos",
-    "Option 4": "El área de seguridad",
+    "Option 2": "Solo recursos humanos",
+    "Option 3": "El área de seguridad",
     "Correct Answer": "Todas las áreas de Telcel"
   },
   {
     "Question Text": "607.- ¿DÓNDE PUEDES CONSULTAR EL SEGUIMIENTO Y LA MEDICIÓN A LOS OBJETIVOS DEL SGI RELACIONADOS A LAS NORMAS ISO 45K?",
-    "Option 1": "Portal de Calidad",
-    "Option 2": "Intranet corporativa",
-    "Option 3": "Manual del empleado",
-    "Option 4": "Reporte anual",
+    "Option 1": "Intranet corporativa",
+    "Option 2": "Manual del empleado",
+    "Option 3": "Reporte anual",
     "Correct Answer": "Portal de Calidad"
   },
   {
     "Question Text": "608.- COSTO DE CAMBIO DE ESQUEMA DE COBRO EN PREPAGO LA PRIMERA VEZ:",
-    "Option 1": "Sin costo",
     "Option 2": "$50.00",
     "Option 3": "$100.00",
     "Option 4": "$150.00",
@@ -72,7 +67,6 @@
   },
   {
     "Question Text": "609.- ¿CUÁL ES EL COSTO Y QUÉ ES EL SERVICIO CONECTA AMÉRICA?",
-    "Option 1": "Es un servicio que cuesta $1,788 pesos, los cuales podrán ser cobrados en un solo cargo o diferidos a 12 ciclos de facturación con una renta de $149 pesos IVA incluido",
     "Option 2": "Servicio gratuito para usuarios prepago",
     "Option 3": "Costo $500 anual",
     "Option 4": "Es un plan solo para llamadas ilimitadas ",
